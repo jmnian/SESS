@@ -1,78 +1,132 @@
-# Large Language Models as Optimizers
+# SESS: Submodular Evaluation Subset Selection in Automatic Prompt Optimization
 
-This repository contains the code for the paper
+This repository contains the code for the paper:
 
-> [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409)\
-> Chengrun Yang*, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen* [* Equal Contribution]\
-> _arXiv: 2309.03409_
+> **[Submodular Evaluation Subset Selection in Automatic Prompt Optimization](https://arxiv.org/abs/2601.03493)**  
+> Jinming Nian, Zhiyuan Peng, Hongwei Shang, Dae Hoon Park, Yi Fang  
+> *arXiv:2601.03493*
 
-<p align="center">
-  <img src="img/workflow.png" alt="workflow" width="48%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="img/gpt_meta_prompt.png" alt="workflow" width="40%">
-</p>
+## Installation
 
-## Dependency requirements
+### Requirements
 
-The code has been verified to work under `Python 3.10.13` with the following dependencies:
+- Python >= 3.10
+- CUDA-compatible GPU (for vLLM inference)
 
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/jmnian/SESS.git
+cd SESS
+
+# Install dependencies using uv (recommended)
+pip install uv
+uv sync
+
+# Or using pip
+pip install -e .
 ```
-- absl-py (2.0.0)
-- google.generativeai (0.1.0)
-- immutabledict (3.0.0)
-- openai (0.27.2)
+
+### Download Datasets
+
+The datasets are not included in the repository. Use the provided scripts to download them:
+
+```bash
+# Set your HuggingFace token (required for GPQA - it's a gated dataset)
+export HF_TOKEN="your_huggingface_token"
+
+# Download GPQA dataset
+python scripts/download_gpqa_dataset.py
+
+# Download MATH dataset
+python scripts/download_math_dataset.py
 ```
+
+GSM8K is downloaded automatically when first used.
 
 ## Usage
 
-### Prompt optimization 
-Use `opro/optimization/optimize_instructions.py`, follow the steps at the top. 
+### Running Prompt Optimization with SESS
 
-A quickstarter:
+The main entry point is `run_opro_parallel.py`:
 
-`
-python optimize_instructions.py --optimizer="gpt-3.5-turbo" --scorer="text-bison"
---instruction_pos="Q_begin" --dataset="gsm8k" --task="train" --palm_api_key="<your_palm_api_key>" --openai_api_key="<your_openai_api_key>"
-`
+```bash
+python run_opro_parallel.py \
+    --dataset="gsm8k" \
+    --subset_select_method="confidence_weighted_representative" \
+    --subset_portion=3.5 \
+    --num_search_steps=100 \
+    --scorer_model="Qwen/Qwen2.5-7B-Instruct"
+```
 
-### Prompt evaluation
-Use `opro/evaluation/evaluate_instructions.py`, follow the steps at the top.
+### Subset Selection Methods
 
-A quickstarter:
+| Method | `--subset_select_method` | Description |
+|--------|--------------------------|-------------|
+| Random | `random` | Uniformly random sampling (baseline) |
+| Representative | `representative` | Facility location for diversity |
+| Least Confident | `least_confident` | Select samples with lowest model confidence |
+| Verbal Least Confident | `verbal_least_confident` | Select based on verbalized confidence |
+| Confidence-Weighted Representative | `confidence_weighted_representative` | Submodular selection weighted by confidence |
 
-`
-python evaluate_instructions.py --scorer="text-bison" --dataset="gsm8k" --task="test" --instruction_pos="Q_begin" --evaluate_training_fold=false --evaluate_test_fold=true --palm_api_key="<your_palm_api_key>"
-`
+### Example Experiments
 
-### Linear regression
-Use `opro/optimization/optimize_linear_regression.py`, follow the steps at the top.
+```bash
+# GSM8K with confidence-weighted representative selection (3.5% of training data)
+python run_opro_parallel.py \
+    --dataset="gsm8k" \
+    --subset_select_method="confidence_weighted_representative" \
+    --subset_portion=3.5 \
+    --confidence_weight=0.5 \
+    --alpha=0.7 \
+    --num_search_steps=100
 
+# MATH with representative selection
+python run_opro_parallel.py \
+    --dataset="math" \
+    --subset_select_method="representative" \
+    --subset_portion=3.5 \
+    --num_search_steps=100
 
-### Traveling salesman problem
-Use `opro/optimization/optimize_tsp.py`, follow the steps at the top.
+# GPQA-Diamond with least confident selection
+python run_opro_parallel.py \
+    --dataset="gpqa" \
+    --task="diamond" \
+    --subset_select_method="least_confident" \
+    --subset_portion=10 \
+    --num_search_steps=100
+```
 
+Or use the experiment runner script:
 
-## Supported models
+```bash
+bash run_experiment.bash
+```
 
-The code in this repository currently supports [text-bison](https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text) and [GPT models](https://platform.openai.com/docs/api-reference/introduction). Alternatively, you may serve your own model and plug it in here, similar to the existing prompting APIs in `opro/prompt_utils.py`.
+## Results
 
-
-## Precaution on API costs
-
-Calling the PaLM or GPT APIs for prompt optimization and evaluation may incur unexpectedly large costs. Please carefully estimate the cost and/or start with lighter use (e.g., evaluate on a smaller portion of the benchmark dataset or run optimization for fewer steps) before the formal experimentations, or prompt self-served models instead.
+Experiment results are stored in `outputs/optimization-results/`. Each experiment directory contains:
+- `configs_dict.json`: Experiment configuration
+- `test_evaluation_results.json`: Test set evaluation results
 
 ## Citation
 
-If you have used our code in your research, please cite our [paper](https://arxiv.org/abs/2309.03409):
+If you find this code useful, please cite our paper:
 
-```
-@article{yang2023large,
-  title={Large language models as optimizers},
-  author={Yang, Chengrun and Wang, Xuezhi and Lu, Yifeng and Liu, Hanxiao and Le, Quoc V and Zhou, Denny and Chen, Xinyun},
-  journal={arXiv preprint arXiv:2309.03409},
-  year={2023}
+```bibtex
+@article{nian2026submodular,
+  title={Submodular Evaluation Subset Selection in Automatic Prompt Optimization},
+  author={Nian, Jinming and Peng, Zhiyuan and Shang, Hongwei and Park, Dae Hoon and Fang, Yi},
+  journal={arXiv preprint arXiv:2601.03493},
+  year={2026}
 }
 ```
 
+## Acknowledgments
 
-*Disclaimer: this is not an officially supported Google product.*
+This codebase builds upon [OPRO (Large Language Models as Optimizers)](https://arxiv.org/abs/2309.03409) by Yang et al. We thank the authors for releasing their code.
 
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
