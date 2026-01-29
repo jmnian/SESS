@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Gather all numbers presented, state clearly the target quantity, choose the most direct formula or relationship, compute in a single streamlined chain, perform a brief consistency test, and give only the final numeric answer.",
+      "train_score": 0.45294117647058824,
+      "train_step": 99,
+      "test_score": 0.7592997811816192,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given quantities, determine the exact quantity being asked, select the single governing relationship, perform the necessary arithmetic in a streamlined sequence, and present only the final number after a quick verification against the original data.",
+      "train_score": 0.7529411764705882,
+      "train_step": 4,
+      "test_score": 0.7527352297592997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... that is better than all",
+      "train_score": 0.4294117647058823,
+      "train_step": 99,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the required result, enumerate all numbers provided, map them to the unique relevant concept, execute the calculation in a single coherent line, verify with a quick back\u2011substitution, and return only the final numeric answer.",
+      "train_score": 0.45294117647058824,
+      "train_step": 99,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all given numbers and relations, identify the single underlying principle, carry out just the essential calculations in a clear sequence, then state the final answer alone after a brief sanity check against the original data.",
+      "train_score": 0.7764705882352941,
+      "train_step": 3,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7470588235294118,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the given information, select the relevant concepts, solve the problem step\u2011by\u2011step with clear calculations, and present the final answer concisely.",
+      "train_score": 0.7823529411764706,
+      "train_step": 1,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the given information, identify the quantity to find, then solve the problem with a brief, logical chain of explicit steps\u2014show only the essential calculations and finish with the final answer presented alone.",
+      "train_score": 0.7647058823529411,
+      "train_step": 1,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify given data, select the single relevant principle, compute directly with minimal steps, verify briefly, and present only the final answer.",
+      "train_score": 0.7588235294117647,
+      "train_step": 3,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the known quantities, state clearly what is to be found, devise a short step\u2011by\u2011step plan using the appropriate concept, carry out only the necessary calculations with a quick consistency check, and present the final answer by itself.",
+      "train_score": 0.7588235294117647,
+      "train_step": 2,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the required quantity, list every given number, match them to the single governing principle or formula, carry out the computation in a brief uninterrupted sequence, do a swift sanity check, and output only the final numeric answer.",
+      "train_score": 0.7529411764705882,
+      "train_step": 5,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution to the problem, showing your reasoning and concluding with the final answer.",
+      "train_score": 0.7823529411764706,
+      "train_step": 0,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution to the problem.",
+      "train_score": 0.7823529411764706,
+      "train_step": 0,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the given information, pinpoint the mathematical principle needed, then work through the solution stepwise, ending with the succinct final result.",
+      "train_score": 0.7588235294117647,
+      "train_step": 1,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the exact quantity to find, extract every given number or relation, select the single most direct formula or theorem that links them, compute the answer in a short ordered chain, perform a quick sanity check, and output only the final numeric result.",
+      "train_score": 0.4411764705882353,
+      "train_step": 99,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine exactly what is asked, gather every given number, pinpoint the one governing relationship, execute the calculation in the fewest possible steps, perform a rapid sanity check, and return only the final numeric answer.",
+      "train_score": 0.45294117647058824,
+      "train_step": 99,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "*Analiza el problema y elige los pasos cr\u00edticos en la ecuaci\u00f3n?*",
+      "train_score": 0.7647058823529411,
+      "train_step": 0,
+      "test_score": 0.6999062206939669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the given data, select the relevant mathematical rule or operation, execute the calculations step\u2011by\u2011step, and present the final answer clearly while briefly confirming its consistency with the original information.",
+      "train_score": 0.7647058823529411,
+      "train_step": 2,
+      "test_score": 0.6874023132228821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, extract the given numbers or relations, select the simplest appropriate method, perform the calculations in clear sequential steps, and present the final numeric answer together with a brief sanity check.",
+      "train_score": 0.7588235294117647,
+      "train_step": 2,
+      "test_score": 0.6811503594873398,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate all numeric facts, determine the exact quantity being asked, pick the single most direct theorem or formula, execute the necessary arithmetic in a short ordered chain, perform a quick consistency check, and return ONLY the final numeric result.",
+      "train_score": 0.3176470588235294,
+      "train_step": 99,
+      "test_score": 0.5379806189434199,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the statement, isolate the required quantity, pinpoint the sole governing relation, perform the calculation in the fewest possible steps, do a brief sanity check, and output solely the final numeric answer without any extra text.",
+      "train_score": 0.12352941176470589,
+      "train_step": 99,
+      "test_score": 0.17536730228196312,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7592997811816192,
+    "avg_test_score": 0.6953958826418971,
+    "best_test_instruction": "Gather all numbers presented, state clearly the target quantity, choose the most direct formula or relationship, compute in a single streamlined chain, perform a brief consistency test, and give only the final numeric answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all explicit numerical data, determine the single exact relation (formula, identity or counting principle) that yields the asked quantity, evaluate it using only the indispensable arithmetic (show at most one intermediate if a closed\u2011form is unavailable), perform a quick sanity check, and output only the final result\u2014an integer unless a non\u2011integral value, in which case round to one decimal place.",
+      "train_score": 0.8125,
+      "train_step": 70,
+      "test_score": 0.7564864020006252,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, locate the single exact operation that links them to the target, compute it in the fewest steps (display at most one intermediary when a closed\u2011form is impossible), verify briefly, and output exactly \u201cAnswer: X\u201d, where X is integer or rounded to one decimal place if fractional.",
+      "train_score": 0.8125,
+      "train_step": 86,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list all given numbers, select the one exact relationship (formula, identity, or counting rule) that connects them to the asked quantity, compute the result using only the indispensable arithmetic (show a single intermediate step only when the final value cannot be obtained symbolically), verify the outcome with a brief consistency check, and output solely the numeric answer rounded to one decimal place only if it is fractional.",
+      "train_score": 0.8125,
+      "train_step": 61,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical constant provided. Determine the single most direct mathematical expression (formula, identity, or counting argument) that produces the quantity asked. Evaluate it using only the essential operations (show one intermediate step only when a closed\u2011form cannot be written). Perform a quick consistency check, then output the final result alone, writing it as an integer unless it is fractional, in which case round to one decimal place.",
+      "train_score": 0.8541666666666666,
+      "train_step": 71,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, list every explicit numeric value, determine the unique formula, theorem or counting argument that connects them to the asked quantity, evaluate it using only the essential arithmetic (show at most one intermediate when the exact result cannot be expressed directly), perform a brief consistency check, and print exactly \u201cAnswer: X\u201d, where X is an integer or, if non\u2011integral, rounded to one decimal place.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.75,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers, pinpoint the one exact formula or logical deduction that directly yields the required value, perform only the indispensable arithmetic (show an intermediate only if the final answer cannot be obtained symbolically), do a quick sanity check, and output the result as a plain number, rounding to one decimal place only when it is non\u2011integral.",
+      "train_score": 0.8125,
+      "train_step": 59,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every numeric constant, determine the one exact operation that directly gives the asked value, carry out only the essential arithmetic (include one intermediate only if the final value cannot be written directly), do a quick consistency check, and print exactly \u201cAnswer: X\u201d, where X is an integer or, if fractional, rounded to one decimal place.",
+      "train_score": 0.8125,
+      "train_step": 89,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, apply the one exact formula that connects them to the required quantity, perform only the indispensable calculation (show a single intermediate only if the final value cannot be expressed algebraically), do a quick sanity check, and output the result as \u201cAnswer: X\u201d, rounding X to one decimal place only when it is not an integer.",
+      "train_score": 0.8125,
+      "train_step": 66,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement gather all explicit numbers, infer the single mathematical relation (equation, identity, or counting rule) that determines the required quantity, carry out the computation with the fewest operations (display one intermediate only if the exact value cannot be written directly), perform a brief sanity check, and print precisely \u201cAnswer: X\u201d, rounding X to one decimal place only when it is not an integer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every given numeric constant, select the single most direct formula or logical step that links them to the quantity requested, perform only the essential computation (show one intermediate only if an exact symbolic result cannot be obtained), do a brief sanity check, and output the answer as a lone number, rounding to one decimal place only when the result is non\u2011integral.",
+      "train_score": 0.8125,
+      "train_step": 62,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers, identify the one precise mathematical rule that produces the required result, carry out only the essential algebraic or arithmetic work (show an intermediate value only when the final answer cannot be expressed analytically), perform a brief sanity check, and output the final number alone, rounding to one decimal place only if it is not an integer.",
+      "train_score": 0.8125,
+      "train_step": 58,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantities asked and all given numeric values. Choose the single most direct mathematical relation that yields the target. Perform only the necessary computation, showing at most one intermediate result when needed. Quickly check the result for consistency, then output exactly \u201cAnswer: X\u201d, rounding X to one decimal place only if it is not an integer.",
+      "train_score": 0.8125,
+      "train_step": 55,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, record all given numbers, identify the single core mathematical rule (formula, counting argument, or divisibility condition) that directly produces the required quantity, carry out only the indispensable computation (display one intermediate step only if the exact answer cannot be expressed symbolically), perform a brief sanity check, and print the result as a lone number\u2014rounded to one decimal place only when the value is non\u2011integral.",
+      "train_score": 0.8125,
+      "train_step": 65,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential numbers and the mathematical operation required, perform the computation step by step, double\u2011check the outcome, and present the answer as a single number (include one decimal place only when the result is not an integer). Keep the explanation to the minimum needed for clarity.",
+      "train_score": 0.8333333333333334,
+      "train_step": 6,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical data from the statement, select the one precise theorem or formula that alone determines the target value, evaluate it with the minimum arithmetic (display an intermediate step only when a closed\u2011form is impossible), confirm the outcome briefly, and output exactly \u201cAnswer: X\u201d, rounding to one decimal place only when X is fractional.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the prompt, list the given quantities, determine the single mathematical operation or theorem required, compute the answer in a few essential steps, briefly confirm its plausibility, and output just the numeric result (include one decimal digit only if the value is not an integer).",
+      "train_score": 0.8125,
+      "train_step": 8,
+      "test_score": 0.6852141294154424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, locate the single governing formula or theorem that yields the target value, evaluate it with the fewest possible calculations (display one intermediate only when the exact integer form is unattainable), perform a quick consistency check, and output the result alone as a number\u2014rounded to one decimal place only if it is not integral.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.6645826820881525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, record all given numbers, select the single exact formula or reasoning that directly yields the requested quantity, perform only the indispensable computation (show one intermediate only when the result cannot be expressed exactly), verify briefly, and output the answer alone\u2014integer, or rounded to one decimal place if non\u2011integral.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.6105032822757112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, note every explicit constant, locate the single exact theorem or algebraic identity that connects them to the asked quantity, compute the result using the fewest operations (display at most one intermediate only when the answer cannot be expressed as a terminating decimal), perform a quick plausibility check, and output solely \u201cAnswer: X\u201d, where X is an integer or, if non\u2011integral, rounded to one decimal place.",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.37042825883088465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric constant in the statement, select the unique formula or logical step that directly produces the asked result, carry out only the indispensable arithmetic (show a single intermediate only when an exact closed\u2011form is unavailable), verify quickly, and output the final value(s) as plain numbers\u2014if several values are possible list them in increasing order separated by commas, rounding each to one decimal place only when it is not an integer. No other text.",
+      "train_score": 0.1875,
+      "train_step": 99,
+      "test_score": 0.1366051891216005,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7564864020006252,
+    "avg_test_score": 0.6819095252980842,
+    "best_test_instruction": "Extract all explicit numerical data, determine the single exact relation (formula, identity or counting principle) that yields the asked quantity, evaluate it using only the indispensable arithmetic (show at most one intermediate if a closed\u2011form is unavailable), perform a quick sanity check, and output only the final result\u2014an integer unless a non\u2011integral value, in which case round to one decimal place."
+  }
+}

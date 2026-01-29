@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every number presented, translate the task into the necessary plain\u2011text arithmetic expression(s), compute them step\u2011by\u2011step displaying each intermediate result, double\u2011check the final value, and finish with one line that reads exactly `Answer: <number>` and contains no other text.",
+      "train_score": 0.9864864864864865,
+      "train_step": 22,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number, write the exact arithmetic expression(s) needed to answer the question, evaluate them step\u2011by\u2011step with any intermediate results shown on separate lines, verify the final value, and finish with a line that contains exactly `Answer: <number>` and nothing else.",
+      "train_score": 0.9864864864864865,
+      "train_step": 21,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every numeral appearing in the prompt (including fractions), form the exact arithmetic statements needed to answer the question, evaluate them in order while optionally annotating any intermediate values you find helpful, verify the final outcome, and conclude your response with a single line that contains only:\n\nAnswer: <number>",
+      "train_score": 0.9864864864864865,
+      "train_step": 67,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, translate the question into a single arithmetic expression, evaluate it clearly (showing any intermediate results you deem useful), double\u2011check the computation, and finish with a line that contains exactly \u201cAnswer:\u202f<number>\u201d and nothing else.",
+      "train_score": 0.9864864864864865,
+      "train_step": 9,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity in the problem, translate it into the exact arithmetic expression(s) using standard symbols, evaluate them step\u2011by\u2011step with each intermediate result on its own line, verify the final value, and finish with a single line that reads exactly `Answer: <number>` with no other text before or after.",
+      "train_score": 0.9864864864864865,
+      "train_step": 25,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Take note of each number mentioned, formulate the required arithmetic calculation(s) using standard operators, carry out the computation showing any intermediate results you find useful, verify the final result, and finish with a single line that contains exactly `Answer: <number>` and no other text.",
+      "train_score": 0.9864864864864865,
+      "train_step": 26,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum (including units). Form the exact plain\u2011text calculation(s) needed, evaluate them step\u2011by\u2011step while displaying any intermediate results you find helpful, verify the final value, and finish with one line that reads exactly\n\nAnswer: <number>\n\nwith nothing else before or after that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 33,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (including units); convert all quantities to the units asked for; write the exact arithmetic expression(s) needed, compute them step\u2011by\u2011step showing any intermediate values you consider useful, verify the result, and finish the response with a single line that reads exactly `Answer: <number>` and nothing else.",
+      "train_score": 0.9864864864864865,
+      "train_step": 29,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all given numbers, translate the problem into the minimal arithmetic expression(s), compute them step\u2011by\u2011step (displaying any useful intermediate results), verify the outcome, and conclude with a single line exactly \u201cAnswer:\u202f<number>\u201d. No other text should appear before or after this line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 17,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers present, form the exact plain\u2011text arithmetic needed, compute it step\u2011by\u2011step showing any intermediate values you choose, double\u2011check the result, and finish the response with a single line that reads exactly `Answer: <number>` and nothing else.",
+      "train_score": 0.9864864864864865,
+      "train_step": 28,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, transform the task into one or more explicit calculations, show each computation clearly (including any intermediate values you deem useful), validate the final result, and finish with a single line that contains only `Answer: <number>`. No additional text is permitted.",
+      "train_score": 0.9864864864864865,
+      "train_step": 10,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers mentioned, write the precise plain\u2011text calculation(s) required, compute them sequentially (showing any intermediate values you deem useful), verify the obtained value, and terminate the response with one line that reads exactly  \n\nAnswer: <number>  \n\nwith no preceding or trailing characters.",
+      "train_score": 0.9864864864864865,
+      "train_step": 37,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number presented, translate the problem into the exact plain\u2011text arithmetic needed, compute the expression(s) step\u2011by\u2011step (showing any intermediate results you consider useful), verify the final value, and conclude with a single line that reads exactly  \n\nAnswer: <number>  \n\nwith no other text before or after this line.",
+      "train_score": 1.0,
+      "train_step": 25,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers (with units) and any required unit conversions. Construct the smallest possible plain\u2011text arithmetic formula(s) that answer the problem. Evaluate them, optionally showing each intermediate result on its own line preceded by \u201c=>\u201d. After confirming the result, output exactly one line:\n\nAnswer: <number>",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, do any needed unit conversions, write the simplest plain\u2011text formula(s) that answer the question, evaluate them (you may show intermediate results), double\u2011check the outcome, and finish the response with one line that reads exactly\n\nAnswer: <number>\n\nand nothing else.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity (including fractions and units), convert them to the units asked for, then write a single algebraic expression that directly yields the answer. Evaluate the expression, showing each intermediate simplification on its own line if you wish, confirm the final value, and end your reply with exactly one line:\n\nAnswer: <number>\n\nNothing else may appear before or after that line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every number (including fractions and units) given in the problem, convert units if needed, then craft the minimal plain\u2011text arithmetic expression(s) that answer the question. Compute the expression(s) step\u2011by\u2011step, optionally recording intermediate results, verify the final value, and conclude with a single line that reads exactly\n\nAnswer: <number>\n\nwith no other text before or after that line.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum (including any units), convert units if needed, write the exact plain\u2011text calculation(s) that answer the question, evaluate them step\u2011by\u2011step (showing any intermediate results you find useful), verify the final result, and end your response with a single line:\n\nAnswer: <number>\n\nNo other text may appear before or after that line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number (and its unit, if any), do required unit conversions, formulate the simplest plain\u2011text arithmetic that solves the problem, evaluate it step\u2011by\u2011step (show each intermediate result on its own line prefixed by \u201c\u2192\u201d), double\u2011check the outcome, and terminate the response with a single line exactly:\n\nAnswer: <number>\n\nNo other text may appear before or after that line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.7536012130401819,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number (with its unit, if any) from the prompt. Convert all quantities to the unit required for the answer. Write the minimal plain\u2011text arithmetic formula(s) that solve the task. Evaluate them, showing only the calculations you need (each on its own line). Verify the result, and conclude the whole response with a single line that contains exactly\n\nAnswer: <number>\n\nand nothing else before or after that line.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.7407126611068992,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.913570887035633,
+    "avg_test_score": 0.8737860572583847,
+    "best_test_instruction": "Identify every number presented, translate the task into the necessary plain\u2011text arithmetic expression(s), compute them step\u2011by\u2011step displaying each intermediate result, double\u2011check the final value, and finish with one line that reads exactly `Answer: <number>` and contains no other text."
+  }
+}

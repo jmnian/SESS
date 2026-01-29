@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "- Identify all numbers and what they represent.  \n- Assign each unknown a unique one\u2011letter variable.  \n- Derive the simplest formula or smallest solvable system that gives the asked quantity.  \n- Compute, showing only essential intermediate values with a brief justification.  \n- Verify all given conditions.  \n- Output only the final numeric answer (include units if any).",
+      "train_score": 0.8783783783783784,
+      "train_step": 45,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all numeric facts (convert to a common unit if necessary), assign a brief identifier to each unknown, devise the most direct computation\u2014either a single arithmetic step or the smallest viable system of equations\u2014that leads to the quantity asked for, carry out the calculation showing only indispensable intermediate values with a concise justification, verify that the result meets every stated condition, and output only the final numeric answer (including units when relevant).",
+      "train_score": 0.8648648648648649,
+      "train_step": 29,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given number, give each unknown a clear symbol, decide whether a single arithmetic expression or the smallest system of equations solves the task, compute step\u2011by\u2011step while noting each intermediate value, confirm the answer meets all stated conditions, and return only the final numeric answer (including units if applicable).",
+      "train_score": 0.8648648648648649,
+      "train_step": 12,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List every numerical fact and its meaning.  \n- Give each unknown a single\u2011letter symbol.  \n- Determine whether a direct arithmetic expression or the smallest solvable system of equations yields the required quantity.  \n- Perform only the essential calculations, writing each indispensable intermediate result with a brief justification.  \n- Verify that all original conditions are satisfied.  \n- Output only the final numeric answer (add units if the problem calls for them).",
+      "train_score": 0.8648648648648649,
+      "train_step": 89,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract every numeric statement and label its purpose.  \n- Assign a single\u2011letter symbol to each unknown quantity.  \n- Determine the minimal formula or the smallest consistent set of equations that yields the target value.  \n- Carry out only the indispensable calculations, providing a concise justification for each step.  \n- Confirm that all given constraints are met.  \n- Return exclusively the final number, adding units only when the problem requires them.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, assign each unknown a single\u2011letter variable, formulate the simplest possible computation (one formula or the smallest solvable system) that produces the required value, carry out only the indispensable intermediate calculations with brief justification, verify that every given condition is satisfied, and present only the final answer (including units if applicable).",
+      "train_score": 0.8648648648648649,
+      "train_step": 68,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, record every numerical fact, give each unknown a short identifier, design the tiniest possible formula or minimal set of equations that directly produces the asked quantity, compute it step\u2011by\u2011step noting only indispensable intermediate values, verify that all original conditions hold, and return just the final numeric answer with units if required.",
+      "train_score": 0.8648648648648649,
+      "train_step": 39,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all given numbers with their meaning, replace each unknown by a single\u2011letter symbol, decide whether the answer follows from one direct computation or from the smallest set of equations, perform only the indispensable calculations while briefly stating why each step is needed, check that the result satisfies every condition, and return just the final numeric answer (add units only when the question requires them).",
+      "train_score": 0.7702702702702703,
+      "train_step": 99,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Catalogue every quantitative statement, label each unknown with a unique single\u2011letter variable, construct the simplest possible relationship\u2014either one direct formula or the smallest solvable system\u2014that leads to the required quantity, carry out only the necessary arithmetic while noting each intermediate result with a concise justification, verify that all given conditions hold, and output exclusively the final numeric value (attach units only when the problem calls for them).",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Interpret the problem, list all given quantities and their meanings, convert them into simple equations or calculations, solve step\u2011by\u2011step while checking each intermediate result, and finally verify that the answer meets all original conditions before presenting the final result.",
+      "train_score": 0.8648648648648649,
+      "train_step": 2,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, assign a brief symbol to each unknown, choose the most straightforward route (a single arithmetic expression or the minimal system of equations) to obtain the asked quantity, perform the computation showing only essential intermediate values with a short reason, verify that every condition holds, and return only the final numeric answer with units if applicable.",
+      "train_score": 0.8648648648648649,
+      "train_step": 37,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem, assign each unknown a one\u2011letter variable, devise the simplest direct formula or the minimal solvable system that produces the asked quantity, compute only the essential intermediate values with a brief justification, verify that every original condition holds, and finally output just the numeric answer (include units only if required).",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the key quantities, set up the necessary equations, solve them methodically, verify the result, and present the final answer with proper units.",
+      "train_score": 0.8648648648648649,
+      "train_step": 1,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, mark each unknown with a unique symbol, devise the minimal relationship (single formula or smallest solvable system) that leads directly to the asked quantity, evaluate it step\u2011wise showing only necessary intermediate values with a short reason, check that all original constraints hold, and output only the final result (including units when appropriate).",
+      "train_score": 0.8648648648648649,
+      "train_step": 22,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, assign one\u2011letter symbols to the unknowns, devise the minimal direct formula or smallest equation system that yields the asked quantity, compute it showing only essential intermediate results with a short justification, confirm it meets every given condition, and output only the final answer (including units if needed).",
+      "train_score": 0.8648648648648649,
+      "train_step": 38,
+      "test_score": 0.8764215314632298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric information, assign a single\u2011letter variable to each unknown, determine the minimal calculation needed (either a single expression or the smallest solvable system), perform only the essential arithmetic with a brief justification for each step, confirm that every given condition holds, and finally output only the final numeric result (add units only when required).",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Record each quantity given and its role.  \n- Give every unknown a unique one\u2011letter variable.  \n- Identify the minimal mathematical relation needed (a single formula or the smallest solvable system) to obtain the target quantity.  \n- Carry out only the essential calculations, writing each intermediate value with a concise justification.  \n- Confirm that all original constraints are satisfied.  \n- Output just the final numeric result (include units only if explicitly required).",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Scan the problem for all quantities.\n- Give each unknown a short one\u2011letter symbol.\n- Determine whether a single calculation or the smallest solvable set of equations links the data to the asked value.\n- Perform the computation, showing only indispensable intermediate results with a brief note.\n- Check that every original condition is satisfied.\n- Print only the final numeric answer with units if required.",
+      "train_score": 0.8783783783783784,
+      "train_step": 54,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence, list each given quantity and its role, denote any unknowns with clear symbols, form the smallest necessary equation(s) or direct calculation, solve them step\u2011by\u2011step while validating each intermediate value, ensure the final result meets all stated conditions, and present only the final numeric answer (including units if required).",
+      "train_score": 0.8648648648648649,
+      "train_step": 6,
+      "test_score": 0.8620166793025019,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers and what they represent. Assign each unknown a single\u2011letter label. Determine the minimal computation\u2014either one arithmetic expression or the smallest solvable system of equations\u2014required to obtain the asked quantity. Perform only those calculations, providing a one\u2011sentence justification for each intermediate value. Verify that the result complies with every condition stated in the problem. Output solely the final numeric answer, adding units only if required.",
+      "train_score": 0.7027027027027027,
+      "train_step": 99,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7432432432432432,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8991660348749052,
+    "avg_test_score": 0.8797790533954294,
+    "best_test_instruction": "- Identify all numbers and what they represent.  \n- Assign each unknown a unique one\u2011letter variable.  \n- Derive the simplest formula or smallest solvable system that gives the asked quantity.  \n- Compute, showing only essential intermediate values with a brief justification.  \n- Verify all given conditions.  \n- Output only the final numeric answer (include units if any)."
+  }
+}

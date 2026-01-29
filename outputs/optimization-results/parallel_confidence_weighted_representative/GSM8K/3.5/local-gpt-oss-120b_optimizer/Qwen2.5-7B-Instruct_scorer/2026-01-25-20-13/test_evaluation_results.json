@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Answer: <integer>",
+      "train_score": 0.9578544061302682,
+      "train_step": 27,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer:<integer>",
+      "train_score": 0.946360153256705,
+      "train_step": 28,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer: <ans>...</ans>",
+      "train_score": 0.9003831417624522,
+      "train_step": 27,
+      "test_score": 0.8612585291887794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` and ends with `",
+      "train_score": 0.9042145593869731,
+      "train_step": 6,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Tags presumably.",
+      "train_score": 0.8773946360153256,
+      "train_step": 87,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8582375478927203,
+      "train_step": 66,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.842911877394636,
+      "train_step": 17,
+      "test_score": 0.8097043214556482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a solution or answer to the given problem.",
+      "train_score": 0.8505747126436781,
+      "train_step": 0,
+      "test_score": 0.8059135708870356,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret and solve the core problem from the text, delivering a direct and concise answer with only essential calculations and steps needed for explanation.",
+      "train_score": 0.8467432950191571,
+      "train_step": 0,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Variants. Let's list previous instructions to avoid duplication:",
+      "train_score": 0.8199233716475096,
+      "train_step": 61,
+      "test_score": 0.7937831690674754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the scenario description, identify the mathematical operation required, and compute the answer.",
+      "train_score": 0.8390804597701149,
+      "train_step": 0,
+      "test_score": 0.7922668688400303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, identify the relevant amounts or percentages, calculate the required quantity or distribution, and output the result.",
+      "train_score": 0.842911877394636,
+      "train_step": 0,
+      "test_score": 0.7915087187263078,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a problem involving a scenario, provide a clear and concise solution that simplifies the problem to its fundamental elements.",
+      "train_score": 0.842911877394636,
+      "train_step": 0,
+      "test_score": 0.7854435178165277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return the solution on a single line exactly as `Answer: <integer>` with no additional text, spacing, or formatting.",
+      "train_score": 0.39080459770114945,
+      "train_step": 99,
+      "test_score": 0.2517058377558757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the required numeric answer and output it as the sole content of the response, containing only the integer without any surrounding text or formatting.",
+      "train_score": 0.28735632183908044,
+      "train_step": 99,
+      "test_score": 0.20394238059135708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Return exactly the integer answer as the sole output, without any surrounding text or formatting.",
+      "train_score": 0.2796934865900383,
+      "train_step": 99,
+      "test_score": 0.19408642911296436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Calculate the required integer and output only that number, with no additional characters, words, or formatting.",
+      "train_score": 0.23754789272030652,
+      "train_step": 99,
+      "test_score": 0.17058377558756635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nOutput only the integer result on a single line, with no additional words, symbols, or formatting.\\n",
+      "train_score": 0.24521072796934865,
+      "train_step": 99,
+      "test_score": 0.16982562547384383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly the string `Answer:<integer>` where `<integer>` is the computed result, with no spaces, line breaks, or additional characters.",
+      "train_score": 0.23371647509578544,
+      "train_step": 99,
+      "test_score": 0.16906747536012132,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the integer solution to the problem and print it as the sole content of the output line, with no labels, punctuation, or formatting.",
+      "train_score": 0.2222222222222222,
+      "train_step": 99,
+      "test_score": 0.15390447308567096,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.910538286580743,
+    "avg_test_score": 0.6147153326834904,
+    "best_test_instruction": "Answer: <integer>"
+  }
+}

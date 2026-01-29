@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List the given numbers, formulate the single most direct exact expression for the asked quantity, compute it step\u2011by\u2011step with each intermediate result on a separate line (use fractions, not decimals), optionally verify, and end with only the final simplified answer on its own line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 11,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every quantity mentioned, introduce at most one variable per unknown, formulate the single precise expression that solves the problem, evaluate it sequentially displaying each intermediate outcome (use exact arithmetic, keep fractions), and conclude with just the final numeric answer on its own line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 13,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its meaning, formulate the single exact expression that produces the asked quantity, evaluate it step\u2011by\u2011step showing each intermediate result, and finish with only the final numeric answer on a separate line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 10,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all explicit quantities, insert them into one precise calculation that equals the required result (introduce a variable only if the problem mentions an unknown), evaluate the calculation sequentially showing each intermediate exact value (keep fractions, avoid rounding), confirm any given condition, and print solely the final simplified number on its own line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers and their units. If the problem contains an unknown, assign a single variable to it; otherwise, directly combine the numbers into one exact formula that yields the answer. Compute this formula step\u2011by\u2011step, writing each intermediate exact result on its own line (keep fractions, no decimal approximations). Confirm that the final result satisfies any stated conditions and output only the final simplified numeric answer on a separate line.",
+      "train_score": 0.8918918918918919,
+      "train_step": 73,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every mentioned quantity, formulate the single exact arithmetic or algebraic operation that produces the requested value, execute the calculation step\u2011by\u2011step displaying each intermediate outcome, optionally verify, and finish with only the final numeric answer on a separate line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 10,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, combine them into a single exact calculation that answers the question, evaluate step\u2011by\u2011step showing each intermediate result (use unreduced fractions, no decimals), and end with only the final simplified answer on its own line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 71,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numbers from the problem, form one precise arithmetic formula (using only +, \u2013, \u00d7, \u00f7) that gives the answer, evaluate it step\u2011by\u2011step recording every intermediate exact value (keep fractions, no decimals), optionally verify the outcome, and end with only the final simplified result on a separate line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given number, write one exact arithmetic expression that directly gives the asked quantity, evaluate it line by line showing each intermediate result (use integers when possible), confirm the answer meets the problem\u2019s conditions, and output only the final integer on a separate line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 43,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum from the statement, insert them into one exact arithmetic formula that directly produces the requested quantity, evaluate the formula step\u2011by\u2011step displaying each intermediate exact result (use fractions, avoid decimals), optionally confirm the result satisfies any condition, and end with only the final simplified number on a separate line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 88,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value from the problem, place them into the simplest single exact formula that directly yields the requested quantity, evaluate the formula step\u2011by\u2011step showing each intermediate exact result (use fractions, no rounding), optionally confirm any stated condition, and output only the final reduced number on its own line.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities mentioned, interpret the relationships to decide the sequence of operations, write a single exact arithmetic formula that yields the asked quantity (introducing a variable only if an unknown is required), evaluate the formula step\u2011by\u2011step listing each intermediate exact result (keep fractions unreduced, avoid decimals), optionally confirm the result satisfies any condition, and finally print only the final simplified number on a separate line.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numeric values from the statement, substitute them into a single exact arithmetic expression that matches the quantity asked, evaluate the expression in order while writing each intermediate exact result (keep fractions, avoid decimals), optionally check any given condition, and finally print only the reduced final number on a separate line.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List the given numbers, insert them directly into one combined calculation that equals the required answer, evaluate the calculation sequentially while recording each exact intermediate value (retain fractions, avoid rounding), optionally confirm any stated condition, and output solely the final reduced number on a separate line.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers, label each with a short variable, combine them into one precise expression that equals the asked quantity, evaluate the expression step\u2011by\u2011step (showing each intermediate value, keeping fractions unreduced), optionally double\u2011check by back\u2011substitution, and output only the final simplified number on its own line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 14,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract every numeric datum with its unit, convert the situation into one exact mathematical expression that directly gives the requested quantity, evaluate this expression step\u2011by\u2011step printing each intermediate result on its own line (retain fractions, avoid rounding), briefly confirm that the result meets any stated condition, and finally output only the final simplified number on a separate line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 75,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity in the problem, convert the whole situation into one exact arithmetic formula that directly yields the asked value (introduce a variable only if an unknown is required), evaluate the formula step\u2011by\u2011step listing each intermediate exact result (keep fractions unreduced, avoid decimals), optionally confirm that the result satisfies any stated condition, and finally output only the final simplified number on a single line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 84,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, enumerate the numbers involved, construct the simplest calculation that solves it, show each arithmetic step with its result, and output only the final numeric answer on a separate line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 5,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Tags.\n\nMake sure ends with",
+      "train_score": 0.8648648648648649,
+      "train_step": 51,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers present, combine them into the shortest possible exact calculation that directly yields the target value, compute the calculation step\u2011by\u2011step writing each intermediate exact result on its own line (keep fractions, no rounding), optionally verify the result, and output only the final reduced number on a new line.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.8567096285064443,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7432432432432432,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.8949781580562475,
+    "best_test_instruction": "List the given numbers, formulate the single most direct exact expression for the asked quantity, compute it step\u2011by\u2011step with each intermediate result on a separate line (use fractions, not decimals), optionally verify, and end with only the final simplified answer on its own line."
+  }
+}

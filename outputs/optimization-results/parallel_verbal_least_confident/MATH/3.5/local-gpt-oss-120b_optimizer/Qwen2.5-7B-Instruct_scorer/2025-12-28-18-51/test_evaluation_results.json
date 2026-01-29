@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "State the exact quantity sought, convert all information into equations or counts, pinpoint the single decisive relation that connects them, compute directly with a quick verification, and present only the final answer in the required form.",
+      "train_score": 0.7647058823529411,
+      "train_step": 53,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Transform the problem into one precise equation or counting condition; enumerate all numbers and the unknown; pinpoint the single indispensable principle that solves it; execute the shortest rigorous calculation, checking consistency at each move; finally write only the exact answer in the format requested.",
+      "train_score": 0.7352941176470589,
+      "train_step": 34,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity required, translate all given information into symbolic form, pinpoint the one essential formula or theorem that connects the data to the target, carry out the shortest fully justified computation, and present only the final answer exactly as requested.",
+      "train_score": 0.7411764705882353,
+      "train_step": 63,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Convert the problem into a single mathematical model (equation, inequality, or counting condition) that contains only the given numbers and the unknown quantity.  \n- Isolate the one fundamental principle (formula, theorem, or rule) that solves this model.  \n- Perform the leanest calculation that implements the principle, checking at each stage that the model\u2019s conditions are met.  \n- Return solely the final value in the format the problem specifies.",
+      "train_score": 0.7411764705882353,
+      "train_step": 95,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Convert the whole problem into one explicit arithmetic expression that uses only the numbers appearing in the statement and the basic operation that solves it.  \n- Evaluate that expression exactly.  \n- Return the value alone, formatted exactly as the answer requires.",
+      "train_score": 0.7411764705882353,
+      "train_step": 54,
+      "test_score": 0.75054704595186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Rephrase the question into a precise mathematical goal.  \n- Record all numerical data and the target variable.  \n- Determine the single elementary principle (counting, inequality, ordering) that links the data to the target.  \n- Apply it in the fewest logical steps, verifying each step against the original conditions.  \n- Output only the final value exactly as the problem requests.",
+      "train_score": 0.7352941176470589,
+      "train_step": 29,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Recast the problem as a single objective (equation, inequality, or counting condition).  \n- Record all numerical facts and the unknown variable.  \n- Pinpoint the one core principle (formula, theorem, or combinatorial rule) that resolves the objective.  \n- Execute a brief, rigorously checked calculation, confirming each step satisfies the given constraints.  \n- Deliver only the final answer in the exact required format.",
+      "train_score": 0.7352941176470589,
+      "train_step": 32,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem as a single clear objective (value to find or condition to meet).  \n- List every given quantity or relation, assigning symbols if helpful.  \n- Determine the minimal set of mathematical tools (formula, theorem, counting argument) that directly connects the data to the objective.  \n- Carry out the computation in the fewest justified steps, confirming each step respects the original conditions.  \n- Output only the final result in the exact format requested.",
+      "train_score": 0.711764705882353,
+      "train_step": 99,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify exactly what the problem asks for.  \n- Translate every given condition into symbols or equations, listing all known numbers.  \n- Determine the single fundamental theorem, formula, or counting principle that links the data to the target.  \n- Perform the minimal sequence of logical calculations, verifying each step satisfies the original conditions.  \n- State only the final result in the format requested, and, if possible, briefly confirm that it fulfills the problem\u2019s constraints.",
+      "train_score": 0.7352941176470589,
+      "train_step": 65,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem concisely, note all numerical facts, pinpoint the one decisive concept (formula, theorem, or counting argument), apply it in the shortest possible justified computation while continuously confirming the conditions, and output solely the exact required answer.",
+      "train_score": 0.7352941176470589,
+      "train_step": 26,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity asked, translate all conditions into symbolic constraints, determine the minimal set of logical/arithmetical tools needed to satisfy those constraints, solve the resulting system directly, verify the solution meets every condition, and finally provide only the required numeric result in the prescribed format.",
+      "train_score": 0.7294117647058823,
+      "train_step": 75,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Capture the essence of the problem in one sentence.  \n- Record every numeric or relational datum and the target variable.  \n- Pinpoint the lone decisive theorem/identity that bridges the data to the target.  \n- Apply it in a compact, fully justified sequence, verifying at each move that all given constraints stay satisfied.  \n- Return only the final answer exactly as required.",
+      "train_score": 0.7294117647058823,
+      "train_step": 14,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required quantity by first restating the problem in a single mathematical expression, then insert the given data, simplify using the one relevant rule, and finally present only the simplified numeric result in the format asked.",
+      "train_score": 0.7352941176470589,
+      "train_step": 45,
+      "test_score": 0.7417943107221007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Determine precisely what is being asked.  \n- Convert all given information into concise mathematical symbols or numbers.  \n- Identify the one essential principle (formula, theorem, or counting rule) that directly yields the target.  \n- Execute the shortest sound computation, continuously verifying that every step respects the original conditions.  \n- After confirming the result satisfies the problem, output only the final answer in the exact required format.",
+      "train_score": 0.7352941176470589,
+      "train_step": 93,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Determine the precise quantity the problem asks for.  \n- Symbolically encode every given datum and relation.  \n- Locate the single indispensable theorem, formula, or counting rule that links the symbols to the unknown.  \n- Derive the answer in the fewest algebraic steps, confirming each step respects the original constraints.  \n- Present only the final numerical result in the exact format required, without any additional explanation.",
+      "train_score": 0.7411764705882353,
+      "train_step": 79,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Pinpoint the exact quantity the problem asks for.  \n- Strip the statement down to the indispensable data and write a compact mathematical expression that captures the question.  \n- Locate the one decisive theorem, identity or counting rule that evaluates that expression.  \n- Carry out the evaluation in the fewest logical moves, confirming consistency at each step.  \n- Return solely the final numeric answer in the prescribed format.",
+      "train_score": 0.7470588235294118,
+      "train_step": 93,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break each problem down into manageable steps: comprehend the problem thoroughly, identify and apply relevant formulas, meticulously calculate, and verify each intermediate result to ensure accuracy before concluding with a final secure answer.",
+      "train_score": 0.7294117647058823,
+      "train_step": 0,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize in one phrase, list all numbers, choose the single relevant principle, compute with step\u2011by\u2011step verification, and present only the exact answer as specified.",
+      "train_score": 0.7294117647058823,
+      "train_step": 23,
+      "test_score": 0.7333541731791184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6882352941176471,
+      "train_step": -1,
+      "test_score": 0.7317911847452329,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem as a single precise objective (value to find, count, or condition).  \n- List every given quantity and encode all relations mathematically.  \n- Identify the one core concept (formula, theorem, or counting principle) that directly yields the objective.  \n- Carry out the shortest rigorous computation, checking each step against the original constraints.  \n- Output only the final result in the exact requested format, without any extra commentary.",
+      "train_score": 0.6529411764705882,
+      "train_step": 99,
+      "test_score": 0.710847139731166,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Clarify the question as a single target value or statement.  \n- List every given numeric or logical datum.  \n- Determine the minimal set of concepts (formula, theorem, counting argument) that directly yields the target.  \n- Execute the shortest rigorous derivation, confirming each step respects the original conditions.  \n- Output only the final result in the format requested, without any additional commentary.",
+      "train_score": 0.5941176470588235,
+      "train_step": 99,
+      "test_score": 0.6151922475773679,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7555486089402939,
+    "avg_test_score": 0.7369862605873859,
+    "best_test_instruction": "State the exact quantity sought, convert all information into equations or counts, pinpoint the single decisive relation that connects them, compute directly with a quick verification, and present only the final answer in the required form."
+  }
+}

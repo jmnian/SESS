@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, then execute a concise derivation: for every algebraic manipulation write the new expression followed by a short tag (e.g., \u2018simplify\u2019, \u2018substitute\u2019), perform a quick consistency check, and finally output only the exact numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem, identify the pivotal formula or theorem, execute only the essential calculations with a brief justification for each, perform a quick consistency check, and give the exact final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key mathematical concept, work through the solution with every calculation shown, double\u2011check each step for correctness, and end with the exact numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by restating the question in your own wording. Pinpoint the essential theorem or operation required. Then compute each intermediate result on a separate line, tagging the action with a brief label. After reaching a conclusion, confirm it satisfies the original conditions and give the reduced numerical answer on a new line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 8,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence. Write down the known quantities and the quantity sought. Identify the single theorem, formula, or counting principle that solves it. Compute step\u2011by\u2011step, putting each intermediate value on its own line with a short label (e.g., \u201ccalc\u201d, \u201csub\u201d, \u201cplug\u201d). After the last step, verify the result against the original question and output only the final numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 11,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one clear sentence. List the known quantities and what is required. Choose the exact theorem or operation that solves it. Proceed with a linear chain of calculations, writing each line as \u201cresult = \u2026   // reason\u201d. After the chain, verify the result satisfies the original conditions, simplify if possible, and finally output only the final numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 10,
+      "test_score": 0.7205376680212566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence, list the known quantities and the quantity sought, identify the single core concept (formula, theorem, or operation) needed, then compute step\u2011by\u2011step showing each intermediate result on its own line prefixed by \u201c\u2192\u201d together with a brief tag (e.g., plug, simplify, evaluate). After the last step perform a quick sanity check, simplify if possible, and output only the final numeric answer on a separate line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 12,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by restating the question, pinpoint the mathematical ideas needed, then work through a fully justified, step\u2011by\u2011step solution, verifying each intermediate result, and conclude with the precise answer in its simplest form.",
+      "train_score": 0.8333333333333334,
+      "train_step": 2,
+      "test_score": 0.710847139731166,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by: restating it succinctly; naming the single mathematical tool needed; writing each computation on its own line with a brief reason; performing a quick consistency check; and outputting only the final numeric result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 2,
+      "test_score": 0.7064707721162864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, note the data and what is asked, and name the single rule or formula needed. Then solve by a numbered sequence where each step contains one calculation together with a one\u2011word label such as evaluate, substitute, or simplify, and display the intermediate value in parentheses. After completing the steps, verify the result quickly, simplify if possible, and output only the final numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 7,
+      "test_score": 0.705532979055955,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one sentence. List all given numbers and the quantity to find. Cite the single mathematical principle (formula, theorem, or operation) needed. Then solve by a numbered vertical chain:\n\n\u2003\u2003#) expression \u2192 value\u2003// brief tag (plug, simplify, compute, etc.)\n\nAfter the final step do a quick sanity check (sign, magnitude, units, integer\u2011ness) and write only the exact numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 31,
+      "test_score": 0.7027195998749609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence, identify the single key concept needed, then solve it in a numbered list where each step contains one computation or logical deduction with a brief (one\u2011to\u2011two word) justification and, if helpful, a quick sanity check; finally present the simplified exact numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.7020944045014067,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence; list every given number and the quantity to find; name the single formula or theorem that solves it; then work through a bulleted list where each bullet contains the current expression, its numeric value, and a brief tag (e.g., plug, simplify, compute). After the final bullet do a quick sanity check (sign, magnitude, integerness) and write only the exact numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 36,
+      "test_score": 0.6986558299468584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the task in a single sentence.  \n- Record every numeric datum and identify the unknown.  \n- Name the one algebraic rule, theorem, or operation that links them.  \n- Compute step\u2011by\u2011step, writing each line as \u201cstep\u202fk: expression = value // tag\u201d.  \n- After the last step, do a brief sanity check (plug\u2011back, sign, size) and print only the final numeric result on a new line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 48,
+      "test_score": 0.6911534854642075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one brief sentence. List all known numbers and the unknown quantity. Cite the single mathematical rule (formula, theorem, or identity) that connects them. Then solve by a numbered sequence where each line follows:\n\n\u2003\u2003#) expression \u2192 value\u2003// verb (plug, simplify, compute)\n\nAfter the last step, perform a quick verification (plug\u2011back, magnitude, integerness) and output only the final exact numeric answer on its own line.",
+      "train_score": 0.875,
+      "train_step": 44,
+      "test_score": 0.6723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- One\u2011sentence problem restatement.  \n- Table \u201cGiven | Symbol | Value\u201d for all data and \u201cGoal\u201d.  \n- State the lone applicable formula/theorem.  \n- Compute in a numbered list: each item \u201ck) expression \u21d2 value // verb\u201d.  \n- After the list, do a brief consistency check (plug\u2011in, sign, magnitude).  \n- Finally, write only the exact numeric answer on a new line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6702094404501406,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in a single sentence, list all given numbers and the quantity to find, and name the one core principle (formula, theorem, or rule) that solves it. Then work through a three\u2011column table:\n\nStep\u202f|\u202fOperation\u202f(e.g., plug, simplify, compute)\u202f|\u202fResult\n\nEnter each successive calculation on a new row. After the final row do a brief plug\u2011back or size check, and finally output only the exact numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 39,
+      "test_score": 0.6673960612691466,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence. Enumerate every given number and name the one mathematical principle (formula, theorem, or rule) that solves it. Solve by a linear list; each line should show:\n\n\u2003\u2003\u25b6\u202fexpression \u2192 value\u2003// brief tag (substitute, simplify, compute, etc.)\n\nWhen the list ends, do a rapid check (plug\u2011back, magnitude, sign, integer\u2011ness). Then print only the exact numeric answer on its own line.",
+      "train_score": 0.875,
+      "train_step": 39,
+      "test_score": 0.6436386370740856,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- One\u2011sentence restatement.  \n- Create a markdown table with columns Given, Symbol, Value.  \n- State the lone formula or theorem needed.  \n- Perform calculations in a numbered list; each entry: \u201ck) expression \u2192 value // action\u201d.  \n- Conclude with a quick plug\u2011in sanity check and print only the final exact number on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 80,
+      "test_score": 0.6330103157236636,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- One\u2011line restatement of the task.  \n- Bullet list of every numeric datum and of the quantity to determine.  \n- Name the sole mathematical tool (formula, theorem, identity) that resolves the problem.  \n- Then produce a linear proof: for each step write \u201c<expr> \u2192 <value> // <action>\u201d.  \n- When the chain ends, do a rapid sanity test (plug\u2011in, size, sign, integerness).  \n- Finally print only the final exact number on a new line, no extra text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 77,
+      "test_score": 0.6251953735542357,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7467958737105346,
+    "avg_test_score": 0.7002932464014052,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

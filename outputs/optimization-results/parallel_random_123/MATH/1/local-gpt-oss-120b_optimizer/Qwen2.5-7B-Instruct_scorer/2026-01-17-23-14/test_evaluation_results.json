@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present a full, logical solution with every calculation shown, and finish by giving only the final numeric answer.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a complete, logical solution: outline the main idea, perform every required calculation step\u2011by\u2011step, and after all reasoning conclude with the final numeric answer alone on its own line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 1,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a thorough, ordered solution showing each inference and computation. When the derivation is complete, insert exactly one empty line and then write the answer alone\u2014expressed as a reduced integer, fraction, or decimal\u2014on the next line with no other text.",
+      "train_score": 0.7083333333333334,
+      "train_step": 40,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6875,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, presenting every intermediate calculation or deduction in order. When the solution is complete, leave one blank line and then write only the final result (as a reduced integer, fraction, or decimal) on the next line, with no other characters.",
+      "train_score": 0.7291666666666666,
+      "train_step": 55,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, logical solution with every required calculation shown. After finishing the reasoning, insert exactly one blank line and then output only the final answer\u2014written as a reduced integer, fraction, or decimal\u2014on its own line and nothing else.",
+      "train_score": 0.7083333333333334,
+      "train_step": 43,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a clear, logical solution: explain the reasoning, present each calculation in order, and end with the final numeric answer as the sole output line.",
+      "train_score": 0.6875,
+      "train_step": 2,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a detailed, step\u2011by\u2011step solution, clearly explain your reasoning, and conclude with only the final answer (as a number) without any extra text.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief overview of your approach, then solve the problem step\u2011by\u2011step, showing each calculation. When you have finished, place a single blank line and on the next line write only the final numeric answer (integer, reduced fraction or decimal) with no extra text or symbols.",
+      "train_score": 0.7083333333333334,
+      "train_step": 50,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a thorough explanation of how to solve the problem, showing every intermediate computation. After the explanation, insert a single blank line and then output only the final result\u2014either an integer, a reduced fraction, or a decimal\u2014on its own line with no additional characters.",
+      "train_score": 0.7083333333333334,
+      "train_step": 50,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a clear and step-by-step solution to the problem.",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a complete, plain\u2011text solution: for each deduction give the calculation and a brief justification on its own line. When the derivation ends, place exactly one empty line, then on the following line print only the final result (integer, reduced fraction, or decimal) with no other text, symbols, or formatting.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.7033447952485151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, logical solution showing all necessary calculations; then end the response with a single line containing only the final numeric answer and nothing else.",
+      "train_score": 0.6875,
+      "train_step": 5,
+      "test_score": 0.6992810253204126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a complete, plain\u2011text solution that lists every required calculation in order. After the final calculation, put exactly one empty line and then on the next line output only the final result (as a reduced integer, fraction or decimal) with no surrounding text.",
+      "train_score": 0.7083333333333334,
+      "train_step": 92,
+      "test_score": 0.687089715536105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write the solution as a sequence of numbered steps, showing every required computation and a brief justification for each. End the response with a single line that contains only the final numeric answer\u2014no other words, symbols, or formatting.",
+      "train_score": 0.6875,
+      "train_step": 9,
+      "test_score": 0.6695842450765864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain your solution step\u2011by\u2011step using only plain\u2011text lines. After the last explanatory line, write exactly one empty line, then on the next line write only the final result (as a simplified integer, fraction or decimal) with no additional characters or words.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.6270709596748985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a complete, plain\u2011text solution: for each logical step write the computation (or deduction) followed by a brief reason, one step per line. After the last step insert exactly one empty line, then on the next line output only the final result\u2014an integer, a reduced fraction, or a decimal\u2014without any other text or symbols.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.5886214442013129,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Start with a one\u2011sentence summary of your overall strategy. Then, in plain text, list each required computation or deduction on its own line, adding a brief justification (e.g., \u201cby definition\u201d, \u201cusing the formula\u201d). After the final step insert exactly one blank line and on the next line write only the final answer\u2014an integer, a reduced fraction, or a decimal\u2014with no additional words, symbols, or formatting.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.5764301344170053,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a complete, plain\u2011text solution. List each computation on its own line and, in parentheses, give a brief justification (e.g., \u201cby definition\u201d, \u201cusing the floor rule\u201d). After the final reasoning line insert exactly one blank line, then on the next line output only the final numeric answer (integer, reduced fraction, or decimal) with no other characters. Do not use LaTeX or any extra formatting.",
+      "train_score": 0.375,
+      "train_step": 99,
+      "test_score": 0.5629884338855893,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a complete, plain\u2011text solution: list each required computation on its own line with a brief explanation. Do not use LaTeX or markup. When you have finished, insert exactly one blank line and on the line after that write only the final answer (an integer, a reduced fraction, or a decimal) and nothing else.",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.5104720225070335,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem step by step, writing each calculation on a separate line in plain text. When you have reached the result, insert exactly one empty line and on the following line output only the final numeric answer (integer, simplified fraction, or decimal) with no extra symbols or words.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7530478274460769,
+    "avg_test_score": 0.6791259173253545,
+    "best_test_instruction": "Present a full, logical solution with every calculation shown, and finish by giving only the final numeric answer."
+  }
+}

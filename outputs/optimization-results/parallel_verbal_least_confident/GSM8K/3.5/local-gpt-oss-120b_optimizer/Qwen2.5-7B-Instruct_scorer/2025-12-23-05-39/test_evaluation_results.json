@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Turn the whole story into one exact arithmetic formula made only of integers and rational numbers (interpret \u201ceach\u201d, \u201cper\u201d, \u201c%\u201d, \u201chalf\u201d, \u201cdozen\u201d, etc., as their precise mathematical meaning), fully simplify the formula, compute it with perfect exactness, and reply with the lone integer answer.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Transform the entire problem into one exact rational expression, evaluate it with full precision, and output only the integer result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 23,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert every stated quantity and relationship into a single exact arithmetic expression (using integers and fractions only, handling percentages, ratios, unit conversions, and implicit multiplication), simplify the expression algebraically, compute its value with perfect precision, and output solely the integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity and its exact mathematical relation (including addition, subtraction, multiplication, division, implied multiplication, percentages, ratios, and unit conversions), assemble them into a single fully reduced rational expression, evaluate it analytically with unlimited precision (no rounding or floating\u2011point), verify the result is an integer, and output only that integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 43,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8237547892720306,
+      "train_step": -1,
+      "test_score": 0.9097801364670205,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant numbers and relationships from the problem, form the necessary arithmetic expression(s), compute the result, and output the final answer as a single number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 0,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the whole problem into one exact calculation (using integers or fractions as needed), evaluate it with unlimited precision (no approximations), and output only the final integer result.",
+      "train_score": 0.9540229885057471,
+      "train_step": 40,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate every number and its operation into one exact arithmetic expression (handling percentages, ratios, and unit conversions), compute it with full precision, and output only the final integer.",
+      "train_score": 0.9540229885057471,
+      "train_step": 40,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and its precise mathematical role (including addition, subtraction, multiplication, division, percentages, ratios, unit conversions, and implied multiplication). Construct one exact rational expression that represents the entire problem, simplify it to its lowest terms, evaluate it with unlimited exact precision, confirm the result is an integer, and output that integer alone.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number and its associated operation (including any implied multiplications, percentages, or ratios), combine them into one exact rational expression, evaluate it analytically with full precision (no rounding), verify the result is an integer, and output only that integer.",
+      "train_score": 0.9540229885057471,
+      "train_step": 25,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the entire problem into a single exact rational expression, compute it with perfect arithmetic, and output only the integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number and the exact mathematical relationship it participates in (including addition, subtraction, multiplication, division, percentages, ratios, and unit conversions), synthesize them into one fully reduced rational formula, compute it with perfect arithmetic (no rounding), and output only the final integer value.",
+      "train_score": 0.9578544061302682,
+      "train_step": 56,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity and the precise mathematical operation it participates in (including implicit multiplication, percentages, fractions, ratios, and unit conversions), express the whole problem as one exact rational formula, simplify it completely, evaluate it with unlimited precision (no floating\u2011point or rounding), and output only the final integer answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Convert the entire problem into one exact integer/fraction calculation, evaluate it with perfect precision, and output the single integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 98,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and the implied operations (including addition, subtraction, multiplication, division, percentages, and ratios), assemble the precise calculation, evaluate it exactly without rounding, and output only the final integer result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 18,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and the exact arithmetic relations they imply (addition, subtraction, multiplication, division, percent, ratio, unit conversion), merge them into a single exact rational formula, evaluate it precisely (no approximations), and return the integer answer alone.",
+      "train_score": 0.9616858237547893,
+      "train_step": 94,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire statement, map each mentioned quantity to its exact arithmetic role (including implied multiplication, percentages, ratios, and unit conversions), combine them into one fully reduced rational expression, compute it exactly (no floating\u2011point or rounding), confirm the result is an integer, and output this single integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 63,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Turn the whole problem into one precise algebraic expression using integers and fractions only, evaluate it analytically without any rounding, and reply with the sole integer outcome.",
+      "train_score": 0.9578544061302682,
+      "train_step": 50,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the entire scenario into a single exact arithmetic expression (using integers or fractions, handling percentages, ratios, and implied multiplication), evaluate it with unlimited precision (no rounding or approximation), and output only the final integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 64,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, map every mentioned quantity to its precise arithmetic role (including addition, subtraction, multiplication, division, percentages, ratios, and unit conversions), combine them into a single fully reduced rational formula, evaluate it analytically with arbitrary precision, confirm the outcome is an integer, and output only that integer.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Translate every numerical phrase and relational word in the problem (including \u201ceach\u201d, \u201cper\u201d, \u201cof\u201d, \u201chalf\u201d, \u201cmore than\u201d, percentages, ratios, unit and currency conversions) into its exact arithmetic operator, combine them into one reduced rational expression, evaluate it with unlimited precision (no floating\u2011point approximations), and output only the final integer result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8982995776020796,
+    "best_test_instruction": "Turn the whole story into one exact arithmetic formula made only of integers and rational numbers (interpret \u201ceach\u201d, \u201cper\u201d, \u201c%\u201d, \u201chalf\u201d, \u201cdozen\u201d, etc., as their precise mathematical meaning), fully simplify the formula, compute it with perfect exactness, and reply with the lone integer answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Interpret the question, select the correct mathematical tool, perform every calculation explicitly with brief justifications, double\u2011check the result, and output only the final numeric answer.",
+      "train_score": 0.8647058823529412,
+      "train_step": 5,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the query in your own words, decide which mathematical rule applies, carry out each needed computation in a separate line (numbered if you like), perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.8647058823529412,
+      "train_step": 8,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8294117647058824,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem to express clearly what number is being asked. Identify the single mathematical idea (formula, theorem, or modular rule) that resolves it. Carry out every required calculation, placing one operation per line and labeling each line with a brief note. After the last line, perform a quick check (substitute back, confirm bounds). Finally, output only the exact final answer on its own line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 84,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, translate the question into a single explicit target quantity. Choose the one essential theorem or operation that solves it. Write each arithmetic/algebraic manipulation on its own line prefixed by a short label, and after the last line substitute the result back to confirm it satisfies the original condition. Finally, output only the final numeric answer on a new line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 99,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity being requested, convert the problem into a single mathematical expression using the appropriate concept (geometry, algebra, or number theory), evaluate the expression stepwise with brief annotations, perform a quick sanity check, and present only the final numeric answer on a new line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 91,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity being asked, select the proper method, perform every necessary calculation step explicitly with brief justification, do a quick sanity check, and output only the exact final answer.",
+      "train_score": 0.8705882352941177,
+      "train_step": 9,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely which number the question seeks, choose the single essential mathematical idea that resolves it, then perform each computation on its own line with a brief annotation; after the final line do a quick sanity check (substitute back, check limits) and output only the final numeric answer on a separate line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 92,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the question into an explicit equation or logical condition, then solve it by writing each algebraic or arithmetic manipulation on its own line (with brief justification). After obtaining a candidate solution, substitute it back into the original condition to confirm correctness, and finally output only the verified numeric answer on a single line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 11,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem, select the key concept, sequentially write each computation on a separate line, quickly verify the outcome, and conclude with only the final numeric answer.",
+      "train_score": 0.8588235294117647,
+      "train_step": 6,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one clear sentence identifying the exact quantity to be found. Choose the single mathematical technique required (counting rule, factorisation, logarithm identity, etc.). Compute every intermediate result on its own line, each prefixed with a brief label. After the last step, perform a quick verification (substitution, bounds check, or simple test). Finally, output only the final numeric answer on a separate line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 99,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the question to isolate the exact quantity sought, choose the single most relevant concept or formula, then solve by listing each calculation on its own line with a short justification; after the last line perform a quick consistency check (plug back, verify bounds) and output only the final numeric answer on a separate line.",
+      "train_score": 0.8823529411764706,
+      "train_step": 83,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence to isolate the exact quantity sought, select the single theorem or arithmetic rule that resolves it, then perform each necessary computation on its own line preceded by a brief label; after the final line quickly verify the result by substitution or by checking feasible limits, and conclude with only the final numeric answer on a separate line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 84,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question carefully, devise a brief solution plan, perform every required calculation showing all intermediate steps, and end with the exact final answer.",
+      "train_score": 0.8647058823529412,
+      "train_step": 1,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence, name the exact value sought, select the sole relevant principle, then compute each intermediate step on a new line prefixed by a brief comment; after the final line verify the result by substitution or bounds, and conclude with only the final answer on its own line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 73,
+      "test_score": 0.718974679587371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact quantity being asked, identify the one mathematical concept that solves it, then execute each arithmetic or algebraic operation on its own line preceded by a brief justification; after the final line perform a quick validation (plug back or check limits) and output only the resulting number on a separate line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 99,
+      "test_score": 0.7139731165989371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "First, phrase the question as a single clear target value. Choose the one mathematical rule that directly solves it. Perform every required computation, writing each operation on its own line prefixed by a short explanation. After the last line, do a brief verification (plug back, check limits). Finally, output only the resulting number on its own line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 99,
+      "test_score": 0.7120975304782745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the precise quantity asked, choose the single most suitable principle, then compute each intermediate result on its own line prefixed by a short comment; after the last line sanity\u2011check the result against the original condition and output only the final number on a separate line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 65,
+      "test_score": 0.7099093466708346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, pinpoint the exact number being asked, decide the single mathematical principle that solves it, then work through the solution writing each calculation on its own line with a brief comment. After the last line perform a fast verification (plug back, check bounds) and finally print only the resulting value on its own line.",
+      "train_score": 0.8764705882352941,
+      "train_step": 62,
+      "test_score": 0.7092841512972804,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Rephrase the problem as a single precise statement of the unknown quantity, identify the one key theorem or rule needed, then execute every required calculation on its own line with a brief label. After the final line, perform a rapid check (plug\u2011in, boundary test, or sanity check) and output solely the numeric answer on a new line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 99,
+      "test_score": 0.6995936230071897,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011sentence restatement of what the problem asks. Choose the single mathematical concept that solves it. For each required computation write a separate line starting with a short tag (e.g., \u201ccalc:\u201d); give only a minimal justification. After the last computation, plug the result back to confirm it satisfies the original condition. Finally, print only the final numeric answer on its own line.",
+      "train_score": 0.5764705882352941,
+      "train_step": 99,
+      "test_score": 0.5195373554235698,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7511722413254142,
+    "avg_test_score": 0.7207162952708435,
+    "best_test_instruction": "Interpret the question, select the correct mathematical tool, perform every calculation explicitly with brief justifications, double\u2011check the result, and output only the final numeric answer."
+  }
+}

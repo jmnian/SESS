@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Isolate every numerical quantity, translate the problem into a single clear mathematical expression (or a set of linked expressions), compute the exact result using appropriate arithmetic or algebra, confirm the computation, and present solely the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 2,
+      "test_score": 0.9188779378316907,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical value and its relationship, formulate exact mathematical expressions, solve them showing each intermediate computation, verify the result, and output only the final numeric answer on a separate line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 3,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numerical datum, combine them into a single closed\u2011form mathematical expression that fully captures the problem, evaluate that expression (showing only essential interim checks), verify the outcome, and output just the final numeric answer on a separate line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 23,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical value, model the problem with the most direct exact arithmetic or algebraic expression, evaluate it while performing any essential intermediate verification, and print the result as the only line of output.",
+      "train_score": 0.9864864864864865,
+      "train_step": 40,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number, write the exact formula that solves the question, compute the value (showing only essential steps), confirm it, and print the single numeric answer alone.",
+      "train_score": 0.9864864864864865,
+      "train_step": 47,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every number mentioned, determine how they relate, write the precise mathematical formula(s) that capture those relations, evaluate them (showing only essential intermediate checks), and finally output a single line containing just the computed numeric answer.",
+      "train_score": 1.0,
+      "train_step": 8,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric component, convert the story into exact arithmetic/algebraic expression(s), evaluate them sequentially while optionally displaying short intermediate results, double\u2011check the calculation, and finally print only the final numeric answer on a separate line with no additional text.",
+      "train_score": 0.9864864864864865,
+      "train_step": 3,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the exact formula from the given numbers, evaluate it stepwise (showing only necessary intermediate values), confirm the result, and output just the final number on a separate line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 4,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement extract each numeric fact, combine them into the simplest exact equation that answers the question, compute the value (displaying only necessary intermediate results), double\u2011check the computation, and print the sole numeric answer on a single line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 52,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, enumerate all numeric facts, derive the exact equation(s) needed, solve them (showing only essential steps), double\u2011check, and output the lone resulting number.",
+      "train_score": 1.0,
+      "train_step": 49,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, set up the exact arithmetic or algebraic expression, solve it with brief intermediate results, double\u2011check, and output only the final numeric answer on its own line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 7,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential numbers and relationships in the problem statement, translate them into suitable mathematical formulas, solve them methodically, and provide only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 1,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, translate the problem into precise arithmetic or algebraic expressions, compute the result step\u2011by\u2011step (showing only essential intermediate values), confirm the answer, and print only the final numeric value on one line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 39,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value given, convert them into a single exact arithmetic expression that produces the answer, evaluate it while showing only essential verification steps, and output the sole numeric result on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantitative detail, assemble them into the exact single formula (or a clearly linked set of formulas) that solves the problem, evaluate it using exact arithmetic while showing only essential verification steps, and output\u202fonly\u202fthe final numeric answer on its own line.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.489764973464746,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum, compose the minimal exact algebraic expression that answers the question, evaluate it with exact arithmetic (showing only essential sanity checks), and output only the final numeric result on a single line.",
+      "train_score": 0.16216216216216217,
+      "train_step": 99,
+      "test_score": 0.19181197877179681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantitative fact, formulate the definitive arithmetic or algebraic expression that resolves the problem, compute it using only essential verification steps, and output solely the final numeric value on a single line.",
+      "train_score": 0.16216216216216217,
+      "train_step": 99,
+      "test_score": 0.1470811220621683,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data, form the simplest exact expression that resolves the query, compute it with only essential verification steps, and print the single numeric answer alone on one line.",
+      "train_score": 0.13513513513513514,
+      "train_step": 99,
+      "test_score": 0.14025777103866566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeric datum, construct the minimal exact formula that answers the question, evaluate it with only indispensable intermediate verification, and output solely the final number on one line.",
+      "train_score": 0.1891891891891892,
+      "train_step": 99,
+      "test_score": 0.13646702047005307,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate every numeric piece of information, construct the minimal exact mathematical statement that answers the question, evaluate it while performing only necessary sanity checks, and print only the resulting number on its own line.",
+      "train_score": 0.14864864864864866,
+      "train_step": 99,
+      "test_score": 0.11220621683093253,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9188779378316907,
+    "avg_test_score": 0.696920466442832,
+    "best_test_instruction": "Isolate every numerical quantity, translate the problem into a single clear mathematical expression (or a set of linked expressions), compute the exact result using appropriate arithmetic or algebra, confirm the computation, and present solely the final numeric answer."
+  }
+}

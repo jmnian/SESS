@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a brief, self\u2011contained solution. After the necessary reasoning, write the exact final answer on its own line as a LaTeX display, i.e. `$$<value>$$`. No other characters or text may appear before or after that line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 92,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution. After the essential reasoning, place the exact final answer alone on the last line surrounded by double parentheses \u201c((\u2026))\u201d. No other characters, spaces, or text may appear before or after that line.",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6875,
+      "train_step": -1,
+      "test_score": 0.734917161613004,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nProvide a brief, self\u2011contained solution: present the essential reasoning and calculations, then output the exact answer as a plain number on the very last line, with no surrounding text.\\n",
+      "train_score": 0.6875,
+      "train_step": 16,
+      "test_score": 0.7333541731791184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question with a concise, self\u2011contained solution: provide only the essential reasoning, perform the required computation, and place the final numeric or symbolic result alone on the last line\u2014no extra text.",
+      "train_score": 0.6875,
+      "train_step": 15,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution; after the essential reasoning, place the exact final answer (numeric or symbolic) on a single line that contains only \u201cAnswer:\u201d followed by the value, with no other text before or after that line.",
+      "train_score": 0.6875,
+      "train_step": 45,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution. After the essential reasoning, place the exact final answer on its own line enclosed in a single pair of dollar signs (\u202f$\u2026$\u202f). No other text or symbols may appear before or after that line.",
+      "train_score": 0.6875,
+      "train_step": 40,
+      "test_score": 0.718974679587371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give only the essential reasoning and calculation, then place the exact final answer (numeric or symbolic) as the sole content of the last line\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.6875,
+      "train_step": 16,
+      "test_score": 0.7114723351047202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution. After any necessary reasoning, write only the final answer (numeric or algebraic) on the last line, without any extra characters, labels, or formatting.",
+      "train_score": 0.6875,
+      "train_step": 37,
+      "test_score": 0.7086589559237262,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution: include only the essential reasoning and calculations, then finish with the exact final answer on a single line wrapped in one pair of backticks (\u202f`\u2026`\u202f) with no other text.",
+      "train_score": 0.7083333333333334,
+      "train_step": 90,
+      "test_score": 0.7014692091278525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the solution by presenting only the indispensable reasoning and calculations, and finish with the answer as the sole content on the last line.",
+      "train_score": 0.6875,
+      "train_step": 2,
+      "test_score": 0.7008440137542982,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, self\u2011contained solution: state the decisive principle, perform only the necessary calculations, and conclude with the answer alone on the final line, prefixed by \u201cAnswer = \u201d and nothing else.",
+      "train_score": 0.6875,
+      "train_step": 14,
+      "test_score": 0.6961550484526414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a compact solution; after the necessary reasoning, write the exact result on a new line beginning with 'Result=' and nothing else on that line. No other output after that.",
+      "train_score": 0.6875,
+      "train_step": 44,
+      "test_score": 0.6874023132228821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution. After the minimal reasoning, output the answer as a plain JSON object on a single line, e.g. {\"answer\": <value>}. No other text may appear before or after this line.",
+      "train_score": 0.6875,
+      "train_step": 23,
+      "test_score": 0.687089715536105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained solution. After the essential reasoning, output only the final answer on the very last line\u2014exact numeric or algebraic value with no surrounding text, symbols, or formatting.",
+      "train_score": 0.6875,
+      "train_step": 31,
+      "test_score": 0.6639574867145983,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve the problem using a minimal, self\u2011contained explanation. Show only the necessary reasoning; then on the very last line output the exact answer alone, enclosed in a single pair of angle brackets \u00abanswer\u00bb. Do not include any other text before or after that line.\\n",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.6483276023757424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution. After the necessary reasoning, place the exact final answer alone on a single line inside a fenced Markdown code block (no extra characters inside the block). No other text may appear before or after that code block.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.6239449828071272,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After a concise explanation, output the result on the final line as a plain number or expression enclosed in double vertical bars |...|, with nothing else before or after that line.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.5532979055954986,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution: present only the essential reasoning (no more than three short sentences), then finish with a line that consists solely of the exact answer enclosed in triple braces `{{{\u2026}}}`. No other text may appear before or after that line.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.5170365739293529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution. After the minimal necessary reasoning, output exactly one line containing only the final answer as a plain number or algebraic expression, without any surrounding text, symbols, or whitespace. No other output may precede or follow this line.",
+      "train_score": 0.4375,
+      "train_step": 99,
+      "test_score": 0.4442013129102845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a self\u2011contained solution. After the necessary reasoning, print only the numeric or algebraic result on a line that starts with \u201c= \u201d (equal sign followed by a space) and contains nothing else. No other output is allowed.",
+      "train_score": 0.4375,
+      "train_step": 99,
+      "test_score": 0.41387933729290405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7502344482650828,
+    "avg_test_score": 0.6619330445526131,
+    "best_test_instruction": "Provide a brief, self\u2011contained solution. After the necessary reasoning, write the exact final answer on its own line as a LaTeX display, i.e. `$$<value>$$`. No other characters or text may appear before or after that line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the problem statement, collect every explicit quantity (write any percent or ratio as an exact fraction). Using only these quantities together with the four basic operations\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7\u202fand parentheses, form a single mathematically exact expression that evaluates to the required answer (you may omit numbers that are not needed). Compute the expression step\u2011by\u2011step, briefly checking each intermediate result, and output only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 56,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric value in the problem (write percentages or ratios as exact fractions). Using only those values and the operations\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7\u202fwith parentheses, form one exact arithmetic expression that directly yields the required answer. Compute the expression step\u2011by\u2011step, briefly verify each intermediate result, and output only the final number.",
+      "train_score": 1.0,
+      "train_step": 55,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem extract all given numbers (write percentages/ratios as exact fractions). Using only those numbers and the four basic operations (+, \u2013, \u00d7, \u00f7) with parentheses, form one exact rational expression that equals the asked quantity. Compute the expression step\u2011by\u2011step, briefly checking each intermediate result, and output only the final number.",
+      "train_score": 1.0,
+      "train_step": 55,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric datum from the problem (convert percentages, ratios, and units to exact fractions or whole numbers). Using only those values each at most once and the operations +, \u2013, \u00d7, \u00f7 together with parentheses, devise a single exact arithmetic expression that yields the requested quantity. Evaluate it step\u2011by\u2011step, briefly confirming each intermediate result, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 63,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric quantity in the problem (convert percentages, ratios, and units to exact fractions). Assign each a distinct symbol and, using each symbol at most once, build a single fully parenthesized arithmetic expression that employs only +, \u2212, \u00d7, \u00f7 and evaluates to the required result. Compute the expression step\u2011by\u2011step, briefly validating each intermediate value, and finally output only the final number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every explicit quantity in the problem, rewrite percentages or ratios as exact fractions, then using only those numbers together with the operators\u202f+\u202f\u2212\u202f\u00d7\u202f\u00f7\u202fand parentheses construct a single closed\u2011form rational expression that equals the requested value. Evaluate the expression in the natural order, briefly check each intermediate result for plausibility, confirm that the final result meets all stated conditions, and output only that final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 48,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all explicit numeric quantities in the problem (rewrite percentages, ratios, and time units as exact fractions). Assign each a distinct variable, then combine them in one fully parenthesized rational expression using only +, \u2212, \u00d7, \u00f7 that yields the required answer. Evaluate the expression sequentially, briefly confirming each intermediate result, and output only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 60,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric value in the problem (express percentages, ratios, and time units as exact fractions). Assign each a unique placeholder and, using each placeholder at most once, combine them with only +, \u2212, \u00d7, \u00f7 and parentheses to form one fully\u2011parenthesized rational expression that equals the asked quantity. Evaluate the expression in order, briefly confirming each intermediate result, and output only the final number.",
+      "train_score": 1.0,
+      "train_step": 71,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all explicit numbers, turn any percent or ratio into an exact fraction, assign each a unique one\u2011letter variable, then form ONE shortest exact rational expression that uses each variable at most once together with +, \u2013, \u00d7, \u00f7 and parentheses and evaluates to the required quantity. Compute the expression step\u2011by\u2011step, briefly checking each intermediate result, confirm the final value satisfies every condition, and output ONLY that final number.",
+      "train_score": 1.0,
+      "train_step": 44,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all given numbers, encode them as symbols, produce the one exact arithmetic expression that answers the question, compute it in order showing each intermediate value with a short sanity check, verify the final value fulfills all conditions, and output only that number.",
+      "train_score": 1.0,
+      "train_step": 8,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all literal numbers from the statement (rewrite percentages, ratios and units as exact fractions). Using only these numbers, each no more than once, and the operators\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7\u202fwith parentheses, compose a single mathematically exact formula that directly yields the asked\u2011for value. Evaluate the formula step\u2011by\u2011step, performing a brief plausibility check after each computation, and output only the final number.",
+      "train_score": 1.0,
+      "train_step": 65,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric constant in the problem (including percentages, ratios, and unit conversions) and encode each as an exact rational value with a unique placeholder. Using each placeholder at most once, construct a single fully parenthesized expression employing only +, \u2013, \u00d7, \u00f7 that computes the required result. Evaluate the expression step\u2011by\u2011step, briefly checking each intermediate outcome for consistency, and output solely the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every explicit numeric value given (turn any percent or ratio into an exact fraction), then write ONE fully parenthesized arithmetic expression that combines only those numbers with the operations +, \u2013, \u00d7, \u00f7 to obtain the requested quantity. Compute the expression in order, briefly verify each intermediate result, and output only the final number.",
+      "train_score": 1.0,
+      "train_step": 48,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement pull all constants, give each a unique alphabetic token, translate percentages and ratios to exact fractions, then combine the tokens in one mathematically precise formula (allowed operators: +\u00a0\u2212\u00a0\u00d7\u00a0\u00f7 and parentheses) that directly yields the unknown quantity. Evaluate the formula in order, briefly confirming each intermediate value, and finally check that the computed number fulfills every condition mentioned. Return only this final numeric result.",
+      "train_score": 1.0,
+      "train_step": 32,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert all given quantities to exact fractions, label each with a distinct symbol, then construct the shortest possible fully\u2011parenthesized expression using each symbol at most once and only the operations\u202f+\u202f\u2212\u202f\u00d7\u202f\u00f7 that yields the required result. Evaluate the expression step\u2011by\u2011step, briefly checking each intermediate value, and output only the final number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, assign each a unique one\u2011letter symbol, write the minimal exact arithmetic formula that gives the answer, evaluate it step\u2011by\u2011step with quick sanity checks, confirm the result satisfies all constraints, and output only the final number.",
+      "train_score": 1.0,
+      "train_step": 21,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number and every comparative phrase (\u201ctwice\u201d, \u201cthrice\u201d, \u201chalf as many\u201d, etc.) from the problem, translate all of them into exact rational values, assign each a distinct symbol, and combine the symbols once each with only\u202f+,\u202f\u2013,\u202f\u00d7,\u202f\u00f7\u202fand parentheses to form one fully\u2011parenthesized expression that yields the asked quantity. Compute the expression step\u2011by\u2011step, give a brief sanity check after each operation, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every explicit numeric quantity in the problem (convert percentages, ratios, and unit conversions to exact fractions). Assign each a unique one\u2011letter symbol. Using each symbol exactly once, construct a single fully parenthesized expression that employs only the operators\u202f+\u202f\u2212\u202f\u00d7\u202f\u00f7 and evaluates to the required answer. Compute the expression step\u2011by\u2011step, providing a brief sanity check after each operation, and finally output only the resulting number.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all explicit numbers (converting percentages, ratios, and units to exact fractions). Give each a unique symbol. Form one fully\u2011parenthesized rational formula that uses each symbol at most once, employs only +, \u2013, \u00d7, \u00f7, and contains the fewest possible operations while still yielding the answer. Evaluate the formula sequentially, checking each intermediate value, and output only the final number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.846095526914329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric constant, turn percentages and ratios into exact fractions, label each with a distinct token, then create a single fully\u2011parenthesized rational expression that uses each token at most once and only the operators\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7 to compute the asked quantity. Evaluate the expression step\u2011by\u2011step, giving a quick sanity check after each operation, and finally output only the resulting number.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.9054054054054054,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9097801364670205,
+    "avg_test_score": 0.8846167731687063,
+    "best_test_instruction": "From the problem statement, collect every explicit quantity (write any percent or ratio as an exact fraction). Using only these quantities together with the four basic operations\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7\u202fand parentheses, form a single mathematically exact expression that evaluates to the required answer (you may omit numbers that are not needed). Compute the expression step\u2011by\u2011step, briefly checking each intermediate result, and output only the final numeric value."
+  }
+}

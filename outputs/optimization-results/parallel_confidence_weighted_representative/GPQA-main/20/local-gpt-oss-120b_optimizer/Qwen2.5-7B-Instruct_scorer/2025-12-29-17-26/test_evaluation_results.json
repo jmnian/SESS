@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Respond with only the correct answer in the format \"Choice X\", where X is the capital letter (A\u2011D). Do not include any other characters, spaces, or text.",
+      "train_score": 0.38202247191011235,
+      "train_step": 91,
+      "test_score": 0.35044642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the correct option and respond with exactly \u201cAnswer: X\u201d, where X is the capital letter (A\u2011D) of the right choice. Do not include any additional text, symbols, or spaces.",
+      "train_score": 0.3707865168539326,
+      "train_step": 14,
+      "test_score": 0.3482142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly the phrase \u201cAnswer is X\u201d, where X is the correct option letter (A\u2011D). Include no other characters, spaces, or punctuation.",
+      "train_score": 0.38202247191011235,
+      "train_step": 98,
+      "test_score": 0.34598214285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output the correct choice as a single uppercase letter (A\u2011D) with no surrounding characters, followed immediately by a period.\\n",
+      "train_score": 0.39325842696629215,
+      "train_step": 41,
+      "test_score": 0.34375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply with only the correct answer in the format \u201cOption X\u201d where X is the capital letter A\u2011D. No other characters, spaces, or explanations are allowed.",
+      "train_score": 0.38202247191011235,
+      "train_step": 61,
+      "test_score": 0.3392857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the correct choice letter (A\u2011D) prefixed by the word Answer without any spaces or punctuation, e.g., AnswerB.",
+      "train_score": 0.39325842696629215,
+      "train_step": 68,
+      "test_score": 0.33705357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output the correct answer as a single uppercase letter (A\u2011D) enclosed in double quotation marks (e.g., \"C\"). No other characters, spaces, or explanations are allowed.",
+      "train_score": 0.38202247191011235,
+      "train_step": 63,
+      "test_score": 0.33705357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one character\u2014the correct answer\u2019s capital letter (A\u2011D) enclosed in single square brackets, e.g., [C]. No other symbols, spaces, or line breaks are allowed.",
+      "train_score": 0.3707865168539326,
+      "train_step": 79,
+      "test_score": 0.33705357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct option and reply with only its capital letter (A\u2011D) enclosed in parentheses, e.g., (C). No other text or symbols are allowed.",
+      "train_score": 0.4044943820224719,
+      "train_step": 11,
+      "test_score": 0.33482142857142855,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.30337078651685395,
+      "train_step": -1,
+      "test_score": 0.3236607142857143,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above\". Likely they compare exact string?",
+      "train_score": 0.39325842696629215,
+      "train_step": 25,
+      "test_score": 0.31919642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly \u201cAnswer:X\u201d where X is the correct option letter (A-D) without any spaces or additional characters.",
+      "train_score": 0.38202247191011235,
+      "train_step": 96,
+      "test_score": 0.31919642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply with exactly one character\u2014the correct answer (A\u2011D)\u2014wrapped between two asterisks, e.g., *C*. No other text, spaces, or symbols may appear.",
+      "train_score": 0.33707865168539325,
+      "train_step": 99,
+      "test_score": 0.3169642857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "[ instruction text ]",
+      "train_score": 0.2808988764044944,
+      "train_step": 99,
+      "test_score": 0.29910714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\" and end with \"",
+      "train_score": 0.3707865168539326,
+      "train_step": 6,
+      "test_score": 0.296875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output the correct option letter (A\u2011D) exactly once, prefixed by \u201cAnswer:\u201d and followed by a single space and a brief justification (\u22648 words). No other text.",
+      "train_score": 0.25842696629213485,
+      "train_step": 99,
+      "test_score": 0.2924107142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with ONLY the correct option letter (A\u2011D) surrounded by double curly braces, without any additional characters or spaces, e.g., {{C}}.",
+      "train_score": 0.3707865168539326,
+      "train_step": 85,
+      "test_score": 0.29017857142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the correct answer choice as a single uppercase letter (A\u2011D) with no surrounding characters, spaces, or punctuation.",
+      "train_score": 0.2808988764044944,
+      "train_step": 99,
+      "test_score": 0.27901785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with only the correct answer letter (A\u2011D) surrounded by three asterisks on each side, e.g., *B*. Do not include any other characters, spaces, or line breaks.",
+      "train_score": 0.2247191011235955,
+      "train_step": 99,
+      "test_score": 0.2767857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly one character\u2014the correct answer choice (A, B, C, or D)\u2014surrounded by a pair of angle brackets with no spaces or any other characters, e.g., <C>.",
+      "train_score": 0.38202247191011235,
+      "train_step": 68,
+      "test_score": 0.2767857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the correct option letter (A\u2011D) surrounded by double square brackets with no spaces or other characters, e.g., [[C]].",
+      "train_score": 0.38202247191011235,
+      "train_step": 93,
+      "test_score": 0.2700892857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.35044642857142855,
+    "avg_test_score": 0.3159013605442177,
+    "best_test_instruction": "Respond with only the correct answer in the format \"Choice X\", where X is the capital letter (A\u2011D). Do not include any other characters, spaces, or text."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract the target quantity, invoke the most efficient theorem or formula, compute it in a single concise, justified step, perform a quick consistency check, and output only the final exact value (integer, reduced fraction, or decimal when non\u2011integral).",
+      "train_score": 0.8541666666666666,
+      "train_step": 19,
+      "test_score": 0.7564864020006252,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential variables, form the single governing equation or counting relation, evaluate it in a brief, clearly justified computation, perform a rapid consistency check, and output only the exact final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 9,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the problem type, apply the appropriate principle in a few logical steps, verify the computation, and output only the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the specific number requested, choose the most direct mathematical tool, carry out a brief, clearly justified computation, perform an immediate consistency check, and output only the exact final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 10,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single numeric result the question asks for, execute the shortest complete calculation (one justified step whenever possible), quickly check the magnitude for reasonableness, and output exclusively the final value in its simplest exact form (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.8333333333333334,
+      "train_step": 26,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single quantity the problem asks for, apply the most straightforward calculation or theorem to obtain it, justify each step succinctly, verify the result's size, and output ONLY the exact answer (integer, reduced fraction, or terminating/recurring decimal) on a separate line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the precise quantity requested, apply the single most relevant formula or counting argument, compute it in at most two justified operations, quickly verify the result, and output only the final value in its simplest exact form (integer, reduced fraction, or decimal when non\u2011integral).",
+      "train_score": 0.8541666666666666,
+      "train_step": 19,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what numerical value the problem asks for, choose the most efficient principle or shortcut, carry out a brief, clearly justified calculation, perform a quick sanity check, and output only the exact final answer (integer, reduced fraction, or decimal as appropriate).",
+      "train_score": 0.8541666666666666,
+      "train_step": 18,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Focus on the quantity asked, apply the simplest appropriate theorem or counting rule, work out the calculation in a concise, line\u2011by\u2011line logical chain, verify the result with a quick sanity check, and end with a single line that contains only the exact numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 8,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the exact number the problem requests; apply the one\u2011line formula or counting argument that directly gives it; compute that expression in a single, fully justified step; do a quick plausibility check; and output only the resulting exact value (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.8333333333333334,
+      "train_step": 23,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the single numeric result the problem seeks; write the shortest correct expression that yields it, evaluate that expression in a single, fully justified step, perform a quick consistency check, and output only the exact answer (as an integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.8333333333333334,
+      "train_step": 33,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break down the problem, explain the reasoning and formulas applied at each step, compute systematically, and finish with the exact numerical answer, confirming its correctness.",
+      "train_score": 0.8541666666666666,
+      "train_step": 1,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact numeric quantity asked, select the single most direct formula or algebraic manipulation that yields it, carry out the computation in at most two clearly justified steps, perform a quick sanity check, and output ONLY the final answer (as an integer, reduced fraction, or terminating decimal as appropriate).",
+      "train_score": 0.8333333333333334,
+      "train_step": 26,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the exact quantity the problem requests, use the single most efficient principle or identity that yields it, compute the result in a concise, fully justified step (splitting only if absolutely necessary), perform a quick sanity check, and output only the final exact value (integer, reduced fraction, or terminating/recurring decimal) on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 70,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, pinpoint the single quantity the problem asks for. In one concise sentence, state the main theorem, identity, or counting principle that yields it. Carry out the necessary computation in the fewest justified steps (splitting only if unavoidable), perform a quick sanity check, and finally write only the exact result (integer, reduced fraction, or terminating/recurring decimal) on the last line of your response.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6698968427633636,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the exact value the problem requires. Choose the shortest sound argument (one formula, identity, or counting argument) that produces that value, write it as a single evaluable expression, evaluate it with a concise justification, quickly verify its plausibility, and present only the resulting integer, reduced fraction or terminating/recurring decimal on its own line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.5404814004376368,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the unique quantity the problem requests, select the single most straightforward formula or counting argument that yields it, perform that computation in one justified step (splitting only if inevitable), quickly confirm its plausibility, and output only the final exact value (integer, reduced fraction, or terminating/recurring decimal) on its own line.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.46983432322600815,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the precise numeric answer required, obtain it with the most direct calculation (at most a single algebraic step), confirm its plausibility, and output only that value\u2014written as an integer, a reduced fraction, or a terminating/recurring decimal\u2014on a separate line.",
+      "train_score": 0.375,
+      "train_step": 99,
+      "test_score": 0.323538605814317,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the exact quantity asked for, perform the quickest valid calculation (ideally a single algebraic step), confirm its plausibility, and write only the resulting number (integer, reduced fraction, or terminating/recurring decimal) on its own line, without any additional commentary.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.20006251953735543,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the single number the question requires, compute it by the shortest fully justified method (one essential step, extra trivial sub\u2011steps allowed only if unavoidable), check its magnitude quickly, and output only that final exact value (integer, reduced fraction or terminating/recurring decimal) on its own line\u2014nothing else.",
+      "train_score": 0.25,
+      "train_step": 99,
+      "test_score": 0.16723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7564864020006252,
+    "avg_test_score": 0.6455737656112773,
+    "best_test_instruction": "Extract the target quantity, invoke the most efficient theorem or formula, compute it in a single concise, justified step, perform a quick consistency check, and output only the final exact value (integer, reduced fraction, or decimal when non\u2011integral)."
+  }
+}

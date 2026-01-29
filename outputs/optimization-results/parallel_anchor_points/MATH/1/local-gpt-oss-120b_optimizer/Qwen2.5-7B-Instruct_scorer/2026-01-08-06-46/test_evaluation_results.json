@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Isolate the target quantity, map the problem to the most direct theorem or shortcut, compute it in a single valid operation, quickly confirm consistency with all constraints, and present solely the final answer in the required numeric form.",
+      "train_score": 0.8125,
+      "train_step": 35,
+      "test_score": 0.7618005626758362,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, identify the exact numerical value required, translate all given information into a single mathematically precise expression using the most appropriate concept, compute it using the simplest valid steps, verify the result against the original conditions, and output only the final answer in the requested format.",
+      "train_score": 0.8333333333333334,
+      "train_step": 43,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract the core quantity to compute, translate given information into the minimal mathematical expression, solve it using the most direct method, check the result against the original conditions, and output only the final numeric answer (rounded or expressed as a decimal if required).",
+      "train_score": 0.7916666666666666,
+      "train_step": 5,
+      "test_score": 0.7608627696155048,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity the problem requests, convert all given information into the simplest correct mathematical expression (using the appropriate concept such as combinatorics, algebra, or number theory), compute it with the most direct valid steps, perform a brief consistency check with the original conditions, and output only the final numeric answer in the required format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 15,
+      "test_score": 0.7589871834948422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Discern the specific value the problem asks for, rewrite the entire situation as a single exact mathematical expression or computation that uses the most suitable principle, evaluate it with the most direct valid steps, quickly confirm it satisfies all stated conditions, and output only the final numeric result in the format requested.",
+      "train_score": 0.7916666666666666,
+      "train_step": 23,
+      "test_score": 0.7561738043138481,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the single numeric result the problem requests, encode all conditions into one exact computation that employs the most fitting theorem or formula, carry out the computation using the minimal legitimate operations, perform a brief verification against the original constraints, and output only that final value in the required form (integer, lowest\u2011terms fraction, or correctly rounded decimal).",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Focus on the single value requested; convert the problem into the most direct mathematical formulation (single equation or closed\u2011form expression) using the appropriate theory, evaluate it in the smallest number of valid operations, verify it satisfies the given conditions, and output only the final answer in the required numeric format (integer or reduced fraction or decimal).",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact quantity requested, rewrite the whole problem as a single correct formula or computation using the appropriate concept, evaluate it directly, perform a quick sanity check, and output only the final numeric answer in the format specified (integer, reduced fraction, or decimal).",
+      "train_score": 0.8125,
+      "train_step": 26,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the exact quantity to find, convert the given information into the simplest direct formula or equation, evaluate it using the most efficient calculation, do a brief consistency check, and present only the final numeric answer in the required format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 10,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the single number the question requires, rewrite the whole situation as one precise formula that employs the most suitable principle, compute that formula in the minimal number of valid steps, briefly confirm the result satisfies the original statement, and return only the final answer formatted as an integer, reduced fraction or correctly rounded decimal.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the single number the problem asks for, convert the whole statement into one exact mathematical expression that uses the optimal principle, evaluate that expression directly (no intermediate symbolic work), quickly verify it satisfies the given constraints, and return only the final answer in the format specified (integer, reduced fraction, or decimal).",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, isolate the exact quantity being asked, rewrite the given information as the simplest correct mathematical expression (equation, count, or probability), solve it using the most direct valid method, perform a brief consistency check with the original conditions, and output only the final answer in the required format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 14,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the single quantity being asked, convert all given data into the most direct mathematical formula, compute it in the minimum number of valid steps, perform a quick sanity check against the original statement, and output only the final answer in the required numeric form (integer, reduced fraction or decimal).",
+      "train_score": 0.7916666666666666,
+      "train_step": 41,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the target value, formulate a single exact expression that captures the whole problem with the most efficient theorem, evaluate it in the minimal number of steps, validate the result against the original constraints, and return only the final numeric answer in the format requested (integer, reduced fraction or decimal).",
+      "train_score": 0.7916666666666666,
+      "train_step": 40,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the sole numeric quantity the problem asks for, express the entire situation with one exact equation or formula that employs the most appropriate concept, compute it using the minimum number of valid steps, perform a brief sanity check against the given conditions, and output only that final number in the requested format (integer, reduced fraction or decimal).",
+      "train_score": 0.7916666666666666,
+      "train_step": 55,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the required numeric value, translate the entire problem into its optimal closed\u2011form expression or shortcut, compute it in the fewest legitimate operations, perform a quick sanity check against the original conditions, and output only that final result in the requested format (integer, reduced fraction or decimal).",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Spot the unique value the question seeks, express the entire situation as one exact formula or direct computation that applies the most suitable principle, evaluate it in the fewest valid steps, do a quick sanity check with the original data, and output solely the final number in the required form (integer, reduced fraction, or decimal).",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity asked, map the problem to the most appropriate known formula or shortcut, apply it directly using the given numbers, perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 6,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, identify the relevant mathematical concepts, and develop a step-by-step solution that leads to the correct answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.7236636448890278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact value required, encode the whole problem as one precise mathematical expression using the most appropriate theorem, evaluate it in the fewest correct steps, double\u2011check against the original statements, and output only that final number in the specified format (integer, reduced fraction or properly rounded decimal).",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6874023132228821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7618005626758362,
+    "avg_test_score": 0.7456347965882196,
+    "best_test_instruction": "Isolate the target quantity, map the problem to the most direct theorem or shortcut, compute it in a single valid operation, quickly confirm consistency with all constraints, and present solely the final answer in the required numeric form."
+  }
+}

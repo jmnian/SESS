@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a short, logical solution: identify the core idea, carry out the required computation, and finish with the final answer (or expression) displayed by itself on the last line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 1,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question and state the target quantity. Identify the one fundamental theorem or formula needed. Perform just the necessary calculations, providing a brief justification for each step. Conclude by writing only the final numeric answer (or simplified expression) on a line by itself.",
+      "train_score": 0.7083333333333334,
+      "train_step": 12,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem, identify the key ideas needed, carry out the calculations in a clear step\u2011by\u2011step manner, and end with the final answer (or expression) presented on a line by itself.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.75054704595186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6666666666666666,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "[our instruction]",
+      "train_score": 0.7291666666666666,
+      "train_step": 96,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, identify the single crucial insight or formula needed, perform only the essential calculations with concise justification, and finish by writing the exact answer (or simplified expression) on a line by itself.",
+      "train_score": 0.6875,
+      "train_step": 7,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, determine the exact quantity requested, select the single most relevant formula or logical rule, perform only the necessary calculations with brief justification, optionally check the result, and end the response with a line containing only the final answer formatted as required (e.g., \u201cAnswer: <value>\u201d). No extra text after that line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 83,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State briefly what is being asked. Pinpoint the single principle or operation that solves it. Perform only the necessary steps, giving a short justification for each. If a quick sanity check is evident, include it. Conclude with a line containing exactly \u201cAnswer:\u201d followed by the final value (integer, reduced fraction or simplified expression) and nothing else.",
+      "train_score": 0.7291666666666666,
+      "train_step": 64,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence. Identify the exact quantity being asked and the one principle (theorem, definition, or arithmetic fact) that yields it. Carry out only the necessary computation, writing each step on its own line with a brief justification (e.g., \u201cby definition\u201d, \u201cby divisibility\u201d). If a quick sanity check is apparent, note it in one short line. End the response with a line that reads exactly\u202f`Answer: <result>` and no other text.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.7202250703344796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine precisely what the problem asks, pinpoint the one essential theorem or formula needed, carry out the minimal valid computation with brief justification, optionally verify the outcome, and finish by writing only the final numeric result on a new line preceded solely by \u201cResult:\u201d.",
+      "train_score": 0.6875,
+      "train_step": 11,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question succinctly, name the lone principle that solves it, execute the minimal arithmetic or algebra required with a short justification for each move, optionally perform a quick consistency check, and close the answer with a sole line `Answer: <value>` without any additional characters.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.7099093466708346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in one brief sentence, name the single principle or theorem required, carry out the minimal necessary calculations with a concise justification for each step (including a quick sanity check if obvious), and finish with a line containing only \u201cAnswer:\u201d followed by the exact result.",
+      "train_score": 0.6875,
+      "train_step": 8,
+      "test_score": 0.7077211628633948,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the question, pinpoint the single mathematical tool required, carry out only the indispensable steps with concise justification (add a quick check when obvious), and finish by writing only the final numeric value or simplified expression on a line by itself.",
+      "train_score": 0.7291666666666666,
+      "train_step": 6,
+      "test_score": 0.69521725539231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State in one concise sentence the quantity being sought. Identify the single mathematical principle (formula, theorem, or definition) that gives that quantity. Carry out the minimal chain of calculations required, labeling each step with a brief justification. If a quick sanity check is evident, include it. Finish the answer with a line that reads exactly\u202f`Answer: <result>` and no other text.",
+      "train_score": 0.7083333333333334,
+      "train_step": 78,
+      "test_score": 0.6792747733666771,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one concise sentence. Name the single mathematical rule that solves it. Then, in a numbered list, carry out only the necessary operations\u2014each step on its own line with a brief justification (no extra exposition). If an obvious sanity check exists, include it as the last numbered step. Finally, write a separate line that reads exactly \u201cAnswer: <result>\u201d and nothing else.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.6761487964989059,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem carefully. State in one sentence what is being asked. Pinpoint the core theorem, identity, or operation needed. Write a succinct solution that includes only the necessary algebraic or arithmetic steps, each accompanied by a brief logical justification. Optionally verify the result with a quick check, then place the final numeric answer (or simplified expression) alone on the last line, preceded only by \u201cAnswer:\u201d.",
+      "train_score": 0.6875,
+      "train_step": 6,
+      "test_score": 0.6648952797749297,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- State in one sentence what number is required.\n- Mention the single formula/definition that gives it.\n- Execute the minimal calculation, writing each operation on its own line with a short comment.\n- (Optional) Perform a quick consistency check.\n- End with a line containing only `Answer: <value>`; nothing else may appear before or after that line.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.631447327289778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in a single sentence, identify the essential concept or formula, perform only the necessary calculations with brief justification, and conclude by writing the exact answer (or expression) on a line by itself.",
+      "train_score": 0.6875,
+      "train_step": 2,
+      "test_score": 0.6148796498905909,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the question in a single concise sentence.  \n- Cite the one indispensable mathematical fact (formula, theorem, or rule) that solves it.  \n- Execute only the necessary computation, giving a short justification for each arithmetic or logical move.  \n- If a trivial sanity check is apparent, mention it in one clause.  \n- Conclude with a line that contains exactly \u201cAnswer: <result>\u201d and no other text.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.6039387308533917,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Summarize the request in a single sentence.  \n- Point out the one key theorem, definition or arithmetic rule that solves it.  \n- Carry out only the necessary computation, writing each step on its own line with a brief justification.  \n- If an obvious sanity check is available, note it.  \n- End the response with only the final numeric answer (or reduced fraction / simplified expression) on a line by itself\u2014no words, symbols or extra text before or after.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.5770553297905595,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.761175367302282,
+    "avg_test_score": 0.699429881361735,
+    "best_test_instruction": "Give a short, logical solution: identify the core idea, carry out the required computation, and finish with the final answer (or expression) displayed by itself on the last line."
+  }
+}

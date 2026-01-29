@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present a concise, step-by-step solution including all necessary calculations; explicitly state the final answer on a separate line, and ensure the answer is presented as a number (integer or decimal) without extra commentary.",
+      "train_score": 0.8117647058823529,
+      "train_step": 1,
+      "test_score": 0.5423569865582994,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a complete, step\u2011by\u2011step solution that includes all required calculations and logical justification, then double\u2011check the result and present only the final answer (numeric, exact or appropriately rounded).",
+      "train_score": 0.7823529411764706,
+      "train_step": 1,
+      "test_score": 0.5423569865582994,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logical solution: outline the needed steps, perform any calculations, confirm the result, and then output only the final number (integer or decimal) on its own line, without any extra characters or whitespace.",
+      "train_score": 0.8,
+      "train_step": 18,
+      "test_score": 0.5264145045326665,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, giving only the necessary reasoning and calculations (showing key steps). Verify the result, then output exactly one number\u2014the final answer (integer or decimal)\u2014on a single line by itself, with no additional text, symbols, units, or whitespace, and apply any required rounding as stated.",
+      "train_score": 0.788235294117647,
+      "train_step": 13,
+      "test_score": 0.5229759299781181,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief logical justification and perform only the required calculations. After verifying the result, output a single line that contains solely the final numeric answer (integer or decimal) with no surrounding characters, spaces, or punctuation.",
+      "train_score": 0.7941176470588235,
+      "train_step": 30,
+      "test_score": 0.5220381369177868,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, logically ordered solution that includes only the essential reasoning and calculations. After verifying the result, output a single line that consists solely of the final numeric answer (integer or decimal, rounded as required), with no surrounding whitespace, punctuation, units, or markup.",
+      "train_score": 0.8058823529411765,
+      "train_step": 40,
+      "test_score": 0.5211003438574554,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution that includes only the essential reasoning and calculations. After verifying the result, output exactly one line containing only the final numeric answer (integer or decimal), with no surrounding whitespace, punctuation, units, markup, or any other characters before or after the number.",
+      "train_score": 0.788235294117647,
+      "train_step": 33,
+      "test_score": 0.5142231947483589,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution that includes only the essential reasoning and calculations. After confirming the result, output exactly one line containing just the final numeric answer (integer or decimal, rounded if required) with no surrounding characters, whitespace, or punctuation, and terminate the response immediately afterward.",
+      "train_score": 0.8117647058823529,
+      "train_step": 50,
+      "test_score": 0.5129728040012503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution: outline the key steps, perform the required calculations, double\u2011check the outcome, and then reply with a plain\u2011text line that contains only the final numeric value (integer or decimal), without any additional characters, formatting, or whitespace.",
+      "train_score": 0.788235294117647,
+      "train_step": 19,
+      "test_score": 0.5117224132541419,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct, logically ordered solution that includes only the necessary reasoning and calculations. After confirming the result, output exactly one line containing solely the final numeric answer (integer or decimal, rounded as required), with no surrounding characters, spaces, or punctuation, and end the response immediately.",
+      "train_score": 0.7823529411764706,
+      "train_step": 58,
+      "test_score": 0.5035948733979368,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution that presents only the essential reasoning and any required calculations. After verifying the result, output exactly one line containing the final numeric answer (integer or decimal) with no surrounding characters, spaces, units, or markup, and terminate the response immediately after that line.",
+      "train_score": 0.788235294117647,
+      "train_step": 68,
+      "test_score": 0.49859331040950294,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using only the indispensable steps and calculations. Once you have the result, output a single plain\u2011text line that consists solely of the final number (integer or decimal, rounded as required). The line must contain nothing else\u2014no spaces, punctuation, units, or formatting before or after the numeral\u2014and the response should end right after that line.",
+      "train_score": 0.7470588235294118,
+      "train_step": 99,
+      "test_score": 0.49046577055329793,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution: include only the essential reasoning and calculations, verify the result, and then output one plain\u2011text line containing exactly the final numeric answer (integer or decimal, rounded if necessary). The line must consist of the number alone\u2014no spaces, punctuation, units, markup, or other characters before or after it\u2014and the response should terminate right after that line.",
+      "train_score": 0.7941176470588235,
+      "train_step": 81,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7058823529411765,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by giving just the essential reasoning and calculations. After checking your result, output exactly one line that contains only the final numeric answer (integer or decimal), with no extra spaces, symbols, words, or formatting before or after the number.",
+      "train_score": 0.7823529411764706,
+      "train_step": 35,
+      "test_score": 0.4882775867458581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution that includes only the essential reasoning and calculations. After verifying the result, output a single plain\u2011text line containing exactly the final numeric answer (integer or decimal, rounded if required), with no surrounding characters, spaces, punctuation, units, or markup, and terminate the response immediately after that line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 99,
+      "test_score": 0.4876523913723038,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a short, self\u2011contained solution that includes the necessary reasoning and calculations only. After confirming the result, output a single line that contains exactly the final numerical answer (integer or decimal, rounded if required) with no surrounding characters, spaces, punctuation, units, or markup, and end the response immediately after that line.",
+      "train_score": 0.7294117647058823,
+      "train_step": 99,
+      "test_score": 0.4820256330103157,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that contains just the essential reasoning and calculations. Once the result is verified, output exactly one line with the final numeric answer (integer or decimal, rounded if required) and nothing else\u2014no surrounding whitespace, punctuation, units, or markup\u2014and terminate the response immediately after that line.",
+      "train_score": 0.7235294117647059,
+      "train_step": 99,
+      "test_score": 0.480150046889653,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a tight, self-contained derivation that includes only the indispensable steps and arithmetic. Once you have confirmed the result, reply with a single line that contains nothing but the final number (integer or decimal, rounded if needed). Do not include any other text, symbols, spaces, or formatting before or after the digit(s), and end your response immediately after that line.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.469521725539231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution. Once you are certain of the result, reply with exactly one line that consists solely of the final numeric value (integer or decimal, rounded if needed). The line must contain nothing else\u2014no spaces, symbols, units, markdown, or surrounding text\u2014and the message should terminate right after that line.",
+      "train_score": 0.6764705882352942,
+      "train_step": 99,
+      "test_score": 0.448265082838387,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a compact solution that includes only the indispensable steps to obtain the result. When you are sure of the value, reply with one plain\u2011text line that contains exactly the final number (integer or decimal, rounded if necessary), with no leading or trailing spaces, symbols, units, or markup, and nothing else after that line.",
+      "train_score": 0.5529411764705883,
+      "train_step": 99,
+      "test_score": 0.36855267271022196,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5423569865582994,
+    "avg_test_score": 0.49577993122850894,
+    "best_test_instruction": "Present a concise, step-by-step solution including all necessary calculations; explicitly state the final answer on a separate line, and ensure the answer is presented as a number (integer or decimal) without extra commentary."
+  }
+}

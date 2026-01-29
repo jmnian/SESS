@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem, showing the essential reasoning, and conclude with the final answer expressed as a single number (include a decimal point only when needed).",
+      "train_score": 0.8470588235294118,
+      "train_step": 1,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, concise solution with all necessary reasoning steps, and conclude by outputting only the final numeric answer (as a number, using a decimal point if required).",
+      "train_score": 0.8235294117647058,
+      "train_step": 1,
+      "test_score": 0.7527352297592997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution using standard mathematical notation (plain text or LaTeX). Explicitly cite any formula or theorem employed. After the reasoning, place only the final numeric result on a new line, expressed as an integer, a reduced fraction, or a decimal rounded to two places if it does not terminate. Ensure that no characters, spaces, or markup appear before or after that line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 90,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8235294117647058,
+      "train_step": 18,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a logically ordered solution using standard mathematical notation (plain text or LaTeX). After completing the reasoning, place the exact final answer alone on the very last line, expressed as an integer, a lowest\u2011terms fraction, or a terminating decimal (include a decimal point only when the value is not an integer). Ensure no other characters, spaces, or formatting appear before or after that line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 60,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.788235294117647,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, rigorous solution: state the main method, carry out the calculations with proper notation, and output only the final result as a plain number (include a decimal point only when the value is not an integer).",
+      "train_score": 0.8176470588235294,
+      "train_step": 2,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, logically ordered solution using correct mathematical notation; after the reasoning, output solely the final result as a single number (use a decimal point only if the value is not an integer).",
+      "train_score": 0.8294117647058824,
+      "train_step": 2,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution showing all necessary calculations using standard mathematical notation. After the reasoning, place the final result on a separate line by itself, expressed as an integer, a reduced fraction, or, if the exact value is non\u2011terminating, a decimal rounded to two decimal places. Do not include any other characters before or after that line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 35,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a complete, logically ordered solution with all calculations shown using standard mathematical notation (plain text or LaTeX). After the reasoning, place on a single line by itself the exact result: write it as an integer, a fraction in lowest terms, or, when the value cannot be expressed finitely, a decimal rounded to three decimal places. Ensure that no other characters, spaces, or markup appear before or after that final line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 90,
+      "test_score": 0.7327289778055642,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, clear solution that justifies each step, and finish by writing only the final numeric answer (as a plain number, using a decimal point only when the value is non\u2011integer).",
+      "train_score": 0.8294117647058824,
+      "train_step": 2,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a short, logically ordered solution using plain\u2011text mathematics (you may use LaTeX for formulas). After the explanation, place the exact result on the very last line alone, expressed as an integer, a fraction in lowest terms, or a terminating decimal (use a decimal point only when needed). Do not put any other characters, spaces or markup before or after that line.",
+      "train_score": 0.8,
+      "train_step": 99,
+      "test_score": 0.7233510472022507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution using standard mathematical notation (plain text or LaTeX). After the explanation, output only the exact numeric answer on a new line\u2014written as an integer, a lowest\u2011terms fraction, or a terminating decimal (use a decimal point only when the value is not an integer). No other characters, spaces, or markup may appear before or after that final line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 57,
+      "test_score": 0.7199124726477024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution that uses correct mathematical notation for all steps; after the reasoning, end the response with one line that contains only the final answer expressed in lowest terms (as an integer, a reduced fraction, or a decimal only when non\u2011terminating), and include nothing else.",
+      "train_score": 0.8176470588235294,
+      "train_step": 17,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, logically ordered solution using correct mathematical notation. After the reasoning, place exactly one line containing only the final numeric result\u2014write it as an integer, a fraction in lowest terms, or a terminating decimal (include a decimal point only when the value is not an integer). Ensure no other characters, spaces, or markup appear before or after that line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 99,
+      "test_score": 0.7052203813691779,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a brief, logically ordered solution using proper mathematical notation. After the reasoning, end the response with exactly one line that contains only the final numeric result\u2014expressed as an integer, a fraction in lowest terms, or a terminating decimal (include a decimal point only when needed). No other characters, spaces, or markup may appear before or after that line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 99,
+      "test_score": 0.7020944045014067,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem. Give a brief, logically ordered solution using correct mathematical notation; after the reasoning, output only the final answer on its own line (rounded to the nearest hundredth when the result is not an integer). Do not include any other text.",
+      "train_score": 0.8176470588235294,
+      "train_step": 18,
+      "test_score": 0.6933416692716474,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, well\u2011structured solution using correct mathematical notation (plain text or LaTeX). After the solution, place the exact answer on its own final line, formatted strictly as either an integer, a reduced fraction, or a terminating decimal (use a decimal point only when the value is not an integer). Do not include any other characters, spaces, Markdown syntax, or formatting before or after that line.",
+      "train_score": 0.7529411764705882,
+      "train_step": 99,
+      "test_score": 0.6874023132228821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize your reasoning briefly and logically, using proper mathematical notation. End the response with one line that contains only the exact answer\u2014expressed as an integer, a lowest\u2011terms fraction, or a terminating decimal (include a decimal point only when the value is not an integer). No other characters, spaces, or markup may appear before or after that line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 99,
+      "test_score": 0.6258205689277899,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a short, logically ordered solution using standard mathematical notation (plain text or LaTeX). After the argument, output exactly one line that contains only the final numeric result: an integer, a reduced fraction, or a terminating decimal (use a decimal point only if the value is not an integer). Do not place any characters, spaces, or markup before or after that line, and do not add any further text after it.",
+      "train_score": 0.31176470588235294,
+      "train_step": 99,
+      "test_score": 0.2713347921225383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct, step\u2011by\u2011step solution using standard mathematical notation (plain text, no LaTeX). After completing the reasoning, output only the exact result on a new line\u2014write it as an integer, a reduced fraction, or a terminating decimal (include a decimal point only if the value is not an integer). Ensure that line contains nothing else (no spaces, symbols, or formatting) before or after the number.",
+      "train_score": 0.2411764705882353,
+      "train_step": 99,
+      "test_score": 0.17192872772741483,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.755861206627071,
+    "avg_test_score": 0.6767591062683279,
+    "best_test_instruction": "Solve the problem, showing the essential reasoning, and conclude with the final answer expressed as a single number (include a decimal point only when needed)."
+  }
+}

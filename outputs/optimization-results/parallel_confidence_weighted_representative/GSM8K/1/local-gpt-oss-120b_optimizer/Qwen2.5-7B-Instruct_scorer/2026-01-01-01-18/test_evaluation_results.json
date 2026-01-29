@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all numeric data and relationships, compose the unique integer expression that satisfies the problem, evaluate it with exact arithmetic, perform a brief plausibility check, and output the integer answer on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, translate the story into one integer equation (handling any units or percentages without approximation), compute the result, do a quick sanity check, and print the integer answer alone.",
+      "train_score": 0.972972972972973,
+      "train_step": 73,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and condition, build the one exact integer formula required (applying any needed unit, fraction or percentage conversions without rounding), evaluate it precisely, do a quick sanity check, and output only the integer answer on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 72,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique integer that satisfies all conditions of the problem, perform a quick sanity check, and output only that integer on a single line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 64,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers and relations, compute the unique integer answer required (including any necessary arithmetic, unit or fraction handling without rounding), perform a brief sanity check, and print only that integer on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 71,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and relations, form the single required integer expression, evaluate it exactly, confirm it meets the problem\u2019s constraints, and print only the resulting integer.",
+      "train_score": 0.972972972972973,
+      "train_step": 66,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and condition, formulate the exact integer calculation needed (including any unit conversions or fractions, without rounding), compute it, conduct a quick reasonableness check, and output solely the integer result on one line.",
+      "train_score": 0.972972972972973,
+      "train_step": 49,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and required operations (including fractions, decimals, and unit conversions), construct the single exact calculation, evaluate it, verify the result is reasonable, and output only the integer answer on one line.",
+      "train_score": 0.972972972972973,
+      "train_step": 41,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, pull out all numbers and constraints, construct the one exact integer computation needed (handling any percentages, fractions or unit changes without rounding), evaluate it, do a quick sanity check, and output just that integer on one line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 94,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate every given number and its relationship, construct the single exact integer computation required (handling any unit conversions, fractions, or ratios), evaluate it precisely, perform a quick plausibility check, and output only the resulting integer on one line.",
+      "train_score": 0.972972972972973,
+      "train_step": 50,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, determine the exact integer answer and output it alone on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every relevant quantity, form the precise mathematical expression required, compute its value, perform a brief plausibility check, and output only the integer answer on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 35,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and any stated condition, construct the single exact mathematical expression required (including any unit changes or inequalities), compute its value, perform a quick consistency check, and output only the integer result on one line.",
+      "train_score": 0.972972972972973,
+      "train_step": 39,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the sole integer answer that fulfills every condition, double\u2011check its plausibility, and output only that integer on one line.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the core numeric facts, convert the situation into a single mathematical expression, evaluate it, perform a brief plausibility check, and output only the final integer answer on one line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 28,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all given numbers and constraints, translate them into a single exact integer formula (perform any needed unit, fraction, or percentage conversions without rounding), compute its value, perform a brief sanity check, and output only that integer on one line.",
+      "train_score": 0.972972972972973,
+      "train_step": 79,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8918918918918919,
+      "train_step": -1,
+      "test_score": 0.8294162244124337,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity and relationship stated, construct the single exact integer expression needed (handling any fractions, percentages, or unit conversions precisely), compute its value, ensure it fulfills all given conditions, and output only that integer on one line.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7915087187263078,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the statement, enumerate all numbers and relations, derive the single integer answer using precise arithmetic (including any needed conversions), do a quick sanity test, and print just that integer.",
+      "train_score": 0.6891891891891891,
+      "train_step": 99,
+      "test_score": 0.733131159969674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the description, extract all numbers and constraints, formulate the exact integer expression that satisfies them, compute it using precise arithmetic, quickly verify the result, and print the single integer answer alone.",
+      "train_score": 0.6621621621621622,
+      "train_step": 99,
+      "test_score": 0.5435936315390447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, extract every numeric fact and relation, build the single exact integer expression required, evaluate it with perfect precision, verify it satisfies all given conditions, and output only that integer on one line with no extra characters or spaces.",
+      "train_score": 0.581081081081081,
+      "train_step": 99,
+      "test_score": 0.4586808188021228,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.913570887035633,
+    "avg_test_score": 0.8387667424816782,
+    "best_test_instruction": "Extract all numeric data and relationships, compose the unique integer expression that satisfies the problem, evaluate it with exact arithmetic, perform a brief plausibility check, and output the integer answer on its own line."
+  }
+}

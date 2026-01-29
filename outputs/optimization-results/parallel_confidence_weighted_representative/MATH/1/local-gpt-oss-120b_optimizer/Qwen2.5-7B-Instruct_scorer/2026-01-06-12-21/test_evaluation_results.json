@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Work through the problem methodically, explaining each logical step, and conclude with the exact numerical result alone\u2014no extra words.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7577367927477336,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, logical solution: detail the reasoning, show all necessary calculations, and end with the exact numeric answer, without extraneous commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.7564864020006252,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ": To solve the given problems, first interpret each problem\u2019s statement to understand its requirements, then systematically apply relevant concepts and formulas. Proceed methodically \u2014 identify known values and relationships, express them using appropriate mathematical expressions, and simplify as needed using algebraic techniques or known identities.\n\n",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a full solution that explicitly states each logical step, explains why each step is valid, and ends with only the final numeric answer (no extra text).",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7916666666666666,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution showing all reasoning and calculations, then give the final answer as a number.",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ". Let's check existing ones for wording.",
+      "train_score": 0.8125,
+      "train_step": 13,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clearly state the main idea, then solve the problem with concise, logical steps, showing only indispensable calculations, and end with the exact numeric result (no extra text).",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact answer by: (i) clearly stating what value is required; (ii) indicating the single relationship or definition that determines it; (iii) executing only the necessary computation, annotating each step with a short rationale; (iv) ending with the exact number on a new line, without any other words.",
+      "train_score": 0.8333333333333334,
+      "train_step": 46,
+      "test_score": 0.6892778993435449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution format:\n- Briefly restate the problem (one sentence).\n- Cite the one theorem/equation that solves it.\n- Perform only the indispensable calculations, giving a terse justification for each.\n- End with the precise answer alone on its own line; do not add any other words.",
+      "train_score": 0.8125,
+      "train_step": 50,
+      "test_score": 0.6849015317286652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct solution: quickly restate the question, identify the key principle, perform the necessary calculations with minimal but clear justification, and output only the final numeric result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.6820881525476712,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by: (a) one\u2011sentence restatement of what is asked; (b) identification of the single governing rule or identity; (c) execution of the minimal required calculation(s), each accompanied by a brief justification; (d) a final line containing only the exact numeric answer\u2014nothing else.",
+      "train_score": 0.8125,
+      "train_step": 58,
+      "test_score": 0.6780243826195687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained answer: first name the governing principle, then execute the minimum necessary algebra or arithmetic, explicitly noting each short justification, and finally present the exact numeric result alone (no extra text or commentary).",
+      "train_score": 0.7916666666666666,
+      "train_step": 6,
+      "test_score": 0.6777117849327915,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Structure your response as follows:\n- One\u2011sentence summary of what is being asked.\n- The one primary principle (theorem, identity, or definition) that determines the answer.\n- A concise sequence of necessary calculations, each accompanied by a brief justification.\n- A final line containing only the exact numerical answer (no symbols, words, or formatting markup).",
+      "train_score": 0.8333333333333334,
+      "train_step": 96,
+      "test_score": 0.6698968427633636,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a solution that: (a) restates the question in one sentence, (b) cites the exact mathematical rule needed, (c) carries out each required computation, giving a one\u2011sentence explanation for each, and (d) ends with the numeric answer alone on a new line\u2014nothing else.",
+      "train_score": 0.8333333333333334,
+      "train_step": 13,
+      "test_score": 0.6689590497030322,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach the question by first summarizing the underlying principle in a single concise sentence, then carry out only the necessary computations, providing a short justification for each operation, and finally print the sole numeric result on a separate line with no additional commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 9,
+      "test_score": 0.6633322913410441,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by (i) summarizing the ask in one line, (ii) stating the lone theorem or formula that applies, (iii) executing the minimal algebra or arithmetic with a short explanation for each step, and (iv) printing only the final numeric answer on its own line\u2014nothing else.",
+      "train_score": 0.8125,
+      "train_step": 45,
+      "test_score": 0.655204751484839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in exactly four parts: (i) restate the problem in one concise sentence; (ii) name the single theorem, identity or principle that resolves it; (iii) carry out only the essential computations, providing a brief justification for each step; (iv) present the final numeric answer alone on a new line with no additional text.",
+      "train_score": 0.8125,
+      "train_step": 37,
+      "test_score": 0.6464520162550798,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by first stating the central idea in one line, then performing just the necessary calculations with a brief justification for each, and conclude by printing only the final numerical answer\u2014no extra text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 4,
+      "test_score": 0.6383244763988747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nGive a brief answer: (a) in one line restate what is asked; (b) point out the single principle or identity that solves it; (c) perform only the indispensable calculation, annotating each step with a concise justification; (d) conclude with exactly the final value on a new line, without any further text.\\n",
+      "train_score": 0.7916666666666666,
+      "train_step": 16,
+      "test_score": 0.6264457643013441,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by: (i) restating the problem in one short sentence, (ii) identifying the sole key fact or operation needed, (iii) performing only the essential computation(s) with a brief one\u2011sentence justification for each, and (iv) outputting the exact numeric answer alone on the final line. Do not include any other commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 10,
+      "test_score": 0.6105032822757112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7577367927477336,
+    "avg_test_score": 0.6942645767278466,
+    "best_test_instruction": "Work through the problem methodically, explaining each logical step, and conclude with the exact numerical result alone\u2014no extra words."
+  }
+}

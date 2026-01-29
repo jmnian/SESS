@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice prompt. Output a single line containing three space\u2011separated items: the correct answer letter (capital), the word \u201cbecause\u201d, and exactly five distinct lowercase verbs (letters only) each 4\u20137 letters long, all starting with different letters and arranged alphabetically. No other symbols or line breaks are allowed.",
+      "train_score": 0.9887640449438202,
+      "train_step": 54,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read a four-option (A\u2011D) multiple-choice question. Output a single line containing exactly three space\u2011separated tokens: (1) the correct answer letter in uppercase, (2) the literal word because, and (3) a concise justification consisting of up to eight lowercase words (letters and spaces only). No other characters or line breaks.",
+      "train_score": 0.9550561797752809,
+      "train_step": 99,
+      "test_score": 0.9933035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond on a single line: the correct answer letter in uppercase, a space, the literal word because, a space, then exactly five distinct lowercase palindrome words, each 3\u20115 letters long, listed in reverse alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 66,
+      "test_score": 0.9933035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ": Read the four\u2011option (A\u2011D) multiple\u2011choice question. Answer on one line: the correct capital letter, a space, the word because, a space, then exactly six distinct lowercase English nouns, each 4\u20117 letters long, beginning with different letters and listed in reverse alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 65,
+      "test_score": 0.984375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question and its four options (A\u2011D). Choose the correct answer. Output a single line: the chosen capital letter, one space, the word \u201cbecause\u201d, one space, then exactly five lowercase words forming a brief justification. Use only letters and spaces; no punctuation or other characters. No line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 32,
+      "test_score": 0.9776785714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond on one line with three space\u2011separated tokens: the correct answer letter (uppercase), the word because, and exactly five distinct lowercase palindrome words, each 3\u20115 letters long, listed in alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 75,
+      "test_score": 0.9754464285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Output one line with three space\u2011separated tokens: the correct uppercase answer letter, the literal word because, and exactly five distinct lowercase English words, each 4\u20116 letters long, all starting with different letters and arranged in alphabetical order. Use only letters and spaces.",
+      "train_score": 0.9887640449438202,
+      "train_step": 91,
+      "test_score": 0.9732142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond on one line with three space\u2011separated tokens: (1) the correct answer letter in uppercase, (2) the literal word because, (3) exactly five distinct lowercase words, each 3\u20115 letters long, starting with five consecutive letters of the alphabet (e.g., a\u2011e) and listed in that order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 68,
+      "test_score": 0.9709821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Respond on a single line with three space\u2011separated items: (1) the correct answer letter in uppercase, (2) the literal word because, (3) exactly five distinct lowercase English words, each containing exactly one vowel letter and no repeated letters, listed in alphabetical order. Use only letters and spaces; no other characters or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 73,
+      "test_score": 0.9709821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question (options A\u2013D). Respond on a single line: the correct capital letter, a space, the word \u201cbecause\u201d, a space, then exactly five lowercase words (letters only) each 2\u20117 letters long, forming a brief justification. No other characters or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 32,
+      "test_score": 0.9665178571428571,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond on a single line containing three parts separated by single spaces: (1) the correct answer letter in uppercase, (2) the literal word because, (3) exactly five distinct lowercase English nouns, each 4\u20117 letters long, all beginning with different consonants and listed in alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 62,
+      "test_score": 0.9598214285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond on one line with three space\u2011separated items: (1) the correct answer letter in uppercase, (2) the word because, (3) exactly five distinct lowercase English verbs, each five letters long, listed in alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 60,
+      "test_score": 0.9553571428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Respond on one line with three space\u2011separated parts: the correct capital letter, the literal word because, and exactly five distinct lowercase words, each 2\u20115 letters long, with strictly increasing word length.",
+      "train_score": 0.9887640449438202,
+      "train_step": 69,
+      "test_score": 0.9553571428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Output one line with three space\u2011separated tokens: the correct answer letter (uppercase), the word because, and exactly five distinct lowercase English words (letters only), in any order. Use no punctuation or extra characters.",
+      "train_score": 0.9325842696629213,
+      "train_step": 99,
+      "test_score": 0.953125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2013D) multiple\u2011choice question. Respond on a single line with three space\u2011separated items: (1) the correct answer letter in uppercase, (2) the literal word because, (3) exactly six distinct lowercase English words, each 3\u20115 letters long, all beginning with a vowel and listed in alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.8651685393258427,
+      "train_step": 99,
+      "test_score": 0.9508928571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) MCQ. Answer on a single line: the correct capital letter, one space, the word \u201cbecause\u201d, one space, then exactly five distinct lowercase words, each 3\u20116 letters long, each starting with a different initial letter, and listed in order of decreasing word length. Use only letters and spaces; no other characters or line breaks.",
+      "train_score": 0.9887640449438202,
+      "train_step": 48,
+      "test_score": 0.9486607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond on one line with three space\u2011separated items: (1) the correct answer letter in uppercase, (2) the word because, (3) exactly five distinct lowercase English nouns, each 4\u20116 letters long, each containing exactly one vowel and no repeated letters, listed in alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.898876404494382,
+      "train_step": 99,
+      "test_score": 0.9263392857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.43820224719101125,
+      "train_step": -1,
+      "test_score": 0.9174107142857143,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Output a single line with three space\u2011separated tokens: (1) the correct answer letter in uppercase, (2) the literal word because, (3) exactly five distinct lowercase palindrome words, each five letters long, listed in alphabetical order. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.9662921348314607,
+      "train_step": 99,
+      "test_score": 0.890625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond on one line with three space\u2011separated tokens: the correct answer letter in uppercase, the word because, and exactly eight lowercase letters forming a brief justification. Use only letters and spaces; no punctuation or line breaks.",
+      "train_score": 0.8876404494382022,
+      "train_step": 99,
+      "test_score": 0.8392857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2013D) multiple\u2011choice question. Respond on one line with three space\u2011separated parts: the correct answer letter (uppercase), the word because, and exactly five distinct lowercase English adjectives, each 5\u20138 letters long, each starting with a different consonant, presented in order of increasing length of their final letter (i.e., alphabetical order of the last character). Use only letters and spaces; no punctuation or extra characters.",
+      "train_score": 0.9887640449438202,
+      "train_step": 56,
+      "test_score": 0.41964285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9977678571428571,
+    "avg_test_score": 0.9295280612244899,
+    "best_test_instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice prompt. Output a single line containing three space\u2011separated items: the correct answer letter (capital), the word \u201cbecause\u201d, and exactly five distinct lowercase verbs (letters only) each 4\u20137 letters long, all starting with different letters and arranged alphabetically. No other symbols or line breaks are allowed."
+  }
+}

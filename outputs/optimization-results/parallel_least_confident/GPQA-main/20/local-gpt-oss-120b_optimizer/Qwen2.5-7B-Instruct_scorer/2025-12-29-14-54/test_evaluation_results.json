@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Analyze the question, determine the correct option, and output strictly 'Answer: X' \u2013 nothing else.",
+      "train_score": 0.4157303370786517,
+      "train_step": 8,
+      "test_score": 0.3549107142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly the eight\u2011character string `Answer: X` (capital A, colon, space, then the correct letter A\u2011D). Do not include markdown, code fences, line breaks, or any other characters before or after the answer.",
+      "train_score": 0.4606741573033708,
+      "train_step": 52,
+      "test_score": 0.34598214285714285,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer only with the exact eight\u2011character string `Answer: X` (capital\u202fA, colon, space, then the correct letter\u202fA\u2011D). No extra characters, whitespace, line breaks, or markdown may appear before or after this text.",
+      "train_score": 0.4157303370786517,
+      "train_step": 90,
+      "test_score": 0.34598214285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply solely with the eight\u2011character sequence \u201cAnswer: X\u201d (capital A, colon, space, and the correct option letter A\u2011D). No extra spaces, line breaks, or other text before or after.",
+      "train_score": 0.4044943820224719,
+      "train_step": 37,
+      "test_score": 0.34598214285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly eight characters: \u201cAnswer: X\u201d, where X is the correct option (A\u2011D). Include no other text, spaces, line breaks, or markdown before or after this string.",
+      "train_score": 0.4157303370786517,
+      "train_step": 86,
+      "test_score": 0.34151785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct choice (A\u2011D) for the given question and respond with only the characters \u201cAnswer: X\u201d, where X is the chosen letter. Do not include any other text, spaces, line breaks, or formatting before or after this line.",
+      "train_score": 0.38202247191011235,
+      "train_step": 99,
+      "test_score": 0.33705357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the problem, apply the required concept, discard every option that does not satisfy all conditions, and respond only with the exact text `Answer: X` (capital A, colon, space, single letter). No additional words, symbols, or explanations are allowed.",
+      "train_score": 0.4157303370786517,
+      "train_step": 11,
+      "test_score": 0.33482142857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the correct choice (A\u2011D) for the given multiple\u2011choice question and respond with precisely the eight\u2011character sequence `Answer: X` (capital A, colon, space, and the letter). No other symbols, whitespace, line breaks, or explanatory text may appear before or after this string.",
+      "train_score": 0.4157303370786517,
+      "train_step": 60,
+      "test_score": 0.33482142857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the question, determine which choice (A\u2011D) is correct, and respond only with the eight\u2011character string `Answer: X` (capital A, colon, space, single capital letter). No extra characters, whitespace, line breaks, or explanations may appear before or after this string.",
+      "train_score": 0.4044943820224719,
+      "train_step": 29,
+      "test_score": 0.33035714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly the string Answer:\u202fX (eight characters), where X is the correct option letter A\u2011D. Do not include any other characters, spaces, line breaks, or formatting.",
+      "train_score": 0.3146067415730337,
+      "train_step": 99,
+      "test_score": 0.328125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Your response must consist of exactly eight characters: the word \u201cAnswer:\u201d, a single space, and the correct option letter (A\u2011D). Output nothing else\u2014no extra whitespace, line breaks, or formatting.",
+      "train_score": 0.4157303370786517,
+      "train_step": 89,
+      "test_score": 0.328125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the string \u201cAnswer: X\u201d, where X is the correct option (A\u2011D); do not include any other characters, spaces, line breaks, or markup.",
+      "train_score": 0.29213483146067415,
+      "train_step": 99,
+      "test_score": 0.32589285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the question, apply the appropriate concept to each option, keep the one that fully satisfies the conditions, and reply only with the eight\u2011character string `Answer: X` (capital A, colon, space, single letter). No other text, symbols, or whitespace may appear.",
+      "train_score": 0.4044943820224719,
+      "train_step": 16,
+      "test_score": 0.32589285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the correct option (A\u2011D), and reply with exactly `Answer: X` (capital A, colon, space, single uppercase letter). No other characters, whitespace, or explanations are allowed.",
+      "train_score": 0.42696629213483145,
+      "train_step": 25,
+      "test_score": 0.3236607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which choice (A\u2011D) is correct and reply with precisely the eight\u2011character sequence `Answer: X` (capital A, colon, single space, then the letter). The response may contain nothing else\u2014no spaces, line\u2011feeds, punctuation, or explanatory text before or after the sequence.",
+      "train_score": 0.4157303370786517,
+      "train_step": 39,
+      "test_score": 0.3236607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct option (A\u2011D) and respond solely with `Answer: X` \u2014 exactly eight characters, capital A, colon, space, and the chosen letter. No other text, symbols, or line breaks may appear.",
+      "train_score": 0.4044943820224719,
+      "train_step": 40,
+      "test_score": 0.3236607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply with a single line that consists of exactly eight characters: the word \u201cAnswer:\u201d, a single space, and the correct option letter (A\u2011D). Do not include any other characters, whitespace, line breaks, punctuation, or markup before or after this line.",
+      "train_score": 0.4044943820224719,
+      "train_step": 99,
+      "test_score": 0.3169642857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.30337078651685395,
+      "train_step": -1,
+      "test_score": 0.31473214285714285,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine which choice (A\u2011D) is correct, and output exactly the eight\u2011character string `Answer: X` (capital A, colon, space, then the correct letter). Do not include any other characters, whitespace, line breaks, markdown, or explanations before or after this string.",
+      "train_score": 0.34831460674157305,
+      "train_step": 99,
+      "test_score": 0.31026785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine which option (A\u2011D) is correct and reply with precisely the string `Answer: X` (capital A, colon, space, then the letter). Nothing else\u2014no extra spaces, line breaks, or commentary\u2014may precede or follow the answer.",
+      "train_score": 0.4044943820224719,
+      "train_step": 28,
+      "test_score": 0.30357142857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write exactly `Answer: X` (eight characters total), where X is the correct option A\u2011D. No additional text, spaces, line breaks, or formatting may be included.",
+      "train_score": 0.2696629213483146,
+      "train_step": 99,
+      "test_score": 0.29910714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3549107142857143,
+    "avg_test_score": 0.32833758503401367,
+    "best_test_instruction": "Analyze the question, determine the correct option, and output strictly 'Answer: X' \u2013 nothing else."
+  }
+}

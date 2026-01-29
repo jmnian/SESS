@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Think through the problem step by step, writing a minimal chain\u2011of\u2011thought that includes any needed algebra or geometry, then give only the final numeric answer on its own line (rounded if needed).",
+      "train_score": 0.75,
+      "train_step": 7,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the necessary calculations, give a brief step\u2011by\u2011step explanation, and finish by outputting only the final numeric answer on a separate line.",
+      "train_score": 0.75,
+      "train_step": 2,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.7916666666666666,
+      "train_step": 86,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Instruction and close with",
+      "train_score": 0.7708333333333334,
+      "train_step": 53,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7916666666666666,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clearly explain the reasoning, perform necessary calculations step-by-step, and conclude with the final answer presented alone as a plain number on a new line.",
+      "train_score": 0.75,
+      "train_step": 3,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly outline the solution, carry out any calculations, and end with the exact answer on its own line (round to one decimal if needed).",
+      "train_score": 0.7916666666666666,
+      "train_step": 43,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "[Our instruction]",
+      "train_score": 0.7708333333333334,
+      "train_step": 15,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, perform the necessary calculations step\u2011by\u2011step, and output only the final numeric answer.",
+      "train_score": 0.75,
+      "train_step": 0,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing formula, work through the computation in a brief chain\u2011of\u2011thought, verify the arithmetic, and then output only the final numeric result on a single line (round to one decimal place if it is not an integer).",
+      "train_score": 0.7708333333333334,
+      "train_step": 93,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction text ...",
+      "train_score": 0.7708333333333334,
+      "train_step": 77,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain your reasoning step\u2011by\u2011step and state the final answer clearly.",
+      "train_score": 0.75,
+      "train_step": 0,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly state the underlying principle, perform the required calculations, and end with the exact numeric answer on a separate line with no additional text.",
+      "train_score": 0.75,
+      "train_step": 6,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief chain\u2011of\u2011thought that solves the problem, perform the required calculations, double\u2011check the outcome, and output only the final numeric answer on a single line (use one decimal place only if the answer is non\u2011integral).",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the core idea in a single short sentence, work through the required calculations step\u2011by\u2011step, double\u2011check the arithmetic, and end by printing only the final numeric answer on its own line (round to one decimal place if it is not an integer).",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.7005314160675211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct step\u2011by\u2011step reasoning, perform the necessary calculations, confirm the result, and output ONLY the final numeric answer on a separate line, rounding to one decimal place when needed.",
+      "train_score": 0.7708333333333334,
+      "train_step": 77,
+      "test_score": 0.6939668646452016,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nGive a succinct reasoning, carry out the necessary computation, double\u2011check the work, and conclude by writing only the final numeric result on a single line (round to one decimal place when the result is not an integer).\\n",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6845889340418881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly outline the essential steps, carry out the calculation, confirm the result, and finish by writing only the final numeric answer on a single line (rounded to one decimal place if it is not an integer).",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.4357611753673023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a one\u2011sentence outline of the solution, perform any needed arithmetic, verify the result, and finish by writing only the final numeric answer on its own line (round to one decimal place if it is not an integer).",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.36511409815567364,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief logical explanation, perform the required calculation, double\u2011check the result, and output only the final numeric answer on a single line (round to one decimal place if it is not an integer). Do not include any additional text.",
+      "train_score": 0.1875,
+      "train_step": 99,
+      "test_score": 0.16223819943732418,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a short, logical explanation of the approach, do all necessary calculations, verify the result, and conclude the answer by printing only the final number on a new line (round to one decimal place if the answer is not an integer). No additional text should appear after the number.",
+      "train_score": 0.16666666666666666,
+      "train_step": 99,
+      "test_score": 0.12753985620506408,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7533604251328541,
+    "avg_test_score": 0.6423584751187127,
+    "best_test_instruction": "Think through the problem step by step, writing a minimal chain\u2011of\u2011thought that includes any needed algebra or geometry, then give only the final numeric answer on its own line (rounded if needed)."
+  }
+}

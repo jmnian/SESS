@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the exact quantity asked, gather every numerical datum provided, construct the one mathematically exact calculation (including any unit or percent conversion) that produces that quantity, evaluate it with perfect rational precision, and reply with just the final number.",
+      "train_score": 0.9310344827586207,
+      "train_step": 32,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity being asked, form the exact calculation using all given numbers (apply any needed unit conversions), compute it precisely, and reply with only the final numeric result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 15,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant numbers, form the exact arithmetic expression that gives the required answer (including any unit conversions), compute it precisely (no rounding), and output only the final number.",
+      "train_score": 0.9272030651340997,
+      "train_step": 18,
+      "test_score": 0.8271417740712661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantities mentioned, decide which arithmetic operation(s) connect them, carry out the calculations step\u2011by\u2011step, and return only the final numeric answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 1,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, formulate the one exact arithmetic expression that yields the asked quantity, evaluate it precisely (no approximation), and output only the final numeric result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 13,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeric value in the problem, determine the single exact arithmetic operation (including any needed unit, percentage, or ratio adjustments) that yields the requested quantity, evaluate it with exact integer or fractional arithmetic (no rounding), and answer with only that final number.",
+      "train_score": 0.9272030651340997,
+      "train_step": 24,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown asked for, express it directly as an exact expression using only the given numbers (converting units if needed), evaluate the expression without rounding, and output solely the resulting number.",
+      "train_score": 0.9386973180076629,
+      "train_step": 7,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical value, apply any needed unit or percentage conversions, compute the single precise result that the question asks for, and output only that final number.",
+      "train_score": 0.9310344827586207,
+      "train_step": 48,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather the numbers supplied, decide the single exact formula that yields the required result (performing any needed unit conversions), compute it with perfect integer or rational arithmetic, and output only the final numeric value.",
+      "train_score": 0.9272030651340997,
+      "train_step": 13,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, isolate the numbers, perform any required conversions, calculate the exact answer, and provide only the final numeric value.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Derive the unique exact formula from the given data, evaluate it precisely (no rounding), and output only the numeric answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 20,
+      "test_score": 0.8119787717968158,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, locate all given quantities, translate any units or percentages into consistent numbers, devise the single exact arithmetic expression that yields the asked value, evaluate it with perfect integer\u2011or\u2011fraction precision (no approximation), and output only that final number.",
+      "train_score": 0.9348659003831418,
+      "train_step": 47,
+      "test_score": 0.8104624715693708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeric datum, apply any required unit or percentage transformations, construct the one exact mathematical expression that solves the problem, compute it with perfect rational precision (no approximation), and respond with only the resulting number.",
+      "train_score": 0.9272030651340997,
+      "train_step": 53,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert all given quantities to plain numbers, perform the unique exact calculation required, and output only the final numeric result.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8066717210007581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data from the statement, perform any required unit or percentage conversions, determine the single exact calculation that yields the asked quantity, evaluate it with perfect integer\u2011or\u2011fraction precision (no rounding), and output only the final number.",
+      "train_score": 0.89272030651341,
+      "train_step": 99,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every quantity given, form the exact arithmetic expression that solves the problem, evaluate it precisely, and output only the final numeric result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 3,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Turn every stated amount into a plain number (including unit or percent conversions), spot the single formula that produces the asked quantity, calculate it with perfect integer or fraction precision, and output just that final number.",
+      "train_score": 0.896551724137931,
+      "train_step": 99,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8352490421455939,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, change percentages, rates, or unit statements into plain numbers, write a single exact expression that directly gives the asked quantity, evaluate it with full integer\u2011or\u2011fraction precision (no rounding), and output solely the resulting number.",
+      "train_score": 0.8390804597701149,
+      "train_step": 99,
+      "test_score": 0.7376800606520091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numeric data, apply any necessary unit or percentage conversion, determine the one exact formula that produces the requested quantity, evaluate it exactly (no rounding), and return only the resulting number.",
+      "train_score": 0.7931034482758621,
+      "train_step": 99,
+      "test_score": 0.7369219105382866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, list all quantities mentioned, convert them to plain numbers (including minutes\u2192hours, percentages\u2192fractions), devise the one exact formula that gives the requested value, evaluate it without rounding, and reply with just that final number.",
+      "train_score": 0.7969348659003831,
+      "train_step": 99,
+      "test_score": 0.7028051554207733,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8362395754359363,
+    "avg_test_score": 0.8002815986136683,
+    "best_test_instruction": "Determine the exact quantity asked, gather every numerical datum provided, construct the one mathematically exact calculation (including any unit or percent conversion) that produces that quantity, evaluate it with perfect rational precision, and reply with just the final number."
+  }
+}

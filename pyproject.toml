@@ -1,0 +1,56 @@
+[project]
+name = "opro"
+version = "0.1.0"
+description = "Large Language Models as Optimizers"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # Original OPRO dependencies
+    "absl-py==2.0.0",
+    "google-generativeai==0.1.0",
+    "immutabledict==3.0.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    # Additional dependencies for local GPU inference with Qwen2.5-7B-Instruct
+    "torch>=2.0.0",
+    "transformers>=4.37.0",
+    "accelerate>=0.25.0",
+    # For plotting results
+    "matplotlib>=3.5.0",
+    "tqdm>=4.67.1",
+    "datasets>=4.4.1",
+    # For representative subset selection
+    "scikit-learn>=1.3.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "vllm>=0.6.0",
+    # For result analysis tables
+    "tabulate>=0.9.0",
+    # For IPOMP (Model Performance-Guided selection)
+    "scipy>=1.10.0",
+    "hnswlib>=0.7.0",  # For efficient dissimilarity search in IPOMP
+    # For Anchor Points (optional, has fallback)
+    "scikit-learn-extra>=0.3.0",  # For efficient KMedoids
+]
+
+[project.optional-dependencies]
+# Parallel multi-GPU mode with vLLM and new OpenAI API
+parallel = [
+    "vllm>=0.6.0",            # vLLM for fast batched inference
+    "openai>=1.0.0",          # New OpenAI API with async support
+]
+# vLLM only (for single-GPU vLLM usage)
+vllm = [
+    "vllm>=0.6.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["opro"]
+
+[dependency-groups]
+dev = []
+

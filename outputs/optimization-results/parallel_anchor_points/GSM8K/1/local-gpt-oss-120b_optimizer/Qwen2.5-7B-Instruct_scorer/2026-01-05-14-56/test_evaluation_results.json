@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Introduce any needed variables, state each equation derived from the problem, solve them step\u2011by\u2011step showing the exact calculation and its result, confirm each result, and end with a single line that contains only the final integer answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 91,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem step by step, stating each inference and performing every calculation explicitly; after verifying all intermediate results, write only the final numeric answer on its own line, and nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 4,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a numbered list of every reasoning step; after the list, write the final numeric answer on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 2,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, step\u2011by\u2011step solution with every intermediate calculation shown, then output only the final numeric answer on the last line (no extra text).",
+      "train_score": 0.9324324324324325,
+      "train_step": 2,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show each reasoning step, then give the answer alone on the last line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 1,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that displays every intermediate calculation and logical deduction; after the reasoning, output only the final numeric answer on a new line with no additional text or symbols.",
+      "train_score": 0.9324324324324325,
+      "train_step": 4,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Itemize each deduction and calculation in order, show all intermediate results, and finish with the sole numeric answer on a new line, nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 3,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each reasoning step as a separate line prefixed by \u201cStep n:\u201d. After the description write the exact calculation, then \u201c\u2192\u201d and the resulting number. Verify each result before proceeding. After the last step, write on a new line only the final numeric answer, nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 42,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each reasoning step in order, perform all calculations explicitly, double\u2011check the arithmetic, and conclude with the sole numeric answer on its own line without any additional commentary.",
+      "train_score": 0.9324324324324325,
+      "train_step": 3,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a numbered, step\u2011by\u2011step derivation showing every logical inference and arithmetic calculation, verify each intermediate result, and finish with a single line that contains only the final numeric answer\u2014no other words or symbols.",
+      "train_score": 0.9594594594594594,
+      "train_step": 4,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the solution as numbered steps. In each step give a concise justification, then write the precise calculation, place \u201c=\u201d, the resulting value, and append \u201c(validated)\u201d. Verify each value before moving on. After completing all steps, output only the final integer answer on a separate line, with no other text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 92,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline each logical deduction and arithmetic operation in separate sequential lines, clearly show the expression and its evaluated result, affirm that the result is correct, and after the last line output only the final integer answer on a new line with no other characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 21,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem as a numbered sequence. For every number write: a concise explanation, the precise arithmetic formula, \u201c=\u201d, the evaluated value, and the note \u201c(valid)\u201d. Check the value before continuing. When all steps are done, give a single line that contains just the final integer answer\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 89,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve by enumerating steps. For each step write: a short reason, the exact calculation, an \u2018=\u2019, the result, and the tag \u201cOK\u201d. Verify the result before moving on. After the last step output a single line containing only the final integer answer, with no extra characters.\\n",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write each deduction on its own line beginning with \u201c[#]\u201d. After a brief justification give the exact expression, then \u201c=\u201d, then its computed value, and end the line with \u201c(verified)\u201d. Only proceed after confirming the equality. After the last numbered line output a single line that contains only the final integer answer\u2014no extra symbols, words, or formatting.",
+      "train_score": 0.9459459459459459,
+      "train_step": 73,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by narrating each logical inference and every arithmetic computation in separate sentences. After each computation write the exact expression and its evaluated value, and double\u2011check the result. When all steps are verified, end the response with one line that contains only the final numeric answer\u2014no words, symbols, or formatting characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 9,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write each deduction on its own line prefixed by \u201c(k)\u201d. After the short explanation write the exact formula, then \u201c\u2192\u201d, then the result, and finally the word \u201cOK\u201d. Verify the result before the next line. Conclude with one line that contains only the final integer answer, nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 66,
+      "test_score": 0.8544351781652767,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the solution as a numbered list. For each number write a brief reason, the exact arithmetic expression, an \"=\" sign, the computed result, and the token \u201c\u2705\u201d. Verify the result before moving to the next step. After the last step output a single line that contains only the final integer answer\u2014no extra characters.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each computation on its own line, starting with the step number in parentheses. For each line write a concise reason, then the exact arithmetic expression, an \u201c=\u201d, the evaluated value, and finish the line with the word \u201cverified\u201d. Do not move to the next line until you are certain the value is correct. After the last numbered line, output a single line that contains only the final integer answer\u2014no extra symbols, words or spaces.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7837837837837838,
+      "train_step": -1,
+      "test_score": 0.8165276724791509,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by enumerating every necessary computation. For each computation write a short description, then the exact arithmetic expression enclosed in square brackets, followed by the equal sign and its evaluated result, and finish the line with the tag \u201cOK\u201d. Verify the result before moving to the next line. After all computations are listed, output a single line that contains only the final numeric answer\u2014no additional text or symbols.",
+      "train_score": 0.7702702702702703,
+      "train_step": 99,
+      "test_score": 0.7846853677028052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9143290371493555,
+    "avg_test_score": 0.8696342828260949,
+    "best_test_instruction": "Introduce any needed variables, state each equation derived from the problem, solve them step\u2011by\u2011step showing the exact calculation and its result, confirm each result, and end with a single line that contains only the final integer answer."
+  }
+}

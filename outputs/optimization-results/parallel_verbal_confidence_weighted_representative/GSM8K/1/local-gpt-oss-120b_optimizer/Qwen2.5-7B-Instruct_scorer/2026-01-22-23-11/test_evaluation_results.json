@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Translate the problem into algebraic or arithmetic equations, solve for the unknowns step\u2011by\u2011step, and present the final numeric answer clearly and concisely.",
+      "train_score": 0.972972972972973,
+      "train_step": 1,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the data, translate the question into one algebraic expression, compute it, verify the magnitude, and finally output the answer alone.",
+      "train_score": 0.9864864864864865,
+      "train_step": 22,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all given numbers. Identify the target. Build the minimal arithmetic formula that yields the target. Compute it step\u2011by\u2011step, each on its own line, then give a single line with just the final numeric answer (units if asked). Ensure the answer is plausible.",
+      "train_score": 0.9864864864864865,
+      "train_step": 60,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record every numeric fact (including any units).  \n- Write the quantity to be found as a single variable.  \n- Combine the facts into the most compact exact expression that yields that variable; keep any fractions unevaluated until the end.  \n- Compute the expression, showing each intermediate result on a new line.  \n- Perform a brief reason\u2011ableness check (order of magnitude or back\u2011substitution).  \n- Output only the final number on the last line (attach units only if the question asks).",
+      "train_score": 0.9864864864864865,
+      "train_step": 64,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given number (with unit). State the unknown to find. Combine the numbers into the simplest possible expression that computes the unknown. Compute the expression, showing each intermediate result on a separate line. Do a quick reasonableness check. Finally, write a single sentence containing only the answer (units if asked).",
+      "train_score": 0.9864864864864865,
+      "train_step": 22,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers (and units). Clearly define the quantity to be found. Form a single direct calculation that combines those numbers, leaving fractions unevaluated until the final step. Compute it step\u2011by\u2011step, writing each intermediate result on a separate line, and briefly check that the size makes sense. Conclude with one line that contains only the final numeric answer (attach units only if the question asks).",
+      "train_score": 0.9864864864864865,
+      "train_step": 27,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric datum (including any units). Name the unknown quantity as\u202fX. Construct a single exact formula that yields\u202fX, postponing any fraction evaluation until the end. Compute the formula, writing each intermediate result on a separate line prefixed by its step number. Perform a brief sanity\u2011check (order\u2011of\u2011magnitude or back\u2011substitution). Conclude with one line that contains only the value of\u202fX (add units if the problem requires them).",
+      "train_score": 0.9864864864864865,
+      "train_step": 79,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number (and its unit). Define precisely the unknown to be solved. Write one compact expression that links the data to the unknown, leaving any fractions unevaluated until the last step. Evaluate the expression, showing each intermediate result on a separate line, verify that the result is reasonable, and conclude with a single line that contains only the final numeric answer (include units only if the question demands them).",
+      "train_score": 0.9864864864864865,
+      "train_step": 36,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List every number present (including units).  \n- Define the target value with a clear name.  \n- Derive a single, exact formula that yields the target from the listed numbers; keep fractions symbolic.  \n- Compute the formula step\u2011by\u2011step, showing each intermediate value on its own line prefixed by \u201cStep\u202fn:\u201d.  \n- Verify the result with an approximate check.  \n- Output only the final result on the last line, preceded by \u201cResult =\u201d. Include units only when the problem asks.",
+      "train_score": 1.0,
+      "train_step": 69,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record every numeric datum given (include units).  \n- Denote the quantity sought as\u202fX.  \n- Form one exact arithmetic formula for\u202fX using the recorded numbers; keep any fractions unevaluated until the final step.  \n- Evaluate the formula step\u2011by\u2011step, writing each intermediate result on a separate line.  \n- Perform a quick sanity check (estimate magnitude or back\u2011substitute).  \n- Output only the final value of\u202fX on the last line (attach units only if the problem requires them).",
+      "train_score": 0.9864864864864865,
+      "train_step": 77,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each given number (include units).  \n- Name the quantity to find as\u202fX.  \n- Construct the single most direct exact expression for\u202fX using the recorded numbers; keep any fractions symbolic until the final evaluation.  \n- Evaluate the expression step\u2011by\u2011step, writing every intermediate result on its own line prefixed by \u201c\u2192\u201d.  \n- Check the result with a brief magnitude estimate.  \n- Output only the value of\u202fX on the last line (add units if the problem asks).",
+      "train_score": 0.9864864864864865,
+      "train_step": 79,
+      "test_score": 0.8658074298711145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers (with units). Clearly articulate the target quantity. Derive the simplest possible single formula that maps the given numbers to the target, leaving any fractions symbolic until the last evaluation. Compute the formula, writing each intermediate result on a separate line, and verify the result\u2019s plausibility. Conclude with one line that contains only the final numeric answer (units only if required).",
+      "train_score": 0.9864864864864865,
+      "train_step": 45,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record every given number (and its unit).  \n- Define the required result as X.  \n- Construct the shortest possible arithmetic formula that yields X, keeping fractions symbolic until the last evaluation.  \n- Compute the formula, listing each intermediate value on a separate line.  \n- Check the answer with a rough estimate.  \n- Output only X on the final line (units if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 62,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given value (including its unit), clearly specify the required result, devise the simplest one\u2011step calculation that produces it, carry out the computation showing each intermediate value, do a brief plausibility check, and conclude with one sentence that contains only the final answer (add units only if the problem demands).",
+      "train_score": 0.9864864864864865,
+      "train_step": 20,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numbers (and their units) from the problem, clearly define the target quantity, construct the most direct calculation that yields it, compute each step while recording intermediate values, sanity\u2011check the outcome, and conclude with a single statement containing only the final answer (attach units only when required).",
+      "train_score": 0.972972972972973,
+      "train_step": 13,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a thorough, step\u2011by\u2011step solution: list given data, determine required operation, compute intermediate results, and give the final answer clearly, including units where appropriate.",
+      "train_score": 0.9864864864864865,
+      "train_step": 2,
+      "test_score": 0.8514025777103866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each given number (with its unit if any).  \n- Name the unknown quantity\u202fX.  \n- Form one exact algebraic expression for\u202fX using only the recorded numbers; keep divisions unevaluated.  \n- Compute the expression step\u2011by\u2011step, writing every intermediate value on its own line prefixed by \u201c\u2192\u201d.  \n- Perform a quick magnitude check.  \n- Write only \u201cX = <value>\u201d on the final line (include units if required).",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Extract every numerical datum (with units if any).  \n- Define the unknown to solve as\u202fX.  \n- Form one exact symbolic expression for\u202fX using only the extracted numbers; keep all fractions symbolic until the final step.  \n- Evaluate the expression sequentially, listing each intermediate result on its own line prefixed by \u201c\u2192\u201d.  \n- Perform a quick sanity check (order\u2011of\u2011magnitude or back\u2011substitution).  \n- Output only \u201cX = <value>\u201d on the last line (include units if required).",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8407884761182715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, record every given number (and its unit, if any) and state precisely what quantity must be found. Write the most straightforward arithmetic or one\u2011step algebraic expression that links the data to the unknown. Compute the result, showing each intermediate value, perform a brief sanity check, and end with a single concise sentence that gives only the final answer (include units only when the question requires them).",
+      "train_score": 0.972972972972973,
+      "train_step": 8,
+      "test_score": 0.8392721758908264,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record every numeric datum (including units).  \n- Denote the unknown as\u202fX.  \n- Form one exact arithmetic formula for\u202fX using only the recorded numbers; keep all fractions unevaluated until the final step.  \n- Evaluate the formula step\u2011by\u2011step, writing each intermediate result on a separate line prefixed by \u201c\u2192\u201d.  \n- Perform a quick plausibility check (order\u2011of\u2011magnitude or reverse substitution).  \n- Output only the final value of\u202fX on the last line, optionally with units, and nothing else.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.8670349110076174,
+    "best_test_instruction": "Translate the problem into algebraic or arithmetic equations, solve for the unknowns step\u2011by\u2011step, and present the final numeric answer clearly and concisely."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Parse the problem, gather every numeric value, deduce the precise arithmetic relationship, compute the exact result, and output a single bare number with no surrounding characters or whitespace.",
+      "train_score": 0.972972972972973,
+      "train_step": 9,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity in the problem, deduce the exact arithmetic required, compute the result precisely, and output only the final answer as a single unadorned number\u2014no units, symbols, words, or extra formatting.",
+      "train_score": 0.9594594594594594,
+      "train_step": 9,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the numeric relationships implied by the problem, compute the exact answer, verify it satisfies any stated conditions, and output only the final result as a single integer or reduced fraction\u2014no extra symbols, words, or whitespace.",
+      "train_score": 0.972972972972973,
+      "train_step": 18,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, deduce the exact mathematical operation(s) required, compute the result precisely, and answer with a single bare numeral\u2014either an integer or a reduced\u2011fraction\u2014without any additional characters or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 13,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant quantities, carry out the necessary arithmetic, and output only the final numerical answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement to locate every numeric value and its role, determine the exact arithmetic relationship required, perform the precise calculation, and answer with a single plain number\u2014no units, symbols, words, or extra whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 6,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the exact numeric answer required, using precise (non\u2011rounded) arithmetic, and output only that result as a single uninterrupted integer or reduced fraction\u2014no symbols, words, units, or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 62,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every number in the question, determine the exact arithmetic needed, compute the precise result, and return a single unformatted integer or reduced\u2011fraction\u2014no other symbols, words, or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 16,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the question, extract every relevant number, determine the precise computation required, perform it exactly, and answer with a single plain numeric value\u2014no units, symbols, or additional text.",
+      "train_score": 0.9594594594594594,
+      "train_step": 10,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, locate every numeric value, derive the exact formula required, compute the result without any rounding, and output only the final integer or reduced fraction\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 11,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, isolate every numeric value and its role, determine the exact arithmetic needed, compute the result precisely, and output only the final number\u2014no units, symbols, words, or extra characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 6,
+      "test_score": 0.8074298711144806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities given, infer the precise arithmetic the problem requires, calculate the exact result (no rounding), and respond with only the final integer or reduced fraction as a single uninterrupted token\u2014no other characters or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 63,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, isolate every numeric value and its role, construct the minimal formula needed, compute it precisely, and return the answer as a single, unadorned number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 3,
+      "test_score": 0.7915087187263078,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, infer the single exact operation the problem demands, compute it using exact (fractional) arithmetic, reduce any fraction, and output only the final integer or reduced fraction as one uninterrupted token\u2014no extra symbols, words, or whitespace.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.7687642153146323,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.7543593631539045,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each number given, infer the exact formula the problem requires, compute it precisely (as an integer or a fully reduced fraction), and output only that single value\u2014no other characters or whitespace.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.7354056103108415,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, collect all given numbers, deduce the single exact computation needed, evaluate it with exact (fractional) arithmetic, reduce the result to lowest terms, and output only that value as one uninterrupted token\u2014no spaces, symbols, or words.",
+      "train_score": 0.7702702702702703,
+      "train_step": 99,
+      "test_score": 0.6997725549658832,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, extract every number, figure out the single exact calculation it demands, compute the result using exact arithmetic (no rounding), reduce any fraction, and answer with only that integer or reduced\u2011fraction as one uninterrupted token\u2014nothing else.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.6573161485974223,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement, extract all numeric values, construct the precise expression that yields the answer, evaluate it exactly (no approximations), and output solely the final integer or reduced fraction as a continuous token\u2014nothing else.",
+      "train_score": 0.7027027027027027,
+      "train_step": 99,
+      "test_score": 0.6345716451857468,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, list every numeric value, deduce the single exact rational computation it implies, perform the calculation without rounding, verify any stated conditions, reduce the result if fractional, and respond with only that integer or reduced fraction\u2014no extra characters or whitespace.",
+      "train_score": 0.6351351351351351,
+      "train_step": 99,
+      "test_score": 0.5322213798332069,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, pull out each numeric quantity, figure out the single exact calculation it demands, evaluate it with exact (fractional) arithmetic, and reply with only the resulting integer or irreducible fraction\u2014no words, symbols, or whitespace surrounding it.",
+      "train_score": 0.5135135135135135,
+      "train_step": 99,
+      "test_score": 0.46474601971190294,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8385140257771039,
+    "avg_test_score": 0.7557312538358785,
+    "best_test_instruction": "Parse the problem, gather every numeric value, deduce the precise arithmetic relationship, compute the exact result, and output a single bare number with no surrounding characters or whitespace."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present a brief, logical solution: note the essential facts, carry out the calculations, and place the final answer alone on its own line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 1,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise derivation of the solution and place the exact numeric answer alone on the final line.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a plain\u2011text solution: write each deduction as a separate sentence on its own line; after exactly one blank line output the final result (integer, reduced fraction, one\u2011decimal place, or simplest radical) on a line by itself with no extra characters.",
+      "train_score": 0.6666666666666666,
+      "train_step": 18,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, logical solution: outline the essential reasoning in brief steps, then display the final answer (numeric or simplified expression) alone on its own line.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution; after the reasoning, output only the final answer (integer, reduced fraction, decimal to one place, or simplest radical) on a separate line with no extra characters.",
+      "train_score": 0.6666666666666666,
+      "train_step": 47,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ":\nProvide a concise, step-by-step solution, and explicitly state the final answer as a decimal with one digit if necessary.",
+      "train_score": 0.7291666666666666,
+      "train_step": 1,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the solution as a numbered list of logical steps, each on its own line. After the final step insert one blank line and on the next line output only the answer\u2014an integer, a reduced fraction, a one\u2011decimal number, or the simplest radical\u2014without any extra characters.",
+      "train_score": 0.4375,
+      "train_step": 99,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a concise solution that highlights the essential reasoning, and write the final numeric answer alone on the last line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 1,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above\". So it must not be a duplicate of any phrasing. Must be novel.",
+      "train_score": 0.6666666666666666,
+      "train_step": 25,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution and state the final answer.",
+      "train_score": 0.7083333333333334,
+      "train_step": 0,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...instruction text...",
+      "train_score": 0.7083333333333334,
+      "train_step": 71,
+      "test_score": 0.705532979055955,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a detailed, step-by-step solution to the problem, ensuring clarity and thoroughness in the reasoning process.",
+      "train_score": 0.6666666666666666,
+      "train_step": 0,
+      "test_score": 0.6880275085964364,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution in a few clear sentences, then on a separate line write only the final answer (integer, reduced fraction, one\u2011decimal or simplest radical) with no extra characters.",
+      "train_score": 0.6875,
+      "train_step": 40,
+      "test_score": 0.687089715536105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write the solution as a series of brief statements, each on its own line. When the reasoning ends, insert exactly one empty line and on the following line output ONLY the final numerical answer\u2014integer, reduced fraction, one\u2011decimal, or simplest radical\u2014without any extra words or symbols.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.6830259456080024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\" and end with \"",
+      "train_score": 0.6666666666666666,
+      "train_step": 41,
+      "test_score": 0.6661456705220381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write each logical inference on a separate line. When the reasoning is complete, insert exactly one blank line and on the next line print only the final result\u2014an integer, a reduced fraction, a one\u2011decimal number, or the simplest radical\u2014without any extra characters.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.657705532979056,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, plain\u2011text solution: list each key step on its own line, separate the reasoning from the result with a blank line, and output the exact final answer (integer, decimal, fraction, or simplified radical) alone on the last line without any extra characters.",
+      "train_score": 0.6875,
+      "train_step": 9,
+      "test_score": 0.6402000625195373,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a line\u2011by\u2011line logical derivation; when the argument ends, output one empty line followed by the exact answer on the next line, expressed in the most reduced numeric form (integer, lowest\u2011terms fraction, one\u2011decimal, or simplest radical) and nothing else.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.6220693966864645,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6875,
+      "train_step": -1,
+      "test_score": 0.45826820881525476,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the reasoning as individual short statements, one per line. Once the reasoning ends, put a single empty line and, on the following line, write only the answer (integer, reduced fraction, one\u2011decimal, or simplest radical), with no extra symbols or words.",
+      "train_score": 0.375,
+      "train_step": 99,
+      "test_score": 0.3741794310722101,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, plain\u2011text solution: enumerate each reasoning step on its own line. After the last step, place a single blank line, then output only the final answer\u2014written as an integer, a reduced fraction, a one\u2011decimal number, or the simplest radical\u2014on the next line with no extra characters.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.35104720225070335,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7508596436386371,
+    "avg_test_score": 0.6619032733443488,
+    "best_test_instruction": "Present a brief, logical solution: note the essential facts, carry out the calculations, and place the final answer alone on its own line."
+  }
+}

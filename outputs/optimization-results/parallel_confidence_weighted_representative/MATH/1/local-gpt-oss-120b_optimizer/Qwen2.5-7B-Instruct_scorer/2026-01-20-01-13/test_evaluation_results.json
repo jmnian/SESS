@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Analyze the statement, pinpoint the exact number to find, choose the precise principle or formula needed, compute using only indispensable steps, confirm the result respects all stated conditions, and return just the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 12,
+      "test_score": 0.7602375742419506,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly which quantity the problem asks for, pick the one most suitable theorem or formula, carry out only the essential computation (showing brief intermediate values only if they clarify), quickly verify that all stated conditions hold, and return just the final numeric result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 18,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target numerical value, apply the only necessary formula or identity, perform the minimal algebraic manipulation (displaying at most one key intermediate), verify the result satisfies all problem constraints, and output exclusively the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 28,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the unique quantity requested, determine the single formula or operation that yields it, perform only the essential calculation (displaying a lone intermediate value only when it aids verification), ensure every stated condition holds, and output solely the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the statement, pinpoint the quantity to determine, choose the one most efficient theorem or operation, execute the minimal necessary computation (displaying a single crucial intermediate if helpful), confirm the result satisfies every given condition, and output just the final number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 22,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the required number, apply the single most suitable method, compute with only essential steps, check any given constraints, and output only that final number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 17,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, pinpoint the single quantity to be found, apply the one necessary theorem or operation, compute with the fewest logical steps (showing a single helpful intermediate if needed), verify all constraints, and output only the final numeric result.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the precise quantity the problem seeks, select the single most suitable theorem or formula, carry out only the necessary computation (showing any indispensable intermediate values), confirm that all stipulated conditions are satisfied, and reply solely with the final simplified numeric result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 17,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the target number, apply the simplest correct method, compute with the minimal necessary steps (showing a single essential intermediate if needed), ensure every condition in the problem holds, and return just the final numeric result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 22,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by quickly pinpointing the needed mathematical operation, performing the calculation with clear intermediate steps, and presenting the exact final answer while confirming it meets the problem\u2019s conditions.",
+      "train_score": 0.8541666666666666,
+      "train_step": 2,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the exact quantity the problem asks for, apply the most direct applicable rule, carry out only the indispensable computation (showing at most one key intermediate if it aids clarity), verify that all given conditions hold, and answer with the single final numeric result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 19,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the question, identify the core calculation required, perform the minimal necessary arithmetic showing only essential steps, verify the result against any constraints, and output only the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 9,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the required value, apply the correct operation, compute with only necessary intermediate figures, quickly check the condition(s), and output the solitary final number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 8,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the precise value sought, select the only needed formula, compute it with the fewest steps (show at most one intermediate), confirm that all problem requirements are met, and answer with that single numeric result.",
+      "train_score": 0.8541666666666666,
+      "train_step": 43,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required value, use the only relevant formula or identity, compute it with the fewest logical steps (displaying one key intermediate only if it clarifies), verify that the solution meets every condition, and return just the final number.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the specific number the question requests, apply the only needed mathematical rule, carry out the minimal calculation (displaying a single decisive intermediate if it clarifies), quickly check that every condition in the statement holds, and output solely the final value.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in one sentence, pick the single key mathematical principle needed, execute the computation showing only the necessary intermediate values, check that the result meets all given conditions, and return just the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 4,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what numeric value the problem is asking for, pick the single indispensable theorem or formula that directly yields it, carry out the computation with the minimal logical steps (show at most one brief intermediate if it aids verification), confirm that all stated conditions are satisfied, and output only the final number.",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.6170678336980306,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the exact number the problem asks for, choose the single indispensable method to obtain it, execute only the necessary computation (illustrating at most one concise intermediate if it clarifies the process), promptly verify that all given conditions are satisfied, and reply with just the final numeric result.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.5001562988433885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact quantity the problem requests, use the single essential principle needed, carry out the computation with the minimal possible steps (displaying at most one brief intermediate if it helps verification), check that all stated conditions hold, and reply with only the final numeric answer, omitting any further explanation.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.20568927789934355,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7602375742419506,
+    "avg_test_score": 0.7048780124741363,
+    "best_test_instruction": "Analyze the statement, pinpoint the exact number to find, choose the precise principle or formula needed, compute using only indispensable steps, confirm the result respects all stated conditions, and return just the final numeric answer."
+  }
+}

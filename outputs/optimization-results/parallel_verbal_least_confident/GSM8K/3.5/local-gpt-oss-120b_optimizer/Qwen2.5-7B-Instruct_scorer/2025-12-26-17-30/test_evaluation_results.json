@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Find the correct value, confirm its accuracy, and respond with only that value\u2014written as an integer, decimal, or lowest\u2011terms fraction\u2014on a lone line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 87,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, verify the computation and output solely the correct value\u2014integer, terminating decimal, or reduced fraction\u2014on a single line without any additional characters or commentary.",
+      "train_score": 0.9233716475095786,
+      "train_step": 96,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, write the exact answer as a plain integer or decimal on one line, and nothing else.",
+      "train_score": 0.9501915708812261,
+      "train_step": 24,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, double\u2011check the computation, and output only the exact answer as a plain integer, decimal, or simplest fraction\u2014nothing else, on a single line.",
+      "train_score": 0.9272030651340997,
+      "train_step": 52,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, verify the calculation, and reply with just the numeric answer\u2014presented as an integer, a terminating decimal, or a reduced fraction\u2014alone on a single line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 98,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, compute the required value exactly, double\u2011check your work, and answer with only the final number on a single line\u2014no other words or symbols.",
+      "train_score": 0.946360153256705,
+      "train_step": 17,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct result, verify it, and output exactly that value\u2014written as an integer, a terminating decimal, or a reduced fraction\u2014on a single line with no other characters or commentary.",
+      "train_score": 0.9310344827586207,
+      "train_step": 97,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, verify the result, and respond with the exact answer as a single integer or decimal on one line, without any additional characters.",
+      "train_score": 0.9501915708812261,
+      "train_step": 25,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the needed numbers, compute the solution precisely, double\u2011check the arithmetic, and reply with only the exact numeric answer\u2014nothing else.",
+      "train_score": 0.9272030651340997,
+      "train_step": 3,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the necessary calculations, ensure correctness, and respond with just the final numeric answer, placed alone on its own line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 35,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential information, perform the required calculations, verify the result, and output only the final numerical answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 1,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\" and end with \"",
+      "train_score": 0.9386973180076629,
+      "train_step": 11,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, compute the needed value, double\u2011check the arithmetic, and output the exact answer\u2014integer, decimal, or reduced fraction\u2014alone on a single line with no extra characters or commentary.",
+      "train_score": 0.9425287356321839,
+      "train_step": 61,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Calculate the precise answer, verify the computation, and output only the resulting number\u2014integer, terminating decimal, or reduced fraction\u2014on a single line with no extra characters or commentary.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8498862774829417,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the exact numeric answer, verify it, and present only that value\u2014an integer, a terminating decimal, or a fraction in lowest terms\u2014on one line without any additional characters.",
+      "train_score": 0.9272030651340997,
+      "train_step": 98,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, check your work and return only the final value (integer, simplified fraction, or terminating decimal) as a standalone line, without any other text.",
+      "train_score": 0.5095785440613027,
+      "train_step": 99,
+      "test_score": 0.8347232752084913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact result, double\u2011check your work, and output only that number\u2014integer, terminating decimal, or lowest\u2011terms fraction\u2014on a single line with no other characters.",
+      "train_score": 0.789272030651341,
+      "train_step": 99,
+      "test_score": 0.66868840030326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the answer accurately, double\u2011check your work, and output only the final value\u2014an integer, a terminating decimal, or a fraction in lowest terms\u2014on a single line with no extra characters, spaces, or commentary.",
+      "train_score": 0.6245210727969349,
+      "train_step": 99,
+      "test_score": 0.5875663381349507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the required result, verify it, and output only the final number\u2014integer, terminating decimal, or lowest\u2011terms fraction\u2014alone on one line with no additional characters or commentary.",
+      "train_score": 0.4444444444444444,
+      "train_step": 99,
+      "test_score": 0.42987111448066717,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, verify the answer, and return solely the precise numerical result\u2014integer, reduced fraction, or terminating decimal\u2014on one line without any additional symbols or text.",
+      "train_score": 0.5708812260536399,
+      "train_step": 99,
+      "test_score": 0.3684609552691433,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8467432950191571,
+      "train_step": -1,
+      "test_score": 0.3115996967399545,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.7867071013393984,
+    "best_test_instruction": "Find the correct value, confirm its accuracy, and respond with only that value\u2014written as an integer, decimal, or lowest\u2011terms fraction\u2014on a lone line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numbers and relationships in the problem, decide the required arithmetic, perform the calculations step\u2011by\u2011step with brief justification, verify the result satisfies any given conditions, and output only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 7,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit quantity and relational condition in the problem, translate them directly into the exact arithmetic or algebraic expression required, compute the result in a single, transparent step, verify that all stated constraints are satisfied, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 83,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeral and any relational condition from the problem, translate them into the exact mathematical expression required, evaluate it in one clear computation while confirming all constraints, and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value and each relational clause, translate them into the exact mathematical expression required, evaluate it in a single clear step while verifying all constraints, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, list all explicit quantities and relational conditions, devise the exact arithmetic or algebraic operation required, solve it with a brief transparent computation, confirm that every stated condition is satisfied, and output only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 36,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, pull every explicit number and relational condition, translate them into the exact mathematical expression required, compute it in a single clear calculation, verify that all stated constraints are met, and answer with only the final numeric result.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all given quantities and constraints, deduce the exact mathematical operations required, execute them in a short, transparent step\u2011by\u2011step chain, check that any stated conditions hold, and present only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 12,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit quantity and relational condition, turn them into the precise mathematical expression required, evaluate it in a single clear calculation, confirm all given constraints are satisfied, and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 78,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities and constraints, determine the precise arithmetic required, compute the result in a clear, brief step\u2011by\u2011step chain, confirm any conditions, and output solely the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 11,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric detail and relational condition, translate them into one exact governing equation, solve it in a single clear computation, confirm all constraints are met, and output only the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data and relational statements, compute the solution using clear step-by-step arithmetic, and provide only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 6,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to extract every numeric value and relationship, deduce the exact operations needed, perform them in a concise step\u2011by\u2011step sequence, verify any given conditions, and reply with only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 10,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity and relational phrase, translate them into the exact arithmetic or algebraic expression needed, compute the result with a concise, transparent calculation, confirm all stated conditions, and respond with only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 33,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit quantity and relational condition, construct the exact mathematical expression they imply, evaluate it in the fewest clear steps, confirm all stated constraints are satisfied, and output only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 41,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine every explicit numeric value and any condition linking them, construct the exact mathematical formula they imply, compute the result in a single clear calculation, verify all stated constraints, and output exclusively the final numeric answer without any additional text.",
+      "train_score": 0.6621621621621622,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every explicit quantity and any relational constraint in the problem, translate them into the exact mathematical expression required, evaluate it in a brief, transparent computation, affirm that all given conditions are satisfied, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 64,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and relational statements, determine the exact computation needed, perform a concise step\u2011by\u2011step calculation, confirm any conditions are satisfied, and return only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 20,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the question, extract all given numbers and relational constraints, construct the exact arithmetic or algebraic operation implied, evaluate it in a brief transparent calculation, confirm that all stated conditions are satisfied, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 39,
+      "test_score": 0.8764215314632298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit number and any relational statement, turn them into the exact arithmetic or algebraic formula needed, compute it in one clear computation, confirm all conditions are satisfied, and output only the final numeric value.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every given quantity and relational condition, translate them into the exact arithmetic or algebraic expression needed, compute it in one clear, transparent step while verifying all constraints, and output only the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8918918918918919,
+      "train_step": -1,
+      "test_score": 0.5534495830174374,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8807177154409904,
+    "best_test_instruction": "Identify all numbers and relationships in the problem, decide the required arithmetic, perform the calculations step\u2011by\u2011step with brief justification, verify the result satisfies any given conditions, and output only the final numeric value."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Please complete the given problem with a step-by-step solution, and write the final answer in proper format.",
+      "train_score": 0.7058823529411765,
+      "train_step": 0,
+      "test_score": 0.5507971241012817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem methodically, showing each calculation step, and output only the final answer.",
+      "train_score": 0.6647058823529411,
+      "train_step": 0,
+      "test_score": 0.5348546420756486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, clearly showing each calculation or logical deduction. After the complete solution, output only the final result (numeric or expression) on a single line, without any additional explanation.",
+      "train_score": 0.711764705882353,
+      "train_step": 1,
+      "test_score": 0.5301656767739918,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a step-by-step solution and give the final answer as a decimal number.",
+      "train_score": 0.711764705882353,
+      "train_step": 0,
+      "test_score": 0.5248515160987809,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain your reasoning and give the final answer.",
+      "train_score": 0.6823529411764706,
+      "train_step": 0,
+      "test_score": 0.5239137230384495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "`\n`Give a clear, linear solution: work through the problem line by line, optionally adding brief comments in parentheses. After the last reasoning line insert a blank line, then output exactly one line containing only the final answer (an integer, decimal, or fully reduced expression) with no extra characters, words, or markdown. Double\u2011check that the answer satisfies the question before writing it.`\n`",
+      "train_score": 0.6647058823529411,
+      "train_step": 48,
+      "test_score": 0.5220381369177868,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution; after completing all reasoning, output a blank line followed by the final answer alone on one line (numeric value or simplified expression) with no extra text.",
+      "train_score": 0.6705882352941176,
+      "train_step": 11,
+      "test_score": 0.5204751484839012,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a thorough, step\u2011by\u2011step solution that clearly shows the reasoning and all intermediate calculations. After the explanation, output only the final result on a separate line, without any additional commentary.",
+      "train_score": 0.6823529411764706,
+      "train_step": 1,
+      "test_score": 0.519849953110347,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the task by enumerating each logical or arithmetic step in order, prefixing each line with \u201cStep\u202f#:\u201d (the comment is optional). When the reasoning is complete, put one empty line and then write a single line that contains only the final result\u2014either a numeric value (as a decimal) or a fully simplified expression\u2014without any surrounding text, symbols, or markup. Before outputting, confirm that the result answers the original question.",
+      "train_score": 0.6823529411764706,
+      "train_step": 92,
+      "test_score": 0.5164113785557987,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, linear solution: first identify the required quantities, then show each calculation step with brief reasoning, and finally output only the final answer (numeric value or expression) on a single line, matching the requested format and units, without any additional commentary.",
+      "train_score": 0.6705882352941176,
+      "train_step": 1,
+      "test_score": 0.5135979993748047,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by presenting a clear, linear reasoning: list each deduction or computation on its own line (you may add a brief comment), and after the last line output a blank line followed by exactly one line that contains only the final answer (numeric value or fully simplified expression), with no other words, symbols, or formatting.",
+      "train_score": 0.6823529411764706,
+      "train_step": 5,
+      "test_score": 0.5023444826508284,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, line\u2011by\u2011line reasoning (one statement per line, optional short parenthetical note). After the last reasoning line output a blank line and then a single line that contains only the final answer (numeric value or fully simplified expression). Do not include any extra text, symbols, or markdown. Double\u2011check that the answer addresses the question before writing it.",
+      "train_score": 0.5764705882352941,
+      "train_step": 99,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem step by step, writing each logical or arithmetic operation on a separate line (brief comments allowed). After the last step, insert a blank line and then output only the final answer\u2014numeric value or simplified expression\u2014on a single line with no extra text, symbols, or markdown. Verify the answer before outputting.",
+      "train_score": 0.6705882352941176,
+      "train_step": 87,
+      "test_score": 0.49671772428884026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, presenting each necessary step on its own line (brief comments permitted). After the last step insert a blank line and then output only the final answer\u2014an integer, decimal, or fully reduced expression\u2014on a single line with no extra characters or formatting. Verify that the answer satisfies the question before writing it.",
+      "train_score": 0.6411764705882353,
+      "train_step": 99,
+      "test_score": 0.49140356361362925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Work through the problem, listing each necessary computation or logical deduction on its own line (short remarks in parentheses are allowed). When you reach the conclusion, insert a single blank line and then output exactly one line that contains only the final result\u2014either a number (integer or decimal) or a fully simplified expression\u2014without any surrounding text, symbols, or markdown. Double\u2011check that the result answers the original question before writing it.",
+      "train_score": 0.611764705882353,
+      "train_step": 99,
+      "test_score": 0.4889027821194123,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6176470588235294,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question, showing each calculation or logical inference on its own line (brief comments allowed). When you have finished, insert a single empty line and then write only the final result\u2014either a number or a fully simplified expression\u2014on one line with no surrounding text, symbols, or markup. Double\u2011check that the result answers the problem before outputting.",
+      "train_score": 0.6,
+      "train_step": 99,
+      "test_score": 0.4832760237574242,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by listing each logical or arithmetic step on its own line (a brief parenthetical note is allowed). After the last step insert one empty line, then write only the final answer\u2014exact numeric value or fully reduced expression\u2014on a single line with no surrounding text, symbols, or markdown. Ensure the answer satisfies the question before outputting.",
+      "train_score": 0.6705882352941176,
+      "train_step": 44,
+      "test_score": 0.4757736792747734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct logical solution, then on the very next line output only the final result\u2014a single numeric value or fully reduced expression\u2014with no additional text or symbols. Verify that the answer satisfies the problem before writing it.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.474835886214442,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by describing each necessary computation or logical move on a separate plain\u2011text line (short comments in parentheses are optional). After the final reasoning line insert one empty line, then output exactly one plain\u2011text line that contains only the answer (integer, decimal, or simplified expression) with no surrounding words, symbols, or markup. Ensure the answer addresses the question before finishing.",
+      "train_score": 0.5588235294117647,
+      "train_step": 99,
+      "test_score": 0.4679587371053454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by presenting each logical or arithmetic operation on its own line (you may add a short parenthetical comment). When the derivation is complete, insert one empty line and then write exactly the final result\u2014either a plain integer/decimal or a fully reduced expression\u2014on a single line with no surrounding text, symbols, or markup. Double\u2011check that the result satisfies the original question before outputting.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.43169740543919977,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5507971241012817,
+    "avg_test_score": 0.5025231099004154,
+    "best_test_instruction": "Please complete the given problem with a step-by-step solution, and write the final answer in proper format."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Calculate the answer stepwise and give the final numerical result only.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.8506444275966641,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using any necessary steps. Your response must end with one line that consists solely of the integer answer\u2014no letters, symbols, spaces, markdown, or invisible characters before or after the digits.",
+      "train_score": 0.9864864864864865,
+      "train_step": 72,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required value, showing any essential intermediate steps, and write only the final number as the answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 2,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer. You may include a brief justification, but the final line of your response must contain only the integer result\u2014no other characters, spaces, symbols, or markup.",
+      "train_score": 0.9594594594594594,
+      "train_step": 54,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work out the solution (brief explanation allowed). End your response with one line that contains only the integer result\u2014no additional characters, whitespace, or markup before or after it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 48,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem (reasoning optional) and finish your reply with a single line that consists only of the numeric answer\u2014exactly the digits, no other characters or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 68,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. Your output may include reasoning, but the final line must be precisely the integer result\u2014no other characters, spaces, or formatting before or after the digits (i.e., it must match ^\\d+$). End the response immediately after that line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the required integer. You may give a short explanation, but the very last line of your output must be exactly the answer \u2013 a sequence of digits with no surrounding whitespace, punctuation, markdown or other characters, and there must be no extra lines before or after it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 78,
+      "test_score": 0.8203184230477635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the integer answer. If you wish, include a short explanation above the answer, but the very last line of your response must consist solely of the integer result\u2014nothing else, not even whitespace or formatting.",
+      "train_score": 0.9594594594594594,
+      "train_step": 50,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide any necessary work, then end your response with a lone line containing only the integer result\u2014no spaces, punctuation, or formatting before or after it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 55,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question. You may include a brief solution, but the very last line must consist solely of the integer answer (a sequence of digits) with no surrounding characters, whitespace, or formatting. No extra lines after that.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "You may include brief reasoning, but the very last line of your output must match the regular expression ^\\d+$ \u2014 i.e., it must consist solely of the digits of the integer answer, with no surrounding spaces, punctuation, markdown, or extra lines.",
+      "train_score": 0.972972972972973,
+      "train_step": 80,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the solution and finish your response with exactly one line that contains only the integer answer\u2014no extra words, symbols, whitespace, or markup.",
+      "train_score": 0.9594594594594594,
+      "train_step": 39,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide any reasoning you wish, then end your response with one line that contains exactly the integer answer\u2014no spaces, punctuation, markup, or other characters (the line must match ^\\d+$). No further lines are allowed after that.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8104624715693708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nSolve the task. End your reply with a single line that matches the regex ^\\d+$\u2014only the answer digits, nothing else.\\n",
+      "train_score": 0.972972972972973,
+      "train_step": 91,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem (reasoning optional). Finish your response with exactly one line that contains only the integer answer\u2014matching ^\\d+$\u2014and no other characters, spaces, or lines before or after it.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8013646702047005,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide your solution (explanation optional). End your output with one line that consists solely of the answer written as a sequence of digits\u2014no spaces, letters, symbols, or formatting characters anywhere on that line. That line must be the very last output.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.7915087187263078,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide your solution, then terminate the response with a single line that contains only the decimal representation of the answer. The line must match the regular expression ^\\d+$ and no other characters (including spaces, punctuation, markdown, or invisible characters) may appear before or after the digits.",
+      "train_score": 0.9594594594594594,
+      "train_step": 95,
+      "test_score": 0.7846853677028052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7297297297297297,
+      "train_step": -1,
+      "test_score": 0.7573919636087946,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve the task. End your reply with exactly one line that matches the regular expression ^\\\\d+$ (a sequence of digits only). No other characters, spaces, or blank lines may appear before or after this line.\\n",
+      "train_score": 0.6756756756756757,
+      "train_step": 99,
+      "test_score": 0.6186504927975739,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide your solution (explanation optional). Ensure that the final output is a single line that matches the regular expression ^\\d+$ \u2014 i.e., only the decimal digits of the answer, with absolutely no preceding or trailing spaces, line breaks, markup, or other characters. No additional output may appear after this line.",
+      "train_score": 0.3108108108108108,
+      "train_step": 99,
+      "test_score": 0.2357846853677028,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8506444275966641,
+    "avg_test_score": 0.7773926856565219,
+    "best_test_instruction": "Calculate the answer stepwise and give the final numerical result only."
+  }
+}

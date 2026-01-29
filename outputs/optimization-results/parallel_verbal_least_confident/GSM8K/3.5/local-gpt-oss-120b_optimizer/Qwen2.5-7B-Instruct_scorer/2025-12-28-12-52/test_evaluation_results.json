@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the relevant quantities and units, convert if necessary, form the correct arithmetic expression, compute it, and give the final numeric answer, verifying the result for consistency.",
+      "train_score": 0.9501915708812261,
+      "train_step": 1,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, convert units or percentages where required, express the entire problem as one exact arithmetic (or algebraic) expression\u2014using variables only if they simplify\u2014evaluate it with full precision (no rounding), perform a brief sanity check, and output solely the final numeric answer on one line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 79,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every mentioned quantity, interpret all relationships (including additions, multiplications, percentages, and unit changes) as a single exact mathematical formula, compute the result, perform a quick consistency check, and output just the final number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 54,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, map every quantity to its role, translate the whole situation into a single exact arithmetic expression (handling percentages, unit changes, repetitions), evaluate it with full precision, confirm the outcome makes sense, and return only the computed number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 82,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum and its role, apply any necessary unit or percentage conversions, translate all described relationships into the corresponding arithmetic operations, combine them into a single exact expression that directly yields the requested quantity, evaluate it, perform a brief sanity check, and output only the final numeric answer.",
+      "train_score": 0.946360153256705,
+      "train_step": 70,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect each numeric piece and its context, encode the entire problem as a single precise computation (handling percentages or unit shifts as needed), evaluate it without rounding, briefly confirm its reasonableness, and present only the final number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 87,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers and units, convert them if needed, translate the problem into the exact arithmetic or simple algebraic expression required, evaluate it with a verification step, and output only the final numeric answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 3,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum with its role, translate the word problem into the single exact arithmetic/algebraic expression needed (including any unit or percentage conversion), evaluate it precisely, do a quick verification, and output only the final numeric answer on one line.",
+      "train_score": 0.9386973180076629,
+      "train_step": 11,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "`  \n`Extract each figure with its context, apply any required unit or percentage conversion, combine them into the simplest single arithmetic formula that directly answers the question, evaluate it precisely, perform a brief consistency check, and output only the final number.`  \n`",
+      "train_score": 0.9425287356321839,
+      "train_step": 69,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number and its interpretation, apply required unit or percentage conversions, encode the whole problem as one exact arithmetic/algebraic expression that directly computes the requested value, evaluate it, do a brief consistency check, and output only the final numeric answer on one line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 68,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its role, convert any described repetitions, discounts, or unit changes into the exact arithmetic operations required, evaluate the single resulting expression with a brief sanity check, and output only the final numeric answer on one line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 61,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, extract every number together with the operation it participates in (e.g., sum, product, difference, percentage), build the exact mathematical expression, evaluate it step\u2011by\u2011step, confirm the result, and output only the final numeric answer.",
+      "train_score": 0.946360153256705,
+      "train_step": 2,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeric value mentioned, infer the exact mathematical operation each participates in, build the single precise expression that yields the requested quantity, evaluate it without rounding, perform a brief sanity check, and output only the final numeric answer on one line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Some instruction",
+      "train_score": 0.9425287356321839,
+      "train_step": 46,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8582375478927203,
+      "train_step": -1,
+      "test_score": 0.8347232752084913,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given quantity, translate the whole scenario into one exact arithmetic (or algebraic) calculation\u2014handling any unit or percentage changes\u2014compute it exactly, do a quick sanity check, and output solely the resulting number.",
+      "train_score": 0.8735632183908046,
+      "train_step": 99,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each relevant quantity, ignore extraneous story details, create the exact arithmetic or algebraic expression that directly produces the asked value (applying any necessary unit or percentage conversion), evaluate it precisely, perform a quick sanity check, and output only the final numeric answer on one line.",
+      "train_score": 0.8007662835249042,
+      "train_step": 99,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities, perform any necessary conversions, construct a single exact arithmetic expression that yields the requested value, evaluate it precisely, verify briefly, and output only the final number.",
+      "train_score": 0.8160919540229885,
+      "train_step": 99,
+      "test_score": 0.7680060652009097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric value and its role, perform any needed unit or percentage conversion, compose a single exact arithmetic expression that directly gives the requested quantity, evaluate it precisely (no rounding), do a quick sanity check, and output only the final number on one line.",
+      "train_score": 0.7739463601532567,
+      "train_step": 99,
+      "test_score": 0.7429871114480667,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every given quantity and its purpose, apply any required unit or percentage conversion, construct a single exact arithmetic (or simple algebraic) expression that directly produces the requested result, evaluate it precisely, perform a brief sanity check, and output only the final numeric answer on one line.",
+      "train_score": 0.6934865900383141,
+      "train_step": 99,
+      "test_score": 0.6618650492797574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, isolate each numeric fact and its function, translate the whole situation into the simplest exact calculation (performing any necessary unit or percentage changes), evaluate it accurately, do a quick sanity check, and output only the final numeric result on one line.",
+      "train_score": 0.6283524904214559,
+      "train_step": 99,
+      "test_score": 0.5739196360879454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.8473591104372,
+    "best_test_instruction": "Identify the relevant quantities and units, convert if necessary, form the correct arithmetic expression, compute it, and give the final numeric answer, verifying the result for consistency."
+  }
+}

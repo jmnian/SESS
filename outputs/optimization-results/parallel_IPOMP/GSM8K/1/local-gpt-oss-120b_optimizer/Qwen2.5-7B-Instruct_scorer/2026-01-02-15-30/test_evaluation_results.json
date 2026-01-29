@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present a minimal, logically coherent solution: execute just the necessary calculations, briefly explain each operation, verify the outcome, and conclude with a single line that contains only the final integer answer\u2014nothing else.",
+      "train_score": 0.9864864864864865,
+      "train_step": 16,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly work out the problem, ensuring each inference is logically justified, then output exclusively the final answer as a plain number.",
+      "train_score": 0.9324324324324325,
+      "train_step": 1,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Execute just the indispensable calculations, add a concise explanation for each, verify the outcome briefly, and end your response with one line that includes only the answer number, without any additional characters.",
+      "train_score": 0.9594594594594594,
+      "train_step": 49,
+      "test_score": 0.8658074298711145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by carrying out only the indispensable computations. After each computation write a one\u2011sentence rationale and append a brief validation token (e.g., ok) in braces {}. Finish with a single line that contains just the final integer result\u2014nothing else.",
+      "train_score": 0.9594594594594594,
+      "train_step": 67,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute only the indispensable arithmetic. After every computation give a concise justification sentence and immediately follow it with a brief verification token inside <> (e.g., <ok>). End the answer with one line that contains solely the integer result\u2014no extra characters, words, or whitespace before or after it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 95,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a compact solution: execute only the indispensable calculations, provide a brief comment for each step, perform a rapid verification, and conclude with a single line that contains solely the final integer answer\u2014nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 47,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Tags present, ending with",
+      "train_score": 0.9324324324324325,
+      "train_step": 46,
+      "test_score": 0.8407884761182715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse, logically ordered solution: perform only the calculations that are strictly required, and after each calculation write a brief justification sentence. Immediately after the justification, optionally place a one\u2011word sanity check (e.g., \u2018ok\u2019) in brackets. Conclude the entire response with one line that contains exactly the final integer answer and nothing else\u2014no extra characters, labels, or whitespace.",
+      "train_score": 0.9459459459459459,
+      "train_step": 66,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a lean, step\u2011by\u2011step answer: perform just the calculations required, accompany each with a one\u2011sentence justification, verify the result, and finish with a single line that contains only the final integer answer\u2014no other characters.",
+      "train_score": 0.9324324324324325,
+      "train_step": 30,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal solution: perform just the required arithmetic, accompany each step with a short justification, do a quick sanity check, and finish with exactly one line that contains only the final integer answer\u2014no extra characters.",
+      "train_score": 0.9324324324324325,
+      "train_step": 56,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8918918918918919,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by performing just the essential arithmetic. After each computation give a single\u2011sentence rationale, and immediately place a brief check word (\u201cyes\u201d/\u201cok\u201d) in square brackets. Finish with one line that contains only the integer answer\u2014no extra characters, markup, or whitespace before or after it.",
+      "train_score": 0.9459459459459459,
+      "train_step": 73,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform only the required calculations. After each operation write one brief sentence explaining the step, then do a quick sanity check (in parentheses). End with a single line that contains only the final integer answer\u2014no extra characters or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 64,
+      "test_score": 0.8119787717968158,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution that includes only the essential arithmetic. After each computation write a one\u2011sentence rationale, then perform a quick consistency check. Conclude the response with a single line that contains exactly the final integer answer\u2014no other text, symbols, or whitespace.",
+      "train_score": 0.9459459459459459,
+      "train_step": 49,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform only the calculations you truly need. After each numeric operation write a single short sentence explaining why you performed it, and immediately follow that sentence with a brief verification word in braces {ok}. Conclude your answer with one line that contains exactly the final integer result\u2014no other text, symbols, or whitespace.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.7475360121304018,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using only the necessary arithmetic. After each arithmetic step write a brief one\u2011sentence explanation and immediately follow it with a short verification marker in parentheses (e.g., (ok)). Do not include any headings, labels, or extra punctuation. Conclude the response with a single line that consists of only the final integer answer\u2014no surrounding whitespace, symbols, or text.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.7414708112206216,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct solution: perform only the calculations that are strictly necessary, accompany each computation with a one\u2011sentence justification, include a brief verification after each step, and end the response with exactly one line that contains only the final integer answer\u2014no extra characters, spaces, or formatting.",
+      "train_score": 0.7567567567567568,
+      "train_step": 99,
+      "test_score": 0.7399545109931767,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using only the calculations that are unavoidable. After each arithmetic operation give a single concise rationale, then immediately note a brief consistency indicator (e.g., ok). When finished, output exactly one line that contains only the final integer result\u2014nothing else, no spaces or symbols surrounding it.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.733131159969674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a crisp solution that performs only the essential arithmetic. After each calculation give a one\u2011sentence justification, then immediately note a brief sanity check in parentheses (e.g., (ok)). After the last step write a single line containing exactly the integer answer with no surrounding characters, whitespace or markup. Ensure the answer line is the very last output.",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.7119029567854435,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the question using only the calculations that are strictly needed. After each arithmetic operation write a single concise justification sentence. Immediately after the justification place a brief sanity\u2011check token in parentheses (e.g., (ok)). End the whole response with exactly one line that contains only the final integer result\u2014no surrounding whitespace, punctuation, or additional text. Do not include any headings, labels, or markdown.",
+      "train_score": 0.7702702702702703,
+      "train_step": 99,
+      "test_score": 0.7043214556482184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute only the essential arithmetic. For each computation give a single\u2011sentence explanation followed immediately by a brief validation token in square brackets (e.g., [ok]). Conclude with one line that contains precisely the integer answer and nothing else\u2014no leading/trailing whitespace or symbols.",
+      "train_score": 0.7297297297297297,
+      "train_step": 99,
+      "test_score": 0.5936315390447309,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8855193328279,
+    "avg_test_score": 0.7968518719087333,
+    "best_test_instruction": "Present a minimal, logically coherent solution: execute just the necessary calculations, briefly explain each operation, verify the outcome, and conclude with a single line that contains only the final integer answer\u2014nothing else."
+  }
+}

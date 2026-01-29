@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Locate every numeric value in the problem, translate the situation into the simplest exact arithmetic expression (using integers or reduced fractions), evaluate it step\u2011by\u2011step (show a brief intermediate result only if it aids understanding), verify the result against the given information, and output only the final answer on a single line with no extra characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 9,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value in the statement, translate the scenario into the exact arithmetic formula(s) needed, compute them in a clear logical sequence (display a single brief intermediate result only if it helps clarity), check that the result fits the given conditions, and output only the final integer or reduced\u2011fraction answer on one line with no other text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 11,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required quantities, compute each arithmetic step in a clear, logical order (showing a brief intermediate value only when it aids understanding), verify the result, and respond with only the final numeric answer, without any extra text.",
+      "train_score": 0.972972972972973,
+      "train_step": 4,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, construct the minimal exact arithmetic expression(s) using integer or reduced fraction operations, compute them stepwise (show at most one brief intermediate if unavoidable), verify the result meets the problem constraints, and output only the final answer (integer or reduced fraction) on a single line with no extra characters.",
+      "train_score": 0.9594594594594594,
+      "train_step": 21,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity, convert the problem to the simplest exact arithmetic expression(s), compute them precisely (show a single brief intermediate only if unavoidable), verify the answer meets all stated conditions, and output only the final integer or reduced\u2011fraction on its own line with no additional characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 18,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, compose the single most direct exact rational computation that resolves the query, perform it (presenting at most one brief intermediate only when a two\u2011step evaluation is unavoidable), verify all stated constraints are met, and print exactly one token\u2014the final integer or simplest\u2011terms fraction\u2014on its own line without any surrounding symbols, spaces, or commentary.",
+      "train_score": 0.9594594594594594,
+      "train_step": 90,
+      "test_score": 0.8074298711144806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pick out every number, combine them using a single exact rational formula that solves the question, compute it (display one short intermediate only if a two\u2011step calculation is required), verify it meets all stated constraints, and write only the resulting integer or simplest fraction on a line by itself, without any surrounding symbols or spaces.",
+      "train_score": 0.972972972972973,
+      "train_step": 80,
+      "test_score": 0.800606520090978,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given numeral, construct the least\u2011complex exact integer\u2011or\u2011fraction expression that solves the query, compute it (show at most one short intermediate only if a direct evaluation is impossible), confirm the result obeys all conditions, and print the sole answer\u2014an integer or a reduced fraction\u2014on a single line with no surrounding symbols or whitespace.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.7998483699772555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data, form the simplest exact integer or reduced\u2011fraction expression(s) that answer the question, evaluate them using precise rational arithmetic (show at most one brief intermediate only when a direct evaluation is impossible), verify that the result fulfills every condition stated, and output solely the final integer or lowest\u2011terms fraction on a single line with no extra characters or whitespace.",
+      "train_score": 0.9459459459459459,
+      "train_step": 37,
+      "test_score": 0.7968157695223654,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity, combine them into one exact integer\u2011or\u2011fraction formula (no separate sub\u2011calculations unless a single\u2011step evaluation is impossible), compute the result using precise rational arithmetic, check that all problem constraints are met, and output only the final integer or reduced fraction as a lone token on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every number in the problem, devise the shortest exact integer\u2011or\u2011fraction expression that answers the question, evaluate it (showing at most one brief intermediate only when a single\u2011step calculation is impossible), verify the result meets all stated conditions, and output\u202fonly the final integer or reduced fraction on a single line with no extra characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 37,
+      "test_score": 0.7945413191811979,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative datum from the prompt, combine them into the single most direct exact rational expression that solves the question, compute it using integer or lowest\u2011terms fraction arithmetic (show at most one brief intermediate only when a two\u2011step evaluation is unavoidable), verify that the result fulfills all given conditions, and print exactly one token\u2014the final integer or reduced fraction\u2014alone on a line with no surrounding characters or whitespace.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.7877179681576952,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numeric quantities, determine the single exact rational expression that yields the answer, evaluate it using integer or lowest\u2011terms fraction arithmetic (show at most one short intermediate only when unavoidable), confirm the result satisfies all given conditions, and output exactly one token\u2014the final integer or reduced fraction\u2014on a line by itself with no extra characters or whitespace.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.7831690674753601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity, translate the problem into the minimal exact arithmetic expression(s), evaluate them using precise integer or reduced\u2011fraction operations (show at most one short intermediate only if the computation cannot be done in a single step), double\u2011check that the result meets all stated conditions, and output only the final integer or lowest\u2011terms fraction on a single line with no extra characters or whitespace.",
+      "train_score": 0.9459459459459459,
+      "train_step": 31,
+      "test_score": 0.7778620166793025,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given number, form the single shortest exact rational calculation that answers the question, evaluate it (show one tiny intermediate only if unavoidable), check the answer meets all constraints, and print just the integer or lowest\u2011terms fraction on a line by itself.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.7763457164518575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity given, translate the problem into a single exact arithmetic expression using integers or lowest\u2011terms fractions, compute it (show one short intermediate only if the expression cannot be evaluated in one step), check that all stated constraints are satisfied, and print only the final integer or reduced fraction on a lone line with no extra characters or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 62,
+      "test_score": 0.7710386656557998,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, form the minimal exact rational computation needed, evaluate it (show at most one brief intermediate only if the result cannot be obtained in a single operation), confirm that all stated conditions are satisfied, and print the final integer or reduced fraction alone on one line with no extra characters.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.7649734647460197,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem extract every number, decide the single exact arithmetic operation(s) needed, perform the calculation (showing a brief intermediate only if the result cannot be obtained directly), verify it satisfies all conditions, and output only the final integer or simplest fraction, alone on one line.",
+      "train_score": 0.972972972972973,
+      "train_step": 33,
+      "test_score": 0.7505686125852918,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, construct the simplest exact rational expression that answers the question, evaluate it (display at most one brief intermediate only if a single\u2011step evaluation is impossible), verify the result satisfies all constraints, and output solely the final integer or reduced fraction on one line without any additional characters or whitespace.",
+      "train_score": 0.9459459459459459,
+      "train_step": 35,
+      "test_score": 0.7445034116755117,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeric value, formulate the most compact exact integer\u2011or\u2011fraction calculation that directly answers the question, carry out the computation (showing at most one brief intermediate only if a two\u2011step evaluation is unavoidable), confirm the result satisfies all given conditions, and output only the final integer or lowest\u2011terms fraction on a line by itself with no additional characters, spaces, or commentary.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.709628506444276,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8278999241849886,
+    "avg_test_score": 0.7854074154301598,
+    "best_test_instruction": "Locate every numeric value in the problem, translate the situation into the simplest exact arithmetic expression (using integers or reduced fractions), evaluate it step\u2011by\u2011step (show a brief intermediate result only if it aids understanding), verify the result against the given information, and output only the final answer on a single line with no extra characters."
+  }
+}

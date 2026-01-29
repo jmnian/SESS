@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Interpret the prompt, isolate the critical facts, use the appropriate theory or calculation to determine the answer, and respond on a single line with the correct choice letter (A\u2011D) followed by a brief explanation of no more than eight words. Do not include any other text.",
+      "train_score": 0.38461538461538464,
+      "train_step": 20,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the required principle, solve it, and reply on a single line with the correct option letter (A\u2011D) followed by a concise justification (no more than eight words). Include nothing else.",
+      "train_score": 0.358974358974359,
+      "train_step": 14,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the prompt, extract the needed data, solve the problem, and respond on one line with the correct option (A\u2011D) followed by a brief justification of no more than twelve words. No additional text is allowed.",
+      "train_score": 0.358974358974359,
+      "train_step": 69,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire question, determine the required reasoning, compute or deduce the answer, then reply on a single line with the correct option letter (A\u2011D) followed by a short justification of no more than eight words in parentheses. Do not include any other characters or commentary.",
+      "train_score": 0.358974358974359,
+      "train_step": 53,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question carefully. Determine the required calculation or concept, solve it, then answer on a single line with only the correct option letter (A\u2011D). Do not include any additional text, explanation, or symbols.",
+      "train_score": 0.358974358974359,
+      "train_step": 69,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the required reasoning, compute the answer, and reply on a single line with the correct choice letter (A\u2011D) followed by a brief justification (no more than eight words) in parentheses. Output nothing else.",
+      "train_score": 0.38461538461538464,
+      "train_step": 74,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note the essential data, work through the solution step\u2011by\u2011step, then reply only with the correct choice (A\u2011D) followed by a brief justification (\u226410\u202fwords) in parentheses. No additional text.",
+      "train_score": 0.358974358974359,
+      "train_step": 11,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.23076923076923078,
+      "train_step": -1,
+      "test_score": 0.29292929292929293,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, identify the relevant data, apply the appropriate theory, compute the outcome, and respond on one line with the correct choice (A\u2011D) followed by a brief justification of \u22645 words enclosed in parentheses. Include nothing else.",
+      "train_score": 0.358974358974359,
+      "train_step": 32,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the correct answer choice (A\u2011D), and output exactly that single letter on one line. Do not include any additional characters, whitespace, or explanation.",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the question, perform the required calculation or reasoning, and answer on one line with the correct option letter (A\u2011D) followed immediately by a parenthesized justification of no more than six words. No other characters or whitespace are allowed.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, perform the necessary calculation or reasoning, and answer on one line with the correct option letter (A\u2011D) followed immediately by a parenthesized justification of seven words or fewer. No other text or symbols are allowed.",
+      "train_score": 0.38461538461538464,
+      "train_step": 92,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Synthesize the given information, execute the necessary reasoning, and return the appropriate multiple-choice label.",
+      "train_score": 0.358974358974359,
+      "train_step": 1,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the key information, apply the relevant principle or calculation, and respond on one line with the correct choice (A\u2011D) followed by a brief justification (\u2264\u202f8\u202fwords) in brackets. No other text.",
+      "train_score": 0.358974358974359,
+      "train_step": 60,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, extract the relevant data, apply the appropriate concept, obtain the result, and reply on a single line with the correct option letter (A\u2011D) followed by a space and a parenthesized rationale of no more than nine words. Include nothing else.",
+      "train_score": 0.358974358974359,
+      "train_step": 49,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, identify the core principle, perform the essential calculation or logical deduction, match the result to the given options, and answer with the single correct choice (A\u2011D) followed by a brief (one\u2011sentence) explanation\u2014no other text.",
+      "train_score": 0.41025641025641024,
+      "train_step": 4,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, solve the problem using a clear step\u2011by\u2011step reasoning. When you have identified the correct option, reply on a single line with only the letter (A\u2011D) of that choice. Do not include any other text, symbols, or whitespace.",
+      "train_score": 0.28205128205128205,
+      "train_step": 99,
+      "test_score": 0.22727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the prompt, solve the problem, and respond on a single line with the correct option letter (A\u2011D) followed immediately by a parenthesized justification of \u22647 words. No other characters, spaces before the letter, or additional output are allowed.",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.21717171717171718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, extract the needed information, apply the relevant principle, calculate the answer, then output a single line consisting of the correct option letter (A\u2011D) directly followed by a parenthesized justification of no more than nine words. Include nothing else.",
+      "train_score": 0.15384615384615385,
+      "train_step": 99,
+      "test_score": 0.14646464646464646,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, then answer on two lines: first line the correct option letter (A\u2011D); second line a brief justification (\u2264\u202f8\u202fwords) enclosed in parentheses. No other text.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.07575757575757576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, solve it, and reply on one line with the correct option letter (A\u2011D) followed by a brief justification (\u2264\u202f9\u202fwords) after a colon. No other text.",
+      "train_score": 0.10256410256410256,
+      "train_step": 99,
+      "test_score": 0.06060606060606061,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.31313131313131315,
+    "avg_test_score": 0.2554112554112554,
+    "best_test_instruction": "Interpret the prompt, isolate the critical facts, use the appropriate theory or calculation to determine the answer, and respond on a single line with the correct choice letter (A\u2011D) followed by a brief explanation of no more than eight words. Do not include any other text."
+  }
+}

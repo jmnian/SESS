@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Calculate the answer using only the essential steps (briefly justify any non\u2011obvious move), confirm that all problem conditions are met, and output a single numeric result\u2014an integer, a terminating decimal, or a reduced fraction\u2014on one line with no extra characters, spaces, or commentary.",
+      "train_score": 0.875,
+      "train_step": 99,
+      "test_score": 0.7602375742419506,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact numeric result required, perform only the indispensable calculations (give at most one short justification for any non\u2011trivial step inside your reasoning), confirm that every condition of the problem is met, and finally print only the answer as a plain integer or reduced fraction on a single line with no extra spaces, symbols, or words.",
+      "train_score": 0.9583333333333334,
+      "train_step": 62,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the exact value asked for, using only the essential steps (briefly justify any non\u2011obvious move), confirm that all stated conditions hold, and return the sole result in its simplest integer or reduced\u2011fraction form as plain text\u2014no extra words or symbols.",
+      "train_score": 0.9583333333333334,
+      "train_step": 47,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the exact value asked for, performing only the indispensable operations (briefly justify any non\u2011immediate step), verify that all problem conditions are met, and output the result alone as a plain integer, terminating decimal, or reduced fraction\u2014no additional characters or text.",
+      "train_score": 0.9583333333333334,
+      "train_step": 63,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact value required, carry out only the indispensable calculation (briefly justify any non\u2011obvious step), ensure all given conditions are satisfied, and respond with the final answer alone as a plain integer or reduced fraction\u2014no additional symbols, words, or formatting.",
+      "train_score": 0.9583333333333334,
+      "train_step": 35,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by performing only the necessary calculations (give at most one concise reason for any step that is not immediate), confirm that every condition in the statement holds, and then output the exact result\u2014either an integer, a reduced fraction, or a terminating decimal\u2014on a single line with no other characters, spaces, or explanatory text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 99,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the required mathematical operation, apply the appropriate method with only essential steps and brief justification, verify all given conditions, and output solely the exact final answer in its simplest form\u2014no extra wording.",
+      "train_score": 0.9791666666666666,
+      "train_step": 6,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the exact quantity asked for, using only the essential steps (briefly justify a non\u2011obvious step), verify that every condition of the problem holds, and return the answer alone as a plain integer or reduced fraction\u2014no other text, symbols, or formatting.",
+      "train_score": 0.9583333333333334,
+      "train_step": 41,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the relevant mathematical principle, perform the calculation while giving a brief explanation for each step, and finish by presenting only the exact final answer.",
+      "train_score": 0.9375,
+      "train_step": 1,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify precisely what is required, apply the appropriate mathematical method using only the indispensable steps (briefly justify only if non\u2011obvious), verify all stated conditions, and output the final answer as a single simplified number\u2014nothing else.",
+      "train_score": 0.9583333333333334,
+      "train_step": 17,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact answer required, carrying out only the indispensable calculations (give at most one brief justification for any step that is not immediate), check that all conditions in the statement are satisfied, and output solely the final result\u2014an integer, a terminating decimal, or a reduced fraction\u2014as plain text on a single line with no additional characters, spaces, or commentary.",
+      "train_score": 0.9166666666666666,
+      "train_step": 99,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the required value, using only the steps that are unavoidable (a single brief justification may be given for any non\u2011trivial step). Verify that all conditions of the problem hold, then output exactly one number\u2014the result\u2014in its simplest form (integer, reduced fraction, or terminating decimal)\u2014nothing else on the line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 99,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Derive the exact value required, using only indispensable reasoning (a single brief justification is allowed for any non\u2011obvious step), verify that all problem conditions are satisfied, and output the answer alone as a plain integer, a terminating decimal, or a reduced fraction\u2014nothing else on the line.",
+      "train_score": 0.9583333333333334,
+      "train_step": 93,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single numeric answer requested, carry out the minimal necessary computation (briefly justify any non\u2011trivial step), verify all stated constraints, and output only the final result as an integer or a reduced fraction using only digits and \u2018/\u2019, with no extra characters or whitespace.",
+      "train_score": 0.9583333333333334,
+      "train_step": 38,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique answer the problem asks for, perform only the indispensable calculations (you may give one short justification for any step that is not immediately evident), confirm that every given condition holds, and print that single result as a plain integer, a terminating decimal, or a reduced fraction\u2014nothing else, no spaces, no line breaks, no extra symbols.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.875,
+      "train_step": -1,
+      "test_score": 0.7271022194435761,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity required, apply the appropriate method using only indispensable steps (with a brief justification if necessary), verify any stated conditions, and respond with only the final exact answer in its simplest form\u2014no extra text.",
+      "train_score": 0.9583333333333334,
+      "train_step": 14,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact number requested, perform only the essential calculation (briefly justify any non\u2011trivial step), verify that all given conditions are satisfied, and output solely the final result as a plain integer or reduced fraction\u2014no extra text, symbols, or explanation.",
+      "train_score": 0.9583333333333334,
+      "train_step": 27,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the exact numeric answer asked for, perform only the essential operations (briefly justify any non\u2011obvious step), confirm that all conditions of the problem are satisfied, and output the final result alone, as a plain integer or a reduced fraction (no trailing spaces, no extra symbols or text).",
+      "train_score": 0.9583333333333334,
+      "train_step": 62,
+      "test_score": 0.6999062206939669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact numerical answer, performing only essential operations (give a single brief justification for any non\u2011obvious step), verify that every condition in the statement is satisfied, and output that value alone\u2014either as an integer, a terminating decimal, or a reduced fraction\u2014without any extra characters, spaces or commentary.",
+      "train_score": 0.8541666666666666,
+      "train_step": 99,
+      "test_score": 0.6880275085964364,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the unique numeric answer, using only the essential computation (give at most one brief explanation for any non\u2011obvious step), confirm all conditions, and print exactly that value\u2014integer, reduced fraction, or terminating decimal\u2014alone on one line, with no extra characters.",
+      "train_score": 0.8958333333333334,
+      "train_step": 99,
+      "test_score": 0.6114410753360425,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7602375742419506,
+    "avg_test_score": 0.7301239970824215,
+    "best_test_instruction": "Calculate the answer using only the essential steps (briefly justify any non\u2011obvious move), confirm that all problem conditions are met, and output a single numeric result\u2014an integer, a terminating decimal, or a reduced fraction\u2014on one line with no extra characters, spaces, or commentary."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.747733666770866,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach the problem methodically: interpret the statement, identify the relevant concepts, work through the calculations step by step, and present the final answer clearly.",
+      "train_score": 0.8541666666666666,
+      "train_step": 0,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a tight solution: briefly restate the goal, cite the one indispensable principle, execute the calculation in the fewest logical moves, do a quick sanity check, and end with the exact answer alone.",
+      "train_score": 0.8541666666666666,
+      "train_step": 26,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence, identify the central concept or formula, apply it through a clear, minimal\u2011step calculation, double\u2011check the result, and give the exact final answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 3,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Proceed in five lean stages: (a) translate the question into the exact quantity to be found; (b) pinpoint the single mathematical tool (formula, identity, or operation) that solves it; (c) perform the computation with the minimal chain of justified steps; (d) run a rapid plausibility check; (e) write only the final numeric answer on a line by itself.",
+      "train_score": 0.8541666666666666,
+      "train_step": 44,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in two parts: first, succinctly translate the question into the exact mathematical target and mention the one key tool needed; second, carry out the calculation in the fewest logical steps, perform a quick check, and write only the final numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 36,
+      "test_score": 0.7236636448890278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact answer: first, rewrite the question as a precise mathematical expression; second, indicate the one key theorem or identity you will use; third, perform the minimal computation needed and conclude with the exact numeric result on its own line.",
+      "train_score": 0.875,
+      "train_step": 24,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a terse solution by: (a) recasting the question into the exact quantity to determine, (b) selecting the single indispensable theorem or identity, (c) carrying out the computation in the shortest justified chain, (d) performing a brief plausibility test, and (e) delivering only the final numeric value.",
+      "train_score": 0.8541666666666666,
+      "train_step": 15,
+      "test_score": 0.718974679587371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the solution in exactly three parts: (i) state the problem as \u201cfind\u202fX\u201d, the precise quantity; (ii) indicate the single key identity or procedure that yields X and perform the computation using the minimum number of justified steps; (iii) verify briefly and write only X on a line by itself, with no additional commentary.",
+      "train_score": 0.8541666666666666,
+      "train_step": 84,
+      "test_score": 0.7120975304782745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a streamlined solution: (a) state the exact quantity to be found; (b) cite the one decisive theorem/identity and carry out the shortest valid derivation; (c) perform a brief sanity check; (d) write only the final numeric answer on a line by itself.",
+      "train_score": 0.875,
+      "train_step": 80,
+      "test_score": 0.7074085651766177,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve by: (i) stating the quantity to find in one sentence; (ii) naming the single mathematical tool needed (e.g., substitution, quadratic formula, area formula); (iii) executing the computation in the fewest justified steps; (iv) performing a quick consistency check; (v) giving only the exact final number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 13,
+      "test_score": 0.7074085651766177,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three tight phases: (i) translate the question into the precise numerical quantity to obtain; (ii) pinpoint the lone essential formula or trick that solves it and carry out the computation in the fewest justified manipulations; (iii) do a quick sanity check and write only the resulting number on a separate line.",
+      "train_score": 0.875,
+      "train_step": 71,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three compact stages: (i) state precisely the quantity to determine; (ii) name the one indispensable concept or formula and carry out the calculation using the fewest logical moves; (iii) perform a quick consistency check and write only the final number on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 51,
+      "test_score": 0.6961550484526414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three brief phases: (i) Translate the question into the exact quantity to be found; (ii) Choose the one indispensable rule or shortcut and compute the value in the minimal number of justified operations; (iii) Perform a quick sanity check and output only the final number on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 84,
+      "test_score": 0.6958424507658644,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise answer in four stages: (i) restate the problem as the precise quantity to find; (ii) name the one essential theorem or formula that applies; (iii) perform the computation using the minimum justified steps; (iv) do a rapid sanity check and output only the final numeric result on the last line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 31,
+      "test_score": 0.6936542669584245,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a succinct solution in three parts: (i) express the required quantity in a single clear statement; (ii) cite the lone fundamental principle or formula and carry out the calculation using the fewest justified steps; (iii) perform a rapid sanity check and write only the final numeric answer on its own line.",
+      "train_score": 0.875,
+      "train_step": 35,
+      "test_score": 0.6849015317286652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one paragraph containing: (i) a one\u2011sentence reformulation of the goal; (ii) the single indispensable identity or method; (iii) the computed answer, verified by a quick estimate, and placed alone on the last line. No extra explanation.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.4301344170053142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve efficiently: (i) express the problem as \u201cfind\u202fX\u201d; (ii) pick the single indispensable principle that yields X and carry out the computation in the shortest justified chain; (iii) perform a quick consistency check; finally, output only X on a line by itself.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.3666770865895592,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a three\u2011line solution:  \n- Target \u2013 rewrite the question as \u201cfind\u202fX\u201d, giving X explicitly.  \n- Core step \u2013 cite the one essential theorem or shortcut, execute the calculation in the minimum number of justified operations.  \n- Output \u2013 after a rapid sanity check, print only the numeric value of X on its own line, without any additional commentary.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.3044701469209128,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer in exactly three concise moves: (i) rewrite the question as \u201cfind\u202fX\u201d where X is the required number; (ii) cite the one core theorem or identity that directly yields X and execute the computation in a single logical chain; (iii) after a quick sanity check, print only X on its own line with no additional text.",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.26883401062832135,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve in three clear moves: (i) convert the question to \u201cfind\u202fX\u201d, the exact numeric target; (ii) name the one critical formula or trick that resolves X and carry out the computation in the minimal logical steps; (iii) perform a quick plausibility check and write only X on a line by itself, without any additional commentary.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.1700531416067521,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.747733666770866,
+    "avg_test_score": 0.6181544827996845,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

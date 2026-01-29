@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the question, locate every numeric quantity and the exact operation (including sums, differences, products, quotients, averages, ratios, etc.) that the problem specifies, form the single precise arithmetic expression, evaluate it with perfect rational (integer/fraction) accuracy\u2014no rounding or floating\u2011point approximation\u2014and answer with only the final result, presented as an integer, a reduced fraction, or an exact terminating decimal.",
+      "train_score": 0.9770114942528736,
+      "train_step": 36,
+      "test_score": 0.9203942380591357,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and the exact operations they imply, form the one required calculation (including any unit conversions, percentages, ratios, or simple algebra), compute it with exact rational arithmetic (no floating\u2011point or rounding), ensure any stated conditions hold, and output only the final answer as an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 0.9770114942528736,
+      "train_step": 93,
+      "test_score": 0.9196360879454132,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum and the exact relationship it implies (including percentages, unit or fraction conversions), build the single precise arithmetic expression, evaluate it using exact integer/fraction arithmetic (no rounding or floating\u2011point), confirm the result satisfies all given conditions, and output only the final answer in its simplest form\u2014either an integer, a reduced fraction, or an exact terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 57,
+      "test_score": 0.9173616376042456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric datum mentioned, determine the exact operation(s) connecting them, compose the single unambiguous arithmetic (or algebraic) expression, evaluate it using exact rational arithmetic (no floating\u2011point or rounding), verify any stated constraints, and output only the final result in its simplest representation: an integer, a reduced fraction, or an exact terminating decimal.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity and its exact mathematical relationship, combine them into a single unambiguous rational expression, evaluate it with exact integer\u2011fraction arithmetic (no rounding or floating\u2011point), and output only the final result in its simplest form\u2014an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 0.9693486590038314,
+      "train_step": 99,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, isolate all quantities and the precise mathematical operation(s) they dictate (including unit changes, percentages, ratios, or simple equations). Build the single unambiguous rational expression, evaluate it using exact integer\u2011fraction arithmetic (no approximation), and answer with only the resulting value in its simplest form\u2014either an integer, a lowest\u2011terms fraction, or an exact terminating decimal.",
+      "train_score": 0.9655172413793104,
+      "train_step": 99,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, identify every numeric quantity and its exact relationship, form the unique arithmetic expression implied, evaluate it with full rational precision (no approximation), and output solely the simplified result as an integer, reduced fraction, or exact terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 34,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, locate all numerical quantities, infer the exact arithmetic relationship among them, formulate the unique expression required, calculate it using exact rational arithmetic (no rounding), and return only the final answer in simplest form\u2014either an integer, a lowest\u2011terms fraction, or an exact terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 36,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number appearing in the problem and the exact mathematical relation it imposes (percent, ratio, conversion, etc.). Combine them into one unambiguous rational expression, compute its value using pure integer\u2011fraction arithmetic (no floating\u2011point or rounding), verify any stated constraints, and output only that result as an integer, a fraction in lowest terms, or a terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 86,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities mentioned, infer the exact mathematical operation(s) connecting them, form the unique expression, evaluate it with perfect rational precision (no floating\u2011point or rounding), and answer with only the final value in simplest form\u2014integer, reduced fraction, or terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 58,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric data and the relationships they imply (including fractions, percentages, ratios, and unit conversions). Form the unique exact expression or system of equations required, solve it using integer/fraction arithmetic (no floating\u2011point or rounding), confirm the solution satisfies the problem, and output only the final result in its simplest form: an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 61,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, pull out all numerical data and the exact relationships described, build the required mathematical expression(s) (including any algebraic equations), evaluate them using exact rational arithmetic (no floating\u2011point or rounding), confirm any constraints, and present only the final result in its simplest form\u2014an integer, a lowest\u2011terms fraction, or an exact terminating decimal.",
+      "train_score": 0.9770114942528736,
+      "train_step": 85,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, list every numeric value and its exact relationship, form the unique calculation needed, evaluate it with perfect rational precision (no rounding or floating\u2011point), and output only the final answer in its simplest representation: an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 63,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric quantity, translate the described relationships into one exact rational expression (handling arithmetic, percentages, ratios, unit changes or simple algebra), evaluate it with pure integer\u2011fraction precision (no floating\u2011point or rounding), and output only the simplified result\u2014either an integer, a reduced fraction, or an exact terminating decimal.",
+      "train_score": 0.9693486590038314,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, list all given numbers and the exact mathematical relation they impose (addition, subtraction, multiplication, division, percentage, ratio, unit conversion, or simple algebra). Form the one definitive rational expression that follows directly from the statement, evaluate it with exact integer\u2011fraction arithmetic (no floating\u2011point or rounding), and output only the resulting value in its simplest form\u2014either an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, list all given numbers and the operations that connect them, construct the single required calculation, compute it with exact rational arithmetic (no rounding), and reply with only the final result expressed as a reduced integer, fraction, or terminating decimal.",
+      "train_score": 0.9770114942528736,
+      "train_step": 30,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity and its mathematical relation, construct the unique exact formula, solve it with exact rational arithmetic (no rounding), and reply with only the final answer in its simplest representation: an integer, a lowest\u2011terms fraction, or an exact terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 44,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and the exact mathematical relationships stated, form the single required calculation (including any needed algebra), compute it with exact rational precision (no rounding or floating\u2011point), ensure any given conditions are met, and reply with only the final answer in its simplest representation: an integer, a lowest\u2011terms fraction, or an exact terminating decimal.",
+      "train_score": 0.9731800766283525,
+      "train_step": 80,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the numbers, build the single exact calculation (including unit changes, percentages or simple algebra), evaluate it with pure integer\u2011fraction arithmetic (no floating\u2011point), and answer with only the final value in its simplest form (integer, reduced fraction or terminating decimal).",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the exact numerical expression it requires, compute it with perfect rational (integer\u2011fraction) precision\u2014no rounding or floating\u2011point\u2014and answer with only the final value in its simplest representation (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8620689655172413,
+      "train_step": -1,
+      "test_score": 0.8377558756633814,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9203942380591357,
+    "avg_test_score": 0.906494819307556,
+    "best_test_instruction": "Read the question, locate every numeric quantity and the exact operation (including sums, differences, products, quotients, averages, ratios, etc.) that the problem specifies, form the single precise arithmetic expression, evaluate it with perfect rational (integer/fraction) accuracy\u2014no rounding or floating\u2011point approximation\u2014and answer with only the final result, presented as an integer, a reduced fraction, or an exact terminating decimal."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Produce a full solution with every necessary reasoning and computation. At the very end output a single line that contains only the final numeric answer: if the result is an integer write it without a decimal point, otherwise round it to one decimal place. No other characters, spaces, or formatting may appear on that line, and it must be the last line of the output.",
+      "train_score": 0.8058823529411765,
+      "train_step": 98,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by reasoning step\u2011by\u2011step, show the required calculations, and conclude with the final numeric answer only.",
+      "train_score": 0.8117647058823529,
+      "train_step": 0,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, provide all essential steps, and conclude with the exact numeric result on a line by itself\u2014use integer form when possible, otherwise one decimal place; no additional text.",
+      "train_score": 0.8117647058823529,
+      "train_step": 32,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, step\u2011by\u2011step solution with all essential reasoning. Conclude your response by printing only the final numeric answer on a single line\u2014write it as an integer if it is whole, otherwise round to one decimal place. No other text, symbols, or whitespace may appear before or after this number.",
+      "train_score": 0.8,
+      "train_step": 20,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a full, logical solution including all required reasoning and calculations. The very last line of your output must contain only the final numeric answer\u2014write it as an integer if it is whole, otherwise round to one decimal place. No other characters, spaces or punctuation may precede or follow that number.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, detailing each logical step and computation; finally output only the resulting numeric value (rounded to one decimal place if needed).",
+      "train_score": 0.8117647058823529,
+      "train_step": 1,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem with a clear, step\u2011by\u2011step explanation, include all required calculations, and end by presenting only the final numeric answer (rounded to one decimal place if necessary).",
+      "train_score": 0.8,
+      "train_step": 1,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a clear, logical solution with all necessary calculations. End your response with exactly one line that contains only the final numeric result: write it as an integer when it has no fractional part, otherwise round to one decimal place. Do not include any other text, symbols, or whitespace on that line.",
+      "train_score": 0.5176470588235295,
+      "train_step": 99,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a complete solution and end with only the final numeric answer on a single line, formatted as an integer if whole or to one decimal place otherwise.",
+      "train_score": 0.8176470588235294,
+      "train_step": 18,
+      "test_score": 0.7327289778055642,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logical solution showing each required step. Conclude by printing exclusively the final numeric answer on its own line, formatted as an integer if it has no fractional part, otherwise rounded to one decimal place. Ensure no other characters appear before or after this number.",
+      "train_score": 0.8,
+      "train_step": 39,
+      "test_score": 0.7314785870584558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a full solution, then end with a single line containing just the numeric answer\u2014write it as an integer if it has no fractional part, otherwise round to one decimal place. Nothing else may appear on that line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 72,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a full, step\u2011by\u2011step solution with all required reasoning and calculations. Conclude your answer by printing exactly one line that contains only the final numeric result\u2014write it as an integer when it has no fractional part, otherwise round to one decimal place. No other characters or spaces may appear before or after this number.",
+      "train_score": 0.8117647058823529,
+      "train_step": 85,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem with complete reasoning and any needed computations. Finally, print a single line that consists solely of the final numeric answer\u2014if the answer is an integer write it without a decimal point, otherwise round it to one decimal place. No other text, symbols, or spaces may appear on that line.",
+      "train_score": 0.8,
+      "train_step": 50,
+      "test_score": 0.7230384495154736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that includes all necessary calculations, then output only the final numeric answer.",
+      "train_score": 0.8,
+      "train_step": 0,
+      "test_score": 0.7227258518286964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a thorough solution, showing each necessary step and calculation. End your response with a single line containing only the final numeric result, expressed as an integer when the value is whole, otherwise rounded to one decimal place. No additional characters or whitespace may appear on that line.",
+      "train_score": 0.5764705882352941,
+      "train_step": 99,
+      "test_score": 0.673648015004689,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a full, step\u2011by\u2011step solution with all required reasoning and calculations. Conclude by outputting only the final answer on a single line: write it as an integer if whole, as a reduced fraction if rational, otherwise as a decimal rounded to one decimal place. No other characters, words, or spaces may appear before or after this line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 61,
+      "test_score": 0.6533291653641763,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, providing every required reasoning and computation. Conclude your answer with a solitary line that contains just the numeric result: display it as a plain integer when there is no fractional part, or otherwise round to one decimal place. Ensure that line contains nothing else\u2014not even spaces or punctuation\u2014before or after the number.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.6430134417005314,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, showing all necessary reasoning and calculations. At the very end output a single line that contains nothing but the final numeric result\u2014write it as an integer if it has no fractional part, otherwise round it to one decimal place. No other characters, spaces or symbols may appear on that line.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.5451703657392936,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, presenting every needed computation. End your response with one line that consists solely of the numerical answer: if the answer is an integer write it without a decimal point, otherwise round to one decimal place. Nothing else (no words, symbols, or spaces) may appear on that line, and it must be the final line.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.4954673335417318,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a complete, step\u2011by\u2011step solution including all necessary reasoning and calculations. After the explanation, output a blank line followed by a single line that contains only the final numeric result. Write the result as an integer if it is whole; otherwise round it to one decimal place. No other characters, words, or spaces may appear on that line.",
+      "train_score": 0.7470588235294118,
+      "train_step": 99,
+      "test_score": 0.49452954048140046,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8176470588235294,
+      "train_step": -1,
+      "test_score": 0.46514535792435135,
+      "is_initial": true,
+      "is_best_train": true,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7433572991559863,
+    "avg_test_score": 0.6784262939311392,
+    "best_test_instruction": "Produce a full solution with every necessary reasoning and computation. At the very end output a single line that contains only the final numeric answer: if the result is an integer write it without a decimal point, otherwise round it to one decimal place. No other characters, spaces, or formatting may appear on that line, and it must be the last line of the output."
+  }
+}

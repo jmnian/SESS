@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Locate every numeric datum (integers, fractions, percentages, units, or verbal ratios), convert each to an exact rational in a consistent unit system, infer the single exact computation that answers the question, carry it out step\u2011by\u2011step while briefly confirming each intermediate value (no rounding or approximations), and output ONLY the final result reduced to its simplest form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 40,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, list every numeric datum (including fractions, percentages and units), deduce the exact single formula needed, evaluate it rigorously step\u2011by\u2011step (checking each intermediate result), keep full exact values (no rounding), and reply with ONLY the final numeric answer in its simplest exact form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 23,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (integers, fractions, percents, units, or implicit ratios), express each as an exact rational in a unified unit system, deduce the one precise computation the problem asks for, perform the calculation step\u2011by\u2011step keeping all values exact and briefly verifying each transition, and output ONLY the final answer in simplest reduced form.",
+      "train_score": 0.9731800766283525,
+      "train_step": 51,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative mention (integers, fractions, percentages, units, or verbal ratios such as \u201chalf\u201d, \u201cdouble\u201d, \u201cthree\u2011times\u201d). Convert each to an exact rational expressed in one uniform unit system. From the problem\u2019s relationships, write the smallest possible algebraic expression or system that determines the asked quantity. Solve analytically, checking each step without rounding, and output ONLY the final answer reduced to lowest terms (integer or fraction).",
+      "train_score": 0.9693486590038314,
+      "train_step": 75,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric data (numbers, fractions, percentages, units, implicit ratios), convert each to an exact mathematical term, infer the single precise expression required, evaluate it step\u2011by\u2011step while briefly checking each intermediate result, keep all values exact (no rounding), and output ONLY the final numeric answer in its simplest exact form.",
+      "train_score": 0.9731800766283525,
+      "train_step": 26,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical fact (including whole numbers, fractions, percentages, and verbal multipliers) and encode each as an exact rational in a single consistent unit. Using only the relationships stated, construct the minimal algebraic expression that yields the answer. Compute it analytically, verifying each intermediate step, and output solely the final result in lowest\u2011terms (integer or reduced fraction).",
+      "train_score": 0.9731800766283525,
+      "train_step": 91,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities (including whole numbers, fractions, percents, units, or verbal ratios like \u201chalf\u201d/\u201cdouble\u201d), convert each to an exact rational in a single common unit, determine the unique expression that fulfills every condition of the question, evaluate it analytically step\u2011by\u2011step with a quick sanity check after each operation (no rounding), and output ONLY the final result reduced to the simplest integer or fraction.",
+      "train_score": 0.9731800766283525,
+      "train_step": 60,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every number mentioned (whole numbers, fractions, percentages, units, or words implying a ratio), rewrite each as an exact rational in one common unit, figure out the sole formula that satisfies the conditions, carry out the calculation analytically with a quick verification after each step, keep all values exact, and output ONLY the final answer reduced to simplest form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 73,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeric datum (integers, fractions, percentages, units, or verbal ratios). Express each as an exact fraction in a single common unit. From the given relationships infer the single required computation, carry it out analytically while briefly confirming each intermediate value (no rounding), and output ONLY the final exact result reduced to lowest terms.",
+      "train_score": 0.9693486590038314,
+      "train_step": 78,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate every numeric term (including implicit ratios such as \u201chalf\u201d, \u201cdouble\u201d, percentages, etc.), encode each as an exact fraction in a single consistent unit, infer the unique exact expression that satisfies all stated relationships, evaluate it analytically while briefly confirming each intermediate result (no rounding), and output ONLY the final answer reduced to its lowest\u2011terms (integer or fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number or implied ratio from the statement, represent each as an exact rational in one uniform unit, deduce the sole exact expression that fulfills all the given relations, evaluate it analytically (keeping symbols, no rounding), verify that the result meets every condition, and output ONLY the final value in lowest\u2011term integer or fraction form.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity mentioned (including whole numbers, fractions, percentages, units, or implicit ratios such as \u201chalf\u201d, \u201cdouble\u201d). Convert each to an exact rational expressed in a single consistent unit. From the relationships described, infer the minimal arithmetic expression that directly yields the quantity asked. Evaluate it analytically, checking each intermediate step for consistency, and return only the final result reduced to lowest\u2011terms (integer or fraction).",
+      "train_score": 0.9731800766283525,
+      "train_step": 89,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given quantity (integers, fractions, percents, units, or verbal ratios), rewrite each as an exact rational in one common unit, infer the single operation that solves the problem, perform the calculation step\u2011by\u2011step checking each intermediate result (no approximations), and output ONLY the final result in simplest integer or reduced fraction form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 61,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned (including whole numbers, fractions, percentages, units, or verbal ratios such as \u201chalf\u201d or \u201cdouble\u201d). Convert each to an exact rational in a single consistent unit. From the problem\u2019s conditions formulate the unique exact expression that yields the asked value, evaluate it analytically (no approximations), verify each step briefly, and output ONLY the final answer as a reduced integer or fraction.",
+      "train_score": 0.9655172413793104,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value (including fractions, percentages, units and implicit ratios such as \u201chalf\u201d or \u201cdouble\u201d), decide the single exact arithmetic expression that satisfies the problem, evaluate it step\u2011by\u2011step with a brief sanity check after each operation, and output only the final exact numeric result in its simplest form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 21,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical element (integers, fractions, percentages, monetary amounts, units, or implicit ratios such as \u201chalf\u201d or \u201ctwice\u201d), translate each to an exact rational in a single unified system, determine the unique exact computation that fulfills all stated relationships, carry out the calculation analytically with a concise check of each intermediate result (no rounding), and output ONLY the final answer reduced to its simplest exact form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 55,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list every numerical value (including percentages, unit amounts, and verbal ratios such as \u201chalf\u201d, \u201cdouble\u201d, etc.), convert each to an exact rational in a single consistent unit, deduce the unique exact computation that answers the question, evaluate it analytically with full precision, and output ONLY the final result reduced to the simplest integer or fraction.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find every quantity mentioned (numbers, fractions, percentages, units or words like \u201chalf\u201d, \u201cdouble\u201d). Represent each as an exact rational in one consistent unit. Using only the relationships given, build the single exact expression that determines the asked quantity. Evaluate it analytically, checking each step, keeping all values exact (no rounding), and respond with ONLY the final answer reduced to an integer or lowest\u2011terms fraction.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8735632183908046,
+      "train_step": -1,
+      "test_score": 0.8218347232752085,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric values (including implied ratios such as half, double, percentages) in the problem, convert them to exact fractions in a common unit, determine the unique expression that satisfies the given relationships, compute it symbolically without any approximation, and output only the final result as a reduced integer or fraction, with no additional text.",
+      "train_score": 0.6091954022988506,
+      "train_step": 99,
+      "test_score": 0.5049279757391963,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers and implied ratios in the problem, translate each to an exact fraction in a common unit, then deduce the single exact formula that directly yields the asked quantity. Compute this formula analytically, checking each intermediate step for consistency, keep every value exact (no decimal approximations), and finally respond with ONLY the answer, reduced to the simplest integer or fraction.",
+      "train_score": 0.6245210727969349,
+      "train_step": 99,
+      "test_score": 0.5011372251705838,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9112964366944655,
+    "avg_test_score": 0.8530993898696705,
+    "best_test_instruction": "Locate every numeric datum (integers, fractions, percentages, units, or verbal ratios), convert each to an exact rational in a consistent unit system, infer the single exact computation that answers the question, carry it out step\u2011by\u2011step while briefly confirming each intermediate value (no rounding or approximations), and output ONLY the final result reduced to its simplest form."
+  }
+}

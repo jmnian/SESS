@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Answer exactly two lines with no surrounding spaces:\n1. The correct choice as a single uppercase letter.\n2. A sentence that (i) starts with \u201cBecause\u201d, (ii) contains 6\u201110 words, (iii) each word is capitalized, (iv) uses only letters and single spaces, (v) includes the selected option letter at least once, and (vi) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 1.0,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Output exactly two lines with no surrounding whitespace:\n1. The correct choice as a single uppercase letter.\n2. A single sentence that (i) begins with \u201cBecause\u201d, (ii) contains 7 to 10 words, (iii) each word is capitalized, (iv) includes the chosen option letter at least once, and (v) ends with \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 1.0,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option question (A\u2011D). Respond with exactly two lines, no extra whitespace:\n1. The correct option as a single uppercase letter.\n2. A justification that (i) starts with \u201cBecause\u201d, (ii) is between 8 and 12 words inclusive, (iii) each word begins with a capital letter, (iv) contains only alphabetic characters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 39,
+      "test_score": 1.0,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Respond with exactly two lines, no leading or trailing spaces:\n1. The correct option as a single uppercase letter.\n2. A justification that (i) starts with \u201cBecause\u201d, (ii) contains between 7 and 9 words inclusive, (iii) each word begins with a capital letter, (iv) includes the chosen option letter somewhere in the sentence, (v) uses only letters and spaces, and (vi) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 45,
+      "test_score": 1.0,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read a four\u2011option multiple\u2011choice question (options A\u2011D). Output exactly two lines without any surrounding whitespace:\n1. The correct option as a single uppercase letter.\n2. A sentence that starts with \u201cBecause\u201d, contains between 7 and 10 words, each word capitalized, uses only letters and spaces, mentions the chosen option letter at least once, and ends with \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Reply with exactly two lines, no surrounding whitespace:\n1. The correct option as a single uppercase letter.\n2. A justification sentence that (i) starts with \u201cBecause\u201d, (ii) consists of 9 to 11 words, (iii) each word begins with a capital letter and contains only alphabetic characters, (iv) mentions the selected option letter exactly once, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Output exactly two lines without any leading or trailing spaces:\nLine\u202f1: the correct answer as a single uppercase letter.\nLine\u202f2: a justification that (a) starts with the word \u201cBecause\u201d, (b) contains exactly nine words, (c) each word begins with a capital letter and contains only letters, (d) includes the selected option letter exactly twice, and (e) terminates with the word \u201cIndeed\u201d.",
+      "train_score": 0.9213483146067416,
+      "train_step": 99,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question (options A\u2011D). Output exactly two lines with no leading or trailing spaces:\n1. The correct option as a single capital letter.\n2. A justification that (i) starts with the word \u201cBecause\u201d, (ii) contains exactly ten words, (iii) each word begins with a capital letter, (iv) uses only alphabetic characters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 33,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question (options A\u2011D). Output exactly two lines with no extra whitespace:\n1. The single uppercase letter of the correct answer.\n2. A justification that (i) starts with \u201cBecause\u201d, (ii) contains exactly eight words, (iii) each word begins with a capital letter, (iv) uses only letters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 36,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Answer in exactly two lines without any extra characters:\n1. The correct option as a single uppercase letter.\n2. A justification that (i) begins with \u201cBecause\u201d, (ii) consists of exactly seven words, (iii) each word starts with a capital letter, (iv) contains only alphabetic characters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 39,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Reply with exactly two lines, no extra whitespace:\n1. The correct option as a single uppercase letter.\n2. A sentence that starts with \u201cBecause\u201d, contains 7\u201111 capital\u2011ized words, includes the chosen letter at least once, uses only letters and single spaces, and ends with \u201cIndeed\u201d.",
+      "train_score": 0.9887640449438202,
+      "train_step": 99,
+      "test_score": 0.9955357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Output exactly two lines without surrounding whitespace:\n1. The correct option as a single uppercase letter.\n2. A justification that (i) starts with \u201cBecause\u201d, (ii) contains exactly nine words, (iii) each word begins with a capital letter, (iv) includes the chosen option letter somewhere, (v) uses only letters and spaces, and (vi) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 43,
+      "test_score": 0.9955357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Respond with exactly two lines, without any leading or trailing whitespace:\n1. The correct answer as a single uppercase letter.\n2. A sentence that (i) starts with the word \u201cBecause\u201d, (ii) consists of nine words, (iii) each word is five letters long, (iv) each word begins with a capital letter, (v) contains the selected option letter at least once, and (vi) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 0.9933035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option question (A\u2011D). Output exactly two lines without any surrounding whitespace:\n1. The correct answer as a single uppercase letter.\n2. A justification that (i) starts with \u201cBecause\u201d, (ii) consists of exactly nine words, (iii) each word begins with a capital letter, (iv) contains no characters other than letters and spaces, (v) includes the chosen option letter somewhere in the sentence, and (vi) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 44,
+      "test_score": 0.9910714285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011choice question (A\u2011D). Respond with exactly two lines, no leading or trailing spaces:\n1. The correct option as a single uppercase letter.\n2. A justification that (i) begins with \u201cBecause\u201d, (ii) consists of exactly eight words, (iii) each word starts with a capital letter, (iv) contains no characters other than letters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 36,
+      "test_score": 0.9888392857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Output exactly two lines without any surrounding whitespace:\n1. The correct answer as a single uppercase letter.\n2. A justification that (i) starts with \u201cBecause\u201d, (ii) consists of twelve words, (iii) each word begins with a different letter of the alphabet, (iv) contains only alphabetic characters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 42,
+      "test_score": 0.9888392857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.48314606741573035,
+      "train_step": -1,
+      "test_score": 0.9866071428571429,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011choice question (A\u2011D). Respond with exactly two lines, no extra whitespace: line\u202f1 the correct option as a single uppercase letter; line\u202f2 a justification that (i) starts with \u201cBecause\u201d, (ii) contains only letters and spaces, (iii) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 41,
+      "test_score": 0.9866071428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question (options A\u2011D). Output exactly two lines with no extra whitespace:\n1. The correct answer as a single uppercase letter.\n2. A justification that (i) begins with \u201cBecause\u201d, (ii) consists of exactly six words, (iii) each word starts with a capital letter, (iv) contains only letters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 42,
+      "test_score": 0.9709821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond with exactly two lines, no leading or trailing spaces:\n1. The correct option as a single uppercase letter.\n2. A justification that (i) begins with the word \u201cBecause\u201d, (ii) contains between 8 and 12 words inclusive, (iii) each word starts with a capital letter, (iv) uses only alphabetic characters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 37,
+      "test_score": 0.9464285714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) question. Respond with exactly two lines, without any leading or trailing spaces:\n1. The single uppercase letter of the correct answer.\n2. A justification that (i) begins with \u201cBecause\u201d, (ii) is exactly seven words long, (iii) each word starts with a capital letter, (iv) contains only letters and spaces, and (v) ends with the word \u201cIndeed\u201d.",
+      "train_score": 1.0,
+      "train_step": 39,
+      "test_score": 0.44419642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 1.0,
+    "avg_test_score": 0.965454931972789,
+    "best_test_instruction": "Read a four\u2011option (A\u2011D) multiple\u2011choice question. Answer exactly two lines with no surrounding spaces:\n1. The correct choice as a single uppercase letter.\n2. A sentence that (i) starts with \u201cBecause\u201d, (ii) contains 6\u201110 words, (iii) each word is capitalized, (iv) uses only letters and single spaces, (v) includes the selected option letter at least once, and (vi) ends with the word \u201cIndeed\u201d."
+  }
+}

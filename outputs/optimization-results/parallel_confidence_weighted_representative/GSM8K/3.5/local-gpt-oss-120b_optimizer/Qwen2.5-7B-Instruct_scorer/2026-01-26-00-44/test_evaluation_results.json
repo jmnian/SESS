@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, note every given quantity, decide the exact arithmetic relation, compute the result showing each intermediate calculation, perform a quick sanity check, and output only the final numeric answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 3,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (and its unit), create distinct variable symbols, perform any needed unit conversions, formulate a single exact mathematical expression that solves the problem, evaluate it step\u2011by\u2011step while briefly verifying each intermediate result, and output only the final answer as a plain number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 12,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather each stated number (including its unit if any), formulate the single precise calculation that answers the question, carry out the calculation showing intermediate steps and briefly confirming their plausibility, then output only the final answer as an isolated numeric value.",
+      "train_score": 0.9425287356321839,
+      "train_step": 15,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, pull every number (and its unit), label them, form the single exact formula that gives the requested result, evaluate it step\u2011by\u2011step with exact arithmetic, check each intermediate answer quickly, and print only the final number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 65,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (with its unit), assign each a distinct placeholder, write the single exact mathematical expression that yields the requested value (perform any required unit conversion), evaluate it analytically keeping all fractions (no rounding) while briefly checking each intermediate result for reasonableness, and output only the final numeric answer on a line by itself.",
+      "train_score": 0.9425287356321839,
+      "train_step": 89,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given quantity, encode them as variables, write the single exact equation that solves the task, compute it analytically (keep fractions, no rounding) while showing each intermediate result, do a quick plausibility check, and output only the final numeric answer on its own line.",
+      "train_score": 0.946360153256705,
+      "train_step": 18,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including units), assign each a distinct placeholder, construct the one exact mathematical expression that yields the asked result (perform any needed unit conversions), evaluate the expression analytically keeping all fractions (no decimal rounding), perform a brief sanity check of each intermediate value, and output only the final numeric answer on a line by itself.",
+      "train_score": 0.946360153256705,
+      "train_step": 89,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number with its unit, label them with clear variables, determine the sole arithmetic formula required, compute it sequentially while briefly confirming each sub\u2011result, then print only the final answer as a single number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 24,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including any units), convert to consistent units if needed, formulate the single exact arithmetic expression that solves the question, evaluate it step\u2011by\u2011step while briefly checking each intermediate result, and output only the final answer as a lone number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 15,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each number in the statement (including units), denote them with clear symbols, determine the single exact formula that yields the requested value, compute it analytically (keep fractions, avoid rounding) while showing brief sanity checks for every intermediate result, and present only the final result as a standalone number.",
+      "train_score": 0.946360153256705,
+      "train_step": 39,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including its unit), convert all values to consistent units, compose the single precise mathematical expression that solves the problem, evaluate it analytically (keep fractions, avoid rounding) while briefly validating each intermediate step, and return only the final result as a lone number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 45,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers with unique symbols, derive the single precise expression that answers the problem (apply unit conversions when required), evaluate it analytically keeping fractions, briefly confirm each intermediate value, and print only the final numeric result on a separate line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "We require the solver to:\n- Identify every numeric quantity in the problem (including units).\n- Assign each a distinct symbolic name.\n- Formulate a single exact arithmetic expression that yields the answer.\n- Compute the expression step\u2011by\u2011step using exact rational arithmetic (no rounding), with brief sanity checks.\n- Output only the final numeric result on its own line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Detect every numeric quantity (including its unit), give each a clear variable name, form the single exact arithmetic expression that resolves the question (convert units if needed), compute it step\u2011by\u2011step while briefly verifying each intermediate outcome, and output only the final numeric answer on a line by itself.",
+      "train_score": 0.9425287356321839,
+      "train_step": 23,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every explicit numeric value in the problem, give each a distinct symbol, build the single exact arithmetic formula that directly produces the asked quantity (convert units if needed), evaluate the formula using exact rational arithmetic (no decimal rounding), perform a quick sanity check of each intermediate result, and finally print only the final number on a line by itself.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value (including any units), decide the exact single arithmetic formula needed, compute it stepwise while briefly confirming each intermediate outcome, and finally print only the resulting number on a line by itself.",
+      "train_score": 0.9425287356321839,
+      "train_step": 10,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, pull out each numeric constant (with unit), give each a unique placeholder, formulate the single direct algebraic relation that computes the requested value (handling any needed unit conversion), evaluate it exactly (retain rational form, no rounding), perform a quick sanity check, and then output only the final number on a separate line.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8620166793025019,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value, give each a unique name, write the single exact formula that answers the question, evaluate it with exact arithmetic (no rounding) while briefly sanity\u2011checking each step, and output only the final numeric result on its own line.",
+      "train_score": 0.8544061302681992,
+      "train_step": 99,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8467432950191571,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical quantities (with units), label each uniquely, convert to consistent units, construct the sole exact arithmetic expression that solves the question, evaluate it step\u2011by\u2011step using exact rational arithmetic (no rounding), give a one\u2011sentence sanity check for each intermediate result, and output only the final value on a single line.",
+      "train_score": 0.5555555555555556,
+      "train_step": 99,
+      "test_score": 0.5731614859742229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find every numeric quantity in the statement, give each a distinct variable name, construct the single exact arithmetic expression that yields the requested value (apply any needed unit conversions), evaluate it analytically without rounding, and output only that final number on its own line.",
+      "train_score": 0.11877394636015326,
+      "train_step": 99,
+      "test_score": 0.11372251705837756,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9052312357846853,
+    "avg_test_score": 0.8360229611177298,
+    "best_test_instruction": "Read the problem, note every given quantity, decide the exact arithmetic relation, compute the result showing each intermediate calculation, perform a quick sanity check, and output only the final numeric answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Parse the statement, collect every stated numeral together with its unit or percent. Figure out which single value the question asks for. Write one closed\u2011form calculation that (i) employs each collected datum at most once, (ii) uses only +, \u2013, \u00d7, \u00f7 and parentheses, and (iii) performs any required unit or percentage conversion. Evaluate the calculation exactly (keep fractions), verify plausibility, and output only the final number with its unit if any.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number presented (with any associated unit), decide the specific quantity being asked, compose a single exact arithmetic expression that combines precisely those numbers using only +, \u2013, \u00d7, \u00f7 and parentheses, evaluate the expression step\u2011by\u2011step while keeping all intermediate values in exact form, do a quick sanity verification, and output only the final numeric answer together with its unit if applicable.",
+      "train_score": 0.972972972972973,
+      "train_step": 51,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every explicit number (with its unit, percent or fraction). The problem asks for one value. Write a single exact expression that uses each found number at most once, combines them only with +, \u2013, \u00d7, \u00f7 and parentheses (perform any needed unit/percent conversion). Compute the expression exactly (keep fractions, no rounding), briefly check consistency, and output only the resulting number with its unit if applicable.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, list the numbers, construct the minimal arithmetic expression, evaluate it with explicit intermediate checks, and output just the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the given numbers, spot the required unknown, form the minimal equation that directly isolates that unknown, solve it algebraically with a brief check of each substitution, and return solely the final numerical answer (including unit if applicable).",
+      "train_score": 0.972972972972973,
+      "train_step": 20,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the unknown by gathering every given number (with units), formulate one precise calculation that directly produces that unknown, execute the calculation step\u2011wise with a brief verification of each intermediate value, confirm the magnitude makes sense, and output solely the final numeric result (including its unit when needed).",
+      "train_score": 0.972972972972973,
+      "train_step": 24,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit numeric value (with its unit, percent or fraction). Find the unique quantity requested. Write a single exact formula that (i) uses each listed value at most once, (ii) employs only +, \u2013, \u00d7, \u00f7 and parentheses, (iii) performs any required unit or percent conversion, (iv) introduces no other numbers. Compute the formula analytically (keep fractions), verify plausibility, and output only the final number with its unit if applicable.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit number (and its unit), decide which quantity the question asks for, write the shortest exact formula using only those numbers and the four basic operations, evaluate it step\u2011by\u2011step keeping all intermediate results exact (use fractions, no rounding), briefly confirm each intermediate value matches the source data and that the final magnitude is plausible, then output only the final numeric answer with its unit if any.",
+      "train_score": 0.972972972972973,
+      "train_step": 41,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers given (including units, percentages, fractions). Identify the single quantity the problem is asking for. Form one exact formula that uses each listed number no more than once, using only addition, subtraction, multiplication, division and parentheses (apply any unit or percent conversion needed). Compute the formula exactly (keep fractions), perform a quick consistency check, and output only the final numeric answer with its unit if any.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every explicit number (including fractions) and its unit, decide which value the question seeks, write one closed\u2011form calculation that combines only those listed numbers with the four basic operations (+, \u2013, \u00d7, \u00f7) and parentheses, compute the expression analytically (keep fractions exact, no rounding), quickly check that the intermediate and final numbers are consistent with the story, and return only the final numeric answer with its unit if there is one.",
+      "train_score": 0.972972972972973,
+      "train_step": 56,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers provided (including fractions and their units). Determine the exact quantity requested. Construct one precise calculation that combines only those numbers to yield the answer, keeping all fractions exact. Compute it in clear steps, verifying each intermediate value against the source data, perform a quick sanity check, and return solely the final numeric result with its unit if applicable.",
+      "train_score": 0.972972972972973,
+      "train_step": 35,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each explicit numeric datum and its unit, decide what the problem seeks, write one closed\u2011form expression that uses only those numbers together with the four basic operations (parentheses permitted) to obtain the target, simplify the expression analytically (keeping fractions), verify the magnitude makes sense, and return only the simplified numeric answer with its unit.",
+      "train_score": 0.972972972972973,
+      "train_step": 53,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated numbers (with units or percents). Determine the single unknown requested. Form ONE exact arithmetic expression that uses each extracted number at most once, combines them only with +, \u2013, \u00d7, \u00f7 and parentheses (apply needed conversions), evaluate it symbolically (keep fractions), do a quick sanity check, and output only the final numeric answer with its unit.",
+      "train_score": 0.9864864864864865,
+      "train_step": 92,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated quantities (numbers with their units, percentages or fractions). Determine the unique value asked for. Construct a single closed\u2011form calculation that employs each extracted quantity at most once, using only the operators +, \u2013, \u00d7, \u00f7 and parentheses, performing any needed unit or percent conversion. Compute the result symbolically (keep fractions, no rounding), perform a quick sanity check, and return only the numeric result together with its unit if applicable.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all explicit numbers (and units), discard any irrelevant text, decide which quantity is unknown, set up the single most compact algebraic or arithmetic equation that isolates that unknown, solve it step\u2011by\u2011step while briefly confirming each intermediate result respects the original relationships, and output only the final numeric answer with its unit if needed.",
+      "train_score": 0.972972972972973,
+      "train_step": 12,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers with their units, identify the single value being asked, write one exact arithmetic formula that combines only those numbers (using +, \u2013, \u00d7, \u00f7 and parentheses as needed) to obtain that value, evaluate it keeping fractions exact, do a quick plausibility check, and return only the final numeric answer with its unit if any.",
+      "train_score": 0.9864864864864865,
+      "train_step": 52,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the prompt list all explicitly stated numbers (with their units). Determine the single value the question requests. Form one exact arithmetic expression that uses only those listed numbers combined with +, \u2013, \u00d7, \u00f7 (parentheses permitted) to compute the requested value. Compute the expression analytically (keep fractions, no rounding), do a quick sanity check, and output only the final numeric answer together with its unit if applicable.",
+      "train_score": 0.972972972972973,
+      "train_step": 58,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all given numbers with their units, decide the target variable, write one exact arithmetic expression that uses only those numbers and +\u2011\u2011\u00d7\u00f7 to compute the target, simplify the expression analytically, verify each intermediate simplification matches the original data, ensure the result is plausible, and output solely the final numeric answer (including its unit if required).",
+      "train_score": 0.972972972972973,
+      "train_step": 41,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit quantity (numbers with units, percentages, fractions) from the problem. Determine the unique value requested. Form one exact arithmetic expression that uses each extracted quantity at most once, employing only +, \u2013, \u00d7, \u00f7 and parentheses (perform required unit or percent conversions). Evaluate the expression symbolically (retain fractions, no rounding), perform a quick sanity check, and output solely the final numeric answer with its unit if present.",
+      "train_score": 0.9864864864864865,
+      "train_step": 90,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nIdentify\u00a0\u200b\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u2026\\n",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9097801364670205,
+    "avg_test_score": 0.8877215783963318,
+    "best_test_instruction": "Parse the statement, collect every stated numeral together with its unit or percent. Figure out which single value the question asks for. Write one closed\u2011form calculation that (i) employs each collected datum at most once, (ii) uses only +, \u2013, \u00d7, \u00f7 and parentheses, and (iii) performs any required unit or percentage conversion. Evaluate the calculation exactly (keep fractions), verify plausibility, and output only the final number with its unit if any."
+  }
+}

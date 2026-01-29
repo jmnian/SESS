@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Isolate the essential relationship, perform only the required calculation (show a brief intermediate step if useful), optionally do a quick sanity check, and finish with the exact answer alone on the final line.",
+      "train_score": 0.6875,
+      "train_step": 90,
+      "test_score": 0.7624257580493904,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the key formula, do just the indispensable arithmetic (include at most one intermediate result if it aids clarity), optionally perform a quick sanity check, and place the exact answer by itself on the final line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 92,
+      "test_score": 0.7605501719287278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential concept, execute only the necessary calculations (show brief steps if helpful), optionally verify with a quick check, and conclude with the exact numeric answer alone on the final line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 83,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a clear, step\u2011by\u2011step solution and conclude with the final exact answer.",
+      "train_score": 0.6666666666666666,
+      "train_step": 0,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the pivotal quantity, apply the appropriate formula, carry out only the indispensable calculations (show brief intermediate results if helpful), optionally confirm with a quick sanity check, and conclude with the exact numeric answer on a lone line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 74,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6875,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the key variable, use the relevant formula, do only the needed calculations (show brief steps if useful), optionally double\u2011check, and finish with the exact answer on its own line, nothing else.",
+      "train_score": 0.6875,
+      "train_step": 75,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the central quantity, perform only the necessary computation (you may list brief intermediate steps), optionally make a quick sanity check, and end with the exact numeric answer as the sole line of output.",
+      "train_score": 0.7291666666666666,
+      "train_step": 73,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please compute the exact answer to the problem as described.",
+      "train_score": 0.6666666666666666,
+      "train_step": 0,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "[Our instruction text]",
+      "train_score": 0.6875,
+      "train_step": 19,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key principle governing the problem, perform just the indispensable arithmetic (including a quick sanity check if you wish), and terminate",
+      "train_score": 0.6875,
+      "train_step": 41,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a succinct solution: briefly describe the key observation, carry out only the essential calculations (a quick sanity check may be added), and finish by writing the exact answer alone on the final line.",
+      "train_score": 0.6875,
+      "train_step": 46,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the crucial relationship, execute only the indispensable calculations (showing brief intermediate values only if they aid clarity), optionally run a quick sanity check, and end your response with the exact numeric answer on a single, unadorned line.",
+      "train_score": 0.6875,
+      "train_step": 84,
+      "test_score": 0.7155361050328227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing rule, carry out only the essential computation (display at most one brief intermediate value if it aids clarity), optionally perform a quick sanity check, and end with the exact numeric answer as the sole content of the final line.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct explanation of the main idea (one or two sentences), perform only the indispensable calculations (show brief intermediate results if helpful), optionally verify the result, and finish with the exact numeric answer alone on the final line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 80,
+      "test_score": 0.6961550484526414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the essential idea in one brief paragraph, perform only the indispensable calculations (a quick sanity check may be included), and finish with the exact answer as the sole line of output.",
+      "train_score": 0.7291666666666666,
+      "train_step": 37,
+      "test_score": 0.6648952797749297,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the core reasoning in one sentence, carry out only the essential calculation (show at most one intermediate value if it clarifies the step), optionally perform a quick sanity check, and finish with the exact numeric answer alone on the final line.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.6155048452641451,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the core idea in one concise sentence, carry out only the essential computation (display at most two intermediate values if they aid clarity), optionally verify the result, and finish with the exact numerical answer on a single line with no extra wording.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.5848702719599875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the crucial observation in a single line, then do only the essential computation (show at most one intermediate figure if it adds clarity), optionally run a quick sanity test, and finish by writing the exact answer by itself on the final line\u2014nothing else may appear.",
+      "train_score": 0.3125,
+      "train_step": 99,
+      "test_score": 0.47827446076899033,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the core reasoning in a single sentence, show only the indispensable arithmetic (including at most one intermediate value if it clarifies the work), optionally perform a quick sanity check, and finish with the exact answer presented as a plain number on the very last line with no additional characters.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.47358549546733353,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the key observation in one line, carry out the minimal calculation required (showing at most one intermediate result), then output only the final value on its own line \u2013 nothing else.",
+      "train_score": 0.14583333333333334,
+      "train_step": 99,
+      "test_score": 0.16161300406376994,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7624257580493904,
+    "avg_test_score": 0.6667857514997245,
+    "best_test_instruction": "Isolate the essential relationship, perform only the required calculation (show a brief intermediate step if useful), optionally do a quick sanity check, and finish with the exact answer alone on the final line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "- Extract the target: what must be found (value, name, truth statement).\n- Record verbatim every piece of information supplied (numbers, symbols, structures, conditions).\n- Identify the unique rule/equation/logic that converts the given data into the target.\n- Perform the minimal computation or deduction required; retain the precision shown in the options.\n- Compare the obtained result with the four choices and pick the matching letter.\n- Reply exactly with \u201cAnswer: X\u201d, nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 87,
+      "test_score": 0.37373737373737376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Pinpoint the exact quantity or statement required.  \n- Write down each piece of information supplied verbatim.  \n- Select the single principle (equation, law, reaction pathway, etc.) that links the data to the target.  \n- Apply it just enough to obtain the decisive result, preserving the precision shown in the choices.  \n- Match that result to the correct option (A\u2011D).  \n- Respond with only \u201cAnswer: X\u201d. No extra text.",
+      "train_score": 0.5263157894736842,
+      "train_step": 90,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List all given quantities/conditions.  \n- Name the lone physics/chemistry/logic rule that solves the problem.  \n- Compute the minimal result needed (numeric value or logical conclusion).  \n- Match it to the four options.  \n- Output only: \u201cAnswer:\u202fX (rule, result)\u201d. Keep the parenthetical explanation \u226412 words and include nothing else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 40,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Clarify the asked outcome in one sentence.  \n- Write down every piece of supplied information (values, letters, sequences).  \n- Pinpoint the unique concept (law, algorithm, pattern) that transforms those data into the outcome.  \n- Apply that concept just enough to obtain the definitive answer (a number, a name, or a yes/no).  \n- Compare this definitive answer with options A\u2011D and select the matching letter.  \n- Respond solely with: \u201cAnswer: X\u201d.",
+      "train_score": 0.5263157894736842,
+      "train_step": 75,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, extract all quantitative and conceptual data, identify the single principle or formula needed, compute the required result (showing only the final numeric value if any), compare it with the answer choices, and output the correct option (A\u2011D) followed by a brief justification (one sentence). Do not include any additional commentary.",
+      "train_score": 0.47368421052631576,
+      "train_step": 4,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the exact quantity or statement the problem demands.  \n- Record verbatim every numeric or symbolic piece given.  \n- Pinpoint the sole equation, law, or logical inference that transforms the recorded data into the demanded result.  \n- Perform only the necessary arithmetic or reasoning, preserving the rounding shown in the choices.  \n- Compare the obtained result with options A\u2011D and pick the matching letter.  \n- Respond exactly with \u201cAnswer: X\u201d (X = A\u2011D), nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 91,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in a single sentence.  \n- List all given numbers, symbols or conditions.  \n- Identify the single governing principle (formula, law, or logical rule) that links the data to the unknown.  \n- Perform only the essential calculation or deduction; retain the final decisive value.  \n- Match this value to options A\u2011D and reply exactly \u201cAnswer:\u202fX (principle, value)\u201d. No extra text.",
+      "train_score": 0.5263157894736842,
+      "train_step": 51,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence, enumerate every given datum, pinpoint the unique principle (equation, law, or logical rule) needed, derive the decisive outcome (numeric value or logical result) with minimal work, match it to choices A\u2011D, and respond exactly \u201cAnswer:\u202fX\u201d (X = A\u2011D); optionally add a parenthetical note (\u226410\u202fwords) stating the principle and the key figure. No extra commentary.",
+      "train_score": 0.5263157894736842,
+      "train_step": 67,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential data and the governing principle, carry out the required calculation or logical deduction step\u2011by\u2011step, compare the outcome with the answer options, and respond with the correct letter (A\u2011D) plus a concise one\u2011sentence justification.",
+      "train_score": 0.47368421052631576,
+      "train_step": 3,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one clause, list all given quantities, name the single formula or logical rule needed, compute the key value (rounded to the required precision), compare it with options A\u2011D, and finally output only \u201cAnswer: X (rule, value)\u201d. Include no other commentary.",
+      "train_score": 0.5263157894736842,
+      "train_step": 66,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in a single sentence.  \n- List all numerical/symbolic information supplied.  \n- Cite the one physical/chemical/mathematical rule that links the data to the unknown.  \n- Execute only the essential computation and keep the final decisive value.  \n- Find the option (A\u2011D) that matches this value.  \n- Output exactly \u201cAnswer:\u202fX (rule, value)\u201d. No other text.",
+      "train_score": 0.5263157894736842,
+      "train_step": 51,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Note the key quantities or structural information given.  \n2. Determine the one principle, equation or reaction that links them to the unknown.  \n3. Perform only the necessary calculation or logical step and obtain the decisive result.  \n4. Compare this result with the four answer choices.  \n5. Output exactly the matching letter (A\u2011D) and nothing else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 33,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Determine what the question asks (value, identity, statement).  \n2. Write down every explicit datum given (numbers, formulas, functional groups, conditions).  \n3. Choose the single rule/equation/logic that directly connects the data to the required result.  \n4. Apply it just enough to obtain the decisive result (round if the choices are rounded).  \n5. Scan the four options (A\u2011D) and pick the one that contains that result.  \n6. Respond exactly with \u201cAnswer: X\u201d (X = A\u2011D) and nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 86,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a multiple-choice question (MCQ) with a set of possible answers, formulate a step-by-step solution and provide the correct answer. Ensure the solution addresses all relevant concepts and includes any necessary calculations or reasoning.",
+      "train_score": 0.47368421052631576,
+      "train_step": 0,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify what the question asks for (numeric value, identity, comparison).  \n- Record every explicit datum from the prompt (numbers, symbols, conditions).  \n- Select the single principle (formula, law, rule, or reaction) that directly links those data to the target.  \n- Apply it just enough to obtain the result, keeping the same precision as the answer choices, then choose the matching option A\u2011D.  \nOutput exactly: Answer: X (no extra characters, no commentary).",
+      "train_score": 0.5263157894736842,
+      "train_step": 95,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.2878787878787879,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question, list all given data verbatim, cite the single governing equation or rule that links them, compute the needed quantity with the same precision as the choices, locate the matching answer among A\u2011D, and output exactly \u201cAnswer: X\u201d. No extra words.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For every MCQ:\n1. Extract all quantitative and qualitative facts from the stem.\n2. Name the single governing law, equation, or reaction sequence needed.\n3. Perform only the essential calculation or logical ordering; keep intermediate results to a minimum.\n4. Compare the final result with options A\u2011D.\n5. Respond exactly with \u201cAnswer:\u202fX\u201d where X is the correct letter, followed by a parenthetical note (\u226412\u202fwords) stating the principle used and the decisive value or key step. No other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 37,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction text ...",
+      "train_score": 0.5263157894736842,
+      "train_step": 22,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, identify the governing concept, carry out any required calculations or logical steps, and then output the correct answer choice with a concise rationale.",
+      "train_score": 0.47368421052631576,
+      "train_step": 1,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Identify what the question asks for (value, name, truth).  \n2. Record every explicit datum from the prompt (numbers, symbols, units, conditions).  \n3. Choose the single principle, formula or logical inference that connects those data to the required result.  \n4. Apply it only as far as needed, keeping the same precision as the answer options, and obtain the result.  \n5. Find the choice (A\u2011D) that contains this result and output exactly \u201cAnswer: X\u201d.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.37373737373737376,
+    "avg_test_score": 0.31553631553631556,
+    "best_test_instruction": "- Extract the target: what must be found (value, name, truth statement).\n- Record verbatim every piece of information supplied (numbers, symbols, structures, conditions).\n- Identify the unique rule/equation/logic that converts the given data into the target.\n- Perform the minimal computation or deduction required; retain the precision shown in the options.\n- Compare the obtained result with the four choices and pick the matching letter.\n- Reply exactly with \u201cAnswer: X\u201d, nothing else."
+  }
+}

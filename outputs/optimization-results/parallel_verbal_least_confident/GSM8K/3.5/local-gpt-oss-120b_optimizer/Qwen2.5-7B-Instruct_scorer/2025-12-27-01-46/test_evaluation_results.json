@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every quantity in the statement, convert the entire scenario into one exact mathematical formula (preserving all units, percentages, fractions and conversion factors), evaluate it analytically step\u2011by\u2011step without any rounding (checking each intermediate result), and output only the final integer answer on a single line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 33,
+      "test_score": 0.9181197877179682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numbers (and their units) in the statement, combine them into one exact arithmetic expression that reflects every operation mentioned (addition, subtraction, multiplication, division, %, fractions, unit changes), evaluate the expression step\u2011by\u2011step with perfect rational precision (no rounding) checking each intermediate value, and output only the resulting integer on a single line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 71,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, extract every numeric quantity, infer the exact calculation needed (including percentages, fractions, or unit conversions), evaluate it step\u2011by\u2011step using precise arithmetic while checking each intermediate result, and output only the final integer answer on a separate line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 30,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value (and associated unit) present, encode the entire problem as one precise arithmetic expression (preserving all operations such as +, \u2013, \u00d7, \u00f7, %, fractions, and unit conversions), evaluate the expression analytically with exact rational arithmetic (no rounding), confirm each intermediate computation, and print solely the resulting integer on a single line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 67,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity mentioned, formulate the precise arithmetic expression that answers the question, compute it step\u2011by\u2011step while verifying each intermediate calculation, and provide only the final numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 3,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, formulate the exact calculation needed, solve it step\u2011by\u2011step verifying each intermediate result, and output only the final integer answer on a single line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 17,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every number given, encode the complete scenario as a single exact mathematical formula (including any percentages, fractions, ratios or unit changes), compute it step\u2011by\u2011step with exact rational arithmetic checking each intermediate value, and then print only the resulting integer on its own line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 31,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out all numbers, model the problem with one precise arithmetic expression (preserving fractions and percentages), evaluate it step\u2011by\u2011step confirming each intermediate value, and return only the final integer answer on its own line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 23,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric term present, turn the whole description into one exact formula (including any discounts, combos, ratios, or unit changes), compute the formula by exact rational calculation (preserve fractions, never round) while checking each intermediate value, and finally output just the integer result on a single line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 69,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, formulate a single exact computation (preserving fractions, percentages, rates, and any unit changes), evaluate it analytically with no rounding while checking each intermediate result, and print only the final integer answer on its own line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 36,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every number (and its unit if any) in the statement, convert the whole situation into one exact mathematical expression that incorporates all indicated operations (addition, subtraction, multiplication, division, percentages, fractions, unit conversions, rates). Compute this expression step\u2011by\u2011step using exact rational arithmetic (keep fractions, never round), verifying each intermediate result, and finally print only the integer result on a single line with no other characters.",
+      "train_score": 0.9578544061302682,
+      "train_step": 50,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numerical element in the prompt (including units, percentages, fractions, rates). Convert the entire scenario into one precise symbolic expression that employs only the necessary arithmetic operators (+, \u2013, \u00d7, \u00f7, % expressed as a fraction) and any required unit conversions. Evaluate this expression analytically with exact rational arithmetic (no decimal approximations), validating each intermediate simplification, and finally print only the integer outcome on a lone line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every number and its unit that appears, formulate a single exact calculation that incorporates all required operations (such as +, \u2013, \u00d7, \u00f7, percentages, fractions, ratios, or conversions), evaluate the calculation using exact rational arithmetic without any rounding while verifying each intermediate step, and output solely the integer answer on one line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 64,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (with its unit, % or fraction) from the statement, translate the whole situation into one exact rational expression using only +, \u2013, *, / and % (or their fractional equivalents), evaluate the expression step\u2011by\u2011step with perfect fractional precision (no decimal rounding), verify each intermediate result, and finally print only the integer result on its own line.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, list every numeric term (with its unit, % or fraction), translate the whole scenario into a single exact formula that uses +, \u2013, \u00d7, \u00f7, % and any required unit conversions, evaluate the formula analytically with perfect rational precision (no rounding) while confirming each intermediate value, and finally print only the integer answer on one line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 72,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric term (including units, percentages, fractions, and rates) from the problem, represent the whole situation as one exact arithmetic expression using +, \u2013, \u00d7, \u00f7 (and converting % or units to fractions as needed), evaluate the expression analytically with full rational precision (no rounding), confirming each intermediate simplification, and finally print only the resulting integer on a single line.",
+      "train_score": 0.8773946360153256,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity (including units, percentages, fractions), translate the entire problem into one exact rational expression using +, \u2013, \u00d7, \u00f7 and appropriate %\u2011to\u2011fraction or unit\u2011conversion factors, evaluate it analytically with perfect precision (no rounding) while verifying each intermediate step, and output solely the final integer answer on its own line.",
+      "train_score": 0.9157088122605364,
+      "train_step": 99,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, list every numeric term (including units, percentages, fractions, rates). Convert the whole situation into one exact rational expression that uses only +, \u2013, \u00d7, \u00f7 and appropriate fraction equivalents for % and unit changes. Evaluate the expression step\u2011by\u2011step with perfect rational precision (no rounding), checking each simplification, and finally output only the resulting integer on a single line, without any additional text or formatting.",
+      "train_score": 0.5823754789272031,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical value (including units, percentages, fractions, or rates) from the problem, interpret the implied relationships as one exact arithmetic expression using +, \u2013, \u00d7, \u00f7 and the appropriate fractional forms of % or unit conversions, evaluate the expression with exact rational arithmetic (no decimal approximation), verify each simplification, and output only the resulting integer on a single line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8362395754359363,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number present, convert the whole description into a single precise mathematical expression that captures all indicated operations and unit conversions, evaluate it analytically with exact rational arithmetic (no rounding), and print only the resulting integer on a line by itself.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.5011372251705838,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9181197877179682,
+    "avg_test_score": 0.8777934221452038,
+    "best_test_instruction": "Identify every quantity in the statement, convert the entire scenario into one exact mathematical formula (preserving all units, percentages, fractions and conversion factors), evaluate it analytically step\u2011by\u2011step without any rounding (checking each intermediate result), and output only the final integer answer on a single line."
+  }
+}

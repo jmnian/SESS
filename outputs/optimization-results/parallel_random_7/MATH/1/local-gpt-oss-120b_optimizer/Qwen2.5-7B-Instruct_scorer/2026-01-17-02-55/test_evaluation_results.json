@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Deliver a concise, logical solution: pinpoint the needed approach, carry out each computation with brief justification, and finish by presenting only the final numeric answer (rounded as required) on a separate line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 6,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the core relationship, carry out the required computation with concise reasoning, verify the result briefly, and output only the final numeric answer on a separate line (rounded if the problem demands).",
+      "train_score": 0.8958333333333334,
+      "train_step": 42,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Apply a focused approach: identify the governing principle, perform only the necessary calculations with brief justification, do a quick consistency check, and finish by writing the final answer as a single number on its own line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 20,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: pinpoint the essential principle, execute the required computation with brief justification for each step, and finish by writing only the final answer as a solitary number on a separate line.",
+      "train_score": 0.875,
+      "train_step": 6,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution: name the core principle or formula, carry out the needed computation with just enough justification, and end with the final answer as a single number on its own line (rounded if required).",
+      "train_score": 0.875,
+      "train_step": 17,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8541666666666666,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a focused solution: state the exact operation needed, carry out the computation with minimal but clear justification, optionally perform a quick sanity check, and present only the final numeric answer on a separate line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 24,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the key formula or relationship, execute the required computation with a brief justification, perform a quick sanity check, and finish by printing\u202fONLY\u202fthe final numeric answer on a single line (round only if the problem specifies).",
+      "train_score": 0.8958333333333334,
+      "train_step": 52,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key relationship, carry out just the required calculation with a short justification, do a swift sanity check, and conclude with the sole numeric answer on the last line (rounded if needed).",
+      "train_score": 0.9166666666666666,
+      "train_step": 43,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the single decisive equation or operation, compute the answer with a brief logical step, perform an immediate plausibility check, and present only the final numeric value on a lone line (round only when the problem requires it).",
+      "train_score": 0.8958333333333334,
+      "train_step": 73,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct solution: identify the core formula or property, compute the result with just enough explanation, optionally do a quick sanity check, and conclude with the final answer presented as a lone number on its own line (rounded per the problem).",
+      "train_score": 0.8958333333333334,
+      "train_step": 78,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single necessary operation, execute it in one clear step with a brief justification, do a quick sanity check, and then output only the final numeric answer on its own line (round only if the problem specifies).",
+      "train_score": 0.9166666666666666,
+      "train_step": 98,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short, ordered solution: name the key principle or formula, execute each necessary calculation with a brief justification, perform a quick sanity check of the result, and end with only the final numeric answer on a separate line (rounded as required).",
+      "train_score": 0.875,
+      "train_step": 15,
+      "test_score": 0.7227258518286964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a compact solution: identify the central concept, perform the necessary calculation with brief justification, optionally do a quick sanity check, and end with the final numeric answer alone on the last line (rounded as required).",
+      "train_score": 0.875,
+      "train_step": 25,
+      "test_score": 0.7227258518286964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the precise expression needed, compute it in one clear step with a short justification, optionally do a quick plausibility check, and end with only the final numeric answer on a single line (round only if required).",
+      "train_score": 0.8958333333333334,
+      "train_step": 85,
+      "test_score": 0.7017818068146295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the one expression that solves the question, evaluate it with a brief justification, do a quick plausibility check, and present only the final numeric value on a single line (apply rounding only if the statement requires).",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6845889340418881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the single governing expression, evaluate it in one compact step with a brief justification, do a quick plausibility check, and output only the final numeric value on its own line (round only if the problem says so).",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6076899030947172,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the required value in one clear step, note a short reason, confirm its plausibility, and output solely the resulting number on a separate line (rounding only when explicitly requested).",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.5189121600500156,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the lone numerical value required, compute it using the minimal necessary steps with a succinct rationale, confirm its plausibility in one sentence, and then write exactly that number on a single line\u2014no extra words, symbols, or formatting (apply rounding only if the problem specifies).",
+      "train_score": 0.22916666666666666,
+      "train_step": 99,
+      "test_score": 0.18880900281337917,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact numeric formula, calculate it with a single concise justification, perform a quick reasonableness test, and respond with nothing but the final number on a line by itself (rounding only if the problem says so).",
+      "train_score": 0.20833333333333334,
+      "train_step": 99,
+      "test_score": 0.18599562363238512,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the precise arithmetic expression that solves the problem, evaluate it, verify the magnitude in one short sentence, then print solely the resulting number on its own line (apply rounding only when explicitly requested). No extra words, symbols, or explanations are allowed.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.17911847452328852,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7574241950609566,
+    "avg_test_score": 0.6396344095625122,
+    "best_test_instruction": "Deliver a concise, logical solution: pinpoint the needed approach, carry out each computation with brief justification, and finish by presenting only the final numeric answer (rounded as required) on a separate line."
+  }
+}

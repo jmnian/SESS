@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numeric values in the problem, translate any described relationships\u2014including addition, subtraction, multiplication, division, percentages, fractions, or time additions\u2014into the exact arithmetic steps required, compute them using precise arithmetic, and output only the final integer result on a single line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 97,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number present, construct the unique arithmetic expression the problem implies, evaluate it exactly (maintaining fractions until the end), and write only the resulting integer on a line by itself.",
+      "train_score": 0.9540229885057471,
+      "train_step": 91,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number in the statement, translate the situation into the exact arithmetic expression required, evaluate it precisely (keeping fractions until the final step), and reply with only the final integer answer on a lone line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 85,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers from the problem, determine the exact arithmetic expression required, compute the result, and end your response with only the final numeric answer on a single line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 15,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Focus solely on the numerical information presented, translate the problem into the exact arithmetic expression required, evaluate it, and respond with the sole integer answer on a single line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 54,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Rigorously extract all numeric data from the problem statement, translate it into the appropriate mathematical formulation, and compute the exact result, yielding a single integer answer presented on a solitary line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 56,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, identify the relevant amounts or numbers mentioned, and calculate based on the given equations or differences to find the final answer in a clear and logical manner.",
+      "train_score": 0.9616858237547893,
+      "train_step": 0,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Not: Never indicating partial\u2014valued, or prolonged work\u2014any form; do not read;: complete final. No mothy approaches",
+      "train_score": 0.9501915708812261,
+      "train_step": 0,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all figures mentioned, infer the necessary computation, solve it precisely (retain fractions until the end), and reply with just the resulting integer on its own line.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, construct the precise arithmetic needed, compute the value, and output only the final integer on a single line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 33,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the given numbers, perform the required calculation, and output only the exact answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 1,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement list every given number, translate the situation into the exact mathematical expression needed, evaluate it, and reply with just the integer result on its own line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 36,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity presented, formulate the exact arithmetic relationship needed, solve it with concise reasoning, and finish your response by writing only the final integer answer on a single line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 26,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, locate every numeric value, determine the single required computation, perform it, and answer with only the exact integer result on a lone line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 34,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact integer answer to the problem by extracting every numerical value, forming the unique arithmetic expression implied (using addition, subtraction, multiplication, division, percentages or ratios as needed), evaluating it with exact arithmetic, and responding with ONLY that integer on a single line.",
+      "train_score": 0.5210727969348659,
+      "train_step": 99,
+      "test_score": 0.8347232752084913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, infer the unique arithmetic needed, compute the exact result, and output only the final integer on a single line.",
+      "train_score": 0.8812260536398467,
+      "train_step": 99,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the statement, pull out every quantity, figure out the one calculation it implies, evaluate it precisely, and return just the resulting integer on its own line.",
+      "train_score": 0.8199233716475096,
+      "train_step": 99,
+      "test_score": 0.6777862016679302,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers from the prompt, determine the unique arithmetic implied, compute it exactly, and reply with only the resulting integer on a single line.",
+      "train_score": 0.4827586206896552,
+      "train_step": 99,
+      "test_score": 0.42987111448066717,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numeric values, determine the single arithmetic operation needed, calculate the exact result, and respond with only the integer answer on a line by itself. Do not include explanations or additional text.",
+      "train_score": 0.39080459770114945,
+      "train_step": 99,
+      "test_score": 0.39727065959059893,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers from the problem, determine the single precise arithmetic expression it defines, compute the exact result, and reply with only that integer on a standalone line\u2014no explanations, units, or additional text.",
+      "train_score": 0.3793103448275862,
+      "train_step": 99,
+      "test_score": 0.34420015163002277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.896551724137931,
+      "train_step": -1,
+      "test_score": 0.288855193328279,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9166034874905231,
+    "avg_test_score": 0.7760568973609155,
+    "best_test_instruction": "Identify all numeric values in the problem, translate any described relationships\u2014including addition, subtraction, multiplication, division, percentages, fractions, or time additions\u2014into the exact arithmetic steps required, compute them using precise arithmetic, and output only the final integer result on a single line."
+  }
+}

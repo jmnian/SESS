@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the question thoroughly, identify the key concepts and required calculations, and then select the answer choice that best matches the correct reasoning.",
+      "train_score": 0.3333333333333333,
+      "train_step": 0,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, figure out which format the answer must take (e.g., a single choice letter A\u2011D, a number, a translated sentence), compute the result internally, and return exactly that result on one line\u2014no extra symbols, whitespace, or commentary.",
+      "train_score": 0.3333333333333333,
+      "train_step": 6,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required answer type (letter\u202fA\u2011D, numeric value, or brief phrase), solve the problem internally, and respond with exactly that token on a single line\u2014no extra characters, spaces, punctuation, or commentary, preserving the original case.",
+      "train_score": 0.358974358974359,
+      "train_step": 43,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem and output only the exact answer token required (a single capital letter\u202fA\u2011D, a number, or a short phrase). Do not include any whitespace, punctuation, quotation marks, markdown, or extra characters before or after it; preserve the original case and formatting.",
+      "train_score": 0.358974358974359,
+      "train_step": 97,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly the required answer (a single letter A\u2011D, a number, or a brief phrase) as the only characters on one line\u2014no spaces, punctuation, markdown, or extra text, and keep the original capitalization.",
+      "train_score": 0.28205128205128205,
+      "train_step": 99,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the correct response demanded by the prompt (typically a capital letter A\u2011D, a numeric value, or a brief phrase). Produce that response as the sole content of a single line\u2014no surrounding spaces, punctuation, markdown, or commentary, preserving the original case.",
+      "train_score": 0.358974358974359,
+      "train_step": 56,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required answer type (letter\u202fA\u2011D, number, or short phrase), compute the solution internally, and output exactly that token on a single line with no surrounding spaces, punctuation, quotes, markdown, or explanatory text; preserve the original capitalization and formatting.",
+      "train_score": 0.358974358974359,
+      "train_step": 81,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the final answer token\u2014either a capital letter A\u2011D, a numeric value, or a brief phrase\u2014exactly as required on a single line, with no extra spaces, punctuation, or markup.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the required response type (A\u2011D, a number, or a short phrase), compute the answer, and output only that exact token on a single line\u2014no leading/trailing spaces, punctuation, quotes, markdown, or other characters; preserve the original capitalization.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Reply with exactly the required answer token (a single letter\u202fA\u2011D, a number, or a brief phrase) on its own line\u2014no extra spaces, punctuation, markup, or explanatory text; keep the original case.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Please provide the correct answer choice based on the given question and answer key.",
+      "train_score": 0.38461538461538464,
+      "train_step": 0,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break down the problem, pinpoint the underlying concepts, carry out the required computations or logical deductions, and output only the single correct answer choice (e.g., A, B, C, or D).",
+      "train_score": 0.3333333333333333,
+      "train_step": 1,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the needed answer format (single capital letter\u202fA\u2011D, a number, or a brief phrase) and output exactly that token on its own line\u2014no spaces, punctuation, quotes, markdown, or any other characters before or after, preserving the original case.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give only the answer token\u2014either a single capital letter (A\u2011D), a numeric value, or a brief phrase\u2014on a line by itself, with no extra characters, spaces, or formatting, preserving its case.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify whether the problem requires a single choice letter, a numeric value, or a short text answer. After solving internally, reply with exactly that answer on its own line\u2014no punctuation, no spaces before or after, no markdown, and keep the original capitalization.",
+      "train_score": 0.38461538461538464,
+      "train_step": 55,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, infer whether the required output is a single choice letter (A\u2011D), a number, or a short phrase. Solve it internally and reply with only that exact token on one line\u2014no spaces, punctuation, markup or additional text, preserving the original case.",
+      "train_score": 0.358974358974359,
+      "train_step": 63,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, decide if the required answer is a single capital letter\u202f(A\u2011D), a number, or a brief phrase. After solving internally, print only that exact token on one line\u2014no extra spaces, punctuation, markdown, or commentary, and keep the original case.",
+      "train_score": 0.358974358974359,
+      "train_step": 68,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, then output only the answer token\u2014either a capital letter\u202fA\u2011D, a numeric value, or a brief phrase\u2014on a single line with absolutely no surrounding spaces, punctuation, quotes, markdown, or additional characters, preserving the token\u2019s original case.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the question, decide whether the answer required is a single capital letter (A\u2011D), a numeric value, or a brief phrase. After solving internally, output only that exact token on a single line\u2014no quotes, no spaces before or after, no punctuation, no markdown, and keep the original capitalization.",
+      "train_score": 0.358974358974359,
+      "train_step": 89,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3076923076923077,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.3333333333333333,
+      "train_step": 3,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.36363636363636365,
+    "avg_test_score": 0.33140933140933143,
+    "best_test_instruction": "Read the question thoroughly, identify the key concepts and required calculations, and then select the answer choice that best matches the correct reasoning."
+  }
+}

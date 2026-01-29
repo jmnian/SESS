@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a brief reasoning overview, perform every necessary calculation showing intermediate results, and finish with the exact answer alone on the final line (nothing else).",
+      "train_score": 0.7470588235294118,
+      "train_step": 18,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7176470588235294,
+      "train_step": -1,
+      "test_score": 0.7396061269146609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief logical derivation, showing each algebraic step, and terminate the response with the exact answer presented as a solitary number on the final line (nothing else).",
+      "train_score": 0.7352941176470589,
+      "train_step": 3,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one sentence, indicate the exact theorem or formula you will use, then execute the calculations, listing every intermediate numeric value (label them if you wish). Optionally include a quick plausibility check. Conclude with a single line that contains only the final numeric result\u2014nothing else.",
+      "train_score": 0.7235294117647059,
+      "train_step": 99,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a concise solution: briefly outline the method, display the necessary calculations, and finish with the exact numeric answer alone on the final line.",
+      "train_score": 0.7411764705882353,
+      "train_step": 6,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, note the essential principle or formula, then perform every calculation in the order required, writing each intermediate result on its own line (label if helpful). Include a quick plausibility check if convenient. Conclude with a single line that contains only the final numeric answer, without any additional characters or commentary.",
+      "train_score": 0.7470588235294118,
+      "train_step": 88,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence restatement of the problem, then state the main formula or concept to be applied. Perform each required computation in order, displaying all intermediate values (and a quick check if helpful). Conclude the response with the exact numeric answer on a new line, containing nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 28,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, give a one\u2011sentence plan, then perform each required computation showing all intermediate values (include a quick verification if convenient), and finish by writing only the final numeric answer on its own line with no extra characters or formatting.",
+      "train_score": 0.7470588235294118,
+      "train_step": 21,
+      "test_score": 0.7205376680212566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a one\u2011line restatement of the problem, then state the key formula or method. Perform all calculations, writing each intermediate result (a short verification may be added). End the response with a line that contains only the final numeric answer.",
+      "train_score": 0.7470588235294118,
+      "train_step": 77,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short overview of the main idea, then carry out every required computation showing each intermediate result, and finish by writing only the final numeric answer on a new line with no additional words or symbols.",
+      "train_score": 0.7470588235294118,
+      "train_step": 17,
+      "test_score": 0.7117849327914973,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, logical solution: enumerate each reasoning step and calculation clearly, then finish by writing only the exact numeric answer on a new line with no additional words, symbols, or formatting.",
+      "train_score": 0.7411764705882353,
+      "train_step": 3,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, precise solution: outline the method, carry out each required calculation while showing any necessary intermediate results, and finish by writing only the exact final answer on the last line with no extra symbols or text.",
+      "train_score": 0.7352941176470589,
+      "train_step": 11,
+      "test_score": 0.7014692091278525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logical solution: start with the key formula or principle, compute each necessary intermediate value, and finish by printing only the final numeric answer on a new line without any additional text.",
+      "train_score": 0.7352941176470589,
+      "train_step": 14,
+      "test_score": 0.7005314160675211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. State the essential formula or principle. Perform each calculation in order, listing every intermediate numeric value on its own line (labeling is optional). A short plausibility check may be added. Conclude with a single line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.6588235294117647,
+      "train_step": 99,
+      "test_score": 0.6967802438261956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Start with a succinct paraphrase of the question and identify the single principle or formula needed. Compute every intermediate quantity in the order used, showing each numeric result (and a brief plausibility check if helpful). Conclude the answer with exactly one line containing only the final numeric value\u2014no additional symbols, words, or formatting.",
+      "train_score": 0.7411764705882353,
+      "train_step": 79,
+      "test_score": 0.681775554860894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in a single sentence.\n- State the single theorem, identity, or counting rule that will be used.\n- Perform every required arithmetic or algebraic step, writing each intermediate result on its own line (you may prefix with a letter for reference).\n- After the calculations, output one line that contains exactly the final numeric result and nothing else.",
+      "train_score": 0.6529411764705882,
+      "train_step": 99,
+      "test_score": 0.6745858080650203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the problem, name the core formula or counting principle needed, then compute each intermediate quantity in order, showing each result on its own line (labels optional). Include a quick sanity check if desired, and finish with exactly one line that contains only the final numeric answer, with no additional words or symbols.",
+      "train_score": 0.6823529411764706,
+      "train_step": 99,
+      "test_score": 0.6733354173179118,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a one\u2011sentence recap of the question, state the main theorem or formula you will employ, then solve the problem showing every arithmetic or algebraic step (each step on its own line, including any intermediate numbers). After a brief sanity check, finish the answer with the exact result as the sole content of the final line\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.7588235294117647,
+      "train_step": 46,
+      "test_score": 0.671147233510472,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one brief sentence, name the core principle or formula needed, then solve it step\u2011by\u2011step, writing each intermediate numeric result on its own line (you may label them). Conclude with a single line that contains only the final numeric answer\u2014no other text or symbols.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.6642700844013755,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011sentence summary of the problem. Identify the core theorem or definition required. Carry out every calculation in the required order, listing each intermediate numeric result on its own line (label if helpful) and optionally a brief sanity check. Finish with a single line containing only the final numeric answer\u2014no other text or symbols.",
+      "train_score": 0.6411764705882353,
+      "train_step": 99,
+      "test_score": 0.6236323851203501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011line paraphrase of the question, then indicate the key formula/theorem. Perform all required calculations, presenting each intermediate numeric value on a separate line (labeling is optional). You may insert a short sanity check in parentheses. End the answer with a single line that contains exactly the final number and nothing else (no punctuation, no words, no markup).",
+      "train_score": 0.4176470588235294,
+      "train_step": 99,
+      "test_score": 0.3851203501094092,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7421069084088777,
+    "avg_test_score": 0.68825079265842,
+    "best_test_instruction": "Give a brief reasoning overview, perform every necessary calculation showing intermediate results, and finish with the exact answer alone on the final line (nothing else)."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Convert every mentioned quantity\u2014including percentages, fractions, and verbal multipliers\u2014into plain numbers in a common unit, deduce the single simplest arithmetic or linear formula that directly yields the requested result, evaluate it exactly (preserving reduced fractions), perform a brief plausibility check, and output only the final numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 64,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, translate the scenario into a simple algebraic expression or arithmetic operation, compute step\u2011by\u2011step, optionally verify, and output only the final numeric result.",
+      "train_score": 0.8888888888888888,
+      "train_step": 2,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity, convert all units, percentages, and linguistic multipliers to numbers, write the single minimal arithmetic or algebraic expression that yields the answer, evaluate it exactly (keep fractions if needed), perform a quick sanity check, and output only the final numeric result.",
+      "train_score": 0.9042145593869731,
+      "train_step": 22,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every stated or implied quantity, translate words like half, double, or X\u202f% into exact numbers in uniform units, then devise the single shortest arithmetic or linear formula that directly produces the required result, evaluate it exactly (keep fractions or exact decimals), do a brief sanity check, and output only the final numeric answer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every quantitative datum (including implied ratios like half, double, percent), convert each to a single numeric value in consistent units, then write the one direct arithmetic/algebraic expression that gives the required answer. Compute it exactly (retain reduced fractions), do a quick sanity check, and output only the resulting number.",
+      "train_score": 0.896551724137931,
+      "train_step": 47,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit or implicit numeric datum\u2014including written multipliers such as half, double, \u201cX\u202f%\u201d, \u201cX more/less than Y\u201d\u2014and convert each to a single number in a uniform unit system (e.g., minutes to hours). Form the single most direct arithmetic or linear expression that maps these numbers to the quantity asked for, evaluate it exactly (keep fractions reduced or exact decimals), perform a quick sanity check, and output only the final numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 92,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric fact (including implied ratios such as half, double, percentages, \u201cX\u202f% more/less\u201d), convert each to a single value in uniform units, then formulate the unique minimal arithmetic expression that directly yields the asked\u2011for quantity. Evaluate it exactly (retain fractions or exact decimals), perform a brief sanity check, and output only the final number.",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit quantity and any verbal multiplier (half, double, X\u202f%, \u201cX more than Y\u201d), translate them into exact numbers in a single unit system, ignore unrelated narrative, then determine the unique minimal arithmetic or linear expression that directly yields the required quantity. Compute this expression analytically (retain reduced fractions), perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9042145593869731,
+      "train_step": 54,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, convert verbal ratios to exact numbers, represent the goal as a single arithmetic/linear expression using the fewest operations, evaluate it exactly (fractional form allowed), do a brief plausibility check, and output only the resulting numeric value.",
+      "train_score": 0.89272030651341,
+      "train_step": 50,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity mentioned, turning verbal ratios (half, twice, X\u202f%, \u201cX more/less\u201d, etc.) into exact numbers in a single unit system. Then devise the single most straightforward arithmetic/linear expression that maps these numbers to the required answer, compute it analytically (keep fractions unreduced or exact decimals), perform a quick plausibility check, and output only that numeric result.",
+      "train_score": 0.89272030651341,
+      "train_step": 88,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit or implicit numeric datum, convert all linguistic multipliers (half, double, percent, \u201cX\u202f% more/less\u201d, \u201cX more than Y\u201d) into exact numbers in a common unit, then write one direct equation that relates those numbers to the asked\u2011for quantity, solve it analytically (keep fractions reduced), do a quick sanity check, and output only the final numeric value.",
+      "train_score": 0.896551724137931,
+      "train_step": 78,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative datum from the prompt\u2014including explicit numbers and implied multipliers (half, twice, percent, \u201cX\u202f% more/less\u201d, \u201cX more than Y\u201d). Convert each to a single numeric value in uniform units. Form the minimal direct formula (one arithmetic or linear step) that maps these values to the quantity asked for. Compute it analytically (keep fractions unreduced), confirm it makes sense, and output solely the final numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 84,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numerical fact (including implied ratios such as half, double, percentages, \u201cX\u202f% more/less\u201d, etc.) and express each as a plain number in common units. From these numbers devise the single direct computation that yields the quantity asked for, evaluate it exactly (keep reduced fractions or exact decimals), perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.89272030651341,
+      "train_step": 84,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the text, pull out every numeric value and any implied ratio (e.g., half, double, percent), convert them to plain numbers with consistent units, write the single simplest arithmetic or linear\u2011equation that directly yields the asked\u2011for quantity, solve it analytically (preserving fractions), perform a quick plausibility check, and output only the final numeric result.",
+      "train_score": 0.89272030651341,
+      "train_step": 29,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit or implicit quantity (including \u201chalf\u201d, \u201cdouble\u201d, percentages, \u201cX\u202f% more\u201d, etc.) as a plain numeric value in one unit system. From these values construct the unique minimal arithmetic expression that directly computes the target, evaluate it exactly, perform a quick plausibility test, and return only the resulting number.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every explicit number and every implied multiplier (half, double, X\u202f%, \u201cX more/less than Y\u201d) in the problem. Convert all of them to plain numeric values using a single unit system. From these numbers construct the shortest possible direct formula (one arithmetic/combinatorial operation) that yields the quantity asked for. Compute the formula exactly (keep fractions or exact decimals), perform a quick plausibility check, and output only the final numeric result.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find all explicit and implicit numbers (including percentages, fractions, and verbal multipliers), turn each into a single numeric value in a common scale, then express the target quantity as the shortest possible one\u2011line arithmetic or linear formula using those values. Compute it exactly (keep fractions unreduced), do a quick sanity check, and return only the resulting number.",
+      "train_score": 0.8735632183908046,
+      "train_step": 99,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantitative datum (explicit numbers, fractions, percentages, verbal multipliers such as half, twice, \u201cX\u202f% more/less\u201d), convert each to a single numeric value in a uniform unit, then derive the unique one\u2011step arithmetic/linear formula that maps these values to the target quantity. Evaluate it analytically (retain reduced fractions or exact decimals), perform a quick plausibility check, and return only the final numeric result.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical value, convert fractions or percentages to decimals, formulate the single required arithmetic/algebraic expression (including any unit conversion), compute it exactly with a brief sanity check, and output only the final numeric answer.",
+      "train_score": 0.896551724137931,
+      "train_step": 14,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers mentioned, convert any percentages, fractions, \u201chalf\u201d, \u201ctwice\u201d, etc., into plain values, determine the single most direct calculation (including any needed unit conversion), evaluate it exactly, do a quick sanity check, and output only the final numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 19,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7816091954022989,
+      "train_step": -1,
+      "test_score": 0.8165276724791509,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9112964366944655,
+    "avg_test_score": 0.8942922127152604,
+    "best_test_instruction": "Convert every mentioned quantity\u2014including percentages, fractions, and verbal multipliers\u2014into plain numbers in a common unit, deduce the single simplest arithmetic or linear formula that directly yields the requested result, evaluate it exactly (preserving reduced fractions), perform a brief plausibility check, and output only the final numeric answer."
+  }
+}

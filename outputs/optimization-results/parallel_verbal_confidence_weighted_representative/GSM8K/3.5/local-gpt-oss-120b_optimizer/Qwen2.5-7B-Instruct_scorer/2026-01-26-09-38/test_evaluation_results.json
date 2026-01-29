@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Translate the entire problem into a single exact mathematical expression using every stated number and relationship (apply any unit, percentage, or conversion as needed), evaluate it showing only the indispensable intermediate calculations, confirm the result satisfies the conditions, and output solely the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 7,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the whole problem into one closed\u2011form arithmetic expression that uses every mentioned quantity and relationship (including percentages, fractions, unit or base conversions). Evaluate the expression with exact arithmetic (round only at the final step if a decimal is required), perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 37,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, list each given quantity, turn every stated relationship into its exact arithmetic operation (including unit, percent or fraction conversions), merge them into a single fully\u2011parenthesized expression, evaluate it showing only the minimal necessary steps, and output only the final numeric value.",
+      "train_score": 0.9655172413793104,
+      "train_step": 10,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and the exact arithmetic relationship each conveys (including unit, percent, or fraction transformations). Formulate a single, unambiguous, properly parenthesized mathematical expression that resolves the question. Evaluate it using exact arithmetic, confirm the result satisfies any stated conditions, and output solely the numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 36,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric term and the precise operation it dictates (including percentages, ratios, unit or base conversions), fuse them into a single, fully\u2011parenthesized rational expression that inherently solves the question, simplify symbolically, evaluate exactly (round only for the final output if a decimal is required), verify with one back\u2011substitution, and output only the final numeric result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Translate the narrative into one closed\u2011form equation that incorporates all mentioned numbers and relationships (handling % , fractions, unit or base conversions as needed). Evaluate this equation using exact arithmetic, conduct a single back\u2011substitution validation, and output only the final numerical answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 57,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every quantity, translate each described relation (including units, percentages, fractions, or base changes) into its exact arithmetic operator, and fuse them into a single, fully\u2011parenthesized rational expression that yields the desired answer. Evaluate the expression using exact rational arithmetic (apply rounding only for the final decimal output if required), perform a brief back\u2011substitution sanity check, and output only the final numeric value.",
+      "train_score": 0.9655172413793104,
+      "train_step": 45,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers present, translate each described relation (including % , fractions, unit or base conversions) into its precise arithmetic operator, merge them into a single fully\u2011parenthesized exact expression that computes the asked value, evaluate it with exact rational arithmetic (round only at the final step if a decimal is needed), perform a quick sanity check, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 68,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its implied operation (including percentages, fractions, unit conversions, and proportional statements). Construct one exact, fully\u2011parenthesized arithmetic expression that directly yields the requested quantity, evaluate it using exact rational arithmetic (round only for the final output if a decimal is required), perform a quick verification by substituting back, and return only the final numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 46,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, map every number to its exact operation (including conversions), synthesize one precise fully\u2011parenthesized formula, evaluate it (checking only minimal consistency), and output the single numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 36,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum and the exact operation it entails (including percentages, fractions, unit or base conversions), fuse them into a single fully\u2011parenthesized mathematical formula that embodies the entire problem, evaluate it with exact arithmetic (round only in the final step if a decimal is needed), perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 32,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its implied operation (including percentages, fractions, unit or base conversions). Combine them into one fully parenthesized exact arithmetic expression that yields the requested result. Evaluate using exact rational arithmetic, perform a quick consistency check, and output only the final number (in the required units).",
+      "train_score": 0.9616858237547893,
+      "train_step": 63,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement, list each quantity, translate every stated relation into its exact arithmetic operator (including % , fractions, unit or base conversions), combine them into one fully\u2011parenthesized expression that directly computes the asked value, evaluate it with exact rational arithmetic (round only at the final step if a decimal is needed), perform one quick sanity check by plugging the result back, and output only the final number.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum and the exact mathematical operation it represents (including percentages, fractions, unit or base conversions, and ratios). Combine them into a single, fully\u2011parenthesized expression that directly yields the requested quantity. Evaluate the expression using exact rational arithmetic (round only for the final output if a decimal is required), perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 69,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every quantity given, translate each stated relationship into its exact arithmetic operation (including any unit, percentage, or fraction conversion), assemble these into one fully parenthesized expression, evaluate it while performing only the essential intermediate checks (including a quick back\u2011substitution verification), and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 10,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity and the exact operation it implies (including multiplicative, additive, fractional, percentage, or unit conversions). Construct one completely parenthesized arithmetic expression that encapsulates the whole problem, compute it using exact rational arithmetic (apply rounding only on the final output if a decimal is needed), perform a brief verification by re\u2011substituting, and return exclusively the final numeric value.",
+      "train_score": 0.9616858237547893,
+      "train_step": 52,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given number, translate each described relationship into its exact mathematical operation (including percentages, fractions, ratios, unit or base conversions), embed them directly into one fully\u2011parenthesized expression that yields the asked quantity, evaluate this expression with exact arithmetic (round only for the final output if a decimal is needed), perform a single back\u2011substitution sanity check, and output solely the final numeric answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 99,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum and its exact mathematical relation (including % , fractions, ratios, unit or base changes). Fuse them into one unambiguous fully\u2011parenthesized expression that directly yields the required value, compute it with exact rational arithmetic (round only for the final answer if needed), perform a single consistency check by substitution, and output only that numeric answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.842911877394636,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric value and the precise operation implied (including percentages, ratios, unit conversions). Directly embed them into one fully\u2011parenthesized exact arithmetic expression that yields the requested result, compute it using exact rational arithmetic (round only for the final output if a decimal is needed), perform a single back\u2011substitution verification, and output solely the final numeric answer.",
+      "train_score": 0.632183908045977,
+      "train_step": 99,
+      "test_score": 0.5724033358605004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every given number and the precise operation it implies (including percentages, ratios, unit or base conversions). Insert them directly into a single fully\u2011parenthesized arithmetic expression that computes the asked quantity without introducing auxiliary symbols. Evaluate the expression with exact rational arithmetic (round only for the final output if a decimal is required), confirm the result by one back\u2011substitution check, and output only that numeric answer.",
+      "train_score": 0.6551724137931034,
+      "train_step": 99,
+      "test_score": 0.5595147839272175,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.8605003790750567,
+    "best_test_instruction": "Translate the entire problem into a single exact mathematical expression using every stated number and relationship (apply any unit, percentage, or conversion as needed), evaluate it showing only the indispensable intermediate calculations, confirm the result satisfies the conditions, and output solely the final numeric answer."
+  }
+}

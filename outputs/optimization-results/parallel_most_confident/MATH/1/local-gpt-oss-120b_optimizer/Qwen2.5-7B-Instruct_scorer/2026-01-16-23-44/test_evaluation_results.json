@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the quantity to find, carry out the calculations with all required intermediate steps, and conclude by writing just the final answer exactly as specified.",
+      "train_score": 0.9375,
+      "train_step": 2,
+      "test_score": 0.7602375742419506,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show each necessary calculation clearly, then give only the final answer in the exact format requested.",
+      "train_score": 0.9791666666666666,
+      "train_step": 1,
+      "test_score": 0.7589871834948422,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carry out the required computation, displaying any essential intermediate steps (such as unit conversions or rounding), and finish with a single line that contains only the final answer in exactly the format the problem specifies.",
+      "train_score": 0.9375,
+      "train_step": 86,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify what is being asked, carry out the necessary calculations step\u2011by\u2011step (including any unit conversions or rounding), optionally show a couple of key intermediate results for transparency, and finish with only the final answer formatted exactly as required\u2014nothing else.",
+      "train_score": 0.9583333333333334,
+      "train_step": 84,
+      "test_score": 0.7539856205064083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Proceed methodically: determine the quantity to find, execute the required computation while showing each intermediate step, and conclude by presenting only the final answer exactly in the format requested.",
+      "train_score": 0.9166666666666666,
+      "train_step": 1,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Construct a short, logical solution: describe the method, carry out each calculation with correct units and rounding, and present the final answer exactly in the format requested.",
+      "train_score": 0.9166666666666666,
+      "train_step": 1,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step computation that includes any required conversions or rounding, and conclude with a single line containing only the final answer in the exact format the problem specifies.",
+      "train_score": 0.9166666666666666,
+      "train_step": 90,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.9166666666666666,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a comprehensive step-by-step solution, ensuring clarity and precision, and present your final answer in the required format.",
+      "train_score": 0.9375,
+      "train_step": 0,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Calculate step by step, showing all intermediate work and any unit conversions, then give the final answer in the precise format requested.",
+      "train_score": 0.9375,
+      "train_step": 1,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a clear and direct solution step-by-step to the following question.",
+      "train_score": 0.9583333333333334,
+      "train_step": 0,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by first pinpointing the quantity to determine, then perform only the essential calculations (including any required unit conversions or rounding). Show brief intermediate results only if they aid clarity, and conclude by printing solely the final answer in exactly the format specified (correct units, decimal places, or notation), without any extra text.",
+      "train_score": 0.9166666666666666,
+      "train_step": 57,
+      "test_score": 0.6792747733666771,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the necessary calculations, showing only any essential intermediate values that help clarification, and finish with a single line that contains only the final answer exactly in the format required (including units, decimal places, or notation).",
+      "train_score": 0.9166666666666666,
+      "train_step": 79,
+      "test_score": 0.671147233510472,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the needed number, perform the calculation (including any rounding or unit rules), optionally note a short intermediate step for clarity, and finish by printing only the final answer on its own line in exactly the format requested.",
+      "train_score": 0.9166666666666666,
+      "train_step": 92,
+      "test_score": 0.6598937167864958,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify what the problem asks, perform the required computation (including any unit conversion or rounding), optionally list only essential intermediate values, and finish with a single line that contains *only* the final answer in exactly the requested format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6355110972178806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by clearly stating the quantity to find, performing the necessary calculations (showing any essential intermediate steps, unit conversions, or rounding), and then output only the final answer exactly in the format the question requests\u2014no extra text or symbols.",
+      "train_score": 0.9166666666666666,
+      "train_step": 4,
+      "test_score": 0.5951859956236324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, carry out the calculation (including any unit conversion, rounding, or formatting rules), optionally display a short intermediate result for verification, and conclude by printing exactly one line that contains only the final answer in the format specified by the problem (correct units, decimal places, etc.), with no other text.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.4295092216317599,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Explain the required calculation in a few clear steps (including any unit conversions or rounding), then output only the final result on its own line, formatted exactly as the problem specifies.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.42607064707721165,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the question by first identifying the required quantity, then doing the necessary computation (including any unit conversions and rounding). Show at most one brief intermediate value if it aids understanding, and conclude with a single line that contains only the final answer formatted exactly as the problem specifies\u2014no additional text or symbols.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.3282275711159737,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Execute the necessary calculations, showing concise intermediate results only if they clarify the solution, and conclude with a line that contains *only* the final answer, formatted exactly as required (correct units, decimal places, etc.). Do not include any additional text.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.24538918412003752,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, clear calculation (including any needed unit conversions or rounding), then output only the final answer on its own line exactly in the format requested (correct units, decimal places, or notation).",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.20568927789934355,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7602375742419506,
+    "avg_test_score": 0.6234537578707633,
+    "best_test_instruction": "Identify the quantity to find, carry out the calculations with all required intermediate steps, and conclude by writing just the final answer exactly as specified."
+  }
+}

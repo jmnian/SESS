@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, showing the essential reasoning, and conclude by printing only the final numeric answer on a separate line (no extra text, symbols, or explanations).",
+      "train_score": 0.45294117647058824,
+      "train_step": 0,
+      "test_score": 0.5420443888715224,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, concise solution outlining the essential reasoning steps, and conclude by outputting only the final answer on its own line.",
+      "train_score": 0.48823529411764705,
+      "train_step": 1,
+      "test_score": 0.5386058143169741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, step-by-step solution with full reasoning and the final answer.",
+      "train_score": 0.5117647058823529,
+      "train_step": 0,
+      "test_score": 0.5176617693029072,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution that includes only necessary reasoning and calculations, and end the response with the exact numeric answer (integer or reduced fraction) on a single line without any extra text.",
+      "train_score": 0.45294117647058824,
+      "train_step": 10,
+      "test_score": 0.51734917161613,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline the essential strategy, perform the necessary calculations (showing only indispensable intermediate values), and finish by printing the exact final result (integer or lowest\u2011terms fraction) on a single line with no additional text or symbols.",
+      "train_score": 0.4588235294117647,
+      "train_step": 15,
+      "test_score": 0.5167239762425758,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: first identify the key principle, then carry out only indispensable calculations (display intermediate values only when they are required for the final result), and finally output solely the exact answer (integer or simplified fraction) on a new line with no additional text, symbols, or spaces.",
+      "train_score": 0.47058823529411764,
+      "train_step": 54,
+      "test_score": 0.5051578618318224,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief solution: identify the essential principle, compute only what is required, and finish with a line that contains solely the final numeric answer (integer or lowest\u2011terms fraction) and nothing else.",
+      "train_score": 0.47058823529411764,
+      "train_step": 19,
+      "test_score": 0.5042200687714911,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a compact solution: identify the key relationships, execute the calculations succinctly, and finish by writing just the numerical answer on a new line.",
+      "train_score": 0.49411764705882355,
+      "train_step": 1,
+      "test_score": 0.5020318849640513,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short exposition of the main concept, perform only the calculations that directly lead to the result (showing any intermediate numbers needed), and terminate the response with the exact numeric answer (integer or reduced fraction) on a single line, without any additional characters.",
+      "train_score": 0.45294117647058824,
+      "train_step": 16,
+      "test_score": 0.5014066895904971,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4294117647058823,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the essential observation in a single brief statement, carry out only the calculations that are strictly needed (show any intermediate value only if it is used later), and conclude with one line that contains exactly the final answer\u2014an integer or a fraction in lowest terms\u2014without any surrounding text or symbols.",
+      "train_score": 0.4470588235294118,
+      "train_step": 66,
+      "test_score": 0.4870271959987496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief justification (one or two sentences) of the core idea, carry out only the essential calculations, and end with a separate line that contains only the final answer\u2014an integer or a fraction in lowest terms\u2014with no additional text or symbols.",
+      "train_score": 0.4470588235294118,
+      "train_step": 28,
+      "test_score": 0.48265082838386997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence description of the decisive idea, then execute only the calculations that affect the result (show intermediate numbers only if they are required later), and end the output with exactly one line that contains the final answer\u2014an integer or a reduced fraction\u2014with no other characters, spaces, or formatting.",
+      "train_score": 0.34705882352941175,
+      "train_step": 99,
+      "test_score": 0.4804626445764301,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the core observation in one brief sentence. Perform only the computations that are required to obtain the result, showing intermediate numbers only when they are later used. Finally output a single line that contains just the final answer\u2014an integer or a reduced fraction\u2014with no other text, symbols, or whitespace.",
+      "train_score": 0.4411764705882353,
+      "train_step": 99,
+      "test_score": 0.47889965614254454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011line description of the core idea, then carry out only the computations that directly affect the outcome (display an intermediate value only when it is required later), and finish with a solitary line containing just the final answer (integer or lowest\u2011terms fraction) with no surrounding text.",
+      "train_score": 0.4588235294117647,
+      "train_step": 55,
+      "test_score": 0.47170990934667084,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the pivotal idea in one line, carry out only the necessary algebra or arithmetic (showing intermediate values only when they are required for the final result), and terminate the answer with a lone line that contains exactly the final integer or reduced fraction\u2014no other text, symbols, or whitespace.",
+      "train_score": 0.4470588235294118,
+      "train_step": 22,
+      "test_score": 0.4629571741169115,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the decisive trick in one short sentence, carry out only the unavoidable arithmetic (show any intermediate value only if it is later needed), and end with a single line that contains only the exact result\u2014an integer or a reduced fraction\u2014without any surrounding characters or whitespace.",
+      "train_score": 0.36470588235294116,
+      "train_step": 99,
+      "test_score": 0.45264145045326665,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the main observation in one sentence, perform only the calculations that are unavoidable (showing intermediate results only if they are later needed), and conclude with a single line that contains exactly the final result\u2014either an integer or a reduced fraction\u2014without any surrounding text, symbols, or whitespace.",
+      "train_score": 0.3411764705882353,
+      "train_step": 99,
+      "test_score": 0.44545170365739295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Start with a single\u2011sentence highlight of the main trick, then carry out only the indispensable arithmetic (show an intermediate value only if it will be used later), and finish with a lone line that contains precisely the final answer\u2014an integer or a lowest\u2011terms fraction\u2014with no other text or symbols.",
+      "train_score": 0.3058823529411765,
+      "train_step": 99,
+      "test_score": 0.43326039387308535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011sentence description of the decisive observation, carry out only the calculations that directly produce the result (show an intermediate value only if it is needed later), and end the response with a solitary line that contains *exactly* the final answer\u2014an integer or a reduced fraction\u2014with no additional characters.",
+      "train_score": 0.34705882352941175,
+      "train_step": 99,
+      "test_score": 0.4326351984995311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a single\u2011sentence summary of the key trick, carry out only the indispensable computations (show an intermediate value only when it will be used subsequently), and finish the response with one line that contains just the final answer\u2014an integer or a reduced fraction\u2014with no extra symbols, words, or spaces.",
+      "train_score": 0.35294117647058826,
+      "train_step": 99,
+      "test_score": 0.4295092216317599,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5420443888715224,
+    "avg_test_score": 0.4853004659194093,
+    "best_test_instruction": "Solve the problem step\u2011by\u2011step, showing the essential reasoning, and conclude by printing only the final numeric answer on a separate line (no extra text, symbols, or explanations)."
+  }
+}

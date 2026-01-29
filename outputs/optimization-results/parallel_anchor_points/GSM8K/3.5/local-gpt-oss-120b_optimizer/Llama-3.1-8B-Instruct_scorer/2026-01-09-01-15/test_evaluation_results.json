@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, list every number (with its unit when present), determine the precise calculation required\u2014including any addition, subtraction, multiplication, division, percentage, ratio, or unit conversion\u2014carry out the steps in order while briefly checking each intermediate result for consistency, and output only the final numeric answer (add the unit only if the question explicitly asks for it).",
+      "train_score": 0.89272030651341,
+      "train_step": 89,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantitative element in the problem, translate the described relationships into the appropriate arithmetic or algebraic expression (including unit conversions, percentages, ratios, or time\u2011distance calculations), compute the result step\u2011by\u2011step while briefly checking each intermediate value for consistency with the context, and output only the final numeric answer (including the required unit if any) without any additional explanation.",
+      "train_score": 0.8888888888888888,
+      "train_step": 10,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity, turn the described relationships into the exact arithmetic formula (handling percentages, ratios, or unit conversions as needed), compute the result step\u2011by\u2011step with brief sanity checks, and return only the final numeric answer (including its unit only if the problem asks), with no extra explanation.",
+      "train_score": 0.89272030651341,
+      "train_step": 12,
+      "test_score": 0.8271417740712661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every number (and its unit), infer the single accurate computation needed\u2014including any percentages, ratios, or unit changes\u2014carry out the calculation stepwise with a quick sanity check after each operation, and reply with only the final numeric answer (attach the unit only if the problem explicitly requests it).",
+      "train_score": 0.8888888888888888,
+      "train_step": 67,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numerical value and its associated unit, infer the exact mathematical operation required (including addition, subtraction, multiplication, division, percentages, ratios, or unit conversions), perform the calculation sequentially while briefly verifying each intermediate result against the problem context, and output only the final numeric result (adding the unit only if explicitly requested).",
+      "train_score": 0.89272030651341,
+      "train_step": 29,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate every numeric value, convert the described relations into the exact arithmetic formula (handling percentages, ratios, or unit conversions as needed), evaluate it step\u2011by\u2011step with brief sanity checks, and respond with only the final numeric answer (include the unit only if the problem explicitly asks).",
+      "train_score": 0.8888888888888888,
+      "train_step": 26,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers present, decide the exact arithmetic needed (including percentages, fractions, repeated halving, or unit conversions), compute the result step\u2011by\u2011step while briefly confirming each intermediate value makes sense, and output only the final numeric answer (add a unit only if the problem explicitly asks for one).",
+      "train_score": 0.8888888888888888,
+      "train_step": 50,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value with its unit, translate the problem into the unique arithmetic expression required (handling any unit conversions, ratios, percentages, or algebraic steps), calculate it step\u2011by\u2011step, and answer only with the final number (add the unit only when the prompt explicitly asks).",
+      "train_score": 0.89272030651341,
+      "train_step": 79,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit numeric datum (and its unit), formulate the exact mathematical relation required (including any percentage, ratio, or conversion), compute the result sequentially with a quick sanity check after each operation, and output only the final numeric answer (add the unit only if the question explicitly asks for it).",
+      "train_score": 0.8773946360153256,
+      "train_step": 99,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate all numbers (and any units) in the prompt, write the precise calculation the scenario demands\u2014handling percentages, ratios, or unit changes\u2014carry out the computation in order, briefly confirm each intermediate step makes sense, and output only the final result (include the unit only when the question explicitly asks for it).",
+      "train_score": 0.896551724137931,
+      "train_step": 67,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numbers, figure out the exact mathematical operation (including any unit conversion, percentage, or ratio), calculate it step\u2011by\u2011step while briefly confirming each intermediate result, and return only the final numeric answer (include the unit only if the question requires it).",
+      "train_score": 0.89272030651341,
+      "train_step": 92,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all stated numbers (with units), deduce the exact calculation implied\u2014including percentages, ratios, unit changes or simple algebra\u2014perform the operations in logical order while briefly confirming each intermediate result makes sense, and output solely the final value (append the unit only if the prompt explicitly asks for it).",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.8104624715693708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Scan the problem, list every explicit number with its unit, determine the unique computation that connects them (including percentages, ratios, conversions, or simple algebra), perform the calculation in a linear order while doing a quick sanity check after each step, and output solely the final value (append the unit only if the question demands it).",
+      "train_score": 0.9080459770114943,
+      "train_step": 98,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated quantities, express the problem as a single exact arithmetic expression (handling fractions, percentages, ratios, and unit conversions as needed), compute it step\u2011by\u2011step with a brief sanity check after each operation, and respond solely with the final numeric result (include the unit only if explicitly requested).",
+      "train_score": 0.89272030651341,
+      "train_step": 26,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity, translate the described relationships into a single precise arithmetic expression (including percentages, ratios, or unit conversions), compute it step\u2011by\u2011step with brief verification of each intermediate result, and output only the final numeric answer (including the unit only if requested).",
+      "train_score": 0.8850574712643678,
+      "train_step": 15,
+      "test_score": 0.8021228203184231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (including any units), translate the described situation into a single precise calculation (handling percentages, ratios, and unit conversions as needed), evaluate it in a logical order while briefly confirming that each intermediate result is reasonable, and return only the final number (append the unit only if the question explicitly requires it).",
+      "train_score": 0.7969348659003831,
+      "train_step": 99,
+      "test_score": 0.7877179681576952,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate all quantities, convert percentages to fractions, map the relationships into one exact formula, compute it in a single pass with a quick plausibility check, and output only the final number (include units only if explicitly required).",
+      "train_score": 0.7586206896551724,
+      "train_step": 99,
+      "test_score": 0.7543593631539045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7777777777777778,
+      "train_step": -1,
+      "test_score": 0.7475360121304018,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numerical value (with its unit), infer the exact mathematical relationship described (including percentages, ratios, multiples, or unit conversions), formulate a single clear arithmetic expression, evaluate it sequentially while performing a brief plausibility check after each operation, and output only the resulting number (add the unit only if the prompt expressly asks).",
+      "train_score": 0.789272030651341,
+      "train_step": 99,
+      "test_score": 0.7354056103108415,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number (and its unit). Determine the single precise arithmetic expression that satisfies the problem\u2014including any percentages, ratios, or conversions. Evaluate it step\u2011by\u2011step, performing a quick sanity check after each operation, and output only the final numeric answer (append the unit only if the prompt explicitly asks for it). No extra commentary.",
+      "train_score": 0.6551724137931034,
+      "train_step": 99,
+      "test_score": 0.6588324488248674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers and their units, translate the described relations into one exact arithmetic expression (covering any percentages, ratios, multiplications, divisions or conversions), compute it in a linear order while briefly confirming each intermediate result is reasonable, and output exclusively the final value (include the unit solely when the question demands it), without any extra commentary.",
+      "train_score": 0.6513409961685823,
+      "train_step": 99,
+      "test_score": 0.6542835481425322,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8423047763457164,
+    "avg_test_score": 0.7908227733853208,
+    "best_test_instruction": "Read the problem, list every number (with its unit when present), determine the precise calculation required\u2014including any addition, subtraction, multiplication, division, percentage, ratio, or unit conversion\u2014carry out the steps in order while briefly checking each intermediate result for consistency, and output only the final numeric answer (add the unit only if the question explicitly asks for it)."
+  }
+}

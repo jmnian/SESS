@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem, then reply exactly in the form  \n\n`Answer: X; Reason: Y`  \n\nwhere X is the single correct option (A\u2011D) and Y is a concise (\u2264\u202f12\u202fwords) statement of the decisive rule, calculation, or fact that determines that choice. Include nothing else.",
+      "train_score": 0.6842105263157895,
+      "train_step": 25,
+      "test_score": 0.3838383838383838,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. First, perform any required reasoning or calculation internally. Then output a single line exactly in the form  \n\nAnswer: X; Reason: Y  \n\nwhere X is the correct option (A\u2011D) and Y is a concise statement (no more than eight words) naming the decisive principle, rule or numerical result that determines the answer. Do not include any other text, symbols, or whitespace.",
+      "train_score": 0.6842105263157895,
+      "train_step": 33,
+      "test_score": 0.37373737373737376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly one line with no leading/trailing spaces:\n\nAnswer=<letter>; Justify='<up to nine-word explanation>'",
+      "train_score": 0.6842105263157895,
+      "train_step": 71,
+      "test_score": 0.3686868686868687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single line with no surrounding whitespace exactly in the form  \n\nAnswer=<letter>; Rationale=\"<up to seven\u2011word explanation>\"",
+      "train_score": 0.7368421052631579,
+      "train_step": 96,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly one line with no leading or trailing whitespace, in the form  \n\nAnswer=<letter>; Insight=\"<\u22646\u2011word core reason>\"",
+      "train_score": 0.7368421052631579,
+      "train_step": 97,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question and output a single line of the form  \n\nAnswer: X; Reason: Y  \n\nwhere X is the correct choice (A\u2011D) and Y is a concise (\u226410 words) explanation. Do not include any other text.",
+      "train_score": 0.6842105263157895,
+      "train_step": 63,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a single line exactly:\n\nAnswer=<letter>; Reason=\"<justification (\u22649 words)>\"",
+      "train_score": 0.7368421052631579,
+      "train_step": 64,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single line: \"Answer: X; Justification: Z\". X is the correct option letter (A\u2011D). Z is a brief (\u226410 words) statement of the key principle or calculation that uniquely determines the answer. No other text.",
+      "train_score": 0.6842105263157895,
+      "train_step": 29,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the sole correct choice (A\u2011D). Respond on one line exactly: Answer= X ; Reason= Y. X is the letter, Y a brief (\u226410 words) key principle. Do not add anything else.",
+      "train_score": 0.6842105263157895,
+      "train_step": 38,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single line exactly:\n\nAnswer = X ; Explanation = Z\n\nwhere X is the sole correct choice (A\u2011D) and Z is a brief (\u22649 words) statement of the decisive rule, calculation, or fact. Do not include any other characters, whitespace before or after the line.",
+      "train_score": 0.6842105263157895,
+      "train_step": 45,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem internally. Then output exactly one line in the following form, with nothing else before or after:\n\nAnswer: X; Reason: Y\n\nwhere X is the single correct choice (A, B, C, or D) and Y is a concise justification (max 8 words) that names the decisive principle, calculation, or fact. Do not include extra spaces, line breaks, or any other characters.",
+      "train_score": 0.6842105263157895,
+      "train_step": 54,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the correct answer based on the given scenario, stemming from one or more factual premises or theoretical frameworks. Choose from the supplied multiple-choice options which best aligns with your analysis.",
+      "train_score": 0.6842105263157895,
+      "train_step": 0,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, perform any required calculations or logical deductions, and then output the correct answer choice (A, B, C, or D) together with a concise justification of why that choice is correct.",
+      "train_score": 0.6842105263157895,
+      "train_step": 1,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5789473684210527,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a single line exactly as  \n\n<letter> \u2013 <brief reason>\n\nwhere <letter> is A\u2011D and the reason is \u22648 words. No other text.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.16161616161616163,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "When you have identified the correct choice (A\u2011D), output exactly one line with no leading or trailing spaces, in the form  \n\n<letter> => <brief justification (max\u202f8\u202fwords)>\n\nDo not include any other characters or text.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.15656565656565657,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After determining the correct option (A\u2011D), output a single line with no leading or trailing spaces in the exact form  \n\n`<letter> - <justification>`  \n\nwhere `<letter>` is the answer choice and `<justification>` is a concise explanation of \u2264\u202f8\u202fwords. Include nothing else.",
+      "train_score": 0.15789473684210525,
+      "train_step": 99,
+      "test_score": 0.09595959595959595,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly one line with no leading or trailing whitespace in the form  \n\n`<letter> - <justification>`  \n\nwhere `<letter>` is the correct choice (A\u2011D) and `<justification>` is a concise explanation of at most eight words. Do not include any other characters or lines.",
+      "train_score": 0.15789473684210525,
+      "train_step": 99,
+      "test_score": 0.06565656565656566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly one line with no leading or trailing whitespace, following the pattern  \n\nSolution=<letter>; Note=\"<concise justification (\u22648 words)>\"",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.06060606060606061,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After you have identified the correct option (A\u2011D), output exactly one line with no leading or trailing spaces, using this precise format  \n\nResult=<letter>; Note=\"<justification (\u2264\u202f8\u202fwords)>\"",
+      "train_score": 0.05263157894736842,
+      "train_step": 99,
+      "test_score": 0.050505050505050504,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the correct option (A\u2011D). Then output a single line containing a JSON object with two keys:  \n\"answer\": the selected letter, and  \n\"reason\": a concise justification (\u2264\u202f8\u202fwords).  \nDo not include any other text or whitespace before or after the line.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.045454545454545456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3838383838383838,
+    "avg_test_score": 0.2594997594997595,
+    "best_test_instruction": "Solve the problem, then reply exactly in the form  \n\n`Answer: X; Reason: Y`  \n\nwhere X is the single correct option (A\u2011D) and Y is a concise (\u2264\u202f12\u202fwords) statement of the decisive rule, calculation, or fact that determines that choice. Include nothing else."
+  }
+}

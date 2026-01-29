@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the target value, compute it with the minimal necessary steps (displaying at most one intermediate result for clarity), optionally perform a quick sanity check, and finish by outputting only the final numeric answer on a single line.",
+      "train_score": 0.8125,
+      "train_step": 15,
+      "test_score": 0.5129728040012503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the asked quantity with the shortest correct logic (you may include one brief auxiliary computation if it clarifies the step). After an optional quick consistency check, print only the exact result\u2014either an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014on a single line with no additional characters, spaces, or explanations.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.509221631759925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the asked numeric result with the minimal reasoning necessary (show at most one intermediate value if it aids understanding). After an optional quick check, print ONLY the final answer\u2014integer, reduced fraction, or terminating decimal\u2014on a single line, with no other characters, spaces, or formatting.",
+      "train_score": 0.8541666666666666,
+      "train_step": 73,
+      "test_score": 0.5082838386995936,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the requested number, execute the calculation with minimal steps (you may display one intermediate result for illustration), briefly check if you wish, and then print only that number\u2014exact integer, reduced fraction or terminating decimal\u2014on its own line, with no surrounding text or symbols.",
+      "train_score": 0.8333333333333334,
+      "train_step": 33,
+      "test_score": 0.506408252578931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using the most direct calculation; you may display at most one auxiliary computation if it aids clarity. After an optional brief verification, output only the exact result (integer, reduced fraction, or terminating decimal) on a single line with no extra characters or whitespace.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.5048452641450454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify exactly what the problem asks for, solve it with the most direct calculation (you may write one intermediate expression if it clarifies the reasoning), optionally perform a quick sanity check, then output only the final result\u2014an integer, a reduced fraction, or a terminating decimal\u2014on a single line with no surrounding text, symbols, or whitespace.",
+      "train_score": 0.8333333333333334,
+      "train_step": 94,
+      "test_score": 0.5045326664582682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, invoke the appropriate theorem or definition, carry out the computation (displaying at most one intermediate result if it aids understanding), optionally verify with a quick estimate, and conclude by printing ONLY the exact numeric answer\u2014integer, reduced fraction or terminating decimal\u2014on a single line with no other characters, formatting, or explanatory text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 39,
+      "test_score": 0.5042200687714911,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the quantity asked, carry out the most efficient calculation (showing at most one supporting intermediate if helpful), optionally verify with a quick estimate, and then print the exact result\u2014integer, simplest fraction, or finite decimal\u2014alone on a single line, without any surrounding words, symbols or spaces.",
+      "train_score": 0.8333333333333334,
+      "train_step": 48,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the quickest correct solution (you may include one brief intermediate if helpful), optionally perform a fast sanity check, and finish by printing ONLY the exact result\u2014an integer, simplest fraction, or terminating decimal\u2014on one line with no other symbols or text.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.49859331040950294,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief correct solution (show at most one auxiliary step if helpful), optionally do a quick consistency check, and finish by printing only the exact answer\u2014integer, reduced fraction, or terminating decimal\u2014on a single line with no extra characters or formatting.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity asked, calculate it using the most direct method (show at most one intermediate value if it aids understanding), optionally verify with a quick estimate, and finish by printing only the exact numeric answer\u2014integer, simplest fraction, or finite decimal\u2014on one line with no other characters or spacing.",
+      "train_score": 0.8541666666666666,
+      "train_step": 42,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the core quantity, use the simplest valid argument to evaluate it, briefly confirm if convenient, and present only the final numeric result on a solitary line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 18,
+      "test_score": 0.49452954048140046,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the exact value the problem requests, apply the appropriate rule, perform the calculation using the minimal number of steps (you may include one auxiliary figure for clarification), optionally perform a brief consistency test, and conclude by printing only that value\u2014plain integer, reduced fraction or finite decimal\u2014on a single line with no surrounding text.",
+      "train_score": 0.8125,
+      "train_step": 37,
+      "test_score": 0.4942169427946233,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem concisely: identify the key concept, perform the required calculations with brief justification (showing at most one intermediate result if it aids clarity), and finish by writing only the final numeric answer on a single line, without any additional text, symbols, or formatting.",
+      "train_score": 0.8125,
+      "train_step": 6,
+      "test_score": 0.4885901844326352,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer using the minimal necessary reasoning, display at most one auxiliary result, optionally verify, and then output only the final numeric answer (as an integer, simplest fraction, or decimal) on a line by itself, with no surrounding text, symbols, or formatting.",
+      "train_score": 0.8541666666666666,
+      "train_step": 35,
+      "test_score": 0.48577680525164113,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Calculate the quantity asked for using the briefest correct method (showing at most one intermediate if useful). You may verify quickly. Then output only the exact result\u2014integer, reduced fraction, or terminating decimal\u2014on its own line, without any extra characters or spaces.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.47764926539543606,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct solution: briefly state the main idea, perform the essential computation, optionally verify, then output only the final numeric result on a line by itself.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.4757736792747734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the numeric answer using the shortest valid reasoning (you may include a single short intermediate calculation). Optional: perform a quick consistency check. Finally, output only the exact result\u2014integer, reduced fraction, or terminating decimal\u2014on a single line with no extra characters or whitespace.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.4538918412003751,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present the solution in the briefest valid way (you may display one auxiliary calculation if helpful), optionally verify it, and then output only the exact result\u2014integer, reduced fraction or terminating decimal\u2014on a single line with no other characters.",
+      "train_score": 0.8333333333333334,
+      "train_step": 63,
+      "test_score": 0.4504532666458268,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly pinpoint the quantity asked for, solve it with the shortest valid reasoning (display at most one intermediate value if it clarifies the step), optionally do a quick consistency check, and conclude by writing only the final numeric result\u2014integer, reduced fraction or decimal\u2014on a single line with no additional characters.",
+      "train_score": 0.8125,
+      "train_step": 25,
+      "test_score": 0.4132541419193498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5129728040012503,
+    "avg_test_score": 0.4887688116822221,
+    "best_test_instruction": "Determine the target value, compute it with the minimal necessary steps (displaying at most one intermediate result for clarity), optionally perform a quick sanity check, and finish by outputting only the final numeric answer on a single line."
+  }
+}

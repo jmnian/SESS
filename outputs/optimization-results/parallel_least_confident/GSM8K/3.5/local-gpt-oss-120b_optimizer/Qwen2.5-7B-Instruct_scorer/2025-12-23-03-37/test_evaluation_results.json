@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Parse the problem, isolate every numeric quantity, translate the entire scenario into one exact mathematical expression (handling fractions, percentages, and unit conversions as needed), compute its value using exact arithmetic, perform a brief self\u2011check, and output solely the integer result.",
+      "train_score": 0.89272030651341,
+      "train_step": 51,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, encode the entire problem as a single closed\u2011form arithmetic or algebraic expression (handling units, percentages, fractions), evaluate it directly, do a quick consistency check, and output just the integer answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 41,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate each quantity, replace percentages/fractions with their numeric equivalents, fuse them into one exact arithmetic formula that yields the target integer, compute it in a single step using exact arithmetic, verify quickly with an estimate, and return only the integer result.",
+      "train_score": 0.896551724137931,
+      "train_step": 70,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every given quantity and its relationship, turn any fractions, percentages or unit ratios into plain numbers, combine them into a single exact closed\u2011form expression that directly computes the requested integer, evaluate it with exact arithmetic, do a brief plausibility check, and output only the final integer answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 67,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, express each as an exact number (convert percentages, fractions, units), combine them into one precise formula that directly computes the required integer, evaluate it using exact rational arithmetic, briefly confirm by plugging back or estimating, and output only the final integer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Strip the word problem to its pure numeric relationships, express them as a single exact arithmetic/algebraic expression, solve it precisely (no rounding), confirm with an order\u2011of\u2011magnitude sanity check, and output only the resulting integer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 93,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity, translate the whole scenario into one exact arithmetic or algebraic expression that yields the requested integer, evaluate it precisely (using fractions if needed), perform a quick verification, and output only that integer.",
+      "train_score": 0.896551724137931,
+      "train_step": 48,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum and its relational meaning, translate all percentages, fractions and unit changes into plain numbers, combine them into a single exact arithmetic/algebraic expression that gives the required integer, evaluate it using exact rational arithmetic, perform a brief sanity\u2011check by estimating the magnitude, and output only the final integer answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 66,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric fact, convert all percentages, ratios and unit changes into exact fractions, construct a single algebraic expression whose value is the answer, compute it using pure rational arithmetic (no rounding), verify the result with a quick magnitude estimate, and output solely the integer answer.",
+      "train_score": 0.8544061302681992,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantitative fact, turn percentages, fractions and unit ratios into pure numbers, model the whole problem with one exact arithmetic/algebraic formula that gives the requested integer, evaluate it using exact rational arithmetic, perform a brief sanity check by estimating the magnitude or substituting back, and output only the final integer result.",
+      "train_score": 0.9118773946360154,
+      "train_step": 73,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity and its role, convert any fractions, percentages or unit ratios to exact numbers, combine them into one closed\u2011form arithmetic/algebraic expression that directly produces the required integer, evaluate it using exact rational arithmetic, perform a brief consistency check, and output only the final integer answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 54,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical facts, convert all percentages, fractions and unit changes to exact values, construct a single symbolic expression that encapsulates the whole problem, simplify it algebraically, evaluate the simplified expression exactly (without rounding), perform a brief sanity\u2011check, and output only the integer result.",
+      "train_score": 0.89272030651341,
+      "train_step": 95,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate every given quantity (including percentages, fractions, and unit conversions) into exact numbers, construct one deterministic arithmetic or algebraic chain that yields the requested integer, evaluate it using exact rational arithmetic (no rounding), perform a quick sanity check, and output only the resulting integer.",
+      "train_score": 0.8544061302681992,
+      "train_step": 99,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect all numeric data and their relationships, convert the entire problem into one exact arithmetic/algebraic expression, evaluate it using precise integer/fraction computation, briefly verify the outcome, and output only the final integer answer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 37,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each number and its relationship, express percentages, fractions and unit conversions as exact coefficients, set up one exact algebraic equation for the unknown, solve it analytically, confirm the solution with a quick magnitude check, and output only the integer solution.",
+      "train_score": 0.89272030651341,
+      "train_step": 84,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and how they relate, convert any percentages or fractions to proper values, build one exact arithmetic expression that captures the entire problem, compute it with a brief logical chain, verify the result quickly, and output only the final integer answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 36,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, convert percentages, fractions and unit conversions into exact numbers, compose a single precise arithmetic or algebraic expression that encapsulates the whole situation, evaluate it using exact rational/integer arithmetic (no rounding), briefly verify that the result fits the original conditions, and output only the final integer answer.",
+      "train_score": 0.8544061302681992,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities, translate any percentages, fractions or unit conversions to exact values, assemble them into one simplified exact mathematical expression that directly produces the answer, compute it using rational arithmetic without rounding, confirm with a rough estimate, and output only the integer result.",
+      "train_score": 0.89272030651341,
+      "train_step": 90,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum and its relationship, merge them into a single exact closed\u2011form arithmetic/algebraic expression (apply any unit, fraction, or percentage conversions needed), evaluate it in one step, perform a brief consistency check, and output only the final integer answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 45,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, isolate every relevant numeric datum, translate the whole situation into a single exact arithmetic expression (handling percentages, fractions, and unit conversions), evaluate it precisely, confirm the result with an approximate sanity check, and return only the integer answer.",
+      "train_score": 0.9080459770114943,
+      "train_step": 56,
+      "test_score": 0.8764215314632298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7662835249042146,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.899454853965847,
+    "best_test_instruction": "Parse the problem, isolate every numeric quantity, translate the entire scenario into one exact mathematical expression (handling fractions, percentages, and unit conversions as needed), compute its value using exact arithmetic, perform a brief self\u2011check, and output solely the integer result."
+  }
+}

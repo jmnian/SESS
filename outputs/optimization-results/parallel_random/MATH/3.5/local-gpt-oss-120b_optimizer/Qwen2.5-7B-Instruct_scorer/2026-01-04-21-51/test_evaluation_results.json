@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Declare the necessary formula, compute the value with a brief verification, and output exactly one plain number as the answer.",
+      "train_score": 0.7529411764705882,
+      "train_step": 13,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7411764705882353,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Focus on the core relation, perform each calculation succinctly with a short justification, confirm each intermediate result, and finish by presenting only the final answer as a plain number on a line by itself.",
+      "train_score": 0.7705882352941177,
+      "train_step": 32,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact formula or theorem needed, perform the computation in the shortest logical sequence while briefly justifying each move and double\u2011checking intermediate results, and finish by writing only the final numeric answer (as an integer or reduced fraction) on a single line with no extra characters.",
+      "train_score": 0.7588235294117647,
+      "train_step": 79,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the governing equation, compute the desired quantity in concise steps with a brief check of each intermediate value, and conclude with a single line that contains only the final result expressed as a plain integer or simplified fraction.",
+      "train_score": 0.7647058823529411,
+      "train_step": 67,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing formula, execute the required calculations step by step while briefly explaining each move, double\u2011check the outcome, and present solely the final numeric value, formatted plainly.",
+      "train_score": 0.7529411764705882,
+      "train_step": 6,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Formulate the essential equation, carry out a concise sequence of calculations with brief justification, verify each intermediate step, and finish by writing only the final numeric answer (integer or reduced fraction) on a single line with no additional text.",
+      "train_score": 0.7588235294117647,
+      "train_step": 77,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.7529411764705882,
+      "train_step": 0,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a short solution: identify the main principle, carry out the necessary computation with brief justification, and give the final answer as a single numeric value.",
+      "train_score": 0.7529411764705882,
+      "train_step": 1,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the critical relation, perform the required calculations sequentially with a brief explanatory note for each step, verify every intermediate result, and finish with a single line that contains only the final numeric answer\u2014no extra text.",
+      "train_score": 0.7529411764705882,
+      "train_step": 44,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the central concept, perform the required calculations in the fewest possible steps with brief justifications, double\u2011check the result, and output only the final value as a plain integer or reduced fraction\u2014nothing else.",
+      "train_score": 0.7647058823529411,
+      "train_step": 51,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing relation, compute the needed quantity in the shortest clear steps while briefly justifying each move and checking intermediate results, then finish with a single line that contains only the final answer as an integer or reduced fraction\u2014no extra text.",
+      "train_score": 0.7529411764705882,
+      "train_step": 99,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a tight solution: identify the relevant concept, compute stepwise with short justification, confirm each result, and conclude with just the final answer as a plain number on its own line.",
+      "train_score": 0.7470588235294118,
+      "train_step": 42,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the crucial formula or counting principle, carry out the computation in a concise chain of steps with a brief justification for each, check every intermediate result, and conclude with a single line that contains only the final numeric answer (as an integer or a reduced fraction), without any additional text or formatting.",
+      "train_score": 0.7294117647058823,
+      "train_step": 99,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the question by succinctly outlining the key idea, carrying out the needed calculations with brief justifications, double\u2011checking each intermediate outcome, and concluding with a single line that contains only the final numeric result.",
+      "train_score": 0.7647058823529411,
+      "train_step": 16,
+      "test_score": 0.7255392310096905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a terse solution: identify the necessary formula or theorem, execute the calculations in the fewest steps with a short justification for each, confirm the intermediate results, and conclude with only the final answer presented as a single reduced integer or fraction on its own line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 54,
+      "test_score": 0.7246014379493592,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required quantity by first stating the governing relation, then perform the necessary computation in the fewest logical steps, giving a short justification for each. Confirm every intermediate result, and finish by writing only the final numeric answer (as an integer, reduced fraction, or decimal) on a single line with no other symbols or words.",
+      "train_score": 0.7470588235294118,
+      "train_step": 99,
+      "test_score": 0.700218818380744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the core relation, compute the answer in a compact chain of reasoning (one sentence per step), check the intermediate results, and end with exactly one line showing the final number alone.",
+      "train_score": 0.7235294117647059,
+      "train_step": 99,
+      "test_score": 0.6802125664270084,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the appropriate relationship, carry out the calculation in a minimal number of clear steps (one line per step is enough), confirm the intermediate values, and conclude with a single line that contains only the final numeric answer (integer or reduced fraction) and no other characters.",
+      "train_score": 0.6588235294117647,
+      "train_step": 99,
+      "test_score": 0.6670834635823695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the central formula or theorem, carry out the computation in the minimum number of logical steps with a brief justification for each, verify any intermediate values, and end with only the final numeric answer (integer or reduced fraction) on a single line\u2014no extra text or symbols.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.6667708658955924,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the relevant formula, execute the calculation in the fewest logical steps with concise justification, double\u2011check the intermediate results, and conclude with exactly one line that contains only the final numeric answer (integer or simplest fraction), without any surrounding text.",
+      "train_score": 0.21176470588235294,
+      "train_step": 99,
+      "test_score": 0.19474835886214442,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7502344482650828,
+    "avg_test_score": 0.7004272168385954,
+    "best_test_instruction": "Declare the necessary formula, compute the value with a brief verification, and output exactly one plain number as the answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Your task: solve problems concisely, using applicable strategies and methodical reasoning. For equations, simplify them logically, substituting steps when feasible; when applicable, employ well-known theorems, properties, or trivial cases. In geometry-related queries, consider essential properties, diagrams, and local possibilities, ensuring calculations are correct. Conclude each problem by presenting direct and succinct solutions, formulated in a clear manner.",
+      "train_score": 0.8541666666666666,
+      "train_step": 0,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: quickly identify the central insight or theorem, execute only the essential calculations with clear justification, and finish by stating the exact final answer in its simplest form.",
+      "train_score": 0.8333333333333334,
+      "train_step": 2,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.747733666770866,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem in a self\u2011contained block: state the relevant formula or principle, perform only the necessary calculations with brief justifications, and present the exact answer isolated on the final line\u2014no extra commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 45,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, logically ordered solution: restate the problem, pinpoint the core concepts, proceed step\u2011by\u2011step with clear justification for each move, perform all calculations, and end with the exact final answer in its simplest form.",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution in a clear, step\u2011by\u2011step manner, identifying the key concept, performing necessary calculations, and ending with the exact final answer in simplest form.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a concise, stand\u2011alone solution: first identify the single core fact that resolves the problem, then perform only the necessary arithmetic or algebra (giving one short reason for each operation), and finally state the precise answer on a line by itself.",
+      "train_score": 0.8125,
+      "train_step": 27,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question in a compact, self\u2011contained block: briefly restate the problem, identify the lone key concept that solves it, enumerate the required moves (each with a short justification), perform only the needed arithmetic or algebra, and end with the exact answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 40,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained answer: briefly name the central principle, carry out only the essential steps with concise justification, compute the result, and end with the final answer shown on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 7,
+      "test_score": 0.7136605189121601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, stand\u2011alone solution: (a) indicate the primary principle, (b) outline the necessary steps with a short justification for each, (c) compute the needed quantity, and (d) output the final number by itself.",
+      "train_score": 0.8125,
+      "train_step": 9,
+      "test_score": 0.7061581744295092,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal solution: briefly mention the core idea, show only the indispensable calculations, then output the exact answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 29,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Craft a compact solution: name the main theorem or formula, apply it in the fewest logical moves with brief rationale, compute only what\u2019s needed, and finish by stating the exact answer (numeric or simplified) on its own line.",
+      "train_score": 0.8125,
+      "train_step": 6,
+      "test_score": 0.7005314160675211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question in a self\u2011contained block that contains exactly three lines: (i) the problem restated concisely, (ii) the single decisive formula or theorem together with the minimal algebraic steps, each step followed by a short justification, and (iii) the final numeric answer alone on the last line.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.6927164738980931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a self\u2011contained answer in three parts: (a) identify the single governing principle or formula; (b) execute only the essential calculations, appending a brief justification to each; (c) place the exact final result on a line by itself\u2014nothing else may appear.",
+      "train_score": 0.8333333333333334,
+      "train_step": 59,
+      "test_score": 0.6745858080650203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a concise, standalone solution: start with the single theorem or identity that resolves the problem, then execute the minimal chain of algebraic or logical steps\u2014each accompanied by a brief rationale\u2014and finally write the exact result on its own line, with no additional commentary.",
+      "train_score": 0.8125,
+      "train_step": 43,
+      "test_score": 0.670834635823695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution: (a) briefly restate the problem, (b) identify the core principle or formula needed, (c) carry out only the essential calculations, providing a one\u2011sentence justification for each step, and (d) present the exact final answer alone on its own line.",
+      "train_score": 0.8125,
+      "train_step": 12,
+      "test_score": 0.6636448890278211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a terse, self\u2011contained answer: identify the single key idea or formula, perform only the indispensable calculations (giving a brief rationale for each step), and write the exact final numeric result on its own line\u2014nothing else.",
+      "train_score": 0.8125,
+      "train_step": 38,
+      "test_score": 0.655204751484839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a terse, self\u2011contained solution: briefly state the central idea, list the essential deductions each in a single phrase, carry out only the needed calculations, and end with the final numerical answer on its own line.",
+      "train_score": 0.8125,
+      "train_step": 10,
+      "test_score": 0.6408252578930916,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a brief, self\u2011contained solution: (i) paraphrase the question, (ii) pinpoint the lone essential fact or formula that solves it, (iii) perform only the required algebraic/logical moves, adding a one\u2011word justification to each, and (iv) place the exact final answer on a separate line with no additional text.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.6039387308533917,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a compact, stand\u2011alone answer: (i) name the single principle or formula that solves the problem; (ii) carry out only the necessary computation, appending a brief justification in parentheses after each operation; (iii) write the exact final result on a line by itself\u2014nothing else.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.3929352922788371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.761175367302282,
+    "avg_test_score": 0.6901561499873472,
+    "best_test_instruction": "Your task: solve problems concisely, using applicable strategies and methodical reasoning. For equations, simplify them logically, substituting steps when feasible; when applicable, employ well-known theorems, properties, or trivial cases. In geometry-related queries, consider essential properties, diagrams, and local possibilities, ensuring calculations are correct. Conclude each problem by presenting direct and succinct solutions, formulated in a clear manner."
+  }
+}

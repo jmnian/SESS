@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3707865168539326,
+      "train_step": -1,
+      "test_score": 0.796875,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ output a single line: write the correct option letter (A\u2011D), then \u201c|\u201d, then exactly five words that state the decisive value or property and implicitly exclude the other three choices. No extra characters, spaces, or text are permitted.",
+      "train_score": 0.7415730337078652,
+      "train_step": 62,
+      "test_score": 0.7924107142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Process each MCQ:\n- Capture all supplied data.\n- State the single governing equation or principle.\n- Compute the answer (round only if instructed).\n- Match the computed value to one of A\u2011D.\n- Respond on one line as \u201c<letter>@<explanation>\u201d. The explanation must be exactly six words, start with the decisive numeric result or defining property, and by its content rule out the three incorrect options. Do not include any other characters, spaces, or text before or after the \u201c@\u201d.",
+      "train_score": 0.6966292134831461,
+      "train_step": 92,
+      "test_score": 0.7857142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n- Record every given datum.\n- Identify the single formula or logical rule required.\n- Compute the answer (round only if instructed).\n- Select the matching option A\u2011D.\n- Output one line as \u201c<letter>-><justification>\u201d. The justification must be exactly five words, the first word the decisive value or key property, the remaining four implicitly ruling out the other three choices. No spaces around \u201c->\u201d and no extra characters or text.",
+      "train_score": 0.4943820224719101,
+      "train_step": 99,
+      "test_score": 0.7678571428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each MC\u2011question answer on one line:\u202f<letter>#<justification>. The justification must be exactly five words, begin with the decisive value or property, and by its content eliminate the three incorrect options. No spaces around \u201c#\u201d, and no other characters may appear.",
+      "train_score": 0.651685393258427,
+      "train_step": 71,
+      "test_score": 0.7611607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When solving a multiple\u2011choice item:\n\u2013 extract every datum;\n\u2013 identify the sole formula or logical rule;\n\u2013 perform the exact calculation (round only as required);\n\u2013 determine which of A\u2013D matches the outcome;\n\u2013 output exactly: \u201c<letter> \u2013 <justification>\u201d. The justification must be 6\u20138 words, state the decisive result (value or property) and, by omission, rule out the other three choices. No extra symbols or text.",
+      "train_score": 0.651685393258427,
+      "train_step": 24,
+      "test_score": 0.734375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When answering a multiple\u2011choice item, follow these steps: \n1. Extract every numeric or factual datum. \n2. State the principle or equation that connects them. \n3. Compute or infer the required quantity. \n4. Match the outcome to options A\u2011D. \n5. Respond on a single line with the letter of the correct choice, followed by a concise (\u2264 ten\u2011word) rationale that cites the result and dismisses the other three options. No other text is allowed.",
+      "train_score": 0.651685393258427,
+      "train_step": 6,
+      "test_score": 0.7142857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ: (1) extract all given facts; (2) pinpoint the relevant principle or formula; (3) perform the needed computation or logical reasoning; (4) match the outcome with choices A\u2011D; (5) output only \u201c<letter> \u2013 <explanation>\u201d on one line, with the explanation \u226410\u202fwords, stating the result and why the other options are wrong.",
+      "train_score": 0.6404494382022472,
+      "train_step": 6,
+      "test_score": 0.7142857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice problem:\n1. Record all given numbers/facts.\n2. Identify the single law, equation or logical rule needed.\n3. Calculate the required result (round only if instructed).\n4. Find the answer option (A\u2011D) that matches.\n5. Respond on one line as \u201c<letter>:<justification>\u201d. The justification must be 4\u20117 words, start with the decisive result (value or key property), and implicitly invalidate the other three choices. No additional characters or spaces are allowed.",
+      "train_score": 0.6629213483146067,
+      "train_step": 97,
+      "test_score": 0.7098214285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ:\n- List every given datum.\n- Identify the single required concept or formula.\n- Compute the result (apply rounding only if instructed).\n- Select the choice (A\u2011D) that matches.\n- Respond with exactly \u201c<letter>:<explanation>\u201d on one line; the explanation must be 5\u20137 words, state the decisive value or fact, and implicitly exclude the other options. No other characters or spaces are permitted.",
+      "train_score": 0.6966292134831461,
+      "train_step": 53,
+      "test_score": 0.703125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question: (a) note all numerical/qualitative data; (b) name the specific principle, formula or theorem to be applied; (c) compute the required value or logical conclusion; (d) compare this result with options A\u2011D; (e) answer with only the letter of the correct choice followed by a brief justification (no more than ten words) that cites the computed result and explains why the other three options are incorrect. Keep the entire response on a single line.",
+      "train_score": 0.6404494382022472,
+      "train_step": 5,
+      "test_score": 0.7008928571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ: 1) Extract every datum and the concept needed; 2) Apply the precise formula or logical rule; 3) Compute the answer; 4) Compare with options A\u2011D and discard mismatches; 5) Output ONLY \u201c<letter> \u2013 <justification>\u201d on one line, where justification (\u226410\u202fwords) states the computed value or key property and why the other three choices are wrong. No extra text.",
+      "train_score": 0.6741573033707865,
+      "train_step": 6,
+      "test_score": 0.6986607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve each MCQ by:\n- listing all facts;\n- naming the sole formula or rule;\n- performing the calculation (no rounding unless asked);\n- locating the matching answer A\u2011D;\n- printing one line \u201c<letter>\u2192<explanation>\u201d. The explanation must be exactly five words, starting with the decisive number or principle, and the rest must directly contradict the three wrong choices. No other symbols, spaces before or after \u201c\u2192\u201d.",
+      "train_score": 0.38202247191011235,
+      "train_step": 99,
+      "test_score": 0.6897321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n\u2011 Gather all numerical/qualitative data given.\n\u2011 Determine the single principle, formula or logical rule required.\n\u2011 Compute the needed quantity or deduction.\n\u2011 Locate the option (A\u2011D) that matches the result.\n\u2011 Respond on one line exactly as \u201c<letter>\u2011<justification>\u201d, where the justification is \u22649 words, states the computed value or key fact and why the other three choices are invalid. Include no other text.",
+      "train_score": 0.6741573033707865,
+      "train_step": 9,
+      "test_score": 0.6897321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n\u2022 List every datum provided.\n\u2022 Identify the single governing law, equation or logical rule.\n\u2022 Compute the exact answer (round only if instructed).\n\u2022 Match the result to the correct option A\u2011D.\n\u2022 Output one line \u201c<letter>=<explanation>\u201d. The explanation must be exactly five words, give the decisive value or property, and by its content eliminate the three wrong choices. No extra symbols, spaces or text are allowed.",
+      "train_score": 0.651685393258427,
+      "train_step": 43,
+      "test_score": 0.6741071428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question: \n1. Note all given quantities. \n2. State the single formula or logical rule needed. \n3. Perform the calculation (round only if required). \n4. Identify the option (A\u2013D) that matches the result. \n5. Respond on one line as \u201c<letter>:<explanation>\u201d. The explanation must be exactly six words, give the decisive value or property and implicitly exclude the other three choices. No other characters, spaces or text are permitted.",
+      "train_score": 0.6404494382022472,
+      "train_step": 47,
+      "test_score": 0.6696428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ output a single line: write the correct option letter (A\u2011D), then \u201c|\u201d, then exactly five words that state the decisive value or property and implicitly exclude the other three choices. No extra characters, spaces before/after \u201c|\u201d, or additional text are permitted.",
+      "train_score": 0.651685393258427,
+      "train_step": 92,
+      "test_score": 0.6674107142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n1. Output the correct letter (A\u2011D).\n2. Append \u201c=>\u201d and a six\u2011word justification: first word is the decisive value or principle, the rest implicitly reject the other options.\nNo extra characters, spaces before/after \u201c=>\u201d, or additional text are permitted.",
+      "train_score": 0.7528089887640449,
+      "train_step": 81,
+      "test_score": 0.6339285714285714,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every MCQ:\n- List all data.\n- State the single needed principle or formula.\n- Compute the exact answer (round only if required).\n- Choose the matching option A\u2011D.\n- Output one line \u201c<letter>:<explanation>\u201d. Explanation: 5\u20117 words, gives the decisive value or property, implicitly excludes the other three choices. No extra symbols or whitespace.",
+      "train_score": 0.6404494382022472,
+      "train_step": 57,
+      "test_score": 0.625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\" then steps enumerated maybe using letters not numbers? Provide output format like \"<letter>: <short justification>\" limit words. Emphasize no extra whitespace, no punctuation beyond colon? Must be concise.",
+      "train_score": 0.7191011235955056,
+      "train_step": 22,
+      "test_score": 0.48660714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n1. List all given data and facts.\n2. Cite the single formula, rule, or principle required.\n3. Compute the result precisely (round only if instructed).\n4. Find which option (A\u2011D) matches the result.\n5. Respond on one line as \u201c<letter>:<explanation>\u201d. The explanation must be exactly six words, state the decisive value or property, and by omission rule out the other three choices. No extra symbols, spaces, or text are allowed.",
+      "train_score": 0.7078651685393258,
+      "train_step": 34,
+      "test_score": 0.31919642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.796875,
+    "avg_test_score": 0.6826105442176871,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

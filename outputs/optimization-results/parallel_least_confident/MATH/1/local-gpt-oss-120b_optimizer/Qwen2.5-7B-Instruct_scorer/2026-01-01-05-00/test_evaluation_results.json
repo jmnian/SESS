@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Write the problem as a short statement, derive the single governing relation, solve it with the minimum number of algebraic moves (giving one\u2011line justifications), ensure the solution meets every original condition, and return only the final numeric answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 22,
+      "test_score": 0.7561738043138481,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the problem to its essence, pinpoint the one decisive concept or formula, carry out the required computation with a brief rationale, verify that the result meets all given conditions, and present the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 16,
+      "test_score": 0.7527352297592997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the question succinctly, identify the decisive principle, perform the essential computation with brief reasoning, verify the outcome, and present the exact answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 10,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a tight, five\u2011step solution: briefly restate the problem, name the single key principle or formula, carry out each calculation with a short justification, verify the intermediate outcome, and end with the exact final answer.",
+      "train_score": 0.9583333333333334,
+      "train_step": 6,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a compact solution: identify the key idea, apply the relevant principle with minimal calculations, briefly justify each transition, and finish by stating the exact result.",
+      "train_score": 0.9166666666666666,
+      "train_step": 5,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve efficiently in three brief actions: restate the problem in a single sentence, isolate the single essential theorem or operation needed, execute the computation with a minimal justification, double\u2011check the result against the given conditions, and output only the final numeric answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 14,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the question concisely, isolate the single governing formula or relation, solve it using the minimum necessary algebra with brief justification for each move, confirm the result satisfies all given conditions, and present the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 8,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task, highlight the key concept, execute the calculation with a concise rationale, check the work, and present the precise answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 6,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.875,
+      "train_step": -1,
+      "test_score": 0.7277274148171303,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the question to a single concise statement, pinpoint the sole decisive operation or theorem required, execute the calculation in the fewest logical moves with a brief justification for each, confirm that the result satisfies all given conditions, and present the answer alone as a number with one decimal place.",
+      "train_score": 0.9166666666666666,
+      "train_step": 64,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a razor\u2011thin solution: (a) capture the problem in a single sentence; (b) name the lone indispensable theorem or formula; (c) perform only the essential computation, giving a brief rationale for each move; (d) confirm the outcome satisfies the conditions; and (e) state the exact answer alone.",
+      "train_score": 0.9375,
+      "train_step": 16,
+      "test_score": 0.7258518286964677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, pinpoint the single essential principle or rule, perform the necessary calculation with concise justification, quickly verify the result meets all conditions, and present only the exact final answer.",
+      "train_score": 0.9375,
+      "train_step": 49,
+      "test_score": 0.7183494842138168,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a single sentence, isolate the one mathematical rule that resolves it, execute the necessary computation with a brief justification for each step, check that the obtained value meets every original requirement, and finish by writing only the exact final result.",
+      "train_score": 0.9166666666666666,
+      "train_step": 37,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, identify the single essential arithmetic principle (such as a modulo rule or factorial pattern), execute the required computation in the minimum justified steps, quickly confirm the result meets all given conditions, and output only the exact final number.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.710847139731166,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution showing all necessary calculations and reasoning, then state the final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 0,
+      "test_score": 0.6895904970303219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the question to a one\u2011sentence statement, isolate the one decisive theorem or formula, execute the necessary calculation in the smallest possible number of steps with a short justification for each, quickly verify the outcome against all original constraints, and provide only the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 21,
+      "test_score": 0.6586433260393874,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reduce the problem to its core claim, identify the one arithmetic rule that settles it, perform the calculation in a single justified step, verify the result against the original conditions, and output only the final number.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.6198812128790246,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compress the question to a brief statement, pinpoint the lone governing principle, execute the necessary computation in the minimal number of justified steps, instantly check that the result fulfills every given condition, and output only the final number (no extra text).",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.42607064707721165,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the ask, pinpoint the unique governing rule, compute the answer in a single justified step, quickly test the result against the original constraints, and return only the exact number.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.42138168177555485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the question in one clause, locate the single decisive operation (e.g., a formula, a modulus, a counting rule), perform that operation with at most one arithmetic line, instantly check that the result respects every given condition, and reply with only the final number (no units, no trailing text).",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.38793372929040326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the task in one sentence, isolate the single decisive formula or fact, execute the necessary computation using the minimum number of operations with a brief justification for each, verify that the result satisfies all constraints, and return only the exact final number (no explanation).",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.35761175367302284,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7561738043138481,
+    "avg_test_score": 0.6578246178121139,
+    "best_test_instruction": "Write the problem as a short statement, derive the single governing relation, solve it with the minimum number of algebraic moves (giving one\u2011line justifications), ensure the solution meets every original condition, and return only the final numeric answer."
+  }
+}

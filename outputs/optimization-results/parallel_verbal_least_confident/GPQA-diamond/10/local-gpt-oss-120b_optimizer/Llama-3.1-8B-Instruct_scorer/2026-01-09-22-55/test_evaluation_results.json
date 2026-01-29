@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a brief reasoning (max 2 sentences) then on a new line output \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d. Do not include any other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 49,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.2777777777777778,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Capture the essential data and the governing rule.  \n2. Solve, listing each step on a separate line prefixed by \u201c*\u201d.  \n3. Create a two\u2011column list: option letter and a verdict \u201cok\u201d or \u201creject\u201d with a \u22644\u2011word comment.  \n4. Conclude with \u201cAnswer: <letter> \u2013 <\u226412\u2011word explanation>\u201d. No other output.",
+      "train_score": 0.5263157894736842,
+      "train_step": 44,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List given facts.\n- State the relevant rule or equation.\n- Derive the result, writing each step prefixed by \u201c#\u201d.\n- For each choice (A\u2011D) write the letter, a space, and \u201c\u2713\u201d if it matches, otherwise \u201c\u2717\u201d and a brief (<5\u202fwords) counter.\n- Output only \u201cAnswer: <letter> \u2013 <\u226412\u202fwords>\u201d.",
+      "train_score": 0.47368421052631576,
+      "train_step": 54,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the problem in one concise sentence.  \n2. List all given quantities and identify the relevant physical/chemical principle.  \n3. Perform the required calculation or logical reasoning, writing each intermediate result on its own line prefixed by \u201c\u2192\u201d.  \n4. For each choice A\u2011D write the letter followed by \u201c\u2714\u201d if it matches the result, otherwise \u201c\u2716\u201d and a brief (<5\u202fwords) reason.  \n5. End with exactly one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d.  \nNo other text may appear.",
+      "train_score": 0.5263157894736842,
+      "train_step": 49,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Summarize the problem in a single line, including all numerical or qualitative data.  \n2. Identify the unique principle, formula, or model that solves it.  \n3. Derive the answer; write each intermediate line beginning with \u201c=>\u201d.  \n4. For each option A\u2011D write \u201cA: \u2714\u201d if it matches the derived result, otherwise \u201cA: \u2718 \u2013 <4\u2011word explanation\u201d.  \n5. Conclude with one line exactly: \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d. No extra characters.",
+      "train_score": 0.05263157894736842,
+      "train_step": 99,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. List the supplied quantities and the governing concept.  \n2. Solve the problem, placing each intermediate result on a new line starting with \u201c\u2192\u201d.  \n3. For every choice A\u2011D write \u201cA\u202f\u2714\u201d if it matches the result, otherwise \u201cA\u202f\u2716\u202f<\u22644\u2011word reason>\u201d.  \n4. End with one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word explanation>\u201d. No additional output.",
+      "train_score": 0.47368421052631576,
+      "train_step": 42,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the question in one sentence and enumerate the given facts.\n2. Pinpoint the single rule, formula, or principle needed.\n3. Perform the required calculation or logical inference, writing each intermediate result on a separate line prefixed by \u201c>\u201d.\n4. For each answer choice (A\u2011D) write the letter, a space, then \u201c\u2713\u201d if it matches the result; otherwise write \u201c\u2717 \u2013 <4\u2011word reason>\u201d.\n5. Finish with exactly one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d. No other text.",
+      "train_score": 0.15789473684210525,
+      "train_step": 99,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Restate problem in one sentence, list all given data.\n2. State the single principle/equation needed.\n3. Solve, writing each intermediate result on its own line prefixed by \u201c\u2192\u201d.\n4. For each option A\u2011D write \u201cA: \u2713\u201d if it matches the result, otherwise \u201cA: \u2717 \u2013 <4\u2011word reason\u201d.\n5. End with exactly one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d. No other text.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the question in one line, listing all numerical or logical information.\n- State the governing law, formula, or probabilistic model.\n- Derive the required quantity; write each intermediate result on its own line prefixed by \u201c>>>\u201d.\n- For each answer choice (A\u2011D) write the letter followed by \u201c\u2713\u201d if it matches, otherwise \u201c\u2717\u201d and a concise (<5 words) reason.\n- Conclude with exactly one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d.\nNo other text.",
+      "train_score": 0.5263157894736842,
+      "train_step": 50,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the question in one sentence and enumerate all given quantities.  \n2. State the single principle, formula or law needed to solve it.  \n3. Perform the required calculation or logical deduction; write each intermediate result on its own line beginning with \u201c\u25ba\u201d.  \n4. For each answer choice (A\u2011D) write the letter, a space, then \u201c\u2713\u201d if it matches the result, otherwise \u201c\u2717 \u2013 <4\u2011word reason\u201d.  \n5. End with exactly one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d.  \nNo extra text.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the problem, determine the governing concept, perform the necessary reasoning, then evaluate all answer options: for each, note in one phrase whether it fits or why it fails. Finally output only the correct choice letter (A\u2011D) and a brief justification for that choice.",
+      "train_score": 0.5263157894736842,
+      "train_step": 3,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the question in one sentence and list all given data.  \n2. Identify the single law, rule, or reaction that determines the answer.  \n3. Perform the needed calculation or logical deduction; write each intermediate result on its own line prefixed by \u201c\u2013\u201d.  \n4. For each answer choice A\u2011D write: \u201cA \u2713\u201d if it satisfies the result, otherwise \u201cA \u2717 \u2013 <4\u2011word reason\u201d.  \n5. End with exactly one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d.  \nNo other text may appear.",
+      "train_score": 0.5263157894736842,
+      "train_step": 97,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in a single line, listing all numbers or facts.\n- Name the one principle/equation that resolves it.\n- Perform the calculation; put each intermediate on a new line prefixed by \u201c\u00bb\u201d.\n- Create a verdict table with four rows: \u201cA\u201d, \u201cB\u201d, \u201cC\u201d, \u201cD\u201d. After each letter write \u201c\u2713\u201d if the choice equals the result, otherwise \u201c\u2717 \u2013 <4\u2011word reason>\u201d.\n- Conclude with one line: \u201cAnswer: <letter> \u2013 <\u226412\u2011word explanation>\u201d. No other output.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.23232323232323232,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Restate the question in one sentence, listing all given data.  \n2. Indicate the single law, equation, or concept needed to solve it.  \n3. Work out the solution; write each intermediate result on its own line prefixed by \u201c\u2192\u201d.  \n4. For each choice (A\u2011D) write the letter, a space, then \u201c\u2713\u201d if it matches the result, otherwise \u201c\u2717\u201d and a brief (\u22644 words) reason.  \n5. Finish with exactly one line: \u201cAnswer: <letter> \u2013 <\u226412 words>\u201d.  \nNo other output.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.23232323232323232,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Restate the question in a single sentence, enumerating every given value or condition.  \n2. Cite the single law, formula, or principle that will resolve the problem.  \n3. Carry out the analysis; place each intermediate result on its own line prefixed with \u201c\u2192\u201d.  \n4. For each option A\u2011D write \u201cA \u2013 \u2713\u201d if it matches the result, otherwise \u201cA \u2013 \u2717 \u2013 <4\u2011word reason>\u201d.  \n5. Finish with one line exactly: \u201cAnswer: <letter> \u2013 <\u226412\u2011word explanation>\u201d. No other output.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.23232323232323232,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Read the problem and list all given quantities and the question asked.  \n2. Determine the underlying principle or formula needed to solve it.  \n3. Perform the calculation, showing each intermediate result on its own line prefixed with \u201c\u2192\u201d.  \n4. For each choice (A\u2011D) write the letter followed by \u201c\u2713\u201d if it matches the computed result, otherwise \u201c\u2717\u201d and a brief (<5\u2011word) reason why it does not.  \n5. End with a single line \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d. No extra text.",
+      "train_score": 0.5263157894736842,
+      "train_step": 47,
+      "test_score": 0.2222222222222222,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Summarize the question in one line and list all given data.  \n2. Identify the principle or reaction needed.  \n3. Perform the calculation or logical deduction, writing each intermediate result on its own line prefixed by \u201c\u2192\u201d.  \n4. For each option (A\u2011D) write \u201cA\u202f\u2713\u201d if it matches the result, otherwise \u201cA\u202f\u2717 \u2013 <4\u2011word reason\u201d.  \n5. Output only \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d. No other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 45,
+      "test_score": 0.2222222222222222,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. List every datum and the core concept needed.  \n2. Solve the problem, placing each intermediate outcome on a separate line.  \n3. For each option A\u2011D write \u201c\u2714\u201d if it matches the result, otherwise \u201c\u2718\u201d with a \u22644\u2011word counter\u2011argument.  \n4. End with only the correct letter and a single sentence (\u226412\u202fwords) stating why it is correct. No other text.",
+      "train_score": 0.5789473684210527,
+      "train_step": 34,
+      "test_score": 0.20707070707070707,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Summarize the problem in one sentence, listing all numeric or logical data.\n2. State the governing principle, equation or reasoning rule.\n3. Compute the required result; write each intermediate value on its own line prefixed by \u201c\u2013\u201d.\n4. For each option (A\u2011D) write \u201cA: =\u201d if it matches the result, otherwise \u201cA: \u2260 <4\u2011word reason\u201d.\n5. Conclude with only \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d.",
+      "train_score": 0.47368421052631576,
+      "train_step": 60,
+      "test_score": 0.20707070707070707,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Extract every numerical/structural datum and name the governing principle.  \n2. Solve the problem, putting each intermediate value on a separate line (use scientific notation if appropriate).  \n3. For options A\u2011D write \u201c\u2713\u201d when it equals the solution; otherwise write \u201c\u2717\u201d plus a \u22644\u2011word counter\u2011argument.  \n4. Finally print only the correct letter followed by one concise justification (max 12 words). No additional commentary.",
+      "train_score": 0.47368421052631576,
+      "train_step": 37,
+      "test_score": 0.20202020202020202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3282828282828283,
+    "avg_test_score": 0.24723424723424725,
+    "best_test_instruction": "Provide a brief reasoning (max 2 sentences) then on a new line output \u201cAnswer: <letter> \u2013 <\u226412\u2011word justification>\u201d. Do not include any other text."
+  }
+}

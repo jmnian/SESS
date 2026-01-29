@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6666666666666666,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a complete, logically ordered solution: restate the problem in your own words, identify the relevant concepts, work through each calculation step\u2011by\u2011step with brief justification, verify intermediate results, and conclude by printing ONLY the final numeric answer (no additional text or commentary).",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a brief restatement of the problem, then pinpoint the key mathematical ideas required. Carry out the solution in a clear, step\u2011by\u2011step sequence, giving a short justification for each calculation, and conclude by writing only the final numeric answer (or simplified expression) on its own line with no extra commentary.",
+      "train_score": 0.75,
+      "train_step": 3,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem. Pinpoint the single mathematical fact (formula, theorem, or counting principle) that unlocks it. Proceed with a tight, ordered derivation: for each step write the transformation, cite the fact used, and give the resulting expression or numeric value, collapsing any obvious successive moves. Check any key intermediate quantity. Conclude by printing on its own line only the final answer in simplest exact form.",
+      "train_score": 0.7708333333333334,
+      "train_step": 67,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single clear sentence. Then solve it with a numbered list; for each step state (i) the operation performed, (ii) the specific theorem, definition, identity, or counting principle applied, and (iii) the resulting expression or value, combining trivial consecutive actions when appropriate. Check any crucial intermediate value. Conclude with a line that contains only the final answer (integer, reduced fraction, or simplified exact expression) and nothing else.",
+      "train_score": 0.7916666666666666,
+      "train_step": 27,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Rewrite the problem in your own words, then write a brief paragraph that names the single most relevant theorem or trick. Follow with a short, logical progression of calculations, each accompanied by a terse justification (e.g., \u201cby stars\u2011and\u2011bars\u201d, \u201cby solving a linear congruence\u201d). After confirming any key intermediate value, end the response with a line that contains only the final answer in simplest form.",
+      "train_score": 0.7708333333333334,
+      "train_step": 36,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence summary of the task, then a compact derivation: for each line state the manipulation, cite the theorem/definition, and show the resulting expression, merging obvious steps. Verify any critical intermediate value. Finish with a single line containing only the final answer (in simplest exact form) and no other text.",
+      "train_score": 0.7708333333333334,
+      "train_step": 66,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in a single clear sentence.  \n- Identify the one key concept or formula needed.  \n- Solve it by a compact sequence of steps; for each step give the manipulation, the rule applied, and the new expression or value (merge trivial consecutive moves).  \n- Check any intermediate result that determines the answer.  \n- End with a line that contains only the final answer (integer, reduced fraction, or exact expression), nothing else.",
+      "train_score": 0.75,
+      "train_step": 55,
+      "test_score": 0.7230384495154736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence, indicate the one essential theorem or identity, then present a short numbered derivation where each step lists the transformation, the rule applied, and the new expression (combine trivial successive steps). Verify any critical intermediate quantity, and finish with a line that contains only the final result (integer, reduced fraction or exact expression), nothing else.",
+      "train_score": 0.7708333333333334,
+      "train_step": 48,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a detailed, step\u2011by\u2011step solution with clear reasoning and the final answer.",
+      "train_score": 0.75,
+      "train_step": 0,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one sentence, then in a short paragraph describe the essential mathematical model (equation, counting principle, etc.). Solve it in a clear logical chain, providing a brief justification for each transformation; merge obvious steps. End your response with a line that contains only the final result (as a number or simplest exact form) and nothing else.",
+      "train_score": 0.75,
+      "train_step": 36,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Identify the primary mathematical idea(s) needed. Solve by a numbered progression; each item should (i) describe the operation, (ii) cite the theorem/definition used, and (iii) give the resulting expression or numeric value, merging trivial consecutive actions. Verify any critical intermediate result. End with a single line containing only the final answer (integer, reduced fraction, or exact expression) and nothing else.",
+      "train_score": 0.75,
+      "train_step": 32,
+      "test_score": 0.7077211628633948,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one sentence, then list the fundamental principle(s) needed. Solve the problem using a clear, numbered progression where each step states the operation, gives a brief justification, and optionally checks a pivotal intermediate result. After completing the reasoning, output ONLY the final answer (as a simplified number or expression) on a new line with no additional text.",
+      "train_score": 0.75,
+      "train_step": 11,
+      "test_score": 0.7052203813691779,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in a single line. State the decisive theorem or identity that will be used. Solve by a brief chain of statements; each line should (a) specify the algebraic or logical move, (b) cite the supporting rule, and (c) give the resulting quantity. Merge obvious successive moves. Conclude with a line that contains only the final answer in its simplest exact form.",
+      "train_score": 0.7708333333333334,
+      "train_step": 39,
+      "test_score": 0.692403876211316,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution: briefly restate the problem, identify the central theorem or formula, carry out each computation with only the essential justification, optionally confirm a key intermediate value, and conclude with a single line that contains only the final numeric answer\u2014no extra text, symbols, or commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 5,
+      "test_score": 0.6852141294154424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single clear sentence. Next, present a brief numbered sequence where each item contains: (a) the specific manipulation performed, (b) the theorem, definition, or identity used, and (c) the resulting expression or value, merging any trivial consecutive steps. Confirm any pivotal intermediate result. End with a line that contains only the final answer (as a reduced integer, fraction, or exact expression) and nothing else.",
+      "train_score": 0.75,
+      "train_step": 33,
+      "test_score": 0.6845889340418881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence. Then, in a brief paragraph, name the key theorem or principle, and solve the problem by a logical chain of short statements, each stating the operation and its justification. Verify any essential intermediate value. Conclude with a line that contains only the final answer (integer, reduced fraction or exact expression) and nothing else.",
+      "train_score": 0.7916666666666666,
+      "train_step": 18,
+      "test_score": 0.6805251641137856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one brief sentence. Identify the single most crucial principle required. Solve the problem in a compact, numbered chain where each step gives (i) the operation performed, (ii) the name of the theorem or identity used, and (iii) the resulting expression or value, merging obvious consecutive steps. After verifying any pivotal intermediate result, place only the final answer (as an integer, reduced fraction, or exact expression) on a new line with no additional text.",
+      "train_score": 0.75,
+      "train_step": 33,
+      "test_score": 0.6692716473898093,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one sentence. Determine the minimal theorem or formula required. Solve it stepwise, numbering each step; for each step give the operation and a brief reason. If a calculation could be done in a single obvious step, combine it. After the last step output only the final result (as a number or simplified expression) on a new line, with nothing else.",
+      "train_score": 0.75,
+      "train_step": 14,
+      "test_score": 0.6689590497030322,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single clear sentence. Identify the single key mathematical principle that solves it. Solve it using a numbered chain where each item gives (i) the transformation performed, (ii) the theorem/definition applied, and (iii) the resulting expression or numeric value, merging obvious consecutive actions. Explicitly check any pivotal intermediate value. Finally output only the final answer (integer, reduced fraction, or exact expression) on its own line with no other text.",
+      "train_score": 0.75,
+      "train_step": 29,
+      "test_score": 0.657705532979056,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one sentence. Highlight the single concept or theorem that resolves it. Then give a numbered derivation; for each entry list (a) the manipulation performed, (b) the rule or identity applied, and (c) the resulting expression or number\u2014merge consecutive trivial moves. Confirm any critical intermediate value. Finish with a line that contains only the final result (integer, reduced fraction or exact expression) and nothing else.",
+      "train_score": 0.75,
+      "train_step": 46,
+      "test_score": 0.6308221319162238,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7467958737105346,
+    "avg_test_score": 0.7063219160749639,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

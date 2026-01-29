@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Work through the problem, giving a brief justification for each step. After verifying the result, output a single line containing only the final numeric answer\u2014written as an integer, a lowest\u2011terms fraction, or a terminating decimal (rounded to the required precision, e.g., to the nearest hundredth when a decimal is needed)\u2014with no extra characters, spaces, or commentary.",
+      "train_score": 0.788235294117647,
+      "train_step": 18,
+      "test_score": 0.5336042513285402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, step\u2011by\u2011step solution; after confirming the result, output a single line that contains only the final numeric answer (integer, lowest\u2011terms fraction, or terminating decimal) with no surrounding spaces, symbols, or markup.",
+      "train_score": 0.8058823529411765,
+      "train_step": 35,
+      "test_score": 0.5307908721475461,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly outline the solution, perform each required computation with a short justification, verify the result, and output exactly one line containing only the final answer\u2014an integer, a reduced fraction, or a terminating decimal\u2014without any extra characters, spaces, punctuation, units, or markup. If multiple numbers are required, list them in increasing order separated by a single space.",
+      "train_score": 0.7941176470588235,
+      "train_step": 65,
+      "test_score": 0.5282900906533292,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise step\u2011by\u2011step solution, citing the key idea and briefly justifying each computation. After confirming the result, print only the final number\u2014an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014on a single line with no surrounding characters, spaces, or markup.",
+      "train_score": 0.8176470588235294,
+      "train_step": 25,
+      "test_score": 0.5236011253516724,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain briefly the necessary reasoning, perform each calculation with a concise justification, confirm the outcome, and then output exactly one line that contains only the final numeric answer\u2014either an integer, a fraction in lowest terms, or a terminating decimal\u2014without any surrounding whitespace, symbols, units, punctuation, markup, or additional text. If multiple answers are required, list them in increasing order separated by a single space.",
+      "train_score": 0.8,
+      "train_step": 48,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question by outlining the minimal reasoning, performing each required calculation with a short justification, checking the result, and then outputting exactly one line that contains only the final numeric answer\u2014either an integer, a reduced fraction, or a terminating decimal\u2014without any surrounding whitespace, symbols, units, punctuation, or markup. If more than one number is needed, list them in increasing order separated by a single space.",
+      "train_score": 0.7941176470588235,
+      "train_step": 52,
+      "test_score": 0.5201625507971241,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, step\u2011by\u2011step solution that includes the core idea and a short justification for each computation. After verifying the result, print only one line containing the final answer: an integer, a reduced fraction, or a terminating decimal. No extra characters, spaces, punctuation, units, or markup may appear before or after the number(s). If more than one value is required, list them in increasing order separated by a single space, and do not add any text after that line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 87,
+      "test_score": 0.5182869646764614,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the essential reasoning in no more than three short steps, verify the computation, and then output exactly one line containing only the final answer\u2014an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014without any surrounding whitespace, punctuation, symbols, or markup. If multiple numbers are required, list them in increasing order separated by a single space.",
+      "train_score": 0.8,
+      "train_step": 90,
+      "test_score": 0.5176617693029072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step reasoning (limit each step to at most two short sentences), verify the computation, and then output exactly one line containing only the final answer\u2014an integer, a reduced fraction, or a terminating decimal\u2014without any surrounding whitespace, symbols, units, punctuation, or markup. If more than one value is required, list them in increasing order separated by a single space.",
+      "train_score": 0.8176470588235294,
+      "train_step": 98,
+      "test_score": 0.509221631759925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct step\u2011by\u2011step solution, then output a single line with only the final numeric answer (integer, lowest\u2011terms fraction, or terminating decimal). No extra characters, spaces, or formatting may surround the number(s); list multiple answers in increasing order separated by one space.",
+      "train_score": 0.8,
+      "train_step": 86,
+      "test_score": 0.5057830572053766,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After a concise, step\u2011by\u2011step solution, write only the final numeric result on a single line\u2014as an integer, a lowest\u2011terms fraction, or a terminating decimal (rounded only when the problem asks). No other characters, spaces, units, or markup may appear before or after the number. If more than one value is needed, separate them with a single space in ascending order.",
+      "train_score": 0.8294117647058824,
+      "train_step": 77,
+      "test_score": 0.5054704595185996,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution with only the necessary steps. After confirming the answer, output exactly one line that contains solely the final numeric result\u2014an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014and nothing else. If more than one number is required, list them in increasing order separated by a single space.",
+      "train_score": 0.7941176470588235,
+      "train_step": 77,
+      "test_score": 0.49671772428884026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, step\u2011by\u2011step solution, using at most one sentence per step, and verify the result. Then output exactly one line containing only the final answer\u2014an integer, a reduced fraction, or a terminating decimal\u2014in plain text with no surrounding whitespace, punctuation, symbols, markdown, or other markup. If several answers are needed, list them in increasing order separated by a single space, and include nothing else after this line.",
+      "train_score": 0.8,
+      "train_step": 87,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short, logical solution: identify the key method, carry out the required computation with a brief justification, confirm the outcome, and conclude by writing the answer alone on a single line as plain text (integer, reduced fraction, or terminating decimal), without any other characters, spaces, or formatting.",
+      "train_score": 0.7941176470588235,
+      "train_step": 36,
+      "test_score": 0.49015317286652077,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7058823529411765,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct solution: state the main idea, compute each needed quantity with a brief justification, double\u2011check the result, then output a single line that contains only the final answer\u2014an integer, a reduced fraction, or a terminating decimal\u2014nothing else. If more than one number is required, list them in increasing order separated by a single space.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.48483901219130976,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a compact solution: state the main idea in one sentence, perform each calculation with a brief justification, check the result, and finally print exactly one line containing only the final answer\u2014an integer, a reduced fraction, or a terminating decimal\u2014without any surrounding spaces, punctuation, units, or markup. If several numbers are required, list them in increasing order separated by a single space.",
+      "train_score": 0.6882352941176471,
+      "train_step": 99,
+      "test_score": 0.48233823069709286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief, step\u2011by\u2011step solution (max one short sentence per step), include a quick check of the result, and finally print only the final numeric answer\u2014an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014on a single line with no surrounding whitespace, punctuation, symbols, units or markup. If more than one number is required, list them in increasing order separated by a single space.",
+      "train_score": 0.7,
+      "train_step": 99,
+      "test_score": 0.4554548296342607,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution: state the main idea, compute the answer with a short justification, double\u2011check it, and then output a single line that contains only the final result\u2014either an integer, a fraction in lowest terms, or a terminating decimal\u2014no extra characters, spaces, or formatting. If several numbers are required, separate them with one space in ascending order.",
+      "train_score": 0.7058823529411765,
+      "train_step": 99,
+      "test_score": 0.4495154735854955,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise solution using at most three brief steps: state the core idea, perform each required calculation with a one\u2011sentence justification, verify the result, and finally output on a single line exactly the final numeric answer\u2014an integer, a reduced fraction, or a terminating decimal\u2014without any leading or trailing whitespace, symbols, units, punctuation, or markup. If multiple answers are needed, list them in strictly increasing order separated by a single space.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.4366989684276336,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a terse logical solution: for each necessary computation write a short justification (no more than one sentence), confirm the result, and then output exactly one line that contains only the final numeric answer\u2014an integer, a simplest\u2011form fraction, or a terminating decimal. Do not include any other characters, spaces, punctuation, units, or markup before or after the number; if several numbers are required, separate them with a single space in ascending order.",
+      "train_score": 0.5705882352941176,
+      "train_step": 99,
+      "test_score": 0.4182557049077837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5336042513285402,
+    "avg_test_score": 0.49585435924917015,
+    "best_test_instruction": "Work through the problem, giving a brief justification for each step. After verifying the result, output a single line containing only the final numeric answer\u2014written as an integer, a lowest\u2011terms fraction, or a terminating decimal (rounded to the required precision, e.g., to the nearest hundredth when a decimal is needed)\u2014with no extra characters, spaces, or commentary."
+  }
+}

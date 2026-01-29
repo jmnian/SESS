@@ -1,0 +1,105 @@
+uv run python run_opro_parallel.py \
+    --dataset="math" \
+    --task="train" \
+    --num_workers=2 \
+    --scorer_model="Qwen/Qwen2.5-7B-Instruct" \
+    --optimizer_model="gpt-4.1" \
+    --num_search_steps=100 \
+    --num_candidates_per_step=8 \
+    --optimizer_temperature=1.0 \
+    --scorer_max_tokens=1024 \
+    --gpu_memory_utilization=0.90 \
+    --subset_portion=3.5 \
+    --subset_select_method="verbal_least_confident" \
+    --instruction_pos="Q_begin" \
+    --few_shot_selection_criteria="random" \
+    --num_few_shot_examples=3
+
+
+uv run python run_opro_parallel.py \
+    --dataset="gsm8k" \
+    --task="train" \
+    --num_workers=8 \
+    --scorer_model="Qwen/Qwen2.5-7B-Instruct" \
+    --optimizer_model="gpt-4.1" \
+    --num_search_steps=5 \
+    --num_candidates_per_step=4 \
+    --optimizer_temperature=1.0 \
+    --scorer_max_tokens=1024 \
+    --gpu_memory_utilization=0.90 \
+    --subset_portion=3.5 \
+    --subset_select_method="verbal_least_confident" \
+    --instruction_pos="Q_begin" \
+    --few_shot_selection_criteria="random" \
+    --num_few_shot_examples=3
+
+uv run python run_opro_parallel.py \
+    --dataset="gsm8k" \
+    --task="train" \
+    --num_workers=8 \
+    --scorer_model="Qwen/Qwen2.5-7B-Instruct" \
+    --optimizer_model="gpt-4.1" \
+    --num_search_steps=5 \
+    --num_candidates_per_step=4 \
+    --optimizer_temperature=1.0 \
+    --scorer_max_tokens=1024 \
+    --gpu_memory_utilization=0.90 \
+    --subset_portion=3.5 \
+    --subset_select_method="verbal_least_confident" \
+    --instruction_pos="Q_begin" \
+    --few_shot_selection_criteria="random" \
+    --num_few_shot_examples=3
+
+uv run python run_opro_parallel.py \
+    --dataset="math" \
+    --task="train" \
+    --resume_from="outputs/optimization-results/.../results_dict.pkl"
+
+
+
+# GPQA-diamond 10% (ConfWtRepr dominates)
+uv run python show_all_results.py --all-runs --average --scorer Qwen2.5-7B --dataset GPQA-diamond --portion 10 --latest 5
+
+# GSM8K 1% (ConfWtRepr wins on small training sets)
+uv run python show_all_results.py --all-runs --average --scorer Qwen2.5-7B --dataset gsm8k --portion 1 --latest 5
+
+# Overall best single results
+uv run python show_all_results.py --average --scorer Qwen2.5-7B --exclude gpqa_main --latest 5
+
+# Stability comparison (look for "METHOD STABILITY RANKING" section)
+uv run python show_all_results.py --all-runs --average --scorer Qwen2.5-7B --dataset GPQA-diamond --portion 10 --latest 5
+
+# Efficiency comparison (look for "AVERAGE STEP WHERE BEST TEST PROMPT WAS FOUND")
+uv run python show_all_results.py --all-runs --average --scorer Qwen2.5-7B --dataset GPQA-diamond --portion 10 --latest 5
+
+
+
+Stuff from laptop: 
+GCP VM
+
+Stop the instance when not using. 
+
+Start instance: open browser, under GCPvm folder, open the {username}-test1 and set the GPU to the wanted one, then run the bash script bash /Users/vn58yj9/Downloads/gcp/StartGCP/restart-z1.sh
+Only look at the “restart” scripts
+
+Create instance: look at {username}-test1 and copy the same config
+
+Look at Walmart’s quota: GCP home, IAM & Admin, Quotas 
+
+Ssh file on this laptop: cd .ssh       then vim config. 
+
+Host {username}-{name}
+    HostName xx.xx.xxx.xx
+    IdentityFile /Users/{username}/.ssh/google_compute_engine
+    CheckHostIP no
+    HashKnownHosts no
+    HostKeyAlias compute.xxxx
+    IdentitiesOnly yes
+    StrictHostKeyChecking yes
+    UserKnownHostsFile /Users/{username}/.ssh/google_compute_known_hosts
+    User {username}
+
+
+
+If want new machine, create similar, then just copy the Instance ID xxxx for HostKeyAlias compute.xxxx. Then Primary Internal IP address for HostName
+Then run this: gcloud compute ssh {username}-xxxx

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every quantitative datum, apply any needed unit, fraction or percent conversions, synthesize them into the minimal single mathematical expression that directly yields the asked integer, compute it with a brief logical walkthrough, verify all conditions, and output only the final integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 82,
+      "test_score": 0.9188779378316907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value, convert any fractions or percentages to standard numbers, fuse them into a single exact arithmetic expression that directly gives the required integer, evaluate it with a brief step\u2011by\u2011step check, confirm all problem conditions are met, and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 86,
+      "test_score": 0.9188779378316907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every figure, translate the problem into one exact calculation (perform any unit, percentage or fraction conversion needed), solve it with a brief logical walk\u2011through, verify all conditions, and output only the resulting integer.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities, translate the problem into a single exact mathematical expression (including any necessary unit conversions, percentages, or fractions), evaluate it with a brief step\u2011by\u2011step justification, confirm the result satisfies every condition, and respond with only the final integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 55,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, translate the problem into one exact arithmetic statement (handling any unit, fraction, or percent changes), evaluate it with a concise justification, verify the result meets every condition, and output only the integer answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 81,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity, turn any fractions, percentages or units into plain numbers, form a single exact arithmetic expression that directly yields the requested integer, compute it with a brief justification, confirm all problem conditions are satisfied, and output only the final integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 91,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each quantity, translate the problem into a single exact arithmetic expression (including any required unit, percentage, or fraction conversions), evaluate it precisely using step\u2011by\u2011step mental calculation, confirm the result satisfies all given constraints, and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 95,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse every quantitative datum, translate the story into one exact mathematical expression (applying any needed unit, fraction, or percentage conversions), evaluate it with a brief logical check, verify all constraints are met, and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 93,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, infer the exact arithmetic relationship required, compute the result with a concise step\u2011by\u2011step reasoning, double\u2011check it, and output only the final numeric answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 37,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and their roles, translate the problem into a single simplified mathematical expression (including any needed unit changes, fractions or percentages), compute it with a brief step\u2011by\u2011step check, ensure all constraints are fulfilled, and output only the resulting integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 56,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every number and its purpose, construct one definitive formula that captures the problem (apply any needed conversions), evaluate it with a concise stepwise justification, confirm it satisfies all constraints, and output only the final integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 58,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and what it represents, turn percentages, fractions, and units into plain values, merge them into a single precise calculation that directly yields the required integer, compute it with a brief step\u2011by\u2011step verification, confirm all problem constraints are met, and reply with only the final integer result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each number and its purpose, build a single compact formula that captures the entire problem (including any needed unit, percentage or fraction conversion), compute it step\u2011by\u2011step with brief justification, verify the result meets all constraints, and output only the final integer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 71,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers and their meanings, devise a single exact computation that directly yields the asked integer (applying any unit, fraction, or percentage conversions as needed), carry out the calculation with a concise step\u2011by\u2011step justification, confirm that every condition of the problem is satisfied, and output only the final integer result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 62,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity and its role, apply any needed unit, fraction or percentage conversions, merge them into a single exact calculation that directly produces the answer, evaluate it with a brief step\u2011by\u2011step check, verify that all problem conditions are satisfied, and output only the final integer result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, form the needed expression, evaluate it stepwise, verify, and output only the final number.",
+      "train_score": 0.9578544061302682,
+      "train_step": 36,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number and its role, combine them into one exact formula (apply any unit, fraction, or percentage conversion), evaluate it stepwise, briefly verify the result against the problem constraints, and output only the final integer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the statement, pull out each number and its role, form one precise arithmetic expression that captures the asked quantity, compute it with brief stepwise justification, confirm it satisfies the constraints, and output only the resulting integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 52,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.842911877394636,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and their meanings, convert any units, percentages or rates to plain numbers, combine them into one exact arithmetic expression that yields the answer, evaluate it with a brief verification, confirm all conditions are satisfied, and reply with only the final integer.",
+      "train_score": 0.6628352490421456,
+      "train_step": 99,
+      "test_score": 0.7187263078089462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every number given, determine the exact calculation (including any needed unit, fraction, or percentage conversions) that directly yields the requested integer, perform the computation with a brief logical justification, confirm it satisfies all problem constraints, and respond with only that final integer.",
+      "train_score": 0.6551724137931034,
+      "train_step": 99,
+      "test_score": 0.6785443517816527,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9188779378316907,
+    "avg_test_score": 0.8840752373731904,
+    "best_test_instruction": "Extract every quantitative datum, apply any needed unit, fraction or percent conversions, synthesize them into the minimal single mathematical expression that directly yields the asked integer, compute it with a brief logical walkthrough, verify all conditions, and output only the final integer result."
+  }
+}

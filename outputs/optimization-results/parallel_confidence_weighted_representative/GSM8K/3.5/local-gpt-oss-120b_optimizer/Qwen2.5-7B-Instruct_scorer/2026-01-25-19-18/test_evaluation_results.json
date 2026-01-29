@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every number and its meaning, define the quantity being asked for, build the exact arithmetic/algebraic expression that connects them, evaluate it step\u2011by\u2011step confirming each intermediate value, and give only the final answer (add units only if the problem requests them).",
+      "train_score": 0.9655172413793104,
+      "train_step": 7,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical value and its meaning, represent the problem with a single exact arithmetic/algebraic expression that directly yields the requested quantity, evaluate it step\u2011by\u2011step keeping intermediate results exact, and output only the final numeric answer (add units only if the problem explicitly asks for them).",
+      "train_score": 0.9693486590038314,
+      "train_step": 52,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Detect every quantity given, record its meaning, convert the problem into the single exact mathematical expression that yields the requested value, compute it step\u2011by\u2011step with brief verification of each intermediate result, and output only the final numeric answer (append units only if explicitly required).",
+      "train_score": 0.9693486590038314,
+      "train_step": 31,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine all numerical data and their relationships, formulate the exact arithmetic or algebraic expression needed, compute it step\u2011by\u2011step while confirming each intermediate value, and output only the final answer, adding units only when the problem requests them.",
+      "train_score": 0.9655172413793104,
+      "train_step": 8,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numerical datum with its role, eliminate all irrelevant narrative, construct the single exact arithmetic or algebraic expression that fulfills the problem\u2019s requirement, evaluate it sequentially using exact arithmetic (keep fractions unreduced until the end) while giving a brief check after each operation, and output only the final numeric result (add units only if explicitly requested).",
+      "train_score": 0.9693486590038314,
+      "train_step": 41,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities and their roles, construct one precise arithmetic/algebraic expression that gives the answer, evaluate it in order while briefly validating each intermediate outcome, and output just the final number (state a unit only if the question explicitly requires it).",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numerical datum with its meaning, remove any irrelevant narrative, write a single compact equation that embodies the question, evaluate the equation step\u2011by\u2011step showing each intermediate result, confirm that the result meets the problem\u2019s constraints, and finally output only the numeric answer (add a unit only if the prompt explicitly asks for one).",
+      "train_score": 0.9693486590038314,
+      "train_step": 67,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum with its meaning, rewrite the whole problem as one exact arithmetic/algebraic expression that directly yields the requested quantity, evaluate it using exact arithmetic (keep fractions unreduced until the final step) while briefly confirming each intermediate result, and output only the final numeric answer (add units only if the problem explicitly asks for them).",
+      "train_score": 0.9693486590038314,
+      "train_step": 38,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number with its meaning, translate the scenario into one precise mathematical expression that directly gives the asked quantity, compute this expression in order while briefly confirming each intermediate value, keep fractions unreduced until the end, and output only the final numeric result, adding a unit only if the problem explicitly requires it.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine each numeric element and its role, construct one precise mathematical expression that directly gives the required result, evaluate it step\u2011by\u2011step while briefly confirming each intermediate value, and finally output only the final number (add a unit only if the question explicitly requests it).",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value and its function, ignore irrelevant text, form the single exact arithmetic/algebraic expression that solves the question, evaluate it with brief checks of each intermediate step, and output only the final result (including units only if the problem asks).",
+      "train_score": 0.9693486590038314,
+      "train_step": 15,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every numerical quantity together with its meaning, discard any non\u2011essential narrative, encode the whole problem as one exact mathematical expression that directly yields the required quantity, evaluate this expression sequentially while keeping values exact (simplify only at the final step) and briefly verify each intermediate result, then output solely the final number (attach a unit only if the prompt explicitly requests one).",
+      "train_score": 0.9693486590038314,
+      "train_step": 96,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number with its meaning, ignore any unrelated text, build one exact arithmetic/algebraic formula that directly answers the question, evaluate the formula step\u2011by\u2011step while briefly checking each intermediate result (keep fractions unreduced until the last step), and output only the final numeric answer (include a unit only if the problem explicitly requests one).",
+      "train_score": 0.9693486590038314,
+      "train_step": 76,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers and their meanings. Translate the whole situation into one exact mathematical expression that directly yields the asked quantity. Evaluate the expression step\u2011by\u2011step, checking each intermediate result, keeping fractions unsimplified until the final step. Finally output only the numeric answer (include a unit only if the prompt explicitly asks for it).",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number together with its meaning, ignore any non\u2011essential text, form one exact formula that directly yields the requested value, evaluate the formula step\u2011by\u2011step (keeping intermediate results exact until the final simplification) and briefly verify each step, then output only the final numeric answer (attach a unit only if the problem explicitly asks for one).",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Enumerate every numerical value and its meaning, reformulate the entire question as a single exact calculation, evaluate it stepwise while briefly verifying each intermediate result (keep fractions unsimplified until the final step), and return only the final numeric answer, appending units only if the prompt explicitly requires them.",
+      "train_score": 0.9693486590038314,
+      "train_step": 52,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all quantities provided and their significance, eliminate any irrelevant wording, translate the entire problem into one exact mathematical expression that produces the requested result, evaluate this expression step\u2011by\u2011step with concise verification of each intermediate outcome, and return solely the final numeric answer (add units only if the question explicitly demands them).",
+      "train_score": 0.9731800766283525,
+      "train_step": 37,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numeric datum and its role, convert the relationships into the one exact calculation that solves the problem, compute it step\u2011by\u2011step while briefly confirming intermediate values, and output only the final result (add units only if the question explicitly requires them).",
+      "train_score": 0.9693486590038314,
+      "train_step": 12,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8505747126436781,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, list every given quantity with its meaning, combine them into a single exact formula that answers the query, evaluate the formula in the order of operations while writing each intermediate result (keep fractions unreduced until the last line), verify each intermediate value against the context, and finally print only the final numeric result (add a unit only if the problem explicitly asks for one). No extra commentary.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.7899924184988628,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem extract every numeric value and its interpretation, discard all non\u2011essential wording, construct one exact mathematical expression that directly produces the required result, evaluate it sequentially showing each intermediate value briefly, and finally output only the resulting number (attach a unit only if the question explicitly asks for one).",
+      "train_score": 0.8352490421455939,
+      "train_step": 99,
+      "test_score": 0.7323730098559514,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.913570887035633,
+    "avg_test_score": 0.8828116538503195,
+    "best_test_instruction": "Extract every number and its meaning, define the quantity being asked for, build the exact arithmetic/algebraic expression that connects them, evaluate it step\u2011by\u2011step confirming each intermediate value, and give only the final answer (add units only if the problem requests them)."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.75,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem methodically: identify the quantity to find, list the essential calculations in a brief ordered sequence, give a concise justification for each step, and end with only the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the required value. Then list a minimal numbered solution: for each i, write the exact computation (in lowest terms) and a short justification (one clause). After the final step, write only the numeric answer on a separate line, with no other text or symbols.",
+      "train_score": 0.8333333333333334,
+      "train_step": 41,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity the problem seeks. Then produce a compact, numbered derivation: every step carries out exactly one indispensable calculation expressed in lowest terms and is accompanied by a brief (one\u2011sentence) rationale. After the last step write a single line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.8333333333333334,
+      "train_step": 68,
+      "test_score": 0.687089715536105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by briefly stating the goal, then presenting a numbered list of the essential calculations with a one\u2011sentence justification for each, and finish by outputting the exact final answer on its own line.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.684276336355111,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target value, then present a concise numbered derivation where each step shows the precise calculation together with a brief (one\u2011sentence) justification. Conclude by writing only the final numeric answer on its own line, with no extra commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 9,
+      "test_score": 0.6798999687402313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required quantity, then present a brief ordered solution: each step should state the exact computation and a one\u2011sentence reason; conclude with only the numeric answer on a separate line with no extra text.",
+      "train_score": 0.8125,
+      "train_step": 9,
+      "test_score": 0.6767739918724601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Print a concise, numbered solution where each step presents one simplified computation together with a brief justification that follows directly, and after the final step print only the exact numeric answer on its own line, without any extra wording or symbols.",
+      "train_score": 0.7916666666666666,
+      "train_step": 46,
+      "test_score": 0.671147233510472,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the unknown quantity to be determined. Then give a numbered chain of deductions; each entry must (i) apply one elementary manipulation or counting argument to the expression obtained in the previous entry, (ii) write the resulting expression in reduced exact form, and (iii) cite the rule or reason in a single clause. End the chain with a line that contains *only* the final numeric value, no symbols or commentary.",
+      "train_score": 0.8125,
+      "train_step": 86,
+      "test_score": 0.6639574867145983,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be found, then give a brief step\u2011by\u2011step list (one per line) where each line shows the exact calculation followed by a short justification; conclude with the final numeric answer on its own line with no extra text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 10,
+      "test_score": 0.6617693029071585,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by explicitly naming the required result. Then write a brief numbered proof: each line must perform exactly one indispensable computation in lowest terms and include a one\u2011sentence justification. Conclude with a single line that contains only the final numeric answer\u2014no extra symbols, words, or commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 36,
+      "test_score": 0.6486402000625195,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be found. Then present a brief numbered walk\u2011through: each line carries out one reduced computation and supplies a concise (one\u2011sentence) justification, keeping all intermediate results in their simplest exact form. Finish with a single line that contains only the final numeric answer\u2014no additional symbols, words, or commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 79,
+      "test_score": 0.6480150046889653,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State explicitly the value to be found. Then give a concise numbered solution: every step must contain exactly one reduced computation together with a short (one\u2011sentence) justification of why it holds. Finish with a line that contains only the final numeric answer\u2014no additional symbols, words, or explanations.",
+      "train_score": 0.7916666666666666,
+      "train_step": 35,
+      "test_score": 0.6439512347608628,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to find, then present a short numbered derivation where each step performs exactly one necessary computation accompanied by a brief (\u2264 one\u2011clause) justification; finish with a line containing only the final numeric answer, no extra text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 17,
+      "test_score": 0.6295717411691153,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required value, then give a compact numbered solution: every line shows exactly one calculation together with a brief (one\u2011sentence) justification; after the last step write only the final numeric answer on a separate line, without any additional words or symbols.",
+      "train_score": 0.7916666666666666,
+      "train_step": 24,
+      "test_score": 0.6214442013129103,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by naming the required result. Then provide a succinct numbered derivation; each entry should (i) apply one elementary operation to the previous expression, (ii) present the outcome in its simplest exact form, and (iii) give a brief one\u2011clause justification. Finish with a line that contains only the final numeric answer\u2014no extra symbols, words, or commentary.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.620506408252579,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Clearly identify the value to compute. Then give a numbered chain of deductions; each line must (i) apply exactly one elementary algebraic or arithmetic operation to the result of the previous line, (ii) display the new result in its simplest exact form (integer, reduced fraction or terminating decimal), and (iii) include a brief single\u2011clause justification. End the chain with a line that contains only the final numeric answer, without any surrounding text or symbols.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6189434198186934,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the target value. Write a compact numbered derivation: each step performs a single essential calculation presented in reduced form together with a one\u2011sentence reason. Conclude with a line that contains only the final numeric answer, nothing else.",
+      "train_score": 0.8125,
+      "train_step": 51,
+      "test_score": 0.6030009377930603,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to determine. Provide a brief numbered derivation where each entry performs exactly one essential calculation in its simplest form and includes a concise (one\u2011sentence) justification. Conclude with a line containing only the final numeric answer, with no additional text or symbols.",
+      "train_score": 0.7916666666666666,
+      "train_step": 26,
+      "test_score": 0.5995623632385121,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the value to be found. Then give a numbered chain of deductions; each line must (i) apply exactly one elementary algebraic or arithmetic transformation to the expression from the previous line, (ii) display the resulting expression reduced to simplest exact form, and (iii) provide a single\u2011clause justification. After the last deduction output only the final numeric value on its own line, with no other symbols or words.",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.580806502031885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Begin by naming the quantity to be computed. Then produce a compact numbered list; for each step write (a) the exact result of one elementary manipulation applied to the expression from the preceding step, (b) the result expressed in its simplest exact form (integer, reduced fraction, or terminating decimal), and (c) a one\u2011sentence reason for the step. End the list with a line that contains only the final numeric answer, with no additional characters or words.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.5398562050640825,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7461706783369803,
+    "avg_test_score": 0.6515428928683071,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

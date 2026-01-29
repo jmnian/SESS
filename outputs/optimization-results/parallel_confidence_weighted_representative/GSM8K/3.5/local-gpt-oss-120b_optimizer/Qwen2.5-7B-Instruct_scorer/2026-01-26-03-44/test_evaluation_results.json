@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Derive the unique integer satisfying all given relationships by converting the whole description into one exact arithmetic expression, evaluate it precisely, and output only that integer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 29,
+      "test_score": 0.9211523881728583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, deduce the sole integer answer by capturing all mentioned numbers and their implied operations in one exact computation, then output that integer alone.",
+      "train_score": 0.9003831417624522,
+      "train_step": 35,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric values and their implied relationships, formulate the single exact arithmetic or algebraic expression that satisfies the problem, evaluate it precisely, and provide only the resulting integer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 29,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Replace each numeric term with its value, apply all described operations (including any unit conversions) to form a single definite integer calculation, evaluate it exactly, and output only the final integer result.",
+      "train_score": 0.9003831417624522,
+      "train_step": 56,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, replace each quantity with its numeric value and each described relation with the corresponding arithmetic operation, form one unambiguous integer expression, compute it exactly, and return only the integer answer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse every numerical value and its implied operation from the problem, combine them into one exact integer calculation that meets all given conditions, evaluate it precisely, and output only the final integer result.",
+      "train_score": 0.9003831417624522,
+      "train_step": 68,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, translate the described relationships into a single exact integer equation, solve it with full precision, and output only the final integer answer.",
+      "train_score": 0.896551724137931,
+      "train_step": 90,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, identify every numeric quantity and its implied relationship, merge them into one exact integer computation, evaluate it precisely, and output only the final integer result.",
+      "train_score": 0.896551724137931,
+      "train_step": 73,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Transform the problem into one precise integer calculation by substituting each stated number, applying the described operations according to the usual order of operations, compute the result exactly, and output only the integer answer.",
+      "train_score": 0.9042145593869731,
+      "train_step": 87,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, extract every quantity, combine them into the most compact exact formula that complies with the given relations, evaluate it, and give only the integer answer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 23,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the given description, list all numeric quantities and the operations they imply, combine them into a single exact integer expression, evaluate it with full precision (no rounding), and output only the final integer result.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Derive the single integer result by extracting every number and its implied operation from the text, forming one exact calculation that satisfies all given relations, evaluating it precisely, and outputting only that integer.",
+      "train_score": 0.9042145593869731,
+      "train_step": 51,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all quantities and their specified operations, form the unique integer calculation that satisfies the problem, compute it exactly, and return only that integer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 55,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity and its operation from the problem, combine them into one complete arithmetic evaluation performed with full precision, and return only the resulting integer.",
+      "train_score": 0.896551724137931,
+      "train_step": 65,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numerical datum and its connection, convert the problem into a single precise calculation, evaluate it, and output only the final numeric result.",
+      "train_score": 0.896551724137931,
+      "train_step": 7,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the described situation into a precise integer calculation that follows every given relationship, carry out the computation exactly, and output only the final integer result.",
+      "train_score": 0.896551724137931,
+      "train_step": 51,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the whole description, replace each mentioned number by its value, apply every explicitly stated arithmetic operation (including fractions and unit changes) in the order implied, combine them into one exact integer expression, evaluate it precisely, and output only that integer.",
+      "train_score": 0.8084291187739464,
+      "train_step": 99,
+      "test_score": 0.849128127369219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7816091954022989,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the sole integer solution by encoding every given number and relationship into one definitive computation; evaluate it with full precision and reply with only that integer.",
+      "train_score": 0.24904214559386972,
+      "train_step": 99,
+      "test_score": 0.2941622441243366,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical datum and its implied operation from the statement, assemble them into one exact integer expression obeying the usual order of operations, evaluate it without any rounding, and reply with only the final integer result.",
+      "train_score": 0.26436781609195403,
+      "train_step": 99,
+      "test_score": 0.2918877937831691,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Convert the entire description into one exact integer expression, evaluate it precisely, and output only the resulting integer.",
+      "train_score": 0.1532567049808429,
+      "train_step": 99,
+      "test_score": 0.2403335860500379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9211523881728583,
+    "avg_test_score": 0.8070688472508032,
+    "best_test_instruction": "Derive the unique integer satisfying all given relationships by converting the whole description into one exact arithmetic expression, evaluate it precisely, and output only that integer."
+  }
+}

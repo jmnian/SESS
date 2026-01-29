@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Outline the essential reasoning, execute each arithmetic or algebraic step with explicit values, confirm that the result satisfies the original conditions, and end your response with just the final number (no additional commentary).",
+      "train_score": 0.7294117647058823,
+      "train_step": 2,
+      "test_score": 0.7564864020006252,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, identify precisely the numeric quantity the question asks for. Then, solve the problem by listing each necessary deduction or arithmetic operation on a separate line, labeling intermediate results if helpful, and verifying each computation. If any part of the prompt is unclear, request clarification before proceeding. Conclude your response with a single line that contains only the final numeric answer\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.711764705882353,
+      "train_step": 34,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.711764705882353,
+      "train_step": -1,
+      "test_score": 0.7492966552047515,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, state exactly which number the problem asks for. Next, solve it by writing every essential calculation or logical deduction in a separate line, checking each intermediate result before proceeding. If any part of the prompt is ambiguous, ask for clarification before doing any computation. Finish with a single line that contains only the final numeric answer\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.7235294117647059,
+      "train_step": 45,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, restate the exact quantity the question asks for. Then, solve it by writing a brief, self\u2011checked chain of reasoning where each inference or arithmetic operation appears on a separate line together with its result. After the chain is verified, output only the final numeric value on a single line\u2014nothing else. If any part of the prompt is unclear, pause and ask for clarification before any computation.",
+      "train_score": 0.711764705882353,
+      "train_step": 51,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify precisely what number the problem requires, then solve it by writing each logical or arithmetic step on its own line together with the resulting intermediate value, verify each calculation, and conclude with a single line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.7235294117647059,
+      "train_step": 25,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity requested, carry out the necessary calculations showing key intermediate results, confirm the result satisfies the problem conditions, and finish the response with only the exact numeric answer on a single line.",
+      "train_score": 0.7058823529411765,
+      "train_step": 3,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the single numeric value required, solve it by writing every necessary deduction or arithmetic operation explicitly (showing intermediate results), double\u2011check the computation, and conclude with exactly one line that contains only that final number\u2014nothing else. If any part of the prompt is unclear, request clarification before proceeding.",
+      "train_score": 0.7058823529411765,
+      "train_step": 22,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the prompt, pinpoint the exact numeric value being asked for, and request clarification if any part is ambiguous before proceeding. Solve the problem by listing each necessary computation or logical step on its own line in the form \u201c<expression> \u21d2 <value>\u201d, and immediately verify that the result is correct. After all intermediate results are checked, finish with a single line that contains only the final numeric answer\u2014no other text, symbols, or formatting.",
+      "train_score": 0.711764705882353,
+      "train_step": 92,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the specific quantity sought, outline a concise solution plan, carry out each logical or arithmetic step while confirming intermediate values, and finish with only the final numeric answer on a single line (no additional text or symbols).",
+      "train_score": 0.7294117647058823,
+      "train_step": 10,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, pinpoint the exact numeric value required, and compute it. List the necessary calculations in order, showing each intermediate result you verify, then finish with a single line that contains only the final number\u2014no additional text. If any part of the prompt is unclear, ask for clarification before solving.",
+      "train_score": 0.7176470588235294,
+      "train_step": 17,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target numeric result. If the question is unclear, pause and request clarification. Solve by listing each indispensable calculation on a separate line as \u201c<expression> \u2192 <value>\u201d, and after each line write a short validation (e.g., \u201cok\u201d). After all steps are verified, output only the final answer on its own line with no extra symbols or words.",
+      "train_score": 0.4764705882352941,
+      "train_step": 99,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify precisely the single numeric value the problem requests. If any part of the prompt is ambiguous, ask for clarification before doing any math. Then solve it by listing each essential computation on its own line in the form  \n\n\u202f\u202f\u202f\u202f<expression> = <value>  \n\nand immediately include a brief verification of that line (e.g., \u201c\u2713\u201d or a short reason). After all intermediate results are checked, output only the final numeric answer on a single line\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.6352941176470588,
+      "train_step": 99,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "First, state the single number the problem asks for. Then solve it by presenting a numbered list where each line shows one calculation or logical inference together with its evaluated result, and briefly verify that result. If any part of the prompt is unclear, pause and ask for clarification before proceeding. End your answer with exactly one line that contains only the final numeric value\u2014no extra words or symbols.",
+      "train_score": 0.711764705882353,
+      "train_step": 64,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, state exactly what number the problem asks for. Then, solve it by producing a vertical chain of justified statements, each of the form \u201c<expression> = <value>\u201d. After each statement, briefly confirm that the equality holds. If any part of the prompt is unclear, stop and ask for clarification before continuing. Finally, output a single line consisting solely of the final numeric answer (no extra words or symbols).",
+      "train_score": 0.7176470588235294,
+      "train_step": 58,
+      "test_score": 0.7170990934667083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what number the problem asks for, solve it by presenting a concise, logical sequence of explicit arithmetic steps (showing any intermediate results you use), double\u2011check each computation, and end your answer with the single correct numeric result on its own line\u2014nothing else.",
+      "train_score": 0.7176470588235294,
+      "train_step": 16,
+      "test_score": 0.7155361050328227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity sought. If the question has any unclear element, pause and request clarification. Solve by enumerating every necessary operation on separate lines, writing each as \u201c<expression> \u2192 <value>\u201d and immediately noting that the step checks out. After all steps are verified, output a single line containing only the final number, without any additional characters.",
+      "train_score": 0.6058823529411764,
+      "train_step": 99,
+      "test_score": 0.6611441075336042,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Begin by quoting the exact numeric result the question seeks. If any wording is unclear, pause and request clarification. Solve the problem by writing each indispensable computation on its own line in the form \u201c<expression> = <value>  \u2713\u201d where the check\u2011mark indicates you have verified that step. After the complete, self\u2011checked chain, finish with a single line that contains only the final answer\u2014nothing else.",
+      "train_score": 0.3941176470588235,
+      "train_step": 99,
+      "test_score": 0.66051891216005,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Systematically work through the problem: identify the key relationships, perform the necessary algebra or counting step by step, verify each intermediate result, and finally output only the final answer as a single numeric value.",
+      "train_score": 0.7058823529411765,
+      "train_step": 1,
+      "test_score": 0.6586433260393874,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Prompt carefully. Review each problem, abstract its core principle, then methodically brainstroke each concept's underlying mechanics and auxiliary assertions. This approach ensures comprehensive, self-checked solutions systematically framed for each problem type: combinatorial, number-theoretic, or geometric. Adjust thoroughness transparently while maintaining concise logic, targeting swift execution across similar challenges.",
+      "train_score": 0.7352941176470589,
+      "train_step": 0,
+      "test_score": 0.5989371678649578,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact value the question asks for. Compute it, writing each indispensable computation on its own line with the resulting value, and briefly confirm each result. If any part of the problem is unclear, request clarification before continuing. Conclude with a single line that contains only the final numeric answer\u2014no additional characters.",
+      "train_score": 0.7352941176470589,
+      "train_step": 59,
+      "test_score": 0.5045326664582682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7564864020006252,
+    "avg_test_score": 0.7094776641509994,
+    "best_test_instruction": "Outline the essential reasoning, execute each arithmetic or algebraic step with explicit values, confirm that the result satisfies the original conditions, and end your response with just the final number (no additional commentary)."
+  }
+}

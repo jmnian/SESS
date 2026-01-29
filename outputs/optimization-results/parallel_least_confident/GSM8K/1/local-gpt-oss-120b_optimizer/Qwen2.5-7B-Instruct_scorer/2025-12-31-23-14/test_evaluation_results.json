@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numbers, decide the unique formula that directly yields the asked quantity, evaluate it step\u2011by\u2011step while confirming each intermediate result, then return just the final numeric value (attach units only if required).",
+      "train_score": 0.8648648648648649,
+      "train_step": 17,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity given, decide the single exact calculation (including fractions, percentages, or rates) that produces the required answer, carry it out step\u2011by\u2011step while confirming each intermediate value, quickly verify the result by an inverse or estimation check, and output only the final numeric answer (including units only if explicitly requested).",
+      "train_score": 0.8783783783783784,
+      "train_step": 31,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list all known values, deduce the required relation, compute the answer in a clear logical sequence, check the result, and provide just the final numeric answer.",
+      "train_score": 0.8783783783783784,
+      "train_step": 3,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, decide the exact formula, compute step\u2011by\u2011step while confirming each intermediate result, verify the final result against the problem context, and return only the final numeric answer (with units if the question asks).",
+      "train_score": 0.8648648648648649,
+      "train_step": 24,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value, formulate the exact single arithmetic or algebraic expression that directly solves the asked question, compute it step\u2011by\u2011step while briefly verifying each intermediate result, perform a rapid consistency check, and output ONLY the final numeric answer (include a unit only when the problem explicitly requests it).",
+      "train_score": 0.8648648648648649,
+      "train_step": 30,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric piece of information, decide the precise single computation (including any needed conversions, fractions, percents or rates) that answers the question, carry it out stepwise while briefly confirming each intermediate value, perform a brief consistency check, and return only the final result (attach a unit only if explicitly requested).",
+      "train_score": 0.8648648648648649,
+      "train_step": 58,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every numerical value, formulate the exact single equation or arithmetic chain that yields the asked quantity (including any needed unit conversions, percentages, or rates), compute it step\u2011by\u2011step while briefly confirming each intermediate result, perform a quick plausibility check, and output only the final numeric answer (attach a unit only if the prompt explicitly demands it).",
+      "train_score": 0.8648648648648649,
+      "train_step": 57,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all given numbers, pinpoint the exact computation (with any necessary conversions, fractions or percentages) that produces the answer, carry it out step\u2011by\u2011step while briefly confirming each intermediate outcome, then output only the final numeric result (add a unit only if the prompt requests it).",
+      "train_score": 0.8783783783783784,
+      "train_step": 66,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numerical value given, determine the single exact computation needed (applying any required unit changes, percentages, fractions or rates), carry it out step\u2011by\u2011step with brief verification of each intermediate result, perform a quick reasonableness check, and output ONLY the final numeric answer (attach a unit only if the problem expressly requests it, and do not round unless the prompt specifies).",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the question, pull every explicit numeric value, decide the one exact arithmetic or algebraic expression that yields the requested quantity (apply any needed unit changes, percentages, fractions or rates), evaluate it in a clear linear order while briefly confirming each intermediate outcome, run a quick reasonableness test, and reply with only the final numeric result (include a unit only if the prompt explicitly requires it).",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, translate the problem into one precise calculation (handling percentages, unit changes, or rates as needed), compute it stepwise while briefly confirming each intermediate outcome, perform a brief reasonableness test, and output solely the final numeric result (include a unit only when the question explicitly asks).",
+      "train_score": 0.8648648648648649,
+      "train_step": 72,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, list every given quantity, infer the single exact calculation (including any needed conversions, percentages, fractions or rates) that yields the asked value, perform the computation step\u2011by\u2011step while briefly confirming each intermediate result, do a quick sanity check, and return only the final numeric answer (attach a unit only if the prompt explicitly requires it).",
+      "train_score": 0.7702702702702703,
+      "train_step": 99,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numerical data, formulate the single exact expression that solves the problem, evaluate it (checking intermediate steps if needed), and output only the final numeric answer, adding units only if the question requests them.",
+      "train_score": 0.8648648648648649,
+      "train_step": 22,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value, infer the one precise computation (including any required unit conversion, percentage, or proportional reasoning) that answers the question, perform it step\u2011by\u2011step while briefly checking each intermediate result, verify the outcome makes sense, and output only the final number (attach a unit only if the prompt explicitly asks).",
+      "train_score": 0.8648648648648649,
+      "train_step": 60,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by systematically breaking it down, performing all needed arithmetic operations, and presenting the final answer clearly.",
+      "train_score": 0.8648648648648649,
+      "train_step": 1,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, construct the single exact calculation (including any required unit conversions, percentages, fractions or rates), evaluate it step\u2011by\u2011step with a brief sanity check, and output only the final numeric result (add a unit only if the prompt explicitly requests it).",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, note every given quantity, determine precisely what is being asked, form the minimal correct arithmetic or algebraic expression, evaluate it step\u2011by\u2011step with brief sanity checks, and output only the final numeric result (including units only if explicitly required).",
+      "train_score": 0.8648648648648649,
+      "train_step": 28,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, list every numeric fact, determine the single exact formula (including any unit conversions, percentages, or ratios) that answers what is asked, calculate it step\u2011by\u2011step while briefly checking each intermediate result, perform a quick reasonableness test, and reply with only the final numeric answer (add a unit only if the problem explicitly requires it).",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8658074298711145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7432432432432432,
+      "train_step": -1,
+      "test_score": 0.8218347232752085,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical datum, determine the one exact operation (including any required unit conversion, percentage, or ratio) that yields the answer, carry out the calculation with brief confirmation of each step, perform a quick plausibility check, and output solely the final number (attach a unit only if explicitly asked).",
+      "train_score": 0.6756756756756757,
+      "train_step": 99,
+      "test_score": 0.8074298711144806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numeric data, determine the single required calculation (including any unit conversions, percentages, fractions, or rates), compute it directly, perform a brief sanity check, and output only the final numeric result, adding a unit only if explicitly requested.",
+      "train_score": 0.5675675675675675,
+      "train_step": 99,
+      "test_score": 0.7005307050796058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9082638362395754,
+    "avg_test_score": 0.8736416477129137,
+    "best_test_instruction": "Identify all numbers, decide the unique formula that directly yields the asked quantity, evaluate it step\u2011by\u2011step while confirming each intermediate result, then return just the final numeric value (attach units only if required)."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a concise, logical solution: state the main idea, show each calculation step clearly, and end with the final numeric answer on a separate line, ensuring the reasoning is easy to follow.",
+      "train_score": 0.8235294117647058,
+      "train_step": 1,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution: restate the problem briefly, identify the core principle or formula, then work through the calculations step\u2011by\u2011step, giving a concise justification for each move and confirming any non\u2011trivial intermediate result; conclude by writing only the exact final numeric answer on its own last line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 61,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compose a self\u2011contained response: briefly restate the question, name the main theorem or formula needed, perform the necessary calculations in clear order while giving a succinct reason for each operation and checking any non\u2011trivial intermediate result, and finish by writing only the exact final numeric answer on a separate line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 77,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a complete, self\u2011contained solution: start with a one\u2011sentence restatement of the problem, then in a numbered sequence write each required computation together with a brief justification and any intermediate result, verify any non\u2011trivial step, and finish by writing only the final numeric answer on its own line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 99,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a full, logically ordered solution: detail every computation, justify each step, and conclude with the exact final answer.",
+      "train_score": 0.8470588235294118,
+      "train_step": 1,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a complete solution: briefly state the chosen approach, then for each step list the performed operation together with its justification, confirm the intermediate result, and conclude with the exact numerical answer on a separate final line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 4,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above. So we need to avoid repeated phrasing like \"brief restatement\", \"identify the core principle\", etc. Let's create a novel instruction.",
+      "train_score": 0.7705882352941177,
+      "train_step": 99,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a self\u2011contained solution: begin with a one\u2011sentence restatement of the problem, identify the essential principle(s) or formula(s), perform each calculation step with a brief justification, verify any intermediate value that isn\u2019t trivial, and conclude by writing the exact numeric answer alone on the final line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 19,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, self-contained solution: restate the problem in one sentence, identify the main mathematical concept, perform the necessary calculations step\u2011by\u2011step with brief justifications, verify any non\u2011trivial intermediate result, and conclude by writing only the exact final answer on its own line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 96,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a compact solution: state the problem\u2019s target, then proceed through the necessary calculations, giving a one\u2011sentence reason for each move, confirm any intermediate figures, and conclude with the exact answer alone on the final line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 11,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained response: restate the problem in a single sentence, pinpoint the key principle or formula, then perform the required calculations in a clear, numbered sequence, giving a brief justification for each step and verifying any non\u2011trivial intermediate result; conclude by writing only the exact final answer on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 55,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a self\u2011contained solution: begin with a one\u2011sentence restatement of the problem, then enumerate the essential ideas or formulas, follow with a numbered sequence of calculations each accompanied by a brief justification and any intermediate value, and conclude by writing only the final numeric answer on a separate line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 17,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one brief sentence, cite the exact theorem or formula to be used, then execute a concise, numbered computation where each step shows the algebraic manipulation together with a short reason. Confirm the intermediate result if it is non\u2011trivial, and finish by writing only the final number on a separate line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 17,
+      "test_score": 0.7339793685526728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8352941176470589,
+      "train_step": -1,
+      "test_score": 0.73210378243201,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve diligently: Identify numerical values, apply mathematical operations accurately, and calculate exact results. Confirm each stepades.",
+      "train_score": 0.8294117647058824,
+      "train_step": 0,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem briefly, then outline the main principle to be used. Carry out a sequential series of short calculations, each accompanied by a one\u2011line justification and, when the step is not trivial, a quick verification. Conclude by placing the exact numeric answer on its own final line, without any extra text.",
+      "train_score": 0.8529411764705882,
+      "train_step": 29,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence restatement of the question. Then identify the principal principle or formula to use, and list the required steps in logical order, giving a brief justification and recording each intermediate value. Verify each intermediate result, and finish by writing only the final numeric answer on a separate line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 12,
+      "test_score": 0.7271022194435761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a complete solution that starts with a one\u2011line restatement, follows with a clear chain of calculations where each line shows the operation and a concise justification, confirms any surprising intermediate value, and ends with just the final number on its own line.",
+      "train_score": 0.788235294117647,
+      "train_step": 99,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a self\u2011contained solution: begin with a one\u2011sentence restatement of the question, then state the central formula or fact you will use, follow with a sequential list of calculations where each line contains the expression, the operation performed, and a brief justification; verify any non\u2011trivial intermediate value, and finish by writing only the final numeric answer on its own line.",
+      "train_score": 0.7941176470588235,
+      "train_step": 99,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a complete, stand\u2011alone solution that:\n\n- Summarizes the question in a single sentence.\n- Names the key rule or formula that will be applied.\n- Executes each algebraic or arithmetic operation in order, numbering the steps; for every step give a concise reason and record the resulting value, confirming any step that is not immediately obvious.\n- Concludes with only the final numerical result on its own line, with no extra explanation.",
+      "train_score": 0.7470588235294118,
+      "train_step": 99,
+      "test_score": 0.6664582682088153,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution: restate the question in ten words or fewer, then present each deduction as a numbered step showing the computation and a brief justification (one or two words), confirm any non\u2011trivial intermediate result, and finish with only the exact final numeric answer on a line by itself with no extra text.",
+      "train_score": 0.5117647058823529,
+      "train_step": 99,
+      "test_score": 0.4310722100656455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7552360112535167,
+    "avg_test_score": 0.7199720150642315,
+    "best_test_instruction": "Provide a concise, logical solution: state the main idea, show each calculation step clearly, and end with the final numeric answer on a separate line, ensuring the reasoning is easy to follow."
+  }
+}

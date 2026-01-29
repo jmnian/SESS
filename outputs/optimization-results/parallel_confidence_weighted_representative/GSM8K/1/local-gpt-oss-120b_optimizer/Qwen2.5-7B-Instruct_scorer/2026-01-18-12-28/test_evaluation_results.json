@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every quantity and its relationships, translate the problem into the precise arithmetic expression(s), evaluate them step\u2011by\u2011step while verifying each intermediate result, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 4,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, translate the problem into the single exact arithmetic (or algebraic) expression that fulfills all constraints, perform any necessary unit conversions, compute the result with exact rational arithmetic (no approximation), verify that all conditions are satisfied, and output only the final numeric value (including the unit only if the problem explicitly asks for it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 69,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum and its meaning, construct the unique exact arithmetic or algebraic expression that satisfies all given relationships, compute it using exact rational arithmetic, briefly confirm that all constraints hold, and output only the final numeric result (add a unit only if the problem explicitly asks).",
+      "train_score": 0.9864864864864865,
+      "train_step": 73,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical value and its purpose, translate the entire scenario into one exact arithmetic/algebraic expression that fulfills all stated relationships, evaluate it with exact (fractional) computation, briefly confirm that all constraints are satisfied, and output only the final numeric answer (include a unit only if the problem explicitly requires it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 69,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate all given figures, translate the problem into a single mathematically exact expression, evaluate it rigorously while confirming any stated conditions, and return solely the resulting number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 30,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Strip the problem to its numeric facts, assign each its logical role, formulate the unique exact arithmetic (or algebraic) expression that satisfies all stated relations, compute it with exact precision, verify that all conditions hold, and return solely the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 41,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every number and its purpose, perform any required unit conversions, formulate the single exact equation (or minimal system) that embodies all given relationships, solve it with precise rational arithmetic (no approximations), verify any stated conditions, and output only the final numeric answer (add a unit only if the problem explicitly requests one).",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Detect every numeric quantity, determine its precise role, construct the unique minimal arithmetic or algebraic expression that fulfills all stated relationships, evaluate it with exact computation while briefly checking the result against the problem\u2019s constraints, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 38,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and their roles, construct the minimal exact equation(s) that model the scenario, solve them with precise arithmetic, verify the solution respects the problem\u2019s constraints, and output solely the final numeric answer (with unit if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 49,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, determine the exact algebraic relationship linking them, compute the result using exact arithmetic (no decimal approximations), verify any stated conditions, and return solely the final numeric answer (include a unit only when the problem requests it).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers present, determine each one's role, convert the story into the one precise arithmetic or algebraic expression required, compute it with exact arithmetic, quickly verify the solution satisfies any given constraints, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 49,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every figure, assign its role, build the single exact arithmetic (or minimal system) that satisfies all relationships, solve using exact rational computation, verify any constraints, and output only the final numeric result (include a unit only if explicitly asked).",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric element, determine the unique exact formula that satisfies all given relations, evaluate it using exact rational arithmetic, do a brief consistency check, and return only the final numeric answer (add a unit only if explicitly required).",
+      "train_score": 0.9864864864864865,
+      "train_step": 79,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nFrom the statement, pull every number and its purpose, write the unique exact equation (or smallest consistent set) that encodes the scenario, solve it with exact rational/integer computation, confirm any constraints, and output only the final value (add a unit only if explicitly requested).\\n",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement list all given quantities, assign each its purpose, build the minimal set of equations that capture all relationships, solve them exactly (fractional arithmetic), check any conditions, and output the single final numeric answer (append a unit only if the problem explicitly asks).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum and its role, formulate the single exact arithmetic or algebraic expression that fulfills all given relations, solve it using precise rational computation (no approximations), briefly verify any stated constraints, and output only the final numeric answer (add a unit only if the problem explicitly requests it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 77,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum, determine its role, construct the single exact formula that satisfies all given relationships, evaluate it with precise arithmetic while checking any constraints, and output only the final numeric value.",
+      "train_score": 0.9864864864864865,
+      "train_step": 40,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, enumerate every numeric fact and its role, construct the most compact exact equation (or system) that embodies the situation, solve it analytically with fraction\u2011exact arithmetic, perform a quick validity check, and print only the resulting number (attach a unit only if the problem explicitly asks for it).",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem to list all numerical facts, assign each its role, construct the unique minimal formula (or system) that satisfies all stated relations, evaluate it with exact rational/symbolic arithmetic, perform a quick consistency check, and output solely the final number (append a unit only if the prompt asks for one).",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers from the statement, infer the precise relationship that connects them, form the simplest required equation or arithmetic expression, solve it with a brief consistency check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 17,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9166034874905231,
+    "avg_test_score": 0.8946532365789378,
+    "best_test_instruction": "Identify every quantity and its relationships, translate the problem into the precise arithmetic expression(s), evaluate them step\u2011by\u2011step while verifying each intermediate result, and output only the final numeric answer."
+  }
+}

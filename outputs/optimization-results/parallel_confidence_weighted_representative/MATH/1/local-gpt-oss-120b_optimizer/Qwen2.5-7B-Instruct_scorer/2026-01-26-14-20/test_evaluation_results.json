@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a self\u2011contained solution: succinctly restate the task, pinpoint the main concept, carry out every needed computation with brief justification, confirm the outcome, and conclude with the exact answer alone on a new line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 5,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce a self\u2011contained solution in minimal form: briefly restate the problem, declare the primary theorem or identity required, carry out the computation showing each step with a short justification, confirm the outcome, and write only the final answer on the last line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.8333333333333334,
+      "train_step": 0,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self-contained, concise solution: restate the problem, identify the main theorem or rule needed, apply it with each step clearly justified, and display the final answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 2,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Develop an analytical, succinctly structured solution articulating clearly outlined logical steps, providing justifications for every method applied, and ultimately presenting a singular, definitive answer\u2014maximizing comprehension and precision. #ImprovedInstruction",
+      "train_score": 0.8541666666666666,
+      "train_step": 0,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve concisely: briefly restate the problem, identify the core principle, carry out each required calculation with clear justification, check the result, and display only the exact final answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a self\u2011contained solution: briefly restate the problem, pinpoint the key concept, solve it step\u2011by\u2011step with clear justification, verify the outcome, and place the exact final answer alone on the last line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Then the instruction then",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution: briefly restate the problem, point out the core principle or formula required, execute each calculation with a short justification, check the result, and conclude with only the exact answer on a separate line\u2014no extra text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 6,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained, concise solution: restate the problem in your own words, identify the core principle needed, work through each step with clear justification, verify the result, and write the final numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7271022194435761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution: restate the problem in one sentence, outline the key idea, execute each step with a clear justification, verify the result, and place the final numeric answer alone on the last line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 6,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained answer: restate the problem in one sentence, identify the single formula or theorem required, show each step with a brief justification, verify the result, and place only the final numeric answer (with units if needed) on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 14,
+      "test_score": 0.7246014379493592,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution: restate the problem in your own words, identify the core concepts needed, work through each step with explicit justification and necessary calculations, verify the result, and place the exact final answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 2,
+      "test_score": 0.7211628633948108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a self\u2011contained block using the headings below (one per line):\nProblem: restate the task in a single concise sentence.\nMethod: name the exact theorem, formula or principle needed.\nWork: perform the calculation, showing only the essential intermediate values with a brief justification for each.\nCheck: verify the obtained value in one short sentence.\nAnswer: write the final numeric result (including any unit) on this line alone, with no other text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 54,
+      "test_score": 0.7155361050328227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the problem in a compact, self\u2011contained block:\n- Restate the prompt in one clear sentence.\n- State the exact formula, theorem or counting principle that solves it.\n- Carry out the necessary calculation, listing only the indispensable intermediate results; each line must include a brief justification.\n- Verify the obtained value in one sentence.\n- Conclude with the precise final answer (including any required unit) on a separate line alone, with no additional commentary.",
+      "train_score": 0.875,
+      "train_step": 47,
+      "test_score": 0.708346358236949,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution with the following sections:\n- Task: restate the problem in one sentence.\n- Core: name the single principle, theorem, or identity needed.\n- Derivation: carry out only the necessary calculations, giving a brief justification for each step.\n- Verification: give a short check of the result.\n- Answer: output the final numeric answer (including any units) on its own line, with no additional text.",
+      "train_score": 0.875,
+      "train_step": 60,
+      "test_score": 0.7049077836824007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a self\u2011contained block:\n- One\u2011sentence restatement of the task.\n- Name the exact formula or theorem that resolves it.\n- Perform the necessary computation, showing only the essential intermediate values with a brief rationale.\n- Confirm the result quickly.\n- End with the sole final numeric answer (including any unit) on a separate line, and nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 28,
+      "test_score": 0.697718036886527,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained solution consisting of: (i) a one\u2011sentence restatement of the task; (ii) identification of the single governing principle or formula; (iii) the required computation, showing only essential intermediate results with a brief rationale; (iv) a quick verification of the outcome; and (v) the exact final answer (including units if needed) alone on the last line\u2014no extra commentary.",
+      "train_score": 0.8541666666666666,
+      "train_step": 19,
+      "test_score": 0.6739606126914661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem in a compact, self\u2011contained format:\n- Summarise the problem in a single concise sentence.\n- State the exact theorem, identity or formula that solves it.\n- Perform the calculation, presenting only the essential intermediate arithmetic or algebra together with a brief justification for each step.\n- Verify the obtained value.\n- End with only the final answer (including any required unit) on its own line, without any surrounding commentary.",
+      "train_score": 0.8541666666666666,
+      "train_step": 20,
+      "test_score": 0.6723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a single, self\u2011contained block using exactly five lines prefixed by the tags:\nGoal: restate the problem in one concise sentence.\nIdea: name the single theorem, identity or formula that solves it.\nCompute: show only the indispensable calculations, each followed by a brief justification.\nValidate: give a one\u2011sentence check of the result.\nResult: output the final numeric answer (with unit if any) alone on this line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.655204751484839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7464832760237574,
+    "avg_test_score": 0.7195849893567932,
+    "best_test_instruction": "Give a self\u2011contained solution: succinctly restate the task, pinpoint the main concept, carry out every needed computation with brief justification, confirm the outcome, and conclude with the exact answer alone on a new line."
+  }
+}

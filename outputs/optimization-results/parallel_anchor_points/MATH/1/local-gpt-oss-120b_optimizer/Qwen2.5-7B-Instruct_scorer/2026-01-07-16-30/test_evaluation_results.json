@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present a compact solution: state the key equations or observations, carry out the required calculations succinctly, and conclude with only the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Systematically dissect the question, apply relevant mathematical principles, compute each intermediate result, and present only the final numeric solution.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.7916666666666666,
+      "train_step": 17,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the problem into the appropriate mathematical expressions, solve it by explicit step\u2011by\u2011step reasoning and calculations, and finish your response by outputting only the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, translate it into the appropriate mathematical form, solve it with clear step\u2011by\u2011step reasoning, and output only the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 3,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem methodically, showing each logical deduction and calculation needed, and end your response with only the final numeric answer (no additional commentary).",
+      "train_score": 0.7708333333333334,
+      "train_step": 2,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by briefly stating the relevant mathematical relationship, carrying out only the essential calculations, and ending with a single numeric answer\u2014nothing else.",
+      "train_score": 0.7708333333333334,
+      "train_step": 4,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, work through the reasoning step by step, and give the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by first identifying the core formula or principle needed, then carry out the indispensable computation(s). Provide just enough reasoning to make the steps clear, and finish with a single line that contains only the final numeric answer in its simplest form\u2014nothing else.",
+      "train_score": 0.7708333333333334,
+      "train_step": 74,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the question, present only the indispensable formulas or logical facts needed, carry out the essential calculations (showing intermediate results only if they aid clarity), and finish your response with a single line that contains exactly the final numeric answer in its simplest form\u2014nothing else.",
+      "train_score": 0.7708333333333334,
+      "train_step": 42,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, providing only the necessary reasoning, and end your response with a single line that contains exactly the final numeric answer in its simplest form\u2014nothing else.",
+      "train_score": 0.7708333333333334,
+      "train_step": 63,
+      "test_score": 0.7036573929352923,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution: first restate the problem in one sentence, then enumerate the key equations or logical facts as numbered steps, perform only the indispensable calculations, and end with a single line that contains exactly the final numeric answer\u2014nothing else.",
+      "train_score": 0.7916666666666666,
+      "train_step": 23,
+      "test_score": 0.7008440137542982,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the question, outline the necessary reasoning, perform the calculations, and end with only the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.6945920600187558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Transform the problem into the necessary mathematical statements, perform only the indispensable calculations, and present the solution as a sequence of brief numbered steps followed by a single line that contains *exactly* the final numeric result\u2014no other text, symbols, or commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 13,
+      "test_score": 0.6655204751484839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the pivotal equation or inequality, compute the required value using only essential steps, and end your response with a single line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.559549859331041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the essential relationship, compute the result using the fewest steps necessary, and end the response with exactly one line that contains the final answer alone (as an integer or reduced fraction, no extra characters).",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.3351047202250703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the essential equation needed, compute the result, and end your response with a single line that contains *only* the final numeric answer in its simplest form (using Arabic digits only), without any extra words, symbols, or formatting.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.20725226633322913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the minimal mathematical expression that solves the query, execute just the required arithmetic, and finish your reply with a single line that contains *only* the final result, written exactly as a number (rounded or in simplest form).",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.18537042825883088,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single governing relation needed, compute the result using only the essential steps (showing at most one intermediate value if it clarifies the process), and finish with one line that contains only the final numeric answer in its simplest form\u2014no extra text, symbols, or formatting.",
+      "train_score": 0.3125,
+      "train_step": 99,
+      "test_score": 0.17192872772741483,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct solution: identify the core relationship, carry out just the required computation (show at most one helpful intermediate value), and conclude with a single line containing only the final numeric result in simplest form\u2014no additional text.",
+      "train_score": 0.22916666666666666,
+      "train_step": 99,
+      "test_score": 0.16567677399187247,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.761175367302282,
+    "avg_test_score": 0.599428392801322,
+    "best_test_instruction": "Present a compact solution: state the key equations or observations, carry out the required calculations succinctly, and conclude with only the final numeric answer."
+  }
+}

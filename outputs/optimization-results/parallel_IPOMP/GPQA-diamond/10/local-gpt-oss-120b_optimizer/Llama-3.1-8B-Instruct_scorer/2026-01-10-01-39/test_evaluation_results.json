@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Think through the problem step\u2011by\u2011step internally, then write only the final answer token (A\u2011D) on a single line with no extra characters, spaces, or explanations.",
+      "train_score": 0.3684210526315789,
+      "train_step": 34,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.29292929292929293,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, perform any necessary reasoning internally, and finally output exactly one token\u2014the correct answer (A, B, C, or D)\u2014on a line by itself with no other characters, spaces, or explanations.",
+      "train_score": 0.3684210526315789,
+      "train_step": 36,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the full prompt and all answer choices, determine the correct option, and reply with exactly one capital letter (A\u2011D) on a line by itself\u2014no spaces, punctuation, or additional text.",
+      "train_score": 0.3684210526315789,
+      "train_step": 19,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Comprehend the full question, determine the correct answer internally, and reply with a single token\u2014the exact option letter (A\u2011D) or required number\u2014alone on its own line, without any additional characters, spaces, or explanations.",
+      "train_score": 0.3684210526315789,
+      "train_step": 25,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. If you wish, write your reasoning on earlier lines. The very last line of your output must consist solely of the correct answer token\u2014the single capital letter A\u2011D for multiple\u2011choice or the exact numeric value required\u2014without any spaces, punctuation, or other characters. No additional text may follow this line.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem and all answer options, determine the correct choice by internal reasoning or calculation, and output only the final answer token (the letter\u202fA\u2011D or the required number) on a single line by itself\u2014no other characters, spaces, or explanations on that line. Any reasoning may be placed on preceding lines.",
+      "train_score": 0.3684210526315789,
+      "train_step": 49,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving the problem, output exactly one token\u2014the correct answer (the letter A\u2011D or the required number)\u2014on the final line of your response, with no surrounding whitespace, punctuation, markdown formatting, or other characters. Any intermediate reasoning should appear on preceding lines.",
+      "train_score": 0.3684210526315789,
+      "train_step": 81,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, work through the reasoning, and output the correct answer.",
+      "train_score": 0.3157894736842105,
+      "train_step": 0,
+      "test_score": 0.23737373737373738,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the question and all answer options, determine which option is correct using the relevant principles, give a one\u2011sentence justification, and finally output only the option label (A,\u202fB,\u202fC, or\u202fD).",
+      "train_score": 0.3684210526315789,
+      "train_step": 1,
+      "test_score": 0.2222222222222222,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem internally. If you wish, write any reasoning on preceding lines, but the very last line of your output must contain exactly one token\u2014the answer (the letter A\u2011D for multiple\u2011choice or the precise number required)\u2014and nothing else (no spaces, punctuation, markdown, or other characters).",
+      "train_score": 0.3684210526315789,
+      "train_step": 86,
+      "test_score": 0.2222222222222222,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work out the solution using any reasoning you like on preceding lines. The final line of your response must contain exactly one token\u2014the correct answer (the single capital letter A\u2011D or the exact numeric value required)\u2014and nothing else (no spaces, punctuation, markdown, or other characters, and no leading or trailing whitespace).",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.21212121212121213,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem; you may place reasoning on earlier lines. The very last line must contain exactly one token\u2014the correct answer (letter\u202fA\u2011D or the required number)\u2014and nothing else: no spaces, punctuation, markdown, or other characters before or after it.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.21212121212121213,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the whole prompt, find the correct answer, and optionally write reasoning on earlier lines. Conclude with a single token\u2014the answer (letter\u202fA\u2011D or the required number)\u2014on the very last line, containing no spaces, punctuation, markdown, or any other characters.",
+      "train_score": 0.42105263157894735,
+      "train_step": 90,
+      "test_score": 0.20707070707070707,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the whole prompt, decide the correct answer, and output only the answer token\u2014the capital letter A\u2011D or the exact numeric value\u2014on a single line that is the very last line of your response. Include no other characters, spaces, punctuation, or formatting.",
+      "train_score": 0.3684210526315789,
+      "train_step": 84,
+      "test_score": 0.20707070707070707,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question. Write any work on earlier lines. The last line of your reply must consist of exactly one symbol\u2014the correct answer (A\u2011D or the precise number)\u2014and nothing else (no spaces, punctuation, or markdown).",
+      "train_score": 0.3684210526315789,
+      "train_step": 96,
+      "test_score": 0.20202020202020202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the given problem, then output only the final answer token\u2014either the single uppercase choice (A\u2011D) or the exact numeric value\u2014on a line by itself with no extra symbols, spaces, or explanation.",
+      "train_score": 0.3684210526315789,
+      "train_step": 26,
+      "test_score": 0.19696969696969696,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct choice. You may put any reasoning on earlier lines, but the very last line of your reply must contain exactly one character\u2014the answer (A\u2011D or the required number). That line must have no spaces, punctuation, markup, or any other symbols, and nothing may follow it.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.1919191919191919,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the correct answer and reply with a single token (the capital letter\u202fA\u2011D or the exact numeric value) on its own line, containing no other characters, spaces, punctuation, or formatting. Any explanation may appear on previous lines.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.18181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the correct choice, then output only that choice as a single uppercase letter (A\u2011D) or exact number on the final line of your answer, with no additional symbols, whitespace, or formatting; any explanations must appear on preceding lines.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.17676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After you have determined the correct response, write any working you wish on preceding lines, then place on the last line exactly one character: the answer (the capital letter A\u2011D or the precise number). Ensure this line has no extra whitespace, punctuation, or markup.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.16161616161616163,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.29797979797979796,
+    "avg_test_score": 0.23280423280423282,
+    "best_test_instruction": "Think through the problem step\u2011by\u2011step internally, then write only the final answer token (A\u2011D) on a single line with no extra characters, spaces, or explanations."
+  }
+}

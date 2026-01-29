@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Pull every given number, infer the exact arithmetic relation each statement implies, merge them into one precise integer\u2011or\u2011fraction expression, evaluate it with exact arithmetic (no rounding), perform a quick consistency check, and output only the final simplified numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 99,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers and the exact mathematical relationships they define, combine them into one closed\u2011form rational expression that directly yields the asked quantity, evaluate it with exact integer/fraction arithmetic (no rounding), verify the result briefly, and return only the final numeric answer in lowest terms.",
+      "train_score": 0.9731800766283525,
+      "train_step": 85,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the text, extract all explicit numbers and the quantitative relationships they define, translate the entire scenario into one algebraic equation (or a single rational expression) for the asked quantity, solve it using exact arithmetic (no approximations), verify the result briefly, and output only the final simplified numeric value.",
+      "train_score": 0.9731800766283525,
+      "train_step": 77,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Spot all quantities mentioned, convert the situation into one exact arithmetic formula (preserve fractions and percentages), compute it using only the indispensable intermediate result, do a quick sanity verification, and return solely the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 28,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull every stated numeral, translate each described relationship into its exact arithmetic operator, combine them into one closed\u2011form rational expression that directly computes the asked quantity, evaluate it using pure integer\u2011fraction arithmetic (no approximation), do a brief sanity check, and return only the final simplified numeric answer.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, list every explicit numeric value and the precise operation each clause describes, combine them into a single exact mathematical expression, evaluate it using pure integer/fraction arithmetic (no approximations), briefly verify the result, and return only the final simplified number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 99,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, record every stated numeral together with the operation it prescribes, merge them into a single exact mathematical expression (keeping fractions, percentages and units unchanged), compute it with exact integer\u2011or\u2011fraction arithmetic (no approximations), perform a brief reasonableness check, and output only the final simplified result.",
+      "train_score": 0.9731800766283525,
+      "train_step": 95,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric quantities, construct a single exact arithmetic expression that captures the problem, evaluate it step\u2011by\u2011step with minimal intermediate values, verify quickly, and output only the final numeric answer.",
+      "train_score": 0.9770114942528736,
+      "train_step": 14,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number and the exact arithmetic operation each clause dictates, fuse them into one closed\u2011form integer\u2011or\u2011fraction expression that directly yields the asked quantity, evaluate it with exact arithmetic (no approximations), perform a brief sanity check, and output only the final simplified numeric result.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all quantities, map each described relation to its mathematical operator, assemble them into one exact expression, evaluate it showing only the necessary intermediate result, confirm the outcome quickly, and return just the final numeric answer.",
+      "train_score": 0.9770114942528736,
+      "train_step": 35,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate each explicit number, deduce the exact arithmetic operation it governs, merge all deductions into one precise rational expression, evaluate it with exact integer/fraction arithmetic (no approximation), perform a brief sanity check, and output only the final simplified numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate every explicit quantity, translate each described action into its exact arithmetic operator, combine them into a single precise rational formula (preserving fractions, percentages and units), evaluate it using exact integer\u2011fraction arithmetic (no rounding), perform a brief plausibility check, and output only the final simplified numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text pull every explicit number, interpret each described action as a concrete arithmetic operation, assemble those operations into one definitive numeric expression, compute it keeping only the essential intermediate value, do a quick sanity check, and output the sole final integer (or rational) result.",
+      "train_score": 0.9731800766283525,
+      "train_step": 34,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric quantities, map each verbal relation to its exact arithmetic operator, build a single exact expression, evaluate it using exact integer/rational arithmetic (simplify to lowest terms), perform a brief sanity check, and output only the final numeric value.",
+      "train_score": 0.9693486590038314,
+      "train_step": 38,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out every given quantity, express the stated relationships as one exact arithmetic expression, evaluate it showing only the essential intermediate result, perform a quick sanity check, and return just the final numeric value.",
+      "train_score": 0.9693486590038314,
+      "train_step": 9,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical data and the operations they imply, form a single closed\u2011form expression that captures the entire problem, compute it with precise rational arithmetic (no rounding), verify the result with a quick sanity check, and return only the final number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 40,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeric fact in the statement, translate each described relationship into its corresponding arithmetic operator, assemble them into one exact integer\u2011or\u2011fraction expression that yields the asked value, evaluate it without rounding, perform a quick sanity check, and output only the resulting simplified number.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit number and the operation it implies, combine them into one exact rational expression, evaluate it with pure integer/fraction arithmetic (no rounding), do a quick sanity check, and output only the final simplified value.",
+      "train_score": 0.9731800766283525,
+      "train_step": 78,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number mentioned, infer the exact arithmetic operation each describes, combine them into a single precise rational expression, evaluate it with exact integer/fraction arithmetic (no rounding), perform a brief sanity check, and output only the final simplified result.",
+      "train_score": 0.9731800766283525,
+      "train_step": 54,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric term and the operation it implies, combine them into a single exact arithmetic expression, evaluate it keeping only the indispensable intermediate value, do a quick sanity check, and output only the final numeric result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 36,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.8981190656702409,
+    "best_test_instruction": "Pull every given number, infer the exact arithmetic relation each statement implies, merge them into one precise integer\u2011or\u2011fraction expression, evaluate it with exact arithmetic (no rounding), perform a quick consistency check, and output only the final simplified numeric answer."
+  }
+}

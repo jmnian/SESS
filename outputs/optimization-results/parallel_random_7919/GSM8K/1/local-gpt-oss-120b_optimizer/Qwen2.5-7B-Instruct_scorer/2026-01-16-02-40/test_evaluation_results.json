@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all numbers and the exact mathematical relations they imply (including ratios, percentages, unit conversions, and phrases like \u201ctwice as many\u201d), build one complete arithmetic expression with correct parentheses, evaluate it, and return only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 48,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the whole problem into a single exact rational formula that incorporates every mentioned number and implied operation (addition, subtraction, multiplication, division, powers, percentages, ratios, min/max, or conditional). Evaluate the formula using exact fraction arithmetic (no rounding) and output only the final integer or reduced fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 97,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, derive a single exact rational expression that incorporates every given number and each described quantitative relation (including multipliers, fractions, percentages, ratios, conditions, min/max). Compute the expression using exact fraction arithmetic and output only the reduced integer or fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 76,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, translate all described quantitative relations (including \u201ctwice\u201d, \u201chalf\u201d, sums, differences, products, ratios, percentages, etc.) into a single exact arithmetic expression with proper parentheses, evaluate it using standard order of operations, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 50,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, pull every explicit numeral and every implied quantitative relation (e.g., twice, half, percent, per, each, at most/at least, if\u2011then). Construct one mathematically exact expression with +, \u2013, *, /, ^, parentheses and, as necessary, min, max, or conditional operators. Evaluate it using exact arithmetic (no rounding) and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 57,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, infer the precise mathematical relationships (including addition, subtraction, multiplication, division, fractions, percentages, and any unit conversions), build a single explicit arithmetic expression with correct parentheses and order of operations, evaluate it, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 46,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, formulate a single exact arithmetic expression that captures all numbers and implied operations (including addition, subtraction, multiplication, division, powers, percentages, ratios, min/max, and conditional pieces), compute it using exact rational arithmetic (no floating\u2011point), and print only the resulting integer or fully reduced fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 71,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeral and every quantitative term (e.g., double, half, percent, per, each, at most, at least, if\u2011then, ratio, conversion). Translate the whole problem into one exact arithmetic expression using +, \u2013, *, /, ^, parentheses and, when required, min, max, or conditional operators. Compute the expression with exact rational arithmetic (no rounding) and return only the resulting numeric value.",
+      "train_score": 0.972972972972973,
+      "train_step": 60,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, list all quantities and the exact operations they imply (addition, subtraction, multiplication, division, powers, percentages, ratios, conditional limits). Write one mathematically precise formula using +\u2011*\u2044, ^, parentheses and optional min/max/?:, compute it with exact rational arithmetic, and output only the simplified integer or irreducible fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeral and every language that specifies a quantitative operation (e.g., half, double, per, percent, at most, if\u2011then, remainder). Write one mathematically exact formula that combines them using +, -, *, /, ^, parentheses and, when necessary, min, max or a ternary ?: operator. Compute the value with exact rational arithmetic (no floating\u2011point or rounding) and output only the final integer or fully reduced fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number and implied quantitative relation, form one exact rational formula using +, \u2013, *, /, ^, parentheses and, if required, min, max or a ternary conditional; evaluate the formula with exact fraction arithmetic (no rounding) and output only the simplified integer or reduced fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 95,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, convert any descriptive relational terms (like twice, half, percentages, \"one\u2011third\", etc.) into a single precise arithmetic expression using appropriate operators and parentheses, evaluate the expression following standard order of operations, and output only the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 51,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret all quantities and implied operations in the text, encode them into a single closed\u2011form rational expression using +, -, *, /, ^, parentheses and optional min, max or ternary conditional, evaluate it exactly (no floating\u2011point or rounding) and output only the resulting integer or reduced fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 87,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, list all explicit numbers and every linguistic cue that defines a numeric relationship (e.g., twice, half, percent, per, each, at most/least, if\u2011then, remainder). Encode them into one exact arithmetic formula using +, -, *, /, ^, parentheses and, where necessary, min, max or a ternary conditional. Evaluate the formula with exact fraction arithmetic (no rounding) and output only the final integer or simplest fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 80,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and every phrase that specifies a quantitative operation (e.g., double, half, percent, per, each, at most, at least, if\u2011then, ratio, remainder, unit conversion). Encode the entire problem as one mathematically exact formula using only +, -, *, /, ^, parentheses and, when needed, min, max, or a ternary conditional operator. Compute the formula with exact rational arithmetic (no floating\u2011point or rounding) and output only the final integer or irreducible fraction.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Convert the entire problem into one exact rational expression that incorporates every mentioned quantity and every described arithmetic relation (including multiples, fractions, percentages, ratios, unit\u2011rates, bounds, and conditional clauses). Use only the operators +, \u2013, *, /, ^, parentheses and, when needed, min, max or a ternary ?: operator. Evaluate the expression with exact fraction arithmetic (no floating\u2011point or rounding) and output only the reduced integer or proper fraction.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the whole question, pull out every numeral and every phrase that specifies a numeric relationship (such as \u201chalf\u201d, \u201ctwice\u201d, \u201c% of\u201d, \u201cper\u201d, \u201cat most\u201d, \u201cif \u2026 then \u2026\u201d, \u201cremainder\u201d, etc.). Encode the complete situation as one exact arithmetic expression built only from +, \u2013, *, /, ^, parentheses and, if needed, min, max, or a ternary conditional operator. Evaluate this expression with exact rational arithmetic (no approximation) and output only the resulting integer or irreducible fraction.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities and every descriptive quantitative operator (e.g., half, double, three\u2011quarter, percent, per, each, at most/least, if\u2011then, ratio, remainder, unit conversion). Form one exact arithmetic formula that captures the whole scenario, employing +, \u2013, *, /, ^, parentheses and, when necessary, min, max, or ternary operators. Compute the formula using exact rational arithmetic (no floating\u2011point rounding) and output only the resulting number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 66,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeral and every linguistic cue that establishes a numeric relationship (e.g., \u201chalf\u201d, \u201ctwice\u201d, \u201cper\u201d, \u201c%\u201d, \u201cat most\u201d, \u201cif\u2011then\u201d, \u201cminimum\u201d, \u201cmaximum\u201d). Encode the whole scenario as one closed\u2011form rational expression built only from +, \u2013, *, /, ^, parentheses and, when needed, min, max or a ternary conditional operator. Compute the value using exact fraction arithmetic (no floating\u2011point or rounding) and output solely the final integer or fully reduced fraction.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the text, locate every explicit numeral and every linguistic cue that implies a quantitative operation (e.g., per, each, twice, half, percent, ratio, at most/least, if\u2011then, remainder). Convert the whole problem into one fully parenthesized rational expression built only from +, \u2212, *, /, ^ and, when needed, min, max or a ternary ?: operator. Evaluate the expression using exact fraction arithmetic (no floating\u2011point, no rounding) and output solely the final integer or irreducible fraction.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8620166793025019,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8165276724791509,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.8937145745333765,
+    "best_test_instruction": "Extract all numbers and the exact mathematical relations they imply (including ratios, percentages, unit conversions, and phrases like \u201ctwice as many\u201d), build one complete arithmetic expression with correct parentheses, evaluate it, and return only the final numeric result."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the correct option and reply with a single capital letter A\u2011D on its own line. If you include a comment, put it on the line before the answer and keep it to one short sentence (\u226415 words). No other text, spaces, or punctuation may appear on the answer line or after it.",
+      "train_score": 0.47368421052631576,
+      "train_step": 41,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly one character: the correct option letter (A\u2011D). It must be the sole content of the last line, with no surrounding spaces, punctuation, or other symbols, and the response must end immediately after it. Any explanation, if desired, must appear on preceding lines.",
+      "train_score": 0.47368421052631576,
+      "train_step": 54,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct choice (A\u2011D), optionally write a short justification (\u226412 words) on the line immediately before the answer. The justification must be enclosed in square brackets []. Then output only the single uppercase letter on the next line, with no spaces, punctuation, or other characters. End the response right after this letter.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the correct option as a single uppercase letter (A\u2011D) on the final line of your response. If you include any explanation, place it on preceding lines; the last line must contain only the letter with no surrounding whitespace or characters.",
+      "train_score": 0.5263157894736842,
+      "train_step": 43,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First give a concise explanation (no more than 15 words) enclosed in parentheses on its own line. On the following line output only the correct choice letter (A\u2011D) with no surrounding characters, spaces, or markup. The response must end immediately after this letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 58,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, identify the key data and required concept, perform the necessary calculation or logical reasoning step\u2011by\u2011step, and then choose the answer choice that matches your result; briefly justify each step.",
+      "train_score": 0.47368421052631576,
+      "train_step": 0,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, work out which option (A\u2011D) is correct, and respond with exactly one uppercase letter on its own line. You may place a brief explanation on the line before the answer, but the answer line itself must contain only the single letter and nothing else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 39,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one uppercase letter (A\u2011D) that is the correct answer. The answer must appear on a line by itself with no surrounding spaces or characters. Any optional comment must be written on a preceding line and be limited to one short sentence.",
+      "train_score": 0.47368421052631576,
+      "train_step": 44,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a single uppercase letter (A\u2011D) that is the correct answer. The output must consist of this one character alone, with no surrounding whitespace, punctuation, or additional lines.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the correct choice (A\u2011D) on a line by itself. No other characters, spaces, or markdown may appear on that line. If you add an explanation, place it on previous lines only. End output immediately after the answer line.",
+      "train_score": 0.47368421052631576,
+      "train_step": 45,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, state the correct option in parentheses, e.g., (A). Then, on the next line, write the letter alone without any surrounding characters. No other text may appear after the solitary letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 43,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3157894736842105,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the correct option as a single uppercase letter (A\u2011D) on its own line. If you add a justification, place it on the line above, limited to ten words and without punctuation. The answer line must contain nothing else\u2014no spaces, symbols, or extra line breaks after the letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 42,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the correct answer as a single uppercase letter (A\u2011D) on its own line. No other characters before or after it. If you add an explanation, place it on a preceding line inside parentheses. End output after the letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 41,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short justification (no more than 12 words) on its own line, then on the next line output the correct option letter (A\u2011D) alone. Do not include any other characters, spaces, or lines after the answer.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the question. When you know which choice (A\u2011D) is correct, output exactly one line consisting solely of that uppercase letter, with no surrounding whitespace, punctuation, or markup, and terminate the response right after it. Any optional reasoning must appear on separate preceding lines and may not exceed a single sentence each.",
+      "train_score": 0.47368421052631576,
+      "train_step": 48,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output the correct choice (A\u2011D) as the very last line of your response, consisting of only that single capital letter and no other characters or whitespace. If you wish to add a brief comment, place it on one or more lines above the answer; each such line may contain at most twelve words and must not include any brackets or punctuation. Terminate the output immediately after the answer line.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the question. If you wish, give a brief justification (maximum 12 words) on its own line. Then write the correct choice as a single uppercase letter\u202fA\u2011D on the very next line with no spaces, punctuation, markdown, or other characters before or after it. End the response immediately after that letter and include no extra blank lines.",
+      "train_score": 0.47368421052631576,
+      "train_step": 61,
+      "test_score": 0.24242424242424243,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output the answer as a single uppercase letter\u202fA\u2011D on the very last line. No other characters, spaces, or markup may appear on that line or after it. You may add an optional explanation on preceding line(s), each \u226412 words, enclosed in square brackets [].",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.19696969696969696,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide the correct choice (A\u2011D) alone on the very last line of your output. If you include an explanation, put it on the line(s) immediately before the answer, each not exceeding 12 words and enclosed in curly braces { }. No other text, spaces, or blank lines may follow the answer line.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.18686868686868688,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the answer as a single uppercase letter (A\u2011D) on the first line. If you wish to add a short comment, write it on the second line prefixed by \u201c//\u201d. No other text may appear.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.06565656565656566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3484848484848485,
+    "avg_test_score": 0.2895622895622896,
+    "best_test_instruction": "Determine the correct option and reply with a single capital letter A\u2011D on its own line. If you include a comment, put it on the line before the answer and keep it to one short sentence (\u226415 words). No other text, spaces, or punctuation may appear on the answer line or after it."
+  }
+}

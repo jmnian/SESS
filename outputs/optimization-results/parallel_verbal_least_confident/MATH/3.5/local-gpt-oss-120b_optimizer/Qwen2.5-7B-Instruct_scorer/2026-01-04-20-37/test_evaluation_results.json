@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a concise, self\u2011contained solution: briefly restate the problem, pinpoint the key condition(s), carry out the required calculation(s) showing only the necessary intermediate values for verification, and finish with the exact numeric answer alone.",
+      "train_score": 0.6529411764705882,
+      "train_step": 5,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by first translating it into a precise mathematical statement, then perform the necessary computations, explicitly showing each intermediate result with a brief justification. After each computation, quickly verify its correctness. Conclude by outputting only the final answer (numeric value or simplified expression) without any additional commentary.",
+      "train_score": 0.6,
+      "train_step": 9,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact mathematical condition to be satisfied, solve it by applying the single relevant principle (showing only indispensable intermediate calculations), briefly verify the result, and conclude with a lone line containing just the final numeric answer or simplified expression.",
+      "train_score": 0.611764705882353,
+      "train_step": 48,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the question into a precise mathematical statement, carry out the essential calculations showing only the crucial intermediate values together with a short sanity check, and conclude with a single line containing just the final numeric answer or reduced exact expression.",
+      "train_score": 0.6235294117647059,
+      "train_step": 47,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, logically ordered solution: first translate the problem into mathematical statements, then execute the required algebra or probability reasoning, checking intermediate results, and finally output only the exact numeric answer (rounded only if the problem demands).",
+      "train_score": 0.6,
+      "train_step": 1,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline the solution in a few sentences, then solve the problem showing each calculation and logical deduction, checking your work, and end with the exact numeric result only.",
+      "train_score": 0.6529411764705882,
+      "train_step": 2,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5588235294117647,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the question into its exact mathematical form, apply the appropriate theorem or counting rule, carry out the required calculation with a brief sanity check, and output only the final numeric answer.",
+      "train_score": 0.611764705882353,
+      "train_step": 14,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise solution: briefly describe the core idea, perform each necessary calculation showing intermediate results, double\u2011check the work, and end with only the final numeric answer (no extra commentary).",
+      "train_score": 0.6,
+      "train_step": 3,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, self\u2011contained answer: (a) express the problem mathematically, (b) perform the minimal calculations, explicitly noting each intermediate result, (c) verify the result with a quick sanity check, and (d) output only the final numeric answer.",
+      "train_score": 0.6058823529411764,
+      "train_step": 14,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compose a tight solution: (i) translate the question into a precise formula, (ii) note the single principle needed, (iii) execute the calculation, annotating each intermediate result with a brief validation, and (iv) give only the final number or simplified expression as the answer.",
+      "train_score": 0.6176470588235294,
+      "train_step": 18,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution in two stages: first, restate the problem as a precise mathematical statement; second, perform at most three succinct calculations, each labeled with the applied formula and a quick validation, and conclude by outputting only the final numeric answer.",
+      "train_score": 0.6,
+      "train_step": 8,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into a compact mathematical statement, then solve it in at most three numbered steps\u2014each step displaying the precise formula used and its computed value with a brief sanity check\u2014and finish by outputting only the final numeric answer.",
+      "train_score": 0.6,
+      "train_step": 7,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a one\u2011sentence outline of the strategy, then work through the problem with a concise ordered list of calculations and brief justifications, verify each step, and finish by stating only the final numeric answer.",
+      "train_score": 0.6,
+      "train_step": 3,
+      "test_score": 0.7158487027195999,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the key reasoning and calculations in a short, ordered list or brief description, then output only the final numeric answer.",
+      "train_score": 0.6058823529411764,
+      "train_step": 1,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve by: (i) stating the exact formula that the problem asks for, (ii) performing each required computation, listing the intermediate numeric values and a one\u2011sentence justification for each, (iii) after the last step write a single line containing only the final answer (rounded as required), and nothing else.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.6955298530790872,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer in three parts only: (i) state the exact algebraic formulation of the question; (ii) carry out the calculation using the appropriate theorem, writing each intermediate result together with a quick sanity check; (iii) return just the final number or simplified expression, nothing else.",
+      "train_score": 0.611764705882353,
+      "train_step": 34,
+      "test_score": 0.6911534854642075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, translate the question into a clear mathematical expression. Next, carry out the necessary calculation, showing each essential intermediate result on its own line together with a one\u2011sentence verification of its reasonableness. Finally, output only the final numeric answer (or reduced exact expression) on a line by itself, without any additional commentary.",
+      "train_score": 0.6294117647058823,
+      "train_step": 92,
+      "test_score": 0.6839637386683338,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a concise solution in three sections:  \n(a) write the precise mathematical statement that captures the problem;  \n(b) evaluate it step\u2011by\u2011step, listing for each step the formula applied, the computed value, and a brief sanity check;  \n(c) end with a single line containing only the final numeric answer (or simplified exact expression), with no extra text.",
+      "train_score": 0.6176470588235294,
+      "train_step": 46,
+      "test_score": 0.6798999687402313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem in three parts: (i) rewrite the question as a single precise mathematical expression; (ii) evaluate it, listing each indispensable intermediate result on its own line together with a brief plausibility check; (iii) output only the final numeric result (or reduced exact form) on a line by itself, without any additional commentary.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.6483276023757424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve in three moves:\n- Translate the question into a concise formula.\n- Compute, listing each indispensable intermediate value with a brief sanity check.\n- Write only the final numeric answer (or simplified exact expression) on a separate line, nothing else.",
+      "train_score": 0.4,
+      "train_step": 99,
+      "test_score": 0.4751484839012191,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7567989996874023,
+    "avg_test_score": 0.7139135741824082,
+    "best_test_instruction": "Provide a concise, self\u2011contained solution: briefly restate the problem, pinpoint the key condition(s), carry out the required calculation(s) showing only the necessary intermediate values for verification, and finish with the exact numeric answer alone."
+  }
+}

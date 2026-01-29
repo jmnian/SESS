@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Formulate the asked quantity as one precise mathematical expression, evaluate it with the minimal, clearly justified step(s) using the most direct theorem or arithmetic rule, verify that all stated conditions are met, and output only the final numeric answer in the exact format requested.",
+      "train_score": 0.8541666666666666,
+      "train_step": 30,
+      "test_score": 0.7621131603626133,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the precise value requested, translate the problem into one exact mathematical expression, apply the most direct theorem or identity, compute it using the minimum number of clearly justified steps, confirm that all given constraints are satisfied, and present only the final answer in the required format.",
+      "train_score": 0.8541666666666666,
+      "train_step": 24,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the unknown, convert the problem to a single unambiguous expression, select the single essential theorem or identity, evaluate it in the shortest justified chain (one brief reason per step), confirm all given conditions, and return only the final answer in the exact format required.",
+      "train_score": 0.875,
+      "train_step": 42,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the exact quantity sought, express it with a single clear formula, employ the one appropriate theorem or operation to evaluate it in the fewest justified steps, verify that every condition of the problem is met, and output only the final numeric answer in the required format.",
+      "train_score": 0.8541666666666666,
+      "train_step": 56,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one formal equation for the unknown, select the single most relevant formula or counting principle, evaluate it with the minimal chain of steps each accompanied by a concise justification, ensure every given restriction (integrality, range, probability limits, etc.) holds, and output exclusively the final answer using the prescribed format.",
+      "train_score": 0.8541666666666666,
+      "train_step": 40,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the target value, encode the problem as a single exact formula, evaluate it with the shortest sequence of justified steps, ensure all given constraints hold, and output only the final numeric result in the format requested.",
+      "train_score": 0.8541666666666666,
+      "train_step": 19,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Turn the problem into a single precise equation for the unknown, choose the one key formula that solves it, substitute directly and compute using the minimum number of justified operations (each justified in a brief phrase), ensure every given restriction holds, and output solely the final answer exactly as asked.",
+      "train_score": 0.8541666666666666,
+      "train_step": 22,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be determined, encode the entire problem in one clear mathematical statement, locate the single decisive theorem or identity that resolves it, compute the answer with the minimum number of justified moves (one short justification per move), ensure every given condition is satisfied, and return only the final numeric answer exactly as requested.",
+      "train_score": 0.8541666666666666,
+      "train_step": 59,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity asked, rewrite the whole problem as one unambiguous mathematical expression, pinpoint the single principle that directly yields that expression, evaluate it in the smallest possible number of rigorously\u2011justified moves (one concise justification per move), confirm every condition stated in the problem, and output only the final answer in the format specified.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity being asked, express the whole problem as one unambiguous mathematical expression, pick the sole theorem/identity that resolves it, evaluate it with the smallest possible series of logically\u2011valid steps (giving one short justification per step), confirm all stated constraints, and finally write only the resulting value in the required format.",
+      "train_score": 0.8541666666666666,
+      "train_step": 58,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the quantity asked, express it as one clear mathematical formula, select the single indispensable theorem or operation, compute it using the fewest logically\u2011sound moves (one brief rationale per move), confirm all given conditions are satisfied, and output only the final answer exactly as required.",
+      "train_score": 0.8541666666666666,
+      "train_step": 32,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity the problem asks for, encode the entire statement as a single clear mathematical formula, select the single indispensable theorem or identity that solves it, evaluate in the fewest logically\u2011sound steps (one brief justification per step), check that all given constraints are met, and output only the final numeric answer in the required format.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem as a single exact equation or counting description, invoke the one pertinent principle, carry out the briefest justified calculation, confirm that all given conditions hold, and output only the final numeric answer in the exact format requested.",
+      "train_score": 0.8541666666666666,
+      "train_step": 10,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact quantity required, translate the problem into one clear mathematical expression, choose the one principle that resolves it, compute the expression in the smallest possible number of logically\u2011justified steps (each step explained in one sentence), confirm that every problem constraint is met, and present solely the final answer in the prescribed format.",
+      "train_score": 0.8541666666666666,
+      "train_step": 47,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement isolate the single value to be found, express it as one clear formula, determine the one indispensable principle that evaluates that formula, carry out the computation in the fewest logically\u2011justified steps (each step explained in a brief clause), confirm every condition given in the problem, and output solely the final numeric answer in the prescribed format.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity asked, encode the whole problem in a single clear formula, choose the uniquely applicable theorem, solve it using the optimal (fewest) sequence of rigorously justified steps (each step described in one short sentence), check that every condition holds, and output only the final answer in the specified format.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Condense the problem to a single exact formula for the desired value, pinpoint the one fundamental result (theorem, identity, or operation) that evaluates it, carry out the computation in the fewest logically\u2011sound moves (each justified in at most one brief clause), check that every hypothesis of the problem is satisfied, and return only the final numeric answer in the required format.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7120975304782745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the exact number required, express the problem as a single closed\u2011form expression, locate the one indispensable principle that evaluates that expression, compute it using the smallest possible sequence of justified calculations (each step explained in at most one short sentence), verify every condition given, and output solely the final numeric result in the prescribed format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6874023132228821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the problem as a precise mathematical statement, identify the one key principle or formula required, carry out the necessary calculation with a single\u2011sentence justification for each move, verify that the result meets any stated conditions, and return only the final answer in the exact format requested.",
+      "train_score": 0.875,
+      "train_step": 7,
+      "test_score": 0.6795873710534542,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required result, reformulate the whole question into a single exact expression, locate the one fundamental identity or theorem that gives that expression a closed form, evaluate it using the minimum number of justified steps (each step summarized in one clause), check that all problem constraints hold, and output solely the final answer in the required format.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.6317599249765552,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7621131603626133,
+    "avg_test_score": 0.7313148454130011,
+    "best_test_instruction": "Formulate the asked quantity as one precise mathematical expression, evaluate it with the minimal, clearly justified step(s) using the most direct theorem or arithmetic rule, verify that all stated conditions are met, and output only the final numeric answer in the exact format requested."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Locate all numbers in the statement, determine the precise arithmetic required, carry out the computation (a brief sanity check is optional), verify the outcome, and end with exactly one line that contains only the final numeric answer\u2014no extra characters, words, or spaces.",
+      "train_score": 0.9594594594594594,
+      "train_step": 44,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, extract all numbers, carry out the necessary calculation (showing only brief intermediate results if you wish), verify the outcome, and reply with a single line that contains solely the final numeric answer\u2014no extra text, symbols, or spaces.",
+      "train_score": 0.9324324324324325,
+      "train_step": 14,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify all quantities, determine the exact calculation it requires, evaluate it, and finish your response with exactly one line that contains only the final numeric result\u2014no words, symbols, units, spaces, or formatting.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers, perform the necessary calculation (showing only essential steps if you wish), confirm the result, and output exactly one line containing solely the final numeric answer\u2014no other text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 16,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate each quantity mentioned in the question, construct the precise arithmetic needed, compute it (brief intermediate verification optional), ensure the result is correct, and end with a single line containing only the final numeric answer\u2014no other characters or text.",
+      "train_score": 0.9594594594594594,
+      "train_step": 28,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, use the provided numbers to carry out the required calculation (brief intermediate verification optional), and end your response with a single line that contains exactly the resulting number\u2014no other text, symbols, spaces, or units.",
+      "train_score": 0.9459459459459459,
+      "train_step": 32,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, carry out each required calculation showing all intermediate results, and conclude by outputting only the final numeric answer on its own line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 1,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out each number, decide the exact arithmetic needed, compute the answer (a brief sanity check is optional), and end your response with one and only one line that consists solely of the final numeric result\u2014no letters, symbols, spaces or extra formatting.",
+      "train_score": 0.9459459459459459,
+      "train_step": 91,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the question, compute the exact value it asks for, and end your response with a single line containing only that numeric answer\u2014no other characters, units, or whitespace.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Calculate the value required by the problem and conclude your response with a single line that contains only the final number\u2014digits with an optional single decimal point\u2014without any letters, symbols, spaces, or other characters before or after it.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, performing any necessary calculations. At the end of your response write only the final numeric result on a single line\u2014no additional text, symbols, or whitespace.",
+      "train_score": 0.9459459459459459,
+      "train_step": 94,
+      "test_score": 0.8097043214556482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every quantity it contains, figure out the precise arithmetic the question asks for, evaluate it (a quick check is optional), and end your response with a single line that holds only the final numeric value\u2014no other text, symbols, spaces, or formatting.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pull out each numeric value, decide the exact formula, evaluate it (you may note a single intermediate check), ensure correctness, and output solely the final result on one line\u2014no commas, units, spaces, or extra characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 20,
+      "test_score": 0.8074298711144806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out every numeric value, decide the needed calculation, perform it (showing only essential intermediate results if you wish), verify the outcome, and end with a single line that contains only the final number\u2014no other text, symbols, or spaces.",
+      "train_score": 0.9594594594594594,
+      "train_step": 9,
+      "test_score": 0.8059135708870356,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number given, construct the appropriate computation, perform it, verify, and finish with exactly one line that contains only the resulting value\u2014no commas, no units, no extra symbols or whitespace.",
+      "train_score": 0.9324324324324325,
+      "train_step": 18,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity given, determine the exact calculation asked for, perform the computation (rounding only if explicitly required), double\u2011check the result, and finish your response with exactly one line that contains only the numeric answer\u2014no letters, symbols, units, spaces, or other characters before or after it.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.8021228203184231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity in the statement, construct the exact computation it demands, perform the calculation (brief intermediate justification optional), and conclude your reply with a single line that contains only the final numeric result\u2014nothing else (no text, symbols, spaces, or formatting).",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, extract every numeric value, formulate the exact arithmetic expression needed, compute the result (you may show brief intermediate work), verify it, and terminate the response with a single line that contains only the final numeric answer\u2014no punctuation, units, spaces, or additional text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 31,
+      "test_score": 0.7937831690674754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, convert the extracted numbers into the correct mathematical expression, evaluate it, and output only the final numeric result on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 7,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers presented, decide the precise mathematical operation the question asks for, compute the value, optionally verify it, and finish your output with a single line that contains only the resulting number (digits, optional single decimal point). No other characters, spaces, units, or formatting may appear on that line.",
+      "train_score": 0.7297297297297297,
+      "train_step": 99,
+      "test_score": 0.7354056103108415,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8316906747536013,
+    "avg_test_score": 0.8042528611141196,
+    "best_test_instruction": "Locate all numbers in the statement, determine the precise arithmetic required, carry out the computation (a brief sanity check is optional), verify the outcome, and end with exactly one line that contains only the final numeric answer\u2014no extra characters, words, or spaces."
+  }
+}

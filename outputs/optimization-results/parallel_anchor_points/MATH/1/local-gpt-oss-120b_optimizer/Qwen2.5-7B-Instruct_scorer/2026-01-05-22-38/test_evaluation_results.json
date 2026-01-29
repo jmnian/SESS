@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a brief justification of the method, show the essential computation, and output only the final number.",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nState the single principle needed, perform the essential arithmetic (showing a necessary intermediate only if it prevents ambiguity), optionally perform a sanity check, and output the precise answer alone on the last line.\\n",
+      "train_score": 0.8125,
+      "train_step": 78,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key formula, insert the supplied numbers, compute the result showing no more than one essential intermediate (only if it removes ambiguity), optionally do a quick sanity check, and present the exact answer alone on the last line.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the essential formula, compute the result showing only indispensable steps (at most one intermediate if it aids clarity), optionally verify, and output solely the final numeric answer on the last line.",
+      "train_score": 0.8125,
+      "train_step": 86,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief logical explanation, perform the required computation, verify if convenient, and end the response with the exact numerical answer on its own line\u2014nothing else follows.",
+      "train_score": 0.8125,
+      "train_step": 13,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the necessary expression, substitute the given numbers, carry out the calculation (showing at most one intermediate if it aids clarity), optionally perform a quick sanity check, and end the response with a standalone line containing only the exact numeric result.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the core equation, substitute the given values, carry out the computation (showing at most one essential intermediate result), optionally perform a brief sanity check, and end with a line that contains only the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 79,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nExtract the indispensable equation, substitute the given quantities, execute only the essential computation (showing a single intermediate only if it resolves ambiguity), optionally perform a brief sanity check, and end with one line that contains only the final numeric answer.\\n",
+      "train_score": 0.8541666666666666,
+      "train_step": 96,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the governing expression, evaluate it with the given data, displaying only indispensable arithmetic (one intermediate at most), optionally verify, and finish with a line that contains solely the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 82,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give the decisive equation, plug in the data, carry out the only required computation (displaying a necessary intermediate only if it clarifies the step), optionally perform a quick consistency test, and finish with a line that holds exactly the numeric answer and nothing else.",
+      "train_score": 0.8125,
+      "train_step": 76,
+      "test_score": 0.7317911847452329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single principle that resolves the problem, execute the necessary computation showing only any unavoidable intermediate result, (optionally perform a quick sanity check), and end the response with a line containing solely the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 76,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the governing relation, carry out the minimal arithmetic (displaying solely the indispensable intermediate values), optionally run a quick consistency check, and end the response with the precise number on its own line.",
+      "train_score": 0.8125,
+      "train_step": 66,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the core relationship, substitute the given values, perform the necessary computation (show at most one essential intermediate if it aids clarity), optionally check the result, and finish with a single line containing only the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7255392310096905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief outline of the reasoning, carry out only the essential calculations, and end with the exact numeric answer on its own line\u2014no extra text before or after.",
+      "train_score": 0.8125,
+      "train_step": 7,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing rule, carry out only the essential arithmetic (showing just the indispensable intermediate value), optionally perform a quick sanity check, and finish with a single line that contains only the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 67,
+      "test_score": 0.7120975304782745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short justification of the approach, perform only the necessary calculations (showing indispensable steps), optionally check, and finish with a line that contains exactly the final numeric result and nothing else.",
+      "train_score": 0.8125,
+      "train_step": 64,
+      "test_score": 0.710847139731166,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the key formula, substitute the given numbers, compute directly showing at most one necessary intermediate step, optionally verify, and output only the final numeric answer on a line by itself.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.5886214442013129,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single governing relation, substitute the supplied values, carry out the essential computation (show at most one intermediate if it removes ambiguity), optionally perform a quick sanity check, and end with one line that contains only the exact numeric answer\u2014no additional text.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.40043763676148797,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief justification (one sentence), carry out the essential computation (show at most one intermediate if needed), optionally double\u2011check, and conclude with a line that contains only the final numeric result and no other text.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.39606126914660833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Derive the required expression, substitute the given numbers, evaluate it (showing at most one intermediate if it aids clarity), optionally perform a quick sanity check, and finish with a single line that contains only the final numeric result\u2014no additional text or formatting.",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.31228508909034075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7521100343857455,
+    "avg_test_score": 0.6757171139790709,
+    "best_test_instruction": "Give a brief justification of the method, show the essential computation, and output only the final number."
+  }
+}

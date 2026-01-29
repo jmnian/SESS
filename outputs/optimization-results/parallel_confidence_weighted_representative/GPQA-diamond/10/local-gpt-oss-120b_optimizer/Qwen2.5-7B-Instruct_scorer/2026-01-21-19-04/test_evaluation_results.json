@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem, then output exactly one line containing the correct choice letter (A\u2011D) surrounded by vertical bars, like |C|. Do not include any other text, spaces, or line breaks.",
+      "train_score": 0.5789473684210527,
+      "train_step": 30,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, give a concise justification (\u22648 words), then a single space and the correct option letter (A\u2011D) enclosed in curly braces, e.g., {C}. Output nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 33,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question. Then output a single line containing only the correct option letter (A\u2011D) prefixed by an exclamation mark and suffixed by a period, e.g., !C. No other text, spaces, or line breaks.",
+      "train_score": 0.5263157894736842,
+      "train_step": 40,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem and output only the correct option letter (A\u2011D) surrounded by double parentheses, e.g., ((C)), on a single line with no other characters, spaces, or line breaks.",
+      "train_score": 0.5263157894736842,
+      "train_step": 68,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "  \nAfter solving, give a brief justification (\u2264\u202f10\u202fwords). Then on a new line output only the correct choice letter (A\u2011D) surrounded by vertical bars and prefixed with a hash, e.g.,\u202f#|C|#. No other characters, spaces, or line breaks.  \n",
+      "train_score": 0.5263157894736842,
+      "train_step": 90,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving the problem, output only the correct answer letter (A\u2011D) on a single line with no additional characters, spaces, or line breaks.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output a single line containing only the correct answer letter (A\u2011D) with no surrounding symbols, spaces, or additional characters. End the line with a newline and nothing else.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "First give a brief (\u226415\u2011word) justification of the correct choice, then on a new line output only the answer letter (A\u2011D) enclosed in curly braces, e.g., {C}. No other characters or whitespace may appear before or after the braces.",
+      "train_score": 0.5263157894736842,
+      "train_step": 29,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief justification (no more than 7 words), then on a new line output only the correct option letter (A\u2011D) enclosed in three asterisks on each side, e.g., *C*. Do not include any other characters, spaces or line breaks.",
+      "train_score": 0.5263157894736842,
+      "train_step": 51,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the multiple\u2011choice question by: (1) restating the problem in your own words, (2) identifying the core principle or formula, (3) quickly testing each option against that principle, (4) selecting the only viable choice, and (5) responding with a single capital letter (A\u2011D) on its own line\u2014no extra symbols, words, or punctuation.",
+      "train_score": 0.47368421052631576,
+      "train_step": 4,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct choice and reply with exactly the option letter (A\u2011D) wrapped between two exclamation marks on each side, like !!C!!. Do not include any other characters, spaces, or line breaks.",
+      "train_score": 0.47368421052631576,
+      "train_step": 34,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct choice (A\u2011D) and respond with only that letter enclosed in double angle brackets (e.g., <<C>>). Do not include any other characters, spaces, or line breaks.",
+      "train_score": 0.47368421052631576,
+      "train_step": 38,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single line containing only the correct answer letter (A\u2011D) with no other characters, spaces, or punctuation.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly one line containing only the correct option letter (A\u2011D). Do not include any other characters, spaces, or line breaks.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Select the correct answer (A\u2011D) and output it alone, wrapped in double curly braces \u2013 e.g., {{C}} \u2013 on a single line with no other characters, spaces, or punctuation.",
+      "train_score": 0.5263157894736842,
+      "train_step": 37,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short justification (max 10 words), then on a new line output the correct option letter (A\u2011D) enclosed in double curly braces, e.g., {{C}}. No other text.",
+      "train_score": 0.5263157894736842,
+      "train_step": 58,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise justification (\u2264\u202f8\u202fwords), then a single space, then output the correct answer letter (A\u2011D) enclosed in double square brackets, e.g., [[C]]. No other text or symbols.",
+      "train_score": 0.47368421052631576,
+      "train_step": 36,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly one line containing the word ANSWER followed by a colon, a space, and the correct choice letter (A\u2011D). No other characters or whitespace may appear.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, give a brief justification (\u2264\u202f8\u202fwords), then a single space and the correct answer letter (A\u2011D) enclosed in single parentheses, e.g., (C). Do not include any other characters, spaces, or line breaks.",
+      "train_score": 0.5263157894736842,
+      "train_step": 56,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single line exactly as `Ans:<letter>` where `<letter>` is the correct option (A\u2011D). No other characters, spaces, or line breaks may appear.",
+      "train_score": 0.05263157894736842,
+      "train_step": 99,
+      "test_score": 0.1414141414141414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.36363636363636365,
+    "avg_test_score": 0.3244348244348244,
+    "best_test_instruction": "Solve the problem, then output exactly one line containing the correct choice letter (A\u2011D) surrounded by vertical bars, like |C|. Do not include any other text, spaces, or line breaks."
+  }
+}

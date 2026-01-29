@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7708333333333334,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logically ordered solution that includes only the essential reasoning and any required calculations. Conclude with a line that reads exactly \u201cAnswer is \u201d followed immediately by the numeric result, with no extra characters or spaces before or after the number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 46,
+      "test_score": 0.7327289778055642,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, step\u2011by\u2011step solution containing only the indispensable reasoning and calculations. After the explanation, output the exact numeric answer on a new line by itself, prefixed with \u201cAnswer =\u201d. Do not include any additional text before or after that line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 30,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution that includes only the indispensable reasoning and any required calculations. Conclude the response with a single line that reads exactly `Answer=` followed immediately by the numeric result, with no spaces or other characters before or after the number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 53,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a short, logically ordered solution containing only the indispensable reasoning and any required calculations. Optionally include a one\u2011sentence sanity check. Conclude with a line that consists solely of \u201cAns=\u201d followed directly by the numeric answer, with no other characters.",
+      "train_score": 0.8541666666666666,
+      "train_step": 39,
+      "test_score": 0.7271022194435761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution that includes only the necessary reasoning and calculations. Conclude the response with a single line that reads exactly `Result:` followed immediately by the numeric answer, with no spaces or other characters before or after the number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 59,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution that includes only the indispensable reasoning and any required calculations. End the response with a single line that contains exactly \u201cAns:\u201d followed immediately by the numeric answer, with no additional characters or spaces.",
+      "train_score": 0.8541666666666666,
+      "train_step": 45,
+      "test_score": 0.7258518286964677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a compact, logically ordered solution that includes only the indispensable reasoning and any required calculations. After the explanation, you may add a one\u2011line verification, then finish with the exact numeric answer alone on the final line, prefixed by \u201cAns:\u201d. No other text should appear after that line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 35,
+      "test_score": 0.7258518286964677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution that covers only the essential reasoning and any required calculations. End the response with the exact numeric answer on a separate line prefixed by \u201cOutput:\u201d. No other text should appear on that line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 34,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, logically ordered solution with all necessary steps and a quick sanity check. End the response with a single line exactly `Result=` followed directly by the numeric answer; no spaces or other characters may appear on that line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 93,
+      "test_score": 0.7211628633948108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, logically ordered solution containing only the necessary reasoning and calculations. Conclude the response with a single line that reads exactly `Value:` followed immediately by the numeric answer, with no spaces or extra characters before or after the number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 67,
+      "test_score": 0.7186620819005939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, logically ordered solution that includes only the indispensable reasoning and any needed calculations. Finish the answer with a single line that reads exactly `Result:` followed immediately by the numeric answer (no spaces or other characters). Nothing else may appear on that line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 59,
+      "test_score": 0.7180368865270397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution that includes only the indispensable reasoning and calculations. End the response with a single line exactly `ResultIs:` followed immediately by the numeric answer, with no spaces or extra characters before or after the number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 69,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, logically ordered solution containing only the essential reasoning and calculations. End the response with a single line exactly `Answer:` followed immediately by the numeric result, with no spaces or extra characters before or after the number. No other text may appear on that line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7127227258518287,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution containing only the necessary reasoning and calculations. End the response with a single line that reads \u201cAnswer:\u201d followed directly by the numeric result, and include no other text on that line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 38,
+      "test_score": 0.7120975304782745,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution that includes only the essential reasoning and any required calculations. Conclude the response with a single line that reads exactly `SolutionIs:` followed immediately by the numeric answer, without spaces or extra characters before or after the number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 77,
+      "test_score": 0.7117849327914973,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution with only the essential reasoning and calculations. End the response with a single line that reads exactly `Solution:` followed immediately by the numeric answer, without any spaces or extra characters. No other text may appear on that final line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.6539543607377305,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution that includes only the necessary reasoning and calculations. Conclude the response with a single line that reads exactly `Solution:` followed immediately by the numeric answer (no spaces or other characters). No additional text may appear on that final line.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6139418568302595,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, logically ordered solution that includes only the required reasoning and calculations. Conclude with a single line that reads exactly `Solution:` followed directly by the numeric answer (no spaces or extra characters). No other text may appear on that line.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.29352922788371366,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution containing only the essential reasoning and calculations. Conclude with a single line that reads exactly `Solution:` followed immediately by the numeric answer, with no spaces or extra characters before or after the number. No other text may appear on that line.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.26945920600187556,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution containing only the indispensable reasoning and calculations. End the response with a single line that consists solely of the numeric result\u2014no labels, spaces, or extra characters before or after the number.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.2241325414191935,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7461706783369803,
+    "avg_test_score": 0.6490867681864868,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

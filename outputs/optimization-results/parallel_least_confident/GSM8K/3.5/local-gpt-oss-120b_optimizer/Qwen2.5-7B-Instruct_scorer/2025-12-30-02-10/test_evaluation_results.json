@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List all given numbers, infer the exact calculation they require, evaluate it in clear step\u2011by\u2011step fashion while confirming each intermediate result, and output only the final answer in its simplest form.",
+      "train_score": 0.8888888888888888,
+      "train_step": 6,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the exact quantity being asked, list every explicit number with its meaning, assemble the single correct arithmetic expression that links them, compute it directly (checking any stated conditions), and output only the final simplified numeric result.",
+      "train_score": 0.896551724137931,
+      "train_step": 19,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the exact quantity asked for, catalog every explicit number together with its relational phrase, translate the entire scenario into the shortest exact arithmetic formula that yields that quantity, compute it step\u2011by\u2011step while checking any given conditions, and output only the final simplified numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 30,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what numerical result the problem requests. Record every explicit quantity along with its described relationship. Convert the whole situation into one fully parenthesized arithmetic or algebraic formula that produces the requested value, simplifying any unit conversions if needed. Compute the formula step\u2011by\u2011step, checking each intermediate against any stated constraints, and finally return only the final simplified number (integer or reduced fraction).",
+      "train_score": 0.89272030651341,
+      "train_step": 51,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise quantity the problem requests. Extract every explicit number together with its contextual role, perform any needed unit or percentage conversions, encode the entire situation as one clear arithmetic/algebraic expression that directly yields the required value, evaluate it exactly (using integers or reduced\u2011fraction arithmetic), verify consistency with the wording, and output only the final simplified numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 83,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact number requested, enumerate all given quantities with their meanings, encode the relationships into one precise formula, evaluate it sequentially checking any stated limits, and output only the final simplified numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 46,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact number the problem asks for. List each given quantity with its meaning, convert units if needed, and combine them into the single simplest exact arithmetic/algebraic expression that produces that number. Compute the expression using exact integer or reduced\u2011fraction arithmetic, verify it satisfies any stated conditions, and output only the final simplified numeric result.",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity being asked, list each given number together with its meaning (convert units when necessary), encode all relationships into the single simplest arithmetic/algebraic expression that produces that quantity, evaluate the expression step\u2011by\u2011step while honoring any stated conditions, and output only the final simplified numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 45,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what number the question asks for, enumerate each explicit quantity and its role, convert units or percentages as needed, write one unambiguous arithmetic/algebraic expression that yields the answer, compute it using exact integer or reduced\u2011fraction arithmetic while checking any constraints, and return only the final simplified numeric value.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, pinpoint the exact numeric quantity being asked, list each explicit number with its contextual role, translate the entire situation into the most compact exact arithmetic/algebraic formula that directly yields that value, evaluate the formula step\u2011by\u2011step using exact integer or reduced\u2011fraction arithmetic while respecting any stated conditions, and output only the final simplified numeric result.",
+      "train_score": 0.89272030651341,
+      "train_step": 66,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit number in the problem, determine the exact equation that connects them to the unknown quantity, solve the equation step\u2011by\u2011step while checking any stated conditions, and output only the final simplified numerical answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 17,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity the problem asks for, isolate all given numbers with their relationships, construct the most direct exact arithmetic or algebraic expression that yields that quantity, evaluate it using exact integer or reduced\u2011fraction arithmetic, and output only the final simplified number.",
+      "train_score": 0.896551724137931,
+      "train_step": 91,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the unknown asked for, gather every explicit number with its meaning, write the direct equation that relates the unknown to those numbers, solve the equation using exact integer or reduced\u2011fraction arithmetic while obeying all stated conditions, double\u2011check the solution against the original wording, and output only the final simplified numeric answer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 82,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the asked quantity, enumerate all explicit numbers with their roles, form the unique exact arithmetic/algebraic expression that yields the wanted value, compute it using exact integer or reduced\u2011fraction arithmetic while checking any conditions, verify the result fits the original wording, and return only the final simplified number.",
+      "train_score": 0.89272030651341,
+      "train_step": 96,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity requested, list each given number with its meaning, translate the whole problem into a single unambiguous exact formula that directly computes that quantity, evaluate it using exact integer or reduced\u2011fraction arithmetic while honoring any stated conditions, and output only the final simplified numeric result.",
+      "train_score": 0.896551724137931,
+      "train_step": 72,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "We shall list each given number with its meaning, formulate the unique closed\u2011form arithmetic/algebraic expression that computes the asked quantity, evaluate it exactly (using integers or reduced fractions) while respecting any conditions, and output only the final simplified numeric answer.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit number and its role, convert any units or percentages, encode the entire problem as a single exact arithmetic/algebraic expression that directly yields the asked quantity, evaluate it using exact integer or reduced\u2011fraction arithmetic while respecting all given conditions, and output only the final simplified numeric result.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the specific number the question seeks, enumerate each given quantity with its role, construct a single clear arithmetic/algebraic formula that directly yields that number, compute the formula using exact integer or reduced\u2011fraction arithmetic while respecting any stated conditions, and output only the final simplified result.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the quantity being asked, list every explicit number together with its role (perform any unit or percentage conversion), encode the entire scenario as one exact mathematical expression that directly yields that quantity, evaluate it precisely using integer or reduced\u2011fraction arithmetic while honoring all stated conditions, and output only the final simplified numeric result.",
+      "train_score": 0.7969348659003831,
+      "train_step": 99,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8007662835249042,
+      "train_step": -1,
+      "test_score": 0.8332069749810462,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single numerical value asked for, pull out every explicit number and its role, transform the whole description into one exact arithmetic (or algebraic) formula, evaluate it using exact integer or reduced\u2011fraction arithmetic while honoring all given conditions, and output only that final simplified number (no units, no explanation).",
+      "train_score": 0.3103448275862069,
+      "train_step": 99,
+      "test_score": 0.40106141015921154,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8756272789631396,
+    "best_test_instruction": "List all given numbers, infer the exact calculation they require, evaluate it in clear step\u2011by\u2011step fashion while confirming each intermediate result, and output only the final answer in its simplest form."
+  }
+}

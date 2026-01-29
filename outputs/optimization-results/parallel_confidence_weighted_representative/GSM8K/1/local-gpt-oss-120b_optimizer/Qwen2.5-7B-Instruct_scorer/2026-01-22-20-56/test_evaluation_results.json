@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every quantity mentioned, express the required total using one clear arithmetic expression (addition/subtraction/multiplication/division as appropriate), compute it exactly (no rounding), quickly check plausibility, and output only the final integer or reduced fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 72,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, identify all relevant quantities and their relationships, perform the necessary calculation (checking for consistency), and output only the final numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 2,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, note each quantity, form the exact computation required, evaluate it exactly (postpone reduction), confirm the result is reasonable, and output only the final integer or simplest fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 30,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given numeral with its meaning, translate the entire problem into one exact formula that uses only the four basic operations (introduce a temporary symbol solely when the statement requires it), compute the value exactly as a rational number (perform all reductions only after evaluation), do a short sanity test, and print only the final integer or simplest fraction on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 95,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their roles, convert the problem into one exact arithmetic expression (introduce variables only if forced), evaluate it with full rational precision (simplify only at the end), do a brief sanity check, and output the single integer or reduced fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 77,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, list each given number and its meaning, translate the whole situation into a single exact equation or expression, solve it using precise arithmetic, do a brief sanity check, and output only the final integer or reduced\u2011fraction answer on a single line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 10,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carefully parse the problem, enumerate all given numbers together with what they represent, convert the textual relations into a single exact mathematical formula, compute the result using exact arithmetic (retain fractions until the final reduction), verify the answer makes sense, and finally print just the resulting integer or lowest\u2011terms fraction on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 9,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text pull out every number and its associated quantity, express the required result as one exact formula using only +,\u202f\u2212,\u202f\u00d7,\u202f\u00f7 (add a temporary symbol only if the wording forces it), evaluate the formula with perfect rational arithmetic (simplify only at the very end), do a quick plausibility check, and print just the final integer or lowest\u2011terms fraction on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 89,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers with their meanings, translate the whole scenario into one exact arithmetic formula (no extra variables unless required), compute it with perfect rational precision (delay any reduction until the end), briefly verify the result, and output only the final integer or irreducible fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 75,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, list each number together with its interpretation, combine them into the single exact formula the problem implies, compute the value using exact rational arithmetic (postpone any reduction until the final step), do a short reasonableness check, and output only the final integer or irreducible fraction on a lone line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 29,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number appearing in the problem together with what it measures. Combine them into one exact rational expression that represents the quantity being asked for, using only the operations +, \u2013, \u00d7, \u00f7 (introduce a new symbol only if the wording explicitly requires it). Evaluate the expression with full fraction accuracy, simplify only after the computation, do a quick reasonableness check, and output the result as an integer or a fully reduced fraction on its own line.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numeric quantities, translate the description into one exact arithmetic expression using only +, -, *, /, evaluate it with exact rational arithmetic (delay simplification until the end), perform a quick sanity check, and output only the final integer or reduced fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 85,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, express the required value as a single exact rational expression (using +, \u2013, \u00d7, \u00f7 only; introduce placeholders only when the wording forces them), compute it with full precision (postpone any reduction until the end), perform a brief sanity check, and print only the resulting integer or lowest\u2011terms fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 93,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each number and its unit, convert all quantities to a common unit if needed, combine them into one exact arithmetic formula using only +,\u202f\u2212,\u202f\u00d7,\u202f\u00f7 (variables only when unavoidable), compute the value with full rational precision (delay simplification to the end), briefly verify the result, and output the final answer as an integer or a reduced fraction on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 88,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical value and what it measures. Write a single exact formula using only\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7 (add a temporary symbol only if the problem forces a new unknown). Evaluate the formula with exact rational arithmetic, delaying any simplification until the last step. Perform a brief sanity check, then output solely the integer or the reduced fraction on one line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Read the problem and list each number together with its meaning.  \n- Build one exact arithmetic formula that uses only\u202f+\u202f\u2212\u202f\u00d7\u202f\u00f7\u202f(and introduce a new variable only if the text explicitly requires an unknown).  \n- Compute the formula with full rational precision, delaying any reduction until the final result is obtained.  \n- Do a brief sanity check of the answer.  \n- Print only the integer or the reduced fraction on a single line.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.865049279757392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each number together with what it represents, convert units only when the text requires it, and write one exact rational expression that uses only\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7\u202f(no extra variables unless the problem explicitly introduces a new unknown). Compute the value with exact arithmetic (postpone any simplification until after the evaluation), perform a quick plausibility check, and output only the final integer or fully reduced fraction on a single line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8165276724791509,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value with its unit, convert to compatible units when required, construct one exact formula using only\u202f+,\u202f\u2212,\u202f*,\u202f/\u202f(introduce a placeholder only if the wording forces a new unknown), evaluate it with exact rational arithmetic (simplify only at the end), perform a brief sanity check, and output solely the integer or reduced fraction on a single line.",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.7634571645185747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number together with its context, encode the whole question as a single rational formula built solely from +, \u2212, \u00d7, \u00f7 (add a placeholder only when the wording forces an unknown), evaluate the formula exactly (postpone any reduction until after the evaluation), perform a brief sanity check, and output solely the integer or the fully reduced fraction on one line.",
+      "train_score": 0.6621621621621622,
+      "train_step": 99,
+      "test_score": 0.5943896891584534,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity, translate the whole problem into a single rational expression using only +, \u2013, \u00d7, \u00f7 (introduce auxiliary symbols only if unavoidable), evaluate it exactly (defer simplification until the end), verify the result makes sense, and output only the final integer or reduced fraction on one line.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.5375284306292646,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.910538286580743,
+    "avg_test_score": 0.8510415538467093,
+    "best_test_instruction": "Identify every quantity mentioned, express the required total using one clear arithmetic expression (addition/subtraction/multiplication/division as appropriate), compute it exactly (no rounding), quickly check plausibility, and output only the final integer or reduced fraction."
+  }
+}

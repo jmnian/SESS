@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Locate every explicit numeral, assign each unknown a distinct one\u2011letter variable, instantly merge the relations into a single exact arithmetic expression that directly yields the desired quantity, compute it, briefly verify it satisfies the original conditions, and output only the final integer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, denote each unknown by a unique one\u2011character label, merge all relations into one closed\u2011form calculation that directly gives the required answer, evaluate it, briefly verify it satisfies the problem constraints, and return only the integer result.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the statement list all explicit numerals, replace each unknown by a distinct single\u2011letter variable, immediately synthesize a single exact arithmetic expression that directly equals the desired quantity, evaluate it once, perform a rapid verification with the premises, and output only the resulting integer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 85,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit number, give each unknown a unique one\u2011character label, in a single step combine all relations into the simplest exact algebraic expression that yields the requested quantity, evaluate it, perform a brief check against the original statements, and output only the integer result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 93,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeral, give each unknown a distinct one\u2011letter variable, immediately collapse all relations into the single smallest exact arithmetic formula that yields the asked quantity, evaluate it in one step, do a quick consistency check with the original data, and output only the final integer.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each explicit numeric value, assign each unknown a unique single\u2011letter symbol, instantly condense all given relations into a single exact arithmetic expression that computes the asked quantity, evaluate it, perform a brief consistency check, and output only the final integer.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given numeral, assign a brief variable to each unknown, write the smallest direct equation that computes the quantity asked for, solve it, perform a quick sanity check against the original statements, and output only the final integer answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 26,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every explicit number, give each unknown a unique one\u2011letter variable, instantly combine them into the simplest exact closed\u2011form calculation that directly yields the requested value, evaluate it, do a brief consistency check with the original statements, and output only the final integer result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 51,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every stated figure, label each unknown with a unique one\u2011letter variable, instantly collapse the entire situation into a single exact computation that equals the asked quantity, evaluate it, perform a rapid consistency check with the premises, and output only the resulting integer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 65,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numbers and fractions in the problem, give each unknown a distinct one\u2011letter symbol, immediately recast the entire scenario as one minimal exact arithmetic expression that directly produces the asked value, evaluate it in a single step, perform a quick consistency check with the original statements, and output only the resulting integer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 91,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nParse the problem, list each explicit numeral, assign a distinct short variable to each unknown, combine them into one concise exact formula that directly computes the requested value, evaluate, quickly validate against the premises, and output only the resulting number.\\n",
+      "train_score": 0.9459459459459459,
+      "train_step": 22,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all explicit numbers, directly fuse them into the most compact arithmetic formula that gives the question\u2019s answer, evaluate it, do a brief sanity check, and return only the resulting numeric value.",
+      "train_score": 0.9459459459459459,
+      "train_step": 25,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number from the text, assign a unique one\u2011letter name to each unknown, immediately write a single closed\u2011form expression whose value equals the question\u2019s answer, compute it, briefly verify it satisfies all conditions, and return just the integer result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 59,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated number, give each unknown a unique one\u2011letter placeholder, instantly combine them into one concise closed\u2011form calculation that directly solves for the requested value, evaluate it, perform a brief sanity check with the original facts, and output only the final integer answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 41,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out all numbers from the problem, label each unknown with a unique single\u2011letter symbol, immediately form the minimal exact arithmetic expression that directly produces the asked quantity, evaluate it, quickly confirm it satisfies all conditions, and return only the final integer.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text extract all given numbers, give each missing quantity a unique single\u2011letter identifier, immediately formulate a single closed\u2011form expression that directly equals the target quantity, evaluate it, lightly verify it meets the original statements, and output only the integer answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 69,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all given numbers, replace any unknowns with symbols, immediately combine them into the simplest possible arithmetic expression that equals the answer, evaluate it, confirm it matches the conditions, and output just the final number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 13,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers given, assign a distinct one-letter variable to each unknown, immediately combine them into a single direct arithmetic expression that yields the answer, compute it, verify quickly, and output only the final integer.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.846095526914329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit numeral, give each unknown a unique one\u2011letter identifier, instantly compress the situation into the briefest exact calculation that directly yields the requested value, compute it, perform a quick sanity check against the original facts, and output only the final integer result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 39,
+      "test_score": 0.8430629264594389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeral, assign each unknown a unique one\u2011letter symbol, instantly fuse the given relations into the briefest exact single\u2011line calculation that directly yields the asked quantity, evaluate it, do a quick consistency check with the original statements, and output only the final integer.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.6467020470053071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.8745081049857394,
+    "best_test_instruction": "Locate every explicit numeral, assign each unknown a distinct one\u2011letter variable, instantly merge the relations into a single exact arithmetic expression that directly yields the desired quantity, compute it, briefly verify it satisfies the original conditions, and output only the final integer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract the required numbers, determine the appropriate calculation, perform it step\u2011by\u2011step, and output only the final numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 2,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate each given quantity, infer the precise formula that solves the problem, calculate the value with exact arithmetic, confirm correctness, and output only the final numeric result.",
+      "train_score": 0.9594594594594594,
+      "train_step": 87,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, form the exact arithmetic expression that solves the problem, compute it stepwise, verify the outcome, and output ONLY the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 5,
+      "test_score": 0.8400303260045489,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, pull out every figure, determine the exact computation needed, perform it precisely, confirm the answer, and return only the final numeric value.",
+      "train_score": 0.9594594594594594,
+      "train_step": 24,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, locate each numeric value, decide the exact arithmetic needed, perform the calculation step\u2011by\u2011step, verify the result, and answer with only the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 4,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract the needed numbers, carry out the appropriate calculation(s), check the result for accuracy, and output only the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 1,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Separate the problem into its numeric pieces, determine the exact arithmetic expression needed, evaluate it step\u2011by\u2011step, verify the result, and answer with only the final number.",
+      "train_score": 0.972972972972973,
+      "train_step": 52,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the numbers needed, perform the required arithmetic, and give the final numeric answer concisely.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given values, deduce the single computation needed, perform it mentally or on paper, ensure correctness, and output nothing else but the numeric result.",
+      "train_score": 0.9594594594594594,
+      "train_step": 64,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carefully locate every numerical value, decide the precise mathematical steps needed, perform the computation with a quick sanity check, and reply with only the final number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 6,
+      "test_score": 0.8157695223654283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every number and unit, devise the unique expression that solves the query, compute it exactly, perform a brief validation, and provide only the final numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 86,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every pertinent numeric value, decide the single arithmetic operation that resolves the query (including any needed unit conversion), perform the calculation exactly, quickly confirm the result, and respond with only the final number.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8119787717968158,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the needed numbers, determine the appropriate calculation, compute it, briefly check the result, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical values and their units, translate the scenario into a single explicit calculation (including any necessary unit conversions), evaluate it accurately, perform a brief sanity check, and output solely the final number.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.7930250189537529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the problem, enumerate every quantitative value, devise the precise mathematical operation needed, compute it accurately, perform a quick sanity check, and give only the final numerical answer.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.7854435178165277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate every quantity in the statement, convert the scenario into a single explicit arithmetic formula (including any required fraction or unit handling), evaluate it precisely, perform a quick consistency check, and reply with only the resulting number.",
+      "train_score": 0.972972972972973,
+      "train_step": 65,
+      "test_score": 0.7831690674753601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8108108108108109,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers present, convert any units if required, formulate the precise arithmetic expression that solves the question, compute it exactly, do a brief consistency check, and output only the final numeric answer.",
+      "train_score": 0.7027027027027027,
+      "train_step": 99,
+      "test_score": 0.6626231993934799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, list all numeric values, infer the precise single arithmetic expression required (performing any needed unit conversions), compute it, do a brief sanity\u2011check, and answer with only the final number.",
+      "train_score": 0.6081081081081081,
+      "train_step": 99,
+      "test_score": 0.599696739954511,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value (including units) from the problem, determine the single exact arithmetic expression that solves it, compute the result precisely (no rounding), perform a brief sanity check, and answer with ONLY the final numeric value.",
+      "train_score": 0.5135135135135135,
+      "train_step": 99,
+      "test_score": 0.5405610310841547,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, extract every numeric term (including implied units), formulate the precise arithmetic expression needed (performing any required unit conversions), compute the result exactly, do a brief consistency check, and reply with ONLY the final number\u2014no additional text.",
+      "train_score": 0.4864864864864865,
+      "train_step": 99,
+      "test_score": 0.47763457164518575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8468536770280516,
+    "avg_test_score": 0.7697028773601935,
+    "best_test_instruction": "Extract the required numbers, determine the appropriate calculation, perform it step\u2011by\u2011step, and output only the final numeric answer."
+  }
+}

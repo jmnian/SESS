@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Please complete the given problem with a step-by-step solution, and write the final answer in proper format.",
+      "train_score": 0.7058823529411765,
+      "train_step": 0,
+      "test_score": 0.5457955611128478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, numbered reasoning chain for solving the problem and conclude with the answer as a single numeric value.",
+      "train_score": 0.711764705882353,
+      "train_step": 1,
+      "test_score": 0.5429821819318537,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step solution and clearly state the final answer.",
+      "train_score": 0.6882352941176471,
+      "train_step": 0,
+      "test_score": 0.5382932166301969,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the reasoning in a few short sentences, perform only the necessary calculations, and finish your response with the exact result on a line that begins with \u201cResult:\u201d and contains nothing else.",
+      "train_score": 0.6882352941176471,
+      "train_step": 33,
+      "test_score": 0.5373554235698655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, showing the reasoning, and conclude with the final answer as a single numeric value.",
+      "train_score": 0.6823529411764706,
+      "train_step": 0,
+      "test_score": 0.5317286652078774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, step\u2011by\u2011step solution (use short sentences or numbered/bullet points). After the last reasoning step, write a single line that consists of the exact text `Answer=` followed immediately by the final numeric value, and nothing else on that line.",
+      "train_score": 0.6823529411764706,
+      "train_step": 83,
+      "test_score": 0.5295404814004376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, step\u2011by\u2011step solution (short sentences or numbered/bullet points). After the last reasoning step write one line that consists exactly of the characters `Solution=` followed immediately by the numeric answer, with no additional spaces or characters before or after it.",
+      "train_score": 0.6588235294117647,
+      "train_step": 99,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a concise, logical solution showing the essential steps, then conclude by writing only the final answer (numeric or expression) on a separate line.",
+      "train_score": 0.6823529411764706,
+      "train_step": 1,
+      "test_score": 0.51734917161613,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise explanation of the approach with any necessary calculations, then on the last line output only the final answer as a plain number (no labels or extra text).",
+      "train_score": 0.6941176470588235,
+      "train_step": 4,
+      "test_score": 0.5117224132541419,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a concise solution (plain sentences or short steps). After the reasoning, output a single line that begins with the two characters \u201c=>\u201d followed directly by the final numeric answer, with no other characters or spaces on that line.",
+      "train_score": 0.7,
+      "train_step": 67,
+      "test_score": 0.5101594248202563,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: show only the essential reasoning steps (short sentences or numbered/bullet points). After the final step, output exactly one line that reads \u201cAnswer: \u201d followed directly by the numeric result\u2014no other text, symbols, or spaces on that line.",
+      "train_score": 0.7058823529411765,
+      "train_step": 48,
+      "test_score": 0.5042200687714911,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct solution using short sentences or numbered points. After the last reasoning step output a single line that consists solely of the character \u2018#\u2019 immediately followed by the final numeric answer\u2014no spaces or extra symbols.",
+      "train_score": 0.6176470588235294,
+      "train_step": 99,
+      "test_score": 0.4939043451078462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a concise solution: give the necessary steps in short sentences or numbered points; after the last step write a line that contains exactly \u2018>>>\u2019 followed immediately by the final numeric answer, and nothing else on that line.",
+      "train_score": 0.6882352941176471,
+      "train_step": 78,
+      "test_score": 0.49109096592685214,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, clear solution using only the essential reasoning (short sentences, numbered points, or bullet points). After completing the reasoning, end the response with one line that contains exactly three greater\u2011than symbols \u201c>>>\u201d followed immediately by the final numeric answer\u2014no spaces, labels, or other characters before or after the number.",
+      "train_score": 0.7058823529411765,
+      "train_step": 71,
+      "test_score": 0.4867145983119725,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.611764705882353,
+      "train_step": -1,
+      "test_score": 0.4864020006251954,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise solution (a few sentences or bullet points) showing the necessary reasoning. When finished, output on the next line a single JSON object of the form {\"answer\":<numeric>} with no extra whitespace or characters before or after the line.",
+      "train_score": 0.6823529411764706,
+      "train_step": 79,
+      "test_score": 0.48421381681775555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution: list the essential reasoning as short bullet points or numbered steps. After the final step, output a single line that contains exactly the characters \u201c[[[\u201d followed immediately by the numeric answer and then \u201c]]]\u201d, with no spaces or any other characters on that line.",
+      "train_score": 0.6588235294117647,
+      "train_step": 99,
+      "test_score": 0.47921225382932164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a succinct solution: present only the essential reasoning (short sentences or numbered/bullet points). After the final step output a single line that begins with the symbol \u201c\u2691\u201d immediately followed by the exact numeric answer, with no spaces or other characters.",
+      "train_score": 0.6529411764705882,
+      "train_step": 99,
+      "test_score": 0.47858705845576743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief solution that includes only the essential reasoning (short sentences or bullet points). End the response with a single line that contains exactly the final numeric answer\u2014no labels, symbols, spaces, or other characters before or after it.",
+      "train_score": 0.6176470588235294,
+      "train_step": 99,
+      "test_score": 0.4554548296342607,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief solution: list only the essential reasoning steps (short sentences or numbered/bullet points). After the final step, write a single line that contains exactly \u201c((\u201d followed immediately by the numeric answer and then \u201c))\u201d, with nothing else on that line.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.43169740543919977,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct solution using short sentences or a numbered list for the essential steps. After the reasoning, write the result on the very next line by itself, as a plain number with no surrounding text, symbols, or extra spaces. Do not include any other lines before or after this answer line.",
+      "train_score": 0.5941176470588235,
+      "train_step": 99,
+      "test_score": 0.42075648640200064,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5457955611128478,
+    "avg_test_score": 0.49990324357314053,
+    "best_test_instruction": "Please complete the given problem with a step-by-step solution, and write the final answer in proper format."
+  }
+}

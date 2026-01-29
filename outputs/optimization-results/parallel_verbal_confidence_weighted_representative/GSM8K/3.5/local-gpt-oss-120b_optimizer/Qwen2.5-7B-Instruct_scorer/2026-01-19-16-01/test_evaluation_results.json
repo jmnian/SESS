@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Collect all stated numbers, convert any percentages, fractions, or ratios into whole\u2011number operations, merge them into a single exact integer expression that directly solves the question, evaluate it step\u2011by\u2011step while checking each intermediate value and the plausibility of the final result, then output only the final integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 42,
+      "test_score": 0.9249431387414708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every stated number and relationship, convert any fractions, percentages, ratios or unit changes into exact whole\u2011number operations, combine them into a single definitive integer expression that fulfills all problem constraints, evaluate it step\u2011by\u2011step while confirming each intermediate result is an integer and logically sound, and output only the final integer answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.9203942380591357,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find every numeric value mentioned, convert any fractions, percentages, ratios, or unit changes into whole\u2011number operations, combine them into one exact integer formula that directly answers the query, evaluate it step\u2011by\u2011step while checking each intermediate result for consistency, and output only the final integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 45,
+      "test_score": 0.9203942380591357,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number presented, convert any percentages, fractions, ratios, or unit conversions into exact whole\u2011number operations, combine them into a single aggregate integer expression that directly gives the answer, evaluate it step\u2011by\u2011step while confirming each intermediate result, and output only the final integer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 81,
+      "test_score": 0.9188779378316907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract every numeric value mentioned.\n- Convert each fraction, percentage, ratio, or unit conversion into an exact whole\u2011number operation.\n- Merge all relationships into a single integer expression that directly satisfies the problem\u2019s conditions.\n- Compute the expression step\u2011by\u2011step, checking that each intermediate result is an integer and logically consistent.\n- Output only the final integer answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all explicit quantities, translate any mentioned percentages, fractions, ratios or unit transformations into equivalent whole\u2011number calculations, combine them into a single clear integer expression that directly solves the problem, evaluate the expression step\u2011by\u2011step while confirming each intermediate result is an integer and logically consistent, and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 78,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric value, turn any fractions, percentages or unit ratios into equivalent whole\u2011number operations, construct the lone integer expression that satisfies all conditions of the problem, evaluate it step\u2011by\u2011step while verifying each intermediate result and checking overall reasonableness, then output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 32,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every quantity stated, translate each described relationship (including percentages, fractions, ratios or unit changes) into an equivalent whole\u2011number operation, combine all these operations into one definitive integer formula that fulfills the problem\u2019s conditions, compute the formula stepwise while confirming each intermediate value is an integer and consistent, and finally output only the resulting integer.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number, convert any fractions, percentages, ratios or unit changes into whole\u2011number operations, combine them into one exact integer expression that directly solves the task, evaluate it step\u2011by\u2011step confirming each intermediate value, and output only the final integer result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 43,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, convert any fractions, percentages, ratios or unit changes into whole\u2011number operations, combine them into a single exact integer formula that answers the question, evaluate it step\u2011by\u2011step while verifying each intermediate result, and output only the final integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 49,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric quantities, translate every fraction, percentage, ratio or unit conversion into exact whole\u2011number operations, build a single comprehensive integer expression that fulfills all constraints, evaluate it step\u2011by\u2011step while confirming each intermediate result is an integer and logically consistent, and output only the final integer answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric datum, replace each percent, fraction, ratio or unit conversion with an equivalent whole\u2011number operation, assemble one exact integer expression that fulfills all conditions, compute it sequentially verifying that each intermediate result is an integer, and output only the final integer value.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers, convert any fractions, percentages or unit relationships into whole\u2011number operations, craft one exact integer expression that solves the problem, compute it step\u2011by\u2011step while verifying each intermediate result, and output only the final integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 34,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, convert any fractions, percentages or unit conversions into whole\u2011number operations, assemble a single exact integer expression that solves the problem, evaluate it step\u2011by\u2011step while confirming each intermediate result, and output only the final integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 43,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into its arithmetic components, calculate each part, confirm the total, and report only the final integer value.",
+      "train_score": 0.9578544061302682,
+      "train_step": 1,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, form the exact whole\u2011number expression that answers the question (including any unit/fraction conversion), evaluate it step\u2011by\u2011step with internal checks, and output only the final integer result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 23,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, turn every fraction, percent or unit conversion into whole\u2011number operations, create one exact integer formula that answers the query, evaluate it step\u2011wise while checking each intermediate result, and output only the final integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 42,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value and every relational statement. Replace each fraction, percentage, ratio or unit conversion with an equivalent whole\u2011number operation. Form one complete integer equation that captures all constraints and directly gives the quantity asked for. Solve the equation by performing the operations in order, checking that each intermediate result remains an integer and obeys the problem\u2019s logic. Output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 84,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number given. Translate any fraction, percent, ratio or unit change into an exact whole\u2011number operation. Combine these into one complete integer formula that fulfills all constraints, compute it sequentially while ensuring each intermediate value is an integer and logically valid, and finally output only the resulting integer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8620689655172413,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity, translate any percentages, fractions, ratios or unit changes into whole\u2011number calculations, combine them into a single integer formula that fulfills all conditions, evaluate it step\u2011by\u2011step confirming each intermediate result is an integer, and finally output only the resulting integer with no extra text.",
+      "train_score": 0.2720306513409962,
+      "train_step": 99,
+      "test_score": 0.24715693707354056,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9249431387414708,
+    "avg_test_score": 0.8771074768042167,
+    "best_test_instruction": "Collect all stated numbers, convert any percentages, fractions, or ratios into whole\u2011number operations, merge them into a single exact integer expression that directly solves the question, evaluate it step\u2011by\u2011step while checking each intermediate value and the plausibility of the final result, then output only the final integer answer."
+  }
+}

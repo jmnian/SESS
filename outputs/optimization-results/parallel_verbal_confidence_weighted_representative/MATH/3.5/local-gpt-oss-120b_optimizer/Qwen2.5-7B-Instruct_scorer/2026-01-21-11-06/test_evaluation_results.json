@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Clarify the exact quantity required, pick the one most suitable theorem or formula, carry out only the necessary computations with a short comment for each, quickly confirm that every condition of the problem is met, and then write the final result alone on a new line in its simplest exact or decimal representation (including any required units, radicals or modular symbols).",
+      "train_score": 0.8529411764705882,
+      "train_step": 89,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact quantity to be found. Choose the single most efficient principle (e.g., a counting formula, algebraic identity, geometric similarity) that directly yields that quantity. Write the core formula or relation, then evaluate it with a brief justification for each algebraic step. Verify that the result obeys every condition, and present only the final numeric or exact answer on its own line (include units, radicals, or modulo symbols only if the problem requires them).",
+      "train_score": 0.8470588235294118,
+      "train_step": 81,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State precisely what is to be found, pick the single most relevant theorem or formula, carry out only the indispensable calculations each accompanied by a brief justification, promptly verify that the result meets every condition given, and write the final answer alone on its own line in the simplest exact form (including any required units, radicals, or modulo notation).",
+      "train_score": 0.8470588235294118,
+      "train_step": 33,
+      "test_score": 0.75054704595186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the task, select the most efficient method, perform each necessary calculation while briefly noting the transformation applied, verify that the result satisfies all conditions, and present the final answer alone on a separate line in simplest exact form (with units or radicals as appropriate).",
+      "train_score": 0.8411764705882353,
+      "train_step": 8,
+      "test_score": 0.75054704595186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact quantity sought, pick the one most appropriate theorem or identity, perform only the essential calculations (each followed by a short justification) while discarding any superfluous steps, immediately check that all problem constraints are met, and finish by writing solely the final answer on its own line in simplest exact or required\u2011unit form.",
+      "train_score": 0.8470588235294118,
+      "train_step": 62,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what the problem asks for. Choose the single most direct theorem, identity, or principle that solves it. Perform only the indispensable calculations, annotating each with a brief reason. Immediately confirm the result satisfies all given conditions, then output only the final answer on its own line in the simplest exact form (including units, radicals, or repeating\u2011decimal notation if needed).",
+      "train_score": 0.8529411764705882,
+      "train_step": 64,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity to find, recall the appropriate principle or formula, carry out each arithmetic or logical step with a brief justification, verify the result meets all given conditions, and present the final answer alone on its own line (including any units or exact notation as needed).",
+      "train_score": 0.8647058823529412,
+      "train_step": 9,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify precisely the quantity requested, choose the single most effective theorem, identity, or formula that directly yields it, perform only the essential calculations with a brief justification for each, instantly verify that the result meets all stated conditions, and then write the final answer alone on its own line in the simplest exact or decimal form (including any required units, radicals, or modulo symbols).",
+      "train_score": 0.8294117647058824,
+      "train_step": 99,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the quantity to determine, select the single most direct theorem or formula, perform only the essential calculations each annotated with a brief justification, verify that the result satisfies all given conditions, and output exactly the final answer (with any required units or exact form) on its own line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 24,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what is being asked, select the one key theorem/identity that directly gives it, carry out just the essential computation with a short comment for each step, immediately verify the result against every condition, and end with the exact answer on a separate line (use units, radicals or modulo symbols only if required).",
+      "train_score": 0.8470588235294118,
+      "train_step": 96,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the quantity the problem seeks, choose the single most powerful principle that directly yields it, carry out just the indispensable computation while annotating each step with a brief reason, perform a rapid verification that the result fulfills all given requirements, and conclude by writing ONLY the final answer on a new line in its simplest exact (or required) form with any necessary units.",
+      "train_score": 0.8117647058823529,
+      "train_step": 99,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7823529411764706,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target quantity, write the single key equation or identity that determines it, solve it using the minimal necessary algebra (annotating each move with a short reason), confirm the solution satisfies the original condition(s) by direct substitution, and finally output only the verified result on a separate line (with any required units or exact symbols).",
+      "train_score": 0.8058823529411765,
+      "train_step": 99,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Begin by pinpointing the exact quantity to determine. Choose the most efficient method, carry out each computation with a brief justification while constantly checking consistency with the problem\u2019s conditions, and finish with the precise answer (including any units) presented in a single, self\u2011contained sentence.",
+      "train_score": 0.8411764705882353,
+      "train_step": 8,
+      "test_score": 0.7317911847452329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State precisely what is being asked, pick the single most direct theorem, definition or formula, carry out just the essential computations with a brief comment for each, perform a rapid consistency check with the problem\u2019s data, and finish by writing only the final numeric or exact result (including any required units) on a separate line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 26,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, pinpoint the required quantity, select the simplest technique, perform each calculation with a brief rationale, confirm that the outcome satisfies the conditions, and state the precise answer on a single line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 9,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State exactly what the problem asks for, pick the single most relevant concept or formula, perform only the essential steps each with a short justification, quickly verify that the result meets all given conditions, and end by printing the answer alone on its own line in the simplest exact or decimal form (include units, radicals or modular symbols only when the problem requires them).",
+      "train_score": 0.8352941176470589,
+      "train_step": 99,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Clearly state the quantity sought, select the single most direct principle or identity that produces it, write the essential relation, carry out only the indispensable calculations each with a brief justification, immediately verify that the result satisfies all given constraints (including domain or extraneous\u2011solution checks), and finally present only the final answer on its own line in the simplest exact or decimal form with any required units or symbols.",
+      "train_score": 0.8,
+      "train_step": 99,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Explicitly state what is being asked, write the single crucial relation that directly yields it, perform only the indispensable algebra or arithmetic with a brief comment, confirm the result respects all constraints, and output the exact answer on its own line (include units or radicals only if required).",
+      "train_score": 0.8470588235294118,
+      "train_step": 92,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the required result, invoke the single most straightforward theorem/identity that gives it, execute only the minimal calculation steps with a brief justification, verify in one glance that the outcome respects every condition, and conclude by outputting just the final answer on a separate line, in its simplest exact or decimal form with any necessary units or symbols.",
+      "train_score": 0.7705882352941177,
+      "train_step": 99,
+      "test_score": 0.7130353235386058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the exact quantity to determine, write the single pivotal formula/theorem that yields it, carry out only the indispensable calculations (giving a brief justification for each), verify instantly that the result meets every condition, and output solely the final answer on its own line in the simplest exact or decimal form (include units, radicals or modulo symbols only if required).",
+      "train_score": 0.5882352941176471,
+      "train_step": 99,
+      "test_score": 0.5317286652078774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7533604251328541,
+    "avg_test_score": 0.7298262849997768,
+    "best_test_instruction": "Clarify the exact quantity required, pick the one most suitable theorem or formula, carry out only the necessary computations with a short comment for each, quickly confirm that every condition of the problem is met, and then write the final result alone on a new line in its simplest exact or decimal representation (including any required units, radicals or modular symbols)."
+  }
+}

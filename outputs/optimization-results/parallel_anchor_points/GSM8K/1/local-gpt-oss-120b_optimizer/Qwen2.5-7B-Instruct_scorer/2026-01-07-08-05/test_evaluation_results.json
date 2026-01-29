@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every numerical value in the problem and its role, convert the described relationships into the simplest arithmetic or algebraic expression, evaluate the expression step\u2011by\u2011step while displaying each intermediate result, and output only the final integer (or reduced fraction) as your answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 5,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note all quantities, write the one correct numerical expression that directly answers the question (using only +,\u2011,*,/ and parentheses), calculate it line\u2011by\u2011line displaying each intermediate outcome, check any condition, and give only the final integer or reduced\u2011fraction result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 41,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to locate every number, formulate the exact arithmetic expression needed, compute it step\u2011by\u2011step showing intermediate values, and output only the final integer answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 4,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric fact, give it a clear label if helpful, form a single exact arithmetic expression using only\u202f+,\u202f\u2011,\u202f*,\u202f/\u202fand parentheses that directly computes the asked quantity, evaluate the expression step\u2011by\u2011step showing every intermediate result on its own line, verify any condition stated, and output only the final exact answer (integer or reduced fraction) with no extra wording.",
+      "train_score": 0.9594594594594594,
+      "train_step": 63,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, assign each a variable if desired, then write ONE exact arithmetic expression using only +, \u2013, \u00d7, \u00f7 and parentheses that equals the asked value; simplify the expression algebraically, compute it step\u2011by\u2011step listing each intermediate result (keep fractions exact), briefly check any condition, and finally output only the resulting integer or reduced fraction.",
+      "train_score": 0.9459459459459459,
+      "train_step": 72,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum, translate the problem into a single exact arithmetic expression using only +, -, *, / and parentheses, simplify it symbolically, evaluate it sequentially while listing each intermediate exact result on its own line, verify any stated condition, and finally output only the final integer or reduced\u2011fraction answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 76,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each numeric datum with its context, assign a symbol if useful, and combine them into one precise expression using only addition, subtraction, multiplication, division and parentheses that yields the target value. Compute the expression sequentially, printing each intermediate result on its own line (maintaining exact fractions), verify any problem condition, and then output only the final exact answer\u2014an integer or a fraction in lowest terms\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 67,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeral, optionally label them, construct ONE exact rational expression using only +, -, *, / and parentheses that equals the asked quantity. Simplify the expression symbolically, then evaluate it step\u2011by\u2011step, writing each exact intermediate result on its own line (keep fractions unreduced until the final line). Check any condition given, and finally output ONLY the final answer as an integer or a reduced fraction\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric quantity mentioned, translate the entire problem into a single exact rational expression using only addition, subtraction, multiplication, division and parentheses. Simplify the expression symbolically, then compute it sequentially, writing each exact intermediate result on its own line (keep fractions unsimplified until the end). Verify any condition stated, and finally output only the final answer as an integer or a fraction in lowest terms, without any extra text.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each numeric quantity, assign a symbolic name if helpful, write the single minimal arithmetic formula (using only +, -, *, / and parentheses) that yields the asked value, evaluate it sequentially showing each intermediate result on its own line, briefly verify any condition, and answer with only the final exact integer or reduced fraction.",
+      "train_score": 0.9459459459459459,
+      "train_step": 54,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical facts, construct the minimal arithmetic formula that solves the question, compute it, and state the final integer result only.",
+      "train_score": 0.9459459459459459,
+      "train_step": 2,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity and its meaning, convert the situation into the minimal necessary arithmetic or equation, calculate each step explicitly (listing intermediate results), perform a quick consistency check of the final result, and output only the exact final answer (integer or reduced fraction) with no extra commentary.",
+      "train_score": 0.9459459459459459,
+      "train_step": 13,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every numeric datum with its context, then write the single simplest formula (using +, -, \u00d7, \u00f7 and parentheses) that yields the required quantity. Compute the formula, showing each intermediate calculation on a separate line, check that any stated condition holds, and finally output only the exact result\u2014an integer or a reduced fraction\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 24,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric datum with its meaning, then compose one exact arithmetic formula (using +,\u202f\u2212,\u202f*,\u202f/ and parentheses) that directly yields the required quantity. Evaluate the formula step\u2011by\u2011step, placing every intermediate result on a separate line (keep fractions exact until the final step), confirm any condition stated in the problem, and finally output only the exact answer (integer or lowest\u2011terms fraction) with no additional text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 53,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity in the problem, then construct ONE exact rational expression using only\u202f+,\u202f\u2011,\u202f*,\u202f/\u202fand parentheses (no extra symbols or variables) that yields the required result. Simplify the expression algebraically, evaluate it step\u2011by\u2011step printing each intermediate exact value on its own line (keep fractions unreduced until the final line), check any condition stated, and finally output ONLY the final answer as an integer or a reduced\u2011lowest\u2011terms fraction\u2014nothing else.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find every numeric value in the problem, optionally assign a short label, then write ONE exact rational expression that uses only +, -, *, / and parentheses to compute the requested quantity. Simplify the expression algebraically, evaluate it step\u2011by\u2011step printing each intermediate exact result on its own line (keep fractions unreduced until the final line), verify any condition given, and output only the final answer as an integer or a reduced fraction\u2014no other text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers, encode the problem as one exact arithmetic formula using only +, -, *, / and parentheses (no extraneous variables), simplify the formula algebraically, then compute it sequentially, listing each intermediate numerical result on its own line, verify any given condition, and finally output only the reduced exact answer (integer or lowest\u2011terms fraction) without any additional words.",
+      "train_score": 0.9594594594594594,
+      "train_step": 61,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number in the problem, give it a clear label if useful, and construct one exact formula that uses only\u202f+,\u202f\u2011,\u202f*,\u202f/\u202fand parentheses to compute the asked quantity. Evaluate the formula step\u2011by\u2011step, writing each intermediate numeric result on its own line (keep fractions exact until the final step). Verify any condition stated in the problem, then output only the final exact answer\u2014an integer or a fraction in lowest terms\u2014with no extra text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 54,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeral in the statement, optionally label them, then write one precise expression limited to +, -, *, / and parentheses that equals the quantity asked for. Compute this expression in order, putting each intermediate result on its own line, check any condition mentioned, and finally output only the resulting integer or reduced fraction\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 61,
+      "test_score": 0.8620166793025019,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7837837837837838,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number mentioned, build a single closed\u2011form rational expression with only +, \u2212, *, / and parentheses that represents the quantity asked for, simplify it algebraically, then compute it step by step, writing each exact intermediate result on its own line (keep fractions unreduced until the final line). After confirming any condition given, output only the final answer as a reduced integer or fraction, with no additional commentary.",
+      "train_score": 0.581081081081081,
+      "train_step": 99,
+      "test_score": 0.4533737680060652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.913570887035633,
+    "avg_test_score": 0.8716560164626883,
+    "best_test_instruction": "Identify every numerical value in the problem and its role, convert the described relationships into the simplest arithmetic or algebraic expression, evaluate the expression step\u2011by\u2011step while displaying each intermediate result, and output only the final integer (or reduced fraction) as your answer."
+  }
+}

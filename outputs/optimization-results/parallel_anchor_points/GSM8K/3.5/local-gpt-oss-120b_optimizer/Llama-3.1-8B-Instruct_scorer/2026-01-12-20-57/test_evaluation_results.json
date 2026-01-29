@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Work out the solution using the information given. Any explanation may precede the result, but the final line of your answer must contain exactly one integer, with no surrounding characters, spaces, or formatting. End your response immediately after that line.",
+      "train_score": 0.9080459770114943,
+      "train_step": 36,
+      "test_score": 0.8407884761182715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. After any explanations, output one line that contains only the integer answer\u2014no spaces, punctuation, letters, or formatting. This line must be the final line of your response; end the output immediately after it.",
+      "train_score": 0.8888888888888888,
+      "train_step": 99,
+      "test_score": 0.8400303260045489,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step and provide only the final answer.",
+      "train_score": 0.9080459770114943,
+      "train_step": 0,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required quantity from the information given. You may include a short justification, but finish your answer with a single line that contains only the final integer\u2014no additional words, symbols, units, or spaces.",
+      "train_score": 0.9157088122605364,
+      "train_step": 24,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide any reasoning, then finish with a single line that is exactly the integer answer\u2014no extra characters, whitespace, or markup. End output immediately after that line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 87,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the solution. The very last line of your response must be a single integer \u2014 the final answer \u2014 with nothing else on that line (no spaces, punctuation, letters, markdown, or blank lines). End the output right after that line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 98,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, write any explanation you like, then end your response with a single line that contains only the integer answer\u2014no spaces, letters, symbols, or markdown. That line must be the very last line of your output; do not produce any additional text after it.",
+      "train_score": 0.8735632183908046,
+      "train_step": 99,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step. Once you have the result, output exactly one line that contains only the integer answer\u2014no spaces, symbols, units, or additional text. Do not include any further output after that line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 31,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, step\u2011by\u2011step calculation and conclude with the exact numeric answer on its own line, without any extra wording.",
+      "train_score": 0.9157088122605364,
+      "train_step": 1,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output the answer alone on the final line: a plain integer with no leading or trailing characters, spaces, or punctuation. Any explanation should appear above this line.",
+      "train_score": 0.9080459770114943,
+      "train_step": 31,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain your solution if you wish. The very last line of your output must be a plain\u2011text line containing exactly one integer \u2014 the final answer \u2014 with no leading or trailing whitespace, punctuation, letters, symbols or markdown (including code fences). End the response immediately after that line.",
+      "train_score": 0.8735632183908046,
+      "train_step": 99,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem. After any explanation, write a single line that contains only the exact integer answer\u2014no spaces, letters, symbols, markdown, or surrounding whitespace. The answer line must be the final line of your output (no extra characters or lines after it).",
+      "train_score": 0.9195402298850575,
+      "train_step": 46,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. Any explanation may come before the answer, but the final line of your output must consist of exactly one integer\u2014no spaces, punctuation, letters, or markdown\u2014and you must stop immediately after that line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 42,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide any necessary reasoning. The very last line of your output must be a plain\u2011text line containing exactly one integer\u2014the final answer\u2014with no surrounding whitespace, punctuation, letters, symbols, or markdown formatting (including code fences). End your response immediately after that line.",
+      "train_score": 0.9080459770114943,
+      "train_step": 40,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a solution. After any required reasoning, output a single line that contains only the integer answer\u2014no leading or trailing spaces, symbols, letters, or formatting. End the response immediately after that line.",
+      "train_score": 0.9080459770114943,
+      "train_step": 42,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. You may provide any reasoning, but terminate your response with a line that consists solely of the integer answer\u2014no spaces, punctuation, letters, or markdown. Produce no further output after that line.",
+      "train_score": 0.89272030651341,
+      "train_step": 99,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide the solution. When finished, write the answer as a single line that contains only the integer\u2014no surrounding whitespace, punctuation, letters, or markup. The answer line must be the very last line of your output; terminate immediately after it.",
+      "train_score": 0.896551724137931,
+      "train_step": 99,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem. Any explanation may come before the answer. The last line of your output must be exactly one integer, with nothing else on that line (no spaces, punctuation, letters, markdown, or blank lines). Do not include any additional output after this line.",
+      "train_score": 0.89272030651341,
+      "train_step": 99,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the question, then output the result as a single integer on the last line, with no other characters or formatting; stop immediately after that line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 85,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. Any explanation may precede the answer. The final line of your output must be a single line containing only the integer answer\u2014no spaces, punctuation, letters, markdown, or extra blank lines. Stop output exactly after that line.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7777777777777778,
+      "train_step": -1,
+      "test_score": 0.7543593631539045,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8407884761182715,
+    "avg_test_score": 0.8239647640709054,
+    "best_test_instruction": "Work out the solution using the information given. Any explanation may precede the result, but the final line of your answer must contain exactly one integer, with no surrounding characters, spaces, or formatting. End your response immediately after that line."
+  }
+}

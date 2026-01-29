@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List all stated numbers, give each unknown a unique symbol, rewrite each sentence as a precise arithmetic or algebraic formula, reduce the system to a single computation, evaluate it while confirming each step satisfies the original condition, and output solely the final whole\u2011number (or whole\u2011percent) result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 21,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value, create a distinct variable for each unknown, rewrite each sentence as a single exact arithmetic relation (using +, \u2013, \u00d7, \u00f7, fractions, % or probability), repeatedly substitute to eliminate variables until one expression for the asked quantity remains, compute it step\u2011by\u2011step verifying each intermediate against its source, and output only the final integer or whole\u2011percent answer.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every given number, denote each missing quantity with a fresh symbol, convert each statement into one precise arithmetic or algebraic relation (allowed operators +, \u2013, \u00d7, \u00f7, fractions, % or probability), combine the relations by substitution or elimination until a single formula for the target quantity is obtained, compute it step\u2011wise confirming each step against its origin, and output solely the final integer or whole\u2011percent result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all stated numbers, introduce a unique symbol for each unknown, convert each statement into one exact arithmetic/algebraic equation (using\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7, fractions,\u202f%\u202for probabilities), eliminate symbols by substitution until a single formula for the required quantity is obtained, compute the formula step\u2011by\u2011step while briefly verifying each intermediate matches its originating clause, and output only the final integer or whole\u2011percent answer.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all given numerals, create a unique variable for each missing quantity, rewrite each condition as a single precise arithmetic or set\u2011theoretic expression (including +, \u2013, \u00d7, \u00f7, fractions, %, or inclusion\u2011exclusion), simplify to the sole computation that provides the required result, carry out the calculation sequentially while briefly checking each intermediate against its source, and return only the final whole\u2011number (or whole\u2011percent) answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 50,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number, give each unknown a distinct placeholder, rewrite each statement as a single exact arithmetic/algebraic relation (using +, \u2013, \u00d7, \u00f7, fractions, % or probability), combine the relations until only the expression for the requested quantity remains, evaluate it step\u2011by\u2011step with brief verification of each intermediate against its source, and output only the final integer or whole\u2011percent answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 73,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit quantity, label each unknown with a fresh symbol, convert each sentence into a single exact arithmetic or algebraic expression, reduce the set to one definitive calculation, evaluate it sequentially while briefly confirming each step satisfies the original condition, and return solely the final integer (or whole\u2011number percent) result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 21,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all explicit numbers, assign a distinct symbol to each unknown, convert every statement into an exact mathematical relation (equation, direct computation, or probability), solve the resulting system step\u2011by\u2011step with brief verification of each intermediate result, and output only the final integer (or whole\u2011number percent) answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 15,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value. Introduce a distinct variable for each unknown quantity. Translate each sentence into one exact arithmetic/algebraic relation (allowing +, \u2013, \u00d7, \u00f7, fractions, % or probability). Systematically substitute and simplify until only a single expression for the asked quantity remains. Compute it step\u2011by\u2011step, checking each intermediate against its source clause, and output solely the final integer or whole\u2011percent answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all given numbers, label each missing quantity with a fresh symbol, translate every clause into a precise arithmetic/algebraic formula (permitting\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7, fractions,\u202f%\u202for probabilities), repeatedly substitute and simplify until a single expression for the requested value remains, evaluate it step\u2011by\u2011step while briefly confirming each intermediate agrees with its originating statement, and output only the final integer or whole\u2011percent answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 84,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value, create a distinct placeholder for each unknown, rewrite each statement as an exact arithmetic or algebraic equation (including fractions, percentages, or probabilities), condense the system to the minimal required calculation, evaluate it step\u2011by\u2011step while briefly confirming each intermediate satisfies its source statement, and output only the final integer (or whole\u2011percent) answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 25,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given numeral. Introduce a new symbol for each missing quantity. Express each statement as one exact arithmetic/algebraic relation (using +, \u2013, \u00d7, \u00f7, fractions, % or probability). Eliminate symbols by substitution until a single formula for the required value is obtained. Evaluate that formula step\u2011by\u2011step, briefly verifying each intermediate with its original clause, and output only the final integer or whole\u2011percent result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 85,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given number, introduce a fresh symbol for each unknown, rewrite each statement as a single exact arithmetic or probabilistic relation (using\u202f+,\u202f\u2013,\u202f\u00d7,\u202f\u00f7, fractions,\u202f%\u202for probability), condense the set of relations until only the expression that directly yields the requested value remains, evaluate it step\u2011by\u2011step while performing brief sanity checks on each intermediate, and output only the final integer or whole\u2011percent answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 63,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number from the problem. Introduce a new placeholder for each unknown quantity. Convert each statement into a single exact arithmetic or algebraic relation (using\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7, fractions,\u202f%\u202for probability). Combine the relations until only one expression for the required quantity remains. Compute it sequentially, briefly confirming that each intermediate value satisfies its originating statement, and output solely the final integer (or whole\u2011percent) answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 80,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated numeral, give a unique placeholder to each missing value, express each sentence as one exact arithmetic/algebraic relation (allowed operators:\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7, fractions,\u202f%\u202for probabilities), systematically eliminate intermediate variables until a single formula for the asked quantity remains, evaluate it sequentially with a quick check that each step matches its origin, and output only the final integer or whole\u2011percent result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 67,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit number, give each unknown a distinct placeholder, recast each statement as a single exact arithmetic or algebraic relation (including percentages, fractions, or rates), merge the relations into the single necessary computation, evaluate it step\u2011by\u2011step while briefly verifying each intermediate matches its source statement, and output only the final integer or whole\u2011number percent answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 32,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit quantity, label each unknown with its own placeholder, encode each statement as a single exact formula (operators +, \u2013, \u00d7, \u00f7, fractions, % or probability), merge the formulas by successive substitution until a solitary formula for the target remains, compute it stepwise while briefly confirming each intermediate matches its origin, and output exclusively the final integer or whole\u2011percent result.",
+      "train_score": 0.896551724137931,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, note all explicit numerals, introduce a fresh symbol for each unknown, convert each sentence into a single precise arithmetic/algebraic expression (including +, \u2013, \u00d7, \u00f7, fractions, % or probability), collapse the expressions to the essential calculation that yields the requested value, evaluate it stepwise while briefly verifying each intermediate matches its source statement, and output only the final whole\u2011number (or whole\u2011percent) answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 38,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated quantity, give each unknown a unique symbol, recast each sentence as an exact arithmetic relation (including fractions, percentages or rates), condense the set of relations to the minimal computable expression, evaluate it step\u2011by\u2011step while briefly checking each intermediate result against its source statement, and output only the final whole\u2011number (or whole\u2011percent) answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 21,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, assign a unique placeholder to each missing value, translate every sentence into one exact arithmetic/algebraic relation (allowed operators: +, \u2013, \u00d7, \u00f7, fractions, % or probability), repeatedly substitute until the target quantity is expressed as a single computable formula, evaluate it sequentially checking consistency with its origin, and output only the final whole\u2011number or whole\u2011percent result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8390804597701149,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.913570887035633,
+    "avg_test_score": 0.9016932019206472,
+    "best_test_instruction": "List all stated numbers, give each unknown a unique symbol, rewrite each sentence as a precise arithmetic or algebraic formula, reduce the system to a single computation, evaluate it while confirming each step satisfies the original condition, and output solely the final whole\u2011number (or whole\u2011percent) result."
+  }
+}

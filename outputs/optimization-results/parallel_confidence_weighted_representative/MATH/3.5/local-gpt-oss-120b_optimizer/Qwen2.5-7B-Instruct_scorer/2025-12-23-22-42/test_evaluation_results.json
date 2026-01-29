@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a compact solution: cite the central theorem or formula, perform only the indispensable calculations, and finish with the single numerical answer.",
+      "train_score": 0.8352941176470589,
+      "train_step": 5,
+      "test_score": 0.7599249765551734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a concise, self\u2011contained solution: state the key insight, perform the necessary calculations with brief justification, and present only the final answer.",
+      "train_score": 0.8470588235294118,
+      "train_step": 3,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained solution that (a) names the single theorem or operation needed, (b) carries out just the indispensable algebra or arithmetic with a brief rationale, (c) confirms the answer meets all conditions, and (d) ends with only the final answer in reduced form, without any additional text.",
+      "train_score": 0.8529411764705882,
+      "train_step": 42,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained answer that (a) identifies the single theorem or operation required, (b) performs the indispensable calculation with a brief justification, (c) checks that the result satisfies the problem\u2019s constraints, and (d) ends with only the final numeric answer in its simplest exact form.",
+      "train_score": 0.8411764705882353,
+      "train_step": 58,
+      "test_score": 0.7564864020006252,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution that (i) identifies the primary concept or formula needed, (ii) carries out only the essential steps with brief justification, (iii) checks that the result satisfies the problem conditions, and (iv) outputs exclusively the final answer in simplest form.",
+      "train_score": 0.8411764705882353,
+      "train_step": 57,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self-contained answer: (i) identify the essential principle or theorem, (ii) perform only the required calculations with brief justification, (iii) verify the result against problem constraints, and (iv) present solely the final numeric answer (or answers) in simplest form.",
+      "train_score": 0.8352941176470589,
+      "train_step": 56,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question with a terse, independent response: first pinpoint the sole theorem or formula needed, then execute only the necessary arithmetic while giving a one\u2011sentence rationale, finally write the exact result (reduced if a fraction) on the last line alone.",
+      "train_score": 0.7352941176470589,
+      "train_step": 99,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, ordered solution: first identify the fundamental principle to use, then carry out each calculation explicitly while checking intermediate outcomes, and finally present the exact answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 3,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained response that (a) cites the single rule or fact required, (b) carries out the indispensable computation with a short justification, (c) confirms the answer satisfies any given conditions, and (d) places only the final numeric result, reduced if possible, on the final line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 83,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a succinct, self\u2011contained solution: (i) name the single rule or identity needed, (ii) execute the indispensable calculation with a brief justification, (iii) verify the outcome meets the problem\u2019s requirements, and (iv) output solely the final numeric answer (or list) in reduced form.",
+      "train_score": 0.8352941176470589,
+      "train_step": 58,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal, stand\u2011alone solution: name the essential principle, compute only what is required, briefly check the result, and write the final answer alone on the last line in exact reduced form.",
+      "train_score": 0.8411764705882353,
+      "train_step": 81,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained derivation: (i) name the key principle or formula, (ii) perform only the indispensable calculations with brief justification, (iii) verify each intermediate result, and (iv) give solely the final answer.",
+      "train_score": 0.8647058823529412,
+      "train_step": 7,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, systematic solution: identify the key concepts, carry out the necessary calculations, and state the final answer clearly.",
+      "train_score": 0.8352941176470589,
+      "train_step": 2,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question with a compact, self\u2011contained solution: quickly identify the required principle, perform only the essential calculation with a brief justification, verify the result, and output solely the final numeric answer in simplest form.",
+      "train_score": 0.8352941176470589,
+      "train_step": 12,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, self\u2011sufficient solution by: (i) stating the core theorem or relation, (ii) executing the minimal necessary arithmetic with a short justification, (iii) briefly confirming the answer meets all constraints, and (iv) presenting only the final number, reduced if possible.",
+      "train_score": 0.8529411764705882,
+      "train_step": 35,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution: (i) state the single principle or theorem that solves the problem, (ii) carry out only the necessary computation with a short justification, (iii) quickly check that the result meets the problem\u2019s requirements, and (iv) output exactly one line containing the final answer in simplest form.",
+      "train_score": 0.8470588235294118,
+      "train_step": 62,
+      "test_score": 0.7327289778055642,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence summary of the key idea, perform only the indispensable calculation with a brief justification, and conclude with a single line that contains only the final exact answer in simplest form.",
+      "train_score": 0.7352941176470589,
+      "train_step": 99,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a tight, self\u2011contained solution: (i) pinpoint the core principle or identity needed, (ii) execute only the indispensable calculations in the fewest logical steps, (iii) perform a quick check of each intermediate outcome, and (iv) reply with the exact final numeric answer alone.",
+      "train_score": 0.8411764705882353,
+      "train_step": 8,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Use logical reasoning and relevant mathematical concepts to solve the problem presented. Ensure clarity and brevity in your responses.",
+      "train_score": 0.8470588235294118,
+      "train_step": 0,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, complete solution: state the crucial theorem, perform the essential computation succinctly, verify the outcome, and present only the final answer.",
+      "train_score": 0.8529411764705882,
+      "train_step": 65,
+      "test_score": 0.6548921537980619,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8294117647058824,
+      "train_step": -1,
+      "test_score": 0.6492653954360738,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7599249765551734,
+    "avg_test_score": 0.7373137438782952,
+    "best_test_instruction": "Give a compact solution: cite the central theorem or formula, perform only the indispensable calculations, and finish with the single numerical answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Restate the problem briefly, list all given quantities, formulate the exact calculation required, show each arithmetic step with intermediate results, and finish with the final numeric answer presented alone.",
+      "train_score": 0.9042145593869731,
+      "train_step": 2,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantities, form the exact mathematical equation(s), solve them with transparent intermediate steps, and provide only the final number as the answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 10,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number given in the problem and its meaning, formulate the exact algebraic or arithmetic expression(s) required, compute the solution step\u2011by\u2011step displaying each intermediate result on its own labeled line, and finish by writing only the final numeric answer on the last line.",
+      "train_score": 0.89272030651341,
+      "train_step": 24,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution step\u2011by\u2011step: first list all given values, then determine the required operations (addition, subtraction, multiplication, division, percentages), apply them in logical order, show each intermediate result, and finally present the exact answer alone.",
+      "train_score": 0.89272030651341,
+      "train_step": 2,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, define the required expression, calculate stepwise showing each intermediate result on its own line, and output only the final answer as a single number.",
+      "train_score": 0.8735632183908046,
+      "train_step": 27,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: first list all given quantities, then formulate the necessary equation(s), solve them step\u2011by\u2011step, and end with only the final numerical answer.",
+      "train_score": 0.8773946360153256,
+      "train_step": 1,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into a single exact arithmetic expression, evaluate it step\u2011by\u2011step showing each intermediate result on its own line (you may label the steps), and finish by printing only the final numeric answer on the last line.",
+      "train_score": 0.9003831417624522,
+      "train_step": 19,
+      "test_score": 0.8203184230477635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the task, catalog each constant and its purpose, build the necessary calculation(s), execute them step\u2011by\u2011step with every intermediate outcome on its own line (including a brief label), and conclude with only the final numerical answer on a separate line.",
+      "train_score": 0.8850574712643678,
+      "train_step": 11,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, write the exact calculation(s) required, execute them step\u2011by\u2011step listing each intermediate result on a separate line, and end with a line that contains only the final answer.",
+      "train_score": 0.8773946360153256,
+      "train_step": 29,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and its role, assign clear variable names if helpful, write the exact arithmetic expression(s) required, evaluate them one operation per line (label optional), and end with a single line that contains only the final numeric result, without any additional text or units.",
+      "train_score": 0.8888888888888888,
+      "train_step": 52,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, assign clear variables if useful, write the exact arithmetic expression(s) with proper parentheses, evaluate them step\u2011by\u2011step showing only the resulting number on each line, and end with a single line that contains exactly the final numeric answer (no units or extra text).",
+      "train_score": 0.8773946360153256,
+      "train_step": 59,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, assign clear variable names if helpful, formulate the exact arithmetic expression(s) needed, evaluate them one operation at a time with each intermediate result on its own line (optional brief label), and conclude with a single line that contains only the final numeric answer\u2014no units, no extra text.",
+      "train_score": 0.8850574712643678,
+      "train_step": 87,
+      "test_score": 0.7945413191811979,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity, construct the precise arithmetic expression(s), then compute the solution showing every intermediate value on its own line prefixed by a step number, and output only the final number on the last line.",
+      "train_score": 0.89272030651341,
+      "train_step": 58,
+      "test_score": 0.7899924184988628,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric quantity, give each a clear variable name, write the complete arithmetic formula(s) needed (with parentheses), then solve them sequentially. For each operation output a line of the form \u201cStep\u202fk: <sub\u2011expression> = <value>\u201d (the sub\u2011expression may be the whole current expression). Finally, output a single line that contains only the final numeric answer (no units or extra text).",
+      "train_score": 0.896551724137931,
+      "train_step": 88,
+      "test_score": 0.7892342683851402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine all numeric quantities, construct the exact calculation required, perform the computation one operation at a time with each intermediate result on its own line, and conclude with a single line containing only the final numeric answer (no units or extra text).",
+      "train_score": 0.8773946360153256,
+      "train_step": 59,
+      "test_score": 0.7702805155420773,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7854406130268199,
+      "train_step": -1,
+      "test_score": 0.7573919636087946,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given number, assign a clear variable, then write a chain of equalities that evaluates the required expression step by step\u2014one equality per line (you may prefix with \u201cStep\u202fk:\u201d if you wish). End with a line that contains only the final numeric result, no units or additional text.",
+      "train_score": 0.7739463601532567,
+      "train_step": 99,
+      "test_score": 0.730098559514784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numeric value, give it a short variable name, write the precise arithmetic expression(s) (with parentheses), then evaluate them one operation per line prefixed by \u201cStep\u202fk:\u201d. End with one line that contains only the final numeric result\u2014no units, no extra text.",
+      "train_score": 0.632183908045977,
+      "train_step": 99,
+      "test_score": 0.6459438968915845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum, assign a brief mnemonic variable to each, compose the exact arithmetic expression(s) that solve the problem (with necessary parentheses), evaluate the expression step\u2011by\u2011step writing one intermediate result per line (you may prepend \u201cStep\u202fk:\u201d if you wish), and finish with a single line that contains only the final numeric answer\u2014no units, symbols, or extra wording.",
+      "train_score": 0.6475095785440613,
+      "train_step": 99,
+      "test_score": 0.5921152388172858,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each numeric constant, give it a concise variable name, write the exact arithmetic expression(s) required (with appropriate parentheses), evaluate them one operation per line showing only the resulting number (optionally prefixed with \u201cStep\u202fk:\u201d or a brief label), and finish with a single line that contains only the final numeric answer\u2014no units, no extra words.",
+      "train_score": 0.5593869731800766,
+      "train_step": 99,
+      "test_score": 0.5299469294920395,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number from the problem, give each a meaningful symbol, write the complete formula using those symbols, then compute the formula step\u2011by\u2011step, writing one intermediate result per line (optional brief label). Finally output only the final numeric result on its own line, without any units or commentary.",
+      "train_score": 0.5325670498084292,
+      "train_step": 99,
+      "test_score": 0.5291887793783169,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8423047763457164,
+    "avg_test_score": 0.7598830282681684,
+    "best_test_instruction": "Restate the problem briefly, list all given quantities, formulate the exact calculation required, show each arithmetic step with intermediate results, and finish with the final numeric answer presented alone."
+  }
+}

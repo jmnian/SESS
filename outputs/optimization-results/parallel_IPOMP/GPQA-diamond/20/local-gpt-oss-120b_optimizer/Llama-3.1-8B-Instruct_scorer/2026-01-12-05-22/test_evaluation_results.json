@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the correct answer based on the given scenario, stemming from specific scientific knowledge and logical deduction.",
+      "train_score": 0.3076923076923077,
+      "train_step": 0,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the correct multiple\u2011choice answer based solely on the problem statement and output only the option label (A, B, C, or D) without any additional commentary.",
+      "train_score": 0.358974358974359,
+      "train_step": 1,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its answer choices, deduce the correct choice using only the given information, and reply with the single letter (A\u2011D) that corresponds to the correct answer.",
+      "train_score": 0.3076923076923077,
+      "train_step": 4,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt and its four options (A\u2011D). Based only on the supplied information (and any universally accepted facts needed to interpret it), determine which option is correct. Respond with exactly one capital letter representing that choice\u2014no spaces, punctuation, or additional text.",
+      "train_score": 0.3076923076923077,
+      "train_step": 56,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem attentively, select the correct answer from the provided options, and supply a concise justification (one\u2011to\u2011two sentences) that references the central concept or calculation used to arrive at the choice.",
+      "train_score": 0.38461538461538464,
+      "train_step": 1,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the given multiple\u2011choice question and select the correct answer from options A\u2011D. Respond with only the chosen capital letter on a single line\u2014no spaces, punctuation, or additional text.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the prompt and the four options (A\u2011D). Reason internally using only the information supplied (and universally accepted knowledge) to find the correct answer. Finally, output exactly one uppercase letter representing that choice\u2014no other characters or explanation.",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question and the four options. Using only the data given in the prompt, decide which option (A\u2011D) is correct and reply with that single capital letter alone\u2014no punctuation, no words, no explanation.",
+      "train_score": 0.3333333333333333,
+      "train_step": 5,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt and its four choices (A\u2011D). Using only the supplied information, determine the correct option. Respond with exactly one capital letter\u2014\u200bthe answer\u2014and nothing else (no spaces, punctuation, or explanation).",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question and its four answer choices (A\u2011D). Using only the information supplied (and universally accepted facts), reason internally to identify the correct choice. Finally, output exactly one capital letter representing that choice\u2014no spaces, punctuation, or additional text.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2564102564102564,
+      "train_step": -1,
+      "test_score": 0.2777777777777778,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the prompt and the four options labeled A through D. Based solely on the supplied details, select the correct option and output only its letter (A, B, C, or D) with no extra symbols, spaces, or commentary.",
+      "train_score": 0.3333333333333333,
+      "train_step": 15,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above\", and \"concise, effective, and generally applicable to all problems above.\"",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.3076923076923077,
+      "train_step": 12,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question and each answer choice (A\u2011D) methodically; determine which choice is correct based solely on the given information, and output only the single capital letter of that choice.",
+      "train_score": 0.3076923076923077,
+      "train_step": 5,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the correct option (A\u2011D) using only the data in the prompt. Respond with the single corresponding capital letter, and nothing else.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Select the correct answer choice based on the information given.",
+      "train_score": 0.38461538461538464,
+      "train_step": 0,
+      "test_score": 0.24242424242424243,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the correct option (A\u2011D), and output only that letter.",
+      "train_score": 0.3076923076923077,
+      "train_step": 2,
+      "test_score": 0.23232323232323232,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which of the options A\u2011D correctly answers the question using the provided information, and output only the selected letter.",
+      "train_score": 0.41025641025641024,
+      "train_step": 1,
+      "test_score": 0.21717171717171718,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the prompt and the four options (A\u2011D), infer the correct answer solely from the supplied data. Output only the appropriate option letter as a lone character on its own line.",
+      "train_score": 0.05128205128205128,
+      "train_step": 99,
+      "test_score": 0.18181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Explain the correct answer choice and the reasoning behind it.",
+      "train_score": 0.3333333333333333,
+      "train_step": 0,
+      "test_score": 0.18181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3383838383838384,
+    "avg_test_score": 0.27296777296777297,
+    "best_test_instruction": "Identify the correct answer based on the given scenario, stemming from specific scientific knowledge and logical deduction."
+  }
+}

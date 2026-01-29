@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the problem statement, keep only the numerical facts that influence the quantity asked. Assign a distinct variable to each unknown that appears in the question. Build the minimal exact computation required\u2014either one closed\u2011form expression or the smallest consistent set of equations. Evaluate it with integer or fraction arithmetic (round solely if a percent is requested). Verify that every original condition holds, and print only the final integer (or integer\u2011percentage) answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 55,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers that influence the answer, disregard any unrelated wording, introduce a distinct variable for each unknown required, reduce the information to the simplest exact calculation (a single formula or the smallest solvable system), evaluate it using exact integer or fractional arithmetic (round only if a percentage is requested), verify every original condition, and output only the final integer (or integer\u2011percentage) result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 54,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric fact, keep only those that affect the asked quantity, give each required unknown a unique symbol, translate the situation into the single simplest exact expression or the smallest solvable system, evaluate it with exact integer or rational arithmetic (round only if a percentage is explicitly requested), confirm all original relationships hold, and output only the final integer (or integer\u2011percentage) answer.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers that influence the target value, assign a unique variable to each unknown needed, reduce the story to the single shortest exact relation (either one formula or the smallest consistent system), solve it with exact integer or rational math (only round when a percent is explicitly asked), confirm every original condition holds, and print only the final integer or integer\u2011percentage answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 74,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text list all given numbers, assign symbols only to the unknowns that the asked quantity depends on, translate the situation into the simplest possible exact calculation (either a direct formula or the smallest set of equations), solve it with exact integer or rational arithmetic, check that every original condition is satisfied, and print only the final integer (or integer\u2011percentage) result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 30,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate only the numeric data that determines the asked quantity, give each required unknown a distinct placeholder, reduce the problem to the shortest exact expression or the smallest consistent system of equations, compute it with exact integer or rational arithmetic (round only if a percentage is explicitly requested), verify every original condition, and output solely the final integer or integer\u2011percentage result.",
+      "train_score": 0.8888888888888888,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numerical data, discard any detail that does not affect the quantity asked, assign symbols solely to the unknowns needed, derive the minimal exact expression or smallest equation system for the target, compute it with precise integer/fraction arithmetic (round a percentage only if the problem requests), check that every original condition is satisfied, and output only the final integer (or integer\u2011percentage) result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 29,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every quantity mentioned, ignore any detail that does not influence the quantity being asked, label each needed unknown with its own variable, form the most compact exact relationship (one arithmetic expression or the smallest solvable set of equations), solve it using exact integer or fraction arithmetic (round only when the problem requests a percent), check that all original statements are satisfied, and return only the final integer (or integer\u2011percentage) answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 47,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given quantities, assign a symbol solely to each unknown that appears in the question, reduce the problem to the single most direct exact calculation (either a plain arithmetic expression or the smallest necessary algebraic system), evaluate it with exact integer or rational arithmetic (round only if the answer must be a percentage), verify that every original condition is satisfied, and output only the final integer or integer\u2011percentage result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 31,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical information that can affect the asked quantity, eliminate every unrelated detail, assign a unique variable to each unknown appearing in the question, derive the shortest exact computation (single formula or smallest viable system of equations), solve it using exact integer or fractional arithmetic (round only when a percent is required), verify that every original statement holds, and output solely the final integer (or integer\u2011percentage) result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 42,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Strip the problem to the quantitative core: keep only numbers that can affect the answer, give each unknown a unique variable, derive the shortest exact computation (a single expression or the smallest solvable set of equations), evaluate it with exact integer or rational arithmetic (apply rounding only when a percentage is required), ensure all stated relations hold, and return only the final integer (or integer\u2011percentage) result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 78,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, extract only the numerical data that determines the asked quantity. Introduce a distinct variable for each unknown required. Derive the unique solution by building the briefest exact equation(s). Evaluate with exact integer or rational arithmetic (round only if a percentage is specifically asked). Verify that all original statements hold, then output only the final integer (or integer\u2011percentage) answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 69,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum that can affect the target, give each required unknown a unique variable, translate the information into the most compact exact computation (one expression or the smallest consistent system), solve it with exact integer or rational arithmetic (round only if a percent is demanded), verify that all original statements hold, and output solely the final integer or integer\u2011percentage.",
+      "train_score": 0.9348659003831418,
+      "train_step": 73,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect only the numerical information that determines the requested value, assign a separate variable to each unknown that appears in the question, reduce the problem to the shortest exact computation (one closed\u2011form expression or the smallest consistent system), solve it with exact integer or fractional arithmetic (apply rounding only when a percentage is explicitly required), verify that every given condition holds, and output solely the final integer or integer\u2011percentage result.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numeric facts, ignore any that do not influence the requested quantity, assign a unique variable to each unknown that the question depends on, construct the shortest exact calculation (either a single expression or the smallest solvable system), compute it with exact integer or rational arithmetic (round only if a percentage is required), verify every original condition, and output only the final integer (or integer\u2011percentage) answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 45,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect only the numeric data that can affect the required result, give each needed unknown a distinct symbol, reduce the problem to the shortest exact computation (a single formula or the smallest consistent system), solve it with exact integer or rational arithmetic (apply rounding only if a percentage is specifically asked), verify that every original condition holds, and output solely the final integer or integer\u2011percentage.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum that can affect the answer; assign a distinct variable to each unknown that appears in the question; translate the problem into the smallest possible exact calculation (a single formula or the minimal solvable system); compute using exact integer or rational arithmetic (apply rounding only if the answer is explicitly requested as a percentage); verify that all given conditions hold; output only the final integer or integer\u2011percentage result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement, retain only the quantities that influence the asked value. Introduce a separate symbol for each unknown that appears in the final question. Construct the most compact exact relation (a single formula or the minimal solvable system), evaluate it with exact integer or rational arithmetic (round only when a percentage is required), confirm that all given relationships hold, and output only the resulting integer (or integer\u2011percentage) answer.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List only the quantities that affect the asked value, name each required unknown with a unique symbol, translate the problem into the single most direct exact formula (or the smallest consistent system of equations), evaluate it using exact integer or rational arithmetic (round only if the problem requests a percent), confirm every original statement holds, and output exclusively the final integer (or integer\u2011percentage) answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric detail that can influence the answer, introduce a distinct variable for each unknown required, formulate the smallest possible exact calculation (single expression or minimal equation system), compute it using exact integer or rational arithmetic (round only if a percentage is asked), confirm all original conditions are met, and output only the final integer (or integer\u2011percentage) result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 52,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8390804597701149,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.8969276869201055,
+    "best_test_instruction": "From the problem statement, keep only the numerical facts that influence the quantity asked. Assign a distinct variable to each unknown that appears in the question. Build the minimal exact computation required\u2014either one closed\u2011form expression or the smallest consistent set of equations. Evaluate it with integer or fraction arithmetic (round solely if a percent is requested). Verify that every original condition holds, and print only the final integer (or integer\u2011percentage) answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Summarize the core problem, compute the result in a few logical steps, confirm the answer, and present only the final numeric value (exact or rounded to one decimal) on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 12,
+      "test_score": 0.5211003438574554,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential relationship, evaluate it using the smallest possible number of arithmetic steps, perform a quick plausibility check, and output only the final numeric result (exact integer or rounded to one decimal) on a single line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 54,
+      "test_score": 0.5182869646764614,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly determine the key principle, carry out the minimal necessary computation, verify the result, and output only the final numeric answer\u2014exact or rounded to one decimal place\u2014on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 20,
+      "test_score": 0.5179743669896842,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by first pinpointing the essential mathematical idea, then work through the required calculations with concise justification, quickly verify the result, and conclude by writing only the exact final answer (as a number or simplified expression) on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 2,
+      "test_score": 0.5170365739293529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the core idea, compute the solution in the smallest possible number of clear steps, quickly confirm its correctness, and output only the final numeric result (exact for integers, otherwise to one decimal) on a single line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 50,
+      "test_score": 0.5120350109409191,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing principle, perform a solution in three or fewer tidy steps, promptly verify the outcome, and output solely the final numeric answer (exact or to one decimal) on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 31,
+      "test_score": 0.5117224132541419,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the essential concept, perform a concise step\u2011by\u2011step calculation, quickly verify the outcome, and output only the exact final answer on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.5117224132541419,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the decisive principle, use the most direct single\u2011step formula or theorem to compute the result, perform a rapid sanity check, and output only the final numeric answer\u2014exact for integers, otherwise rounded to one decimal\u2014on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 87,
+      "test_score": 0.5114098155673648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the governing principle, carry out a compact step\u2011by\u2011step computation, perform a quick consistency check, and output only the final answer\u2014exact or to one decimal place\u2014on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 6,
+      "test_score": 0.5095342294467021,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Which all are similar: find core principle, compute answer concisely, verify, output only final numeric answer formatted as integer or one decimal, etc.",
+      "train_score": 0.8541666666666666,
+      "train_step": 72,
+      "test_score": 0.5089090340731478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the governing idea, carry out the minimal calculation (no more than two straightforward steps), do a rapid sanity check, and print only the final numeric value\u2014exact for whole numbers, otherwise rounded to one decimal\u2014on a solitary line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.5073460456392622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Distill the essential mathematical insight, solve the problem in the minimal number of clear steps, perform a rapid consistency check, and output only the final answer (exact or to one decimal place) on a single line.",
+      "train_score": 0.875,
+      "train_step": 38,
+      "test_score": 0.5004688965301657,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key mathematical idea, resolve the problem in no more than three brief, logical steps, perform a quick consistency check, and conclude by outputting only the final numeric answer (exact, or rounded to one decimal if needed) on a single line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 19,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the fundamental relation, perform the briefest possible calculation, instantly cross\u2011check the outcome, and output only the final numeric result\u2014exact for integers, otherwise rounded to one decimal\u2014on a single line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.4926539543607377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.4870271959987496,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key mathematical relation, compute the answer with the fewest straightforward operations, perform a quick sanity check, and output only the final numeric value\u2014exact for integers, otherwise rounded to one decimal place\u2014on a single isolated line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.48233823069709286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Select the pivotal formula, execute a one\u2011step substitution that yields the result, perform a quick consistency test, and output solely the final number\u2014exact if integer, otherwise to one decimal place\u2014on a separate line.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.47702407002188185,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single decisive relation, apply it in one concise computation, perform an instant plausibility check, and print only the final numeric result\u2014exact for integers, otherwise rounded to one decimal place\u2014on its own line.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.47139731165989374,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the essential relationship, compute the answer using the simplest possible arithmetic (ideally a single operation), verify the outcome instantly, and output solely the numeric result\u2014integer as is, otherwise to one decimal place\u2014on a separate line with no additional commentary.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.45858080650203187,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Focus on the primary mathematical relationship, carry out a streamlined computation in at most three logical moves, briefly validate the outcome, and present only the resulting number (exact or to one decimal) on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 14,
+      "test_score": 0.4288840262582057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the core concept, execute the solution in the fewest logical operations, instantly validate the result, and print solely the final numeric value\u2014exact for integers, otherwise rounded to one decimal\u2014on its own line.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.21069084088777743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5211003438574554,
+    "avg_test_score": 0.48345465100701124,
+    "best_test_instruction": "Summarize the core problem, compute the result in a few logical steps, confirm the answer, and present only the final numeric value (exact or rounded to one decimal) on a separate line."
+  }
+}

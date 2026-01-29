@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Briefly restate the problem, specify the single essential formula or principle, carry out the computation in at most three concise, justified steps, check any given conditions, and output only the final exact numeric (or appropriately rounded) answer, appending a unit only if the question demands it.",
+      "train_score": 0.7823529411764706,
+      "train_step": 89,
+      "test_score": 0.5317286652078774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short restatement of the problem, then carry out the solution in no more than three clear, justified steps, and conclude by outputting only the final exact numeric (or simplified) answer\u2014no extra explanation.",
+      "train_score": 0.7647058823529411,
+      "train_step": 52,
+      "test_score": 0.5232885276648953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem briefly, pinpoint the decisive insight (theorem, principle, or relation), carry out the needed computation in no more than two compact, justified moves, confirm that all problem requirements are met, and output solely the final exact answer.",
+      "train_score": 0.7705882352941177,
+      "train_step": 61,
+      "test_score": 0.5160987808690216,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to solve for, set up the appropriate equation using the given definition, solve algebraically in no more than three short justified steps, check any stated constraints, and output solely the final numeric (or exact simplified) answer.",
+      "train_score": 0.7470588235294118,
+      "train_step": 80,
+      "test_score": 0.5157861831822445,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the goal briefly, write the decisive relation, solve it using a maximum of two short, logically independent steps (each labelled with its reasoning word), ensure all problem constraints are satisfied, and output only the final exact value (rounded only if required).",
+      "train_score": 0.7470588235294118,
+      "train_step": 86,
+      "test_score": 0.5114098155673648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the problem to its essential equation or ratio, apply the appropriate theorem/operation with a one\u2011sentence justification for each step, and output only the final simplified numeric answer (round if required).",
+      "train_score": 0.7411764705882353,
+      "train_step": 7,
+      "test_score": 0.5098468271334792,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the problem to a single question, pinpoint the exact formula needed, compute the answer using at most two clear, justified steps, verify any stated limits, and output only the final numeric (or reduced exact) value.",
+      "train_score": 0.7470588235294118,
+      "train_step": 44,
+      "test_score": 0.5095342294467021,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one brief statement, state the exact theorem or formula that resolves it, perform the required computation in no more than three concise, justified steps, check that any constraints are met, and output solely the final numeric (or exact simplified) answer.",
+      "train_score": 0.7411764705882353,
+      "train_step": 41,
+      "test_score": 0.5073460456392622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, cite the single governing formula or geometric fact, then execute the solution in at most two concise steps, each labeled with a one\u2011word justification (e.g., \u201cmidpoint\u201d, \u201carea\u201d). Verify any constraints, simplify to the exact answer (or round if instructed), and output only the final numeric (or unit\u2011included) result.",
+      "train_score": 0.7411764705882353,
+      "train_step": 63,
+      "test_score": 0.5051578618318224,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into its fundamental mathematical expression, perform the required calculations in a straightforward sequence with a brief one\u2011sentence justification for each step, and output only the final numeric (or exact simplified) answer\u2014no additional explanation.",
+      "train_score": 0.7411764705882353,
+      "train_step": 15,
+      "test_score": 0.5007814942169428,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one sentence, identify the single relevant formula or theorem, perform the necessary computation in at most three brief justified steps, and output only the final numeric (or simplified) answer.",
+      "train_score": 0.7588235294117647,
+      "train_step": 42,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence, indicate the precise theorem or formula needed, solve it in at most two short, numbered steps each annotated with a brief justification, confirm any given conditions, and output only the final exact (or correctly rounded) numeric answer, adding a unit only if the question asks for one.",
+      "train_score": 0.7647058823529411,
+      "train_step": 64,
+      "test_score": 0.4935917474210691,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011line restatement of the problem, pinpoint the essential theorem or operation, carry out the solution in a maximum of three elementary steps\u2014each step labelled with a brief reason\u2014and after checking any stipulated conditions, return solely the final exact (or rounded) numeric answer.",
+      "train_score": 0.788235294117647,
+      "train_step": 60,
+      "test_score": 0.493279149734292,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.711764705882353,
+      "train_step": -1,
+      "test_score": 0.4867145983119725,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one line, identify the core principle, solve using at most two brief justified steps, verify any conditions, and output only the final exact numeric answer.",
+      "train_score": 0.7470588235294118,
+      "train_step": 84,
+      "test_score": 0.480150046889653,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one brief sentence, cite the sole formula or principle needed, perform no more than two elementary operations (each tagged with a one\u2011word justification), verify any given conditions, and return only the final numeric (or exact simplified) result.",
+      "train_score": 0.6235294117647059,
+      "train_step": 99,
+      "test_score": 0.46420756486402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence, cite the single governing formula or counting principle, then solve using at most two elementary steps\u2014label each step with a brief justification (e.g., \u201cexpand\u201d, \u201cchoose\u201d), verify any stated conditions, and finally output only the exact numerical result (rounded only if the prompt specifies).",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.4635823694904658,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the question in one sentence, identify the exact formula or theorem to use, carry out the calculation in no more than two brief, justified steps, check any stated conditions, and output only the final numeric (or exact simplified) result\u2014no additional commentary.",
+      "train_score": 0.7529411764705882,
+      "train_step": 43,
+      "test_score": 0.45951859956236324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the question to its core ask, pinpoint the single governing relationship, derive the answer using at most two succinct deductions each justified in a phrase, verify any constraints, and output solely the final value (exact or rounded as required).",
+      "train_score": 0.6882352941176471,
+      "train_step": 99,
+      "test_score": 0.45139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011sentence description of the task, cite the single mathematical rule or identity that solves it, carry out the required computation in at most three brief, numbered steps (each step followed by a terse justification such as \u201cexpand\u201d, \u201ccollect\u201d, \u201csubstitute\u201d), verify any stated restrictions, and output only the final exact or appropriately rounded number (including units only if asked).",
+      "train_score": 0.5882352941176471,
+      "train_step": 99,
+      "test_score": 0.4370115661144108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity to be found, state the single governing relationship, compute it in at most two brief steps (each prefixed by a one\u2011word justification), verify any stated constraints, and return only the final exact (or correctly rounded) numeric answer\u2014no extra text.",
+      "train_score": 0.5705882352941176,
+      "train_step": 99,
+      "test_score": 0.35073460456392624,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5317286652078774,
+    "avg_test_score": 0.4862233733756084,
+    "best_test_instruction": "Briefly restate the problem, specify the single essential formula or principle, carry out the computation in at most three concise, justified steps, check any given conditions, and output only the final exact numeric (or appropriately rounded) answer, appending a unit only if the question demands it."
+  }
+}

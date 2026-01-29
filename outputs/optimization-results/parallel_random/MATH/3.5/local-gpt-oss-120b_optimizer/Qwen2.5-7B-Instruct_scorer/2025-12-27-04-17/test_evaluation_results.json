@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "State the central concept in one brief clause. Then compute, writing every indispensable intermediate numeric value on a separate line (exact fractions or radicals preferred). Perform a quick plausibility check, and finally output only the final number on its own line, rounding to one decimal place only when it is not an integer.",
+      "train_score": 0.6647058823529411,
+      "train_step": 99,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the relevant concept, compute all needed quantities sequentially while printing each intermediate numeric result on a new line, perform a brief sanity check, and finish with only the final number on a separate line (round to one decimal place only when necessary).",
+      "train_score": 0.7529411764705882,
+      "train_step": 11,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the relevant theorem, carry out every required computation showing each intermediate outcome on a separate line, perform a brief consistency check, and end with a single line that contains just the final number (rounded to one decimal place if it is not whole).",
+      "train_score": 0.7470588235294118,
+      "train_step": 10,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly name the relevant principle, then carry out the required calculations keeping all intermediate values exact (as fractions or radicals). After a quick plausibility check, present solely the final numeric answer on a new line, rounding to one decimal place only if the result is non\u2011integral.",
+      "train_score": 0.7529411764705882,
+      "train_step": 43,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise logical outline of the solution, carry out the necessary calculations (keeping exact values when feasible), perform a quick sanity check, and finish by printing only the final numeric answer on a separate line\u2014rounded to one decimal place only if the result is non\u2011integral.",
+      "train_score": 0.7647058823529411,
+      "train_step": 39,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the relevant method, then evaluate the problem printing every necessary intermediate numeric value on its own line (keep fractions or radicals exact). After a short consistency check, output solely the final result on a new line, using an integer format when the answer is whole and otherwise round to one decimal place.",
+      "train_score": 0.7058823529411765,
+      "train_step": 99,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the governing principle, perform the necessary calculations (showing only essential intermediate numbers), quickly validate the outcome, and write solely the final numeric answer on a new line, rounded to one decimal place if it is not integral.",
+      "train_score": 0.7588235294117647,
+      "train_step": 43,
+      "test_score": 0.7383557361675523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the key theorem or method, then perform each required calculation showing intermediate results only when they aid clarity. After a brief verification, output solely the final numeric answer on its own line, rounding to one decimal place only if the result is not an integer.",
+      "train_score": 0.7470588235294118,
+      "train_step": 53,
+      "test_score": 0.7383557361675523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7235294117647059,
+      "train_step": -1,
+      "test_score": 0.7364801500468896,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short description of the principle involved, list the required calculations in order (display intermediate numbers only when they contribute to understanding), verify the result with a brief check, and write the final answer alone on one line, rounded to one decimal place only if it is non\u2011integral.",
+      "train_score": 0.7588235294117647,
+      "train_step": 61,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the solution by calculating each intermediate quantity on its own line, perform a quick consistency check, and conclude with only the final numeric result on a single line\u2014round to one decimal place only if the answer is not an integer.",
+      "train_score": 0.7529411764705882,
+      "train_step": 22,
+      "test_score": 0.7333541731791184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Tags. Must be concise and generally applicable to all problems. Not exactly same as previous ones.",
+      "train_score": 0.7529411764705882,
+      "train_step": 35,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, accurate solution and verify its correctness.",
+      "train_score": 0.7470588235294118,
+      "train_step": 0,
+      "test_score": 0.7258518286964677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the core approach in one sentence, show every arithmetic or algebraic step with its result, briefly check the work, and end with the final numeric answer alone on a new line (rounded if required).",
+      "train_score": 0.7529411764705882,
+      "train_step": 4,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the key strategy in a brief sentence, carry out every needed calculation (showing intermediate numbers only when they aid understanding), perform a quick consistency check, and conclude with the final numeric answer on its own line \u2013 round to one decimal place only if the result is non\u2011integral.",
+      "train_score": 0.7529411764705882,
+      "train_step": 63,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Name the key method, then evaluate the problem listing only indispensable intermediate results, one per line (exact fractions or radicals when possible). Do a quick plausibility check, and end with a single line containing just the final number, rounded to one decimal place only if it is fractional.",
+      "train_score": 0.5705882352941176,
+      "train_step": 99,
+      "test_score": 0.7192872772741482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Apply the necessary method, list only indispensable numeric results (one per line, exact when possible), verify with a brief approximation, and conclude with a single line containing just the final value, rounded to one decimal place only if it is fractional. No extra text.",
+      "train_score": 0.49411764705882355,
+      "train_step": 99,
+      "test_score": 0.7105345420443888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the main method needed (e.g., AM\u2011GM, recurrence, counting), carry out the essential calculations showing each intermediate result on its own line (keep exact forms when feasible), perform a quick sanity check, and then output only the final numeric value on a separate line, rounding to one decimal place only if the result is not an integer.",
+      "train_score": 0.7588235294117647,
+      "train_step": 46,
+      "test_score": 0.6745858080650203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pick the core principle needed, compute the problem stepwise writing each vital numeric value on its own line (keep fractions/radicals exact), perform a quick sanity check, and finally print only the final number on its own line, rounding to one decimal place only when the result is non\u2011integral.",
+      "train_score": 0.6823529411764706,
+      "train_step": 99,
+      "test_score": 0.6645826820881525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the main technique, perform the needed computations and write every essential intermediate outcome on its own line (retain exact fractions or radicals), then do a quick order\u2011of\u2011magnitude sanity check, and conclude with only the final numeric value on a separate line, rounded to one decimal place only if it is not an integer.",
+      "train_score": 0.6882352941176471,
+      "train_step": 99,
+      "test_score": 0.6330103157236636,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the essential technique, perform the required calculations printing only the indispensable intermediate results (one per line, exact fractions or radicals kept), verify the result with a quick estimate, and finish with exactly one line that holds the final numeric answer, rounded to one decimal place only when the answer is non\u2011integer. Do not include any other commentary.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.4682713347921225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7533604251328541,
+    "avg_test_score": 0.7106982836898434,
+    "best_test_instruction": "State the central concept in one brief clause. Then compute, writing every indispensable intermediate numeric value on a separate line (exact fractions or radicals preferred). Perform a quick plausibility check, and finally output only the final number on its own line, rounding to one decimal place only when it is not an integer."
+  }
+}

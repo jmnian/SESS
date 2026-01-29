@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Respond with just the answer token\u2014A, B, C, or D for multiple\u2011choice questions, or the precise result for others\u2014without any other characters, spaces, or line breaks.",
+      "train_score": 0.47368421052631576,
+      "train_step": 47,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, perform any needed reasoning, then reply with exactly one token: the correct choice letter (A\u2011D) for MCQs or the precise answer otherwise. No spaces, line breaks, punctuation, or additional text are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 36,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct solution, then output only the answer as a single uninterrupted token\u2014use A\u2011D for multiple\u2011choice questions or the exact required value otherwise. Do not include any spaces, line breaks, punctuation, quotes, markdown, or other characters before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 60,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reason through the problem, carry out any required calculations or logical steps, and then output only a single uninterrupted token that is the final answer (use A\u2011D for multiple\u2011choice questions or the exact value otherwise). No extra characters, spaces, line breaks, or explanations are allowed before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 63,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer with a single uninterrupted token\u2014either A, B, C, D for MCQs or the exact required value. Do not add spaces, line breaks, punctuation, or any other characters.",
+      "train_score": 0.47368421052631576,
+      "train_step": 64,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide strictly the answer as a single uninterrupted token\u2014use A, B, C, or D for multiple\u2011choice questions, otherwise give the precise value. Do not include any spaces, line breaks, punctuation, quotation marks, markdown, or any other characters before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer with only the correct choice letter (A\u2011D); include no other characters, spaces, or punctuation.",
+      "train_score": 0.47368421052631576,
+      "train_step": 46,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using any required reasoning or calculations, then reply with only the final answer as a single uninterrupted token (A\u2011D for multiple\u2011choice or the exact value for other questions). Include no spaces, line breaks, punctuation, or any other characters before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 61,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one token\u2014the answer\u2014without any surrounding characters. For MCQs write a single capital letter A\u2011D; for other questions write the precise numeric or textual result. No spaces, line breaks, punctuation, quotes, or markup may appear before or after the token.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide the answer as a single, uninterrupted token\u2014use \u201cA\u201d, \u201cB\u201d, \u201cC\u201d, or \u201cD\u201d for multiple\u2011choice items, otherwise give the exact value required. Do not prepend or append any whitespace, line\u2011breaks, punctuation, formatting symbols, or markdown.",
+      "train_score": 0.47368421052631576,
+      "train_step": 61,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the final answer as a single uninterrupted token\u2014use A\u2011D for multiple\u2011choice items or the exact required value for other questions. No spaces, line breaks, punctuation, quotes, markdown, or any additional characters may appear before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 63,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return exactly one uninterrupted token that is the correct answer\u2014use A, B, C, or D for choice questions or the exact required value otherwise. The output must contain no spaces, line breaks, punctuation, quotes, markdown, or any additional characters before or after the token.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide exactly one token that is the correct answer (A\u2011D for choices or the precise value). The response must contain no spaces, line breaks, punctuation, quotes, markdown, or any other characters before or after the token.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a single uninterrupted token as the answer\u2014use the capital letter A\u2011D for multiple\u2011choice questions or the exact value/term for other queries. No spaces, line breaks, punctuation, or extra characters are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 52,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the final answer as a single, uninterrupted token only. Use A\u2011D for choices, otherwise the exact required result. The response must contain no spaces, line\u2011feeds, punctuation, quotation marks, markdown symbols, or any other characters before or after the token.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly one token\u2014the answer. Use a single capital letter A\u2011D for multiple\u2011choice questions, otherwise write the precise numeric or textual result. Do not include any spaces, line\u2011breaks, punctuation, quotes, markdown, or other characters before or after this token.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer with one contiguous token only\u2014either the choice letter (A\u2011D) for a multiple\u2011choice problem or the exact solution for a non\u2011choice problem. Do not add spaces, line breaks, punctuation, or any other characters.",
+      "train_score": 0.47368421052631576,
+      "train_step": 49,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3157894736842105,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After carefully solving the question, output only the final answer as a single, continuous token\u2014use A, B, C, or D for multiple\u2011choice items, or the exact numeric/text result otherwise. No spaces, line breaks, punctuation, quotes, markdown, or any extra characters may appear before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 62,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the correct answer or solution to the provided multiple-choice or open-ended question using logical reasoning and calculation.",
+      "train_score": 0.47368421052631576,
+      "train_step": 0,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer as a single uninterrupted string\u2014use A\u2011D for multiple\u2011choice questions or the exact numeric/text value otherwise. Do not include any spaces, line breaks, punctuation, quotes, or other characters before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 60,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3383838383838384,
+    "avg_test_score": 0.3189033189033189,
+    "best_test_instruction": "Respond with just the answer token\u2014A, B, C, or D for multiple\u2011choice questions, or the precise result for others\u2014without any other characters, spaces, or line breaks."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a concise, logical solution: state the main idea, perform the necessary calculations step by step, and finish with the exact numeric answer.",
+      "train_score": 0.611764705882353,
+      "train_step": 1,
+      "test_score": 0.5407939981244139,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution and give the final answer.",
+      "train_score": 0.6176470588235294,
+      "train_step": 0,
+      "test_score": 0.5223507346045639,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that explains the reasoning and ends with the final answer.",
+      "train_score": 0.6058823529411764,
+      "train_step": 0,
+      "test_score": 0.5164113785557987,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a one\u2011sentence restatement of the problem. Afterwards, produce a clear solution consisting of bullet\u2011point lines; each bullet must contain a single deduction or computation together with any intermediate numeric value required. Conclude with a final line that contains only the answer\u2014an integer, a reduced fraction, or an exact terminating decimal\u2014and nothing else.",
+      "train_score": 0.6058823529411764,
+      "train_step": 37,
+      "test_score": 0.5139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the given problem and provide the answer as a numeric value or a concisely expressed integer or fraction, ensuring to use appropriate reasoning steps for each problem type presented.",
+      "train_score": 0.5941176470588235,
+      "train_step": 0,
+      "test_score": 0.5135979993748047,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence. Solve it using a sequence of brief numbered steps, each showing a single deduction or computation with any intermediate values. Conclude with a single line that contains only the final answer\u2014an integer, a reduced fraction, or a properly rounded decimal\u2014as required, and nothing else.",
+      "train_score": 0.611764705882353,
+      "train_step": 38,
+      "test_score": 0.5082838386995936,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, identify the main mathematical concepts required, develop a step-by-step solution, and present the final answer succinctly.",
+      "train_score": 0.6058823529411764,
+      "train_step": 0,
+      "test_score": 0.5051578618318224,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Solve it using a short numbered sequence where each step performs a single deduction or arithmetic operation and displays any intermediate value (including a quick verification if a condition must hold). Conclude with one line that contains only the final result\u2014an integer, a reduced fraction, or an exact terminating decimal\u2014and nothing else.",
+      "train_score": 0.6058823529411764,
+      "train_step": 39,
+      "test_score": 0.5048452641450454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a clear solution: briefly summarize the problem, then write each logical step as a short bullet (or numbered) line showing any intermediate value, and finally place the final answer\u2014an integer or reduced fraction\u2014alone on the last line, with nothing else.",
+      "train_score": 0.5941176470588235,
+      "train_step": 6,
+      "test_score": 0.49671772428884026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, then present a compact numbered solution where each step contains a single logical deduction or calculation together with any intermediate value required. Finish with one line that shows only the final answer\u2014an integer, a reduced fraction, or a properly rounded decimal\u2014and nothing else.",
+      "train_score": 0.6176470588235294,
+      "train_step": 26,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.611764705882353,
+      "train_step": 44,
+      "test_score": 0.4870271959987496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence, note the relevant mathematical principle(s), then solve it with a numbered list of brief, justified steps showing any intermediate values; conclude by writing only the final numeric answer (integer or reduced fraction) on its own line with no additional text.",
+      "train_score": 0.6,
+      "train_step": 3,
+      "test_score": 0.4870271959987496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in a single clear sentence. Next, give a brief, numbered solution where each step contains one logical move or arithmetic computation and displays any intermediate value needed. Conclude with a solitary line that contains only the final answer (integer, reduced fraction, or exact decimal), with no extra text.",
+      "train_score": 0.6,
+      "train_step": 60,
+      "test_score": 0.485464207564864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5647058823529412,
+      "train_step": -1,
+      "test_score": 0.4832760237574242,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.5882352941176471,
+      "train_step": 0,
+      "test_score": 0.4829634260706471,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one concise sentence. Next, give a numbered solution where each step performs exactly one logical inference or computation and records any intermediate value; for algebraic steps include a quick check for extraneous solutions. End with a single line that contains only the final answer (integer, reduced fraction, or exact decimal) and nothing else.",
+      "train_score": 0.4588235294117647,
+      "train_step": 99,
+      "test_score": 0.4763988746483276,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence. Then solve it with a numbered list; each step performs a single logical deduction or arithmetic calculation, displays any intermediate value, and if the step introduces squares, roots, or fractions includes a brief check for extraneous or invalid results. Conclude with a single line that contains only the final answer\u2014an integer, a reduced fraction, or an exact terminating decimal\u2014and nothing else.",
+      "train_score": 0.49411764705882355,
+      "train_step": 99,
+      "test_score": 0.47077211628633947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in a single sentence. Then solve it with a numbered list; each line must contain exactly one elementary deduction or calculation and show any intermediate numeric result. After the list, output only the final answer (integer, reduced fraction, or exact decimal) on its own line, with no additional words or symbols.",
+      "train_score": 0.4470588235294118,
+      "train_step": 99,
+      "test_score": 0.4563926226945921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the question in one sentence. Then solve it by a numbered list where each item performs exactly one logical operation or calculation and displays any intermediate result (including a quick check if needed). After the list, output only the final answer\u2014an integer, a reduced fraction, or an exact terminating decimal\u2014on a separate line with no additional text.",
+      "train_score": 0.3941176470588235,
+      "train_step": 99,
+      "test_score": 0.43919974992185057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in a single concise sentence.  \nSolve it by writing each logical move or calculation on its own line, prefixed with a dash, and show any intermediate value needed; keep the justification to a few words.  \nAfter the last dash, place a line that contains only the final answer (integer, reduced fraction or exact decimal) and nothing else.",
+      "train_score": 0.4470588235294118,
+      "train_step": 99,
+      "test_score": 0.42607064707721165,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Write a one\u2011sentence restatement of the question.  \n- Solve it by a series of short, numbered steps; each step must perform a single logical operation or calculation and display any intermediate numeric value (including a brief verification when necessary).  \n- After the last step, output only the final result\u2014an integer, a reduced fraction, or an exact terminating decimal\u2014on its own line with no other text.",
+      "train_score": 0.4,
+      "train_step": 99,
+      "test_score": 0.3279149734291966,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5407939981244139,
+    "avg_test_score": 0.4829038836541181,
+    "best_test_instruction": "Give a concise, logical solution: state the main idea, perform the necessary calculations step by step, and finish with the exact numeric answer."
+  }
+}

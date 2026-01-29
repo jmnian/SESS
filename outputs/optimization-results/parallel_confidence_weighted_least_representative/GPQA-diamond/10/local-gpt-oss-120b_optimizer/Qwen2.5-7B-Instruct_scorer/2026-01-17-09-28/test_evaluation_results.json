@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Work out the question, then reply with exactly one character\u2014the correct answer letter (A\u2011D). The response must consist solely of that capital letter, without any surrounding whitespace, punctuation, or additional commentary.",
+      "train_score": 0.5789473684210527,
+      "train_step": 99,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and reply with exactly one uppercase letter (A\u2011D) that is the correct choice. The response must contain only that single character\u2014no spaces, line breaks, punctuation, markdown, or any other text before or after it.",
+      "train_score": 0.5789473684210527,
+      "train_step": 99,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Think through the problem step\u2011by\u2011step, determine the correct choice, then reply with only one capital letter (A\u2011D) that corresponds to the answer\u2014no other text, spaces or symbols.",
+      "train_score": 0.5789473684210527,
+      "train_step": 99,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the decisive formula or logical rule, apply it to obtain a numeric (or qualitative) result, locate the option that equals this result, and answer with the letter (A\u2011D) plus a brief justification.",
+      "train_score": 0.5789473684210527,
+      "train_step": 8,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem thoroughly. After you are certain of the correct choice among A\u2011D, output only that single uppercase letter with no other characters, spaces, or formatting.",
+      "train_score": 0.5789473684210527,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After determining the correct option, provide exactly one character\u2014the appropriate choice letter A, B, C, or D\u2014nothing else in the response.",
+      "train_score": 0.631578947368421,
+      "train_step": 85,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer as a single uppercase letter (A\u2011D) on its own line, with no surrounding whitespace, punctuation, or additional content. Do not use markdown formatting.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After completing the solution, reply with exactly one character\u2014the correct option letter A, B, C, or D\u2014without any surrounding characters, spaces, or line breaks.",
+      "train_score": 0.631578947368421,
+      "train_step": 97,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the correct answer as a single capital letter (A\u2011D) with no surrounding characters, whitespace, or punctuation.",
+      "train_score": 0.631578947368421,
+      "train_step": 98,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the question, identify the essential concepts and formulas, perform the necessary calculation or logical reasoning, and select the answer choice that corresponds to your result.",
+      "train_score": 0.5789473684210527,
+      "train_step": 1,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core concept needed, solve the problem in as few steps as necessary, and output only the correct answer choice (A\u2011D) without additional text.",
+      "train_score": 0.5789473684210527,
+      "train_step": 6,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which of the options A\u2011D is correct and return only that single letter, without any explanatory text, numbers, or punctuation.",
+      "train_score": 0.631578947368421,
+      "train_step": 71,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have determined the correct choice, print only that option letter (A\u2011D) as a solitary character, with no surrounding whitespace or symbols.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Return only the correct option letter (A\u2011D); nothing else should appear in the output.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Classify the problem, recall the relevant rule, compute the answer, then output the correct option (A\u2011D) without any extra text.",
+      "train_score": 0.5789473684210527,
+      "train_step": 19,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.47368421052631576,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the prompt isolate the decisive equation or fact, apply it directly to the numbers provided (showing only the final result), compare this result with options A\u2011D, and reply with the matching letter together with a brief sentence that links the result to the chosen answer.",
+      "train_score": 0.631578947368421,
+      "train_step": 34,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given, and higher than 63.",
+      "train_score": 0.6842105263157895,
+      "train_step": 90,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the essential concept or quantity the problem hinges on, compute it directly from the supplied data (showing only the final value if numeric), locate the choice whose content exactly matches that result, and answer with the correct option letter (A\u2011D) plus a single concise sentence that links the result to that choice.",
+      "train_score": 0.5789473684210527,
+      "train_step": 32,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the underlying principle, plug the given numbers into the relevant expression without intermediate exposition, obtain the numeric or logical result, and answer with the corresponding letter (A\u2011D) plus a brief one\u2011line reason.",
+      "train_score": 0.5789473684210527,
+      "train_step": 6,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, pinpoint the one essential law or definition it tests, apply it directly to the numbers provided (showing only the final numeric value), compare that value with the four answer choices, and reply with the correct option letter (A\u2011D) together with a single sentence that cites the computed value or principle.",
+      "train_score": 0.631578947368421,
+      "train_step": 32,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.36363636363636365,
+    "avg_test_score": 0.32299182299182294,
+    "best_test_instruction": "Work out the question, then reply with exactly one character\u2014the correct answer letter (A\u2011D). The response must consist solely of that capital letter, without any surrounding whitespace, punctuation, or additional commentary."
+  }
+}

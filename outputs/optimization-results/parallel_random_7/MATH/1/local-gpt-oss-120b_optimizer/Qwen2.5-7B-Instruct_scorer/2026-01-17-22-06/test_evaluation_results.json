@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the necessary values, carry out the calculation with a minimal logical sequence, and give only the final numeric answer (apply rounding only if the problem specifies).",
+      "train_score": 0.875,
+      "train_step": 4,
+      "test_score": 0.7614879649890591,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.875,
+      "train_step": 5,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Tags. So final answer is the instruction.",
+      "train_score": 0.875,
+      "train_step": 68,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the needed quantities, perform the minimal calculation, and output the result on a single line exactly as `Answer: <numeric value>` (show a decimal point only for non\u2011integers; round only if the problem requires). A brief explanation may be given on a preceding line if the steps are not immediate.",
+      "train_score": 0.875,
+      "train_step": 23,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.875,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the needed numbers, apply the minimal correct calculation, and respond with only the numeric result in the form `Answer: <value>`. Show a decimal point only for non\u2011integers and round only if the problem explicitly requires it; a brief explanatory sentence may precede the answer when the reasoning is not immediate.",
+      "train_score": 0.875,
+      "train_step": 25,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact value being asked for, compute it directly (using substitution or elementary arithmetic), and respond with only `Answer: <value>` on its own line. Include a single concise explanation on the line before the answer only if the computation requires a non\u2011trivial step; otherwise output just the answer. Do not round unless the problem states so.",
+      "train_score": 0.8958333333333334,
+      "train_step": 52,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, isolate the needed numbers, perform the exact calculation with the most direct approach, and write the result alone as `Answer: <value>` on its own line. Include a single short sentence of reasoning immediately above the answer only when the step is not self\u2011evident; otherwise give just the answer. Do not round unless the problem requires it.",
+      "train_score": 0.8958333333333334,
+      "train_step": 47,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the relevant values, select the minimal formula needed, compute the exact result, then output only the final numeric answer (rounding only if the question requires), with a single concise justification if the answer is not obvious.",
+      "train_score": 0.875,
+      "train_step": 8,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the description carefully and compute the requested numerical answer in a concise step-by-step manner.",
+      "train_score": 0.8958333333333334,
+      "train_step": 0,
+      "test_score": 0.7233510472022507,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the required quantity, extract the relevant numbers, compute it with the simplest exact method, and print only the final numeric result (show a decimal point only for non\u2011integers and avoid rounding unless the problem says to). If the step is not self\u2011evident, prepend one brief sentence of reasoning directly above the answer.",
+      "train_score": 0.875,
+      "train_step": 51,
+      "test_score": 0.710847139731166,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, extract only the numbers needed, perform the necessary calculation using exact arithmetic, and output solely the final numeric value (include a decimal point only if the result is non\u2011integer; round solely when the problem explicitly asks). If a one\u2011sentence reasoning is essential, place it on the line directly above the answer.",
+      "train_score": 0.875,
+      "train_step": 27,
+      "test_score": 0.7014692091278525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise numeric value the question asks for, pull only the necessary figures from the statement, compute the result using the simplest exact arithmetic (round only if the problem demands it), and print exactly `Answer: <value>` on a single line. Place one brief sentence explaining the computation on the line immediately before the answer only when the calculation is not immediate; otherwise output just the answer. No other text, symbols, or formatting should be included.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6845889340418881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using the minimal necessary steps, then write exactly the final number (or \u201cAnswer: <number>\u201d) on its own line; show a decimal point only for non\u2011integers and avoid any rounding unless the question directs it. A brief comment may precede the answer when the computation is not obvious.",
+      "train_score": 0.875,
+      "train_step": 34,
+      "test_score": 0.6630196936542669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the precise numerical quantity it asks for, pick out only the needed numbers, compute it with a straightforward exact calculation, and write only `Answer: <value>` on a single line. Add one short sentence of explanation directly above the answer only if the step is not immediately obvious; otherwise give just the answer. Do not round or truncate unless the problem explicitly requires it.",
+      "train_score": 0.875,
+      "train_step": 69,
+      "test_score": 0.6586433260393874,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity the problem requests, extract only the necessary numbers, compute it with the simplest exact arithmetic (round only if the question demands it), and output a single line `Answer: <value>`. Include one brief explanatory sentence directly above the answer only when the computation is not immediately obvious; otherwise give just the answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6508283838699593,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the single numeric quantity the problem requests, compute it exactly using the smallest amount of arithmetic, and output only the line `Answer: <value>`. If the calculation requires a non\u2011trivial step, place one concise explanatory sentence directly above that line; otherwise output just the answer. Keep full precision (do not truncate or round) unless the question explicitly requires rounding.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.5473585495467334,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, locate the exact quantity being requested, pull only the indispensable numbers, evaluate it with direct exact arithmetic (round only if the statement demands), and respond with exactly one line `Answer: <value>`. If the computation requires a non\u2011obvious step, place a single concise explanatory sentence on the line directly above the answer; otherwise give only the answer. Do not include any other text or formatting.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.49015317286652077,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the exact quantity the problem asks for, compute it using the simplest exact method (round only if the problem states), and reply with only the line `Answer: <value>`. If arriving at the value needs any non\u2011obvious step, write one brief sentence explaining that step on the line directly above the answer; otherwise give just the answer.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.4492028758987183,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the precise quantity the problem asks for, calculate it with the minimal exact arithmetic, and output only `Answer: <value>` on a single line. Add one short sentence immediately before the answer solely when the calculation is not immediate; otherwise output only the answer. Do not approximate or truncate unless the statement demands it.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.44576430134417006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the single numeric quantity it asks for, pull out only the numbers needed, perform the direct exact computation (round only if the statement explicitly demands it), and output exactly\n\nAnswer: <value>\n\non its own line. If the calculation is not immediately obvious, place one short explanatory sentence on the line directly before the answer; otherwise output only the answer line. Do not add any other text.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.43919974992185057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7614879649890591,
+    "avg_test_score": 0.6599979160154215,
+    "best_test_instruction": "Determine the necessary values, carry out the calculation with a minimal logical sequence, and give only the final numeric answer (apply rounding only if the problem specifies)."
+  }
+}

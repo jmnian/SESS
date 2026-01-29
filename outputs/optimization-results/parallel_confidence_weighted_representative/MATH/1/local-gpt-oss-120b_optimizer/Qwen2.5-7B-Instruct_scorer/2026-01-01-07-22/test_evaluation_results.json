@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the desired quantity, enumerate all given numeric facts, formulate the essential equation or inequality that captures the problem, solve it with a brief sequence of justified manipulations, perform a quick consistency check, and finally print only the resulting number on its own line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Construct a complete, logical solution: first identify the essential concepts or formulas, then perform each algebraic or numeric step transparently, and conclude by presenting only the final answer in a clear, isolated line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Encapsulate the problem in a brief phrase, pinpoint the essential data and the single pivotal formula or theorem, then proceed through a minimal numbered chain where each step performs one arithmetic or logical move with a short rationale, verify the outcome with a quick check, and end by printing only the final number on a line by itself.",
+      "train_score": 0.8958333333333334,
+      "train_step": 12,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem concisely, give a one\u2011sentence outline of the approach, then provide a numbered, self\u2011contained solution with each step showing the calculation and a brief justification; conclude with a quick check and place the final numeric answer alone on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 3,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8333333333333334,
+      "train_step": -1,
+      "test_score": 0.7324163801187871,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in your own words, list the essential facts or formulas, then solve it by writing each algebraic or logical step on its own line with a brief justification. After reaching a result, perform a quick consistency check, and finally display only the final numeric answer on a separate line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 2,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, showing all steps and reasoning clearly, and give the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 0,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem succinctly, pinpoint the essential data and the theorem or formula to use, then work through a clear, justified step\u2011by\u2011step calculation. Include a brief sanity check, and conclude with the final answer alone on its own line, free of any extra commentary.",
+      "train_score": 0.8541666666666666,
+      "train_step": 2,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by restating the problem in your own words. Then enumerate the essential facts, formulas or theorems needed. Sketch a brief plan of the steps you will take. Execute the plan, writing each algebraic or logical move on its own line with a concise justification. After reaching a result, perform a quick sanity check. End with only the final numeric answer on a separate line, with no additional commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7224132541419194,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence. Enumerate the essential data and the single theorem or formula that solves it. Then, in a numbered list, carry out each algebraic or logical operation, giving a brief justification for every line. After obtaining a result, perform a quick sanity check, and conclude by writing the exact numeric answer alone on its own line with no additional text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 7,
+      "test_score": 0.7024070021881839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, write down every numerical fact, choose the one fundamental relationship that connects them, then solve using a clear, line\u2011by\u2011line calculation (one operation per line with a short comment). After obtaining a value, do a quick plausibility test and output only that number on a separate line.",
+      "train_score": 0.875,
+      "train_step": 69,
+      "test_score": 0.697718036886527,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the goal, list every given quantity, choose the one essential formula or theorem that links them, then carry out a short chain of calculations\u2014writing each operation on its own line with a brief justification. Verify the result with a quick sanity check and output only the final numeric answer on a separate line, without any additional text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 8,
+      "test_score": 0.6961550484526414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, list every given number or condition, name the single key principle that applies, then solve with a compact bullet list\u2014each bullet performing one calculation or logical move and accompanied by a short justification. After the solution, do a quick consistency check and end by writing only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 37,
+      "test_score": 0.6933416692716474,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one line, enumerate every constant or condition, point out the single governing formula, then solve by a concise, numbered chain where each step shows one algebraic or logical move with a brief comment; finish with an immediate verification and output only the final number on a separate line.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.6914660831509847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "First, restate the question succinctly. Next, enumerate the key quantities and the applicable principle(s). Then, execute a concise, ordered calculation, annotating each line with a brief rationale. Verify the result with a sanity check, and end by writing the exact numeric answer alone on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 5,
+      "test_score": 0.6783369803063457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "In one line restate what is asked, then list the numbers or conditions involved. Choose the appropriate theorem or identity, describe the sequence of operations you will perform, execute each step showing the computation and a brief justification, check the result for consistency, and finally write only the numeric answer on a separate line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.673648015004689,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Capture the core requirement in one concise phrase, extract all numerical constants, select the single governing principle, then construct the solution as a minimal numbered chain where each step performs exactly one algebraic or logical transformation with a short rationale; after the chain, run an immediate sanity test (e.g., integer, positivity, or extremal check), and display only the final computed number on its own line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6326977180368866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the question in one brief sentence. List every numerical datum and the unique formula or identity that links them. Solve by a tight sequence of numbered operations, each accompanied by a short justification. Verify the result with a quick sanity check, then output only the final answer on a separate line, without any extra text.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.583619881212879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the task in one line, enumerate all given numbers, state the single formula or theorem that resolves the question, execute a concise derivation where each line shows one algebraic transformation (with a brief comment), validate the result quickly, and finally output only the numeric answer on a separate line\u2014nothing else.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.5526727102219443,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in one clear sentence. List all numeric facts and the single principle that links them. Solve by writing a terse, numbered derivation\u2014each line performing one elementary step with a brief justification\u2014then perform a quick sanity check and output only the final numeric answer on its own line, with no additional text.",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.5217255392310097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Clearly state the question in one line, list every given quantity, pinpoint the single governing relation, then execute a compact, ordered derivation\u2014each line performing one algebraic or logical step with a brief rationale. After a quick consistency check, output only the final numeric answer on its own line.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7489840575179744,
+    "avg_test_score": 0.6771759031840309,
+    "best_test_instruction": "Determine the desired quantity, enumerate all given numeric facts, formulate the essential equation or inequality that captures the problem, solve it with a brief sequence of justified manipulations, perform a quick consistency check, and finally print only the resulting number on its own line."
+  }
+}

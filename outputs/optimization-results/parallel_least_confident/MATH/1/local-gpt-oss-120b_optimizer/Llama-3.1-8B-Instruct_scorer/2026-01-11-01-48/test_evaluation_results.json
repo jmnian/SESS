@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Write a brief, self\u2011contained paragraph that (a) restates the question in your own words, (b) mentions the key idea or formula needed, (c) carries out the necessary calculations with short justifications, and (d) finishes with a line that reads \u201cAnswer: <value>\u201d. No other text should be included.",
+      "train_score": 0.3333333333333333,
+      "train_step": 33,
+      "test_score": 0.5182869646764614,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step-by-step solution that includes the reasoning process and concludes with the final answer.",
+      "train_score": 0.3958333333333333,
+      "train_step": 0,
+      "test_score": 0.5179743669896842,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce a self\u2011contained answer that consists of: a single sentence restating the problem; a short paragraph that presents the decisive idea and carries out the necessary algebra or reasoning with minimal intermediate steps; and a final line containing only \u201cAnswer: <value>\u201d. No other text, headings, or bullet points may appear.",
+      "train_score": 0.3333333333333333,
+      "train_step": 37,
+      "test_score": 0.5029696780243826,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief paragraph that (i) restates the problem, (ii) mentions the essential principle, (iii) performs the calculation with only necessary steps, and (iv) ends with \u201cAnswer: <value>\u201d. No headings, bullet points, or extra sentences are allowed.",
+      "train_score": 0.375,
+      "train_step": 59,
+      "test_score": 0.5026570803376055,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a focused solution that (i) rephrases the problem in one sentence, (ii) states the decisive mathematical principle, (iii) executes a minimal sequence of calculations, each followed by a quick sanity check, and (iv) ends with the final result presented alone on a line labelled \u201cAnswer:\u201d. Keep the explanation brief and self\u2011contained.",
+      "train_score": 0.3333333333333333,
+      "train_step": 6,
+      "test_score": 0.4998437011566114,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the problem using this exact template:\n- Problem restatement: one\u2011sentence paraphrase of the question.  \n- Key idea: name the single theorem, formula, or principle that will solve it.  \n- Solution steps: numbered steps; each step shows the computation, a brief justification, and a quick sanity check.  \n- Answer: place the final numeric result alone on a line beginning with \u201cAnswer:\u201d.  \nKeep the explanation concise, self\u2011contained, and free of unrelated commentary.",
+      "train_score": 0.3541666666666667,
+      "train_step": 7,
+      "test_score": 0.49796811503594873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a single paragraph ending with a line containing only 'Answer: <value>'. Begin with a brief restatement of the problem, then give the key formula or principle, followed by a concise derivation. Do not include any extra headings, bullet points, or unrelated text.",
+      "train_score": 0.375,
+      "train_step": 85,
+      "test_score": 0.4939043451078462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3333333333333333,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution:\n- Restate the problem in one sentence.\n- Name the core principle needed.\n- Work through the solution in numbered steps; each step contains the calculation and a brief justification, and ends with a quick check.\n- End with the result alone on a line beginning \u201cAnswer:\u201d.\nNo extra discussion.",
+      "train_score": 0.3333333333333333,
+      "train_step": 8,
+      "test_score": 0.48390121913097844,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained answer consisting of exactly four lines, each beginning with the label and a colon, with no additional text:\n\nStatement: a one\u2011sentence restatement of the question.\nKey: the single theorem, formula or concept needed.\nReasoning: a brief, numbered series of calculations; each step shows the result and a short justification.\nResult: the final numeric answer alone after \u201cAnswer:\u201d.",
+      "train_score": 0.3541666666666667,
+      "train_step": 40,
+      "test_score": 0.47077211628633947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution organized with the following headings (each on its own line):  \nRestate: one\u2011sentence restatement of the problem.  \nIdea: the single key concept or theorem needed.  \nWork: a concise, numbered sequence of calculations, each followed by a brief justification and a quick check.  \nAnswer: the final numeric result alone on this line.  \nDo not include any additional explanation or narrative.",
+      "train_score": 0.3333333333333333,
+      "train_step": 9,
+      "test_score": 0.46702094404501404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained solution in plain text with the following structure, each element on a separate line and nothing else:\n\n- Restate: <one\u2011sentence>\n- Core: <key principle>\n- Compute: <concise derivation, using \u201c\u2192\u201d between steps>\n- Answer: <value>",
+      "train_score": 0.3333333333333333,
+      "train_step": 51,
+      "test_score": 0.4604563926226946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained answer in exactly three lines:\n\nProblem: <one\u2011sentence restatement of the question>.  \nSolution: <concise derivation showing only the essential steps, linking results with \u201c\u2192\u201d.>  \nAnswer: <final numeric value>",
+      "train_score": 0.375,
+      "train_step": 91,
+      "test_score": 0.4573304157549234,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained answer consisting of exactly two sentences: first, succinctly restate the problem and identify the single theorem or formula needed; second, present the complete calculation (including any intermediate values) and end the sentence with \u201cAnswer: <value>\u201d. Do not use headings, lists, or any extra punctuation beyond what is required.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.44701469209127853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the solution in exactly four lines, each beginning with the specified heading and a colon:\nProblem: one\u2011sentence restatement.\nIdea: the single concept or formula needed.\nWork: terse numbered steps, each with a computation and a brief justification.\nAnswer: the final value alone.\nInclude no additional text.",
+      "train_score": 0.3333333333333333,
+      "train_step": 15,
+      "test_score": 0.4310722100656455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained solution in exactly two sentences. In the first sentence, restate the problem in your own words and name the single principle or formula you will use. In the second sentence, carry out the necessary computation (showing any intermediate value you deem essential) and finish the sentence with \u201cAnswer: <value>\u201d. No other text, headings, or bullet points are allowed.",
+      "train_score": 0.22916666666666666,
+      "train_step": 99,
+      "test_score": 0.42763363551109723,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution in exactly four lines, each starting with the label followed by a colon, no extra text:\n\nProblem: <one\u2011sentence restatement>  \nKey: <single theorem, formula, or observation>  \nSolution: <compact derivation, using \u201c\u2192\u201d or \u201c=\u201d to link each essential step, include any necessary intermediate values>  \nAnswer: <numeric result>",
+      "train_score": 0.3541666666666667,
+      "train_step": 91,
+      "test_score": 0.424507658643326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal solution: one sentence restating the task, then a single sentence naming the crucial theorem or formula, followed by a concise derivation (no more than three steps), and finally output only the numeric answer on a line that starts with \u201cAnswer:\u201d. No other text is needed.",
+      "train_score": 0.3541666666666667,
+      "train_step": 26,
+      "test_score": 0.416380118787121,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution that:\n- begins with a one\u2011sentence restatement of the problem,\n- then in a single continuous sentence states the key theorem or formula and performs the required algebra or geometry,\n- finally on a new line writes \u201cAnswer: <value>\u201d.\nDo not include any headings, bullet points, or extra sentences.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.41387933729290405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer in exactly two sentences followed by a line \u201cAnswer: <value>\u201d. The first sentence restates the problem; the second states the key idea and performs the necessary computation. No other text is allowed.",
+      "train_score": 0.22916666666666666,
+      "train_step": 99,
+      "test_score": 0.4066895904970303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Produce a self\u2011contained answer in exactly three sentences: first, paraphrase the problem in one sentence; second, state the single key principle or formula and carry out the necessary computation succinctly; third, write only \u201cAnswer: <value>\u201d. Do not include any headings, lists, or additional commentary.",
+      "train_score": 0.3541666666666667,
+      "train_step": 39,
+      "test_score": 0.37636761487964987,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5182869646764614,
+    "avg_test_score": 0.46216823709790267,
+    "best_test_instruction": "Write a brief, self\u2011contained paragraph that (a) restates the question in your own words, (b) mentions the key idea or formula needed, (c) carries out the necessary calculations with short justifications, and (d) finishes with a line that reads \u201cAnswer: <value>\u201d. No other text should be included."
+  }
+}

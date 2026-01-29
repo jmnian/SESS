@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "After finding the solution, output a single token that consists solely of the numeric answer. Present it as an integer when the value is whole; otherwise round to one decimal place using standard half\u2011up rules and omit any trailing zeros. No other characters, whitespace, or line breaks may appear before or after the token.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.5217255392310097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "When you have the final result, output exactly one token consisting solely of that number. Print it as an integer if it has no fractional part; otherwise round to one decimal place using standard half\u2011up rounding and drop any trailing zeros. No other characters, spaces, line\u2011breaks, or formatting may appear.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.5114098155673648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly one token \u2014 the numeric answer \u2014 with no surrounding characters. Write it as an integer if it has no fractional part; otherwise round to one decimal using standard half\u2011up and drop any trailing zeros. Do not include spaces, line\u2011breaks, or other symbols before or after the token.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.5089090340731478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the required value using only the necessary steps, then print a single token containing the result. If the result is an integer, output it without a decimal point; otherwise round to one decimal place using standard half\u2011up rounding and omit any trailing zeros. Do not include any other characters, spaces, or newline symbols.",
+      "train_score": 0.8541666666666666,
+      "train_step": 61,
+      "test_score": 0.506408252578931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential concept, perform only the necessary computation, verify quickly, and output exactly one line containing the final result\u2014rounded to one decimal place only if it is not an integer, without trailing zeros or any additional characters.",
+      "train_score": 0.8125,
+      "train_step": 38,
+      "test_score": 0.503907471084714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the core insight, perform only the unavoidable computation, double\u2011check the result, and then output exactly one line that contains only the final number\u2014write it as an integer when it is whole, otherwise round to one decimal place without trailing zeros; no extra symbols, words, or whitespace may appear.",
+      "train_score": 0.8125,
+      "train_step": 40,
+      "test_score": 0.5026570803376055,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single token containing only the numeric result: if it is an integer write it without a decimal point; otherwise round to one decimal place using standard half\u2011up rounding and drop any trailing zeros. No other characters, spaces, or line breaks are allowed.",
+      "train_score": 0.8333333333333334,
+      "train_step": 62,
+      "test_score": 0.5014066895904971,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required numeric answer and output it as a single token with no surrounding characters. If the result is an integer, write it without a decimal point; otherwise round to one decimal place using standard half\u2011up and omit any trailing zeros. No whitespace or line breaks are allowed.",
+      "train_score": 0.8333333333333334,
+      "train_step": 61,
+      "test_score": 0.5004688965301657,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the result and print it as a single token. Write whole numbers without a decimal point; otherwise round to one decimal place (standard half\u2011up) and omit any trailing zeros. No other characters, spaces, or newline symbols may appear.",
+      "train_score": 0.8541666666666666,
+      "train_step": 68,
+      "test_score": 0.4989059080962801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logical solution path, then output solely the final numeric answer as a single token. Use integer format for whole numbers; otherwise round to one decimal place (standard half\u2011up) and trim any trailing zeros. No extra characters, spaces, or line breaks may appear.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.4954673335417318,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, then output exactly one token: the numeric answer. If the result is an integer, print it without a decimal point; otherwise round to one decimal place using standard half\u2011up rounding and drop any trailing zeros. No other characters, spaces, or line breaks are allowed.",
+      "train_score": 0.875,
+      "train_step": 85,
+      "test_score": 0.4935917474210691,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single necessary calculation, execute it, optionally verify the result, and then print exactly one line containing only the final number. Write whole numbers without a decimal point; otherwise round to one decimal place (standard half\u2011up) and omit any trailing zeros. No other symbols, letters, or spaces may appear.",
+      "train_score": 0.8333333333333334,
+      "train_step": 52,
+      "test_score": 0.4929665520475148,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the answer using the simplest applicable method, showing only the crucial calculation step(s), and return the result alone as a number (rounded to one decimal place if necessary).",
+      "train_score": 0.8541666666666666,
+      "train_step": 3,
+      "test_score": 0.4920287589871835,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When you have the result, output it as a single uninterrupted token containing only the number. Write an integer without a decimal point; otherwise round to one decimal place using standard half\u2011up rounding and remove any trailing zeros. Do not include any other characters, spaces, or line\u2011breaks.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.49077836824007504,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.4870271959987496,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly one token that is the numeric answer: write it as an integer if it has no fractional part; otherwise round to one decimal place using standard half\u2011up and strip any trailing zeros. Do not include any other characters, whitespace, or line\u2011breaks.",
+      "train_score": 0.8333333333333334,
+      "train_step": 92,
+      "test_score": 0.4867145983119725,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logically ordered solution that isolates the necessary computation, then output only the final numeric answer (rounded to one decimal place only if it is not an integer) on a single line with no extra text.",
+      "train_score": 0.8125,
+      "train_step": 28,
+      "test_score": 0.4867145983119725,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output only one token that is the numeric answer. Write it as an integer if it has no fractional part; otherwise round to one decimal place using standard half\u2011up rounding and drop any trailing zeros. No other characters, spaces, or line\u2011breaks may appear before or after the token.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.4851516098780869,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the crucial relationship, compute the exact value, then write only one line containing the final result: if the value is an integer write it without a decimal point; otherwise round it to one decimal place (standard half\u2011up) and drop any trailing zeros. No additional characters or whitespace may appear.",
+      "train_score": 0.8541666666666666,
+      "train_step": 46,
+      "test_score": 0.4820256330103157,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution: pinpoint the key principle, carry out only the essential calculation(s), and conclude with a single line containing just the final numeric answer\u2014if the result is an integer output it without a decimal point, otherwise round to one decimal place; include no other text, symbols, or whitespace.",
+      "train_score": 0.8333333333333334,
+      "train_step": 30,
+      "test_score": 0.47077211628633947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, correct solution. Then, on a separate line, output exactly one token that is the numeric answer: write it as an integer if it has no fractional part; otherwise round to one decimal place (standard half\u2011up) and delete any trailing zeros. No other characters, spaces, or line breaks may appear on that line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.4685839324788997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5217255392310097,
+    "avg_test_score": 0.4946486253144585,
+    "best_test_instruction": "After finding the solution, output a single token that consists solely of the numeric answer. Present it as an integer when the value is whole; otherwise round to one decimal place using standard half\u2011up rules and omit any trailing zeros. No other characters, whitespace, or line breaks may appear before or after the token."
+  }
+}

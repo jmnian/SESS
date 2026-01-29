@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Formulate the minimal equation needed, compute the solution step\u2011by\u2011step while checking each intermediate result, and conclude with a single line that contains only the final integer answer\u2014nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 46,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact numeric answer required, perform only the essential calculations (show each intermediate step and verify its correctness), note any discrepancy with a provided answer, and conclude your response with a single line containing solely the final integer result\u2014nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 48,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the question into the minimal arithmetic expression, evaluate it step\u2011by\u2011step while confirming each intermediate value, optionally compare with any provided answer and flag a difference, then finish with one line containing only the final numeric result.",
+      "train_score": 0.9324324324324325,
+      "train_step": 55,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Construct the simplest correct algebraic expression that yields the requested value, evaluate it step\u2011by\u2011step while confirming each intermediate result (and, if a reference answer is provided, flag any discrepancy), and finish with a single line containing only the final integer or decimal answer\u2014no extra text.",
+      "train_score": 0.918918918918919,
+      "train_step": 54,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what number is requested, carry out only the indispensable arithmetic while explicitly verifying each intermediate result (and, if a reference answer is given, note any discrepancy), and finish your response with one and only one line that contains the final integer answer\u2014nothing else.",
+      "train_score": 0.918918918918919,
+      "train_step": 45,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write the governing equation for the unknown, solve it using the minimal necessary arithmetic (verifying each computation), and terminate your answer with a single line that contains only the final integer result.",
+      "train_score": 0.9324324324324325,
+      "train_step": 34,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute only the required operations, confirming every intermediate value; if a reference answer is provided, indicate any difference. Conclude with one line that contains exactly the final integer (or decimal) result\u2014nothing else.",
+      "train_score": 0.918918918918919,
+      "train_step": 53,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity being asked, perform just the indispensable calculations (showing each step and confirming its correctness), optionally note any disagreement with a given answer, and close your reply with one line that contains only the final integer\u2014nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 50,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform only the essential arithmetic needed to obtain the answer, documenting each step and checking its accuracy; optionally compare with a supplied answer. End your response with exactly one line that contains only the final number, without any additional text.",
+      "train_score": 0.918918918918919,
+      "train_step": 54,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Calculate the required integer result using only the essential operations, confirming each intermediate value; if a reference answer is provided, note any discrepancy. End your response with a single line that contains exactly the final integer and no other text.",
+      "train_score": 0.918918918918919,
+      "train_step": 43,
+      "test_score": 0.8635329795299469,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity requested. Write the minimal algebraic equation that defines it. Evaluate the equation step\u2011by\u2011step, listing each intermediate value on a separate line prefixed with \u201c#\u201d. After each line, explicitly assert that the computation is correct. If the problem supplies a reference answer, state whether the final value matches it. Conclude your response with exactly one line that contains only the final number (no extra symbols or words).",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8551933282789992,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity asked, write the shortest correct arithmetic expression(s) to obtain it, display each indispensable computation (showing the intermediate value) and confirm its correctness, optionally state whether it matches a supplied answer, and end your response with exactly one line that contains only the final number.",
+      "train_score": 0.9324324324324325,
+      "train_step": 60,
+      "test_score": 0.8529188779378317,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the quantity asked for. Carry out only the indispensable calculations, writing each intermediate result on its own line preceded by \u201c\u2192\u201d. Verify each step, note any disagreement with a given answer, and end your output with a single line that contains nothing but the final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 64,
+      "test_score": 0.8529188779378317,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the needed integer by writing the minimal equation, carry out only the indispensable operations while confirming each intermediate value, mention any conflict with a provided answer, and conclude with exactly one line that holds the final integer alone.",
+      "train_score": 0.9324324324324325,
+      "train_step": 51,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity to be found. Carry out only the indispensable calculations, writing each intermediate result on its own line prefixed by \u201c#\u201d. After every line, assert its correctness. If a reference answer is given, note any mismatch. End your response with a single line that contains only the final numeric answer\u2014no additional text or symbols.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8369977255496588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the required numeric result. Compute it using only the necessary operations, listing each intermediate value on its own line preceded by \u201c\u2192\u201d and verifying it. If a reference answer is given, indicate any disagreement. Conclude with a single line that contains only the final number and nothing else.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.8203184230477635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the specific number being asked, compute it using only the essential arithmetic, write each intermediate result on its own line prefixed by \\\"*\\\", validate each computation, note any difference from a given answer, and end your reply with a single line that contains just the final numeric result.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the value asked for. Perform only the indispensable calculations, writing each intermediate result on its own line preceded by \u201c\u2192\u201d. After each line, assert \u201ccorrect\u201d. If a target answer is supplied, note \u201cmatch\u201d or \u201cdiffers\u201d. End with a single line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.7968157695223654,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the quantity to be found, perform only the essential arithmetic, output each intermediate value on its own line preceded by \u2018#\u2019, verify each computation, mention any conflict with a provided answer, and terminate with one line containing solely the final number.",
+      "train_score": 0.7432432432432432,
+      "train_step": 99,
+      "test_score": 0.7285822592873389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity asked for, then perform only the indispensable arithmetic. Write each intermediate result on its own line prefixed by \u201c#\u201d, explicitly confirm that the computation is correct, note any mismatch with a supplied answer, and conclude with one line that contains only the final numeric result\u2014no additional symbols or words.",
+      "train_score": 0.6621621621621622,
+      "train_step": 99,
+      "test_score": 0.6550416982562547,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.846817574641684,
+    "best_test_instruction": "Formulate the minimal equation needed, compute the solution step\u2011by\u2011step while checking each intermediate result, and conclude with a single line that contains only the final integer answer\u2014nothing else."
+  }
+}

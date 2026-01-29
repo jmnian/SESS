@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "[our new instruction]",
+      "train_score": 0.7470588235294118,
+      "train_step": 73,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem methodically: first restate the key information, then outline the necessary steps or formulas, carry out each computation clearly, and finally present the resulting number on a line by itself without any additional symbols or words.",
+      "train_score": 0.7294117647058823,
+      "train_step": 4,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Tags.\n\nMake sure end with",
+      "train_score": 0.7352941176470589,
+      "train_step": 45,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, ordered solution: briefly restate what is required, then for each deduction cite the relevant principle or formula and show the computation. When the reasoning is finished, place a blank line and write only the final numeric answer on its own line, without any extra words or symbols.",
+      "train_score": 0.7294117647058823,
+      "train_step": 7,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution to the given problem, explicitly show the reasoning and calculations, and conclude with the final answer alone on a separate line. Do not include any extra commentary or unrelated text.",
+      "train_score": 0.7411764705882353,
+      "train_step": 0,
+      "test_score": 0.7314785870584558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7058823529411765,
+      "train_step": -1,
+      "test_score": 0.7305407939981244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Variants (they are similar). So we need a new phrasing not previously used.",
+      "train_score": 0.7352941176470589,
+      "train_step": 5,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete solution: list the relevant information, formulate the equations, carry out every calculation, and conclude by writing only the final numeric answer on its own line with no extra words or symbols.",
+      "train_score": 0.7294117647058823,
+      "train_step": 8,
+      "test_score": 0.7258518286964677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a complete, step\u2011by\u2011step solution: detail the reasoning, perform every calculation, and end with the final answer shown alone on its own line as a plain number (no extra text or commentary, and include units only if the problem explicitly requires them).",
+      "train_score": 0.7411764705882353,
+      "train_step": 1,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem step by step: for each move state the exact principle (theorem, formula, or arithmetic rule) you are applying and show the resulting intermediate value. After the complete reasoning, insert one blank line and on the following line write only the final numeric answer (include units only if the question requires them), with no extra words, symbols, or formatting.",
+      "train_score": 0.7352941176470589,
+      "train_step": 19,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a complete, plain\u2011text solution: first restate the given information, then for each step explicitly name the rule or operation you are using (formula, theorem, arithmetic law, etc.) and show the computed intermediate value. Keep the reasoning linear and visible. After the final step, insert one blank line and on the next line write only the final numeric answer (add units only if the problem asks for them), with no extra words, symbols, or formatting.",
+      "train_score": 0.7529411764705882,
+      "train_step": 80,
+      "test_score": 0.7099093466708346,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a complete, linear solution: for each step state the exact rule (formula, theorem, or arithmetic law) you invoke and show the resulting calculation. Keep the whole reasoning in plain text. After the final step insert one blank line, then write only the final numeric result (and units if required) on its own line\u2014no additional characters or commentary.",
+      "train_score": 0.7411764705882353,
+      "train_step": 24,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a full, plain\u2011text explanation: start by restating the given data, then for every step state the rule (formula, theorem, or arithmetic operation) used and show the resulting calculation. When the last step is completed, write the answer alone on the very next line (no extra words, symbols, or formatting; include units only if the problem explicitly asks for them).",
+      "train_score": 0.7352941176470589,
+      "train_step": 55,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by listing the given data. Solve the problem using a numbered, linear sequence: on each line name the precise rule (formula, theorem, or arithmetic operation) applied and show the computed intermediate value. Keep every intermediate result visible. After the final numbered step, leave one blank line and on the next line write only the final numeric answer (include units only if the question explicitly requires them), with no extra symbols or commentary.",
+      "train_score": 0.7411764705882353,
+      "train_step": 40,
+      "test_score": 0.7027195998749609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, ordered solution: briefly restate the problem, then enumerate each reasoning step with the formula or operation applied and its result. When the reasoning is complete, output only the final numeric answer on a single line, without any other text, symbols, or formatting.",
+      "train_score": 0.7294117647058823,
+      "train_step": 5,
+      "test_score": 0.69740543919975,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a complete, plain\u2011text derivation. First restate the known quantities. Then solve the problem in a numbered list: each line should begin with the step number, state the exact rule (formula, theorem, or arithmetic operation) you use, and show the computed intermediate result. After the last numbered step, insert a single blank line and on the next line write only the final numeric answer (include units only if explicitly required), with no additional words, symbols, or formatting.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.6970928415129728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem in plain text by enumerating the steps. For each step write the rule you apply (definition, theorem, arithmetic rule) and the numeric result it yields. Keep all steps visible. After the final step leave one empty line and on the next line write only the final answer (add units only if the prompt asks), without any other symbols or words.",
+      "train_score": 0.6647058823529411,
+      "train_step": 99,
+      "test_score": 0.6970928415129728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a thorough, line\u2011by\u2011line solution in plain text: first list the given data, then for each step state the exact principle (formula, theorem, or arithmetic operation) you apply and write the resulting intermediate value. When the derivation is complete, insert one empty line and on the next line output only the final numeric answer (including units only if the problem explicitly requests them), with no additional symbols, words, or formatting.",
+      "train_score": 0.6882352941176471,
+      "train_step": 99,
+      "test_score": 0.6808377618005627,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the task step\u2011by\u2011step, stating the given data, the formula or rule used at each stage, and the resulting intermediate value. When the reasoning is finished, output a blank line followed by the final numeric result (and units only if explicitly required) on its own line, with no other text.",
+      "train_score": 0.7,
+      "train_step": 99,
+      "test_score": 0.6692716473898093,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step in plain text. For each step, indicate the data used, the mathematical principle applied, and the resulting value. After the last step insert a blank line and then output only the final answer (including units only if asked), with nothing else on that line.",
+      "train_score": 0.5941176470588235,
+      "train_step": 99,
+      "test_score": 0.6139418568302595,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a step\u2011by\u2011step solution using numbered lines. On each line state the rule or arithmetic operation you apply and the resulting value. After the last numbered step leave a single blank line, then on the next line output only the final numeric answer (add units only if the question explicitly asks for them); no extra words or symbols.",
+      "train_score": 0.5058823529411764,
+      "train_step": 99,
+      "test_score": 0.5251641137855579,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7464832760237574,
+    "avg_test_score": 0.7019157772518196,
+    "best_test_instruction": "[our new instruction]"
+  }
+}

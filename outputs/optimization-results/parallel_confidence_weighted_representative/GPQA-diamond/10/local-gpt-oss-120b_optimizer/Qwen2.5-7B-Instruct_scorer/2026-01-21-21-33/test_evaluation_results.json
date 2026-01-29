@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "For each question with choices A\u2011D:\n\n1. Determine the correct choice using the information given.\n2. If the answer is a number, treat two values as equal when the absolute difference \u2264\u202f1e\u20116.\n3. Output only the single capital letter of the correct option, followed by a newline, and nothing else (no spaces, punctuation, or formatting).",
+      "train_score": 0.5789473684210527,
+      "train_step": 54,
+      "test_score": 0.3686868686868687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every A\u2011D multiple\u2011choice item:\n\n- Isolate the minimal data needed to reach a unique answer.\n- Perform the single appropriate calculation or logical step.\n- Determine which option reproduces the obtained value; numeric equality \u21fe |\u0394|\u202f\u2264\u202f10\u207b\u2076, otherwise exact text after trimming and case\u2011folding.\n- Print ONLY the letter of that option followed by \u2018\\n\u2019; nothing else.",
+      "train_score": 0.5789473684210527,
+      "train_step": 57,
+      "test_score": 0.3686868686868687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question (options A\u2011D):\n\n1. Keep only the data needed for a single, unambiguous solution.  \n2. Apply the appropriate formula, law or logical inference to obtain the result.  \n3. Match the result to the options: numbers are equal if |result\u202f\u2212\u202foption|\u202f\u2264\u202f1e\u20116; for text compare after trimming spaces and ignoring case.  \n4. Output only the matching capital letter on its own line, terminated by a newline, with no extra symbols or commentary.",
+      "train_score": 0.5789473684210527,
+      "train_step": 55,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Process each problem with four choices (A\u2011D) as follows:\n\n\u2022 Identify the minimal subset of data required.\n\u2022 Execute the one correct calculation or logical inference to obtain a definite result.\n\u2022 Match that result to the option whose content is identical (numeric equality accepted when |\u0394|\u22641e\u20116).\n\u2022 Output ONLY the single capital letter of the matching choice, terminated by \u2018\\n\u2019, with no preceding or trailing characters or spaces.",
+      "train_score": 0.5789473684210527,
+      "train_step": 45,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When a problem provides four alternatives (A\u2011D):\n\n- Isolate the indispensable facts needed for a single unambiguous solution.\n- Apply the sole relevant principle (formula, law or logical step) to obtain the answer.\n- Numerical answers match a choice when the absolute difference \u2264\u202f1e\u20116; textual answers match after trimming and case\u2011insensitive comparison.\n- Output solely the matching letter followed by \u2018\\n\u2019, with no other characters.",
+      "train_score": 0.5789473684210527,
+      "train_step": 99,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Process every four\u2011choice item by:\n- Isolating the minimal data required.\n- Executing the one correct computation or deduction.\n- Identifying the option (A\u2011D) whose content equals the obtained value (numeric equality within 1e\u20116).\n- Outputting solely the corresponding capital letter on its own line \u2013 no spaces, punctuation, or additional text.",
+      "train_score": 0.5789473684210527,
+      "train_step": 43,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When answering a problem with options A\u2011D:\n\n- Identify the minimal set of numbers or statements needed.\n- Use the one relevant equation or logical step to compute the answer.\n- Compare the computed value with the options; treat two numbers as equal if |value\u00a0\u2212\u00a0option|\u00a0\u2264\u00a01e\u20116, otherwise require exact textual match after removing surrounding whitespace.\n- Print only the single capital letter of the correct option, followed by a line break, and nothing else.",
+      "train_score": 0.5789473684210527,
+      "train_step": 48,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each four\u2011option problem (A\u2011D) execute:\n\n- Extract only the essential numbers or statements required.\n- Use the unique relevant principle to compute a definitive answer.\n- Match that answer to the option list: numeric equality is accepted when the absolute difference does not exceed 1\u202f\u00d7\u202f10\u207b\u2076; otherwise require exact text equality after stripping whitespace and ignoring case.\n- Output the single matching letter alone on a line (no extra characters).",
+      "train_score": 0.5789473684210527,
+      "train_step": 49,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each four\u2011option question (A\u2011D):\n\n1. Use only the data provided to obtain a single definitive answer (numeric or textual).  \n2. If the answer is numeric, consider an option correct when |answer\u00a0\u2212\u00a0option| \u2264 10\u207b\u2076; otherwise compare case\u2011insensitively after stripping surrounding whitespace.  \n3. Output exactly one character\u2014the capital letter of the correct choice\u2014followed by a newline and nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each four\u2011option (A\u2013D) question:\n1. Use only the given data to obtain a single definite answer.\n2. If the answer is numeric, consider an option correct when |answer\u2212option|\u226410\u207b\u2076; if textual, compare after stripping surrounding whitespace and ignoring case.\n3. Output exactly one character \u2013 the matching capital letter \u2013 followed by \u2018\\n\u2019. No other text is allowed.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "When faced with a four\u2011option (A\u2011D) problem:\n- Extract just the minimal data needed.\n- Perform the single decisive computation or inference.\n- Identify which choice exactly reproduces the obtained value; for numeric results accept equality when |computed\u00a0\u2212\u00a0option|\u00a0\u2264\u00a010\u207b\u2076.\n- Output only the corresponding capital letter and a line\u2011break, with nothing else.",
+      "train_score": 0.5789473684210527,
+      "train_step": 44,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer every four\u2011choice (A\u2011D) problem by:\n\n- Identify the minimal subset of data needed.  \n- Perform the unique calculation or logical step that the problem demands.  \n- Compare the obtained answer with each option; treat numbers as equal if |answer\u2011option|\u22641e\u20116, otherwise match exact wording.  \n- Print the single letter of the correct option and terminate the line. No other symbols or commentary are allowed.",
+      "train_score": 0.5789473684210527,
+      "train_step": 48,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every four\u2011choice question (A\u2013D):\n\n1. Extract only the data essential for solving the problem.  \n2. Apply the single correct principle (formula, law, or logical inference) to obtain a definite result.  \n3. If the result is numeric, treat it as matching an option when |result\u00a0\u2212\u00a0option|\u202f\u2264\u202f1\u202f\u00d7\u202f10\u207b\u2076; if it is textual, compare case\u2011insensitively after trimming whitespace.  \n4. Print only the matching capital letter on its own line, followed by a newline\u2014no other characters or commentary.",
+      "train_score": 0.5789473684210527,
+      "train_step": 48,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When a question provides four options labeled A\u2011D:\n\n1. Use only the information that is necessary to obtain a unique answer.\n2. Compute that answer. For a numerical result consider an option correct if |result\u202f\u2212\u202foption|\u202f\u2264\u202f1e\u20116.\n3. For a textual result ignore leading/trailing spaces and case.\n4. Print exactly one character \u2013 the matching capital letter \u2013 then a line\u2011feed. No other output is allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer each four\u2011option question by following these steps:  \n1. Isolate the minimal information needed from the statement.  \n2. Apply the one appropriate law, equation or logical inference to obtain a value or statement.  \n3. Identify which letter (A\u2011D) corresponds exactly to that outcome (for numbers treat two values equal if they differ by less than\u202f10\u207b\u2076).  \n4. Output only the selected capital letter followed by a newline, with no additional characters or whitespace.",
+      "train_score": 0.5789473684210527,
+      "train_step": 40,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every question with choices A\u2011D:\n\n1. Extract just the data needed for a single, unambiguous solution.  \n2. Use the one correct principle (formula, law, or logical step) to obtain the answer.  \n3. Match that answer to the options: numbers are equal if |answer\u2011option|\u202f\u2264\u202f1e\u20116; otherwise require exact text after trimming whitespace and ignoring case.  \n4. Print only the corresponding capital letter and a line break\u2014no extra symbols, spaces, or commentary.",
+      "train_score": 0.5789473684210527,
+      "train_step": 54,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve each multiple\u2011choice question by: (1) extracting only the given quantities; (2) selecting the relevant principle or formula; (3) performing the calculation or logical deduction; (4) confirming which of the four choices (A\u2011D) matches the result; and (5) writing exactly that single capital letter on a line by itself\u2014nothing else.",
+      "train_score": 0.5789473684210527,
+      "train_step": 36,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.42105263157894735,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer each A\u2011D multiple\u2011choice item by:\n\n- Using only the given data, compute the single definitive answer.\n- Treat two numeric values as identical when their absolute difference \u2264\u202f10\u207b\u2076; otherwise match the option text after stripping whitespace and ignoring case.\n- Respond with exactly one character: the capital letter of the correct choice, then a line break. No explanations, symbols, or extra spaces.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For every multiple\u2011choice question with options A\u2011D:\n\n1. Isolate the smallest set of facts required to reach one definite answer.\n2. Perform the unique calculation or logical deduction implied by the problem.\n3. If the answer is numeric, consider an option correct when |value\u202f\u2212\u202foption|\u202f\u2264\u202f10\u207b\u2076; if it is textual, compare after stripping surrounding whitespace and ignoring case.\n4. Output exactly the matching capital letter followed by a newline, with no other characters.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For any four\u2011option (A\u2011D) problem:\n\n1. Identify the minimal data needed to reach a single, definite result.\n2. Compute that result; if it is numeric, treat an option as correct when |result\u202f\u2212\u202foption|\u202f\u2264\u202f1e\u20116.\n3. If the result is textual, compare after trimming surrounding whitespace and ignoring case.\n4. Print exactly one character\u2014the correct capital letter\u2014followed by a newline and nothing else.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3686868686868687,
+    "avg_test_score": 0.33718133718133714,
+    "best_test_instruction": "For each question with choices A\u2011D:\n\n1. Determine the correct choice using the information given.\n2. If the answer is a number, treat two values as equal when the absolute difference \u2264\u202f1e\u20116.\n3. Output only the single capital letter of the correct option, followed by a newline, and nothing else (no spaces, punctuation, or formatting)."
+  }
+}

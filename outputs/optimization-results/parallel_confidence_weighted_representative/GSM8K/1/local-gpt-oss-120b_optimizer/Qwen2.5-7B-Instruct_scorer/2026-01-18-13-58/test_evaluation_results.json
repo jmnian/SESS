@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Perform the necessary calculation, display the essential arithmetic steps clearly, and place the final numeric answer on its own line at the end.",
+      "train_score": 0.9324324324324325,
+      "train_step": 1,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logical calculation for the problem, showing each arithmetic step succinctly, and finish with the final numeric result on its own line.",
+      "train_score": 0.918918918918919,
+      "train_step": 1,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nPerform the computation step by step. For each step write a self\u2011contained arithmetic expression using digits, parentheses and +\u2011\u2011*\u2011/. Optionally indicate its result with '=\u2026'. After the last step output a line that contains exactly the final answer and nothing else.\\n",
+      "train_score": 0.918918918918919,
+      "train_step": 92,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the calculation chain, each step a plain numeric expression, and end with the solitary final number.",
+      "train_score": 0.9054054054054054,
+      "train_step": 4,
+      "test_score": 0.8612585291887794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the solution exclusively as a",
+      "train_score": 0.9054054054054054,
+      "train_step": 77,
+      "test_score": 0.8483699772554966,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` and ending with `",
+      "train_score": 0.918918918918919,
+      "train_step": 69,
+      "test_score": 0.844579226686884,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a clear and concise solution step-by-step. You can write the solution directly without mentioning the steps verbally, as that is the accessibility feature we aim.",
+      "train_score": 0.918918918918919,
+      "train_step": 0,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8378378378378378,
+      "train_step": 15,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the required computation, showing just the essential arithmetic steps, and conclude with the final number as the sole output.",
+      "train_score": 0.918918918918919,
+      "train_step": 1,
+      "test_score": 0.8157695223654283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... new instruction text ...",
+      "train_score": 0.8378378378378378,
+      "train_step": 72,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a pure arithmetic solution: on each line write a standalone expression using only digits, parentheses and the operators +\u2011\u2011*\u2011/ and optionally = result;",
+      "train_score": 0.8918918918918919,
+      "train_step": 13,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.8378378378378378,
+      "train_step": 76,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ". Must not duplicate any phrasing.",
+      "train_score": 0.8378378378378378,
+      "train_step": 18,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a sequence of independent arithmetic lines, each using only digits, parentheses and the operators\u202f+\u202f\u2011\u202f*\u202f/. Optionally show its result with \u201c=\u2026\u201d. End the sequence with a line that contains only the final numeric answer and no other characters.",
+      "train_score": 0.6216216216216216,
+      "train_step": 99,
+      "test_score": 0.5489006823351024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide the solution using only numeric expressions. On each line write a complete arithmetic expression (digits, parentheses, +,\u2011,*,/). You may follow an expression with \u201c=value\u201d to show its result. After the last calculation output a single line that contains nothing but the final answer.",
+      "train_score": 0.5945945945945946,
+      "train_step": 99,
+      "test_score": 0.5193328278999242,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a series of self\u2011contained arithmetic statements, one per line, using only digits, parentheses and the four operators\u202f+\u202f\u2011\u202f*\u202f/. You may add \u201c=value\u201d after any line to display its result. Finish with a single line that contains only the final numeric answer\u2014no extra symbols or words.",
+      "train_score": 0.6351351351351351,
+      "train_step": 99,
+      "test_score": 0.5011372251705838,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write the solution as a series of independent arithmetic expressions, one per line, using only numbers, parentheses and the operators +\u2011\u2011*\u2011/. You may add \u201c= result\u201d after any expression. After the last expression output a line that contains exactly the final answer with no other characters.",
+      "train_score": 0.44594594594594594,
+      "train_step": 99,
+      "test_score": 0.40333586050037906,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a complete solution using only arithmetic expressions. On every line write a standalone expression made solely of numbers, parentheses and the operators +\u2011\u2011*\u2011/. You may follow an expression with \u201c= result\u201d to display its value. The last line must consist of the final answer alone, without any additional symbols or words.",
+      "train_score": 0.3108108108108108,
+      "train_step": 99,
+      "test_score": 0.3169067475360121,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Tags. Must be different phrasing from all previous.",
+      "train_score": 0.25675675675675674,
+      "train_step": 99,
+      "test_score": 0.2608036391205459,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each needed arithmetic operation, write a standalone expression (using only digits, parentheses, and +\u2011\u2011*\u2011/). You may optionally append \u201c=result\u201d. After completing all steps, output a single line that contains exactly the final number and nothing else.",
+      "train_score": 0.1891891891891892,
+      "train_step": 99,
+      "test_score": 0.20621683093252463,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9006823351023503,
+    "avg_test_score": 0.6902054225784324,
+    "best_test_instruction": "Perform the necessary calculation, display the essential arithmetic steps clearly, and place the final numeric answer on its own line at the end."
+  }
+}

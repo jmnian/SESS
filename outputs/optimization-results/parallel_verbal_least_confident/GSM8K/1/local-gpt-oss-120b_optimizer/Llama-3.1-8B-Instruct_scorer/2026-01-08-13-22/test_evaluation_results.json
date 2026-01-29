@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Derive the necessary formula from the presented quantities, evaluate it step\u2011by\u2011step showing each intermediate result, verify that the final value satisfies all stated conditions, and answer with only the final integer.",
+      "train_score": 0.918918918918919,
+      "train_step": 32,
+      "test_score": 0.846095526914329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the key facts, perform the required calculations in a logical sequence, check the result against the conditions, and give only the final numeric answer.",
+      "train_score": 0.9054054054054054,
+      "train_step": 2,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given numeric value, determine the required operation, compute the result showing each intermediate step, ensure the answer satisfies all problem conditions, and reply with only the final numeric answer.",
+      "train_score": 0.918918918918919,
+      "train_step": 6,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all stated numbers (including implied percentages or ratios), translate them into explicit values, then work out the solution by performing each arithmetic operation on a separate line, checking that every condition of the problem is satisfied; finally reply with only the final numeric answer.",
+      "train_score": 0.918918918918919,
+      "train_step": 37,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, devise the exact calculation required (including percentages, ratios, unit changes, and rounding), compute it step\u2011by\u2011step while listing intermediate results, verify all problem constraints, and reply with only the final numeric answer.",
+      "train_score": 0.9054054054054054,
+      "train_step": 13,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution and state the final answer.",
+      "train_score": 0.918918918918919,
+      "train_step": 0,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the data, write a single explicit calculation (including any needed percentages or proportions), evaluate it while displaying each intermediate result, verify the answer meets the problem\u2019s constraints, and output solely the final numeric answer.",
+      "train_score": 0.9054054054054054,
+      "train_step": 8,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers, convert any percentages, fractions, ratios, or unit conversions into explicit values, then solve the problem by a linear chain of single\u2011operation steps, writing each step on its own line and keeping exact values (no rounding) until the final step. After confirming the final result satisfies every condition, output only that final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 56,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate all given information, convert any percentages, fractions, or rates into explicit numbers, then solve the problem by performing each arithmetic operation on its own line and showing the intermediate result; after confirming the final value meets every stated condition, output only the final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 50,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem\u2019s data, identify the needed calculation, compute it step\u2011by\u2011step displaying every intermediate result, verify the outcome satisfies all conditions, and output only the final numeric answer.",
+      "train_score": 0.9054054054054054,
+      "train_step": 4,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities given, convert any percentages, fractions, or ratios to exact numbers, then compute the solution by a linear series of single\u2011operation steps\u2014write each operation on its own line together with the resulting intermediate value (keep values exact, no rounding until the final step). After the chain is complete, check that the final result fulfills every condition stated in the problem, and output only that final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 84,
+      "test_score": 0.8097043214556482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every quantity mentioned, turn percentages, fractions, ratios and rates into exact decimal values, then solve the problem by a linear sequence of one\u2011operation calculations. Write each operation on its own line together with the resulting intermediate value (keep full precision, no rounding until the final step). After completing the chain, check that the final result fulfills all the problem\u2019s conditions and reply with only that final numeric answer.",
+      "train_score": 0.7567567567567568,
+      "train_step": 99,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, translate any percentages/fractions/ratios to numbers, define variables as needed, then solve the problem by a clear one\u2011operation\u2011per\u2011line calculation chain, showing each intermediate result. Confirm the final value meets every constraint and return only that final numeric answer.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.8051554207733131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all given quantities, convert any non\u2011numeric forms to numbers, compute the required value step\u2011by\u2011step showing each intermediate result on its own line (no rounding until the end), verify it satisfies all conditions, and answer with only the final number.",
+      "train_score": 0.918918918918919,
+      "train_step": 71,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity, convert any percentages, fractions, or ratios to exact decimals, then compute the answer using a single clear arithmetic chain, writing each operation with its resulting value on a separate line without rounding until the end. After the computation, verify that the result satisfies all problem conditions and respond with only the final numeric value.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.7937831690674754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical datum (including percentages, fractions, ratios, and implied units) and convert them to exact numbers. Then solve the problem by a sequence of single\u2011operation calculations, writing each intermediate result on its own line and keeping values exact until the last step. After confirming the final result satisfies all problem conditions, output only that final numeric answer.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7899924184988628,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity mentioned, convert any percentages, fractions, ratios or unit rates to exact decimal values, then perform the solution as a linear sequence of one\u2011operation steps, annotating each step with its result while keeping values exact (no rounding) until the final line. Verify that the final result satisfies all stated conditions and reply with only that final numeric answer.",
+      "train_score": 0.918918918918919,
+      "train_step": 69,
+      "test_score": 0.7862016679302501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all numbers presented, convert percentages, fractions and ratios into their decimal equivalents, label each quantity, construct the explicit formula that the question asks for, evaluate it by executing one arithmetic operation per line (showing the resulting intermediate value each time, keeping exact values), verify that the obtained result satisfies every condition described, and finally reply with just the final numeric answer.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7558756633813495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7567567567567568,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each numerical piece of information, convert percentages, fractions or ratios into exact decimal values, assign a short variable name to each, write the target expression using those variables, evaluate it step\u2011by\u2011step showing one intermediate result per line (keep exact values until the last line), verify that the final value satisfies every condition, and output only the final numeric answer.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7391963608794542,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number mentioned, turn percentages, fractions and ratios into exact decimals, label each with a brief variable, then compute the solution step\u2011by\u2011step using a single\u2011operation per line (keep values exact, no rounding until the end). After the final step check that the result satisfies all stated conditions and reply with only the final numeric answer.",
+      "train_score": 0.6351351351351351,
+      "train_step": 99,
+      "test_score": 0.6376042456406369,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.846095526914329,
+    "avg_test_score": 0.7977544315679266,
+    "best_test_instruction": "Derive the necessary formula from the presented quantities, evaluate it step\u2011by\u2011step showing each intermediate result, verify that the final value satisfies all stated conditions, and answer with only the final integer."
+  }
+}

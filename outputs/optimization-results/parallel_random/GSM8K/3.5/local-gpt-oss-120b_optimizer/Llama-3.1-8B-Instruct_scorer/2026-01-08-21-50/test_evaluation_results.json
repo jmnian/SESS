@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step and output only the final numeric answer.",
+      "train_score": 0.9157088122605364,
+      "train_step": 0,
+      "test_score": 0.8521607278241091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute only what is needed, showing at most one short intermediate result if it aids clarity. End your response with a single line that consists solely of the exact numeric answer\u2014no words, symbols, units, or extra spaces.",
+      "train_score": 0.946360153256705,
+      "train_step": 25,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After any necessary reasoning, compute the answer and output it as the sole content of the final line\u2014just the number, no additional text, punctuation, spaces, formatting, or blank lines.",
+      "train_score": 0.9348659003831418,
+      "train_step": 88,
+      "test_score": 0.8392721758908264,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required value using the minimal necessary arithmetic. If a single intermediate step clarifies the solution, place it on a separate line. The very last line of your output must consist solely of the exact numeric answer\u2014no letters, symbols, units, or surrounding spaces.",
+      "train_score": 0.9233716475095786,
+      "train_step": 24,
+      "test_score": 0.8369977255496588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the core steps, perform the minimal necessary arithmetic, and provide only the resulting number as the final answer.",
+      "train_score": 0.9157088122605364,
+      "train_step": 2,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer using only necessary operations. If helpful, show one brief intermediate value on its own line. End your response with a single line that contains exactly the final integer\u2014no letters, symbols, spaces, or formatting before or after it.",
+      "train_score": 0.9195402298850575,
+      "train_step": 91,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer using only the necessary arithmetic; you may include at most one short intermediate value for clarity. End your response with a single line that contains the exact numeric result alone\u2014no letters, symbols, units, spaces, or extra line breaks.",
+      "train_score": 0.9233716475095786,
+      "train_step": 39,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reason briefly to find the needed values, execute only the indispensable arithmetic, and conclude your response with a single line containing solely the exact integer answer\u2014nothing else.",
+      "train_score": 0.9386973180076629,
+      "train_step": 7,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide any brief reasoning you need. If it helps, include at most one short numeric intermediate on a separate line. The very last line must contain only the final integer result\u2014no letters, symbols, units, spaces, markdown, or extra line breaks.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using the minimal required arithmetic. You may include at most one brief intermediate value on its own line for clarity. Ensure that the final line of your response consists solely of the exact numeric answer with no preceding or trailing characters (no letters, symbols, units, spaces, or line breaks before or after it).",
+      "train_score": 0.9233716475095786,
+      "train_step": 71,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the necessary reasoning, optionally include a single brief numeric intermediate on its own line for clarity, and conclude with exactly one line that contains only the final integer answer\u2014no letters, symbols, units, spaces, markdown, or extra line breaks before or after it.",
+      "train_score": 0.9195402298850575,
+      "train_step": 96,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carry out only the required computation(s); you may display one short intermediate result if it aids understanding, but the very last line of your response must be the plain numeric answer with no surrounding text, symbols, units, or whitespace.",
+      "train_score": 0.9233716475095786,
+      "train_step": 21,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the minimal steps required to reach the solution, perform only the necessary calculation (you may show a single brief intermediate if it aids understanding), and finish with one line that contains solely the exact numeric answer\u2014no other text, symbols, or formatting.",
+      "train_score": 0.9310344827586207,
+      "train_step": 16,
+      "test_score": 0.8203184230477635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short logical justification, carry out only the indispensable arithmetic (you may include a single brief intermediate if it helps), and finish with exactly one line that contains only the final numeric answer\u2014no other words, symbols, or formatting.",
+      "train_score": 0.9157088122605364,
+      "train_step": 18,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform only the essential calculations. If a single intermediate numeric value clarifies the solution, put it on its own line. Conclude with exactly one line that contains the final integer answer\u2014nothing else, no letters, symbols, units, spaces, markdown, or extra line breaks before or after it.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.8066717210007581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Calculate the answer using only the essential arithmetic. You may write one brief intermediate value on its own line if it clarifies the process. The very last line of your response must contain only the exact numeric answer\u2014no words, symbols, units, markdown, or surrounding whitespace.",
+      "train_score": 0.8582375478927203,
+      "train_step": 99,
+      "test_score": 0.8013646702047005,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the essential reasoning (you may show one brief numeric intermediate on its own line if useful). The final line of your response must contain only the exact integer answer\u2014no letters, symbols, units, spaces, markdown, or extra blank lines.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.799090219863533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute only what\u2019s necessary to obtain the answer. If a single intermediate number aids clarity, put it on its own line. Conclude with one line that contains exactly the final integer\u2014no letters, symbols, units, markdown, spaces, or extra line breaks before or after it.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.7899924184988628,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After any brief reasoning you may include a single line showing a short intermediate value. Then output exactly one line that contains only the final integer\u2014no letters, symbols, units, spaces, markdown, or extra line breaks.",
+      "train_score": 0.8045977011494253,
+      "train_step": 99,
+      "test_score": 0.759666413949962,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7854406130268199,
+      "train_step": -1,
+      "test_score": 0.7573919636087946,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After brief reasoning (you may show one brief numeric intermediate on its own line if helpful), output only the final answer on the last line\u2014exactly the integer, with no other characters, spaces, or formatting.",
+      "train_score": 0.7318007662835249,
+      "train_step": 99,
+      "test_score": 0.7043214556482184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8521607278241091,
+    "avg_test_score": 0.8116538503195061,
+    "best_test_instruction": "Solve the problem step\u2011by\u2011step and output only the final numeric answer."
+  }
+}

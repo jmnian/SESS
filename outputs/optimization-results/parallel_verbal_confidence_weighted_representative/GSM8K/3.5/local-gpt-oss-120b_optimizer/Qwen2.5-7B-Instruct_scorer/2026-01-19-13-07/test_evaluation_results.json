@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every numeric fact, devise the minimal arithmetic expression that directly gives the answer, evaluate it step\u2011by\u2011step supplying a short reason for each operation, verify the intermediate outcome, and finish by printing only the final integer on its own line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 84,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, note every quantity and how it relates, write the minimal arithmetic expression(s) that capture those relations, compute each operation in order while giving a brief justification, double\u2011check the intermediate result, and end with only the final integer answer on its own line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 10,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all stated quantities, capture their relationships, and formulate the smallest possible arithmetic (one expression or a brief sequence). Evaluate the steps sequentially, providing a short justification for each, verify the intermediate result, and finish by writing only the final integer on a single line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 15,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric datum, give it a brief label if useful, translate the problem into the smallest possible arithmetic (a single expression if possible, otherwise the shortest chain of operations). Compute the steps one\u2011by\u2011one, providing a concise justification and confirming every intermediate result, then finish with a single line containing only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 72,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their meanings, express the problem with the fewest possible arithmetic operations (single formula if feasible), compute the result sequentially while giving a concise reason for each step, confirm the last intermediate value, and finally print only the integer answer on a line by itself.",
+      "train_score": 0.9616858237547893,
+      "train_step": 49,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list each given number and its connection, formulate the simplest calculation needed, perform the arithmetic with short reasoning for each step, verify the intermediate results, and finish by writing only the final answer (a single number) on its own line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 5,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric fact and its meaning, label them with brief symbols if useful, rewrite the problem as the most compact arithmetic formulation (preferably a single expression, otherwise the shortest chain of operations), evaluate it step\u2011by\u2011step giving a concise justification and confirming each intermediate result, and conclude with only the final integer on a line by itself.",
+      "train_score": 0.9616858237547893,
+      "train_step": 60,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, note each numeric value and its role, devise the most direct arithmetic calculation that yields the asked quantity, carry out the computation showing a short rationale for every step, verify the last intermediate result, and then output solely the final integer on its own line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, list every numeric quantity and its relationship, convert them into the minimal arithmetic expression(s) required, evaluate each step with a brief justification, verify the intermediate result, and finally write only the single final number on its own line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 6,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity and its role, translate the whole scenario into one explicit arithmetic expression (or a minimal set of equations), evaluate it step\u2011by\u2011step with brief justification, double\u2011check the computation, and output only the final numeric answer on its own line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 4,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical quantity and its relationship, translate the problem into the smallest possible arithmetic expression (or brief chain of equations), evaluate it step\u2011by\u2011step giving a concise justification for each operation, double\u2011check the intermediate result, and finally output only the single integer answer on its own line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 9,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numbers and their roles, represent the question with the simplest possible arithmetic (preferably a single formula). Perform the calculations step\u2011by\u2011step, providing a brief reason for each operation and checking the intermediate outcome, then output exactly one line containing only the final integer answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every given number, translate the problem into the smallest possible arithmetic expression (or brief chain of equations) that directly yields the asked quantity, evaluate the expression step\u2011by\u2011step providing a concise justification for each operation, verify the intermediate result, and finish by writing only the final integer answer on a single line with no additional text.",
+      "train_score": 0.9578544061302682,
+      "train_step": 19,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text pull out each given number and what it represents, decide the exact arithmetic needed, perform the computation in a single clear expression (or the shortest chain if unavoidable) showing a brief reason for each step, confirm the result, and output solely the final integer on a new line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 16,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number mentioned and what it refers to. Convert the entire scenario into the simplest possible arithmetic calculation\u2014preferably a single expression, otherwise the shortest chain of operations. Perform each computation step\u2011by\u2011step, giving a brief reason for the operation and confirming the intermediate value. End the response with exactly one line containing only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 34,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every quantity mentioned, assign a short symbol if helpful, formulate the simplest possible calculation that directly yields the requested value (prefer a single formula, otherwise the shortest sequence), compute it step by step while stating a brief reason for each operation, confirm the final intermediate result, and finally print only the integer answer on its own line with no other characters.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given number, determine the exact minimal formula that produces the answer, evaluate it sequentially with a short rationale for each operation, confirm the intermediate result, and finally print only the integer answer on a single line, with no additional text.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8352490421455939,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number, decide the exact arithmetic needed to obtain the requested value, perform the calculation step\u2011by\u2011step while giving a short reason for each operation, confirm the final result, and output only the integer answer on a single line with no other text.",
+      "train_score": 0.7586206896551724,
+      "train_step": 99,
+      "test_score": 0.6595905989385898,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numeric value and its meaning, create the most compact arithmetic formulation (prefer a single expression, otherwise the shortest chain), compute it step\u2011by\u2011step with a brief one\u2011sentence justification for every operation, double\u2011check the intermediate result, and finish by printing only the final integer on its own line with no additional text.",
+      "train_score": 0.6934865900383141,
+      "train_step": 99,
+      "test_score": 0.6292645943896892,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numerical values and their roles. Form the shortest possible arithmetic expression (or minimal sequence) that yields the requested quantity. Compute it step\u2011by\u2011step, giving a brief justification for each operation and confirming the intermediate result. Finally, output only the resulting integer on a single line, without any additional text.",
+      "train_score": 0.3831417624521073,
+      "train_step": 99,
+      "test_score": 0.32676269901440486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.8386584353225748,
+    "best_test_instruction": "Extract every numeric fact, devise the minimal arithmetic expression that directly gives the answer, evaluate it step\u2011by\u2011step supplying a short reason for each operation, verify the intermediate outcome, and finish by printing only the final integer on its own line."
+  }
+}

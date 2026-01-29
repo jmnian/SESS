@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List each necessary intermediate quantity, compute its value on a separate line with a succinct justification, confirm the computation, and finally output a single line that contains only the final numeric answer in exactly the format the problem specifies (right sign, required decimal places, no extra characters or spaces).",
+      "train_score": 0.7588235294117647,
+      "train_step": 55,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute every needed quantity, briefly note the operation, quickly validate the result, and conclude with a single line containing solely the final answer exactly as the problem demands.",
+      "train_score": 0.7588235294117647,
+      "train_step": 42,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem methodically: identify the needed formulas, compute each intermediate quantity while verifying accuracy, and finish by giving ONLY the final numeric answer in exactly the requested format (no extra text).",
+      "train_score": 0.7470588235294118,
+      "train_step": 6,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution showing all necessary calculations, and conclude with the exact answer in the required numeric format.",
+      "train_score": 0.7470588235294118,
+      "train_step": 1,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, showing only essential calculations; after confirming each step, write the final result on a single line as a plain number in the exact format requested (correct sign, required decimal places, no extra characters or whitespace). End the response immediately after that line.",
+      "train_score": 0.5529411764705883,
+      "train_step": 99,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Systematically determine the needed quantities, confirm each intermediate computation, and conclude by outputting only the final answer in the exact numeric format requested.",
+      "train_score": 0.7470588235294118,
+      "train_step": 7,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into clear sub\u2011steps, justify each computation, rigorously verify intermediate results, and conclude with only the final answer formatted exactly as required (no extra text).",
+      "train_score": 0.7647058823529411,
+      "train_step": 4,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential numeric quantities, evaluate them one by one with a short explanation, cross\u2011check each result, and finally write only the final answer exactly as required (same number of decimal places, no extra characters).",
+      "train_score": 0.7647058823529411,
+      "train_step": 38,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every necessary intermediate result, compute it on its own line with a short justification, verify each, and conclude with a single line that contains only the final answer formatted exactly as the problem specifies (same number of decimal places, no additional characters).",
+      "train_score": 0.7588235294117647,
+      "train_step": 63,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief explanation of the key computation, then give only the final numeric result on a separate line, matching the exact format requested (correct sign, number of decimal places, no extra characters or whitespace). Ensure any needed intermediate steps are checked internally but not listed in the output.",
+      "train_score": 0.4294117647058823,
+      "train_step": 99,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution.",
+      "train_score": 0.7470588235294118,
+      "train_step": 0,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Proceed in clear stages: pinpoint the target quantity, carry out each needed computation with a quick verification, and conclude by writing only the final answer exactly as requested (same numeric format, no extra words or symbols).",
+      "train_score": 0.7529411764705882,
+      "train_step": 12,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every quantity that needs to be found, compute each on a separate line with a short justification and a quick sanity check, then finish with one line that contains only the final numeric answer in exactly the required format (correct sign, exact number of decimal places, no extra symbols or whitespace).",
+      "train_score": 0.7529411764705882,
+      "train_step": 73,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "We first identify every quantity that must be computed, we evaluate each one on its own line with a brief rationale and a quick sanity check, and we end the response with a single line containing only the final numeric answer in exactly the format required (correct sign, decimal places, and no extra characters or whitespace).",
+      "train_score": 0.7529411764705882,
+      "train_step": 56,
+      "test_score": 0.7246014379493592,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem methodically: list the unknown quantities, evaluate each with a concise reason, verify the intermediate values, and end the response with a single line containing just the final numeric answer exactly as specified (no extra characters or commentary).",
+      "train_score": 0.7529411764705882,
+      "train_step": 36,
+      "test_score": 0.7089715536105032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a logical sequence of calculations, include verification of intermediate results, and output the final answer precisely as requested.",
+      "train_score": 0.7705882352941177,
+      "train_step": 1,
+      "test_score": 0.7061581744295092,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline the required reasoning briefly, verify each intermediate computation, and conclude with only the final answer in exactly the format specified (no extra words, symbols, or whitespace).",
+      "train_score": 0.7529411764705882,
+      "train_step": 13,
+      "test_score": 0.6983432322600813,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each intermediate quantity, calculate it on a separate line with a short comment, confirm the result, and then output only one final line that holds the answer in the exact numeric format required (correct sign, precise decimal places, no extra symbols or whitespace).",
+      "train_score": 0.6176470588235294,
+      "train_step": 99,
+      "test_score": 0.5645514223194749,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Carry out the needed calculations; for each intermediate result give a short comment in brackets, then after confirming all steps, output a single line that consists solely of the final numeric answer, matching the exact format (sign, number of decimal places) requested, with no additional characters or whitespace.",
+      "train_score": 0.4,
+      "train_step": 99,
+      "test_score": 0.5486089402938418,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7176470588235294,
+      "train_step": -1,
+      "test_score": 0.4366989684276336,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carry out each required computation, attaching a brief rationale to every step. After verifying all intermediate results, end your response with one line that contains only the final numeric answer\u2014exactly as specified (correct sign, exact decimal places, no extra symbols, spaces, or commentary).",
+      "train_score": 0.711764705882353,
+      "train_step": 99,
+      "test_score": 0.3785557986870897,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7514848390121913,
+    "avg_test_score": 0.6856011551228807,
+    "best_test_instruction": "List each necessary intermediate quantity, compute its value on a separate line with a succinct justification, confirm the computation, and finally output a single line that contains only the final numeric answer in exactly the format the problem specifies (right sign, required decimal places, no extra characters or spaces)."
+  }
+}

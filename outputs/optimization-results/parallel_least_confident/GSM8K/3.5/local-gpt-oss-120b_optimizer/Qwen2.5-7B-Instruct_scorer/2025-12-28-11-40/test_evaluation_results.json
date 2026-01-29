@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Parse the problem, enumerate each given quantity and its relationship, build the exact formula needed, evaluate it step\u2011by\u2011step with internal sanity checks, and output only the final numeric answer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 10,
+      "test_score": 0.9196360879454132,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into factual pieces, convert each piece into the appropriate arithmetic operation, compute the steps in order while briefly verifying each intermediate result, and reply with only the final numeric answer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 8,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated number with its context, translate the problem into the exact mathematical expression(s) required (preserve units, fractions, percentages; introduce symbols only when unavoidable), evaluate the expression(s) in order while performing a concise validity check after each step, and output only the final numeric result (round only if explicitly requested).",
+      "train_score": 0.89272030651341,
+      "train_step": 91,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities and their relationships, form the exact calculation(s) needed, solve them step\u2011by\u2011step while confirming each intermediate result, and return only the final numeric answer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 24,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated quantities, deduce any implied values, construct the necessary calculation, perform it stepwise while confirming each intermediate outcome, and present only the final numeric result.",
+      "train_score": 0.8888888888888888,
+      "train_step": 8,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record each stated number with its meaning, then form the minimal exact calculation that embodies all relationships (retain units, fractions, percentages; avoid unnecessary symbols). Execute the calculation step\u2011by\u2011step, briefly verifying that each intermediate outcome is plausible, and finally output only the resulting number (apply rounding solely if the problem explicitly requires it).",
+      "train_score": 0.8544061302681992,
+      "train_step": 99,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Enumerate each numerical fact and its role.  \n- Convert the entire problem into a single exact arithmetic expression (use variables only when necessary), keeping all units, fractions and percentages unchanged.  \n- Evaluate the expression step\u2011by\u2011step, making a quick sanity check after every intermediate calculation.  \n- Output only the final numeric answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 59,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and relationships in the problem, decide which mathematical operations are required, perform the calculations step\u2011by\u2011step, verify the result, and output only the final answer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 2,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given quantity with its meaning, formulate the minimal exact equation that captures all relationships (preserving fractions, percentages, and units), solve it sequentially while briefly confirming each intermediate value makes sense, and output solely the final numeric answer (round only if the problem explicitly requests it).",
+      "train_score": 0.8773946360153256,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each given quantity with its meaning, build the smallest exact calculation that embodies all relationships (preserve fractions, percentages, and units; use symbols only when necessary), evaluate it step\u2011by\u2011step with brief plausibility checks after each operation, and return only the final numeric answer (round only if the problem explicitly requires it).",
+      "train_score": 0.8390804597701149,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number and its role, deduce any hidden values, construct the exact formula(s) that satisfy all given relationships, evaluate them sequentially with brief sanity checks, and output only the final numeric result.",
+      "train_score": 0.8850574712643678,
+      "train_step": 17,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity and its meaning. Convert all information into one exact arithmetic expression (preserving units, fractions, percentages). Compute the expression sequentially, verifying each intermediate result for plausibility, and return only the final numeric answer (rounded only if the problem explicitly requires it).",
+      "train_score": 0.8888888888888888,
+      "train_step": 63,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Capture every numeric fact and its meaning.  \n- Convert the whole problem into the simplest exact calculation (preserve fractions, percentages, and units; use variables only if unavoidable).  \n- Compute step\u2011by\u2011step, briefly checking each intermediate value for consistency with the problem context.  \n- Output only the final numeric answer (round only if the question explicitly demands it).",
+      "train_score": 0.8888888888888888,
+      "train_step": 97,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each given number and what it represents.  \n- Translate the whole problem into one exact arithmetic expression (keep fractions, percentages, and units unchanged; use a variable only when unavoidable).  \n- Compute the expression step\u2011by\u2011step, performing a quick sanity check after every operation.  \n- Respond with only the final numeric answer in the required unit (round only if the problem demands a non\u2011integer result).",
+      "train_score": 0.8888888888888888,
+      "train_step": 61,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify every number in the problem and what it represents.  \n- Translate the entire situation into the simplest exact arithmetic expression (use variables only when unavoidable, keep fractions, percentages and units unchanged).  \n- Evaluate the expression sequentially, performing a quick plausibility check after each operation.  \n- Output solely the final numeric result, rounding only if the question explicitly requires it.",
+      "train_score": 0.89272030651341,
+      "train_step": 90,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, encode the problem as one exact arithmetic expression (keep all fractions, percentages, units unchanged), compute it sequentially while briefly confirming each step makes sense, and output only the final number (round only if required).",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify each given number and label it with a distinct variable.\n- Formulate the exact algebraic equation(s) that the problem states, preserving all units, fractions and percentages.\n- Solve the equation(s) step\u2011by\u2011step, confirming after each manipulation that the expression still reflects the original conditions.\n- Provide only the final numeric answer (apply rounding only if the question requires it).",
+      "train_score": 0.8888888888888888,
+      "train_step": 76,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify every explicit number and what it represents.  \n- Form a single exact arithmetic expression that captures all relations (keep fractions, percentages, units; add variables only if unavoidable).  \n- Compute the expression stepwise, performing a quick sanity check after each intermediate value.  \n- Output only the final number (round only if the problem explicitly requires a non\u2011integer answer).",
+      "train_score": 0.89272030651341,
+      "train_step": 92,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify every explicit numeric datum and its associated unit.  \n- Assemble a single exact mathematical expression that embodies all relationships (keep fractions, percentages, and units unchanged; introduce symbols only when unavoidable).  \n- Compute the expression using exact arithmetic, pausing after each operation to confirm the intermediate result is reasonable in the context.  \n- Provide solely the final numeric result (apply rounding only if the question explicitly demands it).",
+      "train_score": 0.7586206896551724,
+      "train_step": 99,
+      "test_score": 0.8476118271417741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.789272030651341,
+      "train_step": -1,
+      "test_score": 0.8407884761182715,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Capture each explicit quantity and its role.\n- Translate the whole problem into the simplest exact mathematical expression(s), preserving fractions, percentages and units; introduce symbols only when unavoidable.\n- Compute the expression(s) sequentially using exact arithmetic, inserting a quick sanity check after each operation.\n- Respond with only the final numeric answer (rounded only if the question explicitly asks for it).",
+      "train_score": 0.685823754789272,
+      "train_step": 99,
+      "test_score": 0.775587566338135,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9196360879454132,
+    "avg_test_score": 0.8889129571464673,
+    "best_test_instruction": "Parse the problem, enumerate each given quantity and its relationship, build the exact formula needed, evaluate it step\u2011by\u2011step with internal sanity checks, and output only the final numeric answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a concise, step\u2011by\u2011step solution that includes only the necessary reasoning and calculations. After an optional quick check, finish with the exact numeric answer on its own line\u2014write it as an integer if the result is whole, otherwise as a reduced fraction or a terminating decimal without any trailing zeros. No other characters, markdown, or blank lines may appear before or after that final line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 99,
+      "test_score": 0.758674585808065,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a compact reasoning chain that includes just the needed computations, verify if desired, and terminate with the final numeric answer on a separate line\u2014include a decimal fraction only when the value is non\u2011integral.",
+      "train_score": 0.8411764705882353,
+      "train_step": 10,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a compact, logically ordered solution: briefly explain the key idea, perform only the necessary calculations, and finish with the exact numeric answer on a line by itself (show a decimal only if the result is not an integer).",
+      "train_score": 0.8411764705882353,
+      "train_step": 7,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution that performs only the indispensable calculations. After a brief sanity check, end the response with the final answer on its own line as a plain number\u2014write it without a decimal point if it is an integer, otherwise show the exact decimal (no unnecessary trailing zeros).",
+      "train_score": 0.8352941176470589,
+      "train_step": 9,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, ordered solution showing only the indispensable steps; verify the computation, then output the result as a solitary numeral on its own line, omitting any decimal point when the result is an integer.",
+      "train_score": 0.8176470588235294,
+      "train_step": 8,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, step\u2011by\u2011step reasoning that isolates the key concept, carries out only the necessary arithmetic, optionally confirms the outcome, and ends the response with the answer alone on the final line\u2014write it as an integer if it has no fractional part, otherwise as the exact decimal without superfluous zeros.",
+      "train_score": 0.8294117647058824,
+      "train_step": 11,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short, logically sequenced solution that includes only the indispensable reasoning and calculations. Optionally perform a quick verification, then finish the response with the final numeric answer on a single line\u2014write it as an integer when it has no fractional part, otherwise as the exact decimal without any trailing zeros. No other text may appear before or after the answer.",
+      "train_score": 0.8235294117647058,
+      "train_step": 33,
+      "test_score": 0.7417943107221007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show a clear, step-by-step solution and give the final answer.",
+      "train_score": 0.8176470588235294,
+      "train_step": 0,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise solution containing only the indispensable reasoning and calculations. After a brief check, output the final result on the last line alone\u2014write it as an integer when it is whole, otherwise as a reduced fraction or terminating decimal without trailing zeros. No other text, symbols, or blank lines may appear before or after that answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 81,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, showing all essential steps, and end with the final answer as a single number (rounded to one decimal place only if the result is not an integer).",
+      "train_score": 0.8176470588235294,
+      "train_step": 1,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse, step\u2011by\u2011step answer that includes only the calculations required. After any quick sanity check, put the final numerical result alone on the last line. Write it as an integer if it is integral; otherwise give the exact reduced fraction or a terminating decimal with no superfluous zeros. No other text may appear before or after that line.",
+      "train_score": 0.5941176470588235,
+      "train_step": 99,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, logically ordered solution that includes only the indispensable reasoning and calculations, optionally verify the result, and terminate the output with the final answer on its own line\u2014present it as an integer when it has no fractional part, otherwise show the exact decimal without unnecessary trailing zeros.",
+      "train_score": 0.8235294117647058,
+      "train_step": 10,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a clear, step\u2011by\u2011step solution and state the final numeric answer.",
+      "train_score": 0.8294117647058824,
+      "train_step": 0,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, ordered solution containing only the indispensable reasoning and calculations. After an optional quick check, finish the response with the answer alone on the next line\u2014present it as an integer if it is whole, otherwise as a reduced fraction (or a terminating decimal without unnecessary zeros). No other text may appear before or after that line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 41,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Exactly. And end with",
+      "train_score": 0.8411764705882353,
+      "train_step": 47,
+      "test_score": 0.6758361988121288,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a minimal solution: a one\u2011sentence description of the key idea, the necessary computation, and then end the response with the exact answer alone on a single line. Format the answer as an integer if it is integral, otherwise as a reduced fraction or a terminating decimal with no trailing zeros. Ensure there is no other output (no headings, markdown, or blank lines) before or after that line.",
+      "train_score": 0.4117647058823529,
+      "train_step": 99,
+      "test_score": 0.5658018130665833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a concise solution: give only the central insight, carry out the minimal required calculations, and (if you wish) perform a brief check. Finish the response with the final numeric answer on a single line\u2014write it as an integer when it is whole, otherwise as a reduced fraction or terminating decimal with no unnecessary zeros. No headings, markdown, or any other text may appear before or after that line.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.5604876523913723,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a minimal, well\u2011ordered solution containing just the necessary steps. After any brief verification, output the final result alone on the last line\u2014write it as an integer if it is integral, otherwise as the reduced fraction or terminating decimal without trailing zeros. No other text, symbols, or blank lines may appear before or after that line.",
+      "train_score": 0.5588235294117647,
+      "train_step": 99,
+      "test_score": 0.4807752422632072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8176470588235294,
+      "train_step": -1,
+      "test_score": 0.4804626445764301,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse, stepwise explanation containing only the calculations needed to solve the problem. After any quick sanity check, end the response with a single line that consists solely of the answer: write it as an integer when it is whole, otherwise as the reduced fraction or a terminating decimal without trailing zeros. Do not include any other text, symbols, or blank lines before or after that line.",
+      "train_score": 0.4176470588235294,
+      "train_step": 99,
+      "test_score": 0.403251015942482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a succinct answer: outline only the core reasoning and calculations needed, optionally check the result, and finish with the exact final value on a single line\u2014present it as an integer if it has no fractional part, otherwise as a reduced fraction or a terminating decimal without extra zeros. No other words, symbols, or blank lines may appear before or after that line.",
+      "train_score": 0.6058823529411764,
+      "train_step": 99,
+      "test_score": 0.29509221631759924,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.758674585808065,
+    "avg_test_score": 0.6591792077881481,
+    "best_test_instruction": "Give a concise, step\u2011by\u2011step solution that includes only the necessary reasoning and calculations. After an optional quick check, finish with the exact numeric answer on its own line\u2014write it as an integer if the result is whole, otherwise as a reduced fraction or a terminating decimal without any trailing zeros. No other characters, markdown, or blank lines may appear before or after that final line."
+  }
+}

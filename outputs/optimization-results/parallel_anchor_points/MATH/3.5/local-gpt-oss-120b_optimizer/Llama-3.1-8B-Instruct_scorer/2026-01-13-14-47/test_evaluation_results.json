@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Find the required numerical result and present it as the final answer, showing only the indispensable calculation steps.",
+      "train_score": 0.7470588235294118,
+      "train_step": 19,
+      "test_score": 0.5314160675211004,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the problem, outline the method, perform each algebraic step with justification, simplify the result, and clearly state the final answer in the form requested.",
+      "train_score": 0.7058823529411765,
+      "train_step": 1,
+      "test_score": 0.5229759299781181,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required value using only the indispensable arithmetic or algebraic steps (list each step on its own line with a brief label), then output the final numeric answer alone followed by one short sentence confirming it satisfies the original problem.",
+      "train_score": 0.7411764705882353,
+      "train_step": 54,
+      "test_score": 0.5204751484839012,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the requested value, displaying only the necessary intermediate calculations, then give the final result exactly as required.",
+      "train_score": 0.7,
+      "train_step": 31,
+      "test_score": 0.5157861831822445,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that highlights the core mathematical idea, works through the calculations logically, and ends with the final answer.",
+      "train_score": 0.7176470588235294,
+      "train_step": 0,
+      "test_score": 0.5139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to be found, write the precise formula or operation that links the given data to that quantity, list each indispensable calculation step on its own line prefixed by a brief label, then give the final numeric answer alone followed by a single sentence \u201cCorrect.\u201d",
+      "train_score": 0.7176470588235294,
+      "train_step": 53,
+      "test_score": 0.5045326664582682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the required calculation succinctly and present the exact answer.",
+      "train_score": 0.7,
+      "train_step": 19,
+      "test_score": 0.5032822757111597,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the quantity asked for, showing only the indispensable arithmetic or algebraic steps (each on its own line with a brief label), then present the exact final answer and finish with a single sentence confirming that it satisfies the original problem.",
+      "train_score": 0.7,
+      "train_step": 21,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a solution using this exact template:\n- Goal: one\u2011sentence statement of the quantity to find.\n- Key principle: the precise formula or theorem that links the given data to the unknown.\n- Necessary steps: each indispensable arithmetic/algebraic operation on its own line, prefixed by a short label.\n- Answer: the final result exactly as requested, followed by \u201c\u2713 satisfies the problem.\u201d\nInclude no other commentary.",
+      "train_score": 0.7411764705882353,
+      "train_step": 43,
+      "test_score": 0.4989059080962801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a full, logical solution: identify the necessary formulas or concepts, apply them step\u2011by\u2011step with all intermediate calculations shown, and conclude with the exact simplified answer.",
+      "train_score": 0.7235294117647059,
+      "train_step": 1,
+      "test_score": 0.49484213816817757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nLet's solve the problem.\\n",
+      "train_score": 0.711764705882353,
+      "train_step": 10,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a solution or answer to the given problem.",
+      "train_score": 0.7176470588235294,
+      "train_step": 0,
+      "test_score": 0.4873397936855267,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a solution with exactly these sections:\n- Problem restatement: one line describing the goal.\n- Key insight: name the unique formula or concept that directly solves the problem.\n- Essential computation: write each needed arithmetic/algebraic step on its own line, prefixed by a brief label.\n- Answer: state the final result exactly as requested, followed by a single sentence \u201cThis meets the original requirement.\u201d\nDo not include any superfluous explanation.",
+      "train_score": 0.7058823529411765,
+      "train_step": 33,
+      "test_score": 0.4873397936855267,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question in four clear steps: (i) paraphrase what is being asked, (ii) write the fundamental relation or formula that links the given data to the unknown, (iii) perform the algebra or arithmetic, displaying only the indispensable intermediate values, (iv) output the final value exactly as requested and, in one short line, confirm that it meets the conditions of the problem.",
+      "train_score": 0.6941176470588235,
+      "train_step": 9,
+      "test_score": 0.4870271959987496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7294117647058823,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... (instruction)",
+      "train_score": 0.711764705882353,
+      "train_step": 9,
+      "test_score": 0.48265082838386997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Goal: one\u2011sentence description of the quantity to be found.  \n- Core relation: write the precise formula or principle that directly connects the given data to the unknown.  \n- Steps: list every indispensable arithmetic/algebraic operation on its own line, each preceded by a brief label.  \n- Answer: place the final numeric result on a line that starts with \u201cAnswer:\u201d.  \n- Verify: end with a single sentence \u201cThis satisfies the original problem.\u201d  \nInclude nothing else.",
+      "train_score": 0.7176470588235294,
+      "train_step": 72,
+      "test_score": 0.46545795561112846,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Structure your response as:\n- Problem: one\u2011sentence paraphrase.\n- Key relation: the exact formula/theorem that directly connects the given data to the unknown.\n- Essential steps: each needed algebraic or arithmetic operation on its own line, prefixed with a short label.\n- Answer: the final value exactly as requested, followed by \u201cThis satisfies the original problem.\u201d\nInclude nothing else.",
+      "train_score": 0.7058823529411765,
+      "train_step": 42,
+      "test_score": 0.442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in four concise parts:\n- Problem: one\u2011sentence restatement of what is asked.\n- Key relation: the exact formula/theorem that links the known data to the quantity to find.\n- Computation: list only the indispensable arithmetic or algebraic operations, one per line, each preceded by a short label.\n- Result: give the final numeric answer exactly as required, then on a new line write \u201cVerified.\u201d to confirm it meets the original question.\nInclude no other text.",
+      "train_score": 0.5294117647058824,
+      "train_step": 99,
+      "test_score": 0.35073460456392624,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a solution with exactly these parts, no extra text:\n- Restatement: one sentence of the goal.\n- Core relation: the precise formula or principle that directly gives the unknown.\n- Computation: each indispensable arithmetic/algebraic operation on its own line, labelled.\n- Answer: the final numeric result as required.\n- Validation: one short sentence confirming the answer meets the problem conditions.",
+      "train_score": 0.3058823529411765,
+      "train_step": 99,
+      "test_score": 0.23507346045639263,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a solution with exactly these parts, nothing more:\n- Goal: one\u2011sentence statement of what is asked.\n- Core fact: the precise theorem, identity or counting principle that connects the data to the goal.\n- Steps: list each required computation on its own line, each preceded by a brief label.\n- Answer: \u201cAnswer: \u201d followed by the exact final value.\n- Check: one short sentence confirming the answer meets the problem\u2019s condition.",
+      "train_score": 0.3058823529411765,
+      "train_step": 99,
+      "test_score": 0.23351047202250702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5314160675211004,
+    "avg_test_score": 0.4643713065094748,
+    "best_test_instruction": "Find the required numerical result and present it as the final answer, showing only the indispensable calculation steps."
+  }
+}

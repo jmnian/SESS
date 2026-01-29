@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List each given numeric value, compute the needed result in a clear, ordered sequence, and conclude with a single line containing only \u201cAnswer: <value>\u201d. Do not include any other text.",
+      "train_score": 0.9425287356321839,
+      "train_step": 79,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, translate the problem into the minimal required arithmetic, compute the result in a short numbered list (one concise justification per step), and end the response with a single line containing only \u201cAnswer = <result>\u201d (include units if the problem specifies them). Do not output any other text before or after that line.",
+      "train_score": 0.9386973180076629,
+      "train_step": 9,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value in the problem, assign a symbol if helpful, compute the required quantity using a numbered list where each line is \u201c<n>. <expression> = <value>\u201d. After the last step output exactly one line \u201cAnswer = <value>\u201d (add units if the question asks for them). No other text may appear before, between, or after these lines.",
+      "train_score": 0.9386973180076629,
+      "train_step": 17,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum, perform the required calculations in a brief, numbered sequence, and conclude with one line that reads \u201cAnswer:\u202fX\u201d (replace\u202fX with the final result, adding units if needed). Include no other text.",
+      "train_score": 0.9386973180076629,
+      "train_step": 7,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem. Compute the required quantity using a numbered list; each line must be formatted as \u201c<step>. <calculation> \u2192 <result>\u201d. End with one line that contains exactly \u201cAnswer: <result>\u201d (add units if required). Do not include any other text before, between, or after these lines.",
+      "train_score": 0.9386973180076629,
+      "train_step": 76,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given quantities, compute the required result, and present the solution as a numbered list of calculations followed by a final line that contains only the word \u201cResult:\u201d a space and the numeric answer (include units if any). No other text is allowed.",
+      "train_score": 0.9501915708812261,
+      "train_step": 64,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number from the problem, label them if you wish, then solve the required calculation in a numbered list where each line follows the pattern \u201cStep\u202fk: <expression> = <result>\u201d. Conclude with a single line containing only \u201cAnswer = <result>\u201d (include units when needed). Do not include any other text before, between, or after these lines.",
+      "train_score": 0.9386973180076629,
+      "train_step": 19,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by extracting the relevant numbers, performing the needed calculations, and presenting the final result. Provide a brief, logical sequence of steps leading to the answer, and show the answer alone on the last line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 2,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, assign symbols if desired, then compute the answer. Present each operation on its own line numbered \u201c<n>. <formula> \u2192 <value>\u201d. After the last step output exactly one line \u201cAnswer: <value>\u201d (append units when applicable). Do not include any other characters or commentary.",
+      "train_score": 0.9386973180076629,
+      "train_step": 95,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers given. Construct the exact arithmetic formula needed to answer the question. Evaluate it step\u2011by\u2011step, listing each step on a separate line as \u201c<step number>. <operation> = <value>\u201d. Conclude with a single line that contains only \u201cAnswer: <value>\u201d (include units when required). No other text is allowed before, between, or after these lines.",
+      "train_score": 0.9425287356321839,
+      "train_step": 14,
+      "test_score": 0.8658074298711145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric quantities in the problem, perform the necessary calculations, and present the solution as a numbered list of each computation followed by a final line that contains exactly \u201cAnswer = <value>\u201d (including units if any). No other text is allowed.",
+      "train_score": 0.9386973180076629,
+      "train_step": 37,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, assign clear symbols if helpful, write the exact calculation needed, solve it stepwise listing each step as \u201c<n>. <expression> \u2192 <value>\u201d. After the last step output a single line containing only \u201cAnswer = <value>\u201d (include units when required). No other text may appear before, between, or after these lines.",
+      "train_score": 0.9386973180076629,
+      "train_step": 49,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number in the problem, optionally label them, and formulate the exact calculation that yields the answer. Solve it by presenting each computation on a separate line numbered \u201cStep <i>: <calculation> = <result>\u201d. End with a single line \u201cAnswer: <result>\u201d (include units if needed). No other text is allowed.",
+      "train_score": 0.9386973180076629,
+      "train_step": 95,
+      "test_score": 0.8430629264594389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, give each a brief symbol if it helps, then write the precise arithmetic expression that yields the answer. Evaluate it line by line, prefixing each line with \u201cStep\u202fk: \u201d and showing \u201c<expression> \u2192 <result>\u201d. After the last step output only \u201cResult: <value>\u201d (add units when required). No other text may appear.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8467432950191571,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, assign a short variable if helpful, and write the exact formula that yields the answer. Compute it by listing each intermediate result on its own line numbered \u201c<n>\u201d followed by \u201c\u2192\u201d. Format: \u201c<n>. <expression> \u2192 <value>\u201d. End with a line containing only \u201c<value>\u201d. No extra text.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical quantity from the problem (assign a short symbol if desired). Then compute the required answer, listing each intermediate computation on its own line numbered \u201c<n>) <expression> \u2192 <result>\u201d. Conclude with one line that contains exactly \u201cTotal = <result>\u201d (add units when needed). No additional text is allowed.",
+      "train_score": 0.8505747126436781,
+      "train_step": 99,
+      "test_score": 0.7680060652009097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value from the prompt (assign a short symbol if useful). Write the exact arithmetic expression that yields the answer. Evaluate it step\u2011by\u2011step, putting each step on its own line numbered \u201c<n>. <expression> \u2192 <value>\u201d. After the last step output a single line containing only \u201cResult = <value>\u201d (add units when required). Do not write any other text.",
+      "train_score": 0.8199233716475096,
+      "train_step": 99,
+      "test_score": 0.7482941622441244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value, optionally give it a short symbol, then compute the required quantity. Show each intermediate computation on its own line formatted as \u201c<n>. <expression> => <value>\u201d. After the last step write a single line exactly \u201cResult: <value>\u201d (include units when appropriate). Do not include any other text.",
+      "train_score": 0.7624521072796935,
+      "train_step": 99,
+      "test_score": 0.7460197119029568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers from the prompt. If you wish, assign a short symbol to each. Write the exact arithmetic expression that gives the required result. Evaluate it step\u2011by\u2011step, listing each step on its own line as \u201c<step>. <expression> \u2192 <value>\u201d. After the last step output a single line containing only \u201cResult = <value>\u201d (include units when the question specifies them). No other text may appear before, between, or after these lines.",
+      "train_score": 0.7471264367816092,
+      "train_step": 99,
+      "test_score": 0.6747536012130402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value, assign a short variable name if helpful, then compute the required result. List each computation on its own line prefixed with its step number in the form \u201cStep <n>: <expression> = <value>\u201d. End with a line that contains only \u201cAnswer: <value>\u201d. Do not include any other text.",
+      "train_score": 0.5019157088122606,
+      "train_step": 99,
+      "test_score": 0.422289613343442,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.890068233510235,
+    "avg_test_score": 0.8170331058882991,
+    "best_test_instruction": "List each given numeric value, compute the needed result in a clear, ordered sequence, and conclude with a single line containing only \u201cAnswer: <value>\u201d. Do not include any other text."
+  }
+}

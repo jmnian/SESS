@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read each question carefully, apply the relevant chemical reasoning, and select the correct answer choice, providing a brief explanation for your selection.",
+      "train_score": 0.42105263157894735,
+      "train_step": 0,
+      "test_score": 0.37373737373737376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Carefully read the full problem and the four answer choices (A\u2011D).  \n2. Perform all necessary reasoning or calculations; any intermediate work may appear on earlier lines.  \n3. Conclude your reply with one line that contains only the correct capital letter (A, B, C or D). No spaces, punctuation, formatting tags or additional characters may be present, and nothing may follow this line.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the entire problem and all four answer options. Use internal reasoning (you may note thoughts above) to find the correct answer. Conclude your reply with a single line that contains exactly one capital letter\u202fA,\u202fB,\u202fC, or\u202fD and nothing else\u2014no spaces, punctuation, markup, or additional characters. No further text may follow that line.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Read the entire question and note all given data.  \n2. Perform the required reasoning or calculation.  \n3. Identify the single choice (A\u2011D) that satisfies all conditions.  \n4. On a new line write only that capital letter, without any other characters, spaces, or punctuation.  \n(If you wish, you may place a brief explanation on preceding lines, but the final line must be exactly one letter.)",
+      "train_score": 0.47368421052631576,
+      "train_step": 28,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. When you have determined the correct choice, output only the single capital letter (A, B, C, or D) on a line by itself \u2013 no other characters, spaces, or formatting may appear before or after it. Any explanation must be placed on preceding lines.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question and the four options (A\u2011D). Perform any necessary reasoning; you may place notes on preceding lines. Conclude by printing exactly one character\u2014the correct option letter\u2014on its own line, and stop the response right after that character (no trailing spaces, punctuation, or markup).",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "First, comprehend the problem and note the key data. Then, work through the required reasoning or computation internally. Confirm which of the four choices (A\u2011D) uniquely satisfies the conditions. Finally, respond with a single line containing only that letter, preceded by the brief justification in parentheses if desired, but no extra symbols or spaces beyond the letter itself.",
+      "train_score": 0.42105263157894735,
+      "train_step": 19,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\u2022 Read the entire question and extract every stated value, condition, or rule.  \n\u2022 Carry out all required reasoning or calculations mentally (or on scratch paper) and test each answer choice against the extracted data.  \n\u2022 Identify the one option (A\u2011D) that meets every criterion while the others violate at least one.  \n\u2022 Output only that capital letter on the final line of your reply\u2014no spaces, punctuation, formatting, or extra characters. Any explanation must precede this line.",
+      "train_score": 0.47368421052631576,
+      "train_step": 33,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.42105263157894735,
+      "train_step": -1,
+      "test_score": 0.30303030303030304,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the entire question and record every piece of information (numbers, constraints, conditions).  \n2. Perform all needed calculations or logical deductions internally.  \n3. Identify the single option (A\u2011D) that satisfies all requirements, confirming that the other three do not.  \n4. Output exactly one line containing only the chosen capital letter, with no additional characters, spaces or punctuation. (Any brief justification may appear on preceding lines.)",
+      "train_score": 0.47368421052631576,
+      "train_step": 28,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the entire question and all four choices (A\u2011D).  \n2. Carry out any required reasoning or calculations internally; you may place intermediate notes on separate lines.  \n3. Identify the single option that fulfills all conditions.  \n4. Write only the selected capital letter on the final line\u2014no spaces, punctuation, or formatting. Any explanation must precede this line.",
+      "train_score": 0.42105263157894735,
+      "train_step": 32,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Examine the problem and find the single correct option among A\u2011D.  \n2. (Optional) Place any brief reasoning on preceding lines.  \n3. On the last line output exactly one capital letter \u2013 A, B, C or D \u2013 with no extra spaces, punctuation or characters.",
+      "train_score": 0.42105263157894735,
+      "train_step": 30,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, then conclude your response with a single capital letter (A\u2011D) on a line by itself\u2014no spaces, punctuation, markdown, or other characters. Any explanation should appear on lines above this final answer line.",
+      "train_score": 0.42105263157894735,
+      "train_step": 40,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the whole prompt and the four options. Determine the correct option by reasoning internally. Provide any reasoning you wish on preceding lines, but make sure the very last line of your output is exactly one capital letter (A, B, C, or D) with no surrounding characters, spaces, or formatting. No additional text may follow that line.",
+      "train_score": 0.42105263157894735,
+      "train_step": 46,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Read the problem statement together with all four options (A\u2011D).  \n- Carry out all necessary reasoning; any intermediate notes may appear on previous lines.  \n- Conclude with one line that contains exactly one capital letter (A, B, C, or D) and nothing else\u2014no spaces, punctuation, markdown, or additional characters. No output should follow this line.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Carefully read the prompt and the four options (A\u2011D).  \n2. Perform all necessary reasoning; any intermediate thoughts may be written on earlier lines.  \n3. End your response with a single line that contains only one of the letters A, B, C or D. Do not include spaces, punctuation, markdown, or any other characters, and do not write any further lines after it.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Examine the question and the four options (A\u2011D).  \n2. Work out the solution; you may write any intermediate steps above.  \n3. End your reply with exactly one capital letter\u2014A, B, C or D\u2014on a line by itself.  \n   No spaces, punctuation, markdown, or extra characters may appear on that line or after it.",
+      "train_score": 0.47368421052631576,
+      "train_step": 76,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Carefully examine the problem statement together with the four options labeled A\u2013D.  \n2. Perform all calculations or logical deductions internally; any intermediate notes may appear before the answer.  \n3. Identify the sole option that satisfies all conditions.  \n4. End your reply with one line that contains exactly one character \u2013 the chosen capital letter (A, B, C or D) \u2013 with no extra symbols, spaces, punctuation or formatting. This line must be the final line of the output.",
+      "train_score": 0.47368421052631576,
+      "train_step": 46,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, read the whole problem and the four answer choices (A\u2011D). Work out the solution, writing any intermediate thoughts on preceding lines. End your response with exactly one line that contains only the correct choice letter (A, B, C, or D). No other characters, spaces, markdown, or blank lines may appear before or after that line.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.23737373737373738,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the full question and all four options (A\u2011D). Use internal reasoning (you may write brief notes above) to find the correct choice. End your response with one line containing only the chosen capital letter, without any spaces, punctuation, formatting, or additional text after it.",
+      "train_score": 0.47368421052631576,
+      "train_step": 87,
+      "test_score": 0.23232323232323232,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Carefully read the entire question and all four answer options.  \n2. Perform all necessary reasoning, calculations, or eliminations internally (you may note reasoning on previous lines).  \n3. Identify the single option (A,\u202fB,\u202fC or\u202fD) that satisfies every condition of the problem.  \n4. End your response with exactly one line that contains only that capital letter\u2014no spaces, punctuation, markdown, or any other characters.  \nAny explanation must appear before this final line.",
+      "train_score": 0.42105263157894735,
+      "train_step": 41,
+      "test_score": 0.20707070707070707,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.37373737373737376,
+    "avg_test_score": 0.297017797017797,
+    "best_test_instruction": "Read each question carefully, apply the relevant chemical reasoning, and select the correct answer choice, providing a brief explanation for your selection."
+  }
+}

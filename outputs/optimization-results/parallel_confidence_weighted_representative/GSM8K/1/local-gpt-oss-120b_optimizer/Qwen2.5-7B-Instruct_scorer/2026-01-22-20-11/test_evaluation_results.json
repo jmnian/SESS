@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the quantities and relationships, translate the scenario into a single arithmetic expression, compute it step\u2011by\u2011step displaying each intermediate result, confirm the answer, and finally output only the final number.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity, formulate the exact arithmetic expression that directly yields the answer, evaluate it step\u2011by\u2011step (showing each intermediate result), perform a brief sanity check, and finally present only the final numeric value.",
+      "train_score": 0.972972972972973,
+      "train_step": 4,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the quantities, set up the exact calculation, compute it showing necessary intermediate results, quickly validate, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 4,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate every numerical datum (including units), translate the problem into a single precise arithmetic or algebraic expression, compute it step\u2011by\u2011step showing only indispensable intermediate results, perform a brief sanity check, and output solely the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 9,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Strip the problem to its numerical facts, write one precise formula that yields the asked quantity (ensuring unit consistency), compute it showing only the necessary intermediate result, briefly confirm the answer makes sense, then output just the final numeric value.",
+      "train_score": 0.972972972972973,
+      "train_step": 14,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement, pull out every explicit quantitative value. Determine the unknown quantity being asked. Directly substitute the values into a single, unambiguous expression that solves for the unknown (including any required unit conversions). Compute this expression, showing only the minimal intermediate figure needed for verification, perform a quick reasonableness check, and then output solely the final numeric answer (with its unit only if the question requests it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 90,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numerical datum (including units), determine the single exact expression that answers the question (apply any needed unit conversions), evaluate it step\u2011by\u2011step showing only indispensable intermediate results, perform a brief sanity check, and output exclusively the final numeric value.",
+      "train_score": 0.972972972972973,
+      "train_step": 9,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity and its relation, form the precise mathematical expression needed, evaluate it step\u2011by\u2011step showing only essential intermediate results, perform a quick plausibility check, and output solely the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 4,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity, convert the situation into one exact mathematical expression, evaluate it step\u2011by\u2011step (showing only essential intermediate values), do a brief plausibility check, and output solely the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 7,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and unit, determine any necessary unit conversions, build the simplest exact formula that produces the requested quantity, compute it step\u2011by\u2011step (displaying only essential intermediate numbers), briefly verify the result, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 6,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value (and its unit), perform any necessary unit conversion, devise one precise, unit\u2011balanced expression that directly yields the requested quantity, evaluate it step\u2011wise showing only indispensable intermediate results, quickly verify the result\u2019s plausibility, and return solely the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 16,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers (with units), define the unknown that the question asks for, write one equation that expresses the unknown solely in terms of the extracted data, solve it, show only the indispensable computation, verify the magnitude makes sense, and output just the resulting numeric value.",
+      "train_score": 1.0,
+      "train_step": 54,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Strip the problem to its raw numbers and unit relationships, compose the exact single formula that yields the requested value, evaluate it showing only essential intermediate results, briefly confirm the outcome makes sense, and return just the final number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 14,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, list all explicit quantities, unify their units, determine the target variable, build the unique minimal expression that directly solves for it, evaluate showing only the essential intermediate result, perform a quick sanity check, and output solely the final numeric answer (attach the unit only when the question explicitly asks).",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given number (with units), determine the quantity being asked, combine them in the single exact calculation that yields it, compute showing only the necessary intermediate result, briefly confirm plausibility, and output only the final numeric answer (including a unit only if the question explicitly requests one).",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers (with units), determine the target unknown, assemble the unique minimal expression that directly yields the unknown (perform any unit conversion), compute it showing only the essential intermediate result, do a quick sanity check, and output exactly the final number (include unit only if required).",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8605003790750568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every explicit numeral (and its unit). Pinpoint the exact quantity the question seeks. Combine the numbers into a single, unambiguous calculation that directly yields that quantity, doing any required unit conversions. Carry out only the indispensable arithmetic steps, perform a brief plausibility check, and output only the final numeric result (add the unit only if the prompt explicitly asks for it).",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8514025777103866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Strip the word problem to its raw numerical data, harmonize units, identify the target variable, write one unambiguous equation solving for that variable, compute the result (displaying at most one intermediate check), confirm plausibility, and return only the final number (include the unit solely when explicitly requested).",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all explicit numbers (and units) from the problem, ascertain the exact quantity being asked, formulate the unique direct computation that yields that quantity, execute it showing solely the indispensable intermediate value, briefly sanity\u2011check the magnitude, and output only the final numeric result (including a unit only if explicitly requested).",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.6967399545109931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the prompt pull all explicit quantities (including units), harmonize units, identify the target unknown, compose the unique shortest algebraic/arithmetical expression that isolates that unknown, evaluate it using exact arithmetic (round only for the final answer if required), show only the single indispensable intermediate figure needed for a quick sanity check, then output precisely the final numeric value (append unit only when explicitly asked), and nothing else.",
+      "train_score": 0.13513513513513514,
+      "train_step": 99,
+      "test_score": 0.16148597422289612,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9166034874905231,
+    "avg_test_score": 0.8376114661179104,
+    "best_test_instruction": "Identify the quantities and relationships, translate the scenario into a single arithmetic expression, compute it step\u2011by\u2011step displaying each intermediate result, confirm the answer, and finally output only the final number."
+  }
+}

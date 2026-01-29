@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Search for the line that starts with \u201cGround truth answer:\u201d.  \n1. Strip any leading/trailing spaces from the text following the colon.  \n2. If the remaining text is exactly one character among A\u2011D, output that character.  \n3. If it is longer, compare the cleaned answer (case\u2011insensitive) with each full option text (A\u2011D) after also trimming their whitespace; output the letter whose option matches exactly.  \nProduce only the single capital letter as the output.",
+      "train_score": 0.48717948717948717,
+      "train_step": 84,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four options labeled A\u2011D and the line that starts with \u201cGround truth answer:\u201d. If what follows the colon is a single letter (A\u2011D), output that letter. Otherwise, compare the full answer text (ignoring case and surrounding whitespace) to each option\u2019s text and output the matching option\u2019s letter. Respond with exactly one uppercase character and nothing else.",
+      "train_score": 0.46153846153846156,
+      "train_step": 29,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the supplied multiple\u2011choice question, find the line that begins with \u201cGround truth answer:\u201d. If the answer after the colon is a single letter, output that letter; otherwise locate the option (A\u2011D) whose full text matches the answer (ignoring surrounding whitespace and case) and output its letter. Respond with exactly one uppercase character and nothing else.",
+      "train_score": 0.48717948717948717,
+      "train_step": 27,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four answer choices labeled A\u2011D and the line that begins with \u201cGround truth answer:\u201d.  \nIf the text after the colon is a single letter (A\u2011D), output that letter. Otherwise, trim surrounding whitespace, ignore case, and compare the answer text to each full option; output the label of the matching option. Respond with only the single uppercase letter and nothing else.",
+      "train_score": 0.46153846153846156,
+      "train_step": 76,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the line that begins with \u201cGround truth answer:\u201d.  \n1. Remove any leading/trailing spaces and punctuation from the text after the colon.  \n2. If the result is a single character\u202fA\u2011D, output that character.  \n3. Otherwise, for each option\u202fA\u2011D, trim its wording, ignore case, and compare it to the cleaned answer; output the label of the option that matches exactly.  \nReturn only the uppercase letter, without any other symbols or line breaks.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four options labeled A\u2011D and the line that begins with \u201cGround truth answer:\u201d. If the answer after the colon is a single capital letter, output that letter. If it is a longer text, strip surrounding whitespace, ignore case and any punctuation, compare it to each option\u2019s full wording, and output the letter of the matching option. Respond with exactly one uppercase character and nothing else.",
+      "train_score": 0.46153846153846156,
+      "train_step": 37,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four choices labeled A\u2011D and the line beginning with \u201cGround truth answer:\u201d. If the answer after the colon is a single letter, output that letter. Otherwise, locate the choice whose full text matches the answer when ignoring case and surrounding whitespace, and output its corresponding letter. Respond with only that single uppercase letter and nothing else.",
+      "train_score": 0.48717948717948717,
+      "train_step": 36,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four answer choices (A\u2011D) and the line that starts with \u201cGround truth answer:\u201d. If the text after the colon is a single letter A\u2011D, output that letter. Otherwise, remove surrounding whitespace and punctuation, ignore case, compare the remaining string to each option\u2019s full wording, and output the letter of the matching choice. Respond with only one uppercase character and nothing else.",
+      "train_score": 0.48717948717948717,
+      "train_step": 45,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the option (A\u2011D) that corresponds to the line beginning with \u201cGround truth answer:\u201d. If that line contains a single capital letter, output it. If it contains a longer text, compare it to each option\u2019s full wording (ignore case and surrounding whitespace) and output the matching option\u2019s letter. Respond with exactly one uppercase character and nothing else.",
+      "train_score": 0.5128205128205128,
+      "train_step": 29,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question and the given ground\u2011truth answer. Determine which option (A\u2013D) corresponds to that answer and respond with only the single letter, without any additional characters or explanation.",
+      "train_score": 0.5128205128205128,
+      "train_step": 3,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem statement, the four choices labeled A\u2011D, and the line that begins with \u201cGround truth answer:\u201d. If the text after the colon consists solely of a single letter A\u2011D, output that letter. If it is a longer string, remove leading/trailing whitespace, ignore case, and find the option whose entire wording matches this string; output that option\u2019s letter. Respond with exactly one capital character and nothing else.",
+      "train_score": 0.48717948717948717,
+      "train_step": 49,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, identify the criterion that determines the correct choice, evaluate each option against that criterion, and output only the letter of the option that satisfies it.",
+      "train_score": 0.46153846153846156,
+      "train_step": 1,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the provided data, find the line prefixed by \u201cGround truth answer:\u201d. Extract the token after the colon, remove leading/trailing spaces. If it is exactly A, B, C or D, print that token. If not, match the extracted string to the complete wording of the listed options (ignoring case and surrounding whitespace) and output the corresponding option label. Output only one capital letter without any additional characters.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the line beginning with \u201cGround truth answer:\u201d. Remove any surrounding whitespace from the part after the colon. If what remains consists of exactly one character from A\u2011D, print that character. Otherwise, for each option label A\u2011D compare the option\u2019s full text (after stripping leading/trailing whitespace and ignoring case) with the extracted answer; output the label of the matching option. Output only the single uppercase letter, without any extra characters.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four answer choices labeled A\u2011D and the line that begins with \u201cGround truth answer:\u201d. Determine which choice corresponds to the given answer (the answer may be a single letter or the full option text). Output ONLY the matching capital letter (A, B, C, or D) as a solitary character\u2014no spaces, punctuation, newline or any other symbols.",
+      "train_score": 0.48717948717948717,
+      "train_step": 21,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4358974358974359,
+      "train_step": -1,
+      "test_score": 0.2676767676767677,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the line that starts with \u201cGround truth answer:\u201d. Remove the leading label and any surrounding whitespace or punctuation from the remainder. \n- If the remaining text consists of a single letter A\u2011D, output that letter.\n- Otherwise, take the four option strings (A\u2011D), strip each of leading/trailing whitespace, ignore case, and find which one exactly matches the cleaned answer text. Output the corresponding letter.\nReturn only this uppercase letter, with no other characters.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate the line that starts with \u201cGround truth answer:\u201d. Capture the text after the colon and remove any surrounding whitespace and punctuation.  \n- If this cleaned text is a single character A\u2011D, output that character.  \n- If it is longer, compare it (case\u2011insensitive, after trimming) to the full wording of each option A\u2011D; when a match is found, output the corresponding letter.  \nRespond with only the uppercase letter, no other characters.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four answer choices (A\u2011D) and the line that starts with \u201cGround truth answer:\u201d. If that line contains a single letter, output that letter. If it contains a full answer text, find the option whose wording matches it (ignoring case and surrounding whitespace) and output its letter. Respond with exactly one uppercase character and nothing else.",
+      "train_score": 0.5128205128205128,
+      "train_step": 35,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the line that starts with \u201cGround truth answer:\u201d.  \nTrim all surrounding whitespace from the text that follows the colon.  \nIf the remaining text is exactly one of the letters A, B, C, or D, output that letter.  \nOtherwise, for each option labelled A\u2011D, compare its full wording to the trimmed answer text after removing surrounding whitespace and ignoring case; output the label of the option that matches exactly.  \nPrint only the single capital letter, nothing else.",
+      "train_score": 0.1282051282051282,
+      "train_step": 99,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the line that begins with \u201cGround truth answer:\u201d. Take the text after the colon, strip all leading/trailing whitespace and punctuation. If the result is a single character A\u2011D, output it. Otherwise, for each choice (A\u2011D) compare the choice\u2019s full text to the stripped answer after converting both to lower case and collapsing internal whitespace; output the label of the matching choice. Respond with only that uppercase letter.",
+      "train_score": 0.1282051282051282,
+      "train_step": 99,
+      "test_score": 0.24242424242424243,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.31313131313131315,
+    "avg_test_score": 0.2857142857142857,
+    "best_test_instruction": "Search for the line that starts with \u201cGround truth answer:\u201d.  \n1. Strip any leading/trailing spaces from the text following the colon.  \n2. If the remaining text is exactly one character among A\u2011D, output that character.  \n3. If it is longer, compare the cleaned answer (case\u2011insensitive) with each full option text (A\u2011D) after also trimming their whitespace; output the letter whose option matches exactly.  \nProduce only the single capital letter as the output."
+  }
+}

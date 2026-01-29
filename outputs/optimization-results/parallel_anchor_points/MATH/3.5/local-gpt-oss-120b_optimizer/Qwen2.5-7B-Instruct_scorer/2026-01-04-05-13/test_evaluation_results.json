@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract the desired result, reformulate the problem as one clear formula using the given data, perform only the indispensable computation with a short justification, and conclude by writing the exact answer (number or simplified expression) on a separate final line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 80,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically sequenced solution: identify the central theorem or formula, execute only the necessary calculations with brief justification, and finish by writing the final numeric answer (or reduced expression) on its own line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 26,
+      "test_score": 0.7561738043138481,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required value, express it with the one direct formula derived from the problem data, carry out the minimal calculation with a short justification, and place the final exact answer (or reduced form) on a line by itself.",
+      "train_score": 0.8,
+      "train_step": 67,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity sought, express it in one concise formula derived from the given data, evaluate it using only the indispensable arithmetic while noting a short rationale, and place the final exact (or reduced) answer by itself on the last line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 78,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required quantity, translate the problem into a single direct formula using the given information, compute it with only the indispensable steps (adding a brief comment if helpful), and write the exact result\u2014integer, reduced fraction, or simplified radical\u2014by itself on the final line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 94,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the specific quantity sought, derive the single governing expression directly from the problem data, execute only the indispensable arithmetic with a concise justification, and place the exact answer (integer, reduced fraction, or simplified form) alone on the concluding line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 74,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the unknown quantity, apply the one appropriate theorem or formula, perform only the indispensable calculation with a brief comment, and conclude by outputting the exact result (integer, reduced fraction or simplified radical) alone on the last line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 50,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the quantity sought, write the one essential relationship that links it to the given data, carry out only the required calculation with a brief justification, and place the exact result (or its simplest form) alone on the last line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 63,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a brief, logically ordered solution: state the key insight, carry out the required computation showing only indispensable steps, and end with the final answer (as a number or simplified expression) on a line by itself.",
+      "train_score": 0.8,
+      "train_step": 3,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7647058823529411,
+      "train_step": -1,
+      "test_score": 0.747733666770866,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the target quantity, apply the sole needed rule, perform the indispensable arithmetic with a brief comment, and output the exact answer (number or reduced form) on a line by itself.",
+      "train_score": 0.8058823529411765,
+      "train_step": 37,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the unknown value, translate the problem into the sole relevant expression using only the information provided, evaluate it with the fewest possible calculations (briefly label each), and place the final precise result\u2014integer, lowest\u2011terms fraction, simplified radical or rounded decimal\u2014on a line by itself.",
+      "train_score": 0.7823529411764706,
+      "train_step": 99,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity being asked, formulate a single exact expression using only the given information, compute it with the fewest essential operations (briefly naming each operation), and place the final result\u2014integer, reduced fraction, or appropriately rounded decimal\u2014alone on the last line.",
+      "train_score": 0.8,
+      "train_step": 99,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the target value, express it with the sole applicable formula using the given data, carry out the essential computation with a brief comment, and place the final exact answer (or reduced form) alone on the last line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 61,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to be found, translate the problem into the single most direct mathematical expression using only the given data, evaluate it with the fewest essential operations (briefly noting each operation), and write the exact result\u2014integer, reduced fraction, or decimal as required\u2014alone on the final line.",
+      "train_score": 0.8,
+      "train_step": 99,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a clear, step\u2011by\u2011step solution that isolates the core concept, includes only essential calculations with brief justification, and ends with the exact answer alone on the last line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 21,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine what is being asked, write the one indispensable equation that links the unknown to the given numbers, evaluate it with only the required calculation (note the operation in a brief comment), and write the exact result\u2014integer, lowest\u2011terms fraction, simplest radical, or appropriately rounded decimal\u2014alone on the final line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 99,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a succinct solution: identify the key quantities, apply the single relevant formula with just enough algebra, note any brief justification, and place the final numeric answer (or reduced fraction) alone on the last line.",
+      "train_score": 0.8,
+      "train_step": 18,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact value required, formulate the unique expression that follows directly from the problem data, carry out only the essential arithmetic (with a brief comment), and write the precise result\u2014integer, lowest\u2011terms fraction, or decimal\u2014alone on the concluding line.",
+      "train_score": 0.7352941176470589,
+      "train_step": 99,
+      "test_score": 0.6986558299468584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the asked quantity, write the single direct relation that follows from the given data, carry out only the essential calculation (briefly note each operation), and place the exact result\u2014integer, reduced fraction, or specified decimal\u2014alone on the last line with no extra wording.",
+      "train_score": 0.6058823529411764,
+      "train_step": 99,
+      "test_score": 0.580806502031885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the core relationship needed to answer the question, perform only the indispensable calculation (showing a single brief step if helpful), and write the final answer\u2014exact integer, reduced fraction, or decimal rounded as requested\u2014alone on the last line.",
+      "train_score": 0.5882352941176471,
+      "train_step": 99,
+      "test_score": 0.5476711472335105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.7268045073609312,
+    "best_test_instruction": "Extract the desired result, reformulate the problem as one clear formula using the given data, perform only the indispensable computation with a short justification, and conclude by writing the exact answer (number or simplified expression) on a separate final line."
+  }
+}

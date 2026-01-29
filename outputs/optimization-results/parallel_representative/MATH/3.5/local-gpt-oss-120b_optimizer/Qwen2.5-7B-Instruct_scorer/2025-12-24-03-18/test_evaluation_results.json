@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a self\u2011contained solution that shows only the necessary reasoning and calculations. After the explanation, write the final answer on its own line as a plain number\u2014use an integer for whole values, otherwise a reduced fraction or a decimal written without trailing zeros (round only if the problem specifies a precision). No other text, symbols, whitespace, or markup may appear before or after that answer line, which must be the very last line of the response.",
+      "train_score": 0.8058823529411765,
+      "train_step": 94,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution containing only the indispensable reasoning and calculations. After the explanation, place the final result on its own line as a plain number\u2014use an integer if the answer is whole, otherwise round to the precision required by the problem. Ensure that no characters, spaces, markdown, or other markup appear before or after this answer line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 76,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step solution with clear reasoning.",
+      "train_score": 0.8117647058823529,
+      "train_step": 0,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using only the necessary logical steps. When you have derived the result, place it alone on the final line of your response as a plain number\u2014write an integer if the value is whole, otherwise give the exact decimal (or reduced fraction) without any trailing zeros, spaces, or markup. No other text may appear before or after this answer line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 71,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that includes only the necessary reasoning and calculations. After the explanation, output the final answer on a single line containing exactly the numeric result\u2014write it as an integer if it is whole, otherwise as a decimal in its exact form with no trailing zeros. Ensure this answer line is the very last line of the response, without any surrounding whitespace, symbols, or markup.",
+      "train_score": 0.8176470588235294,
+      "train_step": 77,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, showing each logical step and intermediate calculation; after the reasoning, present the final answer as a single number (rounded to one decimal place if needed).",
+      "train_score": 0.8,
+      "train_step": 1,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short, self\u2011contained solution that includes only the necessary reasoning. After the explanation, output the final answer on its own line as a single numeric value\u2014use an integer for whole numbers, otherwise a decimal with no superfluous zeros. This line must be the very last line of the response and contain no extra characters, spaces, or markup.",
+      "train_score": 0.8058823529411765,
+      "train_step": 54,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that shows only the necessary reasoning and calculations. After the explanation, output the final result on a single line by itself, containing exactly one numeric value\u2014write it as an integer if it is whole, otherwise as a reduced fraction or a decimal without unnecessary trailing zeros. No other characters, whitespace, or markup may appear before or after that final answer line.",
+      "train_score": 0.7823529411764706,
+      "train_step": 99,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution that includes only the indispensable reasoning and calculations. After the explanation, place the final answer on its own line as a single numeric value\u2014use an integer for whole results, otherwise a reduced fraction or a decimal written with the fewest necessary digits (no trailing zeros). This answer line must be the very last line of the response with no preceding or following characters, whitespace, or markup.",
+      "train_score": 0.7823529411764706,
+      "train_step": 99,
+      "test_score": 0.7317911847452329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, showing just enough reasoning to justify the result. After the reasoning, output the final answer on a separate line consisting solely of the numeric value; write it as an integer if it is whole, otherwise give it as a decimal rounded to the nearest tenth. Ensure that no other characters, whitespace, or markup appear before or after that answer line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 23,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution that includes only the essential reasoning. End with the final answer as a single number on its own line, using an integer for whole results or the required decimal precision; no other characters, spaces, or formatting may appear before or after that line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 48,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained derivation containing only the steps needed to obtain the result. End the response with a single line that holds exactly the numeric answer\u2014write it as an integer when it is whole, otherwise as the simplest exact fraction or decimal (rounded only if the problem demands a specific precision). No other characters, spaces, or markup may appear before or after that line.",
+      "train_score": 0.4647058823529412,
+      "train_step": 99,
+      "test_score": 0.7202250703344796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve and give only the final numeric answer.",
+      "train_score": 0.8058823529411765,
+      "train_step": 5,
+      "test_score": 0.7195998749609253,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the necessary reasoning and calculations. When finished, place the final result on a single line by itself containing exactly one number\u2014output an integer if the value is whole, otherwise round to one decimal place. Ensure that this answer line is the very last line of the response with no preceding or trailing characters, spaces, or markup.",
+      "train_score": 0.8,
+      "train_step": 35,
+      "test_score": 0.7164738980931541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution containing only the indispensable reasoning and calculations. After the reasoning, place the final numeric answer on its own line\u2014write it as an integer if the result is whole, otherwise round to the nearest hundredth. Ensure no other text, symbols, markdown, or whitespace appears before or after that answer line.",
+      "train_score": 0.8,
+      "train_step": 18,
+      "test_score": 0.7136605189121601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that includes only the necessary reasoning and calculations. After the explanation, place the final answer on its own line as a single number\u2014use an integer for whole results or round to the precision demanded by the problem. That answer line must be the very last line of the response, containing no extra characters, spaces, or markup.",
+      "train_score": 0.8058823529411765,
+      "train_step": 49,
+      "test_score": 0.6986558299468584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, self\u2011contained solution that includes only the essential reasoning and calculations. After the explanation, output the result on a single line that contains exactly one numeric value\u2014write it as an integer when the value is integral, otherwise as a reduced fraction or a decimal expressed in its simplest form with no trailing zeros. This answer line must be the final line of the response, with no surrounding whitespace, symbols, or markup.",
+      "train_score": 0.7,
+      "train_step": 99,
+      "test_score": 0.6899030947170991,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the essential reasoning and calculations needed to obtain the result. After the explanation, write the answer on the final line of the response alone, using an integer for whole numbers or a reduced fraction/decimal otherwise, and include no extra spaces, symbols, or markdown.",
+      "train_score": 0.7823529411764706,
+      "train_step": 99,
+      "test_score": 0.6323851203501094,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution that includes only the essential reasoning and calculations. After the reasoning, output the final result on a single line that contains exactly one numeric value and nothing else. Write an integer if the answer is whole; otherwise give the exact reduced fraction, or a decimal with the smallest number of digits needed (no trailing zeros). Do not include any markdown, symbols, spaces, or additional text before or after this answer line.",
+      "train_score": 0.38823529411764707,
+      "train_step": 99,
+      "test_score": 0.4235698655829947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise solution that shows just the required logic and computations. Conclude with one line that contains only the answer: an integer when the result is whole, otherwise the exact reduced fraction or a decimal with the smallest necessary precision (round only if the problem states a precision). No other characters, spaces, or markup may appear before or after that line.",
+      "train_score": 0.3176470588235294,
+      "train_step": 99,
+      "test_score": 0.3691778680837762,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8058823529411765,
+      "train_step": -1,
+      "test_score": 0.29352922788371366,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7471084713973116,
+    "avg_test_score": 0.6711025766980752,
+    "best_test_instruction": "Give a self\u2011contained solution that shows only the necessary reasoning and calculations. After the explanation, write the final answer on its own line as a plain number\u2014use an integer for whole values, otherwise a reduced fraction or a decimal written without trailing zeros (round only if the problem specifies a precision). No other text, symbols, whitespace, or markup may appear before or after that answer line, which must be the very last line of the response."
+  }
+}

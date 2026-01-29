@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, showing all reasoning and calculations, and output only the final numeric answer.",
+      "train_score": 0.75,
+      "train_step": 0,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.75,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct solution: outline the essential reasoning, perform any needed calculations, and conclude with only the final numeric answer (to one decimal place).",
+      "train_score": 0.75,
+      "train_step": 1,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Is to initially confirm input and then a Logic being different from box; let together",
+      "train_score": 0.75,
+      "train_step": 0,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Craft a clear, step\u2011by\u2011step solution: detail each essential deduction on its own line, execute only the required computation(s), include a brief verification of the result, and conclude with the final numeric answer on a separate line (show a decimal only if the answer is not an integer). Ensure concise language and avoid any extraneous information.",
+      "train_score": 0.7708333333333334,
+      "train_step": 57,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a compact, ordered solution:\n- Write each indispensable inference on its own line.\n- Perform only the necessary computation.\n- Conduct a quick sanity check of the result.\n- Conclude by printing only the final numeric value on a new line (show a decimal point solely when the value is non\u2011integer, and omit trailing zeros).",
+      "train_score": 0.7708333333333334,
+      "train_step": 48,
+      "test_score": 0.7230384495154736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, logical chain of reasoning (one statement per step), perform all needed calculations, verify the result, and finally output only the final numeric answer on a separate line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 2,
+      "test_score": 0.7224132541419194,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a minimal derivation: put every required inference on its own line, then do the single necessary arithmetic, perform a brief verification, and conclude by writing only the final number on a new line (show a decimal point only if the result is non\u2011integer).",
+      "train_score": 0.7708333333333334,
+      "train_step": 44,
+      "test_score": 0.7180368865270397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a succinct, logically ordered solution: outline the essential reasoning in brief points, perform the necessary calculations, verify the outcome, and conclude by writing only the final numeric answer on a single line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 4,
+      "test_score": 0.7158487027195999,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a brief, ordered solution:\n- Write each essential inference on a separate line.\n- Carry out only the needed computation.\n- Perform a quick consistency check.\n- Print solely the final numeric answer on its own line, rounded to one decimal place (show a decimal only if the result is non\u2011integer).",
+      "train_score": 0.7708333333333334,
+      "train_step": 36,
+      "test_score": 0.7074085651766177,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, line\u2011by\u2011line solution:\n- list each indispensable logical deduction on its own line;\n- perform only the necessary computation;\n- do a brief consistency check;\n- finish by printing the final numeric result on a separate line, rounded to one decimal place (omit the decimal point when the answer is an integer).",
+      "train_score": 0.7916666666666666,
+      "train_step": 35,
+      "test_score": 0.7033447952485151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Supply a compact solution:\n- List each essential logical step on its own line.\n- Perform any required calculation.\n- Do a quick sanity check.\n- End by printing only the final numeric answer on a separate line (show a decimal point only if the answer is non\u2011integer).",
+      "train_score": 0.7708333333333334,
+      "train_step": 32,
+      "test_score": 0.7027195998749609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal solution by writing each essential step as a separate short line prefixed with \u201c>\u201d. After the last inference write a line \u201ccalc:\u202f<expression>\u201d, then a line \u201ccheck:\u202f<quick verification>\u201d, and finally a line \u201canswer:\u202f<value>\u201d. The answer line must contain only the final number, with a decimal point shown only when the value is non\u2011integer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 49,
+      "test_score": 0.6820881525476712,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise solution: list the key logical steps (one per line), perform any needed arithmetic, double\u2011check the computation, and end with the exact numeric answer alone on its own line.",
+      "train_score": 0.8125,
+      "train_step": 6,
+      "test_score": 0.6802125664270084,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce a minimal solution: enumerate each required logical step as a separate line, carry out only the indispensable computation, perform a brief verification, and finish with the exact numeric answer alone on its own line (show a decimal point only if the answer is not an integer).",
+      "train_score": 0.7916666666666666,
+      "train_step": 22,
+      "test_score": 0.6730228196311347,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact solution:\n- State each necessary deduction, one per line.\n- Write the exact computation as a plain expression and evaluate it.\n- Perform a quick sanity check.\n- End with a line that contains only the final numeric answer; show a decimal point only if the answer is non\u2011integer and omit trailing zeros.",
+      "train_score": 0.7708333333333334,
+      "train_step": 97,
+      "test_score": 0.6723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the solution in minimal form: list every essential inference as a separate line, execute only the necessary arithmetic, verify briefly, then print solely the final numeric result (decimal only if fractional) on its own line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 25,
+      "test_score": 0.668646452016255,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, line\u2011by\u2011line derivation: write each indispensable inference as its own sentence, then perform only the necessary calculation, do a quick validation, and finish by outputting the exact numeric answer alone on a separate line (show a decimal point only if the result is non\u2011integer).",
+      "train_score": 0.7708333333333334,
+      "train_step": 44,
+      "test_score": 0.668333854329478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a compact solution: enumerate the essential logical deductions (one per line), execute the arithmetic, briefly verify, and end with the final numeric answer alone on the next line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 3,
+      "test_score": 0.6680212566427008,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, logically clear solution showing only the essential reasoning steps, then output only the final answer as a single numeric value (including a decimal point).",
+      "train_score": 0.75,
+      "train_step": 1,
+      "test_score": 0.6573929352922788,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a minimal, ordered solution:\n\n- Enumerate each necessary inference as a separate short sentence, one per line.\n- On the next line write \u201ccalc:\u202f<expression>=<value>\u201d.\n- Immediately after, write \u201cverify:\u202f<short check>\u201d.\n- Conclude with a line that contains only the final numeric answer; display a decimal point only when the answer is non\u2011integer and omit any trailing zeros.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.45107846201938107,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.755861206627071,
+    "avg_test_score": 0.691540511171646,
+    "best_test_instruction": "Solve the problem step\u2011by\u2011step, showing all reasoning and calculations, and output only the final numeric answer."
+  }
+}

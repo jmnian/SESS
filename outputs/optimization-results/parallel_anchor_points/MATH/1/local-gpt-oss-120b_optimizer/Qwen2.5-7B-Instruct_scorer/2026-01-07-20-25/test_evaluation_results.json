@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Condense the problem to the core objective, devise the most direct calculation or proof, execute it with clear, succinct reasoning, confirm its plausibility with a quick sanity check, and present only the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 22,
+      "test_score": 0.7589871834948422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the unique answer: combine every condition into one minimal expression (state any theorem used), evaluate it with at most two elementary operations, confirm it by a rapid plausibility check, and print only the final number.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the unique number sought, construct the simplest exact formula that follows directly from the given conditions (cite any named result), evaluate it using no more than three clearly justified algebraic steps, perform an immediate sanity check (e.g., substitution, bounds, parity), and finally output only the resulting numeric value.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the required number, reduce the problem to one essential computation, execute it with minimal justified steps, verify quickly, and return only the final value.",
+      "train_score": 0.7916666666666666,
+      "train_step": 24,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.7916666666666666,
+      "train_step": 37,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the single unknown requested, express it with the simplest possible formula derived from the premises (name any theorem used), compute it using a minimal, clearly justified step\u2011by\u2011step chain, perform a brief sanity check, and output only the final numeric value.",
+      "train_score": 0.8125,
+      "train_step": 35,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the unique number sought, express it as one closed\u2011form expression (indicating any theorem used), evaluate that expression in one concise computation with a brief justification, perform a quick self\u2011consistency check, and output only the final value.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, identify the single numeric quantity being asked for, express it with the minimal required equation (naming any standard formula or property you employ), evaluate it using one\u2011line justifications for each step, perform a quick sanity check against the original conditions, and output only the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 34,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Systematically solve the problem by identifying key variables, applying appropriate methods, showing each calculation, and ending with the exact answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.7414817130353235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the sole quantity the problem asks for, formulate the simplest direct calculation that yields it, execute that calculation with one\u2011line reasoning for each step, perform an immediate sanity check, and return only the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 36,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, apply the simplest relevant formula, compute step\u2011by\u2011step with brief justifications, verify the result, and give only the final answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 6,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact numeric quantity sought, convert the problem data into the simplest possible formula or calculation (naming any theorem or property applied), compute the result using the fewest justified steps, do a brief sanity check, and output only the final number.",
+      "train_score": 0.7916666666666666,
+      "train_step": 38,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unique numerical answer required, rewrite the problem as a single direct computation or equation (cite any theorem, identity, or property used), solve it using at most two elementary transformations with one concise justification each, verify the result with a quick sanity check (e.g., substitution, bounds, parity), and output only the final numeric value.",
+      "train_score": 0.8333333333333334,
+      "train_step": 48,
+      "test_score": 0.7339793685526728,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the single quantity asked, convert all given data into the simplest possible mathematical relation that yields it, solve that relation in the fewest logical steps (one brief justification per step), perform a quick plausibility check, and output only the final numeric result.",
+      "train_score": 0.7916666666666666,
+      "train_step": 28,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the required number, convert all given conditions into the most compact mathematical expression that yields it, compute that expression step\u2011by\u2011step with a single concise justification per step, confirm the result with a quick plausibility test, and return just the final answer.",
+      "train_score": 0.8125,
+      "train_step": 40,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required numeric answer. Reduce the problem to a single closed\u2011form expression (mention any principle applied), compute it in one concise step with a brief justification, perform a rapid consistency check, and present only the final number.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.7111597374179431,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise solution: restate the problem in a phrase, identify the key principle, carry out the required calculation with a brief justification, perform a quick sanity check, and conclude with only the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 4,
+      "test_score": 0.700218818380744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a one\u2011sentence derivation that isolates the target quantity, then give only the resulting number on a separate line. Use at most two algebraic manipulations, cite any theorem, and include a brief sanity check.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.5717411691153486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the unique numeric answer required. Translate the entire problem into a single exact formula (cite any theorem, identity, or definition used). Compute the value in the fewest logical steps, providing a one\u2011sentence justification for each. Perform an immediate plausibility check (e.g., plug\u2011in, bounds, parity). Return only the final number, without any additional text.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.2778993435448578,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the unique number the question asks for. Convert all given conditions into the simplest possible closed\u2011form expression (note any principle used). Compute the value using a short, logically sound chain (no more than two concise steps). Perform a quick consistency check (e.g., plug\u2011in, bounds, parity). Respond with *only* that final number, without any additional explanation.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.2047514848390122,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7589871834948422,
+    "avg_test_score": 0.684827103708004,
+    "best_test_instruction": "Condense the problem to the core objective, devise the most direct calculation or proof, execute it with clear, succinct reasoning, confirm its plausibility with a quick sanity check, and present only the final numeric answer."
+  }
+}

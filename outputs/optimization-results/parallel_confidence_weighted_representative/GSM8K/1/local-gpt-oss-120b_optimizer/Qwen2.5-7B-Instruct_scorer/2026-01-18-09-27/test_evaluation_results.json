@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Pull out all explicit numbers, translate percentages, fractions and unit changes into ordinary values, construct one exact mathematical expression embodying the problem, compute it with exact rational arithmetic, perform a brief sanity check, and output solely the final answer reduced to the simplest integer, irreducible fraction or terminating decimal.",
+      "train_score": 0.9864864864864865,
+      "train_step": 58,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric fact given, convert any percentages, fractions, ratios or unit changes into exact rational numbers, merge them precisely according to the described relationships into one closed\u2011form expression, evaluate it with exact fraction arithmetic (no floating\u2011point), do a quick plausibility check, and output ONLY the final result in its simplest form (integer, irreducible fraction, or terminating decimal).",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all stated numbers, convert percentages, fractions and unit changes to exact rational values, link them exactly as given (no extra assumptions) into a single clear arithmetic formula, compute it with precise fraction arithmetic, do a brief plausibility check, and output ONLY the final answer in its simplest form (integer, lowest\u2011terms fraction or terminating decimal).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every explicit quantity, translate all relationships into a single exact rational/computational expression (including any necessary percent, unit, or time conversions), evaluate it precisely, confirm plausibility, and output only the final result in its simplest form (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.9864864864864865,
+      "train_step": 50,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number, convert any percentages, ratios or unit changes to plain values, combine them into a single exact arithmetic expression that captures the whole problem, evaluate it with exact rational arithmetic, perform a quick plausibility check, and output ONLY the final answer in its lowest\u2011term form (integer, irreducible fraction or terminating decimal).",
+      "train_score": 1.0,
+      "train_step": 53,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numerical datum, turn percentages, fractions, ratios and unit conversions into exact rational values, assemble a single unambiguous arithmetic expression that follows the problem\u2019s stated relationships exactly (no added assumptions), evaluate it with exact fraction arithmetic (no floating\u2011point rounding), perform a brief sanity check, and output ONLY the final result in its simplest form \u2013 an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit numeric quantity, turn percentages, fractions, ratios and unit conversions into exact rational numbers, assemble them into one unambiguous arithmetic expression that follows the problem\u2019s stated relations, evaluate it with exact (fraction) arithmetic, do a brief sanity check, and output ONLY the final answer in its simplest form (integer, reduced fraction or terminating decimal).",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all explicit numbers in the problem, convert percentages, fractions and unit conversions to exact rational values, write one fully specified arithmetic expression that directly follows the described relationships (introducing no extra assumptions), evaluate it with exact fraction arithmetic, briefly confirm the answer satisfies any obvious bounds, and output only the final value in its simplest form (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every explicit quantity, turn percentages, ratios and unit conversions into exact fractions, build one definitive arithmetic expression that mirrors exactly the relationships described, evaluate it using pure rational arithmetic (no floating\u2011point), verify that the magnitude makes sense, and output ONLY the reduced final result (integer, irreducible fraction, or terminating decimal).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate all explicit numbers and how they relate, construct the single precise mathematical expression (including any needed unit, percentage or fraction conversion), evaluate it exactly, do a quick sanity check, and output ONLY the final result in its simplest form (integer, reduced fraction or terminating decimal).",
+      "train_score": 0.9864864864864865,
+      "train_step": 38,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, convert percentages, fractions, and unit conversions to plain numbers, combine them into a single exact rational expression that captures the entire problem, evaluate it using exact arithmetic, perform a quick sanity check, and output ONLY the final answer in its simplest form (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.9864864864864865,
+      "train_step": 58,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every stated numeric quantity, translate any percentages, fractions, or unit conversions into plain numbers, fuse them into a single exact arithmetic expression that fully represents the problem, evaluate it with exact rational arithmetic, do a brief plausibility check, and output only the final answer in its simplest form (integer, irreducible fraction, or terminating decimal).",
+      "train_score": 0.9864864864864865,
+      "train_step": 53,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each explicit quantity and its mathematical relationship, convert percentages, ratios, and unit conversions into exact rational numbers, construct a single unambiguous arithmetic expression that completely captures the problem, evaluate it using exact rational arithmetic (no rounding), perform a brief sanity check, and output ONLY the final answer in its simplest form\u2014an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 1.0,
+      "train_step": 86,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every number mentioned, deduce the exact calculation chain linking them, perform the computation with a quick verification, and present only the final numeric answer in lowest terms.",
+      "train_score": 0.9864864864864865,
+      "train_step": 24,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nIdentify every explicit quantity, convert percentages or units to plain numbers, formulate a single precise arithmetic expression that captures the entire problem, evaluate it with exact rational arithmetic, perform a brief sanity\u2011check, and output ONLY the final answer in its simplest representation (integer, reduced fraction or terminating decimal).\\n",
+      "train_score": 0.9864864864864865,
+      "train_step": 45,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their stated relationships, encode them into one exact mathematical expression (performing any required unit changes), compute the value with a brief sanity check, and return only the final answer in its simplest integer, irreducible fraction, or exact decimal form.",
+      "train_score": 0.9864864864864865,
+      "train_step": 27,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value and relationship, translate percentages, ratios, and unit changes into exact numbers, construct a single precise mathematical expression that encapsulates the entire problem, compute it using exact rational arithmetic, verify the result is reasonable, and output ONLY the final answer in its simplest form (integer, reduced fraction, or terminating decimal).",
+      "train_score": 1.0,
+      "train_step": 79,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric facts, translate the whole story into one exact mathematical formula (apply required unit, percentage, or fraction conversions), compute it with exact rational arithmetic, do a quick sanity check, and return only the final answer in lowest terms (integer, reduced fraction or terminating decimal).",
+      "train_score": 0.9864864864864865,
+      "train_step": 41,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric datum and its stated relationship, convert percentages or fractions to plain numbers, formulate a single exact rational expression that captures the whole problem, evaluate it using exact arithmetic, perform a brief sanity check on magnitude, and output ONLY the final result in the simplest possible form: an integer if whole, otherwise an irreducible fraction (or terminating decimal when appropriate).",
+      "train_score": 0.9864864864864865,
+      "train_step": 42,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every stated quantity, turn percentages, fractions, ratios and unit conversions into exact rational numbers, assemble them into one fully parenthesized arithmetic expression that mirrors the problem\u2019s relations, evaluate the expression with exact fraction arithmetic (no floating\u2011point), verify the magnitude is reasonable, and output ONLY the final answer in its simplest possible format (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.900032492147731,
+    "best_test_instruction": "Pull out all explicit numbers, translate percentages, fractions and unit changes into ordinary values, construct one exact mathematical expression embodying the problem, compute it with exact rational arithmetic, perform a brief sanity check, and output solely the final answer reduced to the simplest integer, irreducible fraction or terminating decimal."
+  }
+}

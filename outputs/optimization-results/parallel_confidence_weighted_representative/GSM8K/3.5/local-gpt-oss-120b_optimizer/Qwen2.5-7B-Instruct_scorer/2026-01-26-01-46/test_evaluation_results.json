@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, pinpoint each relevant value, construct the minimal formula required, evaluate it clearly showing only unavoidable intermediate numbers, verify the result, and output only the final answer in the exact format requested.",
+      "train_score": 0.9118773946360154,
+      "train_step": 8,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, isolate each numeric variable and its position. Construct a compact, illustrative, analytic expression equalizing the cutthroat requirement to find the answer, compute it while astutely showing a rudimentary or essential subset of intermediate steps that cannot be eliminated. Double-check the result. Finally, output only final outcome with appropriate unit.",
+      "train_score": 0.9157088122605364,
+      "train_step": 33,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit number with a short placeholder, combine them into one concise arithmetic/algebraic formula that yields the asked value, compute the formula (showing only a single unavoidable intermediate result), briefly verify the result, and present only the final answer in the exact required format (units preserved, integers unchanged, fractions unreduced).",
+      "train_score": 0.9157088122605364,
+      "train_step": 87,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out every number and its role, convert the scenario into the most compact arithmetic/algebraic expression that directly answers the question, evaluate it while showing only the indispensable intermediate values, double\u2011check the result, and output only the final answer in the exact required format (including units if any).",
+      "train_score": 0.9195402298850575,
+      "train_step": 19,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, list every explicit numeric quantity, label each with a short symbol, combine them into the single simplest arithmetic or algebraic expression that yields the requested value, evaluate it showing only any indispensable intermediate result, double\u2011check the computation, and output only the final answer in the exact format required (include units if any, leave integers as\u2011is, keep fractions unreduced).",
+      "train_score": 0.9195402298850575,
+      "train_step": 42,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit number, mark each with a short variable, write the single most direct arithmetic/algebraic expression that produces the answer, compute it (showing at most one essential intermediate value), verify it meets the problem\u2019s statements, and output only the final answer in the exact required form (include units, keep integers as integers and fractions unreduced).",
+      "train_score": 0.9233716475095786,
+      "train_step": 61,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each explicit numeric datum and its context, assign concise placeholders, merge them into the minimal direct calculation that yields the requested result, compute it displaying only essential intermediate values, quickly verify consistency with the problem, then output solely the final answer in the exact format required (including units, preserving integer form and unreduced fractions).",
+      "train_score": 0.9195402298850575,
+      "train_step": 71,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit number, assign each a brief placeholder, create the shortest single expression that directly computes the asked quantity, evaluate it showing only any unavoidable intermediate value(s), verify the result, and output only the final answer in the exact required format (include units, keep integers as\u2011is, leave fractions unreduced).",
+      "train_score": 0.9195402298850575,
+      "train_step": 38,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every given numeric value (including its unit) and assign a brief symbol. Combine those symbols into a single, direct arithmetic/algebraic expression that yields the asked quantity, evaluate it (showing at most one unavoidable intermediate result), perform a quick consistency check, and then output only the final answer in the exact format required (preserve units, keep integers unchanged, leave fractions unreduced).",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number and its meaning, assign a brief variable, formulate a single compact expression that yields the answer, evaluate it showing only the unavoidable intermediate number(s), confirm the value, and output only the final answer exactly as required (including units).",
+      "train_score": 0.9195402298850575,
+      "train_step": 23,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into a concise mathematical statement: enumerate every number, give each a short symbol, combine them in the minimal formula that directly answers the query, compute that formula (displaying only the unavoidable intermediate value(s)), confirm the calculation, and output only the final answer exactly as specified (including any units).",
+      "train_score": 0.9157088122605364,
+      "train_step": 20,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers given, tag each with a short variable, construct one minimal calculation that produces the quantity asked, carry out the calculation displaying at most a single unavoidable intermediate value, confirm it satisfies the data, and then write only the final answer in the required format (units included, integers unchanged, fractions unreduced).",
+      "train_score": 0.9157088122605364,
+      "train_step": 75,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, assign brief symbols, combine into the shortest possible formula that directly computes the answer, evaluate showing at most one necessary intermediate, verify, and output only the exact final result with required units (keep integers and unreduced fractions).",
+      "train_score": 0.9272030651340997,
+      "train_step": 66,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number, give each a short variable, build the minimal single arithmetic/algebraic formula that directly produces the required quantity, evaluate it while showing at most one indispensable intermediate result, confirm the result satisfies the original statements, and output only the final answer in the exact requested format (include units if present, keep integers as integers and fractions unreduced).",
+      "train_score": 0.9195402298850575,
+      "train_step": 61,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity, construct the single necessary expression, evaluate it displaying only indispensable intermediate values, verify the outcome, and output exactly the final answer in the required format (include units if any) with no extra text.",
+      "train_score": 0.9118773946360154,
+      "train_step": 16,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8314176245210728,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each numeric datum, designate a brief symbol, combine them into the shortest possible single arithmetic/algebraic expression that gives the target value, compute this expression (showing at most one indispensable intermediate), verify it satisfies the statement, and then output only the final result in the exact format requested (units included, integers unchanged, fractions unreduced).",
+      "train_score": 0.7931034482758621,
+      "train_step": 99,
+      "test_score": 0.8051554207733131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers (with units), label each with a concise symbol, write a single formula that substitutes those symbols exactly as they appear and directly produces the required answer, compute the formula exposing at most one essential intermediate value, quickly confirm the answer fits the problem, and output solely the final result in the prescribed form (including units, keeping integers and unreduced fractions).",
+      "train_score": 0.8275862068965517,
+      "train_step": 99,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate every explicit numeric value (with its unit if any), label them with short symbols, write a single direct expression that uses each symbol exactly once to compute the requested quantity, evaluate it showing at most one indispensable intermediate result, briefly confirm the result matches the data, and output only the final answer in the exact format required (preserve units, keep integers intact, leave fractions unreduced).",
+      "train_score": 0.7624521072796935,
+      "train_step": 99,
+      "test_score": 0.7558756633813495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each explicit numeric value (and its unit if any), assign a brief label, combine the labels into the single most direct arithmetic or algebraic expression that yields the required result, evaluate that expression (displaying at most one unavoidable intermediate), briefly validate the outcome against the given data, and output only the final answer exactly as requested (preserving units, keeping integers unchanged and fractions unreduced).",
+      "train_score": 0.7509578544061303,
+      "train_step": 99,
+      "test_score": 0.731614859742229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate every explicit numeric quantity (including any unit), assign each a concise label, devise the briefest single-step calculation that directly yields the requested value, evaluate it while showing at most one indispensable intermediate, verify the result against the original data, and output only the final answer in the exact required format (units included, integers unchanged, fractions unreduced).",
+      "train_score": 0.5057471264367817,
+      "train_step": 99,
+      "test_score": 0.5034116755117514,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.910538286580743,
+    "avg_test_score": 0.8455178887324453,
+    "best_test_instruction": "Read the problem, pinpoint each relevant value, construct the minimal formula required, evaluate it clearly showing only unavoidable intermediate numbers, verify the result, and output only the final answer in the exact format requested."
+  }
+}

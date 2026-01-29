@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Work through the problem systematically: identify the required quantity, apply appropriate formulas or algebra, simplify, double\u2011check the computation, and conclude by outputting only the final numeric answer (include a decimal point when appropriate).",
+      "train_score": 0.75,
+      "train_step": 1,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, logical progression: state each key deduction, compute intermediate values, quickly check the work, and finish with only the final answer as a single number (show a decimal point for integer results).",
+      "train_score": 0.7291666666666666,
+      "train_step": 2,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the reasoning step\u2011by\u2011step, solve the problem, and output only the final numeric answer.",
+      "train_score": 0.7291666666666666,
+      "train_step": 0,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.747733666770866,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by outlining each logical step with a brief justification, check the work for correctness, and finish by outputting only the final numeric answer on its own line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 1,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ". Below are some previous instructions with their scores. ... [lots]. Below are some problems... Generate an",
+      "train_score": 0.7291666666666666,
+      "train_step": 59,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Choosing the effective approach (such as evaluating prime factorization or coefficient comparison techniques), carefully solve the problem at hand while harnessing both your advanced mathematical knowledge and intuitive abilities.",
+      "train_score": 0.75,
+      "train_step": 0,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem methodically: determine the required quantity, perform each calculation with a brief justification, verify the result, and finish by outputting only the final numeric answer on a single line (show a decimal point even when the answer is an integer).",
+      "train_score": 0.7291666666666666,
+      "train_step": 5,
+      "test_score": 0.7261644263832447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by presenting a clear, ordered chain of reasoning, performing each calculation with a concise justification, checking the result for consistency, and concluding with the exact numeric answer on a separate line (no surrounding text, symbols, or trailing spaces).",
+      "train_score": 0.7291666666666666,
+      "train_step": 47,
+      "test_score": 0.7255392310096905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by outlining the key steps, perform each calculation with a brief justification, quickly validate the result, and conclude with the sole numeric answer on its own line, showing a decimal point even for integers.",
+      "train_score": 0.7291666666666666,
+      "train_step": 31,
+      "test_score": 0.7124101281650516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution: identify the quantities, perform the needed calculations, briefly confirm the result, and conclude by printing only the final numeric answer (include a decimal point when the answer is an integer).",
+      "train_score": 0.75,
+      "train_step": 4,
+      "test_score": 0.708346358236949,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step by step, justify each step, and end with a single line containing only the final numeric answer (including a decimal point if needed).",
+      "train_score": 0.7291666666666666,
+      "train_step": 1,
+      "test_score": 0.7045951859956237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a tight solution: give the core argument, perform the calculation, verify it, and end with the final result alone on its own line, always showing a decimal point.",
+      "train_score": 0.7291666666666666,
+      "train_step": 23,
+      "test_score": 0.7008440137542982,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate the necessary steps, give a brief rationale for each, carry out the calculations, perform a quick verification, and end the response with only the final numeric answer on its own line, shown as a decimal (even if it is an integer).",
+      "train_score": 0.7291666666666666,
+      "train_step": 45,
+      "test_score": 0.6986558299468584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step reasoning chain with brief justification for each operation, check the computation for accuracy, and finish by writing only the final numeric answer on a single line (no extra wording or symbols).",
+      "train_score": 0.75,
+      "train_step": 2,
+      "test_score": 0.6917786808377618,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, bullet\u2011pointed solution: list each essential step with a brief justification, compute any intermediate results, perform a quick sanity check, and finish with the final numeric answer alone on its own line, displaying a decimal point even when the answer is an integer.",
+      "train_score": 0.7291666666666666,
+      "train_step": 32,
+      "test_score": 0.6808377618005627,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential operations, give a brief justification for each, carry out the calculations, perform a quick sanity check, and finish with the final answer on a single line as a numeric value, always displaying a decimal point.",
+      "train_score": 0.7291666666666666,
+      "train_step": 26,
+      "test_score": 0.6780243826195687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer by listing only the indispensable steps, give a brief justification for each calculation, quickly verify the result, and finish with a single line containing only the final numeric value written with a decimal point (even when the answer is an integer).",
+      "train_score": 0.75,
+      "train_step": 30,
+      "test_score": 0.6492653954360738,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse, logically ordered solution: state the core principle, perform the necessary calculation(s), verify quickly, and end the response with only the final numeric answer on its own line, displayed as a decimal (even for whole numbers).",
+      "train_score": 0.7291666666666666,
+      "train_step": 41,
+      "test_score": 0.6298843388558925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution: carry out only the indispensable calculations (with a brief comment if helpful), verify the result, and end the response with one line containing solely the final numeric answer, always displaying a decimal point even when the answer is an integer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 21,
+      "test_score": 0.5845576742732104,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, ordered outline of the essential reasoning (one line per step), carry out the required calculations, perform a quick sanity check, and conclude with only the final answer on a single line as a numeric value, displaying a decimal point even for integer results.",
+      "train_score": 0.7291666666666666,
+      "train_step": 28,
+      "test_score": 0.5823694904657706,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7571115973741794,
+    "avg_test_score": 0.6992810253204126,
+    "best_test_instruction": "Work through the problem systematically: identify the required quantity, apply appropriate formulas or algebra, simplify, double\u2011check the computation, and conclude by outputting only the final numeric answer (include a decimal point when appropriate)."
+  }
+}

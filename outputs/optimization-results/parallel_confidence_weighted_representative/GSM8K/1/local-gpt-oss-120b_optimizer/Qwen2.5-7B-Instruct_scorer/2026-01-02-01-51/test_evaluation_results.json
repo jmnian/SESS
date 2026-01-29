@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Gather all numbers from the statement, decide the exact operation(s) needed, write the corresponding arithmetic expression, evaluate it stepwise with brief justifications, confirm the result looks reasonable, and write only the final numeric answer on the last line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 4,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, construct the single exact expression that yields the requested quantity, compute it in a clear step\u2011by\u2011step chain (showing each intermediate result), do a brief plausibility check, and finish with only the final numeric answer on a line by itself.",
+      "train_score": 0.972972972972973,
+      "train_step": 12,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, enumerate all given numbers (including their units) and optionally label them. Form a single precise mathematical statement (formula or equation) that directly yields the target quantity, writing the formula before substituting the values. Compute it in a linear, annotated chain: for each step show the intermediate value and a short rationale, keeping track of units. Do a brief plausibility check. End with the sole answer (with unit, if any) on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 26,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every given number (and its unit) from the problem, optionally label them, write one exact formula that directly computes the asked quantity (show the symbolic formula before substitution), evaluate the formula in a linear chain, recording each intermediate result with its unit and a short reason, do a brief reasonableness check, and output only the final number (with its unit) on a single line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every numeric datum (including units) from the problem. If helpful, give each a short symbol. Write one precise arithmetic expression that gives the required result, showing the symbolic version first. Compute the expression sequentially, recording each intermediate value with its unit and a concise reason. Do a brief plausibility check. End by printing only the final number (with unit if applicable) on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Record each number (and its unit) given, assign brief symbols if useful, write a single exact arithmetic or simple algebraic expression that yields the required quantity, compute it step\u2011by\u2011step showing each intermediate value with a short reason, do a quick reasonableness check, and place only the final numeric answer (and unit, if any) on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 18,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers (with units), write the precise arithmetic expression that answers the question, evaluate it step\u2011by\u2011step showing each intermediate result, do a quick plausibility check, and place only the final numeric answer on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 5,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, assign a short symbol to each if helpful, write the single equation that directly yields the requested value, solve it step\u2011by\u2011step displaying each intermediate result with a concise reason, verify the result makes sense, and finish with only the numeric answer on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 6,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (with its unit) from the problem. Give each a short variable name if helpful. Write a single exact mathematical expression that directly yields the required result, showing the symbolic form before substituting numbers. Compute the expression step\u2011by\u2011step, stating the operation and the intermediate value (with units) at each stage. Do a quick plausibility check. Finally, output only the final numeric answer (and its unit, if any) on a line by itself.",
+      "train_score": 0.972972972972973,
+      "train_step": 36,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every quantity mentioned in the problem (including units). Assign a short variable name if convenient. Construct a single precise arithmetic/algebraic expression that gives the answer, presenting the symbolic expression before any numbers are substituted. Solve the expression in a linear sequence, recording each intermediate value with its unit and a concise reason. After a brief sanity check, output solely the final numeric answer (and unit) on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 67,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number (and its unit) and, if convenient, give it a short label. Determine the exact arithmetic or algebraic expression that directly computes the requested result; first write the symbolic expression, then substitute the numbers. Compute the expression in order, stating each intermediate value with its unit and a brief reason. Verify the magnitude makes sense, and finally print ONLY the final number (with unit if applicable) on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 74,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities given, translate the question into the minimal arithmetic formula or simple algebraic equation, solve it showing each intermediate calculation with a brief rationale, perform a quick plausibility check, and end with only the final numeric answer on a separate line.",
+      "train_score": 0.972972972972973,
+      "train_step": 5,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (and its unit) from the problem. Form one exact arithmetic expression that directly gives the required result, writing the symbolic form first. Compute the expression sequentially, stating each operation, the intermediate value (with unit) and a brief reason. Do a quick plausibility check, then output only the final numeric answer (with unit if any) on a separate line.",
+      "train_score": 0.972972972972973,
+      "train_step": 71,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number (with its unit), optionally assign a short variable name, and write the single exact mathematical expression that directly answers the question (show the symbolic form before substituting values). Solve the expression in a clear, ordered chain, stating each operation, the intermediate result (with unit) and a brief reason. Do a quick plausibility check, and finally print ONLY the final numeric answer (and its unit, if any) on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 68,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (and its unit) from the problem. Optionally give each a short variable name. Write one exact arithmetic/algebraic expression that directly yields the asked quantity, displaying the symbolic form first. Evaluate the expression in a linear sequence, recording each intermediate value with its unit and a brief justification. Perform a brief plausibility check. Finally, print only the final numeric answer (with unit if any) on a separate line.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8764215314632298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeric value with its unit, assign a short symbol if helpful, write the exact formula that yields the requested quantity (show the symbolic form first), evaluate the formula step\u2011by\u2011step recording each intermediate result with a brief justification and preserving units, perform a quick sanity check, and output only the final number (with its unit, if any) on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 77,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical data (and units) from the prompt, optionally label each with a short variable. Compose a single precise expression that directly computes the required value, presenting the symbolic form before any substitution. Compute the expression sequentially, recording each intermediate outcome with its unit and a short reason. Verify the result\u2019s magnitude makes sense, and finally print only the final number (and its unit, if any) on its own line.",
+      "train_score": 0.972972972972973,
+      "train_step": 74,
+      "test_score": 0.869598180439727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (and its unit) from the problem; optionally assign short variable names. Form a single exact expression that directly gives the answer, displaying the symbolic form first. Evaluate the expression sequentially, listing each intermediate result with a brief justification and keeping track of units. Check that the final magnitude makes sense, then output ONLY the final numeric answer (and its unit, if any) on a line by itself, with no additional text.",
+      "train_score": 0.972972972972973,
+      "train_step": 58,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and its unit from the problem, optionally label them. Construct a single exact arithmetic expression that directly gives the asked quantity; write the symbolic expression first. Compute it in a linear chain, stating for each step the operation performed, the resulting value (with unit) and a brief reason. Verify that the magnitude is reasonable. Finally print only the final number (and unit, if any) on its own line, with no other text.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data (and their units). Introduce a concise variable name for each. Construct one compact formula that exactly computes the required result; present the formula first, then plug in the values. Compute the formula in a linear order, writing each intermediate value with its unit and a short reason. Verify the magnitude makes sense. Finally, print only the final number (and unit if applicable) on its own line.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9067475360121304,
+    "avg_test_score": 0.8796707462363264,
+    "best_test_instruction": "Gather all numbers from the statement, decide the exact operation(s) needed, write the corresponding arithmetic expression, evaluate it stepwise with brief justifications, confirm the result looks reasonable, and write only the final numeric answer on the last line."
+  }
+}

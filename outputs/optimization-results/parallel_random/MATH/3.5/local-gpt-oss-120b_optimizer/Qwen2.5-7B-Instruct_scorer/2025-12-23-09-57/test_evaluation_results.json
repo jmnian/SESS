@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve each problem using the appropriate mathematical methods and provide clear, concise final answers.",
+      "train_score": 0.7352941176470589,
+      "train_step": 0,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one short sentence. then, for each unknown or intermediate value create a unique placeholder. Write every arithmetic or algebraic step on a separate line as `placeholder = expression` (or `expression = value`), preserving the precise logical sequence. When the computation is complete, output a line that contains only the final number, with no extra symbols or words. Finally, add one brief sentence confirming that this number resolves the original question.",
+      "train_score": 0.4588235294117647,
+      "train_step": 99,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in one sentence, then assign a unique placeholder to each unknown or intermediate quantity. Perform every required arithmetic or algebraic operation on a separate line written as `placeholder = expression` (or `expression = value`) in the exact logical sequence. After the final operation, output a line that contains only the resulting number. Conclude with a short sentence confirming that this number solves the original problem.",
+      "train_score": 0.7352941176470589,
+      "train_step": 99,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by breaking it into clear steps: understand the question, determine the relevant concepts, perform calculations, and present the final answer with brief justification.",
+      "train_score": 0.7411764705882353,
+      "train_step": 0,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one precise sentence.  \n- Assign a distinct symbol to every unknown or intermediate quantity.  \n- Derive each required relation; write every algebraic or arithmetic step on its own line as `expression \u2192 value` (or `symbol = value`), keeping the exact logical progression.  \n- After the final derivation, provide a line that contains only the final numeric answer.  \n- Conclude with a short sentence confirming that this number solves the original problem.",
+      "train_score": 0.7470588235294118,
+      "train_step": 57,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate what is asked, then introduce the unknowns with symbols. For each required relation write the equation, solve it showing each substitution and simplification on its own line, ending with a line that contains only the final numeric value.",
+      "train_score": 0.7411764705882353,
+      "train_step": 8,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in one sentence.  \n- Introduce a unique variable for each unknown or intermediate quantity.  \n- Perform every calculation on its own line as `variable = expression` (or `expression = value`) following the exact logical order.  \n- After the last calculation write a line that contains only the final numeric answer (no symbols or extra text).  \n- End with a short sentence stating that this number answers the original question.",
+      "train_score": 0.7352941176470589,
+      "train_step": 76,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- In one sentence, restate what the problem asks.\n- Introduce a distinct variable for each unknown or intermediate quantity.\n- Perform every algebraic or arithmetic operation on its own line using the form `variable = expression` (or `expression = value`), preserving the exact logical sequence.\n- After the last operation, output a line that contains only the final numeric result.\n- Finish with a brief sentence confirming that this number answers the original question.",
+      "train_score": 0.7411764705882353,
+      "train_step": 84,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- In one sentence state what is being asked.  \n- Introduce a separate symbol for every unknown or intermediate quantity.  \n- Solve the problem step by step, writing each arithmetic or algebraic move on its own line as `symbol = expression` (or `expression = value`).  \n- After the last step output a line that contains only the final numeric result.  \n- Conclude with a short sentence confirming that this number answers the original question.",
+      "train_score": 0.7176470588235294,
+      "train_step": 99,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7294117647058823,
+      "train_step": -1,
+      "test_score": 0.7202250703344796,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- In one sentence restate what the problem asks.  \n- Assign a clear symbol to each unknown or intermediate term.  \n- Perform every required operation on its own line, writing it as `expression => value`. Keep the lines in the exact order needed to reach the solution.  \n- After the last operation, write a line that contains only the final numeric answer (no symbols or words).  \n- End with a short statement confirming that this number answers the original question.",
+      "train_score": 0.7294117647058823,
+      "train_step": 47,
+      "test_score": 0.7195998749609253,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` and end with `",
+      "train_score": 0.7294117647058823,
+      "train_step": 12,
+      "test_score": 0.718974679587371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Rewrite the question in one clear sentence.  \n- Introduce a unique symbol for every unknown or intermediate quantity.  \n- Perform every required calculation on its own line, formatted as `symbol = expression` or `expression = value`, preserving the exact logical order.  \n- After the last computation, output a line that contains only the final numeric result.  \n- End with a one\u2011sentence statement confirming that this number answers the original problem.",
+      "train_score": 0.7294117647058823,
+      "train_step": 89,
+      "test_score": 0.7158487027195999,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence, assign a unique placeholder to each unknown or intermediate quantity, then solve step\u2011by\u2011step writing each operation on a separate line in the form `placeholder = expression` (or `expression = value`) following the exact logical progression; finally place a line containing only the final numeric result and add a short sentence confirming that this result answers the original question.",
+      "train_score": 0.7470588235294118,
+      "train_step": 97,
+      "test_score": 0.7127227258518287,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- State the question in one clear sentence.  \n- Denote each unknown or intermediate quantity with a unique symbol.  \n- Carry out every required calculation on its own line using the format `expression \u2192 value` (or `symbol = value`), preserving the logical sequence.  \n- After the last calculation, write a line that contains only the final numeric result, without any additional characters.  \n- Finish with a brief sentence confirming that this number resolves the original problem.",
+      "train_score": 0.7411764705882353,
+      "train_step": 53,
+      "test_score": 0.7117849327914973,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- In one sentence, restate what is asked.  \n- Introduce a unique symbol for every unknown or intermediate quantity.  \n- Derive each required relation and write every algebraic or arithmetic step on its own line as `symbol = expression` (or `expression = value`) in the exact logical order.  \n- After the last step, output a line that contains only the final numeric result.  \n- End with a single sentence confirming that this number solves the original problem.",
+      "train_score": 0.7294117647058823,
+      "train_step": 67,
+      "test_score": 0.7049077836824007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the core idea in a single line, perform only the indispensable calculations, and state the final result as a plain number.",
+      "train_score": 0.7411764705882353,
+      "train_step": 1,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one brief sentence.  \n- Introduce a distinct symbol for every unknown or intermediate quantity.  \n- Write each required computation on its own line as `expression = value` (or `symbol := value`) in the exact logical order of the solution.  \n- After the last computation, place a line that contains only the final numeric answer\u2014no letters, symbols, or additional text.  \n- End with a short sentence confirming that this number answers the original question.",
+      "train_score": 0.7411764705882353,
+      "train_step": 44,
+      "test_score": 0.6920912785245389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in one clear sentence.  \n- Give each unknown or intermediate quantity a unique identifier.  \n- Write every algebraic or arithmetic manipulation on its own line as `identifier: expression` (or `expression = value`), preserving the exact logical order.  \n- After the last manipulation output a line that contains only the final numeric result.  \n- Conclude with a short sentence confirming that this number answers the original question.",
+      "train_score": 0.7352941176470589,
+      "train_step": 94,
+      "test_score": 0.6892778993435449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- State the question in a single brief sentence.  \n- Introduce a distinct placeholder (letter or word) for each unknown or intermediate value.  \n- For every required computation write one line of the form `placeholder = expression` or `expression = value`, keeping the exact logical sequence.  \n- After the last computation output a line that contains only the final numeric result (no surrounding text).  \n- End with a short sentence confirming that this number answers the original problem.",
+      "train_score": 0.6235294117647059,
+      "train_step": 99,
+      "test_score": 0.5976867771178493,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Briefly restate the question (one sentence).  \n- Introduce a unique symbol for every quantity that must be determined or used.  \n- Perform each arithmetic or algebraic step on its own line in the form `symbol = expression` (or `expression = value`) preserving the exact logical order.  \n- After the final step, output a line that contains only the resulting number.  \n- Finish with a single sentence stating that this number answers the original problem.",
+      "train_score": 0.7470588235294118,
+      "train_step": 92,
+      "test_score": 0.4373241638011879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.747733666770866,
+    "avg_test_score": 0.7008886705666949,
+    "best_test_instruction": "Solve each problem using the appropriate mathematical methods and provide clear, concise final answers."
+  }
+}

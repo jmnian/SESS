@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the exact quantity to find, pick the one theorem or formula that solves it, perform the minimal algebra or counting needed (showing only essential intermediate values), confirm the result satisfies the original condition, and present just the final number (or simplified form) with a brief \u201c\u2713\u201d marker.",
+      "train_score": 0.7708333333333334,
+      "train_step": 24,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Capture the exact quantity asked.\n- Point out the single mathematical principle (theorem, identity, or counting rule) that settles it.\n- Formulate the indispensable equation(s) embodying the given constraints.\n- Perform only the necessary computation, showing any unavoidable intermediate result.\n- Briefly confirm that the obtained value satisfies the original conditions.\n- Conclude with a line: \u201cAnswer = <value> \u2705\u201d.",
+      "train_score": 0.8125,
+      "train_step": 64,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the task, name the essential method or formula, execute the necessary algebra or counting with clear intermediate steps, confirm the outcome briefly, and finish by showing only the final result (numeric or simplified) with a short statement of its validity.",
+      "train_score": 0.7708333333333334,
+      "train_step": 7,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a single precise target, cite the unique mathematical tool needed, write the indispensable relation(s), carry out only the essential computation while noting any unavoidable intermediate value, perform a brief sanity check against the original conditions, and close with 'Answer = <value> \u2705'.",
+      "train_score": 0.7916666666666666,
+      "train_step": 62,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6666666666666666,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Capture the problem in a single precise statement, pinpoint the single mathematical tool required, write the essential equation(s) incorporating any variable restrictions, compute using only the indispensable steps while noting the key intermediate result(s), briefly verify that the result satisfies all conditions, and finish by presenting just the final answer with a short verification marker.",
+      "train_score": 0.7916666666666666,
+      "train_step": 36,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the question into a single explicit mathematical goal. Choose the one governing theorem or identity, write the indispensable equation(s) that capture the constraints, perform only the necessary arithmetic or algebra (showing any unavoidable intermediate value), do a quick verification that the solution satisfies all original conditions, and end with a line \u201cAnswer = <value>\u202f\u2705\u201d.",
+      "train_score": 0.7916666666666666,
+      "train_step": 50,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by first pinpointing the relevant theorem or formula, then outline a short plan, execute the plan with explicit algebraic or numeric steps, check each intermediate result for correctness, and finally output only the numeric answer (or simplified expression).",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a single sentence, point out the essential mathematical idea, write the relevant equation(s), carry out the required calculations with brief justification for each step, do a quick consistency check, and conclude by giving only the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 5,
+      "test_score": 0.7314785870584558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: restate the problem in your own words, specify the central mathematical idea or formula, outline the minimal sequence of steps, carry out only the necessary calculations with brief justification, perform a quick check for consistency, and conclude with the final answer alone.",
+      "train_score": 0.7916666666666666,
+      "train_step": 3,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be found, name the single theorem or counting rule that resolves it, write down only the essential expression, compute the answer showing just the unavoidable intermediate numbers, perform a rapid check that it meets the problem\u2019s conditions, and end with exactly \u201cResult:\u202f<value>\u202f\u2714\u201d.",
+      "train_score": 0.8125,
+      "train_step": 36,
+      "test_score": 0.7233510472022507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- State the exact quantity required in one sentence.  \n- Identify the single core principle (theorem, identity, or counting rule) that solves it.  \n- Write the essential equation(s) that incorporate the given conditions.  \n- Carry out only the indispensable arithmetic or algebra, showing just the crucial intermediate result(s).  \n- Perform a brief sanity check that the result satisfies all original constraints.  \n- End with a line \u201cAnswer = <value> \u2705\u201d.",
+      "train_score": 0.8125,
+      "train_step": 67,
+      "test_score": 0.7202250703344796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact quantity to determine in one sentence, indicate the single core insight (theorem, identity, or counting principle) that solves it, write the minimal necessary equation(s) and carry out only the indispensable arithmetic or algebra (showing just the pivotal intermediate values), perform a brief sanity check against the original conditions, and finish with a line \u201cResult:\u202f<value>\u202f\u2714\u201d.",
+      "train_score": 0.7916666666666666,
+      "train_step": 40,
+      "test_score": 0.7199124726477024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact quantity to determine in one sentence. Pinpoint the single fundamental tool (e.g., a counting principle, algebraic identity, or field\u2011theoretic fact) that solves it. Formulate the minimal necessary equation or model, carry out only the essential computation (showing any unavoidable intermediate value), confirm briefly that the result satisfies the original condition, and finish with a line \u201cAnswer = <value>\u201d.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.7180368865270397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in one clear sentence, identify the single concept or formula that applies, write only the indispensable equation(s), carry out the necessary calculation showing just the essential intermediate numbers, briefly verify that the result meets the original condition, and end with a line\u202f\u201cAnswer:\u202f<value>\u201d.",
+      "train_score": 0.7708333333333334,
+      "train_step": 31,
+      "test_score": 0.7170990934667083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target quantity in one sentence. Pinpoint the single principle (theorem, identity, or counting rule) that resolves it. Write the indispensable relation(s) embodying the given conditions. Perform only the necessary calculations, showing just the pivotal intermediate value(s). Quickly confirm the result satisfies all constraints. End with a line \u201cAnswer = <value> \u2705\u201d.",
+      "train_score": 0.7916666666666666,
+      "train_step": 60,
+      "test_score": 0.7005314160675211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence, name its type (e.g., series, functional equation, counting), give the single key formula or relation, perform only the necessary algebraic/arithmetical steps with a brief justification, verify quickly that the result meets the original condition, and finish by outputting just the final numeric answer (or simplified expression) together with a short \u201cverified\u201d statement.",
+      "train_score": 0.8125,
+      "train_step": 10,
+      "test_score": 0.694904657705533,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem\u2019s goal in one sentence.  \n- Cite the single mathematical concept (theorem, identity, counting principle, or algebraic manipulation) that solves it.  \n- Write the minimal governing equation(s) or expression.  \n- Perform only the indispensable calculations, displaying at most one intermediate result.  \n- Verify in one concise statement that the result satisfies all conditions.  \n- End with a line containing only \u201cAnswer = <value>\u201d.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6942794623319788,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the target quantity in one precise sentence.  \n- Cite the unique theorem, formula, or counting principle that solves it.  \n- Write the compact governing equation(s) using only the given data.  \n- Perform the calculation, displaying at most one intermediate number that cannot be omitted.  \n- Verify in one brief statement that the result meets the original requirements.  \n- End with exactly: \u201cAnswer = <value>\u201d.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.6814629571741169,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the problem in a single precise question.\n- Point out the single dominant principle (combinatorial count, algebraic identity, theorem) that resolves it.\n- Write the minimal governing equation(s) that encode all conditions.\n- Carry out only the unavoidable computation, showing at most one intermediate value.\n- Perform a quick consistency check that the result fulfills the original requirements.\n- End with a line containing only \u201cFinal answer:\u202f<value>\u201d.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6695842450765864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- State the exact quantity to be found in one sentence.  \n- Identify the single key principle (theorem, identity, or counting rule) that resolves it.  \n- Write only the indispensable equation(s) that capture the given information.  \n- Perform the minimal computation, displaying just the unavoidable intermediate result(s).  \n- Verify in one brief step that the answer meets all original conditions.  \n- Conclude with a line `Answer = <value>` and nothing else.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.6627070959674899,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.748046264457643,
+    "avg_test_score": 0.7199869006683637,
+    "best_test_instruction": "Identify the exact quantity to find, pick the one theorem or formula that solves it, perform the minimal algebra or counting needed (showing only essential intermediate values), confirm the result satisfies the original condition, and present just the final number (or simplified form) with a brief \u201c\u2713\u201d marker."
+  }
+}

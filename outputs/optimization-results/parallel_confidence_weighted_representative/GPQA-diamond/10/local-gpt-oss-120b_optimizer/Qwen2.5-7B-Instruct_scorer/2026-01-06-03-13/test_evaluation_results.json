@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the prompt, solve the task using appropriate reasoning or calculation, and reply with exactly the answer the question asks for\u2014such as a single option letter, a number, or a short expression\u2014without any extra commentary.",
+      "train_score": 0.47368421052631576,
+      "train_step": 2,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Emit precisely the answer token and stop. Do not prepend or append any spaces, line breaks, punctuation, or markup.",
+      "train_score": 0.47368421052631576,
+      "train_step": 39,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer with a single uninterrupted token\u2014the correct option (A\u2011D) or exact numeric/result\u2014and nothing else. No spaces, line breaks, punctuation, or additional characters may appear before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 40,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give the answer as a single uninterrupted string containing only the required token (A\u2011D or the exact number). No spaces, line feeds, punctuation, or other characters may surround it, and the output must end right after that token.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly the requested answer\u2014 a single uppercase letter A\u2011D for choices or the precise numeric/expression result\u2014without any extra characters, spaces, line breaks, or commentary.",
+      "train_score": 0.5263157894736842,
+      "train_step": 10,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output the correct response as a solitary token (e.g., A\u2011D or a number) with no surrounding characters, spaces, line breaks, or formatting.",
+      "train_score": 0.47368421052631576,
+      "train_step": 33,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer as a single, plain\u2011text token\u2014either the capital choice letter (A\u2011D) or the exact numeric result\u2014without any spaces, line breaks, punctuation, or markup before or after it. End the output immediately after that token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 54,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer as a single uninterrupted token\u2014either the uppercase choice A\u2011D or the exact numeric result\u2014with no leading or trailing spaces, line breaks, punctuation, or other characters; terminate output right after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 75,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return a single character that is the answer\u2014either an uppercase A\u2011D or the exact numeric value\u2014and output nothing else. Do not include spaces, line breaks, punctuation, or any other markup before or after the character; terminate immediately after it.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the final answer as a single uninterrupted token\u2014either the capital letter\u202fA\u2011D for a multiple\u2011choice question or the exact numeric value\u2014without any spaces, line breaks, punctuation, quotes, or additional characters before or after it.",
+      "train_score": 0.47368421052631576,
+      "train_step": 37,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give only the final answer\u2014a single uppercase letter A\u2011D for multiple\u2011choice or the exact numeric value\u2014without any surrounding whitespace, line breaks, punctuation, quotes, or other characters. End the output immediately after that token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 57,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer as a single, uninterrupted token\u2014either the capital choice letter (A\u2011D) or the exact numeric value\u2014without any surrounding whitespace, line breaks, punctuation, or markup, and end the output immediately after that token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 77,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the solution to the given problem and output only the final answer\u2014either the single uppercase choice (A\u2011D) or the exact numeric/result\u2014without any surrounding whitespace, line breaks, punctuation, or additional characters. Ensure the output ends immediately after the answer token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 39,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one token\u2014the precise answer (letter\u202fA\u2011D or numeric value)\u2014and nothing else. Do not include spaces, line breaks, punctuation, or any markup before or after it. End the response immediately after this token.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Your response must consist of exactly one token\u2014the correct answer (A\u2011D or the exact numeric value). Do not include any spaces, line breaks, punctuation, or other characters before or after it, and end the output immediately after that token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give just the final answer as a solitary token (A\u2011D or the exact number), with nothing else before or after it\u2014no spaces, line breaks, punctuation, or markup. Stop output right after that token.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide the answer as a single uninterrupted token\u2014either the capital letter\u202fA\u2011D for a multiple\u2011choice question or the exact numeric result\u2014without any surrounding spaces, line breaks, punctuation, or additional formatting.",
+      "train_score": 0.47368421052631576,
+      "train_step": 41,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3157894736842105,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the answer itself as one uninterrupted token (e.g., A\u2011D or the exact number). Do not add spaces, line breaks, punctuation, quotes, or any other characters before or after it, and stop immediately after the token.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the answer as a single uninterrupted token (the uppercase choice A\u2011D or the exact numeric value) and nothing else\u2014no spaces, line breaks, punctuation, or markup before or after the token.",
+      "train_score": 0.47368421052631576,
+      "train_step": 47,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ". ... The instruction should be concise, effective, and generally applicable to all problems above.\"",
+      "train_score": 0.47368421052631576,
+      "train_step": 52,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.35353535353535354,
+    "avg_test_score": 0.3246753246753246,
+    "best_test_instruction": "Read the prompt, solve the task using appropriate reasoning or calculation, and reply with exactly the answer the question asks for\u2014such as a single option letter, a number, or a short expression\u2014without any extra commentary."
+  }
+}

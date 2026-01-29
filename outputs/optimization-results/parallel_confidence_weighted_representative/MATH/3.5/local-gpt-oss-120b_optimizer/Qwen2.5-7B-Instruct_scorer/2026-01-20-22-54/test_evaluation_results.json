@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present a brief derivation: pinpoint the key equation or factorisation, perform the essential calculations, and conclude by giving only the final numeric answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 3,
+      "test_score": 0.7624257580493904,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8294117647058824,
+      "train_step": 99,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct calculation: indicate the key relationship, replace the variables with the given values, evaluate each operation on its own line (adding a short comment if helpful), simplify as you go, and conclude with only the final numeric answer on a new line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 70,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a tight, step\u2011by\u2011step derivation: start with the main definition or formula needed, plug in the data, simplify each intermediate result in a single line, and finish with the single numeric answer (rounded or expressed exactly) on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 12,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7941176470588235,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the decisive formula, substitute the given values, evaluate each arithmetic operation in order (annotating each line very briefly), and finish by writing only the final number\u2014rounded or exact as the problem requires\u2014on a line by itself.",
+      "train_score": 0.8294117647058824,
+      "train_step": 39,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a streamlined derivation: state the necessary relationship, substitute the given numbers, compute each intermediate result on its own line with a brief remark, simplify to the required value, and place only the final answer (exact or rounded) on a stand\u2011alone line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 47,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the sole formula needed, write it, substitute the data, then perform each arithmetic step on a separate line (annotate briefly if you wish). Simplify to the exact (or required rounded) result and place only that final number on the last line\u2014nothing else.",
+      "train_score": 0.8411764705882353,
+      "train_step": 61,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a lean solution: state the single governing formula or theorem, insert the given numbers, compute each intermediate value on its own line with a brief label (e.g., \u201csubstitute\u201d, \u201cmultiply\u201d, \u201csimplify\u201d), and end with the final numeric answer alone on the last line (rounded or exact as required).",
+      "train_score": 0.8294117647058824,
+      "train_step": 53,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, ordered solution: identify the governing principle, plug in the given numbers, evaluate each intermediate quantity on its own line with a short note, reduce to the required exact or rounded form, and finish by writing only the final answer on a separate line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 61,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single mathematical relationship needed, substitute the given data, evaluate each intermediate result on its own line with a brief parenthetical note, and end the response with the final numeric answer alone on a new line (rounded or exact as the problem requires).",
+      "train_score": 0.8411764705882353,
+      "train_step": 39,
+      "test_score": 0.7261644263832447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a focused solution: state the applicable formula, insert the given values, evaluate each intermediate step on its own line with a terse justification, simplify to the exact final value, and present only that number on the last line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 46,
+      "test_score": 0.7230384495154736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, logically ordered solution: state the essential formula or principle, carry out each calculation with a brief one\u2011sentence justification, simplify the result to its exact simplest form, and place only the final numeric answer on the last line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 7,
+      "test_score": 0.7202250703344796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a short, ordered solution: cite the key formula or principle, plug in the given values, evaluate each intermediate result on a separate line with a concise explanatory note, reduce to the final exact (or decimal) value, and place that single number alone on the last line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 44,
+      "test_score": 0.7199124726477024,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a minimal solution: name the governing rule, substitute the given values, compute each intermediate result on its own line with a brief annotation, and finish by writing only the final numeric answer on a separate line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 54,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step derivation: name the governing formula or definition, insert the given data, compute each intermediate quantity with a brief one\u2011line comment, simplify to the exact final value, and end with only that numeric answer on its own line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 23,
+      "test_score": 0.7124101281650516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse solution: state the relevant formula or principle, plug in the numbers, compute each intermediate result on a separate line with a short label, and finish by writing only the final numeric answer on its own line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 58,
+      "test_score": 0.705532979055955,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the core formula, substitute the given values, then on separate lines carry out each algebraic/arithmetic step, prefixing each line with a short verb (e.g., substitute, simplify, multiply). Conclude with one line that contains only the final numeric result (exact or rounded as required).",
+      "train_score": 0.7235294117647059,
+      "train_step": 99,
+      "test_score": 0.6373866833385433,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write the key relationship, plug in the numbers, evaluate each operation on a separate line prefixed with a concise cue (e.g., \u201c\u2192\u201d), simplify fully, and conclude with a single line that contains only the final result (exact or to the required precision). No additional commentary.",
+      "train_score": 0.7705882352941177,
+      "train_step": 99,
+      "test_score": 0.628633948108784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a brief derivation: first name the single formula or principle needed, then on separate lines perform each substitution or arithmetic operation, preceding each line with a short label (e.g., \u201csubstitute\u201d, \u201csimplify\u201d). Fully reduce each intermediate expression. Conclude with one line that contains only the final numeric result (exact or rounded as required), with no additional commentary.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.5926852141294154,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present the solution as a chain of expressions: write the required formula, substitute the given numbers, then on each subsequent line transform the previous expression using a brief operator tag (e.g., substitute, simplify, multiply, add). End with one line that contains solely the final numeric result (exact or rounded as the problem dictates). No extra prose.",
+      "train_score": 0.5764705882352941,
+      "train_step": 99,
+      "test_score": 0.5142231947483589,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7624257580493904,
+    "avg_test_score": 0.7069768826567826,
+    "best_test_instruction": "Present a brief derivation: pinpoint the key equation or factorisation, perform the essential calculations, and conclude by giving only the final numeric answer."
+  }
+}

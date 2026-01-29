@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every numeric value, express the relationships as a single exact arithmetic expression, evaluate it step\u2011by\u2011step (showing each intermediate result), and finally output only the final integer answer on a line by itself.",
+      "train_score": 0.9616858237547893,
+      "train_step": 7,
+      "test_score": 0.9173616376042456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number, assign a unique placeholder, convert every relationship (including percentages, unit conversions, time allocations) into a single exact arithmetic formula that directly produces the asked quantity, simplify symbolically, evaluate with integer or fraction arithmetic (showing only indispensable intermediate results), verify that the result fulfills all stated constraints, and finally print the lone numeric answer on its own line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 94,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, isolate all quantities, construct the precise arithmetic formula required, evaluate it step\u2011by\u2011step, and output exclusively the final numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 7,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each quantity mentioned and assign it a distinct placeholder. Write a single simplified algebraic expression that directly represents the quantity being asked, perform symbolic simplification, then substitute the numeric values and compute the result using exact integer or rational arithmetic (display intermediate steps only if desired). Verify that the computed value fulfills all conditions and output only the final number on a separate line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 28,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every numeric datum, assign a unique placeholder, rewrite the described situation as the smallest possible exact arithmetic expression that gives the requested value, evaluate it (displaying intermediate steps only if you wish), check that it meets the stated conditions, and finally print just the resulting number on one line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 18,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric constant, denote it with a distinct symbol, translate all given relationships into a single precise arithmetic expression that yields the required quantity, simplify analytically, compute the value using exact integer or rational arithmetic (showing intermediate steps only if needed for verification), confirm the result satisfies all conditions, and output the final numeric answer alone on one line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each quantity, give it a distinct placeholder, convert the entire scenario into the smallest possible exact arithmetic formula that directly produces the answer, evaluate it step\u2011by\u2011step with exact integer or fraction arithmetic (showing intermediates only if needed for validation), verify the result meets all problem constraints, and finally print the single numeric answer on its own line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 34,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity, convert the described relations into one compact arithmetic formula, evaluate it step\u2011by\u2011step, and output solely the final number.",
+      "train_score": 0.9616858237547893,
+      "train_step": 6,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem, assign each a unique symbolic name, translate every described relationship (including percentages and unit conversions) into the minimal exact arithmetic formula(s) that directly compute the asked quantity, evaluate them step\u2011by\u2011step using exact integer or fraction arithmetic (displaying intermediate values only if helpful), confirm the result satisfies all original conditions, and output only the final integer or numeric answer on a single line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 22,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum, give each a unique name, formulate the whole problem as one exact arithmetic computation that directly produces the required quantity, evaluate it stepwise with integer or fraction arithmetic (show intermediate results only if they help verification), verify that all problem constraints are satisfied, and output only the final numeric answer on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 69,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, list each numeric value, give each a distinct variable, convert the described situation into the minimal exact arithmetic expression(s) that directly yield the required result, evaluate them (showing any intermediate values only if you wish), check that the outcome respects all given conditions, and output only the final integer (or numeric) answer on one line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 23,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each explicit number, give it a unique placeholder, and rewrite the entire scenario as a single exact arithmetic expression that produces the required quantity. Perform any algebraic simplifications, evaluate the expression using exact integer or fraction arithmetic, verify that all problem constraints are met, and finally print only the resulting number on its own line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Extract each numeric value and give it a unique variable.  \n- Form the simplest exact expression that computes the required answer from those variables.  \n- Compute the expression using exact integer or rational arithmetic (show only necessary intermediate steps).  \n- Verify the result meets all conditions.  \n- Print the single numeric answer alone.",
+      "train_score": 0.9655172413793104,
+      "train_step": 75,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number, label them uniquely, rewrite the whole problem as the fewest possible exact arithmetic formula(s) that yield the asked quantity, compute the formula(s) step\u2011by\u2011step with exact integer or fraction operations (displaying intermediates only if desired), verify that the computed result meets every condition, and finally output only the final numeric answer on its own line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 27,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value, assign each a unique placeholder, rewrite all stated relationships as the smallest possible exact arithmetic expression(s) that directly give the required quantity, simplify the expression(s) algebraically, evaluate them step\u2011by\u2011step (showing intermediate results only if helpful for verification), confirm the computed result satisfies all given conditions, and finally output only the final integer (or numeric) answer on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 49,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, give each a distinct symbol, translate the whole problem into the minimal exact arithmetic expression that yields the required result, compute it using exact integer or rational arithmetic (showing only essential steps if desired), confirm the result satisfies all stated conditions, and output the final number alone on one line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8314176245210728,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract every numeric value and give each a unique identifier.  \n- Convert all stated relationships into the single simplest exact arithmetic expression that directly yields the asked quantity.  \n- Evaluate this expression step\u2011by\u2011step using exact integer or rational arithmetic (show intermediate results only if needed for verification).  \n- Check that the computed result satisfies all given conditions.  \n- Output only the final numeric answer on its own line.",
+      "train_score": 0.842911877394636,
+      "train_step": 99,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Extract every explicit number and give each a distinct symbol.  \n- Convert the entire scenario into the shortest possible exact arithmetic formula that yields the asked quantity.  \n- Simplify symbolically, then substitute the numbers and compute the result using exact integer/fraction arithmetic (show intermediate values only if needed for verification).  \n- Ensure the result satisfies all stated conditions.  \n- Output only the final numeric answer on a single line.",
+      "train_score": 0.5747126436781609,
+      "train_step": 99,
+      "test_score": 0.5481425322213799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers, form the single most compact exact formula that gives the answer, compute it with exact integer/fraction arithmetic, and output just the resulting number on its own line.",
+      "train_score": 0.13409961685823754,
+      "train_step": 99,
+      "test_score": 0.12585291887793784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Scan the problem and capture every explicit number.\n- Give each captured number a distinct placeholder.\n- Convert all described relations (including percentages, ratios, and unit conversions) into one exact arithmetic expression that directly computes the asked quantity.\n- Evaluate this expression using exact integer or rational arithmetic.\n- Output only the resulting number on its own line, without any additional text.",
+      "train_score": 0.1685823754789272,
+      "train_step": 99,
+      "test_score": 0.11902956785443518,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9173616376042456,
+    "avg_test_score": 0.8006426224773459,
+    "best_test_instruction": "Extract every numeric value, express the relationships as a single exact arithmetic expression, evaluate it step\u2011by\u2011step (showing each intermediate result), and finally output only the final integer answer on a line by itself."
+  }
+}

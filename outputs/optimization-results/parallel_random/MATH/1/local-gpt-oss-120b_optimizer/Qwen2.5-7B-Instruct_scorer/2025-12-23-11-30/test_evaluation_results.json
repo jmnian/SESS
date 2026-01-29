@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a clear, concise solution with reasoning.",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that includes all needed reasoning and formulas, then state the final answer alone (as a number or expression). Avoid any unrelated commentary.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each indispensable arithmetic or logical operation on a separate line. If a transition is not self\u2011evident, append a brief parenthetical clarification. After the last operation, write one final line that contains only the resulting value (number or reduced expression) and nothing else.",
+      "train_score": 0.7083333333333334,
+      "train_step": 51,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above\". So we must avoid any phrasing that appears exactly the same. We need to ensure uniqueness.",
+      "train_score": 0.7083333333333334,
+      "train_step": 81,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the answer as a series of numbered lines, each containing one necessary calculation or logical deduction. If a line is not obvious, include a brief parenthetical note explaining it. After the last numbered line, write one unnumbered line that holds only the final result (numeric or simplified expression) with no extra text.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Above (so not exactly same phrasing). But we can use varied phrasing but same spirit.",
+      "train_score": 0.6875,
+      "train_step": 17,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, step\u2011by\u2011step solution containing only the necessary reasoning and formulas, and finish by stating the final answer alone, without extra commentary.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.7271022194435761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examples. So we must not repeat phrasing.",
+      "train_score": 0.6875,
+      "train_step": 15,
+      "test_score": 0.7261644263832447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Place every required arithmetic or logical move on a separate line. When a transition is not immediate, add a brief note in parentheses right after that line. Finish the exposition with exactly one line that holds only the final answer (numeric or simplified) and no other words.",
+      "train_score": 0.7083333333333334,
+      "train_step": 89,
+      "test_score": 0.7142857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a lean solution: present each necessary algebraic or numeric step on a separate line, include only the justification needed for that step, and finish with the final answer (as a number or simplified expression) on its own line without any additional wording.",
+      "train_score": 0.7083333333333334,
+      "train_step": 10,
+      "test_score": 0.6905282900906533,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution.",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.6720850265708034,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal proof: every essential arithmetic or logical move gets its own line; if a move needs explanation, add a short parenthetical remark; after the last move write exactly one line that holds the final answer (number or simplified expression) and nothing else.",
+      "train_score": 0.6875,
+      "train_step": 24,
+      "test_score": 0.668333854329478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Construct a brief solution: for every indispensable calculation or reasoning step, write a separate line; when a step needs justification, add a concise parenthetical note; after all steps output a single line that holds only the final answer (as a number or simplified expression) with no extra wording.",
+      "train_score": 0.6875,
+      "train_step": 33,
+      "test_score": 0.6480150046889653,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction text ...",
+      "train_score": 0.7083333333333334,
+      "train_step": 75,
+      "test_score": 0.6333229134104408,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nCompose the answer as a stacked list. Put every required calculation or inference on a separate row. When a transition is not obvious, attach a short note in square brackets after that row. Conclude with one unmarked row that contains only the ultimate result (numeric value or fully reduced expression), and nothing else.\\n",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.554548296342607,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Break the solution into elementary actions, writing each action on its own line. If an action is not self\u2011evident, add a short parenthetical explanation right after it. After the last action, place a lone line that contains only the final answer (numeric or simplified), with no additional text.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.5320412628946546,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Break the solution into individual lines, each expressing one essential calculation or logical deduction. If a step is not immediately clear, add a brief note in parentheses right after it. End with a single line that contains only the final result (a number or fully simplified expression), with no additional text.",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.5170365739293529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6666666666666666,
+      "train_step": -1,
+      "test_score": 0.5032822757111597,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a vertical chain of reasoning: write each essential arithmetic or logical step on its own line (you may number or bullet them). If a step is not immediate, add a short parenthetical comment right after it. After the last step, place one isolated line that contains only the final answer (a number or simplified expression) with no extra wording.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.48421381681775555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a compact solution where each necessary deduction appears on its own line. If a deduction is not immediate, add a short parenthetical explanation right after it. After the last deduction, place a single line that contains only the final result (number or simplified expression) and nothing else.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.4638949671772429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each essential operation or logical step on its own line. If a step is not self\u2011evident, add a brief explanatory note in brackets immediately after it. End the response with a single line that contains only the final answer (a number or fully reduced expression) and no additional text.",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.42638324476398876,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7567989996874023,
+    "avg_test_score": 0.6393515830839994,
+    "best_test_instruction": "Provide a clear, concise solution with reasoning."
+  }
+}

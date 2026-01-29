@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a compact, self\u2011contained derivation and finish by printing only the final numeric answer on its own line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 70,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution that includes only the necessary reasoning and calculations, and finish the output with the exact numeric answer alone on the final line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 75,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nOffer a brief justification, then write the exact answer alone on the final line.\\n",
+      "train_score": 0.8235294117647058,
+      "train_step": 44,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, keep only indispensable calculations, and conclude by writing the answer alone on the last line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 57,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained derivation of the solution, then conclude the response with the exact numeric answer as the sole content of the last line\u2014nothing else should appear on that line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 77,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, show only essential steps, and end your response with the exact numeric answer on a line by itself.",
+      "train_score": 0.8294117647058824,
+      "train_step": 78,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Think through the problem, show only the indispensable calculations, and end with the exact result as the sole content of the final line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 44,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief derivation if needed, then conclude with the exact numerical answer on its own line, containing nothing else.",
+      "train_score": 0.8411764705882353,
+      "train_step": 92,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the core solution steps, then write the precise result alone on a line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 19,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8470588235294118,
+      "train_step": -1,
+      "test_score": 0.7314785870584558,
+      "is_initial": true,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, complete solution using only essential calculations; after the solution, output the exact numeric answer on the very last line with no other characters.",
+      "train_score": 0.8352941176470589,
+      "train_step": 82,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a short, self\u2011contained derivation using only the necessary calculations, and finish by writing the exact answer alone on its own line as the very last output.",
+      "train_score": 0.8294117647058824,
+      "train_step": 67,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution, then print only the numeric answer on its own line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 64,
+      "test_score": 0.7227258518286964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief derivation if needed, then output only the exact numeric answer on the last line\u2014no additional text.",
+      "train_score": 0.8411764705882353,
+      "train_step": 55,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution that includes only necessary reasoning and calculations, ending with just the final numeric answer on a single line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 20,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise derivation that includes only indispensable steps, then end your output with the exact result on a new line with no other characters.",
+      "train_score": 0.7058823529411765,
+      "train_step": 99,
+      "test_score": 0.6827133479212254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a brief, self\u2011contained derivation, then output only the final numeric answer on its own line as the very last output, without any extra characters.",
+      "train_score": 0.6470588235294118,
+      "train_step": 99,
+      "test_score": 0.5526727102219443,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that includes only essential reasoning and calculations; finish the response by placing the exact numeric answer alone on the final line, with no additional characters or whitespace.",
+      "train_score": 0.6294117647058823,
+      "train_step": 99,
+      "test_score": 0.5382932166301969,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise solution with just the necessary steps, and end the response with a single line that contains only the exact numeric answer\u2014nothing else on that line.",
+      "train_score": 0.5470588235294118,
+      "train_step": 99,
+      "test_score": 0.44701469209127853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a compact derivation, then print the exact answer on its own line \u2013 the line must consist solely of the number, with no extra characters, spaces, or punctuation.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.42106908408877775,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "We must keep the explanation minimal: outline only the essential steps, then finish the response with a line that holds precisely the answer itself\u2014nothing else on that line, not even surrounding text. No further output follows.",
+      "train_score": 0.48823529411764705,
+      "train_step": 99,
+      "test_score": 0.39668646452016254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7574241950609566,
+    "avg_test_score": 0.670715550990637,
+    "best_test_instruction": "Provide a compact, self\u2011contained derivation and finish by printing only the final numeric answer on its own line."
+  }
+}

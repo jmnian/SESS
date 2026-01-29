@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a clear, concise solution: identify the core concept, execute the necessary calculations step\u2011by\u2011step with minimal but sufficient detail, verify the result, and output only the final numeric answer.",
+      "train_score": 0.7941176470588235,
+      "train_step": 1,
+      "test_score": 0.7599249765551734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required numeric result, apply the simplest direct calculation (e.g., function substitution, basic arithmetic, algebraic simplification, or modular time addition), give a brief justification, optionally verify, and output exactly the final answer as a decimal in the requested format.",
+      "train_score": 0.7941176470588235,
+      "train_step": 19,
+      "test_score": 0.7596123788683964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the asked number, write the lone formula that yields it, execute the minimal calculation (with a quick sanity check if trivial), and present solely the resulting value exactly as the problem stipulates.",
+      "train_score": 0.8117647058823529,
+      "train_step": 25,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the central mathematical idea, work through the solution with concise justified steps, double\u2011check the result, and output only the final answer exactly as the problem requires.",
+      "train_score": 0.7941176470588235,
+      "train_step": 1,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required result, write the only necessary equation, substitute numbers, evaluate directly, optionally confirm, and output the exact answer in the prescribed form.",
+      "train_score": 0.7941176470588235,
+      "train_step": 29,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the specific numeric value the question asks for, express it with the single most straightforward formula derived from the given data, compute it using only the necessary steps (briefly justify if helpful), optionally perform a quick sanity check, and output only the exact result in the required format.",
+      "train_score": 0.8117647058823529,
+      "train_step": 56,
+      "test_score": 0.7527352297592997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the quantity the question seeks, invoke the appropriate elementary formula or identity, execute the minimal arithmetic needed, optionally confirm the result quickly, and present only the exact final number in the prescribed format.",
+      "train_score": 0.8117647058823529,
+      "train_step": 24,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Zero in on the required number, express it with one direct substitution using the supplied quantities, carry out only that calculation (add a trivial sanity check if convenient), and output precisely the resulting value in the requested form.",
+      "train_score": 0.8,
+      "train_step": 80,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target number, express it with the most straightforward formula using the provided values, plug\u2011in the numbers, carry out the minimal calculation (add a brief sanity check if it costs nothing), and return just the final result in the exact format requested.",
+      "train_score": 0.8058823529411765,
+      "train_step": 34,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target value, apply the simplest appropriate rule, carry out only the essential computation with a brief justification, optionally verify it, and output exactly the final numeric answer in the required format.",
+      "train_score": 0.8117647058823529,
+      "train_step": 20,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7823529411764706,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Spot the target value, directly relate it to the given data with one formula, compute that formula in one step (adding a brief sanity check if obvious), and return only the exact answer in the format requested.",
+      "train_score": 0.8,
+      "train_step": 66,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First identify the exact numeric quantity the problem requests. Write the one most direct formula or rule that links the given data to that quantity, carry out only the essential computation with a brief justification, perform a quick sanity check if convenient, and then output precisely the final number in the required format.",
+      "train_score": 0.8176470588235294,
+      "train_step": 26,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution: name the key principle, perform the necessary calculation with a brief justification, optionally verify the outcome, and output only the final numeric answer in the required format.",
+      "train_score": 0.8,
+      "train_step": 5,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely the numerical answer sought, map the supplied data to the most direct formula, compute it in a single arithmetic operation (include a brief sanity check if convenient), and output only the exact result in the format requested.",
+      "train_score": 0.7352941176470589,
+      "train_step": 99,
+      "test_score": 0.6905282900906533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the specific quantity sought, convert the problem data into one straightforward calculation, execute it (with an optional quick verification), and output solely the final numeric answer exactly as required.",
+      "train_score": 0.6529411764705882,
+      "train_step": 99,
+      "test_score": 0.6386370740856517,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact number asked for, express it with one immediate formula based on the given data, evaluate it in one go (optional brief check), and output solely the final numeric answer in the required format.",
+      "train_score": 0.3176470588235294,
+      "train_step": 99,
+      "test_score": 0.2778993435448578,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the specific numeric answer, express it with a single direct substitution, compute instantly, optionally verify, and return ONLY the final result formatted exactly as required\u2014no extra words or steps.",
+      "train_score": 0.31176470588235294,
+      "train_step": 99,
+      "test_score": 0.20443888715223507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single numeric answer required, reduce the problem to the most direct algebraic or arithmetic expression using the given data, compute that expression instantly (a quick sanity check may be noted if effortless), and return exactly the final number in the requested format\u2014nothing else.",
+      "train_score": 0.25882352941176473,
+      "train_step": 99,
+      "test_score": 0.18662081900593935,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact numeric result the question seeks, rewrite all given data as a single concise expression that directly produces that result, evaluate the expression (collapsing any intermediate work into one computation), optionally double\u2011check by a trivial substitution, and return only the final value in the required notation, without any explanatory text.",
+      "train_score": 0.2529411764705882,
+      "train_step": 99,
+      "test_score": 0.18630822131916225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact number required, substitute the given values into the unique minimal expression that yields it, compute the result (a brief consistency check may be included), and reply with only that final number in the prescribed format.",
+      "train_score": 0.27058823529411763,
+      "train_step": 99,
+      "test_score": 0.18099406064395124,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7599249765551734,
+    "avg_test_score": 0.6124086396046384,
+    "best_test_instruction": "Provide a clear, concise solution: identify the core concept, execute the necessary calculations step\u2011by\u2011step with minimal but sufficient detail, verify the result, and output only the final numeric answer."
+  }
+}

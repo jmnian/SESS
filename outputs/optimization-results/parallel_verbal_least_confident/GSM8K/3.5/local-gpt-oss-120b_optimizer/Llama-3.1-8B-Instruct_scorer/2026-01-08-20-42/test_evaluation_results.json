@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List the given quantities, carry out the minimal necessary arithmetic (including any required conversions or fractions), and print exactly one integer\u2014the final answer\u2014on its own line. Include at most one short sentence before the number only when a step is not immediately obvious.",
+      "train_score": 0.8812260536398467,
+      "train_step": 64,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break down the problem, compute the required value using clear short steps, and present only the final numeric result on its own line.",
+      "train_score": 0.8773946360153256,
+      "train_step": 2,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all stated quantities, perform the minimal required computation, and display the sole integer result on its own line. Include a single brief explanation only if a calculation step is non\u2011trivial.",
+      "train_score": 0.8812260536398467,
+      "train_step": 31,
+      "test_score": 0.8369977255496588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all relevant quantities, compute the answer using the simplest direct arithmetic, and output only the final integer on a separate line; prepend at most one short explanatory sentence if any step is not self\u2011evident.",
+      "train_score": 0.89272030651341,
+      "train_step": 29,
+      "test_score": 0.8347232752084913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pick out every required number, carry out the minimal arithmetic needed, and write only the final integer answer on its own line. If any inference is needed, you may precede the answer with a single short explanatory sentence.",
+      "train_score": 0.8812260536398467,
+      "train_step": 26,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the necessary quantities, perform the minimal calculation, and output only one integer on its own line. If a step is not obvious, you may precede the answer with a single brief explanatory sentence.",
+      "train_score": 0.8812260536398467,
+      "train_step": 73,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numeric values, perform only the necessary calculations using the simplest method, and output the exact integer answer on a single line. Include at most one brief clarifying sentence before the answer if any step is not immediately evident.",
+      "train_score": 0.89272030651341,
+      "train_step": 12,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers provided, carry out only the necessary calculation using the simplest arithmetic, and output the final integer on a line by itself. If a step requires inference, you may precede the answer with one brief explanatory sentence.",
+      "train_score": 0.8888888888888888,
+      "train_step": 32,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit quantity, apply the minimal arithmetic (including percentages, fractions, or unit changes) to obtain the result, and write the single integer answer on its own line. Add one short explanatory sentence before the answer only when a step is not directly stated.",
+      "train_score": 0.8773946360153256,
+      "train_step": 64,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement extract every explicit numeric value, apply exactly the operations that the problem dictates (including any needed percentages, fractions, or unit conversions), and write the resulting integer alone on a line. Add at most one short sentence before the answer only when a required step is not directly stated.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, note all numbers given, carry out only the indispensable calculations, and output exactly one integer \u2013 the final answer \u2013 on a line by itself. If any required step is not directly stated, you may add a single brief sentence before the number; otherwise output only the number.",
+      "train_score": 0.8812260536398467,
+      "train_step": 88,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every explicit numeric value, perform only the calculations that are absolutely necessary using the simplest arithmetic, and output exactly one integer \u2013 the final answer \u2013 on its own line. If any step is not directly obvious, precede the answer with a single concise sentence (no more than one) explaining that step; otherwise give only the number.",
+      "train_score": 0.8773946360153256,
+      "train_step": 46,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities mentioned in the problem, carry out only the unavoidable arithmetic (including percentages, fractions, or unit conversions), and output the exact integer result on its own line. If a step is not explicitly given, you may add a single concise explanatory sentence before the number; otherwise output only the number.",
+      "train_score": 0.8850574712643678,
+      "train_step": 81,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the necessary quantities, perform the exact calculations required, and provide only the final numeric answer without any additional commentary.",
+      "train_score": 0.8888888888888888,
+      "train_step": 2,
+      "test_score": 0.8051554207733131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, pull out all explicit numbers, compute the required value using the fewest possible operations, and print just the integer answer on its own line. Add at most one brief sentence before the number solely when the computation is not directly stated.",
+      "train_score": 0.8045977011494253,
+      "train_step": 99,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, pull out every explicit numeric value, carry out only the calculations that are strictly necessary (including any needed fractions, percentages, or unit changes), and write the single integer result on a line by itself. If a step is implied rather than stated, precede the answer with one brief sentence explaining that inference; otherwise output only the number.",
+      "train_score": 0.7969348659003831,
+      "train_step": 99,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every stated number, perform exactly the calculations that are forced by the problem (including any necessary percentages, ratios, or unit conversions), and write the sole integer answer on a line by itself. If a step is not directly stated, you may add one brief explanatory sentence before the answer; otherwise output only the number.",
+      "train_score": 0.8812260536398467,
+      "train_step": 75,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, collect all explicit numbers, perform only the calculations that are inevitably required (including any needed fractions, percentages, or unit conversions), and print a single integer on its own line. If a step had to be inferred, add one brief clarifying sentence before the number; otherwise output only the number.",
+      "train_score": 0.8505747126436781,
+      "train_step": 99,
+      "test_score": 0.7930250189537529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List the numbers in the statement, execute the only arithmetic that the question makes unavoidable, and write the resulting integer alone on a line. Add a single short sentence before the number only when you had to infer a step not explicitly mentioned.",
+      "train_score": 0.789272030651341,
+      "train_step": 99,
+      "test_score": 0.7611827141774071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7586206896551724,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out all numbers mentioned, do the minimal arithmetic needed to reach the result, and output a single integer on a line by itself. If you had to infer any step, add one concise explanatory sentence before the number; otherwise output only the number.",
+      "train_score": 0.7318007662835249,
+      "train_step": 99,
+      "test_score": 0.7285822592873389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8415466262319939,
+    "avg_test_score": 0.8083324307736742,
+    "best_test_instruction": "List the given quantities, carry out the minimal necessary arithmetic (including any required conversions or fractions), and print exactly one integer\u2014the final answer\u2014on its own line. Include at most one short sentence before the number only when a step is not immediately obvious."
+  }
+}

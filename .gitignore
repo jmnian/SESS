@@ -1,9 +1,96 @@
-outputs/
+# ===== Environment and Secrets =====
+.env
+.env.*
+*.pem
+*.key
+
+# ===== Virtual Environment =====
+.venv/
+venv/
+env/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== IDE and Editor =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===== Data Files (use scripts to download) =====
+data/
+
+# ===== Large Embeddings and Matrices =====
+embeddings_and_sim_matrices/
+
+# ===== Experiment Outputs =====
+# Keep only test_evaluation_results.json and configs_dict.json per experiment
+outputs/optimization-results/**/optimizer_logs/
+outputs/optimization-results/**/result_by_instruction/
+outputs/optimization-results/**/*.pkl
+outputs/optimization-results/**/*.png
+outputs/optimization-results/**/checkpoint.json
+outputs/optimization-results/**/training_eval_samples.json
+outputs/optimization-results/**/baseline_detailed_outputs.json
+
+# Keep these output files
+!outputs/optimization-results/**/test_evaluation_results.json
+!outputs/optimization-results/**/configs_dict.json
+
+# Scorer outputs (large cache files)
+outputs/scorer-outputs/
+
+# CSV logs at outputs root
+outputs/*.csv
+
+# ===== Result Analysis =====
+opro/result_analysis/
+
+# ===== Misc files not needed =====
+misc/
+docs/
+img/
+
+# ===== Build artifacts from original OPRO =====
 OWNERS
 BUILD
 METADATA
-.DS_Store
 .coverage
-.vscode
-*.egg-info
-__pycache__/
+
+# ===== Temporary files =====
+*.log
+*.tmp
+*.temp
+monitor_and_launch.log
+
+# ===== Scripts not needed =====
+analyze_results.py
+comprehensive_grid_search.py
+grid_search_configs.py
+grid_search_confwtrepr.py
+grid_search_confwtrepr_no_besttrain.py
+monitor_and_launch.sh
+resume_confidence_weight_sweep.bash

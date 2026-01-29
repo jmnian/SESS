@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a complete, logical solution with all intermediate steps and a brief verification, then state the final answer as a single numeric value.",
+      "train_score": 0.8470588235294118,
+      "train_step": 1,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8058823529411765,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, logically sound derivation with all essential steps and conclude by stating the final numeric answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 1,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the central idea in one brief sentence. Then solve the problem using a sequence of short, self\u2011contained paragraphs\u2014each paragraph carries out a single logical or arithmetic step and ends with a concise justification in parentheses. After the solution steps, write one short sentence that checks the result. Conclude with a line that contains only the final numeric answer prefixed by `Final=` and nothing else.",
+      "train_score": 0.8411764705882353,
+      "train_step": 69,
+      "test_score": 0.7133479212253829,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a one\u2011sentence description of the overall method. Then solve the problem as a numbered list; each item should show the precise calculation or logical step and, in parentheses, a brief justification. After the list, do a quick consistency check of the obtained value. Conclude by printing only the final numeric answer on a single line that begins with Result= followed by the number and nothing else.",
+      "train_score": 0.8352941176470589,
+      "train_step": 26,
+      "test_score": 0.7086589559237262,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly state the core idea in one sentence, then solve the problem using a clear sequence of calculations (each on its own line). After the calculations, perform a quick sanity check, and finally output only the final numeric answer on a line that starts with Answer: and contains nothing else.",
+      "train_score": 0.8470588235294118,
+      "train_step": 26,
+      "test_score": 0.7070959674898406,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise one\u2011sentence overview of the approach. Then solve the problem in a numbered sequence, each step showing the exact computation or logical deduction followed immediately by a brief rationale. After completing the steps, perform a short sanity check. Conclude by outputting only the final numeric result on a line that begins with \u201cResult:\u201d and contains no other text.",
+      "train_score": 0.8529411764705882,
+      "train_step": 26,
+      "test_score": 0.7049077836824007,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem\u2019s core goal in one short sentence, then solve it using a numbered list: each step shows a single calculation or deduction and includes a brief justification in parentheses; after the list give a one\u2011line sanity check, and conclude with the exact numeric answer on a line that reads \u201cResult:\u202f<number>\u201d and nothing else.",
+      "train_score": 0.8352941176470589,
+      "train_step": 27,
+      "test_score": 0.6983432322600813,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one short sentence, identify the unknowns, then solve by writing each required equation or arithmetic step on its own line with a brief parenthetical justification, include a one\u2011line sanity check, and end with a line that contains only \u201cAnswer=\u201d followed by the final numeric value.",
+      "train_score": 0.8411764705882353,
+      "train_step": 37,
+      "test_score": 0.697718036886527,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the overall plan in one sentence. Then solve the problem as a numbered list, each step showing a single computation or logical deduction followed by a brief parenthetical justification. After the list, perform a one\u2011line consistency check. Finally, output only the final numeric answer on a line that starts with `Answer=` and contains nothing else.",
+      "train_score": 0.8411764705882353,
+      "train_step": 35,
+      "test_score": 0.6942794623319788,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence description of the main idea. Then solve the problem in a numbered list where each item contains a single computation or logical inference followed by a brief justification in parentheses. After the list write a single line \u201cCheck:\u201d that confirms the result (for example by substitution or a parity argument). Finally output only the numeric result on a line that starts with \u201cAnswer: \u201d and contains nothing else.",
+      "train_score": 0.8411764705882353,
+      "train_step": 83,
+      "test_score": 0.6892778993435449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the objective in one sentence.  \nThen solve the problem using a series of bullet points; each bullet must show one calculation or logical step followed by a brief justification in parentheses.  \nAfter the last bullet write a single \u201cCheck:\u201d line that verifies the obtained value (for example, by substituting back or using a consistency argument).  \nFinally output only the numeric answer on a line that begins with Result: and contains nothing else.",
+      "train_score": 0.8411764705882353,
+      "train_step": 81,
+      "test_score": 0.6886527039699907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence outline of the method. Then work through the solution as a series of independent steps, each on its own line starting with \u201cStep\u202fk:\u201d. After the colon write the calculation or logical deduction followed by a brief justification introduced by \u201c\u2014\u201d. When the steps are complete, write a single line \u201cCheck:\u201d that confirms the answer (e.g., by substitution or a quick estimate). End with a line that contains only \u201cAnswer: \u201d followed by the numeric result, with no extra characters.",
+      "train_score": 0.8294117647058824,
+      "train_step": 99,
+      "test_score": 0.6814629571741169,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the approach in one brief sentence. Then work through the problem line\u2011by\u2011line, numbering each step; each line shows a single calculation or logical deduction and ends with a short comment after \u201c//\u201d. After the numbered steps write one line that verifies the result (\u201cCheck: \u2026\u201d). Conclude with a line that contains only the final numeric answer prefixed by \u201cResult: \u201d and nothing else.",
+      "train_score": 0.8352941176470589,
+      "train_step": 49,
+      "test_score": 0.6802125664270084,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the main strategy in one brief sentence. Then solve the problem line by line, each line containing a single computation or logical deduction followed by a short justification in curly braces { }. After the last line write a one\u2011sentence check of the result. Conclude with a line that contains only `Answer=` and the final numeric value.",
+      "train_score": 0.8470588235294118,
+      "train_step": 95,
+      "test_score": 0.6739606126914661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a one\u2011sentence overview of the solving strategy.  \nThen, for every logical or arithmetic move, write a separate line that begins with an arrow \u201c\u2192\u201d and ends with a short justification in square brackets.  \nAfter the last arrow line add a single \u201cCheck:\u201d sentence that verifies the obtained value (e.g., by substitution or a quick sanity test).  \nConclude with one line that contains only the final numeric answer, prefixed exactly by \u201cAnswer=\u201d and nothing else.",
+      "train_score": 0.8117647058823529,
+      "train_step": 99,
+      "test_score": 0.6705220381369178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the solving approach in one short sentence. Then work through the problem as a numbered list; each step must contain exactly one algebraic or logical operation together with a brief justification in parentheses. After the list write a single \u201cCheck\u201d line that confirms the result (e.g., by substitution or a quick sanity test). Finally output only the numeric answer on a line that begins with \u201cAnswer=\u201d and nothing else.",
+      "train_score": 0.8117647058823529,
+      "train_step": 99,
+      "test_score": 0.6495779931228509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence overview of the method. Next, list every logical or arithmetic step on a separate line, each preceded by \u201c\u2013\u201d and ending with a concise justification in parentheses. After the list write a single line \u201cCheck:\u201d that confirms the result (e.g., by substitution). Conclude with a line that contains only \u201cAnswer=\u201d followed by the final numeric value and no other text.",
+      "train_score": 0.788235294117647,
+      "train_step": 99,
+      "test_score": 0.6402000625195373,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the target in one short sentence. Then solve the problem using a vertical sequence of lines; each line begins with \u201c\u25ba \u201d, contains exactly one arithmetic or logical operation, and ends with a brief justification introduced by \u201c\u2190\u201d. After the sequence write a single line \u201c\u2714\ufe0e\u201d followed by a quick check of the obtained value. Conclude with a line that contains only \u201cAnswer=\u201d and the final number.",
+      "train_score": 0.6823529411764706,
+      "train_step": 99,
+      "test_score": 0.60737730540794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the solving method in one brief sentence. Then solve the problem using a numbered list; each entry should consist of a single mathematical operation followed by a short rationale after a right\u2011arrow \u201c\u2192\u201d. After the list provide a one\u2011line \u201cCheck\u201d that validates the answer, and finish with a line that contains only the final number prefixed by \u201cAnswer=\u201d (no extra text).",
+      "train_score": 0.7176470588235294,
+      "train_step": 99,
+      "test_score": 0.5976867771178493,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nSummarize the approach in one sentence. Then solve the problem as a numbered list; each item contains a single calculation or logical inference followed by a brief justification in angle brackets \u2039 \u203a. After the list write a one\u2011line verification prefixed by \u2018Check=\u2019. Finally output only the numeric answer on a line that reads \u2018Solution=\u2019 followed by the number.\\n",
+      "train_score": 0.6411764705882353,
+      "train_step": 99,
+      "test_score": 0.562363238512035,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7546108158799625,
+    "avg_test_score": 0.6811652450914719,
+    "best_test_instruction": "Provide a complete, logical solution with all intermediate steps and a brief verification, then state the final answer as a single numeric value."
+  }
+}

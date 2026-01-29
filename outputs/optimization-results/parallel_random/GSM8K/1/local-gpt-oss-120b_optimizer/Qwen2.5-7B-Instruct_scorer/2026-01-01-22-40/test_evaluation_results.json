@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every explicit quantity in the problem (including units, %, or fractions). Translate % and fractions into decimal or fractional form as needed. Write a single exact mathematical expression that, using only those quantities, answers the question. Evaluate it, showing only any indispensable intermediate result, confirm that the result\u2019s magnitude and unit make sense, and return only the final numeric answer (with unit if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 46,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numerical value and its associated unit, determine the exact arithmetic relationship, perform the calculation with clear intermediate results, verify consistency of units, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 4,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeric value present (including units or percentages). Translate percentages or fractions to decimal form. Using only these values, write the exact single arithmetic expression that answers the question. Compute it, showing only any indispensable intermediate result, perform a quick plausibility check, and output just the final numeric result (including a unit if required).",
+      "train_score": 0.9864864864864865,
+      "train_step": 44,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given numeric value (with its unit or %), convert %/fractions to decimal, write the one exact expression that the problem requires, evaluate it showing only the necessary intermediate result, perform a quick plausibility check, and output only the final numeric answer (with unit if needed).",
+      "train_score": 0.9864864864864865,
+      "train_step": 44,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers with units, construct a single correct formula using them, compute the result while showing only indispensable intermediate values, confirm plausibility, and output solely the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 11,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit quantity (number together with any unit, %, or fraction). Convert percentages to decimals and keep fractions exact. From the story infer the unique arithmetic operation the problem is asking for, using only the extracted quantities. Evaluate it with exact arithmetic (showing at most one necessary intermediate), verify that the magnitude and unit are sensible, and output only the final numeric answer with its unit if required.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all explicit numbers (including units, %, fractions). Convert %/fractions to decimal. Using only these values, write the exact single expression that answers the question. Compute it, showing only the necessary intermediate result, perform a quick sanity check, and return only the final numeric answer (with unit if needed).",
+      "train_score": 0.9864864864864865,
+      "train_step": 47,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric datum (including attached units, % signs, or fractional notation). Convert each % to its decimal and each fraction to an exact rational. Using solely these values, construct the unique formula that the problem asks for, evaluate it exactly (no rounding), optionally display one essential intermediate, perform a brief consistency check of magnitude and units, and output only the final numeric result with its unit if applicable.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers (including units), deduce the one arithmetic expression that solves the problem, evaluate it showing only essential intermediate values, do a brief sanity check, and output solely the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 7,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each explicit quantity (including its unit), convert the situation into a single exact mathematical expression, evaluate it while displaying only indispensable intermediate results, perform a brief consistency check, and output solely the final numeric value.",
+      "train_score": 0.9864864864864865,
+      "train_step": 10,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every concrete number appearing in the problem (including any attached unit, % sign or fraction). Rewrite percentages as their decimal equivalents and keep fractions as exact rational numbers. Using only these listed values, build the unique arithmetic expression that the question requests, evaluate it exactly (showing at most one indispensable intermediate step), perform a quick sanity check of size and unit consistency, and output solely the final numeric result with its unit if required.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit number (including units, percentages, or fractions). Convert percentages and fractions to decimal form if necessary. Identify the single precise arithmetic expression that solves the problem. Compute it, showing only the essential intermediate result(s), perform a quick sanity check, and output exclusively the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 27,
+      "test_score": 0.8764215314632298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit numeric term (including attached units, percent signs, or fraction symbols). Change any % or fractional notation into ordinary numbers (decimals or exact fractions). Using only these gathered values, formulate the single calculation the problem requires, evaluate it with exact arithmetic (showing at most one indispensable intermediate), perform a brief plausibility check of size and units, and output only the final numeric result with its unit if one is needed.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every explicit number (with its unit if given), deduce the single required arithmetic operation, perform the computation showing only indispensable intermediate results, do a brief plausibility check, and output solely the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 15,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric datum (including % or unit). Convert percentages/fractions to decimal form. Formulate the single exact computation the question requires. Carry out the calculation, displaying only the necessary intermediate value(s). Do a brief sanity check of magnitude and unit consistency. Return only the final numeric answer (with unit if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 39,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all explicit numbers (including units and percentages), translate any percentages to decimals, ensure unit consistency, formulate the single precise calculation needed, compute it showing only essential intermediate values, perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 24,
+      "test_score": 0.868081880212282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit quantity in the problem (numbers together with any unit, % sign or fraction). Convert % to decimal and keep fractions exact. Using only these quantities, form the one arithmetic expression that the question asks for, evaluate it with exact arithmetic (showing at most one unavoidable intermediate), perform a quick plausibility check of magnitude and units, and output only the final numeric answer (including its unit if needed).",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Scan the problem for every explicit number (including units, percentages or fractions). Rewrite percentages/fractions as decimals. From these numbers devise the one exact mathematical operation that answers the query. Carry out the calculation, displaying only the indispensable intermediate figure(s). Perform a brief plausibility check, then output solely the final numeric answer (with unit if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 36,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8108108108108109,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers appearing in the prompt (including attached units, % signs or fractions). Write each % as its decimal and keep fractions unreduced until the end. From these values devise the sole calculation the problem requires, carry it out with exact arithmetic (no rounding), optionally displaying one unavoidable intermediate value, verify that the size and unit make sense, and finally return only the computed answer, appending the unit if one is required.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8119787717968158,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers that appear with a unit, a % sign or as a fraction. Change % to its decimal and keep fractions as exact rationals. From these symbols write the one mathematical expression that directly yields the quantity asked for, evaluate it with exact arithmetic (no rounding), optionally display a single unavoidable intermediate, check that the result\u2019s size and unit make sense, and then output only that final numeric value (including its unit where appropriate) and nothing else.",
+      "train_score": 0.35135135135135137,
+      "train_step": 99,
+      "test_score": 0.37452615617892343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8953752843062927,
+    "avg_test_score": 0.8501028918011481,
+    "best_test_instruction": "Identify every explicit quantity in the problem (including units, %, or fractions). Translate % and fractions into decimal or fractional form as needed. Write a single exact mathematical expression that, using only those quantities, answers the question. Evaluate it, showing only any indispensable intermediate result, confirm that the result\u2019s magnitude and unit make sense, and return only the final numeric answer (with unit if applicable)."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the problem statement, note every explicit quantity, introduce a distinct placeholder only for quantities that are not directly given, formulate the simplest mathematical relationship(s) that connect them, compute the result in a clear linear progression while confirming each intermediate result, ensure the solution satisfies all conditions, and output solely the final exact number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 19,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated numbers, introduce a one\u2011letter variable for each quantity that is not directly given, write the minimal direct expression that computes the required result, evaluate it step\u2011by\u2011step with brief consistency checks, and output only the exact final numeric answer.",
+      "train_score": 0.9540229885057471,
+      "train_step": 34,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, write down each stated number, introduce a distinct single\u2011letter variable only for quantities that are not supplied, combine them into the minimal arithmetic or algebraic formula that directly produces the required value, compute the result stepwise with a brief consistency check after each computation, verify the answer fulfills all conditions, and finally print only the precise final number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 31,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numeric values, introduce a single\u2011letter variable only for quantities not directly stated, rewrite the problem as the simplest possible arithmetic or algebraic expression that yields the asked quantity, evaluate it step\u2011by\u2011step with brief consistency checks, and output solely the final exact number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 24,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every explicit quantity, introduce a single\u2011letter variable for each unknown, express the situation with the smallest possible set of algebraic equations, solve them sequentially while briefly confirming each intermediate value, and give only the final exact numeric answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 12,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, note each explicit numeric value, introduce a distinct one\u2011letter symbol only for any unknown, derive the shortest possible formula that directly yields the requested quantity, compute it stepwise while briefly verifying each intermediate result, and output solely the exact final number.",
+      "train_score": 0.9578544061302682,
+      "train_step": 52,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, list all given numbers with their meanings, introduce a unique symbol for each unknown, write down the exact mathematical relationships, solve the resulting equations step\u2011by\u2011step while briefly confirming each calculation, check that the found values satisfy the original conditions, and finally output only the single precise numeric result.",
+      "train_score": 0.9540229885057471,
+      "train_step": 5,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, record every explicit number, assign a single\u2011letter variable only to quantities that are not given, construct the most compact direct computation (including any needed unit conversions) that produces the requested value, evaluate it step\u2011by\u2011step with a quick sanity check after each operation, and output only the exact final number.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity (with its units), assign a single\u2011letter variable only to unknowns, build the most compact arithmetic or algebraic expression that directly yields the asked value, evaluate it step\u2011by\u2011step with brief sanity checks (including any needed unit conversions), verify the result satisfies all conditions, and output only the exact final numeric answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 51,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given value, introduce a unique variable for each unknown, directly write the governing equation(s) without unnecessary steps, compute the solution step\u2011by\u2011step while confirming each intermediate result, and output solely the exact final number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 5,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number from the statement. Introduce a one\u2011letter symbol only for quantities that are not given. Form the single, most compact arithmetic or algebraic expression (or the smallest possible system) that yields the required value. Evaluate it in a linear order, performing a brief sanity check after each operation, and finally print only the exact final numeric answer.",
+      "train_score": 0.9540229885057471,
+      "train_step": 48,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, list every given number, identify the quantity being requested, compute it using the simplest direct calculation or formula (introducing variables only if essential), briefly check the result for consistency, and output only the final numeric answer.",
+      "train_score": 0.9540229885057471,
+      "train_step": 23,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, introduce a one\u2011letter variable for each quantity that is not directly provided, formulate the simplest single expression (or minimal set of equations) that directly computes the requested value, evaluate it step\u2011by\u2011step with brief checks of each computation, and output only the final exact number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 24,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value from the problem, note which quantity is being asked, combine the numbers in the single simplest calculation that directly yields that quantity, compute it step\u2011by\u2011step with a brief sanity check, and output only the exact final number.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each stated number, assign a single\u2011letter variable only to quantities not supplied, combine them into the shortest possible explicit arithmetic expression that directly yields the asked value (handling percentages, fractions, or unit conversions inline), compute the expression step\u2011by\u2011step with a brief sanity check after each operation, verify that the result meets any stated conditions, and output solely the exact final number.",
+      "train_score": 0.9578544061302682,
+      "train_step": 87,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every stated quantity, introduce a one\u2011letter placeholder only for values not supplied, formulate a single minimal expression that directly computes the target, evaluate it in order while briefly verifying each intermediate result, guarantee it fulfills all problem constraints, and return solely the final numeric answer.",
+      "train_score": 0.9540229885057471,
+      "train_step": 86,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given quantities, introduce a single\u2011letter placeholder for each missing value, construct the most compact arithmetic expression that yields the required result, evaluate it sequentially with quick consistency checks, and output only the exact final number.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit numeric datum (including units), convert all to a common base unit, introduce one\u2011letter symbols only for unknown quantities, write the shortest possible direct arithmetic formula that yields the asked quantity, evaluate it sequentially while briefly verifying each intermediate step against the problem context, and output only the final exact number.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all stated numbers, assign a one\u2011letter symbol only to values not given, construct the single shortest computation that yields the asked quantity, execute it step\u2011by\u2011step with a quick sanity check, and return only the precise final number.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum presented, create a unique one\u2011character symbol for each missing amount, construct the shortest direct computation that produces the required result, perform the operations sequentially while briefly confirming each intermediate figure, and finally print only the exact answer.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8620689655172413,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.8874327593053902,
+    "best_test_instruction": "From the problem statement, note every explicit quantity, introduce a distinct placeholder only for quantities that are not directly given, formulate the simplest mathematical relationship(s) that connect them, compute the result in a clear linear progression while confirming each intermediate result, ensure the solution satisfies all conditions, and output solely the final exact number."
+  }
+}

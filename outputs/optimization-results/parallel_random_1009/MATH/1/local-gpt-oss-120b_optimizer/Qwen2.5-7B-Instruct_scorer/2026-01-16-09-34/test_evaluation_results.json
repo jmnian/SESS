@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Write a brief, self\u2011contained solution: state the decisive relation, carry out only the indispensable computation (showing at most one intermediate if it adds insight), check any required conditions, and finish with the exact answer as a single number on its own line.",
+      "train_score": 0.875,
+      "train_step": 32,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a concise, logical solution: pinpoint the central idea, carry out only the required computations, verify any constraints, and present the final answer as a single numeric value.",
+      "train_score": 0.8541666666666666,
+      "train_step": 3,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a tight, self\u2011contained solution: state the main principle, perform the minimum required computation (showing only pivotal intermediate steps), check any problem constraints, and finish with the exact answer presented as a solitary number on its own line.",
+      "train_score": 0.875,
+      "train_step": 14,
+      "test_score": 0.7589871834948422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, well\u2011structured solution: identify the key concept, perform only necessary calculations, and give the final answer as a decimal number.",
+      "train_score": 0.875,
+      "train_step": 2,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution: state the core idea, carry out the indispensable calculations in logical order, verify any required condition, and conclude with the final answer presented alone as a single numeric value (decimal if appropriate).",
+      "train_score": 0.8541666666666666,
+      "train_step": 8,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, focused solution: pinpoint the main equation or identity, carry out only the indispensable calculations in clear order, check any required conditions, and end with the final answer as a single numeric value (including a decimal point when appropriate).",
+      "train_score": 0.8541666666666666,
+      "train_step": 4,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, self\u2011contained solution: state the key principle, perform only the indispensable calculation (displaying any crucial intermediate result), verify the problem\u2019s constraints, and finish with the final answer as a single number on its own line, rounded as instructed.",
+      "train_score": 0.8541666666666666,
+      "train_step": 12,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the decisive relation, compute the necessary quantity (showing at most one brief intermediate if it adds clarity), confirm any domain or integrality requirements, and conclude with the answer as a solitary number on its own line.",
+      "train_score": 0.875,
+      "train_step": 34,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a focused, self\u2011contained solution: (i) identify the governing mathematical rule, (ii) perform the minimal calculation needed (including a single intermediate step only when it adds clarity), (iii) verify any stipulated constraints, and (iv) output the final answer as a solitary number (rounded as required) on its own line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 24,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8333333333333334,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution by: (i) citing the key theorem or expression, (ii) performing the necessary computation (showing one brief intermediate if helpful), (iii) confirming all problem constraints, and (iv) writing the exact result as a single number on its own line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 38,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Focus on the essential quantities, derive the minimal equations needed, solve them step\u2011by\u2011step, check any domain or integrality conditions, and output only the final numeric result on a separate line.",
+      "train_score": 0.875,
+      "train_step": 11,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained answer: (i) state the key relation or formula, (ii) perform only the necessary arithmetic or algebra (show at most one intermediate value if it aids understanding), (iii) confirm that any stated conditions are met, and (iv) write the resulting value as a single decimal number on its own line.",
+      "train_score": 0.875,
+      "train_step": 27,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the core formula, evaluate it directly, verify any given restrictions, and output only the final numeric result on a separate line.",
+      "train_score": 0.875,
+      "train_step": 97,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained answer that (a) identifies the precise formula or principle required, (b) performs the essential computation (showing at most one brief intermediate if useful), (c) verifies all given constraints, and (d) outputs only the final result as a single number on its own line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a compact solution: identify the core principle, execute the indispensable calculations in a clear sequence, briefly verify any required conditions, and finish with the exact numeric answer alone.",
+      "train_score": 0.875,
+      "train_step": 5,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution in three parts: (i) name the central principle or formula needed, (ii) execute the essential calculation (showing at most one intermediate if it clarifies), (iii) confirm any given conditions, and (iv) give the final answer as a lone numeric value on its own line.",
+      "train_score": 0.875,
+      "train_step": 65,
+      "test_score": 0.7158487027195999,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution: identify the relevant operation, carry out the necessary computation step\u2011by\u2011step, confirm any required conditions, and finish with the exact numeric result (as a decimal when appropriate) presented alone.",
+      "train_score": 0.8541666666666666,
+      "train_step": 6,
+      "test_score": 0.7139731165989371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact, self\u2011contained answer in four parts: (i) write the single governing relation or formula, (ii) perform the sole required computation (showing at most one intermediate if it clarifies the step), (iii) check that all problem constraints hold, and (iv) output the exact result as one number on its own line. No extra commentary is needed.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.5182869646764614,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem succinctly: identify the relevant formula, execute the minimal calculation (include at most one intermediate step for clarity), ensure all problem\u2011stated conditions hold, and output the result as a single numeric line.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.43326039387308535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the precise expression or rule required, evaluate it (showing at most one intermediate if useful), confirm any given constraints, and output only the final result as a single number on its own line.",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.37605501719287276,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.761175367302282,
+    "avg_test_score": 0.7005611872757855,
+    "best_test_instruction": "Write a brief, self\u2011contained solution: state the decisive relation, carry out only the indispensable computation (showing at most one intermediate if it adds insight), check any required conditions, and finish with the exact answer as a single number on its own line."
+  }
+}

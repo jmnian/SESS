@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Detail the known quantities, walk through each arithmetic or logical step openly, verify intermediate results when needed, and finish with a single line exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the key quantities, translate the scenario into a straightforward arithmetic or algebraic expression, solve it step\u2011by\u2011step while displaying each intermediate calculation, and finish with a clear \u201cAnswer:\u202fX\u201d statement (including appropriate units if any). Ensure the reasoning is transparent and the final result satisfies the problem conditions.",
+      "train_score": 0.9864864864864865,
+      "train_step": 1,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into clear, logical steps, perform each calculation openly, verify intermediate results when needed, and finish with a single line \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.972972972972973,
+      "train_step": 1,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the given quantities, carry out each required computation openly, verify intermediate outcomes, and finish with exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.9864864864864865,
+      "train_step": 3,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem, then solve it by listing each logical step as a bullet point (show all calculations with $$\u2026$$). Verify any intermediate result, and finish with a single line\u202f\u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem, assign symbols if needed, formulate the simplest equation that yields the required quantity, solve it showing each arithmetic step inside $$\u2026$$, briefly confirm the result makes sense, and end with a line exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.972972972972973,
+      "train_step": 27,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number, write the one formula that directly yields the requested quantity, evaluate it step\u2011by\u2011step showing each intermediate value in $$\u2026$$, do a quick sanity check, and end with precisely \u201cAnswer:\u202fX\u201d. Keep any extra commentary to a minimum.",
+      "train_score": 0.972972972972973,
+      "train_step": 5,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given data, determine the required operation(s), compute each intermediate value clearly (using $$ for math), perform a quick consistency check, and finish with a line exactly \u201cAnswer:\u202fX\u201d. Keep the explanation brief and focused.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given quantities, convert the problem into the necessary arithmetic (or algebraic) expression(s), evaluate each step visibly (using $$\u2026$$ for math), perform a brief sanity check, and finish with a single line exactly \u201cAnswer:\u202fX\u201d. Keep any additional commentary to a minimum.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity, determine the simplest required formula, compute it step\u2011by\u2011step showing every intermediate value inside $$\u2026$$, do a brief sanity check, and finish with a line that reads exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 16,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nExtract every numeric value from the problem. If needed, introduce symbols for unknown quantities. Write a single concise expression that directly yields the requested result. Compute the expression, explicitly showing each intermediate value in LaTeX $$...$$. Perform a brief plausibility check. End the response with a line containing only \\\"Answer:\u202fX\\\" (include units if appropriate). No additional text.\\n",
+      "train_score": 0.972972972972973,
+      "train_step": 36,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the given numbers, denote any needed variables, write one compact formula that gives the asked result, compute it step\u2011by\u2011step with each intermediate value in a separate $$\u2026$$ line, verify the outcome briefly, and end with exactly \u201cAnswer:\u202fX\u201d. No extra commentary.",
+      "train_score": 0.972972972972973,
+      "train_step": 67,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numerical fact, introduce symbols for unknowns if useful, form the simplest expression that produces the asked quantity, evaluate it step\u2011by\u2011step displaying each intermediate result inside $$\u2026$$, do a brief consistency check, and finish with a single line exactly \u201cAnswer:\u202fX\u201d (include units when appropriate). No extra commentary.",
+      "train_score": 0.9864864864864865,
+      "train_step": 18,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numerical fact from the prompt, write a single clear formula that yields the asked quantity, evaluate it step\u2011by\u2011step with every intermediate result shown in $$...$$, perform a quick validity check, and finish with a line exactly \u201cAnswer:\u202fX\u201d. No extra commentary.",
+      "train_score": 0.972972972972973,
+      "train_step": 9,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every numeric fact, introduce symbols for unknowns if needed, write the single most compact expression that yields the requested result, evaluate it showing each intermediate value in its own $$\u2026$$ block, perform a brief reasonableness check, and end the response with a line that reads exactly \u201cAnswer:\u202fX\u201d (include units when appropriate). No additional text is permitted.",
+      "train_score": 0.972972972972973,
+      "train_step": 41,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every figure mentioned, give each a brief label if it aids clarity, write a single compact formula that gives the quantity requested, evaluate the formula step\u2011by\u2011step with each intermediate value placed in its own $$\u2026$$ line (optional step numbers), perform one quick plausibility remark, and finish with exactly one line:\u202fAnswer:\u202fX (including units if needed). Nothing else may appear in the output.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8612585291887794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum, assign a short symbol if helpful, formulate the minimal direct expression that yields the requested value, evaluate it step\u2011by\u2011step showing each intermediate result in its own $$\u2026$$ block (optionally numbered), perform a quick plausibility check, and conclude with a single line exactly \u201cAnswer:\u202fX\u201d (include units when appropriate). No other text may appear.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum, give each a short symbol only if it aids clarity, compose one compact formula that directly yields the requested quantity, evaluate it step\u2011by\u2011step showing each intermediate result in its own $$\u2026$$ block (you may number the steps), write a brief one\u2011sentence plausibility check, and terminate with a single line exactly \u201cAnswer:\u202fX\u201d (include units when appropriate). No other text is allowed.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum, assign a short symbol if helpful, write the single most direct arithmetic expression that yields the requested value, compute it showing each intermediate result in its own $$\u2026$$ block (numbered), perform a brief plausibility check, and finish the response with exactly one line: Answer:\u202fX (include units when appropriate). No other text.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8066717210007581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers from the problem. Assign a variable name only if it clarifies the computation. Form the shortest possible arithmetic formula that produces the answer. Compute the formula step\u2011by\u2011step, writing each intermediate value on a separate line formatted as $$ \u2026 $$ (you may number the steps). After the computation, write a single sentence confirming the result seems reasonable. End the response with a lone line exactly: Answer:\u202fX (add units if needed). No other text is permitted.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.778620166793025,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.913570887035633,
+    "avg_test_score": 0.869598180439727,
+    "best_test_instruction": "Detail the known quantities, walk through each arithmetic or logical step openly, verify intermediate results when needed, and finish with a single line exactly \u201cAnswer:\u202fX\u201d."
+  }
+}

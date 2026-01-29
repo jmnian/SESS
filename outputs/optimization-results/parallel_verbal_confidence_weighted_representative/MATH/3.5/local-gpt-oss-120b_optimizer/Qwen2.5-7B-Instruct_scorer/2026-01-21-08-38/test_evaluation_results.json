@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a brief, logical solution: identify the key equations, work through the calculations stepwise, and present the final numeric answer.",
+      "train_score": 0.8352941176470589,
+      "train_step": 1,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into a single equation, solve for the unknown using only the necessary algebraic steps (display each intermediate value), and present the exact final numeric answer (round only if the prompt specifies). Keep the response concise and free of unrelated commentary.",
+      "train_score": 0.8352941176470589,
+      "train_step": 10,
+      "test_score": 0.75054704595186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, point out the lone theorem or relation needed, compute the necessary intermediate values each on its own line, ensure all stated conditions hold, and end with only the final numeric answer on a new line (round only if the prompt requires).",
+      "train_score": 0.8411764705882353,
+      "train_step": 58,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate briefly \u2192 write the single essential equation \u2192 evaluate each needed intermediate value on its own line \u2192 confirm any stated condition \u2192 output only the final numeric answer (round only if asked).",
+      "train_score": 0.8411764705882353,
+      "train_step": 71,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem concisely, highlight the key principle or formula needed, carry out each algebraic/computational step with clear intermediate results, and finish with the exact numeric answer (round only if specified).",
+      "train_score": 0.8411764705882353,
+      "train_step": 2,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly paraphrase the question. State the single key principle or formula that resolves it. Carry out every required computation, listing each intermediate result on its own line (you may label them). Verify any condition mentioned in the problem (e.g., integer, positivity, range). Finally, output only the final numeric result on a separate line, rounding only if explicitly instructed.",
+      "train_score": 0.8588235294117647,
+      "train_step": 96,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7941176470588235,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one sentence, specify the principal theorem or counting rule required, execute the minimal sequence of algebraic or combinatorial operations (displaying each necessary intermediate value on its own line), verify that all conditions are satisfied, and output only the final numeric result (round only if the prompt directs).",
+      "train_score": 0.8352941176470589,
+      "train_step": 23,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown(s), write the governing equation(s), solve algebraically showing each substitution on a new line, check domain restrictions, and output the sole numeric result without extra text.",
+      "train_score": 0.8411764705882353,
+      "train_step": 91,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one concise sentence.  \n- Determine the single governing principle or formula needed.  \n- Carry out only the essential calculations, listing each intermediate numeric value on its own line.  \n- Check any required conditions (e.g., domain, integer, sign).  \n- Produce only the final numeric answer on a separate line (round only if instructed).",
+      "train_score": 0.8352941176470589,
+      "train_step": 51,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly paraphrase the problem. State the single essential formula or counting principle that applies. Carry out the necessary calculations, listing each intermediate numeric value on its own line. Verify any condition mentioned (e.g., integer, sign, range). End with only the final numeric answer on a separate line (round only if instructed).",
+      "train_score": 0.8352941176470589,
+      "train_step": 66,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task briefly, pinpoint the single relevant formula or theorem, execute the minimal calculations while listing every required intermediate value on separate lines, confirm any condition given, and conclude with only the final number on its own line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 36,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, cite the single core formula or concept needed, carry out only the indispensable calculations (showing any necessary intermediate values), simplify if possible, and give the exact final answer (round only when the prompt requires); avoid any unrelated commentary.",
+      "train_score": 0.8411764705882353,
+      "train_step": 8,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, restate it in one sentence, pinpoint the main mathematical idea needed, then work through the solution step\u2011by\u2011step, showing each intermediate result clearly. Conclude with the final answer (rounded only if required) and nothing else. Keep the explanation brief but complete.",
+      "train_score": 0.8470588235294118,
+      "train_step": 3,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one concise sentence.  \n- State the exact formula, theorem, or counting rule required.  \n- Carry out the necessary calculations, writing each essential intermediate value on its own line.  \n- Check any given condition (e.g., integer, sign, domain) and eliminate invalid results.  \n- Present only the final numeric answer on a single line (round only if the prompt explicitly says so).",
+      "train_score": 0.8352941176470589,
+      "train_step": 48,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the question in one sentence. Identify the sole formula or principle required. Compute each needed intermediate value, writing each on a separate line (you may label them). Check any condition stated in the problem. End with only the final numeric answer on its own line, applying rounding only if explicitly instructed.",
+      "train_score": 0.8470588235294118,
+      "train_step": 89,
+      "test_score": 0.7271022194435761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one sentence.  \n- Identify the single governing principle or formula.  \n- Perform each required computation, writing every intermediate numeric result on its own line with a brief label.  \n- Verify any constraints given (e.g., domain, integer).  \n- Output only the final numeric answer on a new line (round only if explicitly instructed).",
+      "train_score": 0.8294117647058824,
+      "train_step": 99,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the problem. Then write the single equation or rule that applies, plug in the given numbers, display each intermediate calculation on its own line, verify any condition provided, and finally write only the final answer on a separate line (rounding only when asked).",
+      "train_score": 0.8529411764705882,
+      "train_step": 66,
+      "test_score": 0.718974679587371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First restate the problem in one clear sentence, then write the single governing equation or principle needed, carry out only the indispensable algebraic/arithmetical steps (showing each essential intermediate result), verify any given constraints to discard extraneous solutions, and conclude with the exact numeric answer on its own line. Keep the response concise and free of unrelated commentary.",
+      "train_score": 0.8470588235294118,
+      "train_step": 10,
+      "test_score": 0.7064707721162864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the question in a single concise sentence.  \n- Specify the one exact theorem, formula, or counting rule that solves it.  \n- Compute every required intermediate quantity, writing each result on its own line preceded by \u201c\u2192\u201d.  \n- Confirm that all conditions given in the problem (e.g., integer, positivity, domain) are satisfied.  \n- Output only the final numeric value on a separate line (apply rounding only if explicitly requested).",
+      "train_score": 0.7823529411764706,
+      "train_step": 99,
+      "test_score": 0.6930290715848703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the problem in a single concise sentence.  \n- State the single mathematical rule, formula, or counting principle that applies.  \n- Carry out every necessary computation, listing each intermediate result on its own line (label them if desired).  \n- Verify any condition mentioned in the question (e.g., integer, positivity, domain).  \n- Output only the final numeric answer on a new line; round only if the prompt explicitly requires it.",
+      "train_score": 0.5529411764705883,
+      "train_step": 99,
+      "test_score": 0.5461081587996249,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7514848390121913,
+    "avg_test_score": 0.7259411423212611,
+    "best_test_instruction": "Give a brief, logical solution: identify the key equations, work through the calculations stepwise, and present the final numeric answer."
+  }
+}

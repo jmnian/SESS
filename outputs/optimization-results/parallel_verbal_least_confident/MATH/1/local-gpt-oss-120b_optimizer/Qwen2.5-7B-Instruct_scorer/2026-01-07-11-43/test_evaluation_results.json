@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6666666666666666,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by outlining the necessary steps, performing the required calculations with clear reasoning, and end with the final answer presented as a single number.",
+      "train_score": 0.7083333333333334,
+      "train_step": 0,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in a single clear sentence.  \n- List each distinct formula, definition, or theorem you will use, one per line.  \n- Solve the problem, writing every independent logical or arithmetic move on its own line beginning with \u201c-\u201d.  \n- End with one line that contains only the final numeric answer or fully simplified expression, optionally enclosed in\u202f\\boxed{\u202f\u2026\u202f}. No other text may appear.",
+      "train_score": 0.75,
+      "train_step": 76,
+      "test_score": 0.7317911847452329,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Solve the given problem.\n- Write every independent algebraic or logical step on its own line, beginning with \u201c>\u201d.\n- After the last step, output only the final answer (number or simplified expression) on a line by itself, optionally surrounded by \\boxed{\u202f}.",
+      "train_score": 0.6875,
+      "train_step": 38,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Briefly restate the question in one sentence.\n- List the single main theorem, formula, or concept required.\n- Derive the solution, writing each independent logical or arithmetic step on its own line preceded by \u201c\u2023\u201d.\n- Conclude with a solitary line containing only the final result (numeric or simplified expression), optionally enclosed in \\boxed{\u202f\u2026\u202f}.",
+      "train_score": 0.6875,
+      "train_step": 57,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one clear sentence.  \n- State the single key idea (formula, theorem, or definition) needed to solve it.  \n- Solve the problem, writing each independent logical or arithmetic step on its own line beginning with \u201c\u21b3\u201d.  \n- End with exactly one line that contains only the final answer (numeric value or fully simplified expression) enclosed in\u202f\\boxed{\u202f\u2026\u202f}. No other text may appear.",
+      "train_score": 0.6875,
+      "train_step": 68,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the task in one short sentence.  \n- Identify the single theorem, formula, or principle that solves it.  \n- Solve the problem, writing each independent deduction on its own line prefixed with \u201c*\u201d.  \n- Finish with exactly one line that contains only the final numeric answer (or fully simplified expression), optionally enclosed in\u202f\\boxed{\u202f\u2026\u202f}.",
+      "train_score": 0.7083333333333334,
+      "train_step": 31,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- In one sentence, paraphrase the problem.  \n- List any definitions, formulas, or theorems you will use (one per line).  \n- Solve the problem by writing each independent logical or arithmetic step on its own line, beginning with \u201c\u2022\u201d.  \n- End with a single line that contains only the final answer (numeric value or fully reduced expression), optionally wrapped in\u202f\\boxed{\u202f}. No other text may appear.",
+      "train_score": 0.6875,
+      "train_step": 52,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the question in one clear sentence.\n- State the single mathematical fact, theorem, or definition needed.\n- Derive the answer, writing each independent logical or arithmetic move on its own line beginning with \u201c\u21d2\u201d.\n- End with one line that contains only the final numeric result (or fully reduced expression), optionally enclosed in \\boxed{\u2026}. No other text may appear.",
+      "train_score": 0.6875,
+      "train_step": 55,
+      "test_score": 0.7211628633948108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one concise sentence.  \n- Give the core mathematical idea (definition, theorem, or formula) that will be used.  \n- Show each independent calculation or logical inference on its own line, prefixed simply by a dash \u201c-\u201d.  \n- End with a single line that contains only the final numeric answer or fully simplified expression, wrapped in \\boxed{\u202f\u2026\u202f}. No other text may appear.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.7202250703344796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the question in a single clear sentence.  \n- List every definition, theorem, or formula you will use, one per line.  \n- Solve the problem by writing each independent logical or arithmetic step on its own line, each line beginning with the symbol \u201c\u2295\u201d.  \n- End with one line that contains only the final numeric answer or fully simplified expression, optionally enclosed in\u202f\\boxed{\u202f\u2026\u202f}. No other text may appear.",
+      "train_score": 0.7083333333333334,
+      "train_step": 89,
+      "test_score": 0.7164738980931541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one clear sentence.  \n- Identify the single definition, theorem, or formula needed to solve it.  \n- Solve step\u2011by\u2011step, writing each independent logical or arithmetic move on its own line prefixed with \u201c##\u201d.  \n- Conclude with exactly one line that contains only the final numeric answer (or fully simplified expression) enclosed in\u202f\\boxed{\u2026}. No additional text may appear.",
+      "train_score": 0.6875,
+      "train_step": 65,
+      "test_score": 0.7164738980931541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one clear sentence.  \n- State the one key formula or theorem required.  \n- Solve, listing each independent inference on its own line beginning with \u201c\u2192\u201d.  \n- End with a single line containing only the final answer, enclosed in \\boxed{\u202f\u2026\u202f}. No other text may follow.",
+      "train_score": 0.6875,
+      "train_step": 66,
+      "test_score": 0.7142857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Rephrase the question in a single clear sentence.  \n- On separate lines, note every distinct principle, definition, or formula you will use (one per line).  \n- Derive the answer, writing each independent deduction on its own line preceded by \u201c\u22b3\u201d.  \n- Conclude with one line that contains only the final numeric value or fully simplified expression, enclosed in \\boxed{\u2026}. No additional text may appear.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.7124101281650516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the question in one sentence.\n- State the single key idea (formula, theorem, or principle) that solves it.\n- Compute the answer, writing each independent calculation on its own line preceded by \u201c\u00b7\u201d.\n- End with a line that contains only the final numerical answer (or fully simplified expression) enclosed in \\boxed{\u202f\u2026\u202f}. No other text may follow.",
+      "train_score": 0.6875,
+      "train_step": 49,
+      "test_score": 0.708346358236949,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the question in one brief sentence.  \n- Identify every distinct theorem, definition, or formula needed (one per line).  \n- Derive the solution, writing each independent logical or arithmetic move on its own line prefixed with \u201c\u2192\u201d.  \n- After the last derivation line output only the final result, exactly as a number or reduced expression, surrounded by \\boxed{\u202f\u2026\u202f} and nothing else.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.7011566114410753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the problem in a single clear sentence.  \n- Cite the one theorem, formula, or principle that resolves it.  \n- Solve by listing each independent deduction on its own line, each line beginning with the character \u201c|\u201d.  \n- End with exactly one line that contains only the final answer (number or fully reduced expression), optionally enclosed in\u202f\\boxed{\u202f\u2026\u202f}. No other text is allowed.",
+      "train_score": 0.6875,
+      "train_step": 39,
+      "test_score": 0.6864645201625508,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the question in one concise sentence.  \n- Enumerate each relevant fact, theorem, or formula (one per line).  \n- Derive the solution, writing every independent deduction on its own line prefixed with \u201c\u2014\u201d.  \n- Conclude with a single line containing only the final numeric result or fully simplified expression, enclosed in\u202f\\boxed{\u202f\u2026\u202f}. No additional text is permitted.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.681775554860894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the question in one sentence, identify the single theorem or formula needed, then solve it by writing each independent algebraic or logical operation on its own line prefixed with \u201c\u2192\u201d. After the last line output only the final result (integer, fraction or simplified expression) on a line by itself, without any additional words or symbols.",
+      "train_score": 0.7083333333333334,
+      "train_step": 23,
+      "test_score": 0.6092528915286027,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in one sentence.  \n- State the essential principle(s) needed (one per line).  \n- Perform the calculation, writing each independent operation on a new line beginning with \u201c>>>\u201d.  \n- After the last operation, output only the final value (number or reduced expression) enclosed in \\boxed{\u202f\u2026\u202f}. No other text is allowed.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.26226945920600186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7461706783369803,
+    "avg_test_score": 0.6921210497328033,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

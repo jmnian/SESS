@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every numeric datum, translate the scenario into the simplest required arithmetic or algebraic expression, compute only the essential intermediate values with brief justification, verify that the result meets all stated conditions, and present the sole final answer as a concise number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 6,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeric value in the problem, insert them into the shortest possible direct calculation that produces the required result, perform only the necessary arithmetic (showing an intermediate only if it cannot be omitted), verify that all given conditions are satisfied, and give the final answer as one exact number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 95,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and their roles. Construct the simplest possible direct calculation that yields the requested quantity, performing only the necessary arithmetic steps and briefly justifying each. Verify that the result respects every condition stated, and give the final answer as a single exact numeric value.",
+      "train_score": 0.9655172413793104,
+      "train_step": 26,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum and its role, convert the situation into the simplest necessary equation or arithmetic chain, perform the computation showing only essential intermediate values, confirm the result meets all given conditions, and give the answer as one exact number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 5,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate each number in the statement, deduce the single necessary arithmetic (or algebraic) formula that yields the requested quantity, evaluate it while showing only indispensable intermediate value(s) with a brief justification, verify that all problem constraints are satisfied, and output the exact answer as one plain number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 47,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum, plug them straight into the briefest correct formula that produces the asked\u2011for value, carry out only the indispensable arithmetic (displaying at most one unavoidable intermediate), verify that all stated conditions are satisfied, and present the exact result as a single number.",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number in the problem, combine them in the simplest possible single calculation that yields the asked quantity, perform only the unavoidable arithmetic steps (showing at most one intermediate), verify that all given conditions are met, and give the answer as one exact numeric value.",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numerical data presented. Build the single, shortest arithmetic/algebraic expression that directly gives the required quantity, using each number as needed. Carry out only the indispensable calculation (show one intermediate only if it cannot be omitted), verify that every stated condition is satisfied, and present the final answer as one exact number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity, determine the exact arithmetic or algebraic relationship needed, perform the calculations with all intermediate values displayed, confirm the result satisfies the problem, and present the answer as a single clear statement.",
+      "train_score": 0.9655172413793104,
+      "train_step": 3,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value from the statement, determine the single arithmetic relation that directly produces the quantity asked for (using the fewest operations possible), evaluate it showing only an intermediate result when its omission would make the computation impossible, confirm that all problem conditions are satisfied, and give the answer as one exact number.",
+      "train_score": 0.9770114942528736,
+      "train_step": 83,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number, write the minimal direct arithmetic expression that computes the asked value, evaluate it showing only needed intermediate steps, ensure all conditions hold, and output the exact single numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 24,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all quantities supplied, and directly substitute them into the most compact arithmetic expression that yields the requested result. Compute the expression, displaying at most one unavoidable intermediate step, confirm all stated constraints are satisfied, and present the final answer as a single exact numeral.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numerical fact, translate the problem into the simplest possible arithmetic expression without superfluous variables, compute it while displaying only the essential intermediate values, confirm the result satisfies all constraints, and return the exact final answer as a single number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 17,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every quantity mentioned, give each a clear variable only when useful, construct the single simplest arithmetic formula that directly produces the asked\u2011for value, compute it while showing just the indispensable intermediate result(s), verify that all stated conditions are met, and output the exact answer as one number.",
+      "train_score": 0.9655172413793104,
+      "train_step": 29,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical fact, convert the entire situation into a single, compact computation that directly yields the asked quantity, carry out only the indispensable arithmetic showing essential intermediate values, verify that all problem conditions are met, and output the lone exact number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 24,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every numeric value stated, devise a single, minimal arithmetic or algebraic expression that directly yields the requested quantity, compute it showing only indispensable intermediate results, verify that all problem conditions are satisfied, and present the final answer as one exact number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 87,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8620689655172413,
+      "train_step": -1,
+      "test_score": 0.8938589840788476,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity asked for, replace the given numbers into the shortest possible arithmetic expression that computes it, evaluate showing only indispensable intermediate results, confirm all problem conditions are met, and output the exact answer as a single number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 29,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, immediately substitute them into the minimal mathematical formula that gives the required quantity, compute only the necessary operations (displaying a single intermediate only if the final value cannot be obtained without it), check that all problem constraints are satisfied, and output the exact answer as one plain number, with no additional commentary.",
+      "train_score": 0.6551724137931034,
+      "train_step": 99,
+      "test_score": 0.8658074298711145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each given number, assign symbols only when they reduce clutter, then form one compact calculation that directly produces the required quantity; execute the calculation (displaying an intermediate only if indispensable), confirm every condition holds, and present the final answer as a solitary exact number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\" and end with \"",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.5193328278999242,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8828116538503195,
+    "best_test_instruction": "Extract every numeric datum, translate the scenario into the simplest required arithmetic or algebraic expression, compute only the essential intermediate values with brief justification, verify that the result meets all stated conditions, and present the sole final answer as a concise number."
+  }
+}

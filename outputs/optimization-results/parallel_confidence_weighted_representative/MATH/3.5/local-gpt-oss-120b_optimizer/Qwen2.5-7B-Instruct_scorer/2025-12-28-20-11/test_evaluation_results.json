@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the core relation, perform the sole required calculation, verify with a brief check, and present only the final answer exactly as requested.",
+      "train_score": 0.8470588235294118,
+      "train_step": 42,
+      "test_score": 0.7602375742419506,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the single necessary relation, solve in one concise step, perform a quick consistency verification, and present only the final answer exactly as required.",
+      "train_score": 0.8470588235294118,
+      "train_step": 73,
+      "test_score": 0.7596123788683964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential concept, perform the minimal required computation directly, quickly verify the result, and present only the final answer in the exact format requested.",
+      "train_score": 0.8470588235294118,
+      "train_step": 25,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the needed formula or rule, perform the minimal calculations required, and present the final answer clearly in simplest form.",
+      "train_score": 0.8411764705882353,
+      "train_step": 1,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the pivotal concept, execute the minimal calculation needed, confirm the outcome with a brief consistency test, and provide solely the final answer exactly as specified.",
+      "train_score": 0.8470588235294118,
+      "train_step": 61,
+      "test_score": 0.7577367927477336,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the quantity the problem asks for, derive it using the smallest possible chain of logical steps, confirm the result with a quick consistency test, and write only that final number in the required format.",
+      "train_score": 0.8529411764705882,
+      "train_step": 98,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Focus on the main mathematical idea, perform only the necessary calculations in a clear logical order, quickly verify the outcome, and give the final answer exactly as requested in a single concise statement.",
+      "train_score": 0.8588235294117647,
+      "train_step": 3,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the essential idea, perform only the necessary calculation, quickly check the result, and present the answer alone in the required format.",
+      "train_score": 0.8764705882352941,
+      "train_step": 25,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the pivotal equation, substitute the given values to reduce it to a single variable, solve directly, perform a brief verification, and report only the final answer in the exact requested format.",
+      "train_score": 0.8529411764705882,
+      "train_step": 98,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required quantity, condense the problem to the single indispensable computation, execute it clearly, do a quick sanity verification, and output only the final answer in the exact format requested.",
+      "train_score": 0.8235294117647058,
+      "train_step": 99,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the central concept, carry out only the essential calculations in a clear order, perform a quick sanity check, and give the final answer precisely in the format requested.",
+      "train_score": 0.8411764705882353,
+      "train_step": 4,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the key relation, compute only what is indispensable in a straight line, validate briefly, and give the sole final answer exactly as specified.",
+      "train_score": 0.8470588235294118,
+      "train_step": 13,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity asked for, compute it using the most straightforward direct step, verify briefly for consistency, and output only the final answer in the precise format required.",
+      "train_score": 0.8117647058823529,
+      "train_step": 99,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the precise quantity asked for, apply the single most relevant principle or formula, compute it in one clear step, verify the result with a quick consistency check, and output only the final answer in the exact format required.",
+      "train_score": 0.8411764705882353,
+      "train_step": 99,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact relation or formula required, perform the computation in a single clear step, verify the result with a brief consistency check, and output only the final answer in the precise format requested.",
+      "train_score": 0.8470588235294118,
+      "train_step": 86,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8411764705882353,
+      "train_step": -1,
+      "test_score": 0.7380431384807753,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant concepts or formulas involved; apply systematic reasoning or calculations; verify solutions against given data. Prioritizing clarity, thoroughness, and logical sequence enhances overall problem-solving performance.",
+      "train_score": 0.8470588235294118,
+      "train_step": 0,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the problem into its core mathematical expression, solve it using the shortest logical chain, perform a quick sanity check, and give only the final answer exactly as required.",
+      "train_score": 0.8235294117647058,
+      "train_step": 99,
+      "test_score": 0.7183494842138168,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, isolate the exact quantity needed, apply the most straightforward formula or reasoning, perform the calculation in a single step, do a quick plausibility check, and output only the final number in the format requested.",
+      "train_score": 0.6588235294117647,
+      "train_step": 99,
+      "test_score": 0.6183182244451391,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the crucial formula or counting principle, perform only the indispensable calculation(s) in a clear single line, quickly double\u2011check the result, and output only the final numeric answer in the exact format requested.",
+      "train_score": 0.6588235294117647,
+      "train_step": 99,
+      "test_score": 0.5739293529227883,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the core quantity being asked, apply the single most direct principle or formula to compute it in one clear step, perform a quick sanity check, and output only the final answer in the exact format requested.",
+      "train_score": 0.6294117647058823,
+      "train_step": 99,
+      "test_score": 0.572991559862457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7602375742419506,
+    "avg_test_score": 0.7254648029890293,
+    "best_test_instruction": "Determine the core relation, perform the sole required calculation, verify with a brief check, and present only the final answer exactly as requested."
+  }
+}

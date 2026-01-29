@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, list every given number and its meaning, introduce a variable for the quantity to find, create a straightforward equation or calculation using those numbers, solve it, and give the final answer with its proper unit, presenting each step in a clear, numbered order.",
+      "train_score": 0.946360153256705,
+      "train_step": 1,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, extract every quantitative fact (including units), rename the unknown with a clear symbol, explicitly state the mathematical relationship that links the known quantities to the unknown, solve the relationship step\u2011by\u2011step while showing each intermediate value and briefly justifying each operation, verify that the result satisfies all conditions, and present the final answer in a single complete sentence with appropriate units (round only at the end).",
+      "train_score": 0.9425287356321839,
+      "train_step": 19,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their meanings from the problem. If units differ, convert them to the same unit. Introduce a variable for the quantity to find, write a single arithmetic or algebraic expression that links the extracted data, and solve it step\u2011by\u2011step, displaying each intermediate calculation. Verify that the result meets any stated conditions, then present the final answer in a complete sentence with appropriate units.",
+      "train_score": 0.9425287356321839,
+      "train_step": 3,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, write down every numerical quantity (with units), assign a distinct symbol to the unknown, combine the known numbers into one explicit formula that directly yields the unknown, evaluate the formula in a numbered sequence while stating each intermediate value and its justification, check that the obtained value satisfies any stated conditions, and finally express the result in a single complete sentence with the correct unit, rounding only at the final step.",
+      "train_score": 0.9386973180076629,
+      "train_step": 65,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record every given number together with its meaning, assign clear symbols to any unknowns, convert units if needed, formulate the most direct equation(s) or arithmetic expression that links the data to the unknown, solve it step\u2011by\u2011step displaying each intermediate result, verify that the solution meets all stated conditions, and present the final answer in a complete sentence with proper units (if applicable), rounding only at the end.",
+      "train_score": 0.9348659003831418,
+      "train_step": 19,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every quantitative datum (with its unit), convert mismatched units, assign one clear variable to the unknown, fuse all the data into a single explicit computation that produces that variable, evaluate it step\u2011by\u2011step while recording each intermediate result and its justification, verify that the result satisfies any stated constraints, and present the final answer in one complete sentence with the proper unit, rounding only at the end.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8658074298711145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum (including its unit), label the unknown with a distinct variable, first perform any needed unit conversions, then write a single concise formula that links all known quantities to that variable; solve the formula in a clearly numbered sequence, showing each intermediate value with a brief justification, verify that the result satisfies all stated conditions, and present the final answer in one complete sentence with the proper unit, rounding only at the final step.",
+      "train_score": 0.9386973180076629,
+      "train_step": 32,
+      "test_score": 0.865049279757392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every quantitative statement (with units), choose a single symbol for the unknown, write one direct formula that gives the unknown from the listed numbers, compute the formula in a numbered sequence showing each intermediate value with a brief justification, confirm the result satisfies any given conditions, and state the final answer in one complete sentence with the appropriate unit, rounding only at the final step.",
+      "train_score": 0.9348659003831418,
+      "train_step": 47,
+      "test_score": 0.865049279757392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number (with its unit), denote the unknown with a clear variable, construct a single explicit formula that links the known quantities to that variable, evaluate the formula step\u2011by\u2011step while recording every intermediate result, verify that the result satisfies all stated conditions, and state the final answer in one complete sentence with the proper unit (round only at the final step).",
+      "train_score": 0.9386973180076629,
+      "train_step": 33,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Scan the problem, note all quantities with their units, and label the unknown with a distinct variable. Convert any mismatched units into a common system. Write a single clear formula that directly relates the known values to the unknown. Compute the formula in a logical order, showing each intermediate result. Confirm that the result satisfies any constraints given, then state the answer in a complete sentence with the appropriate units (round only at the final step).",
+      "train_score": 0.9425287356321839,
+      "train_step": 22,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact (with units), denote the quantity to find with a symbol, build the simplest algebraic or arithmetic expression that ties all data together, evaluate it step\u2011by\u2011step showing each intermediate result, check that the result fulfills the problem\u2019s conditions, and deliver the answer in a complete sentence with the proper units (round only at the final step).",
+      "train_score": 0.9348659003831418,
+      "train_step": 15,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (including any units). Introduce a single clear symbol for the quantity to be found. Combine the extracted numbers into one explicit arithmetic or algebraic expression that directly yields that symbol (convert units first if needed). Evaluate the expression, checking that any problem conditions are met, and state the final answer in one complete sentence with the appropriate unit, rounding only at the final step.",
+      "train_score": 0.9501915708812261,
+      "train_step": 89,
+      "test_score": 0.8506444275966641,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given quantity (including its unit), assign a single clear symbol to the value to determine, write one direct calculation that combines the listed numbers (performing any needed unit conversions), evaluate the calculation in a numbered, logical order while stating each intermediate result and its reason, confirm that the result meets any stated conditions, and present the final answer in one complete sentence with the proper unit, rounding only at the final step.",
+      "train_score": 0.9386973180076629,
+      "train_step": 53,
+      "test_score": 0.849128127369219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric quantity given (including its unit). Assign a distinct symbol to the value to be found. Combine the data into one explicit arithmetic or algebraic formula that yields the unknown. Compute the formula in a clear, ordered list, writing each intermediate result with a brief reason and noting any unit conversions. Confirm that the result satisfies any stated limits, then output the final answer in one complete sentence with the correct unit, rounding only at the end.",
+      "train_score": 0.9425287356321839,
+      "train_step": 44,
+      "test_score": 0.846095526914329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (including units) from the problem. Name the target quantity with a distinct symbol. Write one compact formula that directly relates the extracted data to the unknown. Evaluate the formula in logical order, recording each intermediate value and its justification. Verify that the obtained value meets all stated conditions, and present the final result in a single complete sentence with the correct unit (round only at the final step).",
+      "train_score": 0.9348659003831418,
+      "train_step": 23,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity with its unit; unify units if needed. Assign a single symbol to the sought quantity. Derive one direct arithmetic or algebraic expression that yields the symbol using all listed numbers. Compute the expression in order, showing each intermediate value with a brief justification, then verify any constraints and present the result in one complete sentence with the appropriate unit, rounding only at the end.",
+      "train_score": 0.896551724137931,
+      "train_step": 99,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric datum, assign a unique variable to the unknown, write one compact expression that directly computes the unknown (after any needed unit conversion), evaluate it in order while briefly noting each intermediate value, ensure the result respects all given limits, and express the final answer in one complete sentence with the correct unit, rounding only at the end.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity (with unit), denote the target with a single variable, convert units to a common system, compose one direct expression that computes the variable, calculate it in logical order while recording each intermediate value with a short rationale, confirm it meets all stated constraints, and present the final result in one complete sentence with the correct unit, rounding only at the end.",
+      "train_score": 0.8773946360153256,
+      "train_step": 99,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8620689655172413,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity with its unit, define a single variable for the unknown, write one explicit expression that connects the data to the variable (perform any necessary unit conversions first), evaluate the expression in a numbered sequence showing each intermediate result with a brief justification, confirm the result satisfies all problem conditions, and present the final answer in one complete sentence with the correct unit, rounding only at the end.",
+      "train_score": 0.8505747126436781,
+      "train_step": 99,
+      "test_score": 0.8051554207733131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every given quantity with its unit, define one clear variable for the unknown, convert any differing units, construct a single direct formula that combines the listed data to solve for the variable, evaluate the formula in a numbered sequence showing each intermediate result with a short reason, confirm that the result meets any stated conditions, and state the final answer in one complete sentence with the correct unit (round only at the final step).",
+      "train_score": 0.8582375478927203,
+      "train_step": 99,
+      "test_score": 0.8013646702047005,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8961334344200151,
+    "avg_test_score": 0.8507166323693999,
+    "best_test_instruction": "Read the problem, list every given number and its meaning, introduce a variable for the quantity to find, create a straightforward equation or calculation using those numbers, solve it, and give the final answer with its proper unit, presenting each step in a clear, numbered order."
+  }
+}

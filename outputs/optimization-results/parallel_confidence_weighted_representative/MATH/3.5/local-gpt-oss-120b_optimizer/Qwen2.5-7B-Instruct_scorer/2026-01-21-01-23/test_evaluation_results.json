@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a concise, self\u2011contained solution: state the main idea, carry out just the essential calculations, check that the answer meets the problem\u2019s conditions, and finish with the exact numeric answer (integer or reduced fraction) on a line by itself.",
+      "train_score": 0.8176470588235294,
+      "train_step": 27,
+      "test_score": 0.7630509534229447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a short, stand\u2011alone solution that (i) pinpoints the main trick, (ii) executes just the required arithmetic or algebra, and (iii) places the final numeric result (integer or simplest fraction) on its own line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 31,
+      "test_score": 0.758674585808065,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution: pinpoint the central idea, carry out only the indispensable calculation(s), optionally check the result, and conclude with the exact numeric answer (integer or reduced fraction) on a line by itself.",
+      "train_score": 0.8352941176470589,
+      "train_step": 32,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution that (i) pinpoints the key idea, (ii) performs only the essential calculation with a short justification, (iii) optionally checks the result, and (iv) ends with the exact numeric answer (integer, reduced fraction or terminating decimal) alone on the final line prefixed by \u201cAnswer =\u201d.",
+      "train_score": 0.8352941176470589,
+      "train_step": 40,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution: name the core idea, perform only the indispensable calculations, optionally check the result, and end with the exact numeric answer (integer or reduced fraction) on a line by itself.",
+      "train_score": 0.8294117647058824,
+      "train_step": 30,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a self\u2011contained solution that (i) isolates the single principle needed, (ii) carries out only the indispensable algebra or arithmetic with a brief justification, (iii) optionally checks the result, and (iv) writes the exact answer (integer, reduced fraction or terminating decimal) on the very last line with nothing else on that line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 71,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a clear, step\u2011by\u2011step solution and state the final answer as a numeric value.",
+      "train_score": 0.8117647058823529,
+      "train_step": 0,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, stand\u2011alone solution that: (a) cites the single key theorem or formula, (b) executes only the unavoidable algebra or arithmetic with a brief justification, (c) optionally confirms the result satisfies the problem, and (d) prints the exact numeric answer (integer, reduced fraction, or terminating decimal) on the final line alone, preceded by \u201cAnswer:\u201d.",
+      "train_score": 0.8235294117647058,
+      "train_step": 58,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.788235294117647,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, stand\u2011alone solution that (a) identifies the single key idea, (b) performs only the necessary calculation with a short rationale, (c) optionally validates the result, and (d) places the exact numeric answer (integer, reduced fraction or terminating decimal) on the final line alone, preceded by \u201cAnswer is\u201d.",
+      "train_score": 0.8294117647058824,
+      "train_step": 61,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.8117647058823529,
+      "train_step": 0,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short, logical derivation: specify the core concept, show the essential computation, and end with the exact numeric answer alone on the last line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 8,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a compact solution: briefly explain the main idea, carry out the essential calculation(s), and end the response with the precise answer (integer or reduced fraction) on a line by itself.",
+      "train_score": 0.8352941176470589,
+      "train_step": 25,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compose a brief, self\u2011contained solution that (i) names the key insight, (ii) executes only the indispensable calculation(s) with a short justification, (iii) optionally confirms the result, and (iv) ends with the exact numeric answer (integer or simplest fraction) on a line by itself prefixed with \u201cResult:\u201d.",
+      "train_score": 0.8411764705882353,
+      "train_step": 36,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained answer that (i) states the single relevant concept, (ii) carries out just the indispensable computation with a brief justification, (iii) optionally checks the result, and (iv) places the exact final value (integer, reduced fraction or terminating decimal) alone on the last line prefixed by \u201cAnswer:\u201d. No extra text after that line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 55,
+      "test_score": 0.7236636448890278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution that (i) points out the single theorem or formula needed, (ii) carries out only the indispensable algebra or arithmetic with a short justification, (iii) optionally verifies the result, and (iv) writes the exact numeric answer (integer, reduced fraction or terminating decimal) on the very last line prefixed by \u201cSolution:\u201d with no other characters on that line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 87,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained response that (a) identifies the lone concept required, (b) performs only the necessary algebra or arithmetic with a short justification, (c) optionally validates the outcome, and (d) places the exact result (integer, reduced fraction or terminating decimal) on the very last line preceded only by \u201cFinal answer =\u201d. No other text may appear after that line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 68,
+      "test_score": 0.718974679587371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, logical solution: state the main idea, perform only the essential calculation, verify that the result satisfies the problem\u2019s conditions, and end with the exact numeric answer alone on the last line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 21,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained answer that (i) identifies the single concept or formula needed, (ii) carries out only the indispensable computation with a brief justification, (iii) optionally checks the result against the problem\u2019s conditions, and (iv) ends with a line that contains only the exact numeric answer (integer, reduced fraction or terminating decimal) and nothing else. No additional text may follow that line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 99,
+      "test_score": 0.6814629571741169,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a compact, standalone solution that:\n- identifies the lone concept or formula required,\n- carries out only the essential calculation(s) with a brief justification,\n- optionally verifies the result,\n- concludes with the exact numeric answer (integer, reduced fraction or terminating decimal) on its own line, enclosed in double brackets [[...]] and nothing else on that line.",
+      "train_score": 0.4,
+      "train_step": 99,
+      "test_score": 0.36480150046889653,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained solution that (i) identifies the sole theorem or formula required, (ii) performs only the indispensable arithmetic or algebra with a brief justification, (iii) optionally checks the result, and (iv) places the exact numeric answer (integer, reduced fraction or terminating decimal) alone on the final line prefixed by \u201c>>>\u201d. No other text may follow that line.",
+      "train_score": 0.4176470588235294,
+      "train_step": 99,
+      "test_score": 0.3572991559862457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7630509534229447,
+    "avg_test_score": 0.7011566114410753,
+    "best_test_instruction": "Give a concise, self\u2011contained solution: state the main idea, carry out just the essential calculations, check that the answer meets the problem\u2019s conditions, and finish with the exact numeric answer (integer or reduced fraction) on a line by itself."
+  }
+}

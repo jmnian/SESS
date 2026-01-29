@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Deliver a compact, fully worked solution\u2014list the data, apply the appropriate method step\u2011by\u2011step, and output solely the final numeric answer.",
+      "train_score": 0.75,
+      "train_step": 2,
+      "test_score": 0.530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve by: identify the target quantity, extract the minimal set of facts, apply the appropriate theorem or formula, compute only the necessary arithmetic (showing any intermediate numbers that cannot be omitted), confirm the answer meets every requirement, and finally print the single numeric result on a line by itself.",
+      "train_score": 0.75,
+      "train_step": 30,
+      "test_score": 0.5292278837136605,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a clear, step-by-step solution with all intermediate calculations and output only the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 0,
+      "test_score": 0.5223507346045639,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: identify the central principle, carry out the essential calculations (displaying only unavoidable intermediate values), verify the outcome, and conclude with just the final numeric answer on its own line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 6,
+      "test_score": 0.51734917161613,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by: (a) stating precisely what is asked; (b) writing the minimal set of given information; (c) forming the single necessary equation or theorem; (d) carrying out the calculation, displaying only those intermediate results that cannot be omitted; (e) checking that the result satisfies every condition; finally, output exactly one number\u2014the answer\u2014on a line by itself with no additional text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 49,
+      "test_score": 0.5110972178805877,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, providing clear reasoning and the final answer.",
+      "train_score": 0.7291666666666666,
+      "train_step": 0,
+      "test_score": 0.506408252578931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a focused answer in five parts: (a) clearly identify the required value; (b) extract the minimal facts from the problem; (c) write the one governing relation; (d) compute, displaying only those intermediate numbers that cannot be omitted; (e) after a quick check of conditions, end with a single line containing only the final number.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.5017192872772741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the crucial data, formulate the single necessary relationship, carry out just the required computation (displaying only indispensable intermediate results), verify it meets all conditions, and finish by writing the final numeric answer alone on its own line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 14,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.7291666666666666,
+      "train_step": 0,
+      "test_score": 0.49171616130040635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise solution:",
+      "train_score": 0.7291666666666666,
+      "train_step": 48,
+      "test_score": 0.49171616130040635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly state the essential formula, perform only the needed calculations (show any unavoidable intermediate numbers), confirm the result meets all problem constraints, and output the exact numeric answer alone on one line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 18,
+      "test_score": 0.49077836824007504,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6666666666666666,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question, include only the indispensable reasoning and any unavoidable intermediate numbers, and end your response with exactly one line containing the final numeric answer and nothing else.",
+      "train_score": 0.7916666666666666,
+      "train_step": 39,
+      "test_score": 0.4885901844326352,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by: (i) identifying precisely what is asked; (ii) extracting the minimal necessary facts; (iii) writing the single relevant equation; (iv) performing the calculation, displaying only indispensable intermediate values; (v) confirming the result meets every condition; finally, output exactly one numeric answer on a line by itself with no additional text.",
+      "train_score": 0.75,
+      "train_step": 51,
+      "test_score": 0.48390121913097844,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a succinct solution that: (i) declares the exact quantity sought, (ii) extracts the minimal set of facts needed, (iii) writes the sole governing relationship, (iv) executes the required arithmetic while displaying only indispensable intermediate values, (v) verifies that all problem conditions are satisfied, and (vi) ends with one line containing solely the final numeric answer.",
+      "train_score": 0.7291666666666666,
+      "train_step": 42,
+      "test_score": 0.4804626445764301,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a minimal solution: define the target quantity, cite only the necessary facts, formulate the lone required expression, evaluate it (displaying only unavoidable intermediates), verify any constraints, and conclude with a single line that contains just the numeric result.",
+      "train_score": 0.7291666666666666,
+      "train_step": 72,
+      "test_score": 0.47671147233510475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution: state the required value, note only the indispensable data, present the unique relevant formula, compute with only essential intermediate numbers, verify any conditions, and conclude with a single line that contains just the final numeric answer.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.47546108158799627,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem in these compact stages: (i) state the precise value to determine; (ii) list only the indispensable data; (iii) write the single governing formula; (iv) perform the arithmetic, showing merely the unavoidable intermediate numbers; (v) check that all conditions are met; finally, output exactly one line containing only the numeric answer.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.4557674273210378,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a minimal solution: explicitly state the unknown to find, note just the necessary facts, apply the one relevant formula, perform the calculation (showing only indispensable intermediate steps), confirm the answer satisfies the problem, and conclude with a single line containing only the numeric result.",
+      "train_score": 0.7291666666666666,
+      "train_step": 67,
+      "test_score": 0.45232885276648954,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse justification that (i) identifies the exact quantity sought, (ii) cites only the essential given facts, and (iii) applies the single necessary relation. Immediately after, on a line by itself and containing no other characters, write the exact numeric answer. No further text may follow the answer line.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.42294467020944043,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer in minimal form: first, clearly state the target value; second, list only the facts that are essential; third, write the single equation that links them; fourth, compute, showing only the indispensable intermediate numbers; fifth, verify the result meets every given condition; finally, output only the numeric answer on a line by itself, with no extra text.",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.3307283526101907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.530478274460769,
+    "avg_test_score": 0.48324625254915976,
+    "best_test_instruction": "Deliver a compact, fully worked solution\u2014list the data, apply the appropriate method step\u2011by\u2011step, and output solely the final numeric answer."
+  }
+}

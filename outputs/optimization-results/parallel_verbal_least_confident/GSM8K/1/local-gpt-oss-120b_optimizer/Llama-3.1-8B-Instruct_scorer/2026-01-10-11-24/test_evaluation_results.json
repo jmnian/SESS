@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem exactly as stated (including any percentages, ratios, conversions, or rounding), confirm the result, and output only the final integer on a single line with no extra characters, symbols, or whitespace.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the required calculation, compute it accurately, and output only the final numeric answer.",
+      "train_score": 0.8918918918918919,
+      "train_step": 1,
+      "test_score": 0.8400303260045489,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Calculate the correct integer answer and output it as the only token on a single line, with no surrounding whitespace or extra symbols.",
+      "train_score": 0.9054054054054054,
+      "train_step": 95,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem exactly, then print the resulting integer on its own line with nothing else surrounding it.",
+      "train_score": 0.8918918918918919,
+      "train_step": 68,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the required integer answer, double\u2011check it, and output only that numeral as the sole token on a single line\u2014no other characters, symbols, or whitespace.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Carry out all calculations exactly as described (including percentages, ratios, unit conversions, and any required rounding), verify the result, and output only the resulting whole number on its own line\u2014nothing else.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8271417740712661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the necessary values, perform the exact calculation (respecting any rounding rules), double\u2011check the result, and output only the final numeric answer on a line by itself\u2014no words, symbols, units, or extra formatting.",
+      "train_score": 0.8918918918918919,
+      "train_step": 15,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, identify every numeric value, execute the exact arithmetic demanded (including any percentage changes, ratios, unit conversions, and rounding instructions), verify the outcome, and output exactly the resulting integer on a single line\u2014no other characters, words, or formatting.",
+      "train_score": 0.8918918918918919,
+      "train_step": 54,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Calculate the required value precisely, double\u2011check your result, and print the final integer alone on one line\u2014nothing else before or after it.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the required value, double\u2011check your computation, and emit it as the only token on the output line (just the integer and a line break). No additional characters, words, or whitespace are allowed.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers, perform the precise calculation required (including percentages, ratios, unit conversions and any rounding), double\u2011check, then output only the final integer on a line by itself\u2014no extra characters, spaces, or formatting.",
+      "train_score": 0.9054054054054054,
+      "train_step": 37,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant quantities, execute the exact computation required (apply percentages, fractions, or rounding as stated), double\u2011check, and print solely the resulting integer on one line with no additional characters.",
+      "train_score": 0.9054054054054054,
+      "train_step": 40,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine every required calculation (including percentages, ratios, unit changes, rounding), perform it precisely, verify the outcome, and output ONLY the final integer on a single line\u2014no other characters, spaces,",
+      "train_score": 0.9054054054054054,
+      "train_step": 49,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the precise answer, verify it, and output the single integer result on its own line\u2014nothing else.",
+      "train_score": 0.8918918918918919,
+      "train_step": 90,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required value, calculate it precisely, and print only the resulting integer on its own line\u2014no words, symbols, or formatting.",
+      "train_score": 0.8918918918918919,
+      "train_step": 42,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the solution, then write just the numeric result\u2014nothing else\u2014on a new line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8097043214556482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and output only the final integer answer on a single line, with no additional text, symbols, spaces, or units.",
+      "train_score": 0.8918918918918919,
+      "train_step": 70,
+      "test_score": 0.8059135708870356,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the problem essentials, apply the appropriate mathematical or logical methods efficiently, and provide the final answer directly, without additional explanation or formatting.",
+      "train_score": 0.9054054054054054,
+      "train_step": 2,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, pull out all relevant quantities, compute the required value (applying any rounding rules), double\u2011check your work, and output only the final integer on its own line\u2014nothing else.",
+      "train_score": 0.9054054054054054,
+      "train_step": 17,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7567567567567568,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the exact integer result demanded by the problem, verify its correctness, and output that number alone on a single line with no additional text, symbols, or whitespace.",
+      "train_score": 0.4864864864864865,
+      "train_step": 99,
+      "test_score": 0.4184988627748294,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8468536770280516,
+    "avg_test_score": 0.7989819127044296,
+    "best_test_instruction": "Solve the problem exactly as stated (including any percentages, ratios, conversions, or rounding), confirm the result, and output only the final integer on a single line with no extra characters, symbols, or whitespace."
+  }
+}

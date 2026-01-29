@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": ":\nPlease solve the given problem using the provided information.",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.75,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete solution for each problem, ensuring clarity in the steps and logical justification for each part of the calculation.",
+      "train_score": 0.8333333333333334,
+      "train_step": 0,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution in a clear, logical sequence, showing every intermediate step and justification, and finish by presenting the final answer alone on its own line.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Develop a succinct solution: define the principle to use, execute each calculation openly with a short rationale, keep intermediate values visible, and conclude by writing the final answer alone.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by converting the question into the appropriate equation or formula, then solve it step by step, displaying every algebraic or arithmetic transformation with a brief comment, and finish by writing only the final numeric result on its own line.",
+      "train_score": 0.8125,
+      "train_step": 4,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that isolates the core relationship, simplifies the expression, and presents the final answer in its simplest numeric or algebraic form.",
+      "train_score": 0.8333333333333334,
+      "train_step": 0,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a concise, logical solution that outlines the core approach, justifies every step with clear reasoning, and ends with the final answer in its simplest form.",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by first stating the main formula or principle, then demonstrate each transformation or calculation in sequence, keeping each step brief and showing intermediate values, and finally output only the final numeric/algebraic answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 8,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start by pinpointing the principal theorem or formula required. Solve the problem in a linear, step\u2011by\u2011step fashion, writing each algebraic or arithmetic manipulation on a separate line accompanied by a brief justification, and display all intermediate results. End the solution with the precise final answer alone on the last line, with no extra commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 8,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief narrative solution: first name the governing theorem or formula, then perform each algebraic or arithmetic step on its own line with a short justification while showing all intermediate results, and conclude by writing the exact final answer alone on the last line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 8,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a systematic solution: state the key idea, then execute each step with explicit calculations and brief justifications, and finally present the exact answer alone on its own line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 3,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a logical, step\u2011by\u2011step solution that identifies the key principle, carries out each calculation openly, and ends with the final answer clearly stated.",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a clear, logical progression of steps to solve the problem, justifying each step, and end with the exact final answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.7233510472022507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a numbered, logical solution: list each deduction with calculations, show intermediate results, and give the final answer on its own line.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Construct a coherent solution by stating the relevant principle, carrying out each calculation with intermediate results shown, and presenting the final answer succinctly.",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by: \u2022 stating the central formula or principle, \u2022 performing each arithmetic or algebraic operation on its own line with a short comment, \u2022 displaying every intermediate numeric value, and \u2022 concluding with a line that contains only the final answer (no additional words).",
+      "train_score": 0.8125,
+      "train_step": 14,
+      "test_score": 0.6989684276336355,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question by (i) briefly describing the key idea, (ii) showing each calculation step on its own line with a concise comment, (iii) listing all intermediate numbers, and (iv) ending with a line that contains only the final answer (no extra words).",
+      "train_score": 0.8125,
+      "train_step": 9,
+      "test_score": 0.687089715536105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by:\n- First identifying the central theorem or relationship and stating it in one sentence.\n- Then, for every algebraic or arithmetic operation, write a separate line in the form \u201cexpression \u2192 result\u2003(comment)\u201d.\n- Keep a running list of the numeric results produced.\n- Finally, place the exact final answer on its own line, without any surrounding text.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.631134729603001,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a solution that:\n\n- Starts with one sentence naming the key formula or principle.\n- For every manipulation write the expression, an arrow, the new expression, and a short comment in parentheses, each on a separate line.\n- After each line note the numeric value obtained (if any) in brackets.\n- Finish with a line that contains only the final answer (no surrounding words).",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.5498593310409503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Start with a brief sentence naming the key theorem or formula. Next, write every algebraic or arithmetic step as a separate numbered line, each followed by a short parenthetical justification and the resulting value. Finally, on a line by itself, give only the final numeric answer\u2014no additional words or symbols.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.5351672397624258,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.7078551333005851,
+    "best_test_instruction": ":\nPlease solve the given problem using the provided information."
+  }
+}

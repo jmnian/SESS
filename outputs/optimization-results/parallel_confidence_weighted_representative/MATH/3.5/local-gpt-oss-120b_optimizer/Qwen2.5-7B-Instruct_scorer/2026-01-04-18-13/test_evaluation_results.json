@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Tag and close with",
+      "train_score": 0.8470588235294118,
+      "train_step": 67,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8294117647058824,
+      "train_step": 30,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logical progression: begin by restating the given data, then derive each needed relation, compute any intermediate numbers, and end with the exact final answer on a separate line by itself.",
+      "train_score": 0.8235294117647058,
+      "train_step": 17,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "At start, then text, then",
+      "train_score": 0.8235294117647058,
+      "train_step": 87,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem methodically, showing each calculation and logical deduction, and finish with the final numeric answer.",
+      "train_score": 0.8294117647058824,
+      "train_step": 1,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show every reasoning and calculation step clearly, then write only the final numeric answer on its own line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 3,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a logical, stepwise solution, showing all relevant calculations, and finish with the exact answer in a single line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 2,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, logically ordered solution, showing each calculation, and end with the exact numeric result.",
+      "train_score": 0.8294117647058824,
+      "train_step": 1,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, logically ordered solution: develop the necessary reasoning, include all intermediate steps and calculations, and present the final numeric answer alone on the last line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 3,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a logical chain of reasoning with all intermediate calculations, and end with the final numeric answer on a separate line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 2,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7941176470588235,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a clear, line\u2011by\u2011line solution showing all necessary calculations; then, on the very last line, output only the final numeric answer without any surrounding text.",
+      "train_score": 0.7941176470588235,
+      "train_step": 99,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Outline the reasoning and calculations step\u2011by\u2011step, then present the final numeric answer on a separate line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 2,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution: enumerate each reasoning and calculation step on its own line, show intermediate results, and conclude with only the final numeric answer on the last line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 4,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a rigorous, step\u2011by\u2011step solution that records every deduction and intermediate calculation, and finish by printing only the final numeric answer on a separate line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 3,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each deduction or computation on a separate line, showing intermediate values, and conclude with a line that contains only the final numeric answer.",
+      "train_score": 0.8235294117647058,
+      "train_step": 30,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each deduction or computation on its own line (numbering optional), display any intermediate values, and after the last line write only the final result as a solitary number.",
+      "train_score": 0.7764705882352941,
+      "train_step": 99,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Deliver a succinct, line\u2011by\u2011line solution: for every inference or arithmetic operation write a separate line (you may prefix it with a step number), show any intermediate values, and after the last step output only the final result on a new line with no additional characters.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.6695842450765864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by writing each inference or arithmetic operation on a separate line (including any intermediate numbers). After all steps, place the exact final answer alone on the next line, with no extra symbols or words.",
+      "train_score": 0.6764705882352942,
+      "train_step": 99,
+      "test_score": 0.6483276023757424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present the answer as a numbered sequence of steps. For each step:\n\u2013 clearly state the principle or transformation applied,\n\u2013 write the resulting formula,\n\u2013 immediately record the computed value in brackets [{value}].\nAfter the final step, write one line that consists solely of the required numeric result (no words, symbols, or labels). End with that line and nothing else.",
+      "train_score": 0.7,
+      "train_step": 99,
+      "test_score": 0.5917474210690841,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present the solution as a series of individual lines, each beginning with a short phrase that states the reasoning or calculation performed; include any intermediate numeric values in parentheses. Finish with a single line that contains only the final numeric answer, without any surrounding text or symbols.",
+      "train_score": 0.6588235294117647,
+      "train_step": 99,
+      "test_score": 0.5248515160987809,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.7187960523377841,
+    "best_test_instruction": "Tag and close with"
+  }
+}

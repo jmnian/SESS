@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "And ending with",
+      "train_score": 0.47368421052631576,
+      "train_step": 52,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the exact question being asked.  \n2. Pull out only the information that can affect the answer.  \n3. Decide which single principle (formula, rule, or logical inference) links that information to the required result and apply it, noting the decisive value or statement.  \n4. Compare this decisive outcome with each choice (A\u2011D) and discard any that contradict it.  \n5. If one choice remains, output its letter followed by one concise sentence that cites the decisive outcome as the reason.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the correct answer choice by (1) restating the query, (2) isolating the decisive information, (3) applying the unique rule that links this information to the outcome, (4) checking each option against the derived result, and (5) outputting the surviving letter together with a one\u2011sentence justification citing the decisive step.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the key facts, pinpoint the governing principle, carry out the required computation or logical deduction, then compare the result against each option and keep only the choice that matches; output that option letter (A\u2011D) together with a one\u2011sentence justification referencing the decisive fact used.",
+      "train_score": 0.47368421052631576,
+      "train_step": 6,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Determine what the problem asks for.  \n- Gather only the information that can influence that request.  \n- Locate the one rule or computation that turns those data into a definitive result (the \u201ckey\u201d).  \n- Compute the key.  \n- Compare the key with each answer choice, eliminating mismatches.  \n- Return the sole remaining letter and a short comment that names the key as the reason.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Clarify what the problem asks for.  \n- Extract only the essential premises.  \n- Choose the unique logical or mathematical inference that turns those premises into a definitive result; calculate it.  \n- Treat that result as a test: keep any answer choice that satisfies it and reject the rest.  \n- Return the surviving option letter with a concise explanation that names the test result.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Restate the exact question in one sentence.  \n2. List only the facts that can affect the answer.  \n3. Choose the unique law, formula, or logical inference that turns those facts into a definitive result (the \u201cpivot\u201d).  \n4. Compute or deduce this pivot and record it.  \n5. Eliminate every answer choice that contradicts the pivot; if more than one survives, revisit step\u202f3 for a secondary constraint.  \n6. Return the surviving letter together with a one\u2011line explanation that cites the pivot.",
+      "train_score": 0.5789473684210527,
+      "train_step": 80,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- State in one line what the problem is asking for.  \n- List only the indispensable data supplied.  \n- Select the sole principle (equation, law, logical step) that translates those data into the needed result.  \n- Compute that result and keep it as the \u201cpivot\u201d.  \n- Compare the pivot with every answer choice; keep the choice that reproduces it and reject the rest.  \n- Output the surviving letter and a concise justification that cites the pivot and notes why the other options are incompatible.",
+      "train_score": 0.47368421052631576,
+      "train_step": 49,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Translate the problem into a single target (value, state, or expression).  \n- Extract the minimal facts needed to compute that target.  \n- Identify the unique theorem/equation or logical inference that yields the target.  \n- Perform the computation or deduction, recording the key result.  \n- Systematically test each option against that result, keeping only the one that matches.  \n- Reply with the option letter and a concise comment that references the key result.",
+      "train_score": 0.47368421052631576,
+      "train_step": 23,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the exact question in one sentence.  \n2. List only the facts or numbers that affect the answer.  \n3. Choose the single theorem, formula or logical rule that connects those facts to the required result.  \n4. Apply it, writing down the decisive intermediate value (numeric or symbolic).  \n5. Test every answer choice against that value; discard any that disagree.  \n6. If one choice remains, output its letter (A\u2011D) followed by a one\u2011line justification that cites the decisive value.",
+      "train_score": 0.47368421052631576,
+      "train_step": 34,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.30303030303030304,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the exact question being asked.  \n- Extract the minimal set of given data that affect the answer.  \n- Choose the single principle (law, formula, or logical deduction) that links those data to the required result.  \n- Execute the calculation or reasoning, recording the key intermediate value.  \n- Test each answer choice against that key value, eliminating those that fail.  \n- Output the surviving choice (A\u2011D) followed by a one\u2011line justification referencing the critical step or value.",
+      "train_score": 0.47368421052631576,
+      "train_step": 12,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the exact quantity or statement the problem seeks.  \n2. Pull out only the data that can affect that quantity.  \n3. Find the single theorem, formula, or logical deduction that converts those data into the required result; compute the resulting \u201ccritical quantity\u201d.  \n4. Test each option (A\u2011D) against this critical quantity and eliminate any that fail to reproduce it.  \n5. Output the surviving letter with a brief justification that names the critical quantity.",
+      "train_score": 0.5263157894736842,
+      "train_step": 86,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the precise question being asked.  \n2. Extract only the facts that can influence the answer.  \n3. Choose the single governing principle or formula, perform the calculation (show the critical intermediate result).  \n4. Compare that result with each answer choice and eliminate all mismatches.  \n5. Output the remaining letter (A\u2011D) and a one\u2011sentence justification that references the decisive result and notes why the other options do not satisfy it.",
+      "train_score": 0.47368421052631576,
+      "train_step": 14,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- State the exact quantity or statement being sought.  \n- Extract the minimal subset of givens that influence that quantity.  \n- Identify the unique theorem/equation/logic that transforms those givens into a decisive value; compute it.  \n- For each option, check whether it matches the decisive value; keep the matching one.  \n- Output the option letter with a one\u2011line justification that cites the decisive value.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State what the problem asks, isolate the critical information, apply the single appropriate principle to obtain a decisive result, match that result against the four options, and answer with the matching letter (A\u2011D) plus a short justification referencing the result.",
+      "train_score": 0.47368421052631576,
+      "train_step": 56,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the question\u2019s target (value, name, or choice). Extract only the facts that affect it. Determine the single rule or relationship that connects those facts to the target. Compute the decisive result, then scan the four options and keep the one that satisfies it. Output the option letter and a brief justification referencing that decisive result.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Pinpoint the precise answer required (numeric, identity, mechanism).  \n- Extract the minimal set of premises that influence that answer.  \n- Find the unique theorem, law, or logical equivalence that transforms those premises into a decisive condition; evaluate it.  \n- Treat this condition as a filter: keep only answer choices that satisfy it.  \n- Return the sole surviving letter with a short justification naming the condition.",
+      "train_score": 0.5263157894736842,
+      "train_step": 85,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Clarify exactly what the problem asks.  \n- Pull out only the facts that can influence the answer.  \n- Choose the one key concept (formula, rule, or inference) that links those facts to the result.  \n- Use it to obtain a single decisive quantity or statement.  \n- Scan the four answer choices; discard any that conflict with that decisive result.  \n- Write the remaining option letter followed by one short sentence that points to the decisive quantity or logic.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify the precise demand of the problem.  \n- Extract only the data that can influence that demand.  \n- Determine the singular analytical tool (equation, mechanism, inference) needed.  \n- Apply it and write down the key numerical or logical outcome.  \n- Test each of the four options against this outcome; keep the one that satisfies it.  \n- Return the option letter and a brief comment referencing the key outcome.",
+      "train_score": 0.47368421052631576,
+      "train_step": 29,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Restate the specific question being asked.  \n2. List only the data that can influence the answer.  \n3. Identify the single principle, formula, or logical rule that connects those data to the quantity or statement sought.  \n4. Apply it, noting the decisive intermediate result.  \n5. Compare that result with each option; discard any that conflict.  \n6. Output the remaining option letter (A\u2011D) and a single sentence that cites the decisive step or value as the reason for its correctness.",
+      "train_score": 0.47368421052631576,
+      "train_step": 14,
+      "test_score": 0.20202020202020202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3383838383838384,
+    "avg_test_score": 0.2948532948532949,
+    "best_test_instruction": "And ending with"
+  }
+}

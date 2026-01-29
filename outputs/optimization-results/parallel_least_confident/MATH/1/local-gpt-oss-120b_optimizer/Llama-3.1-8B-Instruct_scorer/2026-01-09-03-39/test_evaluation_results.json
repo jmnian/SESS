@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present the solution as a short list of logical steps: identify the central principle, perform each required computation while briefly verifying the result, and finish with the exact final numeric answer only.",
+      "train_score": 0.3958333333333333,
+      "train_step": 2,
+      "test_score": 0.5395436073773054,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, concise, step-by-step solution with all necessary reasoning and calculations, then state the final answer.",
+      "train_score": 0.3125,
+      "train_step": 0,
+      "test_score": 0.5270396999062207,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step solution that outlines the reasoning, performs the necessary calculations, and states the final answer clearly.",
+      "train_score": 0.3541666666666667,
+      "train_step": 0,
+      "test_score": 0.5248515160987809,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact solution: (i) pinpoint the decisive theorem or principle, (ii) carry out each required computation while briefly verifying it meets the problem\u2019s conditions, and (iii) state only the final numeric answer.",
+      "train_score": 0.3541666666666667,
+      "train_step": 2,
+      "test_score": 0.5042200687714911,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a compact solution: (i) state the central idea in one short clause, (ii) perform each necessary calculation in order, adding a brief check of every intermediate result, and (iii) conclude with only the final numeric answer.",
+      "train_score": 0.375,
+      "train_step": 3,
+      "test_score": 0.5020318849640513,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by outlining the strategy, carrying out each calculation with a short justification, verifying intermediate results, and ending with the final numeric answer.",
+      "train_score": 0.3125,
+      "train_step": 1,
+      "test_score": 0.49140356361362925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one line.\n- Identify the main combinatorial/algebraic principle needed.\n- Solve using a numbered sequence: each line shows the expression, its evaluated value, and a brief validation in brackets.\n- After the last step output only \u201cAnswer: <value>\u201d.",
+      "train_score": 0.3125,
+      "train_step": 52,
+      "test_score": 0.48952797749296656,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3333333333333333,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the main principle needed, outline the essential steps to apply it, compute any intermediate values, double\u2011check the result, and present the final answer succinctly.",
+      "train_score": 0.3333333333333333,
+      "train_step": 1,
+      "test_score": 0.47827446076899033,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the goal in one brief sentence.  \n- List the essential theorem(s) or formula(e) needed, prefixed by Tools:.  \n- Complete a three\u2011column table Step\u202f|\u202fWork\u202f|\u202fResult; each row shows the operation, the calculation performed, and a short validation in brackets.  \n- End with a single line containing only Answer = <final numeric value>.",
+      "train_score": 0.3333333333333333,
+      "train_step": 81,
+      "test_score": 0.47139731165989374,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Structure your response as follows: \u2013 One\u2011sentence restatement of the question. \u2013 Identify the single mathematical principle that solves it. \u2013 Execute the required calculations in a numbered list, appending a brief \u201ccheck\u201d in parentheses after each line. \u2013 End with a line containing only the final numeric result.",
+      "train_score": 0.3333333333333333,
+      "train_step": 6,
+      "test_score": 0.4692091278524539,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one sentence.\n- Name the single mathematical tool that resolves it, prefixed by Tool:.\n- Perform each needed computation on its own line as `expr \u2192 value   # check`.\n- After the last computation write only `Answer = value`.",
+      "train_score": 0.20833333333333334,
+      "train_step": 99,
+      "test_score": 0.4626445764301344,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Above\". So cannot simply replicate format with restating etc. Must be novel.",
+      "train_score": 0.3125,
+      "train_step": 9,
+      "test_score": 0.45920600187558613,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- State the question\u2019s goal in one brief sentence.  \n- Solve it by a numbered list; each entry must contain the performed operation, the obtained value, and a short justification in parentheses.  \n- End with a line that contains only \u201c=\u202f<final numeric answer>\u201d.",
+      "train_score": 0.3125,
+      "train_step": 38,
+      "test_score": 0.4563926226945921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the target in a single line.  \nIdentify the decisive principle, labeled \u201cCore:\u201d.  \nProceed with a numbered checklist; each item contains the exact algebraic expression, its evaluation, and an inline validation comment enclosed in parentheses.  \nTerminate with a line that contains only the final result prefixed by \u201cResult =\u201d.",
+      "train_score": 0.3333333333333333,
+      "train_step": 91,
+      "test_score": 0.4501406689590497,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- One\u2011sentence restatement of the task.  \n- State the single mathematical insight or theorem that solves it, prefixed by \u201cInsight:\u201d.  \n- Perform every required computation on its own line in the form \u201c<expression> = <value> ; <brief check>\u201d.  \n- After the last computation write only the final answer in the format \u201cResult = <value>\u201d.",
+      "train_score": 0.3333333333333333,
+      "train_step": 65,
+      "test_score": 0.44576430134417006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in a single sentence.  \nIdentify the unique mathematical fact that determines the answer (label it \u201cFact:\u201d).  \nCompute every intermediate quantity on its own line as \u201c\u2192 <expression> = <value>\u201d.  \nEnd with a line that contains only the final integer or fraction, no extra words.",
+      "train_score": 0.16666666666666666,
+      "train_step": 99,
+      "test_score": 0.4182557049077837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate what is being asked in one clause.  \n- Cite the single formula or theorem that solves it, labelled \u201cKey:\u201d.  \n- Perform each needed computation on its own line as \u201ccalc: <expression> = <value>\u201d.  \n- Finally output only the integer or fraction result on a line by itself.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.4182557049077837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Summarize the question in a single sentence.  \n- Enumerate the mathematical facts or formulas you will need, each preceded by \u201cTool\u202f#k:\u201d.  \n- For each computation write a line: \u201ck) <expression> \u21d2 <value>   // <brief validation>\u201d.  \n- After the last computation output a line that contains only \u201cResult\u202f=\u202f<value>\u201d.",
+      "train_score": 0.125,
+      "train_step": 99,
+      "test_score": 0.36448890278211943,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Summarize the question in a single sentence.  \n- Identify the lone principle or theorem that unlocks the problem, prefaced by Key tool:.  \n- Present a numbered computation log; each line should read  \n  `k) <expression> \u2192 <value>   // <short check>`.  \n- End with one line that contains only `Answer = <value>`.",
+      "train_score": 0.16666666666666666,
+      "train_step": 99,
+      "test_score": 0.3354173179118475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Briefly rephrase the question in one sentence.  \n- Name the one mathematical tool or theorem that resolves it, prefixed by \u201cTool:\u201d.  \n- List every needed computation on its own line as \u201c\u2192\u202f<expression>\u202f=\u202f<value>\u2003//\u202f<short verification>\u201d.  \n- End with a single line containing only \u201cAnswer:\u202f<final numeric value>\u201d.",
+      "train_score": 0.08333333333333333,
+      "train_step": 99,
+      "test_score": 0.26695842450765866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5395436073773054,
+    "avg_test_score": 0.4554250584259962,
+    "best_test_instruction": "Present the solution as a short list of logical steps: identify the central principle, perform each required computation while briefly verifying the result, and finish with the exact final numeric answer only."
+  }
+}

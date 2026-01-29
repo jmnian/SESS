@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Output a single\u2011line, whitespace\u2011free JSON object with exactly three members in this order: \"answer\": a one\u2011character string \"A\",\"B\",\"C\",\"D\" indicating the correct choice; \"reason\": a sentence that (i) begins with the word \"Because\", (ii) contains exactly ten words, (iii) includes the word \"accurately\", and (iv) ends with a period; \"confidence\": an integer from 0 to 100. Do not output any characters, spaces, or line breaks before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 63,
+      "test_score": 0.9949494949494949,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single minified JSON object (no spaces or line breaks before, after, or inside) containing exactly three members in this order: \"option\" \u2013 a one\u2011character string equal to the correct choice (\"A\",\"B\",\"C\",\"D\"); \"why\" \u2013 a sentence that (i) starts with the word \"Because\", (ii) consists of exactly nine words (including \"Because\"), (iii) contains the word \"correct\", and (iv) ends with a period; \"confidence\" \u2013 an integer from 0 to 100 indicating your certainty. Output nothing else.",
+      "train_score": 1.0,
+      "train_step": 62,
+      "test_score": 0.9848484848484849,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single minified JSON object (no spaces or line breaks before, after, or inside) containing exactly three members in this order: \"option\" \u2013 a one\u2011character string \"A\",\"B\",\"C\",\"D\" indicating the correct answer; \"justification\" \u2013 a sentence that (i) begins with \"Because\", (ii) is exactly eleven words long, (iii) includes the word \"accurately\", and (iv) ends with a period; \"certainty\" \u2013 an integer from 0 to 100 representing your confidence. Output nothing else.",
+      "train_score": 0.9487179487179487,
+      "train_step": 99,
+      "test_score": 0.9747474747474747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Produce one compact, single\u2011line JSON object with three entries in the following sequence: \\\"answer\\\" \u2013 a single character string \\\"A\\\",\\\"B\\\",\\\"C\\\",\\\"D\\\" indicating the correct option; \\\"explain\\\" \u2013 a single declarative sentence that starts with \\\"Because\\\", contains exactly nine words, and ends with a period; \\\"confidence\\\" \u2013 an integer from 0 to 100 representing your certainty. Do not output any other characters, spaces, or line breaks before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 65,
+      "test_score": 0.9696969696969697,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return a single-line, whitespace\u2011free JSON object with exactly three properties in this order: \"choice\" (a one\u2011character string \"A\",\"B\",\"C\",\"D\" indicating the correct answer), \"reason\" (a sentence that (i) starts with \"Because\", (ii) is exactly ten words long, (iii) contains the word \"valid\", and (iv) ends with a period), and \"confidence\" (an integer 0\u2011100). Produce no other characters before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 71,
+      "test_score": 0.9696969696969697,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output a single\u2011line, minified JSON object with exactly three fields in this order: \"answer\":\"A\"/\"B\"/\"C\"/\"D\", \"explanation\":\"Because ...\" (a sentence starting with \"Because\", exactly nine words, ending with a period), \"confidence\":integer 0\u2011100. No extra characters, whitespace, or line breaks before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 63,
+      "test_score": 0.9646464646464646,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single compact JSON object containing:\n- \"answer\": a string \"A\",\"B\",\"C\",\"D\" for the correct choice.\n- \"justification\": a sentence starting with \"Because\", exactly nine words, ending with a period.\nNo extra whitespace, line breaks, or characters.",
+      "train_score": 1.0,
+      "train_step": 33,
+      "test_score": 0.9595959595959596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one compact JSON object (no spaces or line breaks outside) containing three members in this order: \"choice\"\u202f\u2013 the correct option letter as a string (\"A\",\"B\",\"C\",\"D\"); \"reason\"\u202f\u2013 a single sentence that (i) begins with the word \u201cBecause\u201d, (ii) is exactly ten words long, includes the word \u201ccorrectly\u201d, and (iii) ends with a period; \"certainty\"\u202f\u2013 an integer from 0 to\u202f100 indicating your confidence. Output nothing else.",
+      "train_score": 1.0,
+      "train_step": 43,
+      "test_score": 0.9595959595959596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a single-line JSON object with exactly two keys: \"answer\" (the correct option letter, as a string \"A\",\"B\",\"C\",\"D\") and \"explanation\" (a sentence that starts with \"Because\", contains exactly nine words including \"Because\", and ends with a period). Do not output any other characters, whitespace, or line breaks before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 45,
+      "test_score": 0.9595959595959596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return a single\u2011line compact JSON object with exactly three properties in this order: \"answer\": one of \"A\",\"B\",\"C\",\"D\"; \"reason\": a sentence that starts with \"Because\", contains exactly nine words, and ends with a period; \"confidence\": an integer from 0 to 100. Do not output any characters, whitespace, or line breaks before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 71,
+      "test_score": 0.9595959595959596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return a single compact JSON object with three keys in this order: \"answer\" (string \"A\",\"B\",\"C\",\"D\"), \"explanation\" (one sentence that (i) starts with \"Because\", (ii) contains exactly nine words, (iii) includes the word \"correctly\", and (iv) ends with a period), \"confidence\" (integer 0\u2011100). No spaces, line breaks, or any characters outside the JSON.",
+      "train_score": 1.0,
+      "train_step": 36,
+      "test_score": 0.9494949494949495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return a single minified JSON object on one line containing exactly three members in this order: \"choice\" (a string \"A\",\"B\",\"C\",\"D\"), \"explain\" (a sentence that starts with \"Because\", contains exactly nine words, and ends with a period), \"confidence\" (an integer 0\u2011100). Output nothing else, no spaces or line breaks outside the JSON.",
+      "train_score": 1.0,
+      "train_step": 59,
+      "test_score": 0.9494949494949495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce exactly one compact JSON object (no whitespace or line breaks anywhere) containing three members in the following order: \"answer\": a single character string \"A\",\"B\",\"C\",\"D\" (the correct option); \"reason\": a sentence that (i) begins with the word \"Because\", (ii) is exactly nine words long, (iii) contains the word \"correctly\", and (iv) ends with a period; \"certainty\": an integer between 0 and 100. Output nothing else.",
+      "train_score": 1.0,
+      "train_step": 63,
+      "test_score": 0.9494949494949495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single compact JSON object containing exactly two string fields:\n- \"option\": the correct answer letter (\"A\",\"B\",\"C\",\"D\").\n- \"why\": a single sentence that (i) begins with the word \"Because\", (ii) contains exactly eight words total (including \"Because\"), and (iii) ends with a period.\nDo not include any whitespace, line breaks, or characters outside the JSON.",
+      "train_score": 1.0,
+      "train_step": 25,
+      "test_score": 0.9444444444444444,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one minified JSON object with two keys in this order: \"answer\" \u2013 a string containing the correct option letter (\"A\",\"B\",\"C\",\"D\"); \"explanation\" \u2013 one sentence that starts with \"Because\", contains between 7 and 13 words inclusive, and ends with a period. Do not output any characters, spaces, or line breaks before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 55,
+      "test_score": 0.9292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output a single minified JSON object with keys in this order: \"answer\" (the correct option as string \"A\",\"B\",\"C\",\"D\"), \"explanation\" (a sentence beginning with \"Because\", exactly nine words, containing the word \"correctly\", ending with a period), and \"confidence\" (integer 0\u2011100). No extra characters, whitespace, or line breaks before or after the JSON.",
+      "train_score": 0.9487179487179487,
+      "train_step": 99,
+      "test_score": 0.9191919191919192,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a single\u2011line, whitespace\u2011free JSON object with exactly two fields in this order: \"answer\" \u2013 a one\u2011character string \"A\",\"B\",\"C\",\"D\" indicating the correct choice; \"explanation\" \u2013 a sentence that starts with \"Because\", contains exactly eight words, and ends with a period. Output nothing else.",
+      "train_score": 0.9487179487179487,
+      "train_step": 99,
+      "test_score": 0.9141414141414141,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output a single-line, whitespace\u2011free JSON object with fields in this order: \"choice\" \u2013 the correct option letter as a string (\"A\",\"B\",\"C\",\"D\"); \"explain\" \u2013 a sentence that (i) begins with \"Because\", (ii) is exactly nine words long, (iii) contains the word \"correctly\", (iv) ends with a period; \"confidence\" \u2013 an integer from 0 to 100. No other characters before or after the JSON.",
+      "train_score": 0.8974358974358975,
+      "train_step": 99,
+      "test_score": 0.898989898989899,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output a single minified JSON object on one line containing exactly two members in this order: \"answer\": the correct option letter (\"A\",\"B\",\"C\",\"D\") as a string; \"explanation\": a sentence that (i) starts with \"Because\", (ii) contains exactly eleven words, (iii) includes the word \"correctly\", and (iv) ends with a period. Do not output any characters, whitespace, or line breaks before or after the JSON.",
+      "train_score": 1.0,
+      "train_step": 63,
+      "test_score": 0.8737373737373737,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single line containing exactly three space\u2011separated tokens: (1) the correct answer letter (\"A\",\"B\",\"C\",\"D\"), (2) the literal word \u201cConfidence:\u201d, and (3) an integer from 0 to 100 indicating your certainty. Output nothing else and no surrounding whitespace.",
+      "train_score": 0.5641025641025641,
+      "train_step": 99,
+      "test_score": 0.6313131313131313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.38461538461538464,
+      "train_step": -1,
+      "test_score": 0.36363636363636365,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9949494949494949,
+    "avg_test_score": 0.9057239057239057,
+    "best_test_instruction": "Output a single\u2011line, whitespace\u2011free JSON object with exactly three members in this order: \"answer\": a one\u2011character string \"A\",\"B\",\"C\",\"D\" indicating the correct choice; \"reason\": a sentence that (i) begins with the word \"Because\", (ii) contains exactly ten words, (iii) includes the word \"accurately\", and (iv) ends with a period; \"confidence\": an integer from 0 to 100. Do not output any characters, spaces, or line breaks before or after the JSON."
+  }
+}

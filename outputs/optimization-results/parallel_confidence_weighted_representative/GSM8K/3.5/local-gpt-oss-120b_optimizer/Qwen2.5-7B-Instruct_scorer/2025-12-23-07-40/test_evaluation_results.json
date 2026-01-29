@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Restate the problem in one sentence. List every given quantity (include units) as a numbered list, assigning a unique variable to each unknown. Write the governing relation(s). Compute the solution step\u2011by\u2011step, placing each arithmetic or algebraic operation on its own line inside $$\u2026$$. After the last computation optionally verify the result, then output only the line\n\nAnswer: <number>\n\nwith no additional text, symbols, or blank lines before or after it.",
+      "train_score": 0.8352490421455939,
+      "train_step": 99,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the problem. Then create a two\u2011column table: left column \u201cGiven\u201d (value with unit), right column \u201cSymbol\u201d. List each unknown with its own symbol. Write the relevant formula(s) and solve, placing every algebraic or arithmetic step on its own line inside $$\u2026$$. After the solution, optionally check the result, and finish with a single line exactly:\n\nAnswer: <numeric result>\n\nwith no other text before or after that line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 22,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence restatement of the question. List every known quantity (include units) as bullet points and assign a distinct symbol to each unknown. Write the governing equation(s). Compute each intermediate result on its own line, enclosed in $$\u2026$$. After the final computation optionally verify the answer, then output exactly one line:\n\nAnswer: <number>\n\nand nothing else before or after that line.",
+      "train_score": 0.9195402298850575,
+      "train_step": 85,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief problem summary. Then create a two\u2011column table: \u201cGiven\u201d and \u201cSymbol\u201d for all data. Derive the required formula(s). Show each calculation on a separate line within $$\u2026$$. Conclude with a single line:\n\nAnswer: <number>\n\nNo additional output.",
+      "train_score": 0.9195402298850575,
+      "train_step": 66,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline the task in a brief sentence. Itemize every datum given (including units) and assign a symbol to each unknown quantity. Derive the relevant relationship(s) and compute step\u2011by\u2011step, writing every arithmetic or algebraic expression inside $$\u2026$$. After the computation optionally confirm the answer satisfies the constraints. End the response with a single line formatted exactly as\\n\\nAnswer: <numeric result>\\n\\nand nothing else after that line.",
+      "train_score": 0.9157088122605364,
+      "train_step": 6,
+      "test_score": 0.868081880212282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence restatement. Tabulate every known quantity (value and unit) and assign a fresh variable to each unknown. Write the exact formula(s). Compute each intermediate result on its own line inside $$\u2026$$. After the last computation, optionally confirm that the result satisfies the original conditions, then output exactly\n\nAnswer: <number>\n\nwith no extra characters or blank lines.",
+      "train_score": 0.9272030651340997,
+      "train_step": 44,
+      "test_score": 0.8574677786201668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nBriefly restate the problem. Then create a two\u2011column table titled \u201cGiven\u201d and \u201cSymbol\u201d listing every known quantity (including units). Introduce a distinct variable for each unknown. Derive the required equation(s). Solve the problem, writing each arithmetic or algebraic operation on its own line prefixed by \u201cStep\u202fk:\u201d and enclosed in $$\u2026$$. After the final computation output exactly one line:\\n\\nAnswer: <numeric result>\\n\\nand nothing else before or after that line.\\n",
+      "train_score": 0.9157088122605364,
+      "train_step": 75,
+      "test_score": 0.8521607278241091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one sentence. Enumerate every given value (including units) as separate items, assign a symbol to each unknown, and write the governing relation(s). Perform the calculations step\u2011by\u2011step, placing each arithmetic or algebraic expression on its own line enclosed in $$\u2026$$. End the response with exactly one line:\n\nAnswer: <numeric result>\n\nand nothing else before or after that line.",
+      "train_score": 0.9233716475095786,
+      "train_step": 8,
+      "test_score": 0.8514025777103866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.9233716475095786,
+      "train_step": 52,
+      "test_score": 0.8514025777103866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above and has higher score than all of them. Scoring? The instruction should be best.",
+      "train_score": 0.9233716475095786,
+      "train_step": 32,
+      "test_score": 0.8476118271417741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one sentence. Then enumerate all known quantities (including units) as a bullet list, assigning a unique variable to each unknown. Derive the required relationship(s) and compute the solution, writing every intermediate arithmetic or algebraic step on its own line inside LaTeX delimiters $$\u2026$$. After the final numeric value is obtained, output exactly one line:\n\nAnswer: <number>\n\nand nothing else.",
+      "train_score": 0.9233716475095786,
+      "train_step": 86,
+      "test_score": 0.846095526914329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` and end with `",
+      "train_score": 0.9157088122605364,
+      "train_step": 7,
+      "test_score": 0.8453373768006065,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...instruction...",
+      "train_score": 0.9195402298850575,
+      "train_step": 84,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a logical, ordered solution: enumerate each reasoning step, show all calculations (enclose any formula in $$), and conclude with a line \u201cAnswer:\u202f<number>\u201d that contains only the final numeric result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 1,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8390804597701149,
+      "train_step": -1,
+      "test_score": 0.8142532221379833,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence summary of the question. List all given values (include units) as separate items and assign a symbol to each unknown. Write the equation(s) that relate them. Solve step\u2011by\u2011step, placing every arithmetic or algebraic expression on its own line inside $$\u2026$$. When the numeric result is obtained, output only the line\n\nAnswer: <number>\n\nwith nothing else before or after.",
+      "train_score": 0.9195402298850575,
+      "train_step": 30,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, list all given numbers (with units), introduce symbols for unknowns, write the needed equations, solve step\u2011by\u2011step showing each computation inside $$\u2026$$, and finish with a single line  \n\nAnswer: <number>  \n\nand nothing else before or after that line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 7,
+      "test_score": 0.7702805155420773,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the question in one sentence. Then create a two\u2011column table titled Given and Symbol listing every known quantity (include units). Introduce a distinct variable for each unknown. Write the governing equation(s) and solve them step\u2011by\u2011step, placing each arithmetic or algebraic operation on its own line inside $$\u2026$$. After obtaining the numerical result, optionally verify it, and finish with a single line exactly\n\nAnswer: <number>\n\nwith no other text before or after that line.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.7589082638362395,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in one sentence. List every known quantity with its unit as a bullet, and assign a distinct variable to each unknown. Write the governing equation(s). Solve step\u2011by\u2011step, putting each arithmetic or algebraic operation on its own line inside $$\u2026$$. After the final numeric result, optionally check it, then output exactly one line:\n\nAnswer: <number>\n\nwith no other text before or after.",
+      "train_score": 0.7816091954022989,
+      "train_step": 99,
+      "test_score": 0.7308567096285065,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Create a two\u2011column table titled \u201cGiven\u201d and \u201cSymbol\u201d for every known quantity (include units). Introduce a distinct variable for each unknown. Write the governing equation(s). Solve step\u2011by\u2011step, placing every arithmetic or algebraic operation on its own line inside $$\u2026$$. After the final numeric value (optionally verify), output exactly one line:\n\nAnswer: <number>\n\nwith no preceding or trailing text.",
+      "train_score": 0.789272030651341,
+      "train_step": 99,
+      "test_score": 0.7194844579226687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the question in one sentence. List every known quantity (include units) as a bullet list and assign a distinct variable to each unknown. Write the governing relation(s). Solve systematically, placing each arithmetic or algebraic operation on its own line enclosed in $$\u2026$$ and numbering the steps. After obtaining the numeric result (optionally verify it), output only one final line:\n\nAnswer: <number>\n\nwith no additional characters, spaces, or blank lines before or after that line.",
+      "train_score": 0.7931034482758621,
+      "train_step": 99,
+      "test_score": 0.7119029567854435,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8817285822592873,
+    "avg_test_score": 0.8224484638434602,
+    "best_test_instruction": "Restate the problem in one sentence. List every given quantity (include units) as a numbered list, assigning a unique variable to each unknown. Write the governing relation(s). Compute the solution step\u2011by\u2011step, placing each arithmetic or algebraic operation on its own line inside $$\u2026$$. After the last computation optionally verify the result, then output only the line\n\nAnswer: <number>\n\nwith no additional text, symbols, or blank lines before or after it."
+  }
+}

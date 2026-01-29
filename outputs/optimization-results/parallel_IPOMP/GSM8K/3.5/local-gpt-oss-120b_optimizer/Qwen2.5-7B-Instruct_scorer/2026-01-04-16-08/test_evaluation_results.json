@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "\\nIdentify all given numbers, set up the exact equation that represents the problem, solve it, and output only the final integer answer.\\n",
+      "train_score": 0.9348659003831418,
+      "train_step": 14,
+      "test_score": 0.9203942380591357,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, list all given numbers, form the precise arithmetic expression(s) needed, compute the result (with concise intermediate steps if helpful), verify it satisfies the situation, and output only the final integer answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 8,
+      "test_score": 0.9181197877179682,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution: interpret the problem, set up the needed equations, compute the result, and output only the final numeric answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 1,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, construct the single exact expression that yields the required integer, evaluate it, verify it satisfies the problem\u2019s conditions, and output only the integer result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 54,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeric datum, deduce the single precise formula that yields the requested quantity, evaluate it using exact integer arithmetic, confirm it satisfies all problem conditions, and return solely the integer answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum and its role from the problem, formulate the single exact arithmetic or algebraic expression that directly yields the requested integer, evaluate it, confirm it satisfies all given conditions, and output only that integer.",
+      "train_score": 0.9080459770114943,
+      "train_step": 99,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers present, infer the single exact arithmetic or linear relation required, compute the solution, verify it satisfies the problem\u2019s conditions, and output only the final integer answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 19,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, list each numerical value with its role, build the single exact arithmetic formula that yields the requested integer, evaluate it, verify it meets all conditions, and output only that integer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 48,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric detail and its context, devise the simplest exact mathematical expression that answers the question, evaluate it, confirm it fits the scenario, and output only the final integer result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 11,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, denote each unknown with a symbol, formulate the exact algebraic equation(s) implied by the given numbers, solve for the required quantity, verify it meets all constraints, and output only the final integer answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 95,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant quantities, write the appropriate equation(s), solve them step\u2011by\u2011step, and present only the final numerical answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 1,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numbers, create the minimal precise expression that answers the question, calculate it, double\u2011check against the problem description, and output just the integer result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 50,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, enumerate each numeric detail and its meaning, create the simplest exact math expression that yields the asked quantity, compute it, confirm it fits the scenario, and output only the final integer answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 9,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every given number, build the single precise mathematical expression that directly produces the requested integer, evaluate it (showing only brief needed steps), confirm it satisfies all problem conditions, and output only that final integer.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numeric values, determine the required arithmetic relationship, compute the answer in brief steps, and output only the final integer result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 7,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each stated number, write the concise equation that directly yields the asked result, solve it, confirm it satisfies all conditions, and provide only the integer answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 39,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, decide the single precise arithmetic operation that directly yields the asked integer, execute it, verify it matches the problem\u2019s conditions, and output only that final integer.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, translate the problem into a single exact arithmetic computation that yields the requested integer, perform the calculation, confirm it meets any stated conditions, and output only that integer.",
+      "train_score": 0.6743295019157088,
+      "train_step": 99,
+      "test_score": 0.6739954510993177,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum, determine the single precise arithmetic operation that gives the required integer, compute it, confirm it satisfies the problem conditions, and output only that integer.",
+      "train_score": 0.6245210727969349,
+      "train_step": 99,
+      "test_score": 0.576194086429113,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value, derive the single precise computation that answers the question, calculate it, confirm it satisfies all constraints, and output only the resulting integer.",
+      "train_score": 0.5747126436781609,
+      "train_step": 99,
+      "test_score": 0.5405610310841547,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9203942380591357,
+    "avg_test_score": 0.8532076970287737,
+    "best_test_instruction": "\\nIdentify all given numbers, set up the exact equation that represents the problem, solve it, and output only the final integer answer.\\n"
+  }
+}

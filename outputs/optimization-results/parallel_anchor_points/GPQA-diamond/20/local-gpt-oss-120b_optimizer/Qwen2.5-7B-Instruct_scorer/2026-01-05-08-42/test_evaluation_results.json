@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the question completely, pinpoint the underlying scientific principle (including any needed quantitative calculation), mentally check each option against that principle, discard every choice that fails, and reply only with the single correct answer letter (A\u2011D) \u2013 no extra words or symbols.",
+      "train_score": 0.46153846153846156,
+      "train_step": 8,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving the problem, output only the correct answer letter (A, B, C, or D) as a single standalone character\u2014no additional text, symbols, whitespace, or punctuation.",
+      "train_score": 0.4358974358974359,
+      "train_step": 31,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return exactly one ASCII character\u2014the correct answer (A, B, C, or D)\u2014and then stop. No additional characters, spaces, line breaks, or formatting may appear before or after that letter.",
+      "train_score": 0.4358974358974359,
+      "train_step": 57,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire problem, mentally solve it, then output exactly one character\u2014the correct option letter (A, B, C, or D)\u2014and nothing else (no spaces, line breaks before or after, no punctuation or explanation).",
+      "train_score": 0.4358974358974359,
+      "train_step": 22,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct choice and write only its letter (A\u2011D) as the entire response\u2014no extra symbols, spaces, or text.",
+      "train_score": 0.4358974358974359,
+      "train_step": 41,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, identify the relevant concepts, reason step\u2011by\u2011step to eliminate wrong choices, and output only the correct answer letter (A,\u202fB,\u202fC,\u202for\u202fD).",
+      "train_score": 0.46153846153846156,
+      "train_step": 1,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, decide which of the four options (A\u2011D) is correct, and reply with only that single capital letter. No extra symbols, spaces, line breaks, or commentary may accompany it.",
+      "train_score": 0.4358974358974359,
+      "train_step": 29,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, compute the solution, then output only the correct answer letter (A, B, C, or D) as the entire response\u2014no markdown, no extra spaces, no punctuation, just the single capital character followed by a newline.",
+      "train_score": 0.4358974358974359,
+      "train_step": 41,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving the problem, reply with the single correct choice letter (A, B, C, or D) and nothing else\u2014no spaces, line breaks, punctuation, or other characters.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly one of the letters A, B, C, or D \u2013 the correct answer \u2013 and nothing else (no spaces, no newline, no punctuation).",
+      "train_score": 0.41025641025641024,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the correct choice as a single uppercase letter A\u2011D, with no additional characters, spaces, or line breaks before or after it.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the question by first extracting the core scientific rule, then using it to evaluate each choice A\u2011D. After discarding the inconsistent options, write ONLY the correct capital letter as the entire output (no punctuation or extra words).",
+      "train_score": 0.46153846153846156,
+      "train_step": 24,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Consider the problem, isolate the fundamental concept, apply logical reasoning to each option, eliminate those that violate the concept, and answer with only the correct option letter (A\u2011D) and nothing else.",
+      "train_score": 0.4358974358974359,
+      "train_step": 7,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Internally work through the problem step by step, then finish by writing only the correct option letter (A\u2011D) as the entire output\u2014no other characters or whitespace.",
+      "train_score": 0.4358974358974359,
+      "train_step": 19,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Using appropriate scientific reasoning, choose the correct option (A\u2011D) for the given question and respond with that single uppercase letter alone\u2014no other characters, spaces, or lines.",
+      "train_score": 0.4358974358974359,
+      "train_step": 24,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer with exactly one character\u2014the capital letter A, B, C, or D\u2014nothing else (no spaces, symbols, line breaks, or explanatory text).",
+      "train_score": 0.38461538461538464,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the given problem using appropriate reasoning or calculations. Once you have determined which option (A, B, C, or D) is correct, reply only with that single capital letter and a terminating newline\u2014no explanations, spaces, punctuation, or any other characters before or after it.",
+      "train_score": 0.46153846153846156,
+      "train_step": 42,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer with exactly one uppercase letter (A\u2011D) and no other characters, whitespace, line breaks, punctuation, or formatting\u2014nothing else may appear before or after the letter.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide your final answer as a single capital letter (A\u2011D) standing alone\u2014no other characters, spaces, or line breaks before or after it.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the correct answer as a single capital letter (A\u2011D) and nothing else\u2014no spaces, line breaks, punctuation, or other characters before or after the letter.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.358974358974359,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.36363636363636365,
+    "avg_test_score": 0.3415103415103415,
+    "best_test_instruction": "Read the question completely, pinpoint the underlying scientific principle (including any needed quantitative calculation), mentally check each option against that principle, discard every choice that fails, and reply only with the single correct answer letter (A\u2011D) \u2013 no extra words or symbols."
+  }
+}

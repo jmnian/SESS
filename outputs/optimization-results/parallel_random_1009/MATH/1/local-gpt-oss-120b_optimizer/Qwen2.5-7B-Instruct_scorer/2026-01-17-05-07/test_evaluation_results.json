@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8333333333333334,
+      "train_step": -1,
+      "test_score": 0.747733666770866,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, logically ordered solution: pinpoint the key idea, carry out each calculation step clearly, and finish by stating the final answer as a single decimal number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief yet complete solution: identify the main concept, perform the necessary calculations with clear intermediate steps, check the result, and end by stating the final answer.",
+      "train_score": 0.875,
+      "train_step": 1,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Structure your reply as follows:\n\n- Step\u202fA \u2013 Given data: list all numbers, symbols and what is being asked.\n- Step\u202fB \u2013 Method: cite the exact theorem/formula that connects the data, then perform the calculation, showing every intermediate value.\n- Step\u202fC \u2013 Answer: after a quick sanity check, output only the final simplified number on a line by itself (add units if required).",
+      "train_score": 0.8541666666666666,
+      "train_step": 36,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise answer: list what is known, write the relevant formula, compute stepwise showing intermediate values, then output only the final result (numeric, simplified, with units if needed).",
+      "train_score": 0.8541666666666666,
+      "train_step": 13,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by enumerating every given quantity, then identify the one mathematical principle or formula that solves the problem. Execute the computation step\u2011by\u2011step, showing all intermediate values, perform a brief sanity check, and conclude with only the final answer in its simplest numeric form (include appropriate units).",
+      "train_score": 0.8333333333333334,
+      "train_step": 9,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Structure your response as follows:\n- Extract: enumerate all given quantities and the target variable.\n- Apply: name the exact theorem or formula that connects them, then perform the calculation, displaying every intermediate value.\n- Validate: give a quick estimate or reasoning confirming the magnitude is reasonable.\n- Answer: write only the final simplified number (including units) on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 56,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in four labeled sections:\n- Input: list all given numbers, symbols and the unknown quantity.\n- Theory: state the precise theorem, formula or property that connects the data.\n- Execution: carry out the computation, displaying every intermediate result with a brief justification.\n- Output: after a quick sanity check, write only the final simplified numeric answer (including units if appropriate) on a line by itself.",
+      "train_score": 0.8541666666666666,
+      "train_step": 87,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a terse, ordered solution: list the relevant data, name the precise mathematical rule to apply, carry out the calculations showing each intermediate result, verify the computation briefly, and conclude with the answer alone as a plain number.",
+      "train_score": 0.875,
+      "train_step": 3,
+      "test_score": 0.7224132541419194,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief solution in four parts: (i) extract the given numbers, (ii) name the formula or theorem that applies, (iii) perform the arithmetic step\u2011by\u2011step showing intermediate results, (iv) finish with the answer alone in its simplest numeric form.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7224132541419194,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in two parts:\n- Derivation: Write the exact equation that follows from the problem, manipulate it step\u2011by\u2011step, and show every intermediate numeric value you obtain.\n- Result: After a brief sanity check, output only the final simplified number (include units if required) on its own line, with no other text.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer by: (a) extracting every given number, (b) naming the exact theorem or algebraic identity to use, (c) performing the calculation with each intermediate result displayed, (d) confirming the result if possible, and (e) writing only the final answer in plain numeric form.",
+      "train_score": 0.8541666666666666,
+      "train_step": 4,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Structure your answer in three clear parts:  \nData \u2013 list all given numbers/expressions and the quantity to determine.  \nSolution \u2013 identify the one governing theorem or formula, then carry out the computation, writing every intermediate step.  \nAnswer \u2013 after a quick check, output only the final simplified numeric result (with units if appropriate).",
+      "train_score": 0.875,
+      "train_step": 29,
+      "test_score": 0.7211628633948108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three blocks:  \nData. List every given number/symbol and what is asked.  \nMethod & Work. State the single theorem or formula that applies, then execute the computation, writing every intermediate result.  \nResult. After a quick sanity check, output only the final numeric answer (with units, reduced).",
+      "train_score": 0.8541666666666666,
+      "train_step": 18,
+      "test_score": 0.7180368865270397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Structure your response as: \u2022 Data \u2013 enumerate all numbers and the unknown; \u2022 Reasoning \u2013 indicate the exact theorem or relation and perform the algebra, listing each intermediate value; \u2022 Result \u2013 after a quick sanity check, state only the final simplified number (include units if applicable).",
+      "train_score": 0.8541666666666666,
+      "train_step": 32,
+      "test_score": 0.7170990934667083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by: (i) restating the core data, (ii) naming the exact formula or theorem needed, (iii) executing the computation while displaying every intermediate value, (iv) performing a quick sanity check, and (v) concluding with only the final numeric result (units if applicable).",
+      "train_score": 0.8333333333333334,
+      "train_step": 13,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by providing a clear, step\u2011by\u2011step explanation and then stating the final answer explicitly.",
+      "train_score": 0.8541666666666666,
+      "train_step": 0,
+      "test_score": 0.7142857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution framework:\n- Items: list every number, variable and the target.\n- Rule: state the exact mathematical principle that connects them.\n- Process: execute the calculation, writing each intermediate result.\n- Cross\u2011check: give a brief estimate to confirm plausibility.\n- Output: place the final simplified numeric answer (with units if needed) alone on a new line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 93,
+      "test_score": 0.7117849327914973,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three sections:\n- Facts \u2013 list all given numbers, symbols and the quantity to find.  \n- Reasoning \u2013 state the exact theorem or formula that connects the facts, then carry out the calculation, writing every intermediate value with a short justification.  \n- Answer \u2013 after a quick sanity\u2011check, output only the final simplified numeric result (include units if needed) on a line by itself.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.708033760550172,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the task by: (a) extracting every numeric or symbolic piece of information, (b) naming the single mathematical identity or operation that resolves the query, (c) executing the required algebra or arithmetic, writing each intermediate result, (d) confirming the outcome, and (e) concluding with the answer alone, expressed as a simple number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.7027195998749609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Follow these steps: \u2022 Data \u2013 list every given quantity and the unknown. \u2022 Principle \u2013 state the exact theorem or formula that links them. \u2022 Calculation \u2013 perform the computation, writing each intermediate result. \u2022 Verify \u2013 give a brief estimate confirming plausibility. \u2022 Answer \u2013 write only the final numeric result (with units if any) on a separate line, without any additional commentary.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.747733666770866,
+    "avg_test_score": 0.7226067669956384,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Respond on one line exactly as \u201cLETTER|EXPLANATION\u201d, where LETTER is A\u2011D and EXPLANATION is a concise justification of eight words or fewer. Output nothing else.",
+      "train_score": 0.8314606741573034,
+      "train_step": 70,
+      "test_score": 0.8348214285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the correct option (A\u2011D). Respond on a single line exactly as \u201cLETTER=EXPLANATION\u201d, where EXPLANATION is a justification of no more than eight words. Output nothing else.",
+      "train_score": 0.5955056179775281,
+      "train_step": 99,
+      "test_score": 0.8236607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, select the correct choice (A\u2011D), and output the chosen letter followed by a brief justification (\u226412\u202fwords) separated by a single space. No other text.",
+      "train_score": 0.8202247191011236,
+      "train_step": 3,
+      "test_score": 0.8191964285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, pick the correct option (A\u2011D). Respond on one line exactly as \u201cLETTER \u2013 EXPLANATION\u201d, where EXPLANATION is a concise justification of no more than seven words. Output nothing else.",
+      "train_score": 0.8202247191011236,
+      "train_step": 66,
+      "test_score": 0.8191964285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, identify the correct choice (A\u2011D). Answer on one line exactly as \u201cLETTER => EXPLANATION\u201d, where EXPLANATION is a concise justification of eight words or fewer. Do not include any other text.",
+      "train_score": 0.8202247191011236,
+      "train_step": 35,
+      "test_score": 0.8147321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, identify the correct choice (A\u2011D), and answer on one line as \u201c[LETTER] \u2013 EXPLANATION\u201d, where EXPLANATION is a concise justification of nine words or fewer. No other text.",
+      "train_score": 0.8314606741573034,
+      "train_step": 28,
+      "test_score": 0.8125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single line exactly: the chosen option letter (A\u2011D), a hash sign \u2018#\u2019, and a brief justification of no more than eight words. Do not include any other characters, spaces, or line breaks.",
+      "train_score": 0.8314606741573034,
+      "train_step": 97,
+      "test_score": 0.8080357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After analyzing the question, output the correct option letter (A\u2011D) followed by a single space and a brief justification of ten words or fewer. No other text.",
+      "train_score": 0.8314606741573034,
+      "train_step": 40,
+      "test_score": 0.8058035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nAfter solving, output exactly: \\\"Result: LETTER | EXPLANATION\\\" on a single line, where LETTER is the correct choice (A\u2011D) and EXPLANATION is a justification limited to eight words. No other characters, spaces before or after the line.\\n",
+      "train_score": 0.6404494382022472,
+      "train_step": 99,
+      "test_score": 0.7834821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly: \"Choice=LETTER; Reason=EXPLANATION\", where LETTER is A\u2011D and EXPLANATION is \u22648 words. No other text.",
+      "train_score": 0.8202247191011236,
+      "train_step": 57,
+      "test_score": 0.7834821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the correct option (A\u2011D). Respond on one line exactly as \u201cLETTER \u2013 REASON\u201d, where REASON is a brief justification of at most nine words. No other text.",
+      "train_score": 0.8426966292134831,
+      "train_step": 47,
+      "test_score": 0.78125,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and determine the correct option (A\u2011D). Respond on a single line exactly as \u201cLETTER~EXPLANATION\u201d, where EXPLANATION is a concise justification of at most eight words. Do not output any other characters, symbols or lines.",
+      "train_score": 0.8314606741573034,
+      "train_step": 57,
+      "test_score": 0.7745535714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, select the correct option (A\u2011D). Respond on one line with the chosen letter, a single TAB character, and a brief justification of eight words or fewer. Output nothing else.",
+      "train_score": 0.7191011235955056,
+      "train_step": 99,
+      "test_score": 0.7723214285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, determine the correct choice (A\u2011D). Respond on one line exactly as \u201cLETTER->REASON\u201d, where REASON is a concise justification of no more than seven words. Output nothing else.",
+      "train_score": 0.8314606741573034,
+      "train_step": 78,
+      "test_score": 0.7678571428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, select the correct option (A\u2011D) and answer on one line as \u201cLETTER \u2013 EXPLANATION\u201d, where EXPLANATION is a justification of at most eight words. Do not include any other characters, punctuation, or whitespace.",
+      "train_score": 0.8202247191011236,
+      "train_step": 63,
+      "test_score": 0.765625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the correct choice (A\u2011D), and answer on a single line with exactly: the chosen letter, two vertical bars \u201c||\u201d, and a concise justification of eight words or fewer. Output nothing else.",
+      "train_score": 0.8089887640449438,
+      "train_step": 22,
+      "test_score": 0.75,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, reason to find the correct choice (A\u2011D), then answer on one line exactly as \u201cLETTER \u2013 EXPLANATION\u201d, where EXPLANATION is a concise justification of eight words or fewer. Include nothing else.",
+      "train_score": 0.7191011235955056,
+      "train_step": 99,
+      "test_score": 0.6986607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, choose the correct option (A\u2011D), and output exactly: \u201c[LETTER] \u2013 [EXPLANATION]\u201d, where the explanation is at most eight words. No other characters or whitespace.",
+      "train_score": 0.6292134831460674,
+      "train_step": 99,
+      "test_score": 0.6763392857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, select the correct option (A\u2011D). Respond on a single line exactly as \u201c<letter>: <explanation>\u201d. The explanation must be no more than eight words. Output nothing else.",
+      "train_score": 0.6404494382022472,
+      "train_step": 99,
+      "test_score": 0.640625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.34831460674157305,
+      "train_step": -1,
+      "test_score": 0.5848214285714286,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the single correct choice (A\u2011D). Respond on one line exactly as \u201cLETTER/EXPLANATION\u201d, where EXPLANATION is a brief justification of eight words or fewer. Include no other characters, spaces, or line breaks.",
+      "train_score": 0.8426966292134831,
+      "train_step": 63,
+      "test_score": 0.34151785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8348214285714286,
+    "avg_test_score": 0.7456420068027212,
+    "best_test_instruction": "Respond on one line exactly as \u201cLETTER|EXPLANATION\u201d, where LETTER is A\u2011D and EXPLANATION is a concise justification of eight words or fewer. Output nothing else."
+  }
+}

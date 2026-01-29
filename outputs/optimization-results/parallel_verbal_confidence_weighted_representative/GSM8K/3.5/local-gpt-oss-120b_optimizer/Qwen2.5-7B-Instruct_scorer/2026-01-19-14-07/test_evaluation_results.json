@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every given number and its purpose, form a single exact integer\u2011or\u2011fraction expression that solves the task, compute it with pure rational arithmetic (no decimal or rounding), optionally show brief intermediate steps, and output only the final reduced value (include a unit only if explicitly required).",
+      "train_score": 0.9655172413793104,
+      "train_step": 97,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity mentioned, map each to its mathematical role, compose the unique exact rational expression that gives the answer, evaluate it using only integer and fraction operations (no decimal conversion or rounding), optionally detail intermediate results, and output just the final reduced number\u2014add a unit only if the statement explicitly demands one.",
+      "train_score": 0.9655172413793104,
+      "train_step": 84,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical datum and its context, translate the problem into a single exact mathematical expression, evaluate it using pure integer or fraction arithmetic (no decimal approximations or rounding), optionally showing intermediate steps, and output only the final simplified value\u2014add a unit only if the prompt explicitly asks for one.",
+      "train_score": 0.9655172413793104,
+      "train_step": 48,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and its context, formulate the exact mathematical expression that solves the task, evaluate it using precise integer/fraction arithmetic (no rounding), optionally showing intermediate calculations, then output only the final numeric answer, adding a unit only if the question explicitly requires one.",
+      "train_score": 0.9616858237547893,
+      "train_step": 37,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and what they represent, formulate one exact integer/fraction expression that answers the question (no decimal approximations or rounding), compute it (showing intermediate steps only if you wish), and return just the simplified final result\u2014include a unit only if the problem explicitly asks for one.",
+      "train_score": 0.9693486590038314,
+      "train_step": 83,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numerical value, establish the precise arithmetic expression needed, compute it step\u2011by\u2011step, and give solely the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 4,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse every number and its role, formulate a single exact rational expression that captures the problem, compute it using only integer and fraction operations (no decimal conversion or rounding), optionally display concise intermediate steps, and return only the simplified result (integer or reduced fraction), appending a unit only when the prompt explicitly asks for it.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities mentioned, translate the problem into a single exact rational expression, evaluate it using integer/fraction arithmetic (no decimal approximations), optionally display intermediate calculations, and output only the simplified final result; add a unit only if the prompt explicitly requires one.",
+      "train_score": 0.9655172413793104,
+      "train_step": 81,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their roles, write the single exact formula needed, evaluate it with exact integer/fraction arithmetic (no rounding or decimal approximation), optionally present intermediate steps, and return only the final simplified numeric answer, adding a unit only if expressly requested.",
+      "train_score": 0.9693486590038314,
+      "train_step": 57,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each number and its meaning, construct the unique exact rational expression that directly resolves the question, evaluate it using only integer and fraction operations (no decimal or rounding), optionally list short intermediate results, and output solely the simplified final value\u2014append a unit only if the prompt explicitly requires one.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each numeric datum with its role, construct a single exact rational expression that yields the answer, compute it using only integer and fraction operations (no decimal approximations or rounding), and output the reduced final value alone; include a unit only if the question explicitly asks for one.",
+      "train_score": 0.9693486590038314,
+      "train_step": 79,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number and its meaning, compose the single exact arithmetic expression required, evaluate it using pure integer\u2011or\u2011fraction (rational) operations without any decimal approximation or rounding (show intermediate steps only if desired), and output solely the final simplified numeric answer\u2014add a unit only if the problem explicitly requests one.",
+      "train_score": 0.9693486590038314,
+      "train_step": 80,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum and its role, construct the single exact arithmetic expression required (using only integer and fraction operations, no approximations), compute it step\u2011by\u2011step, and output only the final simplified result\u2014present as an integer or reduced fraction, and attach a unit solely if the problem explicitly requests one.",
+      "train_score": 0.9655172413793104,
+      "train_step": 71,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers with their meanings, construct the single exact formula needed, evaluate it using exact integer/fraction arithmetic (no decimal approximations), optionally show each step, and return only the final numeric result, adding a unit only if the question explicitly requests one.",
+      "train_score": 0.9655172413793104,
+      "train_step": 45,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list each quantity with its meaning, derive the exact mathematical formula that answers the question, carry out the computation showing each intermediate result without rounding, and finally output only the single numerical answer (include a unit only if the prompt explicitly asks for one).",
+      "train_score": 0.9616858237547893,
+      "train_step": 17,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric quantity, determine its role, combine them into one exact rational calculation that answers the question, compute using only integer and fraction operations (no decimals), optionally display brief steps, and output the reduced final result alone\u2014add a unit only if the prompt explicitly asks.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value and its role, translate the problem into one exact rational computation using only integer and fraction operations (no decimal or rounding), optionally list brief intermediate results, and output only the final reduced number\u2014include a unit only if the prompt explicitly asks for one.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numeric datum and its meaning, optionally label them with symbols, construct the one exact rational formula that solves the problem, evaluate it using only integer\u2011 and fraction\u2011based arithmetic (no decimal approximations or rounding), optionally show a brief intermediate trace, and output solely the reduced final result\u2014add a unit only if the prompt explicitly requires one.",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers and their roles, formulate a single exact integer\u2011fraction expression that answers the question, solve it with pure rational arithmetic (no decimal or rounding), optionally note short intermediate values, and output only the final reduced result, adding a unit only when the prompt explicitly demands it.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.849128127369219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.842911877394636,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, pull out every number and its role, form one exact integer\u2011or\u2011fraction expression that directly gives the answer, evaluate it using only rational arithmetic (no decimal or rounding), optionally show only essential intermediate values, and output *only* the final reduced number, appending a unit solely if the question demands it.",
+      "train_score": 0.27586206896551724,
+      "train_step": 99,
+      "test_score": 0.2100075815011372,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.8602476623704828,
+    "best_test_instruction": "Extract every given number and its purpose, form a single exact integer\u2011or\u2011fraction expression that solves the task, compute it with pure rational arithmetic (no decimal or rounding), optionally show brief intermediate steps, and output only the final reduced value (include a unit only if explicitly required)."
+  }
+}

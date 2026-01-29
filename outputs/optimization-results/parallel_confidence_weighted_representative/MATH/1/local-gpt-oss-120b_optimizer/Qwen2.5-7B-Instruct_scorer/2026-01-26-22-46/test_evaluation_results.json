@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7708333333333334,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using only the necessary reasoning and calculations; optionally do a brief sanity check, and end the response with the exact answer (integer or simplified expression) on a single line with no additional text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 10,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that includes only the essential reasoning and calculations (a quick sanity check may be added), then finish by writing the exact final answer\u2014integer or simplified expression\u2014on a new line by itself, with no other text or symbols.",
+      "train_score": 0.8125,
+      "train_step": 18,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that states the core idea, performs the required calculations (you may add a short sanity check), and ends with the exact answer (integer or simplified expression) on its own line with no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 22,
+      "test_score": 0.7177242888402626,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief logical outline, execute the necessary calculation, optionally do a sanity check, and finish with the exact answer alone on a new line.",
+      "train_score": 0.8125,
+      "train_step": 6,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution that includes only the necessary reasoning and calculation (a quick sanity check may be added), and end your response with the exact final answer\u2014integer or simplified expression\u2014on a single line by itself, without any other text or symbols.",
+      "train_score": 0.8125,
+      "train_step": 21,
+      "test_score": 0.7139731165989371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution that (i) names the core technique in a brief sentence, (ii) carries out only the indispensable algebra or geometry, showing each step only if it clarifies the reasoning, (iii) may include a one\u2011sentence consistency check, and (iv) ends the response with the exact answer\u2014integer, reduced fraction, or simplest radical\u2014on a new line by itself with no other characters or formatting.",
+      "train_score": 0.8125,
+      "train_step": 59,
+      "test_score": 0.7127227258518287,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logical solution showing only the essential steps (and a brief check if desired), then finish with the exact final answer on its own line with no extra text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.708033760550172,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, self\u2011contained solution that includes just the essential reasoning and calculation, optionally confirm the result, and end the response with the exact final answer alone on its own line\u2014no additional text or symbols.",
+      "train_score": 0.8125,
+      "train_step": 4,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained answer: briefly identify the key idea, carry out only the indispensable calculations (showing intermediate steps only if they aid understanding), optionally add a single sanity check, and end the response with the exact result (integer, reduced fraction or simplified radical) on its own line with no other text or symbols.",
+      "train_score": 0.8333333333333334,
+      "train_step": 66,
+      "test_score": 0.6995936230071897,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a succinct, self\u2011contained solution: briefly describe the principle used, carry out just the needed algebra or arithmetic (include a quick sanity check if helpful), and place the precise numerical answer (or simplified expression) on a new line by itself, with nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 32,
+      "test_score": 0.6989684276336355,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained answer: briefly state the main approach, carry out only the essential computation (showing steps if helpful), optionally include a one\u2011sentence check, and finish with the exact result (integer, reduced fraction or simplified expression) on a line by itself with no extra characters.",
+      "train_score": 0.8333333333333334,
+      "train_step": 53,
+      "test_score": 0.6980306345733042,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained answer that (i) states the core idea in one sentence, (ii) carries out only the indispensable calculations (showing each step), (iii) may add a brief sanity check, and (iv) concludes with the exact numeric result\u2014integer, reduced fraction, or decimal\u2014on a line by itself with no other text or symbols.",
+      "train_score": 0.8333333333333334,
+      "train_step": 47,
+      "test_score": 0.6914660831509847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained answer: briefly mention the core technique, perform only the necessary computation (show steps only if they help), optionally give a one\u2011sentence sanity check, and conclude with the exact result\u2014integer, reduced fraction or simplest radical\u2014on its own line, using plain text and no extra symbols.",
+      "train_score": 0.8125,
+      "train_step": 62,
+      "test_score": 0.6786495779931229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution in plain text: (i) name the central technique in one short sentence; (ii) carry out only the indispensable computation, showing intermediate steps only if they clarify the reasoning; (iii) optionally add a one\u2011sentence check; (iv) conclude with the exact answer\u2014integer, reduced fraction, or simplest radical\u2014on a single line by itself with no other characters, symbols or formatting.",
+      "train_score": 0.8125,
+      "train_step": 60,
+      "test_score": 0.6723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, self\u2011contained answer that (a) names the central insight in one sentence, (b) carries out only the essential computations (showing steps if helpful), (c) may include a short sanity check, and (d) concludes with the exact answer\u2014integer, reduced fraction, or simplified expression\u2014on its own line with no other characters.",
+      "train_score": 0.8125,
+      "train_step": 51,
+      "test_score": 0.6702094404501406,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce a concise, self\u2011contained answer in plain text: briefly mention the key method, carry out only the indispensable computation (showing steps only when they clarify), optionally give a one\u2011sentence verification, and finish by writing the exact result\u2014integer, reduced fraction or simplified radical\u2014on a single line by itself with no surrounding characters or formatting.",
+      "train_score": 0.8125,
+      "train_step": 72,
+      "test_score": 0.6495779931228509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution: (i) name the key idea in one brief sentence; (ii) perform only the essential calculations, showing steps only if they aid clarity; (iii) optionally include a one\u2011sentence sanity check; (iv) finish with the exact answer\u2014integer, reduced fraction, decimal, or simplest radical\u2014on a single line by itself with no extra characters, spaces, or formatting before or after it.",
+      "train_score": 0.8333333333333334,
+      "train_step": 67,
+      "test_score": 0.6414504532666458,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained answer that:\n\u2022 states the pivotal insight in one brief sentence;\n\u2022 performs only the indispensable computation (show a step only if it aids understanding);\n\u2022 optionally adds a one\u2011sentence verification;\n\u2022 concludes with the exact result\u2014integer, reduced fraction, decimal, or simplest radical\u2014on a single line by itself, with no surrounding characters or formatting.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.5717411691153486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with a concise, self\u2011contained answer in plain text:\n- State the core technique in one sentence.\n- Carry out only the necessary computation; show a step only when it aids understanding.\n- (Optional) Give a one\u2011sentence check of the result.\n- Finally, write the exact answer (integer, reduced fraction or simplest radical) on its own line, with no surrounding characters, spaces, or formatting.\nDo not use markdown or LaTeX.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.4851516098780869,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a compact, self\u2011contained response in plain text that:\n\u2013 states the key idea in one short sentence;\n\u2013 carries out only the indispensable computation, showing intermediate steps only when they aid understanding;\n\u2013 optionally adds a brief sanity check;\n\u2013 places the final answer\u2014integer, reduced fraction, decimal, or simplest radical\u2014on the very last line, alone, with no surrounding symbols or extra spaces.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.3735542356986558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7461706783369803,
+    "avg_test_score": 0.6666964378749312,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "And ending with",
+      "train_score": 0.7916666666666666,
+      "train_step": 16,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a single line, then outline the core principle needed, carry out the computation clearly with each intermediate step displayed, and conclude by writing only the final numeric result on a separate line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 10,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, then give a numbered, step\u2011by\u2011step solution where each step cites the required principle or formula, shows the computation, and, if needed, verifies the intermediate result. End with the final answer alone on the last line, with no additional commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 3,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...instruction...",
+      "train_score": 0.7708333333333334,
+      "train_step": 9,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain your reasoning and solve the problem step by step.",
+      "train_score": 0.7708333333333334,
+      "train_step": 0,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a one\u2011sentence restatement of the problem. Next, present a numbered, step\u2011by\u2011step solution: for each step name the required fact or formula, perform the computation, and optionally verify the intermediate result. End the response with the final answer alone on the last line, with no extra commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 4,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the task. Then produce a plain\u2011text, step\u2011wise derivation: for each line write the rule or identity employed, carry out the arithmetic or algebra showing all intermediate numbers, and optionally comment on plausibility. Finish with a line that contains only the final result (no extra symbols or words).",
+      "train_score": 0.7916666666666666,
+      "train_step": 36,
+      "test_score": 0.7092841512972804,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, then present a numbered solution. For each step, (i) name the principle or formula applied, (ii) perform the calculation, and (iii) give a short justification. End the response with the final numeric answer on a line by itself, without any additional commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 4,
+      "test_score": 0.7061581744295092,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a single\u2011sentence restatement of the problem. Identify the key quantities and the equations that connect them. Work through the solution line by line, stating the rule or operation used for each manipulation and displaying every intermediate result. Conclude by writing only the final numeric answer on its own line, without any additional wording.",
+      "train_score": 0.7708333333333334,
+      "train_step": 12,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the question in a single sentence. Identify the essential theorem or formula needed. Then solve the problem in a linear, plain\u2011text flow: for each operation write the formula applied, show the complete calculation with all intermediate numbers, and optionally note a quick sanity check. Conclude by writing the final numeric result alone, surrounded only by a pair of dollar signs (i.e., $answer$) on its own line, with no other text.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6917786808377618,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nSummarize the question in one sentence. Identify the key concept(s) required. Then solve it in a linear, plain\u2011text flow: for each move state the precise formula or theorem applied, show the full calculation with all intermediate numbers, and optionally give a quick sanity check. End the response with the exact numeric answer on its own line, without any extra characters.\\n",
+      "train_score": 0.7916666666666666,
+      "train_step": 87,
+      "test_score": 0.6911534854642075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "In one sentence restate the task. Then present a concise derivation: for each transformation state the mathematical rule applied, carry out the algebra or arithmetic, and optionally comment on its plausibility. Do not use a numbered list; just separate steps by line breaks. Finish the response with the exact numeric answer on a line by itself, with no extra characters.",
+      "train_score": 0.8125,
+      "train_step": 18,
+      "test_score": 0.6845889340418881,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a one\u2011sentence restatement of the problem. Then give a numbered solution where each step (i) names the relevant mathematical principle or formula, (ii) carries out the required computation, and (iii) briefly checks the result if appropriate. End the answer with the final numeric result on a line by itself, with no extra commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 5,
+      "test_score": 0.6720850265708034,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence. List the given quantities and the quantity to find. Then solve it in a linear, plain\u2011text flow: for each transformation write (i) the exact theorem, definition or arithmetic rule applied, (ii) the full calculation with every intermediate value, and (iii) a brief sanity check if useful. Separate steps only with line breaks (no bullets or numbers). Conclude with one line containing only the final numeric answer, without any other characters.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6702094404501406,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the task in one short sentence. Then, in a numbered list, for each step: state the relevant fact or formula, carry out the required calculation, and optionally check the intermediate result. End the response with the exact answer alone on the last line, without any extra text.",
+      "train_score": 0.7708333333333334,
+      "train_step": 10,
+      "test_score": 0.6633322913410441,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one short sentence. Then, in a series of plain\u2011text lines (no numbering or bullets), for each transformation write: the exact rule applied, the full computation with all intermediate numbers, and, if helpful, a brief verification. Conclude with a line that contains only the final numerical result, nothing else.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6539543607377305,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write one sentence that captures the problem. Identify all given numbers and the quantity to determine. Proceed through the solution with separate plain\u2011text lines; each line must (a) name the precise mathematical principle applied, (b) perform the computation showing every intermediate value, and (c) (optional) note a brief consistency check. Do not use numbering or bullet symbols. Conclude with a line that contains only the final answer, nothing else.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.6130040637699281,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one sentence. List all given numbers and the quantity to find. Then solve it by a chain of plain\u2011text lines; on each line write the rule or identity you are applying, then a single arrow \u201c\u2192\u201d, then the complete computation and the resulting intermediate value. Do not number or bullet the lines. After the last computation write a line that contains only the final numeric answer (no words, symbols or extra spaces).",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.5992497655517349,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the question in one short sentence, list the given numbers and the quantity to determine. Then solve it with a vertical chain of plain\u2011text steps; for each step write: the exact theorem/formula applied, then \u201c\u21d2\u201d, then the complete calculation showing every intermediate value (you may enclose the result in parentheses). No bullets or numbering are allowed. Finish with a line that contains only the final numeric answer, without any other characters.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.5032822757111597,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the question in one short sentence. Then, in a vertical list of plain\u2011text lines (no numbers or bullet symbols), for each transformation: (i) write the exact theorem, definition or arithmetic rule in brackets, (ii) show the full computation with every intermediate quantity, and (iii) optionally add a brief sanity check in parentheses. Conclude with a single line that contains only the final numeric result, nothing else.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.3547983744920288,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7530478274460769,
+    "avg_test_score": 0.6701350124294795,
+    "best_test_instruction": "And ending with"
+  }
+}

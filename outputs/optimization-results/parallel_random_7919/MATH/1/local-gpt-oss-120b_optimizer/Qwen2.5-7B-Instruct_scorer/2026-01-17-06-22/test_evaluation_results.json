@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Exactly and ends with",
+      "train_score": 0.7916666666666666,
+      "train_step": 11,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct, logically ordered solution, showing the key calculations, and finish with the final answer as a single numeric value.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, ordered solution: identify the appropriate formula, compute each step clearly, double\u2011check the arithmetic, and end with only the final number (decimal shown only when needed).",
+      "train_score": 0.7708333333333334,
+      "train_step": 3,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by first stating the core concept, then performing each needed computation with brief justification, verify the result, and finally output only the final answer as a plain number (use a decimal point only if the answer is not an integer).",
+      "train_score": 0.7708333333333334,
+      "train_step": 9,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the principal equation or relationship required, carry out the necessary computations in a brief numbered list while briefly verifying each intermediate result, and conclude with a single line that contains only the final answer\u2014expressed as an integer, a reduced fraction, or a one\u2011decimal\u2011place number when the result is non\u2011integral\u2014and no other text.",
+      "train_score": 0.8125,
+      "train_step": 95,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single formula or principle that governs the problem, carry out the necessary calculations in a short numbered list while briefly verifying each intermediate result, and conclude with only the final numeric answer\u2014presented as an integer, a reduced fraction, or a one\u2011decimal\u2011place number when needed\u2014on its own line with no extra text.",
+      "train_score": 0.8125,
+      "train_step": 87,
+      "test_score": 0.7124101281650516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single governing formula, carry out the required calculations in a concise ordered list (one step per line) while quickly checking each intermediate value, and conclude with only the final numeric result\u2014presented as an integer, a reduced fraction, or a one\u2011decimal\u2011place number as appropriate\u2014on a line by itself with no extra commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 87,
+      "test_score": 0.7117849327914973,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give the essential reasoning in one sentence, then perform the required arithmetic step\u2011by\u2011step, checking each intermediate value, and conclude with just the final number (decimal only when the result is non\u2011integral).",
+      "train_score": 0.7708333333333334,
+      "train_step": 36,
+      "test_score": 0.7114723351047202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the reasoning in a few sentences, then compute the answer, presenting only the final numeric result (as a plain number, using a decimal point only when required). Ensure each calculation is checked.",
+      "train_score": 0.7708333333333334,
+      "train_step": 9,
+      "test_score": 0.7102219443576118,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the relevant formula or principle, then solve step\u2011by\u2011step showing each intermediate result briefly, verify the calculations, and end with only the final numeric answer (use a decimal point only if needed). No extra explanation.",
+      "train_score": 0.8125,
+      "train_step": 38,
+      "test_score": 0.7089715536105032,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single needed relation, compute the result in a brief ordered list (one step per line) while briefly sanity\u2011checking each intermediate value, and finish by writing only the final answer\u2014an integer, a reduced fraction, or a one\u2011decimal\u2011place number if non\u2011integral\u2014on a lone line with no additional words or formatting.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7052203813691779,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the underlying formula, carry out the calculations in a brief numbered list while checking each intermediate result, and conclude with only the final numeric answer (as an integer, or with one decimal place if non\u2011integral). Provide no additional commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 41,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single governing formula, then work through the problem in a short numbered list, writing each computation and briefly confirming its correctness. End with one line that contains only the final answer\u2014expressed as an integer, a reduced fraction, or a one\u2011decimal\u2011place decimal when needed\u2014and no other text.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.692403876211316,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the sole governing relation, carry out the required arithmetic in a tight numbered list (one computation per line) with a quick sanity check after each step, and conclude by outputting only the final result\u2014integer, reduced fraction, or one\u2011decimal number as needed\u2014on its own line with no extra commentary.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6917786808377618,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Start by stating the main formula or concept needed, then compute each required quantity in a short numbered list, briefly checking each intermediate result. Conclude by writing only the final numeric answer\u2014present it as an integer, or to one decimal place when it is not an integer\u2014and omit any additional text.",
+      "train_score": 0.8125,
+      "train_step": 55,
+      "test_score": 0.6830259456080024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise solution: name the essential formula or relationship, carry out each calculation step\u2011by\u2011step while briefly checking the work, and end with only the final numeric answer (integer or one\u2011decimal place if needed), with no extra commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 11,
+      "test_score": 0.6770865895592373,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single relevant formula or principle, then solve the problem in a compact numbered list (one calculation per line) while quickly verifying each intermediate result; end with a line that contains only the final answer\u2014expressed as an integer, a reduced fraction, or a decimal with at most one digit after the point\u2014and no other commentary.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6655204751484839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single governing relationship, write it down, then compute each needed quantity in a numbered sequence, confirming each intermediate value in the same line; end the response with a lone line containing only the final result\u2014presented as an integer, a fully reduced fraction, or, if the value is not integral, a decimal rounded to one place\u2014without any surrounding commentary.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6602063144732729,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the single formula or relation needed, carry out the calculation in at most four brief numbered or bullet lines (each line showing the arithmetic performed), quickly verify each intermediate value, and finish with only the final numeric result on its own line (integer, reduced fraction, or one\u2011decimal place if non\u2011integral). Do not add any other text.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.6020631447327289,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "First, name the single theorem or formula that directly solves the problem. Then, in a numbered list, perform each calculation, immediately after each line write a brief verification (e.g., \u201c\u2243\u201d or \u201c\u2713\u201d). Finally, output only the final value\u2014write it as an integer, a reduced fraction, or a decimal with at most one digit after the point\u2014on its own line with no surrounding text. Do not include any explanations, labels, or extra characters.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.27914973429196627,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.761175367302282,
+    "avg_test_score": 0.6845145060212268,
+    "best_test_instruction": "Exactly and ends with"
+  }
+}

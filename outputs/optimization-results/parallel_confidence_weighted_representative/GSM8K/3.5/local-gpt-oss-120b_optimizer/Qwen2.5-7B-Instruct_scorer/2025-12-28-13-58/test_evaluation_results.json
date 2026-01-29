@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every given number, translate all described relationships into exact arithmetic operations, compute the minimal required expression with only essential steps, verify it fits the problem context, and output solely the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 15,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, translate each descriptive phrase into its precise mathematical operation, build a single correct expression that captures the whole problem, evaluate it with only the indispensable steps, verify the outcome matches the context, and return only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 27,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find each given number, change every verbal relation (e.g., \u201ctwice\u201d, \u201chalf\u201d, \u201cmore than\u201d) into the exact arithmetic symbol, assemble the most compact correct calculation, evaluate it directly, check that it satisfies the problem conditions, and output the single resulting value.",
+      "train_score": 0.9770114942528736,
+      "train_step": 16,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant numbers from the problem, perform the necessary calculations step by step, and state the final answer clearly.",
+      "train_score": 0.9655172413793104,
+      "train_step": 1,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, translate each verbal relationship into its exact arithmetic operation, form the simplest correct expression, compute the result, verify it satisfies the problem, and output only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 47,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, locate every number and every phrase that relates quantities, translate each relational phrase into its exact mathematical operator, merge them into the shortest valid equation that fully captures the problem, evaluate it using only the indispensable steps, verify the result matches the story, and output only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 29,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all explicit numbers, translate each described relationship (e.g., \u201ceach\u201d, \u201chalf\u201d, \u201cpercent\u201d) into its exact mathematical operator, combine them into one correct arithmetic expression, evaluate it using only indispensable operations, double\u2011check that the result satisfies all conditions, and output the sole numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 23,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, turn each described relationship into its exact mathematical operation, merge them into one compact expression that fully captures the problem, evaluate it using only indispensable steps, verify the outcome matches the context, and output solely the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 16,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number and every descriptive relation, translate each relation into its precise arithmetic operator, assemble the minimal correct expression that captures the whole problem, evaluate it using only indispensable steps, verify the result matches the scenario, and output only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 40,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and each quantitative relationship from the problem, translate each relationship directly into its precise arithmetic operator (including necessary unit conversions), construct the most compact mathematically correct expression that fully represents the scenario, evaluate it using only indispensable calculations, verify the result satisfies all stated conditions, and output only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 60,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and the implied operations, build the minimal correct arithmetic expression, evaluate it with only essential steps, verify it meets the problem conditions, and output solely the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 62,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity and every relational phrase in the problem, translate each phrase directly into its exact mathematical operation, combine them into a single minimal\u2011size correct expression that fully represents the scenario, evaluate that expression using only indispensable calculations, double\u2011check that the result is consistent with the story, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 17,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint every numeral and quantitative phrase, convert each phrase into its precise arithmetic symbol, combine them into one compact calculation, solve it with only necessary steps, confirm the result fits the problem, and respond with the single numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 47,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Detect all numbers and every wording that implies an arithmetic operation, translate each wording into its precise operator, combine them into the most compact correct formula that models the problem, compute the result with only essential steps, verify consistency with the scenario, and output solely the final numeric answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Systematically detect every numeric quantity and each textual cue that denotes a mathematical relationship, convert each cue into its exact arithmetic operator (including implied multipliers like \u201ctwice\u201d or percentages), construct the most concise valid expression that fully captures the problem, evaluate it using only essential calculations, verify that the solution meets all stated conditions, and output solely the final numeric answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.869598180439727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.9003831417624522,
+      "train_step": -1,
+      "test_score": 0.8407884761182715,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric values and every word indicating a mathematical operation, translate each into its precise arithmetic symbol, combine them into the shortest correct expression that models the problem, evaluate it, verify consistency with the scenario, and return only the final numeric result.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the statement, list all numbers, map each relational term (e.g., \u201ceach\u201d, \u201ctwice\u201d, \u201cmore\u201d) to its precise arithmetic operation, combine them into one minimal equation that fully captures the scenario, solve it, and output only the resulting value.",
+      "train_score": 0.8582375478927203,
+      "train_step": 99,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number and any word that indicates an operation (add, subtract, multiply, divide, double, half, percent, etc.). Replace each cue with its exact mathematical symbol, merge them into the shortest correct formula that fully models the problem, evaluate it, verify it fits the situation, and output only the final numeric result.",
+      "train_score": 0.8045977011494253,
+      "train_step": 99,
+      "test_score": 0.7642153146322972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the statement, list all numbers and every word that denotes an arithmetic relation, replace each relation with its exact operator (+, \u2013, \u00d7, \u00f7, etc.), join them into the shortest mathematically correct formula that fully models the problem, evaluate the formula, double\u2011check that the value fits the context, and return only the single numeric answer.",
+      "train_score": 0.632183908045977,
+      "train_step": 99,
+      "test_score": 0.6292645943896892,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find all numbers and every expression of a quantitative relation, map each relation to its precise arithmetic operator, construct the shortest mathematically correct formula that captures the whole problem, compute the result with only necessary operations, double\u2011check it matches the context, and output ONLY the final number.",
+      "train_score": 0.6168582375478927,
+      "train_step": 99,
+      "test_score": 0.5731614859742229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.8544712805516445,
+    "best_test_instruction": "Extract every given number, translate all described relationships into exact arithmetic operations, compute the minimal required expression with only essential steps, verify it fits the problem context, and output solely the final numeric answer."
+  }
+}

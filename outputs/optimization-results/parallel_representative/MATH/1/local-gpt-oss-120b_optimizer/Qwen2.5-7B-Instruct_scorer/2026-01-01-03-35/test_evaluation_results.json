@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Restate the problem in your own words, pinpoint the essential facts or formulas, then solve it through a clear, numbered chain of deductions\u2014each step with a brief justification and any required computation. Conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.75054704595186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the question into the proper mathematical formulation, then methodically work through the solution: identify key relations, apply the needed formulas or theorems, show each computation with justification, and finish by presenting the exact final answer clearly and alone.",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem briefly and introduce necessary symbols.  \nWrite the one exact formula or theorem that applies.  \nDerive the answer in a concise chain of equalities or inequalities, placing a short justification in brackets after each transformation.  \nConfirm that the result meets all conditions given.  \nFinally, print only the numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 65,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question mathematically, introduce notation, and pinpoint the exact principle (formula, theorem, or identity) that solves it. Then derive the answer step by step, writing each manipulation on a separate line followed by a short parenthetical reason. After the derivation, verify that the result obeys all conditions, and finally output only the pure numeric answer on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 51,
+      "test_score": 0.7414817130353235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Develop a complete solution by enumerating every logical step: start with the essential definitions or formulas, carry out all intermediate calculations with clear justification, and end with a single line giving the exact final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem, indicate the key principle needed, then solve it step\u2011by\u2011step, writing each elementary manipulation on a separate line followed by a brief justification in parentheses. After confirming the result satisfies the original conditions, present only the final number on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 48,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the problem by:\n- Stating the problem in your own words.\n- Naming the principal theorem, identity, or counting principle that applies.\n- Proceeding line\u2011by\u2011line, each line containing one algebraic or combinatorial step followed by a brief explanation in parentheses.\n- Checking that the obtained value satisfies all conditions.\n- Outputting only the final numeric result on a separate line.",
+      "train_score": 0.8125,
+      "train_step": 7,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem briefly, introducing any symbols you need.  \n- Identify the single key result (formula, theorem, identity, or definition) that solves it.  \n- Perform a sequence of atomic deductions; each line carries out one algebraic or logical move and ends with a short justification in parentheses.  \n- Verify that the obtained value satisfies every condition of the original statement.  \n- Output only the final numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 64,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in your own words. Identify the unique formula or theorem required. Solve step\u2011by\u2011step, each step a single operation followed by a short parenthetical reason. Check the answer against the original conditions. Finally, write only the numerical answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 49,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7271022194435761,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem succinctly, introducing symbols as needed.  \n- Identify the single key principle (formula, theorem, or definition) that resolves it.  \n- Solve in a linear chain of statements; each line performs exactly one logical or arithmetic operation and ends with a brief justification in parentheses.  \n- After the derivation, confirm the result satisfies all given conditions.  \n- Output only the final numeric answer on a line by itself, without any additional text or formatting.",
+      "train_score": 0.8541666666666666,
+      "train_step": 48,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem mathematically, note any needed symbols. Identify the single relevant principle (formula, theorem, identity). Derive the answer in a compact chain of individual deductions, each followed by a short justification in parentheses. Confirm the result meets all constraints, then output only the numeric answer on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 75,
+      "test_score": 0.7202250703344796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the question in one sentence.\n- Identify the exact formula, theorem, or counting principle needed.\n- Solve the problem in a numbered list; each line must contain one computation or logical inference followed by a brief justification in parentheses.\n- After the derivation, verify that the result satisfies all conditions.\n- Output only the final numeric answer on a separate line, without any additional commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 14,
+      "test_score": 0.7192872772741482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step by step, clearly explaining each reasoning step, and provide the final answer explicitly.",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in a single sentence.  \n- Name the one theorem, definition or formula that applies.  \n- Show the work as a continuous chain of equalities, placing a brief justification in brackets after each step.  \n- Perform a quick check that the obtained value meets all the original conditions.  \n- End with a line that contains only the final numeric answer, no extra text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 29,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one sentence and introduce any necessary notation.  \n- Identify the single theorem, formula, or counting principle that solves it.  \n- Compute the answer as a numbered list; each step performs exactly one algebraic or logical operation and ends with a brief justification in brackets.  \n- Verify that the obtained value meets all conditions of the original question.  \n- Output only the final numeric result on a line by itself, without any extra text.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.7024070021881839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the problem in one clear sentence and define any symbols you need.  \n- Determine the one core principle (formula, theorem, or definition) that solves it.  \n- Work through the solution as a sequence of single\u2011operation lines; after each line place a brief justification in parentheses.  \n- Confirm that the computed value fulfills all requirements of the original question.  \n- Output only the final numeric result on a separate line, without any additional text or formatting.",
+      "train_score": 0.8333333333333334,
+      "train_step": 75,
+      "test_score": 0.6895904970303219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one sentence, define any symbols you need.  \n- Identify the single formula, theorem, or definition that will solve it.  \n- Solve step\u2011by\u2011step; each line performs exactly one algebraic or logical operation and ends with a brief justification in curly braces {\u2026}.  \n- Verify that the result satisfies all conditions of the question.  \n- Output only the final numeric answer on its own line, without any additional text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 68,
+      "test_score": 0.6867771178493279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem briefly, define variables.\n- Identify the single relevant concept (theorem, property, or formula) that solves it.\n- Derive the answer step-by-step, each step a single logical or arithmetic operation, with a brief justification in parentheses.\n- Verify answer meets constraints.\n- Output only the numeric answer on its own line, with no extra text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 94,
+      "test_score": 0.6814629571741169,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Briefly restate the question and introduce any needed symbols.  \n- State the single formula, theorem or property that directly yields the answer.  \n- Perform the computation in a linear list; each line carries out one elementary operation and ends with a short justification in parentheses.  \n- Confirm that the result satisfies all conditions of the problem.  \n- Output only the final numeric value on its own line, with no extra characters.",
+      "train_score": 0.8333333333333334,
+      "train_step": 76,
+      "test_score": 0.6783369803063457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in a single sentence and introduce any symbols you need.  \n- Identify the one fundamental rule (formula, theorem, or definition) that solves it.  \n- Compute the answer in a vertical chain; each line performs exactly one algebraic or logical step and ends with a brief justification in angle brackets \u2039\u2026\u203a.  \n- Verify that the obtained value meets all conditions given in the problem.  \n- Output only the final numeric result on its own line, with no extra words or symbols.",
+      "train_score": 0.8333333333333334,
+      "train_step": 84,
+      "test_score": 0.665833072835261,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.75054704595186,
+    "avg_test_score": 0.7162654996353027,
+    "best_test_instruction": "Restate the problem in your own words, pinpoint the essential facts or formulas, then solve it through a clear, numbered chain of deductions\u2014each step with a brief justification and any required computation. Conclude with a single line that contains only the final numeric answer."
+  }
+}

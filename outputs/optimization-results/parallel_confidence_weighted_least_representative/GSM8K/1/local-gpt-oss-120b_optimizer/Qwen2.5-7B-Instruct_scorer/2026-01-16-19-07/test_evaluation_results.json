@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Translate the given situation into appropriate arithmetic or algebraic expressions, solve them systematically, verify the calculations, and give the concise final answer (including units when needed).",
+      "train_score": 0.8918918918918919,
+      "train_step": 1,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the given quantities, construct the simplest direct expression that yields the answer, evaluate it (showing only one intermediate result if needed), confirm the computation, and end with a single line containing only the final numeric answer (including units if applicable).",
+      "train_score": 0.8918918918918919,
+      "train_step": 18,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break down the problem, identify all given quantities, use the correct formula or operation, perform the calculations stepwise, verify the result, and give the final answer clearly.",
+      "train_score": 0.8783783783783784,
+      "train_step": 1,
+      "test_score": 0.868081880212282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each problem, note all given measurements, translate them into a single arithmetic or algebraic expression that directly gives the required quantity, compute it (showing only the essential intermediate), verify the result, and answer in one brief statement including the correct unit and any necessary rounding.",
+      "train_score": 0.8783783783783784,
+      "train_step": 46,
+      "test_score": 0.868081880212282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantities involved, formulate the simplest correct equation, solve it while briefly verifying each step, and present only the final numeric result (with units if needed) in a single clear statement.",
+      "train_score": 0.8783783783783784,
+      "train_step": 5,
+      "test_score": 0.8567096285064443,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given quantity, construct the sole exact computation that yields the answer, perform it (displaying only any indispensable intermediate), double\u2011check, and present the final result with its unit in a single clear statement.",
+      "train_score": 0.8783783783783784,
+      "train_step": 54,
+      "test_score": 0.8551933282789992,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, map them to a single appropriate formula, compute the result (showing only a necessary intermediate), verify, and output the exact answer with units in one brief line.",
+      "train_score": 0.8783783783783784,
+      "train_step": 53,
+      "test_score": 0.8521607278241091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, extract all numeric facts, map them to a single correct formula, compute that formula (showing only the necessary intermediate if any), double\u2011check the result, and give the definitive answer with units in one brief line.",
+      "train_score": 0.8783783783783784,
+      "train_step": 61,
+      "test_score": 0.8498862774829417,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every numerical fact, choose the one precise calculation that yields the answer, perform it while presenting only a necessary intermediate, cross\u2011check the value, and give the final answer with any units in a single concise statement.",
+      "train_score": 0.8783783783783784,
+      "train_step": 96,
+      "test_score": 0.8347232752084913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every given number and its meaning, pick the one exact arithmetic or algebraic operation that yields the answer, compute it (showing only any essential intermediate), verify the result, and state the final numeric answer with units in a single clear sentence.",
+      "train_score": 0.8918918918918919,
+      "train_step": 52,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, note each numeric fact and its meaning, decide the single arithmetic or probabilistic formula that directly yields the answer, compute it (displaying only the necessary intermediate step), double\u2011check the result, and state the final number with any units in one short sentence.",
+      "train_score": 0.8783783783783784,
+      "train_step": 33,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, enumerate all given numbers with their context, select the appropriate mathematical operation or formula, compute the solution showing each necessary intermediate value and checking it, then state the exact final numeric answer (with units if any) in a single clear sentence.",
+      "train_score": 0.8648648648648649,
+      "train_step": 4,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every number and its meaning, write the single most direct mathematical expression that yields the answer, compute it (showing only any indispensable intermediate), verify the result, and provide the exact final value with units (if any) in one concise sentence.",
+      "train_score": 0.8918918918918919,
+      "train_step": 70,
+      "test_score": 0.7937831690674754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number with its meaning, devise the single exact expression that yields the answer, evaluate it displaying only the necessary intermediate value, double\u2011check the result, and state the final number with proper units (round only if whole units are required) in one clear sentence.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.7930250189537529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number in the statement and its meaning, select the precise formula or operation that directly links them, compute using only the necessary intermediate value, verify the result, apply appropriate rounding if the quantity must be whole (e.g., cans, people), and state the final answer (with units if any) in a single clear sentence.",
+      "train_score": 0.8783783783783784,
+      "train_step": 10,
+      "test_score": 0.7862016679302501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number with its interpretation, write the single most direct mathematical expression that answers the question, evaluate it (showing at most one essential intermediate value), confirm the result, and output the final numeric answer with any required unit in one concise sentence.",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.6315390447308568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numeric datum and its role, determine the single calculation that directly yields the required result, perform it showing only any essential intermediate, confirm the value, and present the final answer (with appropriate units and rounding) in one clear sentence.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.6163760424564063,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers with their context, decide the unique formula that yields the requested result, compute it (displaying only any indispensable intermediate), cross\u2011check the outcome, and state the final answer\u2014including units and required rounding\u2014in a single short sentence.",
+      "train_score": 0.6891891891891891,
+      "train_step": 99,
+      "test_score": 0.5511751326762699,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each quantity given, decide the unique arithmetic expression that produces the answer, evaluate it (showing at most one intermediate result if needed), verify the value, and present the final result\u2014rounded only if whole units are required\u2014in a single sentence with the proper unit.",
+      "train_score": 0.581081081081081,
+      "train_step": 99,
+      "test_score": 0.4670204700530705,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all quantities, choose the unique direct calculation, compute it while revealing only the essential intermediate, verify, and output the exact result with any required unit in one short sentence.",
+      "train_score": 0.5540540540540541,
+      "train_step": 99,
+      "test_score": 0.4655041698256255,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9082638362395754,
+    "avg_test_score": 0.7700639012238708,
+    "best_test_instruction": "Translate the given situation into appropriate arithmetic or algebraic expressions, solve them systematically, verify the calculations, and give the concise final answer (including units when needed)."
+  }
+}

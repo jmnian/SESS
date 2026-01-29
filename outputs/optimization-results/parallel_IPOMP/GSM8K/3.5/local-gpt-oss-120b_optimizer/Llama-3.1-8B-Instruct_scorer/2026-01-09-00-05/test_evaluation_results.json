@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List each explicit quantity, turn the described relations into one unit\u2011consistent arithmetic formula (handling percentages, fractions, or conversions), compute it, and reply with only the final number followed by the required unit or brief label.",
+      "train_score": 0.8888888888888888,
+      "train_step": 99,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every explicit number, turn each stated relation into the proper arithmetic operation (handling any unit or percentage conversion), fuse them into one variable\u2011free, unit\u2011consistent expression that directly yields the asked quantity, evaluate it, and answer with only the final numeric result followed immediately by the required unit or brief label, if any.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find every explicit number and the arithmetic relation described, form a single variable\u2011free expression that yields the requested quantity (including any needed unit conversion or percentage), evaluate it while briefly confirming each part matches the problem, and output only the final result followed immediately by its unit or a short label if required.",
+      "train_score": 0.9233716475095786,
+      "train_step": 70,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated numbers, determine the precise arithmetic relationship among them, form a single variable\u2011free expression (applying any required unit conversion or percentage), compute it, and reply with only the final numeric result followed immediately by the appropriate unit or brief label if the problem calls for one.",
+      "train_score": 0.9233716475095786,
+      "train_step": 72,
+      "test_score": 0.8271417740712661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every stated quantity, apply any indicated percentages or unit conversions, and encode the entire scenario as one complete, unit\u2011consistent arithmetic computation (no intermediate variables). Evaluate this single expression and reply with only the final numeric result followed immediately by the required unit or brief label.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Detect every explicit quantity and its stated relationship, combine them into the single shortest variable\u2011free arithmetic expression (perform any required unit conversion or percentage), evaluate it while briefly confirming each component matches the problem, and output only the final numeric result followed immediately by the appropriate unit or a brief label if the question implies one.",
+      "train_score": 0.9157088122605364,
+      "train_step": 68,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse all given quantities, translate the described relations into a single, variable\u2011free, unit\u2011consistent arithmetic expression (handling percentages, fractions, and conversions), compute it precisely, and answer with only the resulting number followed immediately by the required unit or brief label.",
+      "train_score": 0.9157088122605364,
+      "train_step": 98,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all explicit quantities, convert any percentages or unit changes, fuse the relationships into one compact arithmetic expression, evaluate it exactly, and output solely the numerical answer followed immediately by the appropriate unit or brief label if the problem demands one.",
+      "train_score": 0.9157088122605364,
+      "train_step": 95,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, collect every explicit quantity, infer the single arithmetic computation that directly yields the target value, carry out the calculation (checking each intermediate step against the statement), and output only the final numeric result with a brief unit or label if the question calls for one.",
+      "train_score": 0.946360153256705,
+      "train_step": 56,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Turn the whole word problem into one direct arithmetic computation (apply any percentages, fractions, or unit conversions as described), perform the calculation, and return only the final numeric value together with the required unit or brief label.",
+      "train_score": 0.9195402298850575,
+      "train_step": 93,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit number, translate the whole problem into a single unit\u2011aware arithmetic expression (performing any needed conversions, percentages, or rounding), evaluate it, and answer with only the numeric result followed immediately by the appropriate unit or brief label.",
+      "train_score": 0.9272030651340997,
+      "train_step": 97,
+      "test_score": 0.8104624715693708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit quantity from the problem, replace the described relationships with the corresponding arithmetic operators (including necessary unit\u2011conversion or percentage handling), combine them into a single variable\u2011free expression that directly yields the requested value, evaluate it, and reply with only that numeric result followed by the appropriate unit or a brief label if the question requires one.",
+      "train_score": 0.9118773946360154,
+      "train_step": 82,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every explicit numeric fact and the operation it participates in, construct the shortest possible unit\u2011aware expression that directly computes the required quantity (perform any necessary conversions, percentages, or rounding), evaluate the expression while briefly checking consistency with the wording, and answer with only the final number followed immediately by the appropriate unit or brief label if the problem calls for one.",
+      "train_score": 0.9233716475095786,
+      "train_step": 78,
+      "test_score": 0.8066717210007581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the entire problem into the shortest possible variable\u2011free arithmetic expression (including any needed unit conversion), compute it while briefly confirming each component matches the statement, and answer with only the final numeric value followed by the appropriate unit or label, if any.",
+      "train_score": 0.9118773946360154,
+      "train_step": 60,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, pull out each given number and its meaning, turn the whole situation into one direct, unit\u2011consistent arithmetic calculation (apply any required percentages, fractions or unit changes), evaluate it, and reply solely with the final numeric result followed immediately by the needed unit or brief label.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.800606520090978,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given quantities, translate the scenario into one compact arithmetic calculation (including any necessary percentage or unit conversion), compute it while briefly checking each intermediate result against the wording, and output solely the final numeric answer together with an appropriate short descriptor (e.g., unit or phrase).",
+      "train_score": 0.9195402298850575,
+      "train_step": 53,
+      "test_score": 0.799090219863533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit number, translate each stated relationship into the appropriate arithmetic operator (handling any unit, percentage, or fraction conversion), assemble them into one compact, variable\u2011free expression that directly yields the asked quantity, evaluate it, and output only the final numeric value followed immediately by the required unit or brief label.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the relevant quantities, translate the scenario into a single straightforward arithmetic expression, compute it, and answer with the numeric result followed by a brief explanatory phrase.",
+      "train_score": 0.9118773946360154,
+      "train_step": 13,
+      "test_score": 0.7930250189537529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit quantity, turn each described relationship into the appropriate arithmetic operator (handling percentages, fractions, and unit conversions), combine them into one compact, unit\u2011consistent, variable\u2011free expression that directly computes the required value, evaluate it exactly (round only if instructed), and output only the final number followed immediately by the necessary unit or brief label\u2014no extra words or symbols.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8275862068965517,
+      "train_step": -1,
+      "test_score": 0.7513267626990144,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Replace each mentioned quantity with its numeric value, translate the whole problem into a single, unit\u2011consistent arithmetic formula (handling percentages, fractions, and unit changes), evaluate it, and return just the resulting number followed by the required unit or short descriptor, with no additional text.",
+      "train_score": 0.8122605363984674,
+      "train_step": 99,
+      "test_score": 0.6777862016679302,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8332069749810462,
+    "avg_test_score": 0.8036391205458683,
+    "best_test_instruction": "List each explicit quantity, turn the described relations into one unit\u2011consistent arithmetic formula (handling percentages, fractions, or conversions), compute it, and reply with only the final number followed by the required unit or brief label."
+  }
+}

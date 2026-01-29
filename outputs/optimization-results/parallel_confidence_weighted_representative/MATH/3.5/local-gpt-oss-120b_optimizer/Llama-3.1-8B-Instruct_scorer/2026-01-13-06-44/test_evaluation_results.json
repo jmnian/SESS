@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a concise, ordered solution: briefly cite the core principle, execute only the essential calculations with minimal justification (including a quick sanity check if trivial), and conclude by printing solely the exact final answer in its simplest form.",
+      "train_score": 0.788235294117647,
+      "train_step": 8,
+      "test_score": 0.5395436073773054,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution and state the final answer.",
+      "train_score": 0.8058823529411765,
+      "train_step": 0,
+      "test_score": 0.5351672397624258,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing rule, carry out only the necessary calculations with a brief justification for each, optionally perform a quick sanity check, and finish by outputting only the exact final result in its simplest form.",
+      "train_score": 0.7705882352941177,
+      "train_step": 46,
+      "test_score": 0.5348546420756486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step-by-step solution and state the final answer.",
+      "train_score": 0.8294117647058824,
+      "train_step": 0,
+      "test_score": 0.5336042513285402,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, logical, step\u2011by\u2011step solution with clear reasoning at each stage and end with the precise final answer.",
+      "train_score": 0.7764705882352941,
+      "train_step": 1,
+      "test_score": 0.5289152860268834,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide just the necessary justification for each required step, compute only what is needed, and conclude by outputting the exact final answer alone in its simplest form.",
+      "train_score": 0.7705882352941177,
+      "train_step": 74,
+      "test_score": 0.5239137230384495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the essential principle, carry out only the necessary calculations each with a brief one\u2011sentence justification (include a quick sanity check if obvious), and conclude by outputting solely the exact final answer in its simplest form.",
+      "train_score": 0.7705882352941177,
+      "train_step": 65,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct step\u2011by\u2011step solution, providing a brief justification for each essential move, and finish by printing only the exact final answer on a single line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 95,
+      "test_score": 0.5185995623632386,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal solution: first, name the applicable theorem or rule; second, execute every required calculation, attaching a compact explanation to each; third, end with only the precise final answer, reduced if possible.",
+      "train_score": 0.7705882352941177,
+      "train_step": 39,
+      "test_score": 0.5151609878086902,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief solution: state the core idea, perform the essential calculations, and present only the final answer.",
+      "train_score": 0.7764705882352941,
+      "train_step": 2,
+      "test_score": 0.5101594248202563,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Apply the relevant rule, perform the minimal necessary computation (showing at most one concise justification), and finish by printing only the exact final numeric answer.",
+      "train_score": 0.7764705882352941,
+      "train_step": 47,
+      "test_score": 0.5095342294467021,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the governing concept, execute the necessary computation in no more than three concise steps (each with a brief rationale), optionally verify the result, and output solely the final numeric answer, fully simplified, on one line.",
+      "train_score": 0.788235294117647,
+      "train_step": 96,
+      "test_score": 0.5017192872772741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give the core idea, compute only what is required, give each step a concise justification if needed, and output only the exact final answer, fully reduced, on one line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 88,
+      "test_score": 0.4989059080962801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a minimal solution: in one line state the key idea, then in a sequence of one\u2011sentence steps perform the essential algebra or reasoning, optionally check the result, and finally output only the exact final answer, reduced.",
+      "train_score": 0.7764705882352941,
+      "train_step": 82,
+      "test_score": 0.4973429196623945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the single relevant concept, execute only the indispensable calculations with a brief one\u2011sentence rationale for each, optionally verify the result with a quick sanity check, and conclude by outputting the exact final answer, fully simplified, on its own line.",
+      "train_score": 0.711764705882353,
+      "train_step": 99,
+      "test_score": 0.49140356361362925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6705882352941176,
+      "train_step": -1,
+      "test_score": 0.4867145983119725,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single decisive insight, execute just the required arithmetic or algebra (each accompanied by a concise one\u2011sentence reason), optionally perform a quick sanity check, and finish by printing only the exact final result, completely reduced, on its own line.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.47733666770865896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the pivotal fact, execute just the indispensable arithmetic (give a brief clause if a step needs explanation), optionally perform a sanity check, and finish by writing only the exact final answer, fully reduced, on one line.",
+      "train_score": 0.6411764705882353,
+      "train_step": 99,
+      "test_score": 0.4432635198499531,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the single relevant rule, execute only the unavoidable arithmetic (explaining each move in one short sentence), optionally do a quick sanity test, and end with the precise final answer alone, fully reduced, on one line.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.42169427946233196,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the single relevant rule, then solve the problem in a minimal chain of logical moves\u2014each move expressed in one line with a concise justification\u2014ending with the exact answer, reduced, printed alone on one line.",
+      "train_score": 0.611764705882353,
+      "train_step": 99,
+      "test_score": 0.41387933729290405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single principle needed, apply it in the minimal number of algebraic steps (each step limited to one short sentence of justification), optionally verify the result with an obvious check, and end with only the exact final answer, fully simplified, on a separate line.",
+      "train_score": 0.6058823529411764,
+      "train_step": 99,
+      "test_score": 0.4063769928102532,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5395436073773054,
+    "avg_test_score": 0.49566084639545094,
+    "best_test_instruction": "Provide a concise, ordered solution: briefly cite the core principle, execute only the essential calculations with minimal justification (including a quick sanity check if trivial), and conclude by printing solely the exact final answer in its simplest form."
+  }
+}

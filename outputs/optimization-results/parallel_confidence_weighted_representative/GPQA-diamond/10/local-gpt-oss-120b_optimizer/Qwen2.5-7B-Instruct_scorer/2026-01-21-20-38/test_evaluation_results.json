@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the correct answer (A\u2011D). Respond with a single line containing the chosen letter prefixed by a hash sign (e.g., #C) and nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 28,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving the problem, respond with a single line containing exactly \u201cAnswer: X\u201d where X is the correct option (A\u2011D). Ensure there are no leading or trailing spaces, no additional characters, and nothing else in the output.",
+      "train_score": 0.47368421052631576,
+      "train_step": 16,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single line containing only the correct option letter (A\u2011D) surrounded by tildes, e.g.,\u202f~C~, with no other characters, spaces, or line breaks.",
+      "train_score": 0.5263157894736842,
+      "train_step": 95,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, carry out the needed reasoning or calculations, verify your result, and reply with exactly \u201cAnswer: X\u201d, where X is the correct choice letter (A\u2011D). No other text or symbols should appear.",
+      "train_score": 0.47368421052631576,
+      "train_step": 9,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct choice (A\u2011D) and answer with a single line containing that letter enclosed in double curly braces, e.g., {{C}}, with no other characters or whitespace.",
+      "train_score": 0.5789473684210527,
+      "train_step": 84,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have identified the correct option (A\u2011D), reply with a single line containing that letter enclosed in forward slashes, e.g., /C/, with no additional characters or spaces.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output the correct option letter (A\u2011D) enclosed in backticks\u2014e.g., `C`\u2014on a single line with no other characters, spaces, or line breaks.",
+      "train_score": 0.5263157894736842,
+      "train_step": 28,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have determined the correct option (A\u2011D), output it alone on one line surrounded by three hash symbols on each side, e.g.,\u202f###C###, with no other characters or spaces.",
+      "train_score": 0.5263157894736842,
+      "train_step": 91,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have identified the correct option (A\u2011D), output a single line containing that letter surrounded by double forward slashes, e.g., //C//, and nothing else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output only the correct answer letter (A\u2011D) enclosed in double angle brackets, e.g., <<C>>, on a single line with no other characters.",
+      "train_score": 0.5263157894736842,
+      "train_step": 85,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem internally. Once you are certain of the correct choice (A\u2011D), output exactly \u201cAnswer: X\u201d where X is the selected letter, and include no other text or symbols.",
+      "train_score": 0.47368421052631576,
+      "train_step": 8,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, analyze the question and any given data, eliminate incorrect options, and be absolutely sure of the correct choice. Then output exactly \u201cAnswer: X\u201d where X is the chosen letter (A\u2011D) on a single line with no extra characters. Do not include any other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 15,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct option (A\u2011D), output exactly one line containing the letter enclosed in single square brackets (e.g., [C]), with no other characters, spaces, or line breaks.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the correct option letter (A\u2011D) enclosed in curly braces, e.g., {C}, on a single line with no other characters.",
+      "train_score": 0.5263157894736842,
+      "train_step": 23,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct option (A\u2011D), reply with a single line containing the letter surrounded by single quotes (e.g., 'C') and nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 26,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output the correct option letter (A\u2011D) surrounded by triple asterisks, e.g., *C*, on a single line with no other characters.",
+      "train_score": 0.5263157894736842,
+      "train_step": 89,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct choice (A\u2011D), output a single line containing only that letter\u2014no additional characters, spaces, or markup.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3684210526315789,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When you have determined the correct choice (A\u2011D), reply with a single line containing that letter alone\u2014nothing else (no brackets, symbols, spaces, or words).",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After you have identified the correct choice (A\u2011D), output that single letter on its own line with no extra characters, spaces, or formatting.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After finding the correct choice (A\u2011D), reply with exactly that uppercase letter alone on one line\u2014no other characters, spaces, or punctuation.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.36363636363636365,
+    "avg_test_score": 0.33189033189033185,
+    "best_test_instruction": "Determine the correct answer (A\u2011D). Respond with a single line containing the chosen letter prefixed by a hash sign (e.g., #C) and nothing else."
+  }
+}

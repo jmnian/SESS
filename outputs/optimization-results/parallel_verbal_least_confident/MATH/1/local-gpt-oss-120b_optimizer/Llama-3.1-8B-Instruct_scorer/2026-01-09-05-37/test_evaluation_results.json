@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, identify the essential data and the relevant mathematical concepts, then solve it step\u2011by\u2011step with brief, logical reasoning and explicit calculations. After completing the solution, present only the final numeric answer on a separate line, without any extra commentary.",
+      "train_score": 0.6041666666666666,
+      "train_step": 3,
+      "test_score": 0.5448577680525164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution that justifies every inference, and conclude with the final answer presented alone.",
+      "train_score": 0.6041666666666666,
+      "train_step": 1,
+      "test_score": 0.5342294467020944,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by briefly identifying the key concepts, then carry out the calculations step\u2011by\u2011step with clear justification, and finish by presenting the final answer as a single number.",
+      "train_score": 0.6666666666666666,
+      "train_step": 1,
+      "test_score": 0.5295404814004376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break down the problem into its essential parts, state the applicable formulas or principles, carry out each calculation with a brief justification, and conclude by presenting only the final numeric answer in plain form.",
+      "train_score": 0.6041666666666666,
+      "train_step": 3,
+      "test_score": 0.5236011253516724,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step-by-step, showing the reasoning and providing the final answer.",
+      "train_score": 0.6041666666666666,
+      "train_step": 0,
+      "test_score": 0.5182869646764614,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear solution approach and the final answer in English.",
+      "train_score": 0.625,
+      "train_step": 0,
+      "test_score": 0.5126602063144733,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For the given question, determine the essential information, apply the appropriate formula or counting argument in a compact, stepwise manner, and terminate the answer with only the final numeric value on a separate line, nothing else.",
+      "train_score": 0.6041666666666666,
+      "train_step": 24,
+      "test_score": 0.5114098155673648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution using logical steps, showing any necessary calculations, and end the response with only the computed number (include a decimal point if the number is an integer). No other text should follow the number.",
+      "train_score": 0.6041666666666666,
+      "train_step": 20,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out the necessary numbers and the single formula or concept required, compute the result in a concise sequence of steps, and end the response with just the final numeric value on its own line\u2014no additional words, symbols, or explanations.",
+      "train_score": 0.625,
+      "train_step": 26,
+      "test_score": 0.49452954048140046,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, extract the essential numbers and the one required mathematical relation, compute the result immediately, and finish by printing only the final numeric answer (show a decimal point for whole numbers) on a line by itself with no extra text.",
+      "train_score": 0.625,
+      "train_step": 12,
+      "test_score": 0.4939043451078462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a problem, generate a clear and correct answer using knowledge and reasoning based on the content of the question.",
+      "train_score": 0.6041666666666666,
+      "train_step": 0,
+      "test_score": 0.4920287589871835,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a detailed solution to the problem using logical reasoning and step-by-step calculations.",
+      "train_score": 0.5833333333333334,
+      "train_step": 0,
+      "test_score": 0.4882775867458581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5625,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract the essential quantities and the single mathematical principle required, solve it in a short numbered sequence with brief justifications, and finish by writing only the final numeric answer on its own line\u2014no extra words, symbols, or punctuation.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.4820256330103157,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the essential quantities and the single key formula or theorem, solve the problem in a short numbered list (one concise step per line with a brief justification), and finish with a lone line that contains only the final answer formatted exactly as the problem requests (rounded and with a decimal point only if required). No other text, symbols, or commentary may appear after the final number.",
+      "train_score": 0.6875,
+      "train_step": 93,
+      "test_score": 0.47671147233510475,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract all relevant quantities, choose the appropriate mathematical principle(s), perform the calculations in a short ordered list (one line per step), and output only the final numeric answer on its own line (include a decimal point only if needed). No additional commentary.",
+      "train_score": 0.6041666666666666,
+      "train_step": 18,
+      "test_score": 0.47671147233510475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence, list the given quantities and the single formula or principle needed, then solve it in a brief numbered sequence where each step includes a short justification. Conclude by printing only the final numeric result on its own line, showing a decimal point even for whole numbers, and nothing else.",
+      "train_score": 0.625,
+      "train_step": 9,
+      "test_score": 0.4676461394185683,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using concise reasoning, show only the essential calculations, and end with the exact answer on a line by itself (as a plain number, no trailing punctuation). Do not include any additional text before or after the answer.",
+      "train_score": 0.6041666666666666,
+      "train_step": 90,
+      "test_score": 0.4638949671772429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, isolate the essential numbers and the single mathematical relationship required, then carry out the computation step\u2011by\u2011step, writing each step on its own line with a brief comment. Conclude by placing only the final numeric result (include a decimal point if it is an integer) on a separate line, with no additional text.",
+      "train_score": 0.6041666666666666,
+      "train_step": 5,
+      "test_score": 0.45858080650203187,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, extract the relevant numbers and the single mathematical rule needed, reason through the solution in a few short sentences (one per step), and end the response with only the final numeric answer on a line by itself (show a decimal point only if the answer is non\u2011integer). No other text should appear after the answer.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.45139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the question, isolate the single formula or counting principle that solves it, execute the computation in a straightforward chain of one\u2011sentence steps, and conclude with the exact answer as a lone number on the next line\u2014nothing else.",
+      "train_score": 0.6041666666666666,
+      "train_step": 23,
+      "test_score": 0.40200062519537355,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5448577680525164,
+    "avg_test_score": 0.4907337114276783,
+    "best_test_instruction": "Read the problem, identify the essential data and the relevant mathematical concepts, then solve it step\u2011by\u2011step with brief, logical reasoning and explicit calculations. After completing the solution, present only the final numeric answer on a separate line, without any extra commentary."
+  }
+}

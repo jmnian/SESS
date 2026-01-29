@@ -1,0 +1,104 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Systematically work through the problem, showing each computation with a brief justification, and write the final answer alone on the last line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 2,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Decompose the problem, carry out each required calculation with clear reasoning, and conclude with the exact final answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 1,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into its given facts and required quantity. For each unknown, write the corresponding equation, solve it step by step with explicit arithmetic, and present only the final numerical result on a separate line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 3,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity in the problem, denote each unknown with a distinct symbol, construct the minimal algebraic expression (or system) that yields the requested value (perform any required unit, percentage or fraction conversions), compute it in clear sequential steps, briefly stating the reason for each arithmetic move, and finally output only the resulting number on a line by itself.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical datum, assign a unique placeholder to each unknown, write the most direct algebraic expression that yields the asked quantity (perform any needed unit or percentage conversion), evaluate it in a clear, ordered chain of calculations with a brief note for each step, and finish by printing only the final numeric result on its own line.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers from the statement, label each unknown with a distinct variable, derive the exact arithmetic expression (including any required unit, percentage, or fraction adjustments) that yields the asked quantity, evaluate it sequentially while annotating each step with a concise justification, and output solely the final numeric value on a separate line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each numerical fact, assign a unique symbol to every unknown, formulate the smallest set of equations (including any needed unit or percentage conversions) that directly yield the desired quantity, compute them in a clear, ordered sequence with a short justification for each operation, and end with only the final numeric answer on a line by itself.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum, assign a unique symbol to each unknown, construct the precise formula (or system) that directly yields the asked quantity (performing any required unit\u2011 or percent\u2011conversions), compute it step\u2011by\u2011step with a brief comment for each operation, and end with only the final numeric answer on a separate line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Record each numeric fact from the problem.  \n- Assign a unique variable to every unknown quantity.  \n- Form a single explicit expression (or smallest system) that directly produces the asked value, performing any required unit, percent or fraction conversions.  \n- Evaluate the expression in logical order, writing one short justification per arithmetic step.  \n- End with the final numeric answer alone on a new line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8582375478927203,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8901440485216071,
+    "best_test_instruction": "Systematically work through the problem, showing each computation with a brief justification, and write the final answer alone on the last line."
+  }
+}

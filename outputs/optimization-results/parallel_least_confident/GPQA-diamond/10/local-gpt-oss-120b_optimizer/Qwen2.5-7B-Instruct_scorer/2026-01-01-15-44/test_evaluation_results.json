@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Step\u202f1 \u2013 Scan the prompt and the four answer letters.  \nStep\u202f2 \u2013 Isolate the critical data and the relevant rule or formula.  \nStep\u202f3 \u2013 Compute or reason to obtain the definitive result.  \nStep\u202f4 \u2013 Eliminate all mismatching options; the remaining letter is the answer.  \nStep\u202f5 \u2013 Print ONLY that single letter (A\u2011D) on one line, without any additional characters.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Is to initially confirm input and then a Logic being different from box; let together",
+      "train_score": 0.47368421052631576,
+      "train_step": 0,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, identify the key quantities, carry out any necessary calculations or logical deductions, and finally output the single correct choice (A, B, C, or D). Include a concise explanation of your reasoning before the final letter.",
+      "train_score": 0.42105263157894735,
+      "train_step": 3,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carefully read the question, extract the required information, perform any needed calculations or logical reasoning, and then choose the correct answer from the given options.",
+      "train_score": 0.3684210526315789,
+      "train_step": 0,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Step\u202f1 \u2013 Identify the key data in the problem statement.  \nStep\u202f2 \u2013 Apply the relevant principle or computation to obtain the result.  \nStep\u202f3 \u2013 Match the result to the four answer options.  \nStep\u202f4 \u2013 Write only the correct option letter (A\u2011D) on a single line, with no other text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 23,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the question and all four answer choices.  \n2. Identify the essential data and the concept needed.  \n3. Perform the required calculation or logical reasoning.  \n4. Determine which option matches the result.  \n5. Output the correct option letter (A\u2011D) on the first line, and on a second line give a brief justification (\u226412 words).",
+      "train_score": 0.42105263157894735,
+      "train_step": 77,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each question: (1) isolate the key facts; (2) apply the relevant theory or computation; (3) compare the result with the answer options; (4) answer with the single letter (A\u2011D) only. No extra commentary.",
+      "train_score": 0.3684210526315789,
+      "train_step": 7,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the prompt, compute or reason as required, and output a short justification and then only the correct option letter (A, B, C, or D).",
+      "train_score": 0.3684210526315789,
+      "train_step": 3,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the prompt, pinpoint the essential data, perform the needed calculations or logical reasoning, then answer with the single correct option (A\u2011D); include a brief one\u2011sentence justification before the letter.",
+      "train_score": 0.3684210526315789,
+      "train_step": 7,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Examine the question and the four options (A\u2011D).  \n- Determine which data are needed and which principle applies.  \n- Compute or deduce the answer.  \n- Respond with exactly one character: the correct option letter. No other symbols, words, or line breaks.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem and its multiple\u2011choice options, determine the correct answer through appropriate reasoning or calculation, and reply with the single letter (A, B, C, or D) of the chosen option.",
+      "train_score": 0.47368421052631576,
+      "train_step": 1,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Follow these steps:\n- Identify the key data and the concept needed.\n- Perform the required reasoning or calculation.\n- Choose the option (A\u2011D) that matches the result.\n- Respond with a single line containing the chosen letter only.",
+      "train_score": 0.15789473684210525,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each problem: (1) extract the key data and the principle needed; (2) carry out the required reasoning or computation; (3) compare the outcome with the answer choices; (4) reply with only the single correct option letter (A\u2011D) and no additional text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 11,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.2777777777777778,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the scenario, pinpoint the relevant scientific principles, perform any needed reasoning or calculation, and answer with only the single correct option letter (A\u2011D).",
+      "train_score": 0.3684210526315789,
+      "train_step": 2,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the question and all answer choices.  \n2. Identify the relevant information and the concept needed.  \n3. Perform the necessary reasoning or calculation.  \n4. Choose the option that matches the result.  \n5. Output only the single correct letter (A\u2011D) on a line, with no extra text.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question and answer choices, extract the relevant information, apply the necessary reasoning or calculation, and then output only the correct option letter (A\u2011D) on a single line. Include a brief justification (no more than one sentence) before the answer.",
+      "train_score": 0.5263157894736842,
+      "train_step": 45,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, isolate the relevant facts, apply the appropriate concepts to reach a solution, and respond with the single correct answer choice (A\u2011D) only. No extra text.",
+      "train_score": 0.3684210526315789,
+      "train_step": 4,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Identify the core data and the concept needed.  \n2. Solve the problem.  \n3. Write a single concise statement (max 12 words) explaining why the chosen option fits, then on a new line output only the option letter (A\u2011D).  \nNo other text is allowed.",
+      "train_score": 0.5263157894736842,
+      "train_step": 83,
+      "test_score": 0.23737373737373738,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the problem statement and the four options A\u2011D.  \n2. Extract the essential principle or data required to solve it.  \n3. Evaluate each option against that principle, eliminating those that conflict.  \n4. If a single option remains, it is the answer; otherwise choose the one that best matches all criteria.  \n5. Output a brief rationale (\u226412 words) prefixed by \u201cReason: \u201d, then on a new line output only the correct letter A\u2011D.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.16666666666666666,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the whole problem, extract the decisive fact(s), apply the appropriate concept, and immediately write the single correct choice letter (A, B, C or D) on its own line\u2014no explanations, symbols, or extra spaces.",
+      "train_score": 0.05263157894736842,
+      "train_step": 99,
+      "test_score": 0.13131313131313133,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.31313131313131315,
+    "avg_test_score": 0.2744107744107744,
+    "best_test_instruction": "Step\u202f1 \u2013 Scan the prompt and the four answer letters.  \nStep\u202f2 \u2013 Isolate the critical data and the relevant rule or formula.  \nStep\u202f3 \u2013 Compute or reason to obtain the definitive result.  \nStep\u202f4 \u2013 Eliminate all mismatching options; the remaining letter is the answer.  \nStep\u202f5 \u2013 Print ONLY that single letter (A\u2011D) on one line, without any additional characters."
+  }
+}

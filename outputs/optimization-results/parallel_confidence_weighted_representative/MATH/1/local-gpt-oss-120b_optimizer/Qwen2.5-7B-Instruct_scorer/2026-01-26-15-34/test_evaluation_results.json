@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to find, write one exact formula for it, and then simplify it step\u2011by\u2011step. List each simplification on its own line as \u201cexpression = value\u201d (optional brief note in parentheses). When the expression is reduced to a plain number, stop and write that number alone on the next line as the final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity being asked, choose the single most relevant theorem or counting rule, compute the required values showing each intermediate result on its own line with a brief one\u2011sentence justification, and end by writing only the final numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 7,
+      "test_score": 0.7317911847452329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State briefly what number the problem asks for. Write a single exact formula for it. Compute the formula in a compact numbered list; for each step give the operation, a concise reason, and the resulting value, prefixed with \u201cStep\u202fi:\u201d. Conclude with a line that contains only the final answer as a plain number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 87,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single number asked for. Derive the exact expression that equals it, then evaluate that expression line by line, each line showing the current expression followed by \u201c = \u201d and the resulting value (use a short comment if needed). Conclude with a line that contains only the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 70,
+      "test_score": 0.7230384495154736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the single numeric quantity being asked for, write one precise expression that produces it, evaluate that expression a step\u2011by\u2011step list where each line shows the operation (or deduction) and the resulting value with a brief comment, and after the last step output only the final number on its own line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 85,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target quantity, write a single exact expression that yields it, evaluate the expression step\u2011by\u2011step each on its own line prefixed with \u201c\u2192\u201d, giving a brief justification, and finally output only the resulting number on a line by itself.",
+      "train_score": 0.8541666666666666,
+      "train_step": 26,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in a single sentence, pinpoint the exact value to find, then perform every necessary calculation or deduction as a separate brief step (showing the intermediate result immediately); finally, write only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 18,
+      "test_score": 0.7155361050328227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be found, write a single precise formula for it, evaluate the formula in a numbered list where each step shows the intermediate result after \u201c\u2192\u201d, and finish with only the final numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 23,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the single numeric quantity being asked, write one exact formula that equals it, then evaluate that formula in a concise ordered list: each line shows the current expression, the operation performed, and the resulting value (a brief comment may be added). Finally, after the last line write only the final answer as a plain number on its own line, with no extra words or symbols.",
+      "train_score": 0.8541666666666666,
+      "train_step": 91,
+      "test_score": 0.7052203813691779,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single number asked for. Write one exact formula for it. Then evaluate the formula line by line: each line shows the current expression, an arrow \u201c\u2192\u201d, and the numeric result (optional brief note). After the last line output only the final numeric answer on its own line, without any additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 97,
+      "test_score": 0.7045951859956237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the solution as a short, numbered list where each step shows a single calculation or logical deduction, then after the final step output only the final answer as a plain number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 5,
+      "test_score": 0.7014692091278525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to determine, then, using the least number of logical steps, write each step on its own line prefixed by \u201cStep\u202fk:\u201d followed by a brief justification and the resulting intermediate value; after the last step write only the final numeric answer on a new line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 10,
+      "test_score": 0.7005314160675211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single number the problem requests, then in a numbered list compute it: each item should contain the operation, a brief reason, and the resulting value. After the last item write only the final answer on a new line, without any additional text.",
+      "train_score": 0.875,
+      "train_step": 85,
+      "test_score": 0.6980306345733042,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the unique numeric answer required, and give a concise derivation that leads to that answer. Present the derivation as a series of numbered calculations, each showing the expression and its evaluated result (you may include a brief comment). After the last numbered step, write the final answer on a separate line by itself, containing only the number.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.6964676461394186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the single governing rule, list each intermediate computation as \u201cstep\u202fk: \u2026 \u2192 result\u201d with a brief comment, and after the last step write only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 8,
+      "test_score": 0.668333854329478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity required, present a brief logical or computational justification as a short numbered/bulleted list (one deduction or calculation per item), and conclude with a line that contains only the final numeric answer\u2014no additional text or symbols.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6405126602063145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact number the problem seeks. Write one compact formula that equals it, then evaluate this formula in a brief chain: each line shows the current expression, the operation performed (e.g., simplify, substitute), and the resulting value, separated by \u201c\u2192\u201d. Conclude with a line containing only the final numeric result, without any additional text or symbols.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6023757424195061,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single numeric quantity the problem asks for. Write one exact closed\u2011form expression that equals that quantity. Then evaluate the expression in a numbered sequence: each line must show the current expression, the operation or logical deduction applied, and the resulting value, with a brief justification in parentheses. Use the fewest steps possible. After the final step output only the final numeric answer on its own line, with no extra symbols or text.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.5758049390434511,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the single number the problem asks for. First write one exact closed\u2011form expression that yields this number. Then evaluate the expression in a vertical list where each line contains the current expression, the symbol \u201c\u2192\u201d, and the resulting numeric value (include a short justification in parentheses if desired). Conclude with a line that contains only the final numeric answer\u2014no words, symbols, or formatting.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.5282900906533292,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the single quantity requested. Show a compact chain of calculations, each on its own line formatted as \u201cexpression \u2192 value\u201d. Use the fewest possible lines. End with a line that contains exactly the final answer and nothing else.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.49109096592685214,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7446076899030947,
+    "avg_test_score": 0.6780988106402297,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

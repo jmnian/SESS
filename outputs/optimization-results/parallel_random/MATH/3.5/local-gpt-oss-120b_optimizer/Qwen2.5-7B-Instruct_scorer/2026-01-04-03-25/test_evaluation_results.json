@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the single value sought, write down only the essential equations, evaluate each term sequentially giving a concise reason, perform a brief plausibility test, and conclude with the exact answer alone on a separate line.",
+      "train_score": 0.7647058823529411,
+      "train_step": 17,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the fundamental relation needed, perform the computation with brief but clear reasoning, verify the result, and finish by writing only the final answer (as a plain number or exact expression) on its own line.",
+      "train_score": 0.7529411764705882,
+      "train_step": 5,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7411764705882353,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what the problem asks for, construct the sole expression that yields that quantity from the given data, simplify it algebraically, then compute it in a minimal justified chain (no more than two short steps), verify the result with a quick plausibility check, and finish by writing only the final numeric (or exact) answer on its own line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 65,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity the problem asks for, write down the lone essential relationship that connects the given data to that quantity, evaluate it using a brief, justified chain of steps, perform a quick plausibility check, and finish by printing only the final numeric (or exact) answer on a separate line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 29,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem briefly, pinpoint the single quantity to determine, construct the minimal formula that links the given facts to that quantity, evaluate it with a concise, justified chain of steps, do a quick consistency check, and finish by writing only the final numeric (or exact) answer on its own line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 58,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely the quantity the problem asks for, formulate the single essential equation that connects the provided data to that quantity, evaluate it using at most two brief, justified calculations, perform a quick plausibility or sanity check, and finish by writing only the final numeric (or exact) answer on a separate line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 69,
+      "test_score": 0.7417943107221007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the precise value the problem asks for, form the most direct expression that combines the given information to produce that value, evaluate it in a compact chain of at most three justified operations, perform a rapid consistency check (e.g., size, parity, modular), and present solely the final numeric (or exact) answer on a separate line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 88,
+      "test_score": 0.7417943107221007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clarify the problem\u2019s ask, isolate the sole unknown, note the key relationship needed, compute stepwise with concise reasoning, double\u2011check the result, and end with only the final number or simplified expression on a separate line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 47,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what value the problem asks for, write the one governing equation that connects the given data to that value, solve it using no more than three short, justified calculations, perform a quick plausibility check (e.g., size, parity, or substitution), and finish by printing only the final numeric (or exact) answer on its own line.",
+      "train_score": 0.7647058823529411,
+      "train_step": 64,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity sought, replace the given data with the single most direct formula that yields it, simplify analytically as far as possible, evaluate with a concise, justified chain of at most three steps, perform a rapid sanity check (e.g., estimate magnitude or parity), and present only the final numeric or exact value on a separate line.",
+      "train_score": 0.7823529411764706,
+      "train_step": 60,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the specific value asked for, convert all given information into one minimal formula for that value, evaluate the formula in a succinct chain of at most three line\u2011by\u2011line calculations (each line showing the expression, the result, and a brief reason), confirm the result with an independent estimate, and output only the final number or exact expression on a separate line.",
+      "train_score": 0.7764705882352941,
+      "train_step": 69,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise quantity the problem requests, translate the given data into the shortest possible direct formula for that quantity, simplify the formula analytically, compute it in a brief, logically ordered sequence with succinct justifications, perform a quick sanity check, and conclude with only the final numeric (or exact) answer on a separate line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 55,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise quantity sought, note only the essential formulas or facts, compute each step with brief justification, perform a quick consistency check, and finish by outputting only the final numeric (or exact) answer on its own line, without any extra commentary.",
+      "train_score": 0.7588235294117647,
+      "train_step": 8,
+      "test_score": 0.7205376680212566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what quantity the question asks for, replace all given information by the one minimal expression that yields that quantity, evaluate it with at most two arithmetic or algebraic evaluations (each accompanied by a short justification), verify the result with an immediate magnitude or parity check, and print only the final numeric (or exact) answer on a separate line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 88,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the unique quantity to be found, write the single indispensable equation linking the given data to that quantity, evaluate it in a short, logically ordered chain with brief justification for each step, perform a quick sanity check, and output only the final numeric (or exact) answer on a separate line without any additional commentary.",
+      "train_score": 0.7705882352941177,
+      "train_step": 49,
+      "test_score": 0.6999062206939669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the lone quantity requested, translate all conditions into one concise expression, compute it with no more than two clear operations, briefly confirm the result, and present only the final number or exact expression on a separate line.",
+      "train_score": 0.6529411764705882,
+      "train_step": 99,
+      "test_score": 0.673648015004689,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, isolate the single unknown to be found, write the most compact formula that expresses it using the given data, compute the result in no more than two elementary steps (each with a brief justification), perform a quick sanity check, and then output only the final numeric (or exact) answer on its own line.",
+      "train_score": 0.6176470588235294,
+      "train_step": 99,
+      "test_score": 0.6014379493591747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the exact value requested. Reduce the problem to one indispensable formula built from the given data. Carry out the calculation in at most two short, justified moves. Check the result with an immediate estimate. Finally, print only the computed number (or simplified exact expression) on its own line.",
+      "train_score": 0.49411764705882355,
+      "train_step": 99,
+      "test_score": 0.5192247577367928,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity asked, write the single most direct formula that yields it from the given data, evaluate it in a brief chain of at most two justified steps, perform a quick sanity check, and output only the final numeric (or simplified exact) answer on its own line.",
+      "train_score": 0.4117647058823529,
+      "train_step": 99,
+      "test_score": 0.43482338230697093,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the exact value requested, compute it using the shortest possible direct formula, double\u2011check quickly, and respond with nothing but the final numeric (or exact) answer on a single line.",
+      "train_score": 0.27058823529411763,
+      "train_step": 99,
+      "test_score": 0.2031884964051266,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.755861206627071,
+    "avg_test_score": 0.6760743684782448,
+    "best_test_instruction": "Determine the single value sought, write down only the essential equations, evaluate each term sequentially giving a concise reason, perform a brief plausibility test, and conclude with the exact answer alone on a separate line."
+  }
+}

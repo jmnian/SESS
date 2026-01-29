@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 44,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "After reading the problem, identify the unique correct choice (A\u2011D). Output a single line exactly in the form  \n\n`Answer=<letter> \u2013 <justification>`  \n\nwhere `<justification>` is a brief statement of no more than seven words. Do not output any additional characters, spaces, or line breaks.",
+      "train_score": 0.4772727272727273,
+      "train_step": 55,
+      "test_score": 0.35267857142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, then output exactly two lines: first line \u201cAnswer: <letter>\u201d, second line a single-sentence justification (\u226410 words). No other characters or text may appear.",
+      "train_score": 0.4318181818181818,
+      "train_step": 39,
+      "test_score": 0.34151785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem and choose the single correct option (A\u2011D). Respond with exactly one line in the form  \n\n`Answer: <letter>; <justification>`\n\nwhere `<justification>` is a brief clause of six words or fewer. No other text, spaces before or after the line, or extra lines are allowed.",
+      "train_score": 0.45454545454545453,
+      "train_step": 75,
+      "test_score": 0.3392857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the single correct choice (A\u2011D). Output exactly one line in the form  \n\n`Answer=<letter>|<justification>`  \n\nwhere `<justification>` is a brief statement of at most six words giving the decisive reason. Do not include any other characters, spaces before or after the line, or additional lines.",
+      "train_score": 0.45454545454545453,
+      "train_step": 78,
+      "test_score": 0.3392857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, find the unique correct option (A\u2011D). Output a single line exactly:\n\n`Answer=<letter> \u2013 <justification>`\n\nwhere `<justification>` is a core reason expressed in five words or fewer. Do not include any other characters, spaces before or after the line, or extra lines.",
+      "train_score": 0.5,
+      "train_step": 74,
+      "test_score": 0.328125,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the correct option (A\u2011D). Output a single line exactly as `Answer=<letter>: <justification>` where `<justification>` is a concise phrase of ten words or fewer that cites the key reason. No additional characters or text may appear.",
+      "train_score": 0.45454545454545453,
+      "train_step": 55,
+      "test_score": 0.328125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the single correct choice (A\u2011D), and output exactly one line: \u201cAnswer: <letter> \u2013 <justification>\u201d. The justification must be a single sentence of \u22648 words. No additional text.",
+      "train_score": 0.45454545454545453,
+      "train_step": 35,
+      "test_score": 0.32589285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.29545454545454547,
+      "train_step": -1,
+      "test_score": 0.3236607142857143,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, find the correct option (A\u2011D). Output exactly two lines:  \n1. `Answer: <letter>`  \n2. `<justification>` \u2013 a single phrase of at most seven words that names the specific fact that leads to the answer. No other characters or blank lines may appear.",
+      "train_score": 0.4318181818181818,
+      "train_step": 49,
+      "test_score": 0.3236607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, decide which option (A\u2011D) is correct, and output a single line containing only that letter enclosed in square brackets\u2014e.g., `[C]`. No other characters, spaces, or line breaks are allowed.",
+      "train_score": 0.38636363636363635,
+      "train_step": 99,
+      "test_score": 0.31919642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, find the single correct choice (A\u2011D), and reply with exactly one line formatted as  \n\u201cAnswer: <letter>; <justification>\u201d.  \nThe justification must be one sentence of ten words or fewer; no other text or symbols are allowed.",
+      "train_score": 0.4318181818181818,
+      "train_step": 35,
+      "test_score": 0.31919642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, use appropriate reasoning to find the single correct option (A\u2011D), and reply exactly in the format: \u201cAnswer: <letter> \u2013 <justification>\u201d. The justification should be one sentence of ten words or fewer. No other text or symbols are allowed.",
+      "train_score": 0.4318181818181818,
+      "train_step": 31,
+      "test_score": 0.31473214285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the correct option (A\u2011D). Output a single line exactly as  \n`<letter>(<justification>)`  \nwhere `<letter>` is the answer and `<justification>` is a brief phrase of \u22646 words describing the key reason. No other characters, spaces, or line breaks may appear.",
+      "train_score": 0.4772727272727273,
+      "train_step": 62,
+      "test_score": 0.30580357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct choice (A\u2011D) and output a single line: \u201cAnswer=<letter>; <justification>\u201d. The justification must be a brief sentence of \u22648 words. No additional characters or text.",
+      "train_score": 0.45454545454545453,
+      "train_step": 36,
+      "test_score": 0.30580357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After reading the problem, choose the correct option (A\u2011D). Produce one line containing the letter, followed by a space, then a brief justification of no more than eight words, enclosed in parentheses. Do not add any other text.",
+      "train_score": 0.4772727272727273,
+      "train_step": 42,
+      "test_score": 0.27455357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the single correct option (A\u2011D). Output exactly one line in the form  \n\n`<letter>: <justification>`  \n\nwhere `<letter>` is the answer letter and `<justification>` is a brief phrase (max five words) giving the key reason. Do not include any other text, spaces before or after the line, or extra lines.",
+      "train_score": 0.1590909090909091,
+      "train_step": 99,
+      "test_score": 0.15625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the correct option (A\u2011D), and output a single line containing only that letter\u2014no extra symbols, words, or spaces.",
+      "train_score": 0.20454545454545456,
+      "train_step": 99,
+      "test_score": 0.09821428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After reading the problem, output a single line exactly as  \n\n`Ans=<letter> | <justification>`  \n\nwhere `<letter>` is A, B, C, or D and `<justification>` is a brief phrase of no more than six words that states the decisive reason. Do not include any other characters, spaces before or after the line, or additional lines.",
+      "train_score": 0.1590909090909091,
+      "train_step": 99,
+      "test_score": 0.09375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, determine the correct choice (A\u2011D). Respond with a single line exactly as  \n\n`Result: <letter>; <justification>`  \n\nwhere `<justification>` is a brief clause of at most eight words giving the essential reason. No other characters, spaces before or after the line, or extra lines are allowed.",
+      "train_score": 0.11363636363636363,
+      "train_step": 99,
+      "test_score": 0.08035714285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, determine the correct choice (A\u2011D). Respond with exactly one line in the form  \n\n`Result=<letter>;Reason=<justification>`  \n\nwhere `<justification>` is a brief phrase of up to eight words that gives the key reason. Do not include any other characters, spaces before or after the line, or extra lines.",
+      "train_score": 0.045454545454545456,
+      "train_step": 99,
+      "test_score": 0.029017857142857144,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, determine the correct option (A\u2011D). Respond with exactly one line in the form  \n\n`Choice=<letter>;Reason=<justification>`  \n\nwhere `<justification>` is a phrase of no more than seven words stating the key reason. Do not include any other characters, spaces before or after the line, or extra lines.",
+      "train_score": 0.045454545454545456,
+      "train_step": 99,
+      "test_score": 0.015625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.35267857142857145,
+    "avg_test_score": 0.2530824829931973,
+    "best_test_instruction": "After reading the problem, identify the unique correct choice (A\u2011D). Output a single line exactly in the form  \n\n`Answer=<letter> \u2013 <justification>`  \n\nwhere `<justification>` is a brief statement of no more than seven words. Do not output any additional characters, spaces, or line breaks."
+  }
+}

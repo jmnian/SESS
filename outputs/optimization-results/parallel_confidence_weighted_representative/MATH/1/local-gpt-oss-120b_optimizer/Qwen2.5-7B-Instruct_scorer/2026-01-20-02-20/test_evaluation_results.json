@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Answer by: (i) expressing the problem as one exact target; (ii) citing the unique formula or argument needed and performing only the required calculations (showing just the critical intermediate values); (iii) checking the result against all conditions; finally output only the final number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 63,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief answer by:\n- (a) reformulating the problem as one exact quantity to find;\n- (b) performing the only necessary computation using the appropriate principle, listing each unavoidable intermediate result;\n- (c) confirming the value meets every requirement and reporting just the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 79,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve in three compact moves: \u2022 Restate the problem as one exact mathematical target. \u2022 Identify and apply the single governing principle, performing only the necessary arithmetic and showing just the essential intermediate results. \u2022 Check that all constraints are satisfied and output only the final number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 42,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve in three steps: \u2022 Translate the question into a single clear mathematical statement. \u2022 Apply the one appropriate principle and compute, writing only unavoidable intermediate values. \u2022 Verify the answer satisfies every condition and return just the numeric result.\\n",
+      "train_score": 0.8333333333333334,
+      "train_step": 29,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution format: restate the problem as one exact expression \u2192 invoke the sole needed theorem/identity and perform the minimal calculation (show only essential intermediates) \u2192 check all constraints \u2192 output only the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 52,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution in three tight moves:\n\u2022 Convert the task into one precise quantity to determine.\n\u2022 Use the lone relevant rule or formula, carrying out only the indispensable arithmetic; write each necessary intermediate result on a separate line.\n\u2022 Confirm the result fulfills all given constraints and then print just the final number.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve in three crisp actions: (i) rewrite the question as a single clear mathematical expression; (ii) apply the one relevant rule or formula and compute, listing only indispensable intermediate numbers; (iii) verify the result meets every condition and output just the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 25,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7916666666666666,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nDeliver a tight solution: (a) paraphrase the problem in one clear statement; (b) select and apply the relevant mathematical tool, writing out the essential manipulations; (c) check that the obtained value satisfies the original requirements; (d) conclude with the sole numerical result.\\n",
+      "train_score": 0.8333333333333334,
+      "train_step": 16,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three concise phases: (i) rewrite the problem as a single clear mathematical expression; (ii) apply the one essential theorem or formula and carry out only the indispensable calculations, showing any needed intermediate values; (iii) verify that the result meets all given conditions and output only the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 23,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief solution that (i) restates the problem in one sentence, (ii) names the single mathematical tool needed, (iii) executes the computation step\u2011by\u2011step with just enough explanation, (iv) checks that the result fulfills every condition, and (v) ends with only the numerical answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 12,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: (a) restate the problem as a precise mathematical query, (b) cite the single core principle or formula required, (c) perform the necessary calculations step\u2011by\u2011step with brief justification, (d) quickly check that the result satisfies all conditions, and (e) output only the final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 7,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nDeliver a compact solution: (a) paraphrase the task, (b) pinpoint the essential theorem or operation, (c) execute the necessary calculations step\u2011by\u2011step with brief reasoning, (d) validate the outcome against all given requirements, and (e) present solely the final answer.\\n",
+      "train_score": 0.8333333333333334,
+      "train_step": 7,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution: (a) restate the problem in a single sentence; (b) name the one main theorem, formula, or operation needed; (c) execute all algebraic or arithmetic steps with brief justification; (d) check that the obtained value satisfies every given condition; (e) output solely the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 16,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a solution by (i) restating the problem, (ii) identifying the core concept or formula needed, (iii) carrying out every calculation explicitly, (iv) verifying that the result satisfies all conditions, and (v) outputting only the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three compact stages:\n\u2022 Restate the task as a precise mathematical target.\n\u2022 Apply the single relevant principle (e.g., permutation, combination, identity) and compute, displaying only unavoidable intermediate values.\n\u2022 Verify the result meets all constraints and write just the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 37,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in exactly three parts: (a) express the problem as a single clear target quantity; (b) perform the necessary calculation using the single relevant rule, writing only the indispensable intermediate values; (c) confirm the result meets all stated constraints and present just the final number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 93,
+      "test_score": 0.7255392310096905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Proceed in three brief actions:\n- Condense the problem to one exact numeric target.\n- Use the single appropriate theorem/formula, showing only unavoidable intermediate results.\n- Confirm the result satisfies every condition and print only the final number.",
+      "train_score": 0.8541666666666666,
+      "train_step": 79,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in five compact stages: (i) restate the problem in your own words; (ii) cite the single theorem or formula that solves it; (iii) perform the required algebra or arithmetic, displaying each intermediate step; (iv) quickly verify the result meets every condition; (v) output only the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 13,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the solution in exactly three concise actions:\n\u2022 Reformulate the problem as one clear algebraic or combinatorial quantity to be found.\n\u2022 Identify the single indispensable principle (e.g., a formula, identity, counting rule) and carry out the calculation, writing only the essential intermediate results.\n\u2022 Verify that the obtained value meets every condition and then output only that final number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 51,
+      "test_score": 0.6930290715848703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three tight moves:\n\u2022 Define the exact quantity the problem asks for.\n\u2022 State the single mathematical fact (identity, theorem, or formula) that determines that quantity.\n\u2022 Perform only the essential arithmetic/algebra, list any unavoidable intermediate values, confirm the result satisfies all given constraints, and finally write just the final numeral.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.6164426383244764,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.7314785870584558,
+    "best_test_instruction": "Answer by: (i) expressing the problem as one exact target; (ii) citing the unique formula or argument needed and performing only the required calculations (showing just the critical intermediate values); (iii) checking the result against all conditions; finally output only the final number."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every number, create the precise mathematical operation(s) required, evaluate them sequentially with internal checks, and return only the final integer answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 28,
+      "test_score": 0.9203942380591357,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every numeric value, convert the description into the smallest exact integer calculation(s) required, compute them sequentially while internally confirming each intermediate step, and output only the final integer answer.",
+      "train_score": 0.896551724137931,
+      "train_step": 21,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the narrative into a single algebraic/equation form using the listed numbers, solve it with brief internal validation, and respond with just the integer solution.",
+      "train_score": 0.896551724137931,
+      "train_step": 42,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each quantity, formulate the minimal arithmetic expression that solves the question, evaluate it with brief internal verification, and output only the final integer result.",
+      "train_score": 0.89272030651341,
+      "train_step": 17,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers present, formulate the exact integer formula (or simple linear equation) implied, solve it while verifying each intermediate step, and reply with the sole integer answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 80,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique integer that satisfies the problem by listing all numbers, converting any fractions or percentages to integers, constructing the exact arithmetic or one\u2011variable linear equation implied, solving it with quick internal checks, and outputting only that integer.",
+      "train_score": 0.896551724137931,
+      "train_step": 81,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical data, rewrite any non\u2011integer values as exact integers, construct the one required integer operation (addition, subtraction, multiplication, division, or a single\u2011variable linear equation), compute it while briefly confirming each step, and return only that final integer.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the statement, list every given quantity, derive the single exact arithmetic (or simple algebraic) expression that satisfies the description, evaluate it step\u2011by\u2011step while internally checking each intermediate value, and return only the final integer answer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 23,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the numeric facts, formulate the necessary arithmetic or algebraic expression, compute the result, verify its correctness, and reply with the single integer answer only.",
+      "train_score": 0.9003831417624522,
+      "train_step": 13,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical quantity, map the described relationships to the simplest integer calculation (addition, subtraction, multiplication, division, or a linear equation), solve it verifying each step, and return only the final integer value.",
+      "train_score": 0.89272030651341,
+      "train_step": 67,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every numeric value and its context, translate the scenario into the exact integer calculation it entails, solve it step\u2011by\u2011step while internally checking each stage, and provide only the final integer result.",
+      "train_score": 0.89272030651341,
+      "train_step": 76,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the pertinent numeric values, convert any units or fractions, form the exact integer calculation the problem demands, evaluate it step\u2011by\u2011step with internal verification, and output only the final integer result.",
+      "train_score": 0.89272030651341,
+      "train_step": 65,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, extract every number, reduce the problem to a single integer operation or one\u2011variable equation, evaluate it with quick internal validation, and return only the integer result.",
+      "train_score": 0.5210727969348659,
+      "train_step": 99,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, write down all given numbers and their relationships, convert any fractions to exact rational form, compute the unique integer result step\u2011wise while cross\u2011checking each intermediate value, and respond with that integer alone.",
+      "train_score": 0.89272030651341,
+      "train_step": 57,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number given, translate the scenario into the exact arithmetic or simple linear equation required, solve it step\u2011by\u2011step with internal verification, and output only the final integer answer.",
+      "train_score": 0.896551724137931,
+      "train_step": 37,
+      "test_score": 0.8476118271417741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract every numeric value (including those inside fractions or percentages), convert them to whole numbers, construct the single exact integer expression or one\u2011variable linear equation implied, compute it while briefly checking each intermediate result, and output only the final integer with no extra text.",
+      "train_score": 0.2681992337164751,
+      "train_step": 99,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, turn fractions or percentages into exact integers, formulate the single required integer calculation (basic arithmetic or one\u2011variable linear equation), evaluate it with brief self\u2011verification, and output only the final integer.",
+      "train_score": 0.6475095785440613,
+      "train_step": 99,
+      "test_score": 0.7028051554207733,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers present, convert any fractions or percentages to whole numbers as indicated, formulate the one exact integer expression (or simple one\u2011variable equation) that the problem demands, evaluate it with quick internal verification, and reply with only that integer.",
+      "train_score": 0.6513409961685823,
+      "train_step": 99,
+      "test_score": 0.6982562547384382,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number, formulate the single integer computation implied, evaluate it precisely, and output only the integer answer.",
+      "train_score": 0.8390804597701149,
+      "train_step": 99,
+      "test_score": 0.620166793025019,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value (including those inside words), interpret percentages and fractions as exact rational numbers, translate the problem into the single integer arithmetic expression or one\u2011variable linear equation required, compute it using exact rational arithmetic, verify each intermediate step, and output only the resulting integer.",
+      "train_score": 0.578544061302682,
+      "train_step": 99,
+      "test_score": 0.5572403335860501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7777777777777778,
+      "train_step": -1,
+      "test_score": 0.4313874147081122,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9203942380591357,
+    "avg_test_score": 0.8237120473663309,
+    "best_test_instruction": "Identify every number, create the precise mathematical operation(s) required, evaluate them sequentially with internal checks, and return only the final integer answer."
+  }
+}

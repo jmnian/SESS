@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem attentively, enumerate all given numbers and how they relate, translate these relationships into a precise arithmetic expression or a brief set of equations, compute the result with transparent intermediate steps, check that the value meets every condition described, and then present only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 4,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every numeric datum and give each a short variable, construct the single most direct exact expression (or minimal set of equations) that yields the quantity asked for using only the operations stated, evaluate it step\u2011by\u2011step with full\u2011precision intermediate results, verify that all given conditions (units, totals, limits) are satisfied, and output only the final numeric answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Capture every number and its role, translate the scenario into the smallest exact arithmetic or algebraic expression (including necessary unit conversions), evaluate it with a complete chain of intermediate results, verify that the answer fulfills every stated condition, and respond with only the final numeric value.",
+      "train_score": 0.9655172413793104,
+      "train_step": 8,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given quantity, label each with a brief symbol, form the most direct exact expression (or minimal system) that produces the asked\u2011for value, evaluate it step\u2011by\u2011step showing all intermediate results with full precision, verify that all stated conditions are satisfied, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 30,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity, assign a brief variable, write the single exact expression that solves the question, compute it step\u2011by\u2011step showing all intermediate values with full precision, verify all stated conditions, and output only the final numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numerical data with brief symbols, then formulate the uniquely shortest exact calculation (one formula or the minimal system) that uses solely the operations given in the problem to obtain the required quantity. Perform an exact symbolic simplification (keep fractions), compute numerically step\u2011by\u2011step showing every intermediate figure, verify that all constraints are met, and output exclusively the final number.",
+      "train_score": 0.9731800766283525,
+      "train_step": 89,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text isolate all quantities, assign simple symbols, formulate the single shortest exact arithmetic expression that directly gives the answer, evaluate it with a clear chain of intermediate values, ensure every condition of the problem holds, and present only the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 14,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity, give each a short symbol, build the single shortest exact expression that uses only the operations present in the problem, simplify symbolically (keep fractions, no rounding), compute it step\u2011by\u2011step showing each intermediate value, confirm that all stated conditions (totals, limits, units) are satisfied, and output only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 94,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum, assign a brief variable, construct the smallest exact calculation that yields the required value, compute it step\u2011by\u2011step showing all intermediate results, ensure all stated conditions hold, and output only the final number.",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, pick out every quantity and its unit, decide the single exact calculation that gives the required result, perform the computation step\u2011by\u2011step (showing each intermediate value), check that all stated conditions are met, then reply with only the final numeric answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given quantities with their context, assign them short symbols, formulate the single most compact exact expression (or minimal set of equations) that produces the asked value, compute it step\u2011by\u2011step displaying every intermediate result with full precision, ensure the outcome meets every condition stated (units, limits, etc.), and output solely the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 27,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather each number presented, tag it with a concise identifier, devise the shortest possible exact formula (or minimal set of equations) that computes the asked quantity using only the operations stated, simplify symbolically (preserve fractions), evaluate sequentially while displaying all intermediate results, confirm that every stated condition (units, limits, totals) is satisfied, and then output solely the final numeric value.",
+      "train_score": 0.9693486590038314,
+      "train_step": 76,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity with its unit, give each a short symbol, build the single shortest exact computation that uses only the operations explicitly stated, carry out the calculation analytically (preserving fractions) and then numerically step\u2011by\u2011step, checking after each step that the intermediate and final results satisfy any unit or limit constraints, and finally output only the final numeric result in the requested unit.",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers in the problem, label each with a concise symbol, construct the single most straightforward formula that uses only the operations described, compute it step\u2011by\u2011step while displaying every intermediate value, make sure any stated limits or totals are respected, and give only the final numeric result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data with their context, map each to a clear variable, write the most compact exact expression (or minimal set of equations) that directly produces the answer, evaluate it sequentially displaying each intermediate value, verify compliance with any constraints, and return solely the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 20,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value with its meaning, assign each a brief symbol, construct the single most compact exact expression that directly gives the required quantity, compute it step\u2011by\u2011step displaying all intermediate results, confirm that all given conditions are satisfied, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 26,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number together with its meaning, assign a distinct short symbol, write the minimal exact arithmetic or algebraic relation(s) that directly produce the required quantity, solve them analytically (keeping fractions exact) and then compute the decimal value step\u2011by\u2011step, display every intermediate value, verify that the solution obeys all stated conditions (units, limits, totals), and finally output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 54,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact together with its context, map each to a brief variable, then write the most compact exact computation (single formula or minimal equation system) that directly yields the quantity asked for. Compute it step\u2011by\u2011step, showing all intermediate results with full precision, check that all problem constraints (units, totals, percentages, bounds) are satisfied, and finally output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 31,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numerical datum with its unit, assign a short symbol, form the simplest exact expression (or minimal system) that computes the target quantity, evaluate it step\u2011by\u2011step showing each intermediate value without rounding, check that the result fulfills all stated conditions, and output solely the final number.",
+      "train_score": 0.9655172413793104,
+      "train_step": 28,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical value and its unit from the problem, assign each a brief identifier, construct the shortest exact formula (or minimal system of equations) that uses only the operations given to compute the requested quantity, simplify symbolically (keep fractions, no rounding), evaluate the formula step\u2011by\u2011step showing all intermediate results, verify that all problem constraints are satisfied, and output only the final numeric answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8505747126436781,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.8943283151016284,
+    "best_test_instruction": "Read the problem attentively, enumerate all given numbers and how they relate, translate these relationships into a precise arithmetic expression or a brief set of equations, compute the result with transparent intermediate steps, check that the value meets every condition described, and then present only the final numeric answer."
+  }
+}

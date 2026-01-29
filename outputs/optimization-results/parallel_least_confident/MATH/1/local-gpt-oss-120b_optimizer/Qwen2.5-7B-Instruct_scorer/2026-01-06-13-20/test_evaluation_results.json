@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Condense the problem to its essence, name the lone mathematical concept needed, perform the essential computation with brief reasoning, verify the intermediate conclusion, and present solely the exact final answer.",
+      "train_score": 0.9583333333333334,
+      "train_step": 22,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem briefly, pinpoint the single pivotal theorem or operation, perform just enough algebra or arithmetic to obtain the result (with a quick sanity check), and return only the final numeric answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 49,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8541666666666666,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the problem to its core requirement, pinpoint the singular mathematical rule that applies, carry out the minimal derivation needed (showing only unavoidable steps), confirm the result briefly, and conclude with just the numeric answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 39,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the core question, identify the one mathematical principle that solves it, perform the required calculation in the smallest number of clear steps (including a brief validity check), and present only the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 46,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, identify the single mathematical principle that solves it, execute the minimal justified computation with a quick sanity check, and end by giving only the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 56,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the challenge, identify the single mathematical operation required, carry out the minimal justified computation, perform a quick sanity check, and finish with only the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 43,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reduce the problem to its core, identify the single formula or principle that applies, solve it in at most two clear steps (including a quick sanity check), and provide only the final answer.",
+      "train_score": 0.9375,
+      "train_step": 45,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, isolate the single mathematical principle needed, perform the minimal necessary computation with a quick verification, and end with only the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 45,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the question to its essence, choose the one mathematical operation that solves it, carry out the calculation in the shortest clear sequence, perform a quick sanity check, and present only the final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 56,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question succinctly, isolate the single mathematical principle required, perform the minimal necessary derivation (showing only the essential calculation), quickly confirm its correctness, and return solely the exact final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 52,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the problem\u2019s essential goal, select the lone applicable theorem or operation, compute the answer using the fewest indispensable steps (with a brief self\u2011check), and output solely the precise final value.",
+      "train_score": 0.9375,
+      "train_step": 68,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question concisely, identify the single mathematical fact that resolves it, carry out the necessary computation in the minimum number of clear steps (with a quick sanity check), and present only the final numeric answer on a separate line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 99,
+      "test_score": 0.7070959674898406,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a terse solution: outline the problem in one sentence, choose the relevant mathematical method, carry out just the essential calculations with brief justification, verify the result, and present only the final numeric answer.",
+      "train_score": 0.9375,
+      "train_step": 11,
+      "test_score": 0.7067833698030634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential question, select the appropriate mathematical tool, compute the answer in as few justified steps as possible, verify quickly, and output only the exact result.",
+      "train_score": 0.9166666666666666,
+      "train_step": 25,
+      "test_score": 0.692403876211316,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Trim the task to its fundamental ask, select the one applicable mathematical fact, apply it in a single concise computation (with a quick sanity check), and present solely the exact numeric answer on a separate line.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.5629884338855893,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the task concisely, locate the one applicable theorem or rule, carry out the calculation in the fewest clear steps (including a brief sanity check), and output only the exact final numeric answer on its own line.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.3735542356986558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Reduce the problem to its core query, identify the single governing principle, compute the answer in a single compact justified expression (including a quick plausibility test), and output solely the final numeric result on its own line.",
+      "train_score": 0.3125,
+      "train_step": 99,
+      "test_score": 0.23694904657705532,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Condense the problem to one concise statement, determine the single mathematical rule that applies, perform the indispensable calculation in the fewest clear steps (with a quick plausibility check), and output only the exact numeric result on its own line.",
+      "train_score": 0.16666666666666666,
+      "train_step": 99,
+      "test_score": 0.18662081900593935,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the problem, determine the single periodic/modular rule that directly yields the needed digit or remainder, apply it in one compact calculation (with a quick plausibility check), and output only the final number on its own line.",
+      "train_score": 0.20833333333333334,
+      "train_step": 99,
+      "test_score": 0.18630822131916225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in one sentence, locate the single numeric principle required, execute the minimal calculation with a quick sanity check, and output only the final number on its own line.",
+      "train_score": 0.125,
+      "train_step": 99,
+      "test_score": 0.1678649577993123,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7571115973741794,
+    "avg_test_score": 0.6031497938343827,
+    "best_test_instruction": "Condense the problem to its essence, name the lone mathematical concept needed, perform the essential computation with brief reasoning, verify the intermediate conclusion, and present solely the exact final answer."
+  }
+}

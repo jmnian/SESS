@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Please complete the arithmetic or word problem step by step. You can write the fundamental problem details in sentences or even bullet points that have the accessibility feature that everyone can understand. The answer is at the end described and shown in the relevant brackets. This bracket [.] is robustly designed for assistant to interpret answer.",
+      "train_score": 0.8783783783783784,
+      "train_step": 0,
+      "test_score": 0.8354814253222138,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, note every quantity (including units), convert the described relations into the minimal arithmetic/algebraic formula(s), evaluate them sequentially while confirming each intermediate outcome, and finish with one complete sentence that gives the final numeric answer (and unit if needed) enclosed in square brackets.",
+      "train_score": 0.8783783783783784,
+      "train_step": 9,
+      "test_score": 0.8013646702047005,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric detail and its connection, form the single required calculation, work through it step\u2011by\u2011step while verifying each intermediate value, and present the final answer alone inside brackets.",
+      "train_score": 0.8648648648648649,
+      "train_step": 5,
+      "test_score": 0.7975739196360879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity (including units), translate the whole situation into the simplest possible equation(s), solve them step by step while briefly confirming each intermediate result, and finish with one clear sentence that ends with the numerical answer (and its unit, if any) enclosed in square brackets. No extra commentary.",
+      "train_score": 0.8648648648648649,
+      "train_step": 19,
+      "test_score": 0.778620166793025,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant information, carry out the necessary calculations, and provide the final answer.",
+      "train_score": 0.8783783783783784,
+      "train_step": 0,
+      "test_score": 0.7778620166793025,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, note every quantity (with units), write the exact arithmetic relationship(s) they imply, evaluate them sequentially while confirming each intermediate result, and finish with one clear sentence that ends with the final numeric answer (and unit if applicable) inside square brackets. No extra commentary.",
+      "train_score": 0.8783783783783784,
+      "train_step": 12,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record every numeric quantity (including units) and label it with a brief variable, write the exact formula(s) that connect them, compute the values step\u2011by\u2011step displaying each intermediate result, confirm each calculation, and finish with one sentence that ends with the final answer (and its unit, if any) inside square brackets. No other output.",
+      "train_score": 0.8783783783783784,
+      "train_step": 40,
+      "test_score": 0.7664897649734648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and how they relate, turn the problem into the necessary arithmetic expression(s), compute each step while confirming intermediate values, and end with one clear sentence that states the final numeric answer.",
+      "train_score": 0.8648648648648649,
+      "train_step": 3,
+      "test_score": 0.7536012130401819,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7972972972972973,
+      "train_step": -1,
+      "test_score": 0.7513267626990144,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and how they relate, turn these relationships into the simplest arithmetic or algebraic expression(s), solve step\u2011by\u2011step while displaying each intermediate value, verify the computation, and finish with one clear sentence that states the final answer (including units if relevant).",
+      "train_score": 0.8783783783783784,
+      "train_step": 4,
+      "test_score": 0.7437452615617892,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Some instruction",
+      "train_score": 0.8648648648648649,
+      "train_step": 38,
+      "test_score": 0.7429871114480667,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, enumerate every given quantity, turn the described relations into the smallest possible formula, evaluate it sequentially checking each intermediate result, and conclude with a single complete sentence that ends with the result (and unit if required) enclosed in [ ]. No other text.",
+      "train_score": 0.8648648648648649,
+      "train_step": 17,
+      "test_score": 0.7384382107657316,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record each given number (and its unit) as a short variable, write the exact arithmetic relation(s) that link them, evaluate the expression step\u2011by\u2011step while stating each intermediate result, and finish with one complete sentence whose final characters are the computed answer (with unit if needed) enclosed in square brackets. Do not include any other output.",
+      "train_score": 0.8918918918918919,
+      "train_step": 87,
+      "test_score": 0.730098559514784,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by noting each number (and its unit) presented in the problem. Assign a short variable to each, write the exact arithmetic relationship(s) that connect them, and evaluate the expression(s) sequentially, writing the result after each step. Conclude with one complete sentence that ends with the final numeric answer (and its unit, if any) enclosed in square brackets, and include no other text.",
+      "train_score": 0.8648648648648649,
+      "train_step": 20,
+      "test_score": 0.7194844579226687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (and its unit), assign a brief label, formulate the precise mathematical expression the problem implies, evaluate it step\u2011by\u2011step while showing and confirming each intermediate result, and end with a single complete sentence whose final characters are the computed answer (and its unit, if any) enclosed in square brackets. No additional output is allowed.",
+      "train_score": 0.6621621621621622,
+      "train_step": 99,
+      "test_score": 0.6497346474601972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers (including units), give each a short label, write the exact calculation that follows from the problem, evaluate it step\u2011by\u2011step showing each intermediate result, and end with one complete sentence whose final characters are the answer (and its unit, if any) enclosed in square brackets. Produce no other text.",
+      "train_score": 0.6891891891891891,
+      "train_step": 99,
+      "test_score": 0.6262319939347991,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number and its unit, name each with a brief symbol, formulate the exact calculation required, perform the computation showing each intermediate value on its own line, then write one final sentence that terminates with the answer (and unit if any) placed inside [ ]. Do not output anything else.",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.6065200909780136,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity (and its unit), assign it a brief symbol, write the precise arithmetic relationship(s) they create, compute the result step\u2011by\u2011step displaying each intermediate value, and finish with a single sentence whose final characters are the final answer (including its unit, if any) enclosed in square brackets. Do not include any other text.",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.6050037907505686,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity (including its unit), assign each a short label, formulate the exact arithmetic expression that links the labels, evaluate the expression step\u2011by\u2011step while verifying each intermediate result, and finish with one complete sentence whose final characters are the numeric answer (and its unit, if any) enclosed in square brackets. Produce no other text.",
+      "train_score": 0.5945945945945946,
+      "train_step": 99,
+      "test_score": 0.5898407884761183,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number (and its unit) from the problem, assign a short symbolic name, write the exact mathematical expression that uses those symbols, evaluate it step\u2011by\u2011step showing each intermediate value, and conclude with a single sentence ending in the final result (and its unit when needed) inside square brackets. Output no other text.",
+      "train_score": 0.5945945945945946,
+      "train_step": 99,
+      "test_score": 0.5852918877937832,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers (with units), give each a short label, write the single minimal formula that combines them, compute the value showing each intermediate outcome on its own line, then output one sentence that ends with the final answer (and unit if any) enclosed in square brackets. Nothing else should be printed.",
+      "train_score": 0.581081081081081,
+      "train_step": 99,
+      "test_score": 0.5003790750568613,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8354814253222138,
+    "avg_test_score": 0.7084371276941406,
+    "best_test_instruction": "Please complete the arithmetic or word problem step by step. You can write the fundamental problem details in sentences or even bullet points that have the accessibility feature that everyone can understand. The answer is at the end described and shown in the relevant brackets. This bracket [.] is robustly designed for assistant to interpret answer."
+  }
+}

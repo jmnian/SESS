@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8294117647058824,
+      "train_step": 18,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief derivation that isolates the key condition, converts it directly to the desired quantity with only necessary calculations, checks the result against the original constraints, and ends with the exact numeric answer alone on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 12,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the needed condition, translate it into an equation or inequality, solve for the unknown(s) using the simplest possible algebra, verify the solution meets the original condition, and output only the final numeric answer on a separate line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 87,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8117647058823529,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the given problem and systematically derive its solution. Use known formulas, logical reasoning, relevant patterns, and consistent unit checks to ensure a precise answer.",
+      "train_score": 0.8294117647058824,
+      "train_step": 0,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one concise sentence, pinpoint the exact formula or logical rule that resolves it, then work through a short numbered sequence where each step shows one indispensable calculation or inference together with a brief justification. After completing the steps, quickly check that the obtained value fulfills all given conditions, and end by writing only the final numeric answer on its own line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 37,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Condense the problem to a single statement, determine the one governing principle (formula, theorem, or counting rule) that resolves it, and work through a compact numbered list where each step presents only the essential calculation or inference with a brief rationale. Verify that the obtained value meets every condition given, then output exactly the final numeric answer on its own line with no surrounding text.",
+      "train_score": 0.8411764705882353,
+      "train_step": 35,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution, justifying each step, and end with the exact numeric answer without any extra commentary.",
+      "train_score": 0.8411764705882353,
+      "train_step": 2,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, logically ordered solution: briefly restate the problem, identify the core concepts or formulas needed, work through each step with clear justification and necessary calculations, and conclude with the exact final answer. Keep the explanation concise yet thorough.",
+      "train_score": 0.8352941176470589,
+      "train_step": 1,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reduce the problem to its essential condition, write the single expression (formula, counting argument, or modular relation) that yields the answer, evaluate it in the fewest possible steps (listing each step with a brief reason), confirm the result respects all given constraints, and end with the exact numeric answer on a line by itself, with no extra words.",
+      "train_score": 0.8352941176470589,
+      "train_step": 89,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Rephrase the question briefly, isolate the one essential relation or counting rule, then compute the answer using a short numbered sequence\u2014each item showing only the required calculation or inference with a brief justification; after confirming it satisfies all conditions, output the exact numeric result on a line by itself.",
+      "train_score": 0.8352941176470589,
+      "train_step": 32,
+      "test_score": 0.7164738980931541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence, pinpoint the single mathematical fact or operation needed, then solve it with a short numbered list where each step shows only the indispensable computation or logical inference together with a brief justification. Verify that the result meets all given conditions, and finish by writing exactly the final numeric answer on its own line with no extra text.",
+      "train_score": 0.8411764705882353,
+      "train_step": 22,
+      "test_score": 0.6999062206939669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one short sentence, identify the single governing principle (formula, theorem, or counting rule) that solves it, then compute the answer through a brief numbered sequence where each step shows only one indispensable calculation or logical inference together with a concise justification. Verify that the obtained value meets all original conditions, and finish by printing only the final numeric result on its own line, with no extra text.",
+      "train_score": 0.8352941176470589,
+      "train_step": 89,
+      "test_score": 0.6955298530790872,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential quantities, write the single governing equation or rule, compute the answer in the fewest logical steps (enumerated if helpful), confirm it meets all conditions, and end the response with only the final numeric value on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 65,
+      "test_score": 0.6858393247889966,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence restatement of the problem, then name the central concept or formula required. Solve it by a short numbered sequence where each entry contains only the essential calculation or logical move together with a brief justification. After obtaining a candidate, perform a quick verification that it satisfies all original conditions, and finish by printing only the final numeric answer on a line by itself, without any additional commentary.",
+      "train_score": 0.8352941176470589,
+      "train_step": 9,
+      "test_score": 0.6661456705220381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a one\u2011sentence description of the question, indicate the sole equation or counting principle that solves it, then evaluate it using a brief numbered list where each entry contains a single required computation together with a concise comment. Verify that the obtained value meets all given requirements and conclude by printing only the final number on a separate line.",
+      "train_score": 0.7647058823529411,
+      "train_step": 99,
+      "test_score": 0.6630196936542669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011sentence restatement of the problem, highlight the sole theorem, formula, or counting principle that produces the answer, and then solve it using a compact list (numbered or bulleted) where each entry contains exactly one essential calculation or logical step followed by a brief justification. After the list, confirm that the obtained value fulfills all stated conditions and conclude the response with only the final numeric answer on its own line, without any extra wording.",
+      "train_score": 0.7411764705882353,
+      "train_step": 99,
+      "test_score": 0.6561425445451704,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nIn one sentence, capture the task. Identify the core equation or counting rule that directly yields the answer. Solve it in a numbered list, where each entry performs one indispensable operation and includes a brief rationale. After the computation, verify the answer against the original constraints and output only the final number on its own line.\\n",
+      "train_score": 0.7058823529411765,
+      "train_step": 99,
+      "test_score": 0.6130040637699281,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011sentence restatement of the problem, identify the single formula or combinatorial rule that gives the answer, then compute it using a compact numbered chain where each line performs one essential operation with a brief comment. Finish by checking the answer against the original requirements and output only the final number on a new line, with no surrounding text, symbols, or units.",
+      "train_score": 0.6764705882352942,
+      "train_step": 99,
+      "test_score": 0.5992497655517349,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the question in one sentence, write the single key relation (formula, theorem, or counting principle) that yields the answer, evaluate it in a short ordered list where each line performs one necessary computation or logical deduction with a brief justification, confirm the result satisfies all given conditions, and output ONLY the final numeric value on a line by itself.",
+      "train_score": 0.7,
+      "train_step": 99,
+      "test_score": 0.5908096280087527,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "One\u2011sentence restatement \u2192 identify the single governing relation \u2192 solve using a numbered list of at most five steps, each step performing one indispensable calculation or inference and annotated with a brief justification. Verify the result meets all conditions, then output only the final numeric value on its own line, without any surrounding words or symbols.",
+      "train_score": 0.6647058823529411,
+      "train_step": 99,
+      "test_score": 0.5589246639574867,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7555486089402939,
+    "avg_test_score": 0.6920168505038777,
+    "best_test_instruction": "And ending with"
+  }
+}

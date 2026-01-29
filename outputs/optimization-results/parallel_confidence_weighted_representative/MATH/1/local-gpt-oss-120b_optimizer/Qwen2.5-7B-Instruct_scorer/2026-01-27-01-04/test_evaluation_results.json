@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the governing theorem or formula, carry out the needed calculations in a brief, ordered sequence (showing essential intermediate results), and conclude with only the final numeric answer on a separate line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 5,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.75,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a focused solution: briefly describe the key insight, perform the necessary calculations in a clear, linear sequence, display each intermediate result, and finish with the exact final answer (numeric) on a new line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete solution: outline the reasoning, execute the calculations, and give the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution: state the central idea, perform the required calculations step by step with concise justification, and conclude with the exact final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered explanation: identify the central concept, carry out the necessary calculations showing any intermediate results, and finish with the exact final answer on its own line with no extra commentary.",
+      "train_score": 0.8125,
+      "train_step": 4,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... (instructions)",
+      "train_score": 0.7916666666666666,
+      "train_step": 44,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve the problem by first stating the underlying concept, then showing each calculation step with brief justification, and conclude with the final answer isolated on its own line.\\n",
+      "train_score": 0.8125,
+      "train_step": 4,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short solution that (i) states the key mathematical idea, (ii) carries out the required calculations in a clear, linear order, and (iii) places the exact final answer alone on the last line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 4,
+      "test_score": 0.7192872772741482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key formula or principle, compute all required quantities in a brief ordered list (showing each expression with its result), and end with a single line that contains only the exact final numeric answer\u2014no additional commentary before or after.",
+      "train_score": 0.7916666666666666,
+      "train_step": 15,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single theorem, definition, or formula that resolves the problem.  \nNext, list each indispensable calculation in a numbered line as \u201c<expression> = <value>\u201d (provide a brief comment only if the step is not obvious).  \nConclude with one line that contains only the final numeric answer, no other symbols or text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7024070021881839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nBriefly name the relevant principle, then enumerate every indispensable computation as a separate line in the form \\\"<expr> = <value>\\\" (add a parenthetical note only if the transition is not immediate). Finally, output only the final numeric result on its own line.\\n",
+      "train_score": 0.8125,
+      "train_step": 83,
+      "test_score": 0.6886527039699907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by briefly (i) naming the relevant theorem or formula, (ii) performing the necessary calculations in a clear, numbered sequence with minimal justification, and (iii) writing only the exact final numeric answer on a separate line. No additional commentary before or after the answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 6,
+      "test_score": 0.6780243826195687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single relevant formula, then compute the answer by a straight chain of equalities, each on its own line in the form \u201c<expression> = <value>\u201d. Add a brief parenthetical note only if the step is not obvious. End with a line that contains only the final numeric result.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single theorem or formula needed, then compute each required quantity in order, writing each step as \u201cstep\u202fk:\u202fexpression\u202f=\u202fvalue\u201d (omit explanations unless the step is not obvious), and conclude with one line that contains only the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 48,
+      "test_score": 0.6511409815567365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single theorem or definition that solves the task. Then for each required computation write a line \u201c<expression> \u2192 <value>\u201d (add a brief parenthetical comment only when the step is not obvious). After all calculations give one line containing exactly the final numeric answer and nothing else.",
+      "train_score": 0.8125,
+      "train_step": 93,
+      "test_score": 0.6280087527352297,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single principle (theorem, identity, or counting rule) that solves the problem.  \nThen list every necessary computation in a brief numbered format: \u201ck.\u202f<expression> = <value>\u201d (add a short parenthetical note only when the step is not immediate).  \nFinish with one line that contains only the final numeric answer, without any surrounding text or symbols.",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.5983119724914036,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single key formula or counting rule needed. For every indispensable computation write a line \u201c= <expression>: <value>\u201d (include a brief parenthetical justification only when the step is not self\u2011evident). Conclude with one line containing solely the final numerical result.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.5498593310409503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Pinpoint the single formula, theorem, or counting argument that directly solves the question.  \n- Compute every indispensable quantity in turn, writing each as \u201c<expression> \u2192 <value>\u201d. Append a brief parenthetical comment only when the transition is not immediate.  \n- Once all intermediate values are listed, write one final line that contains exactly the numeric answer \u2013 no extra text, symbols, or formatting.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.5395436073773054,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a one\u2011sentence description of the main idea, then write every indispensable calculation on its own line in the form \u201c<expr> = <value>\u201d (add a short parenthetical comment only if the equality is not obvious). Finally, output a single line that contains exactly the final numeric answer and nothing else.",
+      "train_score": 0.4583333333333333,
+      "train_step": 99,
+      "test_score": 0.41950609565489216,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nIdentify the one formula or theorem that directly solves the problem. Then, in a clear vertical list, write each required calculation as \\\"<expression> \u2192 <value>\\\" (add a brief comment only when the transformation is not immediate). Finally, output a single line containing exactly the final numeric answer\u2014nothing else.\\n",
+      "train_score": 0.4166666666666667,
+      "train_step": 99,
+      "test_score": 0.4045014066895905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7517974366989685,
+    "avg_test_score": 0.6619628157608777,
+    "best_test_instruction": "Identify the governing theorem or formula, carry out the needed calculations in a brief, ordered sequence (showing essential intermediate results), and conclude with only the final numeric answer on a separate line."
+  }
+}

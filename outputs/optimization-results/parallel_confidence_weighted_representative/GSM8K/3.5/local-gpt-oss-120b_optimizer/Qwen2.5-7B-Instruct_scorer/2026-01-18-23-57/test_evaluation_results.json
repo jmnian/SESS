@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "First, name the unknown quantity you need to find. Then, for each arithmetic operation required, write a separate line containing the complete calculation (including an equals sign and the resulting intermediate value). After all intermediate lines, output one final line that contains only the numeric answer\u2014nothing else.",
+      "train_score": 0.9540229885057471,
+      "train_step": 40,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the value to compute. For each needed arithmetic step write the full expression, an \u201c=\u201d, and its result on a separate line. After the last step output one line that contains exactly the final answer\u2014nothing else.",
+      "train_score": 0.9386973180076629,
+      "train_step": 53,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown quantity (you may assign it a variable). For each required arithmetic operation write a separate plain\u2011text line of the form  \n\n`<full expression> = <result>`  \n\n(you may add a brief reason before the expression). After completing all such lines, output one final line that contains only the exact numeric answer\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.9540229885057471,
+      "train_step": 73,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity being asked for. Then, for every arithmetic operation needed, write a separate plain\u2011text line:\n\n`<full expression> = <result>`\n\nA brief explanation may precede the equation. After all intermediate lines, place one final line that consists solely of the numeric answer\u2014nothing else.",
+      "train_score": 0.946360153256705,
+      "train_step": 80,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to find. For every arithmetic operation required, write the full expression followed by its value on a new line (you may include brief explanatory words before the expression). After the last computation, output a single line that contains exactly the final answer\u2014nothing else.",
+      "train_score": 0.9386973180076629,
+      "train_step": 42,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown quantity. Then, for every required arithmetic operation, write a line containing the expression, an = sign, and the evaluated result (you may place a short rationale before the expression). After all such lines, output one final line that contains only the final numeric value\u2014nothing else.",
+      "train_score": 0.946360153256705,
+      "train_step": 61,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to be found. For each arithmetic step required, write a separate line containing the complete expression, an \u201c=\u201d, and its evaluated result (you may add a brief comment before the expression). After all such lines, output one final line that consists solely of the exact numeric answer\u2014no other words or symbols.",
+      "train_score": 0.9540229885057471,
+      "train_step": 88,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: perform the necessary calculations or reasoning, show any essential intermediate steps, and output only the final numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 0,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clearly state what you are solving for. Then, for every arithmetic operation needed, write a separate line containing the complete expression followed by \u201c=\u201d, then its evaluated result (you may add a short note before the line). When all intermediate lines are written, produce one last line that consists solely of the final numeric answer\u2014nothing else.",
+      "train_score": 0.9425287356321839,
+      "train_step": 81,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Specify the quantity you must determine. Then, for every arithmetic operation required, write a separate line containing the complete calculation, an equals sign, and its resulting value (you may place a short explanatory note before the equation). After listing all such steps, output one final line that consists solely of the numeric answer\u2014nothing else.",
+      "train_score": 0.9386973180076629,
+      "train_step": 74,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Declare the quantity you need to find. For every arithmetic operation, write a plain\u2011text line of the form  \n\n`<full calculation> = <result>`  \n\nA brief explanatory note may be placed before the line. After the last computation, produce a single line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.868081880212282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the unknown variable. For each necessary arithmetic operation write a line in plain text: `<full calculation> = <result>` (you may add a short rationale before the equation). After you have written every intermediate line, produce one last line that contains only the final numeric answer, without any other characters.",
+      "train_score": 0.946360153256705,
+      "train_step": 73,
+      "test_score": 0.865049279757392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Declare what you are solving for. For every needed computation write a separate line that shows the complete arithmetic expression, an equals sign, and the computed result (a short comment may precede the line). After all such lines, output one line that contains solely the final numeric answer\u2014no extra characters.",
+      "train_score": 0.9501915708812261,
+      "train_step": 74,
+      "test_score": 0.8559514783927218,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify what you need to compute. Then for every arithmetic step write a plain\u2011text line:\n\n`<full expression> = <result>`\n\nOptionally prepend a short explanatory phrase. After the last such line, write a single line that consists of only the final answer\u2014no extra symbols, words, or formatting.",
+      "train_score": 0.9540229885057471,
+      "train_step": 92,
+      "test_score": 0.8544351781652767,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the quantity being asked, assign a variable if helpful, then for every required calculation write the full expression followed by its result on a separate line. After the last calculation output one line that contains only the final answer\u2014no words, symbols, or formatting. Keep the explanation brief and avoid code blocks or tables.",
+      "train_score": 0.9425287356321839,
+      "train_step": 42,
+      "test_score": 0.8521607278241091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Define the value you must find. Then, for every arithmetic step required, write a separate line formatted exactly as  \n\n`<expression> = <result>`  \n\n(you may include a concise explanatory phrase before the line). When all intermediate steps are listed, finish with one line that contains only the final answer\u2014no extra characters.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to find. For every required arithmetic step write a plain\u2011text line formatted as  \n\n`<full expression> = <result>`  \n\n(you may add a brief comment before the line). After completing all such lines, produce one final line that consists solely of the exact numeric answer\u2014nothing else.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the quantity you need to find. For every arithmetic operation required, write a separate plain\u2011text line of the form  \n\n`<full calculation> = <computed value>`  \n\n(you may place a brief explanatory remark before the line). After all intermediate lines, output one final line that contains only the final numeric answer\u2014no other words, symbols, or formatting.",
+      "train_score": 0.7471264367816092,
+      "train_step": 99,
+      "test_score": 0.711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the quantity to determine. For each needed computation write a separate line:\n\n`<complete calculation> = <result>`\n\nYou may add a brief comment before the line. After the last computation output one line that consists solely of the final numeric answer\u2014no extra symbols, words or formatting.",
+      "train_score": 0.5517241379310345,
+      "train_step": 99,
+      "test_score": 0.5344958301743745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the target value. Perform every required calculation, writing each as a complete arithmetic expression followed by \u201c=\u201d and its computed result on its own line (you may prepend a brief comment). After all intermediate lines, output one final line that contains only the final numeric answer\u2014no other characters.",
+      "train_score": 0.6475095785440613,
+      "train_step": 99,
+      "test_score": 0.5329795299469295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8968915845337376,
+    "avg_test_score": 0.8251922452074082,
+    "best_test_instruction": "First, name the unknown quantity you need to find. Then, for each arithmetic operation required, write a separate line containing the complete calculation (including an equals sign and the resulting intermediate value). After all intermediate lines, output one final line that contains only the numeric answer\u2014nothing else."
+  }
+}

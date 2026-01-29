@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the necessary figures, construct the most direct mathematical expression that produces the requested quantity, evaluate it, and return the exact result (as integer, lowest\u2011terms fraction, or decimal). If the prompt allows different answers, append a concise parenthetical clarification of the interpretation used.",
+      "train_score": 0.8378378378378378,
+      "train_step": 98,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the given quantities, set up simple equations or calculations, work through them step by step, and present only the final numeric answer.",
+      "train_score": 0.8378378378378378,
+      "train_step": 1,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant values, write a single arithmetic expression that yields the result, evaluate it, and output just the resulting number. If the problem is ambiguous, add a brief parenthetical clarification.",
+      "train_score": 0.8513513513513513,
+      "train_step": 27,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question by first listing the minimal calculational steps needed, then provide just the resulting number.",
+      "train_score": 0.8378378378378378,
+      "train_step": 1,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical element, deduce the single operation or compact expression that directly yields the quantity asked, compute it, and return exactly that value (as an integer, reduced fraction, or decimal). If the wording allows more than one answer, add a short parenthetical clarification of the interpretation used.",
+      "train_score": 0.8108108108108109,
+      "train_step": 73,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numeric inputs, derive the simplest single expression that gives the asked quantity, evaluate it, and output exactly that value (as an integer, reduced fraction, or decimal). If the wording allows more than one answer, add a short parenthetical clarification of the interpretation used.",
+      "train_score": 0.8243243243243243,
+      "train_step": 83,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric figure, devise the most compact formula that produces the answer, evaluate it, and return solely the numeric result (integer, lowest\u2011terms fraction, or decimal). When the problem is open to several interpretations, state the chosen one in a short parenthetical remark.",
+      "train_score": 0.8378378378378378,
+      "train_step": 90,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the essential numbers, combine them using the minimal arithmetic expression required, compute the result, and return just that number; if the wording allows different interpretations, note it briefly in parentheses.",
+      "train_score": 0.8243243243243243,
+      "train_step": 25,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numbers in the problem, determine the single calculation that gives the asked quantity, perform it, and output only the exact answer (integer, reduced fraction, or decimal). If more than one interpretation is possible, add a brief parenthetical note stating which one you used.",
+      "train_score": 0.8243243243243243,
+      "train_step": 96,
+      "test_score": 0.8612585291887794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly reason through the problem, compute the necessary quantity using the fewest arithmetic steps, and write only the final numeric answer (add a short parenthetical note if the wording allows multiple answers).",
+      "train_score": 0.8243243243243243,
+      "train_step": 56,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` and ending with `",
+      "train_score": 0.8378378378378378,
+      "train_step": 37,
+      "test_score": 0.844579226686884,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "The\nThe\nrefr\u2026...\nThe\nExtract the relevant quantities, devise the minimal arithmetic expression that directly yields the requested value, compute it, and output exactly that number. Include a brief parenthetical clarification only if multiple answers are possible.",
+      "train_score": 0.8108108108108109,
+      "train_step": 83,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key quantities, translate the situation into a simple arithmetic expression, compute the result, and give only the final numeric answer.",
+      "train_score": 0.8108108108108109,
+      "train_step": 1,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7432432432432432,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the needed numbers, create the most direct arithmetic expression that gives the requested result, evaluate it, and return only that value (integer, simplest fraction or decimal). Mention any assumed interpretation briefly in parentheses if the wording is ambiguous.",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.6474601971190296,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pull out every numeric datum, devise the most straightforward single calculation that produces the required quantity, perform it, and output only that value (as an integer, simplest fraction, or decimal). If the wording permits more than one interpretation, note the chosen one in a short parenthetical remark.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.5648218347232752,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text isolate every explicit numeric value, determine the single arithmetic operation or concise formula that produces the required answer, evaluate it, and return solely the resulting number (as an integer, simplest fraction, or decimal). If the problem is ambiguous, indicate the interpretation in a short parenthetical remark.",
+      "train_score": 0.527027027027027,
+      "train_step": 99,
+      "test_score": 0.5435936315390447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem extract the relevant quantities, build the shortest logical arithmetic expression that directly produces the answer asked for, evaluate it, and reply with exactly that number (integer, simplest fraction or decimal). If the wording permits more than one answer, add a concise parenthetical explanation of the interpretation used.",
+      "train_score": 0.32432432432432434,
+      "train_step": 99,
+      "test_score": 0.33358605003790753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numerical quantity given, discard any non\u2011essential text, form the single simplest arithmetic expression that directly yields the asked value, compute it, and output only that result (integer, lowest\u2011terms fraction, or decimal). If the wording admits more than one possible answer, add a brief parenthetical clarification of the interpretation used.",
+      "train_score": 0.13513513513513514,
+      "train_step": 99,
+      "test_score": 0.1819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the numeric data, apply the minimal arithmetic that directly yields the asked value, compute it, and output only that result (as an integer, reduced fraction, or decimal). Include a brief parenthetical note only when the problem admits more than one valid answer.",
+      "train_score": 0.16216216216216217,
+      "train_step": 99,
+      "test_score": 0.17968157695223655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the numbers, determine the single arithmetic expression that directly yields the requested quantity, compute it, and output only the final result (integer, reduced fraction or decimal). If the problem permits multiple interpretations, add a brief parenthetical note stating the chosen one.",
+      "train_score": 0.05405405405405406,
+      "train_step": 99,
+      "test_score": 0.15011372251705837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.7007112170114445,
+    "best_test_instruction": "Identify the necessary figures, construct the most direct mathematical expression that produces the requested quantity, evaluate it, and return the exact result (as integer, lowest\u2011terms fraction, or decimal). If the prompt allows different answers, append a concise parenthetical clarification of the interpretation used."
+  }
+}

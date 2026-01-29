@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every numeric datum, translate the described relationships into a single correct arithmetic expression, evaluate it using brief logical steps, and output only the final integer result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 6,
+      "test_score": 0.9181197877179682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numeric constants mentioned, translate every described relationship into the appropriate arithmetic operation (including addition, subtraction, multiplication, division, fractions, percentages, and unit conversions). Form a single exact mathematical expression that captures the entire scenario, evaluate it using exact rational arithmetic, and output only the resulting integer on a line by itself.",
+      "train_score": 0.9693486590038314,
+      "train_step": 63,
+      "test_score": 0.9181197877179682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, list all given numbers, translate each relationship into the corresponding arithmetic operation, combine them into one complete equation that captures the entire scenario (including any percentages, fractions, or unit conversions), compute the solution with a brief logical flow, and output only the resulting integer on a line by itself.",
+      "train_score": 0.9655172413793104,
+      "train_step": 45,
+      "test_score": 0.9173616376042456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, convert the described relationships into a single exact arithmetic expression (handling percentages, fractions, ratios, or unit conversions as needed), evaluate it with a brief logical justification, and output only the resulting integer on a line by itself.",
+      "train_score": 0.9655172413793104,
+      "train_step": 56,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeral, determine the exact arithmetic operation each relationship implies (including +, \u2212, \u00d7, \u00f7, %, fractions, ratios, or unit conversions), merge them into a single precise expression that solves the whole problem, evaluate it with exact arithmetic, and output only the integer result on a single line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 99,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each numeric value and the relational clue it participates in, convert the entire situation into a single exact arithmetic expression (handling ratios, percentages, fractions, or unit conversions as required), compute the result with concise logical steps, and output only the final integer answer on a line by itself.",
+      "train_score": 0.9655172413793104,
+      "train_step": 40,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, translate the whole scenario into one exact arithmetic computation (apply percentages, fractions, ratios, or unit conversions as required), evaluate it, and output solely the integer result on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 48,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every number, interpret each verbal relation as the correct mathematical operation (including addition, subtraction, multiplication, division, percentages, fractions, ratios, or unit conversions), combine them into one exact expression that captures the entire situation, evaluate it precisely, and print only the final integer result on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 82,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numbers, interpret each described relation as the appropriate arithmetic operation (including addition, subtraction, multiplication, division, percentages, fractions, ratios, or unit conversions), combine them into a single exact expression that solves the entire problem, evaluate it using exact integer arithmetic, and output only the final integer on its own line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 65,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, locate all numeric values and the exact operation each is involved in; form the one complete mathematical expression that resolves the problem (handling fractions, percentages, ratios, or unit conversions as needed), evaluate it using precise integer or rational arithmetic, and output solely the final integer result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 91,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric values and their implied relationships (including adds, subtracts, multiplies, divides, percents, fractions, ratios, and unit changes). Convert the whole scenario into one exact arithmetic expression, compute it with exact rational arithmetic, and print only the integer result on its own line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 65,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, extract all quantities, convert each described relation into the appropriate mathematical operator (including +, -, *, /, % , fractions, ratios, or unit changes), combine them into one precise formula that fully resolves the scenario, evaluate it using exact arithmetic, and print the resulting integer alone.",
+      "train_score": 0.9655172413793104,
+      "train_step": 81,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity mentioned, deduce the exact operation(s) required (handling percentages, fractions, or unit conversions as necessary), carry out the computation with brief logical steps, and output only the final integer result on a separate line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 16,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, infer the implied arithmetic operation (including fractions, percentages, ratios, or unit conversions), combine them into one exact expression, evaluate it, and output only the integer result on a single line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the numbers, deduce the sole computation required (account for fractions, percents, unit changes), perform it with brief logic, and print just the integer result.",
+      "train_score": 0.9731800766283525,
+      "train_step": 34,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8850574712643678,
+      "train_step": -1,
+      "test_score": 0.8407884761182715,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical quantity and the relationship it participates in, convert the whole problem into a single precise arithmetic formula (including unit conversions, percentages, fractions, or ratios), evaluate it using exact arithmetic, and output only the integer result on a single line.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text, list every given number and the operation it dictates, build a single exact formula that represents the whole problem (including any percentages, fractions, ratios, or unit conversions), evaluate it, and return only the resulting integer on a separate line.",
+      "train_score": 0.8237547892720306,
+      "train_step": 99,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number, map each verbal relation to the correct arithmetic operator (including +, \u2013, *, /, % , fractions, ratios, unit conversions), assemble one exact expression that solves the whole problem, evaluate it exactly, and output only the integer answer on its own line.",
+      "train_score": 0.8045977011494253,
+      "train_step": 99,
+      "test_score": 0.7733131159969674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value, determine the precise operation it represents (addition, subtraction, multiplication, division, percentage, fraction, ratio, or unit conversion), combine them into a single exact arithmetic formula that resolves the entire problem, evaluate it using exact arithmetic, and output only the resulting integer on its own line.",
+      "train_score": 0.7969348659003831,
+      "train_step": 99,
+      "test_score": 0.7467778620166793,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the text, list all quantities, map each described quantitative relationship to its exact arithmetic operator (including +, -, *, /, %, fractions, ratios, unit conversions), assemble them into one mathematically correct formula that solves the whole scenario, evaluate it with exact rational arithmetic, and output only the resulting integer on a single line.",
+      "train_score": 0.8007662835249042,
+      "train_step": 99,
+      "test_score": 0.6937073540561031,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9181197877179682,
+    "avg_test_score": 0.8700675114625076,
+    "best_test_instruction": "Identify every numeric datum, translate the described relationships into a single correct arithmetic expression, evaluate it using brief logical steps, and output only the final integer result."
+  }
+}

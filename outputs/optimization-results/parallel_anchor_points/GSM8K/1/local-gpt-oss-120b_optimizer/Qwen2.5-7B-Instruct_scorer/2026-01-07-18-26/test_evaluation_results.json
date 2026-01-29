@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify each numeric quantity (including its unit) in the problem and assign it a unique placeholder. Build the exact arithmetic expression that resolves the question. Compute the expression step\u2011by\u2011step, writing a short exact intermediate result after every elementary operation (keep fractions exact, no rounding). Verify that any condition given in the problem holds. Finally, output only the final numeric answer together with its unit, if applicable, and nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 73,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric value (with its unit), give it a unique variable, write one exact formula that yields the answer, compute the formula step\u2011by\u2011step listing one exact intermediate result per elementary operation (keep fractions exact, no rounding or unit conversion after the first step), confirm any condition in the problem, and finally output only the final number with its unit on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 87,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities (with units), assign each a unique symbol, form the exact expression that answers the question, compute it step\u2011by\u2011step listing one exact intermediate value per elementary operation (no rounding, keep fractions), check any condition, and output solely the final numeric answer with its unit.",
+      "train_score": 0.972972972972973,
+      "train_step": 67,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, pull every number with its unit, assign each a unique symbol, compose one exact calculation that solves the question, carry out the calculation one elementary operation at a time showing the exact intermediate result (retain fractions, keep units), verify any stated condition, and finally output only the final answer with its unit.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity (value and unit) in the prompt, label them uniquely, construct the precise algebraic equation that yields the answer, solve it step\u2011by\u2011step displaying one exact intermediate value after each elementary operation (fractions kept exact), verify any stipulated condition, and finally print only the resulting number with its unit, nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 76,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (with its unit) from the problem, assign a unique label to each, construct the single exact formula that yields the required answer, compute the formula step\u2011by\u2011step performing exactly one basic arithmetic operation per line while keeping fractions in unreduced exact form and carrying units, verify that all conditions given in the problem hold, and finally print only the final numeric answer with its unit on one line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each given quantity with its unit, bind it to a unique symbol, derive the exact expression that yields the required result, evaluate the expression step\u2011by\u2011step showing one intermediate value per elementary operation (keep fractions exact), confirm any stated constraints, and finally output only the final numeric answer with its unit, nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 63,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers (with units), label each uniquely, formulate the precise algebraic expression that solves the problem, evaluate it sequentially, writing one exact intermediate result per operation (no rounding, keep fractions), verify that all given conditions hold, then output only the final numeric result with its unit, nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 62,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse every quantity (value and unit) in the problem, assign each a distinct variable, write one exact formula that gives the answer, compute it step\u2011by\u2011step performing a single arithmetic operation per line while keeping all fractions symbolic (no rounding) and propagating units, check any stated condition, and finally output only the final numeric result with its unit on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 95,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each quantity (value and unit) in the statement, assign it a distinct label, compose one exact algebraic expression that solves the question, compute the expression one elementary operation at a time while preserving exact fractions and carrying units, confirm any stipulated condition, and finally output only the resulting number with its unit on a single line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers (including their units), translate the problem into a clear mathematical expression, evaluate it step\u2011by\u2011step while showing a brief intermediate result after each operation, verify that the result fulfills any stated conditions, and finally output only the final numeric answer with its unit if applicable, with no extra text.",
+      "train_score": 0.972972972972973,
+      "train_step": 12,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every numeric value (including its unit) present in the problem, give each a unique symbol, devise one exact algebraic expression that yields the answer, evaluate that expression step\u2011by\u2011step performing exactly one elementary operation per line while recording the precise fractional result (no rounding) and preserving units, verify that any condition given in the problem holds, and finally output only the final numeric answer with its unit on a single line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric piece of data (including its unit), give each a separate identifier, formulate the exact calculation that solves the problem, perform the calculation sequentially recording a concise intermediate value after each operation (keep fractions exact), verify any condition described, and then present only the final numeric answer together with its unit, without any additional commentary.",
+      "train_score": 0.972972972972973,
+      "train_step": 50,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric values (including units) in the problem, assign each a unique label, formulate one exact mathematical expression that solves the question using those labels, evaluate the expression line\u2011by\u2011line with exactly one elementary operation per line while keeping fractions symbolic and propagating units, verify that any condition given in the problem holds, and output only the final numeric answer with its unit on a single line.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity (value with its unit) from the problem, assign each a unique label and list the label\u2011value pairs, form one exact arithmetic expression using those labels that answers the question, evaluate the expression step\u2011by\u2011step performing exactly one elementary operation per line while keeping all fractions symbolic and propagating units, verify that any condition stated in the problem holds, and finally output only the final numeric result with its unit on a single line.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers (with units), label them uniquely, write the exact expression that solves the problem, evaluate it step\u2011by\u2011step showing one brief intermediate result per operation (keep fractions exact), verify any condition, then output only the final numeric answer with its unit, no extra text.",
+      "train_score": 0.972972972972973,
+      "train_step": 51,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (with its unit) from the problem, give each a unique symbol, write one exact arithmetic expression that answers the question using those symbols, evaluate the expression one elementary operation per line while keeping fractions symbolic (no rounding) and propagating units, check that any condition stated in the problem is satisfied, and finally output only the final numeric result with its unit on a single line.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric datum (including its unit) from the prompt, assign each a unique placeholder, write a single exact expression that yields the required answer, evaluate that expression step\u2011by\u2011step with one primitive operation per line while recording the exact intermediate result (keep fractions symbolic, no rounding), verify any stated condition, and finally output only the final numeric value with its unit, nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 85,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity (numeric value with its unit), give each a unique label and list the label\u2011value pairs. Form the exact formula that solves the question using those labels. Evaluate the formula step\u2011by\u2011step, writing one exact intermediate result per elementary operation (keep fractions symbolic, no rounding). Confirm any condition stated in the problem, then output only the final numeric answer with its unit, and nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 82,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numeric values (with units), assign each a distinct symbol, write the precise formula that yields the answer, compute the formula one operation at a time recording a brief intermediate result (keep fractions exact), confirm that any condition in the problem holds, and finally print only the final number with its unit (if any), nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 37,
+      "test_score": 0.8529188779378317,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9052312357846853,
+    "avg_test_score": 0.8765659410087006,
+    "best_test_instruction": "Identify each numeric quantity (including its unit) in the problem and assign it a unique placeholder. Build the exact arithmetic expression that resolves the question. Compute the expression step\u2011by\u2011step, writing a short exact intermediate result after every elementary operation (keep fractions exact, no rounding). Verify that any condition given in the problem holds. Finally, output only the final numeric answer together with its unit, if applicable, and nothing else."
+  }
+}

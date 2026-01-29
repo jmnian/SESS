@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Isolate the essential relationship, execute the bare\u2011minimum calculation (display an intermediate only if unavoidable), confirm the result with a brief check, and output solely the exact numeric answer on a single line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 41,
+      "test_score": 0.5139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform only the indispensable computation, confirm the result informally, and print the exact decimal answer alone on a single line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 34,
+      "test_score": 0.5120350109409191,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required value directly, using only indispensable arithmetic; if an intermediate step is unavoidable, show it once. Verify quickly, then output exactly the final result\u2014integer or decimal\u2014on a solitary line with no extra characters.",
+      "train_score": 0.875,
+      "train_step": 88,
+      "test_score": 0.5110972178805877,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unique formula that connects the input data to the unknown, compute the value with the minimal essential arithmetic (showing only any unavoidable intermediate number), perform a quick sanity check, and output exactly the final number on a single line, using a decimal point only if the answer is an integer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 11,
+      "test_score": 0.5095342294467021,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the decisive relationship, carry out only the essential computation, perform a quick sanity check, and output only the exact decimal answer on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 44,
+      "test_score": 0.5051578618318224,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core relationship, compute the required value using the fewest possible operations (show at most one indispensable intermediate), quickly check the result, and output the exact decimal answer alone on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 52,
+      "test_score": 0.503907471084714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer with the fewest necessary steps, optionally showing one unavoidable intermediate, quickly verify, and output the exact result\u2014integer, reduced fraction, or terminating decimal\u2014alone on a single line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Reduce the problem to its key formula, carry out only the indispensable arithmetic, briefly verify the result, and conclude with the exact numeric answer on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 9,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the minimal necessary computation (showing at most one unavoidable intermediate), quickly sanity\u2011check the result, and output only the final value\u2014written as an integer, a reduced fraction, or a simplified radical if appropriate\u2014on a single line with no extra characters.",
+      "train_score": 0.8333333333333334,
+      "train_step": 69,
+      "test_score": 0.4992185057830572,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the final expression, evaluate it using the minimum necessary arithmetic (display a single intermediate only if it cannot be avoided), confirm the outcome informally, and output the exact, unrounded numeric answer\u2014integer or simplified decimal\u2014as the only content of one line.",
+      "train_score": 0.875,
+      "train_step": 78,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer using the smallest possible number of operations, showing at most one indispensable intermediate if it cannot be omitted, perform a quick plausibility check, and print the final result\u2014exact integer or reduced decimal\u2014on a single line with nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 75,
+      "test_score": 0.49796811503594873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single formula that directly yields the unknown, perform only the essential computation (show at most one intermediate value if it cannot be omitted), do a quick plausibility check, and print exactly the resulting number\u2014integer or decimal\u2014on its own line with nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 58,
+      "test_score": 0.49703032197561736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the result with the minimum necessary steps and return just the numeric answer, formatted as a decimal, on its own line.",
+      "train_score": 0.875,
+      "train_step": 25,
+      "test_score": 0.49046577055329793,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the core equation, perform only the necessary calculation (showing at most one intermediate if unavoidable), verify briefly, and output the exact result\u2014integer, reduced fraction, or simplified decimal\u2014alone on a line with no extra text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 87,
+      "test_score": 0.4870271959987496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the result using only the indispensable formula, performing the fewest possible operations (show an intermediate only if it cannot be omitted), do a quick sanity check, and output the exact answer\u2014integer, reduced fraction, or terminating decimal\u2014alone on one line, with no extra characters.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.4867145983119725,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the needed formula, carry out the bare\u2011minimum arithmetic (showing a single intermediate only if unavoidable), quickly validate the outcome, and write the final decimal answer alone on one line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 45,
+      "test_score": 0.48421381681775555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Execute only the indispensable calculation and print the exact decimal result on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 50,
+      "test_score": 0.48421381681775555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the single necessary computation, make a quick sanity verification, and write the exact answer\u2014integer or terminating decimal\u2014as the only characters on one line.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.45951859956236324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the necessary expression, evaluate it with the smallest amount of arithmetic (showing one intermediate only if unavoidable), perform a brief consistency check, and output only the exact result\u2014integer, reduced fraction, or terminating decimal\u2014on a single line with no extra characters.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.45326664582682086,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the required value using only the indispensable operations (show a single intermediate only if unavoidable), perform a brief sanity check, and output the exact answer\u2014integer, reduced fraction, terminating decimal or simplified radical\u2014in its simplest form as the sole content of one line, with no extra characters, spaces, or commentary.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.37918099406064393,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5139105970615817,
+    "avg_test_score": 0.48841155718304824,
+    "best_test_instruction": "Isolate the essential relationship, execute the bare\u2011minimum calculation (display an intermediate only if unavoidable), confirm the result with a brief check, and output solely the exact numeric answer on a single line."
+  }
+}

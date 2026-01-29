@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Explain the core reasoning, perform the necessary computation, and end with the final answer presented alone.",
+      "train_score": 0.6666666666666666,
+      "train_step": 1,
+      "test_score": 0.5185995623632386,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the decisive formula or property, solve the problem in at most three self\u2011contained steps (each may include a short justification), and finish with a single line containing only the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 66,
+      "test_score": 0.5148483901219131,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution that first identifies the key insight, then carries out the necessary calculations in a clear sequence, and finally displays the exact numerical answer on its own line without any additional text.",
+      "train_score": 0.6458333333333334,
+      "train_step": 2,
+      "test_score": 0.5107846201938105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Highlight the pivotal formula or identity, execute the solution in no more than two short, self\u2011contained steps (including any necessary justification), and conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.7083333333333334,
+      "train_step": 71,
+      "test_score": 0.5073460456392622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single governing equation, evaluate it in one self\u2011contained calculation (you may add a brief justification inline), and output only the final numeric answer on a line by itself, with no extra symbols or text.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the essential principle, then solve the problem in at most two self\u2011contained steps (each may include a brief justification), and finish by printing only the final numeric answer on a single line with no additional characters.",
+      "train_score": 0.6666666666666666,
+      "train_step": 97,
+      "test_score": 0.49609252891528605,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a compact solution: note the governing principle, carry out the required computation with brief justification, and end by printing only the final numeric answer on its own line.",
+      "train_score": 0.6458333333333334,
+      "train_step": 3,
+      "test_score": 0.4951547358549547,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single key principle or identity needed, carry out the calculation in at most two brief, self\u2011contained steps (each may include a short justification), and conclude with exactly one line that contains only the final numeric answer, rounded to one decimal place if it is not an integer.",
+      "train_score": 0.6875,
+      "train_step": 97,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4583333333333333,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the single decisive rule (formula, identity, or counting principle), apply it in no more than two brief, self\u2011contained steps (each may include a short justification), and conclude with a lone line that contains only the final numeric answer.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.4882775867458581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the governing relation, then work through the solution in a clear, numbered list of no more than three brief steps, and finish with a single line that contains only the final result.",
+      "train_score": 0.6875,
+      "train_step": 30,
+      "test_score": 0.4870271959987496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Capture the essential principle in one brief clause, then resolve the problem in up to three short, justified steps, and finish by outputting only the final numeric result on a line by itself.",
+      "train_score": 0.7083333333333334,
+      "train_step": 45,
+      "test_score": 0.48233823069709286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the pivotal concept, work out the solution in no more than three independent short steps (each may contain a brief justification), and finish with a single line that contains only the final numeric answer in the required format.",
+      "train_score": 0.75,
+      "train_step": 95,
+      "test_score": 0.47921225382932164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nIdentify the central concept, then solve the problem in a maximum of three brief, self\u2011contained steps, each with a concise justification, and conclude with the exact numeric answer alone on the final line.\\n",
+      "train_score": 0.7083333333333334,
+      "train_step": 53,
+      "test_score": 0.4732728977805564,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the one theorem, formula, or relation that solves the problem. Carry out the solution in no more than three short, self\u2011contained steps (each may include a brief justification or calculation). Finish with a single line that contains only the final numeric answer, with no additional text.",
+      "train_score": 0.6666666666666666,
+      "train_step": 89,
+      "test_score": 0.4710847139731166,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the core equation that directly gives the answer, perform the required calculation in at most two self\u2011contained statements (each may include a short reason or arithmetic), and conclude with a line that consists solely of the final numeric result formatted exactly as required (no words, symbols, or spaces).",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.4638949671772429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the single essential relation needed, perform the calculation in at most two brief, independent steps (each step may include a short justification), and conclude with exactly one line that contains only the final numeric answer, without any additional characters or commentary.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.45201625507971244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the essential principle needed, then in no more than two concise, self\u2011contained steps (each may include a brief justification or computation), and conclude with a single line that contains only the final numeric answer formatted exactly as required (no surrounding text, spaces, or punctuation).",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.4395123476086277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the single key principle or formula required, carry out the computation in at most two short, self\u2011contained steps (each may contain a one\u2011sentence justification), and conclude with a line that contains only the final numeric result, properly rounded and free of any extra symbols or text.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.4345107846201938,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the single essential formula or inequality needed, then solve the problem in no more than two independent, self\u2011contained calculations (each may include a brief justification). Conclude with exactly one line that contains only the final numeric result, expressed as an integer or reduced decimal with no extra characters, spaces, or punctuation.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.4223194748358862,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the single governing relation needed, then solve the problem in exactly three self\u2011contained numbered steps (each may include a brief justification or computation), and finish with a line that contains only the final numeric result\u2014no extra text.",
+      "train_score": 0.6666666666666666,
+      "train_step": 86,
+      "test_score": 0.4151297280400125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5185995623632386,
+    "avg_test_score": 0.4774259813334525,
+    "best_test_instruction": "Explain the core reasoning, perform the necessary computation, and end with the final answer presented alone."
+  }
+}

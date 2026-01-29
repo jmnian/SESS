@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the scenario, determine every numeric value and how they relate, construct the full arithmetic expression, evaluate it accurately, and output only the resulting integer on a single line with no additional characters or spaces.",
+      "train_score": 0.9157088122605364,
+      "train_step": 99,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given quantities, select the appropriate arithmetic operation(s), perform the calculation step\u2011by\u2011step, and output only the final numeric answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 2,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities and the precise arithmetic implied, compute the answer step\u2011by\u2011step, and output only the final integer result on a single line with absolutely no extra characters, spaces, or punctuation.",
+      "train_score": 0.9386973180076629,
+      "train_step": 40,
+      "test_score": 0.8369977255496588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine each numeric quantity and the precise arithmetic operation(s) implied, compute the result step\u2011by\u2011step, and output exactly one integer\u2014the final answer\u2014on its own line with no extra characters, spaces, or explanations.",
+      "train_score": 0.9386973180076629,
+      "train_step": 63,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, extract all numerical values and their relationships, perform the necessary arithmetic, and output only the final numeric result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 2,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into its exact arithmetic expression, evaluate it step\u2011by\u2011step, and output only the final integer on a single line with no extra characters, spaces, or formatting.",
+      "train_score": 0.9501915708812261,
+      "train_step": 55,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out the numbers, decide which arithmetic operations are needed, compute the result step\u2011by\u2011step, and output only the final numeric answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 1,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant numbers and relationships, form the appropriate arithmetic expression, compute the result, and output only the final numeric answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 1,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, identify every given number and its relationships, carry out the necessary arithmetic step\u2011by\u2011step, and output only the final numeric result with no extra text.",
+      "train_score": 0.9348659003831418,
+      "train_step": 3,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine all quantities and the exact mathematical operation implied, evaluate the expression step\u2011by\u2011step, and output exactly one bare integer\u2014the answer\u2014on its own line, without any additional characters or whitespace.",
+      "train_score": 0.946360153256705,
+      "train_step": 41,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the problem description into its precise arithmetic expression, evaluate it step\u2011by\u2011step, and output only the resulting integer on a single line with no extra symbols, words, or whitespace.",
+      "train_score": 0.9386973180076629,
+      "train_step": 54,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract the needed numbers and relationships, perform the necessary calculations step\u2011by\u2011step, and give the final answer as a plain number.",
+      "train_score": 0.9348659003831418,
+      "train_step": 1,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the exact arithmetic formula from the problem, calculate it step\u2011by\u2011step, and output the resulting integer alone\u2014with no surrounding characters, spaces, or line breaks.",
+      "train_score": 0.9425287356321839,
+      "train_step": 98,
+      "test_score": 0.8203184230477635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, identify all numbers and the precise operation(s) they require, compute the result step\u2011by\u2011step, and return only the integer result on a separate line, with no extra characters or whitespace.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each numeric quantity and the exact operation it entails, calculate the result step\u2011by\u2011step, and output only the final integer on a single line with no extra characters, spaces, or punctuation.",
+      "train_score": 0.8888888888888888,
+      "train_step": 99,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the statement, extract every numeral and the precise arithmetic relation between them, evaluate the expression step\u2011by\u2011step, and answer with a single integer printed alone\u2014no spaces, punctuation, units, or additional lines.",
+      "train_score": 0.9386973180076629,
+      "train_step": 49,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8314176245210728,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the description, enumerate every numeric value and the operation each implies, build the exact arithmetic expression, compute it step\u2011by\u2011step, and output only the final integer result on a single line with no additional characters, spaces, or formatting.",
+      "train_score": 0.8007662835249042,
+      "train_step": 99,
+      "test_score": 0.731614859742229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate every number mentioned, determine the exact mathematical relationship among them, carry out the calculation in order, and return only the final integer result on a solitary line\u2014no other text or spaces.",
+      "train_score": 0.6513409961685823,
+      "train_step": 99,
+      "test_score": 0.6156178923426838,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers and implied operations, compute the answer step\u2011by\u2011step, and print just the final integer\u2014nothing else.",
+      "train_score": 0.6934865900383141,
+      "train_step": 99,
+      "test_score": 0.5943896891584534,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number and the exact relationship described, build the corresponding arithmetic expression, evaluate it, and answer with only the final integer on a single line\u2014without any extra symbols, spaces, or text.",
+      "train_score": 0.6283524904214559,
+      "train_step": 99,
+      "test_score": 0.5678544351781653,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8468536770280516,
+    "avg_test_score": 0.7852630058846889,
+    "best_test_instruction": "Read the scenario, determine every numeric value and how they relate, construct the full arithmetic expression, evaluate it accurately, and output only the resulting integer on a single line with no additional characters or spaces."
+  }
+}

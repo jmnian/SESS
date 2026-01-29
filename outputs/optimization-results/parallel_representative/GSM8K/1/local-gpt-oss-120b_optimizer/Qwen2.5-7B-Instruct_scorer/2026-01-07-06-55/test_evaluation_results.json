@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify each given number and its exact relationship (including fractions, percentages, ratios, or unit conversions). Form one minimal, fully\u2011parenthesized mathematical expression that captures the whole problem. Compute it step\u2011by\u2011step, doing a brief sanity check after every intermediate result, verify that the final value satisfies all conditions, and reply precisely with \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 46,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numerical fact and its explicit operation (including percentages, fractions, ratios, unit changes). Construct a single exact arithmetic expression that represents the problem. Evaluate it sequentially, briefly checking each intermediate result for plausibility, and output exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 46,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric detail and its exact mathematical role, merge them into a single fully\u2011parenthesized expression, compute it step\u2011by\u2011step while briefly verifying each intermediate result, ensure the final value fulfills all original conditions, and answer exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 51,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their stated operations, translate the whole problem into one precise mathematical expression (including any necessary unit conversions), evaluate it sequentially while briefly validating each intermediate value, and answer exactly with \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 28,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric quantity and the precise arithmetic relationship described, combine them into the minimal correct formula, compute it step\u2011by\u2011step while briefly confirming each intermediate value, verify that the final result fulfills all original statements, and respond with exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 25,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact and the exact operation it participates in, combine them into the simplest possible single formula (including any needed percentage or conversion), evaluate it in the given order while checking each intermediate result, verify that the outcome respects all problem constraints, and output precisely \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 49,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative fact and its exact operation (addition, subtraction, multiplication, division, percentages, ratios, or unit conversions). Assemble these facts into one correct arithmetic expression without unnecessary parentheses. Compute the expression in a logical order, briefly validate each intermediate result, confirm that the final value satisfies all given conditions, and output exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 66,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all quantities and their precise operations (e.g., +, \u2013, \u00d7, \u00f7, %, fractions, ratios, conversions). Merge them into the smallest possible fully\u2011parenthesized mathematical formula that captures the whole scenario. Compute the formula in order, briefly confirming each intermediate outcome, ensure the final number fulfills every condition, and return exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 62,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number together with the exact operation it participates in (including +, \u2013, \u00d7, \u00f7, %, ratios, unit changes). Form a single, completely parenthesized arithmetic formula that captures the entire problem, simplify any algebraic cancellations, then compute the formula step\u2011by\u2011step, performing a quick sanity check after every intermediate value and confirming that the final result meets all stated conditions. Output exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 59,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate each numeric value and its explicit mathematical relation (including percentages, ratios, unit conversions). Assemble them into one correctly\u2011parenthesized expression that fully represents the problem. Evaluate the expression sequentially, briefly confirming each intermediate result, verify that the final outcome meets all stated conditions, and respond with exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 53,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and the precise operations linking them (including % , fractions, ratios, unit or measurement conversions). Merge them into a single exact, fully\u2011parenthesized formula that represents the entire problem. Evaluate the formula in order, briefly checking each intermediate value for plausibility, and return only the final result in the form \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 53,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric value and its exact operation (addition, subtraction, multiplication, division,\u202f%, fractions, ratios, or unit conversion). Assemble them into a single, minimally\u2011parenthesized arithmetic formula that fully captures the problem. Compute the formula step\u2011by\u2011step, briefly checking each intermediate result for consistency, and answer exactly with \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numerical fact and its exact operation (including +, \u2013, \u00d7, \u00f7, %, fractions, ratios, or unit conversions). Assemble these facts into one mathematically correct expression that uses only the parentheses required for proper order of operations. Evaluate the expression sequentially, making a quick sanity check after each intermediate result, confirm that the final value satisfies all stated conditions, and respond exactly with \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 67,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Decompose the statement into every explicit number and its exact operation (including +, \u2013, \u00d7, \u00f7, %, fractions, ratios, or unit conversions). Write a single, completely parenthesised formula that embodies the whole scenario, then algebraically simplify it as far as possible. Compute the simplified formula step\u2011by\u2011step, performing a quick plausibility check after each intermediate result, confirm that the final value satisfies every condition given, and reply exactly with \u201cAnswer:\u202fX\u201d.",
+      "train_score": 1.0,
+      "train_step": 66,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative statement and its associated arithmetic operator (addition, subtraction, multiplication, division, %, fraction, ratio, unit conversion). Combine them into one well\u2011formed arithmetic formula with the fewest parentheses needed for correct precedence. Evaluate the formula in order, briefly checking each intermediate outcome for consistency, confirm that the final number fulfills all problem constraints, and output exactly \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement, isolate each numeric term and the precise operation it participates in (including +, \u2013, \u00d7, \u00f7, %, fractions, ratios, or unit conversion). Construct a single, fully specified arithmetic expression with the minimal parentheses needed for correct precedence. Evaluate the expression step\u2011by\u2011step, briefly validating each intermediate result, and finally output only \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number and its associated operation (addition, subtraction, multiplication, division, percentage, fraction, ratio, or unit conversion). Write a single, correctly\u2011parenthesized arithmetic formula that embodies the whole question, evaluate it in order while briefly checking each intermediate result for consistency, and respond exactly with \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.7432432432432432,
+      "train_step": 99,
+      "test_score": 0.7384382107657316,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every quantitative datum and the exact operator it participates in (including +, \u2013, \u00d7, \u00f7, %, fractions, ratios, or unit changes). Combine them into one unambiguous, fully\u2011parenthesized formula that uses the fewest parentheses required for correct precedence. Compute the formula sequentially, performing a quick plausibility check after each intermediate value, verify that the final result satisfies all stated constraints, and respond with only \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.47297297297297297,
+      "train_step": 99,
+      "test_score": 0.40333586050037906,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers and their associated arithmetic relationships (addition, subtraction, multiplication, division, percentages, fractions, ratios, unit conversions). Combine them into a single, fully\u2011parenthesized expression that captures the entire problem with the minimal necessary parentheses. Evaluate the expression step\u2011by\u2011step, verifying each intermediate result for consistency with any stated constraints, and output only the final numeric result without any surrounding text.",
+      "train_score": 0.3783783783783784,
+      "train_step": 99,
+      "test_score": 0.3411675511751327,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Translate the problem into one exact arithmetic formula, evaluate it in order with brief verification at each step, and reply only with \u201cAnswer:\u202fX\u201d.",
+      "train_score": 0.43243243243243246,
+      "train_step": 99,
+      "test_score": 0.2835481425322214,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9166034874905231,
+    "avg_test_score": 0.8062745947507133,
+    "best_test_instruction": "Identify each given number and its exact relationship (including fractions, percentages, ratios, or unit conversions). Form one minimal, fully\u2011parenthesized mathematical expression that captures the whole problem. Compute it step\u2011by\u2011step, doing a brief sanity check after every intermediate result, verify that the final value satisfies all conditions, and reply precisely with \u201cAnswer:\u202fX\u201d."
+  }
+}

@@ -17,25 +17,27 @@ Usage:
 
 Step 1: edit the starting instructions by modifying `initial_instructions`
 
-Step 2: edit the training ratio by modifying `train_ratio`
-
-Step 3: check if the model configs (like batch size) are the same as the actual serving configs
-
-Step 4: run
+Step 2: run optimization with desired parameters
 
 ```
 python optimize_instructions.py \
-    --optimizer="gpt-3.5-turbo" --scorer="text-bison" \
-    --instruction_pos="A_begin" --dataset="gsm8k" --task="train"
+    --optimizer="gpt-3.5-turbo" --scorer="gpt-3.5-turbo" \
+    --instruction_pos="A_begin" --dataset="gsm8k" --task="train" \
+    --subset_select_method="random" --subset_portion=3.5
 ```
 
 The outputs will then be written to `outputs/optimization-results/` in the opro folder.
 
+Flags:
+- `--subset_select_method`: How to select train/eval/test subsets ("random" or "representative")
+- `--subset_portion`: Percentage of data for training (e.g., 3.5 for 3.5%). If not specified, 
+  uses dataset defaults (3.5% for GSM8K, 20% for BBH, 80% for MMLU).
+
 Notes:
 
-1. One or more API keys may need to be provided:
-- When using a Google-Cloud-served model (like text-bison at https://developers.generativeai.google/tutorials/text_quickstart), add `--palm_api_key=<your_key>`
-- When using an OpenAI model, add `--openai_api_key=”<your_key>”`
+1. API key must be provided:
+- When using an OpenAI model, add `--openai_api_key="<your_key>"`
+- When using "representative" subset selection, set `OPENROUTER_API_KEY` environment variable
 
 2. The initial instructions should be provided in the "initial_instructions"
 variable.
@@ -45,6 +47,7 @@ import datetime
 import functools
 import os
 import sys
+from zoneinfo import ZoneInfo
 
 OPRO_ROOT_PATH = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
@@ -53,11 +56,11 @@ sys.path.insert(0, OPRO_ROOT_PATH)
 
 from absl import app
 from absl import flags
-import google.generativeai as palm
 import numpy as np
 import openai
 from opro import prompt_utils
 from opro.optimization import opt_utils
+from opro.optimization import subset_selection
 import pandas as pd
 
 ROOT_DATA_FOLDER_PATH = os.path.join(OPRO_ROOT_PATH, "data")
@@ -66,10 +69,8 @@ _OPENAI_API_KEY = flags.DEFINE_string(
     "openai_api_key", "", "The OpenAI API key."
 )
 
-_PALM_API_KEY = flags.DEFINE_string("palm_api_key", "", "The PaLM API key.")
-
 _SCORER = flags.DEFINE_string(
-    "scorer", "text-bison", "The name of the scorer LLM."
+    "scorer", "gpt-3.5-turbo", "The name of the scorer LLM."
 )
 
 _OPTIMIZER = flags.DEFINE_string(
@@ -100,15 +101,46 @@ _META_PROMPT_TYPE = flags.DEFINE_string(
     " previous instructions (often for pre-trained optimizers).",
 )
 
+_SUBSET_SELECT_METHOD = flags.DEFINE_string(
+    "subset_select_method",
+    "random",
+    "Method for selecting train/eval/test subsets. Options: 'random' (random"
+    " sampling with seed), 'representative' (use embedding and TF-IDF similarity"
+    " with greedy subset selection for diverse coverage).",
+)
+
+_SUBSET_PORTION = flags.DEFINE_float(
+    "subset_portion",
+    None,
+    "Percentage of data to use for training subset (e.g., 3.5 for 3.5%). "
+    "If not specified, uses dataset-specific defaults (e.g., 3.5% for GSM8K, 20% for BBH).",
+)
+
+_NUM_SEARCH_STEPS = flags.DEFINE_integer(
+    "num_search_steps",
+    100,
+    "The number of optimization search steps to run.",
+)
+
+_FEW_SHOT_SELECTION_CRITERIA = flags.DEFINE_string(
+    "few_shot_selection_criteria",
+    "random",
+    "How to select few-shot examples for instruction refinement. Options: "
+    "'accumulative_most_frequent', 'current_most_frequent', 'random', 'constant'.",
+)
+
 
 def main(_):
   openai_api_key = _OPENAI_API_KEY.value
-  palm_api_key = _PALM_API_KEY.value
   scorer_llm_name = _SCORER.value
   optimizer_llm_name = _OPTIMIZER.value
   dataset_name = _DATASET.value.lower()
   task_name = _TASK.value
   meta_prompt_type = _META_PROMPT_TYPE.value
+  subset_select_method = _SUBSET_SELECT_METHOD.value
+  subset_portion = _SUBSET_PORTION.value
+  num_search_steps = _NUM_SEARCH_STEPS.value
+  few_shot_selection_criteria = _FEW_SHOT_SELECTION_CRITERIA.value
 
   assert dataset_name in {
       "mmlu",
@@ -156,15 +188,21 @@ def main(_):
     assert dataset_name == "gsm8k"
     assert task_name in {"train", "test"}
 
+  assert subset_select_method in {
+      "random",
+      "representative",
+      "least_confident",
+  }, f"subset_select_method must be 'random' or 'representative', got '{subset_select_method}'"
+
   assert scorer_llm_name in {
-      "text-bison",
       "gpt-3.5-turbo",
       "gpt-4",
+      "Qwen/Qwen2.5-7B-Instruct",
   }
   assert optimizer_llm_name in {
-      "text-bison",
       "gpt-3.5-turbo",
       "gpt-4",
+      "Qwen/Qwen2.5-7B-Instruct",
   }
   assert meta_prompt_type in {
       "both_instructions_and_exemplars",
@@ -192,21 +230,15 @@ def main(_):
     assert openai_api_key, "The OpenAI API key must be provided."
     openai.api_key = openai_api_key
   else:
-    assert scorer_llm_name == "text-bison"
-    assert (
-        palm_api_key
-    ), "A PaLM API key is needed when prompting the text-bison model."
-    palm.configure(api_key=palm_api_key)
+    # Local GPU model (e.g., Qwen/Qwen2.5-7B-Instruct)
+    print(f"Using local GPU for scorer: {scorer_llm_name}")
 
   if optimizer_llm_name in {"gpt-3.5-turbo", "gpt-4"}:
     assert openai_api_key, "The OpenAI API key must be provided."
     openai.api_key = openai_api_key
   else:
-    assert optimizer_llm_name == "text-bison"
-    assert (
-        palm_api_key
-    ), "A PaLM API key is needed when prompting the text-bison model."
-    palm.configure(api_key=palm_api_key)
+    # Local GPU model (e.g., Qwen/Qwen2.5-7B-Instruct)
+    print(f"Using local GPU for optimizer: {optimizer_llm_name}")
 
   if dataset_name == "mmlu":
     root_data_folder_path = os.path.join(ROOT_DATA_FOLDER_PATH, "MMLU-data")
@@ -218,24 +250,11 @@ def main(_):
     assert dataset_name == "gsm8k"
     root_data_folder_path = os.path.join(ROOT_DATA_FOLDER_PATH, "gsm_data")
 
-  # =================== create the result directory ==========================
-  datetime_str = (
-      str(datetime.datetime.now().replace(microsecond=0))
-      .replace(" ", "-")
-      .replace(":", "-")
-  )
-
-  save_folder = os.path.join(
-      OPRO_ROOT_PATH,
-      "outputs",
-      "optimization-results",
-      f"{dataset_name.upper()}-{task_name}-s-{scorer_llm_name}-o-{optimizer_llm_name}-{datetime_str}/",
-  )
-  result_by_instruction_folder = os.path.join(
-      save_folder, "result_by_instruction"
-  )
-  os.makedirs(result_by_instruction_folder)
-  print(f"result directory:\n{save_folder}")
+  # =================== create timestamp for result directory =================
+  # Use Pacific Time (San Francisco timezone)
+  pacific_tz = ZoneInfo("America/Los_Angeles")
+  # Format: YYYY-MM-DD-HH-MM (year-month-day-hour-minute)
+  datetime_str = datetime.datetime.now(pacific_tz).strftime("%Y-%m-%d-%H-%M")
 
   # ====================== scorer model configs ==============================
   # difference between num_decodes and batch_size:
@@ -243,36 +262,33 @@ def main(_):
   # - batch_size: the batch size in model serving, should equal to that in
   # model serving config
 
-  if scorer_llm_name == "text-bison":
-    # when prompting text-bison with Cloud API
-    scorer_finetuned_palm_temperature = 0.0
-    scorer_finetuned_palm_max_decode_steps = 1024
-    scorer_finetuned_palm_batch_size = 1
-    scorer_finetuned_palm_num_servers = 1
-    scorer_finetuned_palm_dict = dict()
-    scorer_finetuned_palm_dict["temperature"] = (
-        scorer_finetuned_palm_temperature
-    )
-    scorer_finetuned_palm_dict["num_servers"] = (
-        scorer_finetuned_palm_num_servers
-    )
-    scorer_finetuned_palm_dict["batch_size"] = scorer_finetuned_palm_batch_size
-    scorer_finetuned_palm_dict["max_decode_steps"] = (
-        scorer_finetuned_palm_max_decode_steps
-    )
+  if scorer_llm_name == "Qwen/Qwen2.5-7B-Instruct":
+    # Using local GPU with Qwen model
+    scorer_local_temperature = 0.0
+    scorer_local_max_decode_steps = 1024
+    scorer_local_batch_size = 128  # Batch size for GPU inference - increase for faster processing
+    scorer_local_num_servers = 1
+    scorer_local_dict = dict()
+    scorer_local_dict["temperature"] = scorer_local_temperature
+    scorer_local_dict["num_servers"] = scorer_local_num_servers
+    scorer_local_dict["batch_size"] = scorer_local_batch_size
+    scorer_local_dict["max_decode_steps"] = scorer_local_max_decode_steps
+    scorer_local_dict["num_decodes"] = 1
 
-    call_scorer_finetuned_palm_server_func = functools.partial(
-        prompt_utils.call_palm_server_from_cloud,
-        model="text-bison-001",
-        temperature=scorer_finetuned_palm_dict["temperature"],
-        max_decode_steps=scorer_finetuned_palm_dict["max_decode_steps"],
+    call_scorer_local_func = functools.partial(
+        prompt_utils.call_local_model_func_fast,
+        model_name=scorer_llm_name,
+        temperature=scorer_local_dict["temperature"],
+        max_decode_steps=scorer_local_dict["max_decode_steps"],
+        num_decodes=1,
+        batch_size=scorer_local_dict["batch_size"],  # Pass batch_size for GPU efficiency
     )
 
     scorer_llm_dict = {
-        "model_type": scorer_llm_name.lower(),
+        "model_type": "local_gpu",
     }
-    scorer_llm_dict.update(scorer_finetuned_palm_dict)
-    call_scorer_server_func = call_scorer_finetuned_palm_server_func
+    scorer_llm_dict.update(scorer_local_dict)
+    call_scorer_server_func = call_scorer_local_func
 
   else:
     assert scorer_llm_name.lower() in {"gpt-3.5-turbo", "gpt-4"}
@@ -298,42 +314,34 @@ def main(_):
     )
 
   # ====================== optimizer model configs ============================
-  if optimizer_llm_name.lower() == "text-bison":
-    # when prompting text-bison with Cloud API
-    optimizer_finetuned_palm_temperature = 1.0
-    optimizer_finetuned_palm_num_decodes = 8
-    optimizer_finetuned_palm_max_decode_steps = 1024
-    optimizer_finetuned_palm_batch_size = 1
-    optimizer_finetuned_palm_num_servers = 1
-    optimizer_finetuned_palm_dict = dict()
-    optimizer_finetuned_palm_dict["temperature"] = (
-        optimizer_finetuned_palm_temperature
-    )
-    optimizer_finetuned_palm_dict["num_decodes"] = (
-        optimizer_finetuned_palm_num_decodes
-    )
-    optimizer_finetuned_palm_dict["batch_size"] = (
-        optimizer_finetuned_palm_batch_size
-    )
-    optimizer_finetuned_palm_dict["num_servers"] = (
-        optimizer_finetuned_palm_num_servers
-    )
-    optimizer_finetuned_palm_dict["max_decode_steps"] = (
-        optimizer_finetuned_palm_max_decode_steps
-    )
+  if optimizer_llm_name == "Qwen/Qwen2.5-7B-Instruct":
+    # Using local GPU with Qwen model
+    optimizer_local_temperature = 1.0
+    optimizer_local_num_decodes = 8
+    optimizer_local_max_decode_steps = 512
+    optimizer_local_batch_size = 1
+    optimizer_local_num_servers = 1
+    optimizer_local_dict = dict()
+    optimizer_local_dict["temperature"] = optimizer_local_temperature
+    optimizer_local_dict["num_decodes"] = optimizer_local_num_decodes
+    optimizer_local_dict["batch_size"] = optimizer_local_batch_size
+    optimizer_local_dict["num_servers"] = optimizer_local_num_servers
+    optimizer_local_dict["max_decode_steps"] = optimizer_local_max_decode_steps
 
-    call_optimizer_finetuned_palm_server_func = functools.partial(
-        prompt_utils.call_palm_server_from_cloud,
-        model="text-bison-001",
-        temperature=optimizer_finetuned_palm_dict["temperature"],
-        max_decode_steps=optimizer_finetuned_palm_dict["max_decode_steps"],
+    call_optimizer_local_func = functools.partial(
+        prompt_utils.call_local_model_func_fast,
+        model_name=optimizer_llm_name,
+        temperature=optimizer_local_dict["temperature"],
+        max_decode_steps=optimizer_local_dict["max_decode_steps"],
+        num_decodes=optimizer_local_dict["num_decodes"],
+        batch_size=optimizer_local_dict["batch_size"],  # Pass batch_size for consistency
     )
 
     optimizer_llm_dict = {
-        "model_type": optimizer_llm_name.lower(),
+        "model_type": "local_gpu",
     }
-    optimizer_llm_dict.update(optimizer_finetuned_palm_dict)
-    call_optimizer_server_func = call_optimizer_finetuned_palm_server_func
+    optimizer_llm_dict.update(optimizer_local_dict)
+    call_optimizer_server_func = call_optimizer_local_func
 
   else:
     assert optimizer_llm_name in {"gpt-3.5-turbo", "gpt-4"}
@@ -355,7 +363,8 @@ def main(_):
   # ====================== try calling the servers ============================
   print("\n======== testing the scorer and optimizer servers ===========")
   scorer_test_output = call_scorer_server_func(
-      "Does the sun rise from the north? Just answer yes or no."
+      "Does the sun rise from the north? Just answer yes or no.",
+      temperature=0.0,
   )
   print(f"number of scorer output decodes: {len(scorer_test_output)}")
   print(f"scorer test output: {scorer_test_output}")
@@ -637,16 +646,22 @@ def main(_):
   print(f"number of examples in the current task: {num_examples}")
 
   # ================ split data into train/val/test ==========================
-  if dataset_name == "mmlu":
-    train_ratio = 0.8
-    eval_ratio = 0.2
-  elif dataset_name == "gsm8k":
-    train_ratio = 0.035
-    eval_ratio = 0
+  # Use subset_portion if provided, otherwise use dataset-specific defaults
+  if subset_portion is not None:
+    train_ratio = subset_portion / 100.0  # Convert percentage to ratio
+    eval_ratio = 0  # When custom subset_portion is used, no eval set
   else:
-    assert dataset_name == "bbh"
-    train_ratio = 0.2
-    eval_ratio = 0
+    # Use dataset-specific defaults
+    if dataset_name == "mmlu":
+      train_ratio = 0.8
+      eval_ratio = 0.2
+    elif dataset_name == "gsm8k":
+      train_ratio = 0.035
+      eval_ratio = 0
+    else:
+      assert dataset_name == "bbh"
+      train_ratio = 0.2
+      eval_ratio = 0
 
   # train-validation-test split
   # It is important to sort the indices, as this ensures the is_multiple_choice
@@ -657,44 +672,55 @@ def main(_):
       f"train_ratio: {train_ratio}, eval_ratio: {eval_ratio}, "
       f"test_ratio: {test_ratio}"
   )
-  np.random.seed(0)
-  train_index = np.sort(
-      np.array(
-          np.random.choice(
-              num_examples, size=int(train_ratio * num_examples), replace=False
-          )
-      )
+  print(f"subset_select_method: {subset_select_method}")
+  
+  # =================== create the result directory ==========================
+  # Convert train_ratio to percentage for folder name, format cleanly
+  train_percentage = train_ratio * 100
+  # Format to remove floating point precision issues and trailing zeros
+  train_percentage_str = f"{train_percentage:.10g}"  # Use 'g' format to remove trailing zeros
+  save_folder = os.path.join(
+      OPRO_ROOT_PATH,
+      "outputs",
+      "optimization-results",
+      f"trainset_{subset_select_method}_{train_percentage_str}",
+      f"{dataset_name.upper()}-{task_name}-s-{scorer_llm_name.split('/')[-1]}-o-{optimizer_llm_name.split('/')[-1]}-{datetime_str}",
   )
-  eval_and_test_index = np.sort(
-      np.array(list(set(np.arange(num_examples)) - set(train_index)))
+  result_by_instruction_folder = os.path.join(
+      save_folder, "result_by_instruction"
   )
-  eval_index = np.sort(
-      np.array(
-          np.random.choice(
-              eval_and_test_index,
-              size=int(eval_ratio * num_examples),
-              replace=False,
-          )
-      )
-  )
+  os.makedirs(result_by_instruction_folder)
+  print(f"result directory:\n{save_folder}")
+  
+  # Select train/eval/test indices based on the specified method
+  if subset_select_method == "random":
+    train_index, eval_index = subset_selection.random_subset(
+        num_examples, train_ratio, eval_ratio
+    )
+  elif subset_select_method == "representative":
+    train_index, eval_index = subset_selection.representative_subset(
+        dataset_name, raw_data, train_ratio, eval_ratio, alpha=0.9
+    )
+  elif subset_select_method == "least_confident":
+    train_index, eval_index = subset_selection.least_confident_subset(
+        dataset_name, raw_data, train_ratio, eval_ratio, scorer_llm_name
+    )
+  else:
+    raise ValueError(f"Unknown subset_select_method: {subset_select_method}")
 
   # ========== set other optimization experiment hyperparameters ==============
-  if scorer_llm_name == "text-bison":
-    old_instruction_score_threshold = 0.0
-    # old_instruction_score_threshold = 0.15  # for GSM8K
+  # old_instruction_score_threshold: filter out instructions with scores below this
+  # Only instructions scoring >= threshold are shown to optimizer when generating new ones
+  if scorer_llm_name in {"gpt-3.5-turbo", "gpt-4"}:
+    old_instruction_score_threshold = 0.3  # Only keep instructions scoring >= 30%
   else:
-    assert scorer_llm_name in {"gpt-3.5-turbo", "gpt-4"}
-    old_instruction_score_threshold = 0.3
+    # For other models (e.g., local models), use a moderate threshold
+    old_instruction_score_threshold = 0.2
 
-  if scorer_llm_name == "text-bison":
-    extract_final_answer_by_prompting_again = False
-    include_qa = False
-    evaluate_in_parallel = False
-  else:
-    assert scorer_llm_name in {"gpt-3.5-turbo", "gpt-4"}
-    extract_final_answer_by_prompting_again = False
-    include_qa = False
-    evaluate_in_parallel = False
+  # Default settings for all models (GPT, local models, etc.)
+  extract_final_answer_by_prompting_again = False
+  include_qa = False
+  evaluate_in_parallel = False
 
   optimizer_llm_temperature = optimizer_llm_dict["temperature"]
 
@@ -705,7 +731,6 @@ def main(_):
   # decodes in model parameters, because those values are limited by model
   # serving configs.
   num_generated_instructions_in_each_step = 8
-  num_search_steps = 200
 
   initial_instructions = [
       "Let's solve the problem.",
@@ -713,9 +738,6 @@ def main(_):
       # "The answer is",
   ]
   few_shot_qa_pairs = True
-  # one of {'accumulative_most_frequent', 'current_most_frequent', 'random',
-  # 'constant'}
-  few_shot_selection_criteria = "random"
   # whether to evaluate generated instructions on the exemplars in meta-prompt
   evaluate_generated_ins_on_few_shot = False
   # whether to evaluate old instructions on the exemplars in the meta-prompt
@@ -725,7 +747,7 @@ def main(_):
   eval_interval = 3
 
   max_num_instructions = (
-      20  # the maximum number of instructions and scores in the meta-prompt
+      10  # the maximum number of instructions and scores in the meta-prompt
   )
   # The number of buckets when converting scores to integers in the meta-prompt.
   num_score_buckets = 100

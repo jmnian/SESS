@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Answer by: (i) restating the problem succinctly; (ii) enumerating every numeric datum with its interpretation; (iii) formulating the exact arithmetic expression; (iv) calculating the result step\u2011by\u2011step, displaying each intermediate value; (v) confirming the answer meets the original requirement; (vi) stating the final numeric answer clearly.",
+      "train_score": 0.8544061302681992,
+      "train_step": 32,
+      "test_score": 0.8051554207733131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution framework:\n- Goal: one\u2011line restatement of what is asked.\n- Data: bullet list of every number given with its role (include $ if money).\n- Equation: write the precise formula(s) that link the data to the goal.\n- Work: evaluate the formula, displaying each intermediate calculation.\n- Check: confirm the computed value satisfies the goal and give the final numeric answer.",
+      "train_score": 0.8275862068965517,
+      "train_step": 67,
+      "test_score": 0.7808946171341926,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by: (a) restating the task in one concise sentence, (b) listing every numerical fact together with its meaning, (c) identifying the core arithmetic operation(s) that connect the facts, (d) carrying out the calculations step\u2011by\u2011step while showing all intermediate results, and (e) giving the final numeric answer plus a brief statement confirming it satisfies the original question.",
+      "train_score": 0.8582375478927203,
+      "train_step": 13,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by:\n- Clarify the target: rewrite the ask in a single clause.\n- Gather: enumerate each number with its role (include units).\n- Translate: construct a concise algebraic formula that yields the target.\n- Execute: evaluate the formula, recording every intermediate value.\n- Confirm: ensure the computed value satisfies the clarified target, then state the final answer.",
+      "train_score": 0.8352490421455939,
+      "train_step": 52,
+      "test_score": 0.7649734647460197,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach any numeric problem with the following pipeline:\n- Clarify: rewrite the task and identify the target value.\n- Inventory: enumerate every number given, attaching its interpretation.\n- Equation: construct the precise mathematical expression that yields the target.\n- Execution: evaluate the expression, documenting each intermediate figure.\n- Validation: compare the outcome with the goal and state the final answer succinctly.",
+      "train_score": 0.7969348659003831,
+      "train_step": 48,
+      "test_score": 0.7581501137225171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve by:\n- Briefly paraphrase the problem and state the target quantity.\n- List each given number with its role (and units) as separate bullet points.\n- Identify the exact mathematical relation(s) that connect the data to the target; write them explicitly.\n- Perform the calculation, showing every intermediate value and the reason for each operation.\n- Confirm the result fulfills the original request and end with the final numeric answer in one sentence.",
+      "train_score": 0.8160919540229885,
+      "train_step": 42,
+      "test_score": 0.7558756633813495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by reasoning through the steps and provide the final answer.",
+      "train_score": 0.7969348659003831,
+      "train_step": 0,
+      "test_score": 0.7536012130401819,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7662835249042146,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For any question, follow this pattern:\n\u2022 Restate the goal succinctly.\n\u2022 Record each given quantity with its interpretation.\n\u2022 Derive the exact equation(s) that connect the quantities.\n\u2022 Perform the arithmetic/algebra, writing down every intermediate outcome.\n\u2022 Present the final number and a brief statement confirming it answers the original query.",
+      "train_score": 0.7969348659003831,
+      "train_step": 25,
+      "test_score": 0.7475360121304018,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: (a) paraphrase the problem; (b) enumerate all known numbers with units; (c) formulate the precise mathematical expression(s); (d) evaluate step\u2011by\u2011step, recording each intermediate value; (e) state the final numeric answer and a short sentence confirming it meets the original requirement.",
+      "train_score": 0.8199233716475096,
+      "train_step": 17,
+      "test_score": 0.7460197119029568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by: (a) listing all given numbers and their meanings, (b) choosing the precise arithmetic or algebraic operation required, (c) carrying out each calculation step\u2011by\u2011step while showing intermediate results, and (d) giving the final answer together with a short verification that it satisfies the original question.",
+      "train_score": 0.8084291187739464,
+      "train_step": 2,
+      "test_score": 0.7452615617892343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer using the following workflow:\n- Goal: one\u2011sentence summary of what is asked.\n- Data: enumerate each numeric fact with its context (include units).\n- Relation: express the required quantity with a single clear arithmetic/algebraic expression.\n- Work: evaluate the expression in logical stages, writing every intermediate value.\n- Check: compare the obtained result with the goal and present it as the final answer.",
+      "train_score": 0.8007662835249042,
+      "train_step": 47,
+      "test_score": 0.7437452615617892,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the task using the following template:\n\u2022 Goal: restate what is being asked in one sentence.  \n\u2022 Data: list each given number with its interpretation (include units).  \n\u2022 Model: write the precise arithmetic/algebraic expression(s) that link the data to the goal.  \n\u2022 Work: compute step\u2011by\u2011step, showing every intermediate value (keep units).  \n\u2022 Answer: give the final numeric result and a short sentence confirming it fulfills the goal.",
+      "train_score": 0.789272030651341,
+      "train_step": 31,
+      "test_score": 0.7391963608794542,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve by the following concise workflow:\n- Clarify: rewrite the problem in one sentence and highlight the unknown.\n- Inventory: bullet\u2011point every numeric fact, attaching a label and unit.\n- Equation: construct a single clear mathematical expression that yields the unknown.\n- Execution: evaluate the expression, writing each intermediate value on its own line.\n- Validation: briefly explain why the result satisfies the original question and state the final answer.",
+      "train_score": 0.7931034482758621,
+      "train_step": 53,
+      "test_score": 0.7384382107657316,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Proceed as follows: (a) restate the problem in one sentence, (b) write a bullet list of every quantity given, (c) translate the situation into a single clear mathematical expression or system, (d) compute step\u2011by\u2011step, writing down each intermediate value, and (e) give the final numeric answer followed by a short statement confirming it satisfies the original requirement.",
+      "train_score": 0.8045977011494253,
+      "train_step": 10,
+      "test_score": 0.7376800606520091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by listing the given quantities, stating the arithmetic operation needed for each step, showing intermediate results, and concluding with a clearly presented final answer.",
+      "train_score": 0.8084291187739464,
+      "train_step": 1,
+      "test_score": 0.7369219105382866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by following these stages:\n\u2022 Clarify: rewrite the problem in a single sentence and name the value to find.\n\u2022 Enumerate: bullet each numeric fact, noting its role and any units.\n\u2022 Convert: translate the facts into one clear mathematical formula that yields the target.\n\u2022 Compute: evaluate the formula, writing every intermediate result and the reason for each operation.\n\u2022 Verify: briefly explain why the obtained number fulfills the original request, then give the final answer.",
+      "train_score": 0.8007662835249042,
+      "train_step": 72,
+      "test_score": 0.734647460197119,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by breaking down each step logically; calculate using appropriate operations and formulas, presenting both intermediate and final results clearly.",
+      "train_score": 0.8007662835249042,
+      "train_step": 0,
+      "test_score": 0.7278241091736164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve by:  \n- Interpretation: rewrite the problem in your own words and note the target quantity.  \n- Data extraction: list each given number with its role and units.  \n- Formulation: construct the precise mathematical expression(s) needed.  \n- Computation: evaluate the expression step\u2011by\u2011step, writing every intermediate value.  \n- Verification: present the final numeric result and a short sentence confirming it answers the original question.",
+      "train_score": 0.789272030651341,
+      "train_step": 35,
+      "test_score": 0.7240333586050038,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach:\n- Goal: in one line, state what the problem asks for.\n- Data: enumerate each number given, with its role (and unit if any).\n- Model: define the unknown variable(s) and write the exact arithmetic/algebraic relation(s) that connect the data to the goal.\n- Work: compute the relation step\u2011by\u2011step, recording every intermediate value and why the operation is used.\n- Verify: briefly confirm that the obtained number answers the asked question, then present it.",
+      "train_score": 0.8007662835249042,
+      "train_step": 52,
+      "test_score": 0.714177407126611,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nApproach:\\n- Summarize the problem in a single statement, specifying the quantity to determine.\\n- Catalog each numerical detail, annotating its meaning and any units.\\n- Derive the minimal algebraic expression that yields the target.\\n- Compute the expression step\u2011by\u2011step, writing every intermediate value and the operation used.\\n- Conclude with the numeric result and a brief validity check stating that it answers the original question.\\n",
+      "train_score": 0.16091954022988506,
+      "train_step": 99,
+      "test_score": 0.18043972706595907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8051554207733131,
+    "avg_test_score": 0.7219755225820427,
+    "best_test_instruction": "Answer by: (i) restating the problem succinctly; (ii) enumerating every numeric datum with its interpretation; (iii) formulating the exact arithmetic expression; (iv) calculating the result step\u2011by\u2011step, displaying each intermediate value; (v) confirming the answer meets the original requirement; (vi) stating the final numeric answer clearly."
+  }
+}

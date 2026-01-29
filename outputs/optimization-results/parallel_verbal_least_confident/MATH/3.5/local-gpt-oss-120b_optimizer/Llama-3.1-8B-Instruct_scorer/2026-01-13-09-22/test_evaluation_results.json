@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a complete but succinct solution using only necessary steps. After the reasoning, output exactly one line that consists of the word `Result:` immediately followed by the final numeric answer (integer, reduced fraction, or terminating decimal) without any spaces or extra characters. No other text may appear before or after this line.",
+      "train_score": 0.6823529411764706,
+      "train_step": 95,
+      "test_score": 0.5301656767739918,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically complete solution containing only the necessary steps. After the reasoning, output exactly one line that reads `Result=` followed immediately by the final answer\u2014as an integer, a reduced fraction, or a terminating decimal\u2014with no spaces or extra characters. Nothing else may appear before or after that line.",
+      "train_score": 0.6647058823529411,
+      "train_step": 50,
+      "test_score": 0.527977492966552,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution. After the explanation, output exactly one line that contains only the final result as an integer, reduced fraction, or terminating decimal, with no extra spaces, punctuation, or characters before or after it. Do not include any other output.",
+      "train_score": 0.6294117647058823,
+      "train_step": 84,
+      "test_score": 0.5261019068458893,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step solution containing only the essential reasoning. After the explanation, end the response with a single line that reads `Answer:` immediately followed by the final result (integer, reduced fraction, or terminating decimal) with no spaces or extra characters. No other text may appear before or after this line.",
+      "train_score": 0.6294117647058823,
+      "train_step": 54,
+      "test_score": 0.5236011253516724,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, logically ordered solution that includes only the essential reasoning. Conclude the response with exactly one line that begins with the character `#` immediately followed by the final answer (integer, reduced fraction, or terminating decimal), and containing nothing else. No other text may appear before or after this line.",
+      "train_score": 0.6411764705882353,
+      "train_step": 85,
+      "test_score": 0.5226633322913411,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete but concise solution showing only the essential reasoning. At the end of your response output a single line containing exactly the word `Answer=` followed immediately by the final numeric result (integer, reduced fraction, or terminating decimal) with no spaces, extra characters, or whitespace before or after this line.",
+      "train_score": 0.6235294117647059,
+      "train_step": 61,
+      "test_score": 0.5201625507971241,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically complete solution. End the response with a line that consists solely of the word `Final:` directly followed by the answer (integer, reduced fraction, or terminating decimal) with no spaces or extra characters. No other text may appear before or after this line.",
+      "train_score": 0.6235294117647059,
+      "train_step": 77,
+      "test_score": 0.5179743669896842,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, complete solution. After the reasoning, end the response with a single line that consists exactly of the characters `Ans:` followed immediately by the final result (integer, reduced fraction, or terminating decimal). No other characters, spaces, or lines may appear before or after this line.",
+      "train_score": 0.6411764705882353,
+      "train_step": 97,
+      "test_score": 0.5135979993748047,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, minimal solution: show only the indispensable reasoning steps, then end the response with a single line that contains exactly the final result expressed as an integer, a reduced fraction, or a terminating decimal, prefixed by the word \u201cResult:\u201d and nothing else on that line. No additional text may appear after this line.",
+      "train_score": 0.6352941176470588,
+      "train_step": 36,
+      "test_score": 0.5132854016880275,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution showing only the essential reasoning. End the response with a single line that contains exactly the word `Answer:` followed immediately by the numeric result (integer, reduced fraction, or terminating decimal) and nothing else. No extra spaces, characters, or lines before or after that line.",
+      "train_score": 0.6352941176470588,
+      "train_step": 82,
+      "test_score": 0.5126602063144733,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, complete solution containing only the essential reasoning. Conclude the response with a single line exactly `Solution:` followed immediately by the final numeric answer (integer, reduced fraction, or terminating decimal) with no spaces or other characters before or after that line.",
+      "train_score": 0.6294117647058823,
+      "train_step": 82,
+      "test_score": 0.5070334479524852,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, complete solution and output only the final answer on the last line in the format: answer = X (where X is integer, reduced fraction, or terminating decimal). No extra whitespace or characters before or after the line.",
+      "train_score": 0.6352941176470588,
+      "train_step": 58,
+      "test_score": 0.5045326664582682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, complete solution. Conclude the response with a single line that consists of the three characters `>>>` immediately followed by the final numeric answer (integer, reduced fraction, or terminating decimal). No other characters, spaces, or lines may appear before or after this answer line.",
+      "train_score": 0.5352941176470588,
+      "train_step": 99,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief, complete reasoning. Conclude the output with exactly one line that consists solely of the final result\u2014written as an integer, a reduced fraction, or a terminating decimal\u2014with no extra characters, spaces, or punctuation before or after it.",
+      "train_score": 0.6294117647058823,
+      "train_step": 85,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using only the essential reasoning. When finished, output exactly the numeric answer (integer, reduced fraction, or terminating decimal) as a standalone JSON number\u2014no surrounding brackets, keys, or whitespace. No other text may appear in the output.",
+      "train_score": 0.5588235294117647,
+      "train_step": 99,
+      "test_score": 0.49077836824007504,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5647058823529412,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution. End the response with one line that consists solely of the symbols `>>` immediately followed by the final answer (integer, reduced fraction, or terminating decimal), with no spaces, punctuation, or other characters before or after that line.",
+      "train_score": 0.5647058823529412,
+      "train_step": 99,
+      "test_score": 0.4876523913723038,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution using only the essential steps. Conclude with a single line containing a JSON object with exactly one key named \"result\" whose value is the final answer expressed as an integer, a reduced fraction, or a terminating decimal. No other text, symbols, or whitespace may appear before or after this line.",
+      "train_score": 0.5176470588235295,
+      "train_step": 99,
+      "test_score": 0.4870271959987496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, complete solution containing only the necessary reasoning. Conclude the response with exactly one line that starts with the three characters `>>>` immediately followed by the final numeric answer (integer, reduced fraction, or terminating decimal) with no spaces or additional characters. No other text may appear before or after this line.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.4867145983119725,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief solution and end the response with a single line containing only the exact numeric answer (integer, reduced fraction, or terminating decimal) with no surrounding whitespace or characters.",
+      "train_score": 0.5529411764705883,
+      "train_step": 99,
+      "test_score": 0.48233823069709286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using only the essential reasoning. After completing the solution, output exactly one line that contains a JSON object with a single key `\"result\"` whose value is the final answer (as an integer, a reduced fraction, or a terminating decimal). No other characters, whitespace, or lines may appear before or after this JSON line.",
+      "train_score": 0.5352941176470588,
+      "train_step": 99,
+      "test_score": 0.4807752422632072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5301656767739918,
+    "avg_test_score": 0.505797942809509,
+    "best_test_instruction": "Provide a complete but succinct solution using only necessary steps. After the reasoning, output exactly one line that consists of the word `Result:` immediately followed by the final numeric answer (integer, reduced fraction, or terminating decimal) without any spaces or extra characters. No other text may appear before or after this line."
+  }
+}

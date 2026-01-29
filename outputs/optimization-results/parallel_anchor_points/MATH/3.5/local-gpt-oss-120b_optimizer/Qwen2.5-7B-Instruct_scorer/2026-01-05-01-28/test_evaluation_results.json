@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a focused solution: determine the main theorem or formula, perform the necessary calculations in the fewest possible steps, and present only the final numeric result (apply rounding only when the problem specifies).",
+      "train_score": 0.8117647058823529,
+      "train_step": 67,
+      "test_score": 0.7630509534229447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the precise formula or theorem, carry out the computation in a single, uninterrupted logical chain (showing only indispensable intermediate results), and give only the final numeric result\u2014round only if the problem explicitly requires it.",
+      "train_score": 0.8117647058823529,
+      "train_step": 92,
+      "test_score": 0.7627383557361676,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the decisive mathematical rule, carry out the computation in a concise, self\u2011contained chain (including only indispensable intermediate figures), and present solely the final numeric answer\u2014apply rounding exclusively when the problem states to do so.",
+      "train_score": 0.7941176470588235,
+      "train_step": 99,
+      "test_score": 0.7605501719287278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the required theorem or relationship, compute directly with the fewest possible steps (showing only unavoidable intermediate values), and present only the final numeric answer; round only if the problem specifies.",
+      "train_score": 0.8235294117647058,
+      "train_step": 82,
+      "test_score": 0.7605501719287278,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the core mathematical relation, perform the computation in a compact, self\u2011contained derivation showing only unavoidable intermediate values, and return solely the final numeric result\u2014apply rounding only when the problem explicitly demands it.",
+      "train_score": 0.8176470588235294,
+      "train_step": 89,
+      "test_score": 0.7599249765551734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the relevant relationship, execute the calculation in the fewest steps possible, and present only the final numerical value (rounding only if the problem explicitly says so).",
+      "train_score": 0.8117647058823529,
+      "train_step": 70,
+      "test_score": 0.7583619881212879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the key relation, evaluate it in the tightest possible computation (displaying only the indispensable intermediate result if it cannot be omitted), and return a single numeric value\u2014apply rounding only when the problem explicitly requires it.",
+      "train_score": 0.8235294117647058,
+      "train_step": 96,
+      "test_score": 0.7577367927477336,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Choose the exact formula or theorem needed, carry out the solution in one tight, self\u2011contained chain revealing only indispensable intermediate values, and give just the final numeric result\u2014round only if the problem explicitly tells you to.",
+      "train_score": 0.8176470588235294,
+      "train_step": 92,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise mathematical relation needed, carry out the computation in a single, compact chain that includes only the unavoidable intermediate quantities, and present exactly one numerical result\u2014use exact values and round only if the problem explicitly calls for rounding.",
+      "train_score": 0.8,
+      "train_step": 99,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the relevant formula, compute the result in a single, tight chain of algebraic steps (showing only unavoidable intermediate numbers), and return exactly one number as the answer, rounding only if the problem explicitly says so.",
+      "train_score": 0.8176470588235294,
+      "train_step": 74,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing equation or theorem, carry out the necessary calculations in a concise, uninterrupted chain (showing only indispensable intermediate values), and output exactly one numeric answer\u2014apply rounding only if the problem explicitly requires it.",
+      "train_score": 0.8176470588235294,
+      "train_step": 80,
+      "test_score": 0.7539856205064083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the crucial relationship, carry out the calculation in a concise, uninterrupted chain showing only unavoidable intermediate results, and present a single numeric answer\u2014round only if the problem explicitly requires it.",
+      "train_score": 0.8176470588235294,
+      "train_step": 95,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a direct, step\u2011by\u2011step solution: identify the governing principle, carry out each calculation with brief justification, and present only the final numeric answer.",
+      "train_score": 0.8117647058823529,
+      "train_step": 4,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the essential identity, carry out a concise uninterrupted calculation showing only unavoidable intermediates, and output a single numerical result\u2014apply rounding solely if the problem explicitly instructs.",
+      "train_score": 0.8117647058823529,
+      "train_step": 98,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a short solution: pinpoint the core principle, compute each intermediate value in order, and end with the exact answer alone.",
+      "train_score": 0.8117647058823529,
+      "train_step": 8,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7705882352941177,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the minimal necessary relation, compute directly in a single uninterrupted chain showing only indispensable intermediate values, and output exactly one numeric result\u2014round only if the problem explicitly requires it.",
+      "train_score": 0.788235294117647,
+      "train_step": 99,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the single relevant formula, execute the calculation in a tight, self\u2011contained sequence (displaying only the unavoidable intermediate values), and return just the final numeric result\u2014round only if the problem explicitly requests it, and omit all other commentary.",
+      "train_score": 0.4764705882352941,
+      "train_step": 99,
+      "test_score": 0.45326664582682086,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the required formula or principle, carry out the calculation in one concise, uninterrupted chain showing only indispensable intermediate numbers, and answer with only the final numeric value\u2014round only if the problem explicitly requires it.",
+      "train_score": 0.45294117647058824,
+      "train_step": 99,
+      "test_score": 0.4442013129102845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Select the relevant formula or theorem, perform the calculation in a single, compact sequence showing only unavoidable intermediate results, and conclude with exactly one numeric answer formatted as the problem requires (round only if the statement mandates it). Provide no extra explanation or text beyond the essential computation and the final number.",
+      "train_score": 0.27058823529411763,
+      "train_step": 99,
+      "test_score": 0.2119412316348859,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Select the essential formula, perform a minimal\u2011step calculation showing only required intermediates, and output exactly one number\u2014apply rounding only when the problem explicitly requests it, and omit any additional explanation.",
+      "train_score": 0.21764705882352942,
+      "train_step": 99,
+      "test_score": 0.1734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7630509534229447,
+    "avg_test_score": 0.671638458446836,
+    "best_test_instruction": "Give a focused solution: determine the main theorem or formula, perform the necessary calculations in the fewest possible steps, and present only the final numeric result (apply rounding only when the problem specifies)."
+  }
+}

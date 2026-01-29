@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the question and its four answer options, select the one that is definitively correct. Respond with ONLY the single uppercase letter A, B, C, or D. If the information does not allow a unique determination, respond with a single question mark ?. Do not include spaces, punctuation, or any additional explanation.",
+      "train_score": 0.47368421052631576,
+      "train_step": 67,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please reply with exactly one character\u2014A, B, C, D if the correct choice is uniquely determined, otherwise ?\u2014and nothing else (no spaces, punctuation, or extra text).",
+      "train_score": 0.47368421052631576,
+      "train_step": 84,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the prompt, pinpoint the essential question, apply the required reasoning or calculation, and respond with exactly the correct option letter (A\u2011D). Include a brief justification (\u226410 words) only if the choice is not immediately obvious.",
+      "train_score": 0.42105263157894735,
+      "train_step": 6,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Think step\u2011by\u2011step through the problem, then output the correct answer choice (A, B, C, or D).",
+      "train_score": 0.42105263157894735,
+      "train_step": 0,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, solve it step\u2011by\u2011step, and answer with the single correct choice letter (A\u2011D). Include a brief rationale (\u226412\u202fwords) only when the answer is not self\u2011evident.",
+      "train_score": 0.42105263157894735,
+      "train_step": 9,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single correct option among A\u2013D, or output \u201c?\u201d if the solution is not uniquely determined. Respond with only that one character, without any additional symbols, spaces or explanation.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide the answer as a single character: A, B, C, D, or ? if the solution cannot be uniquely determined. No additional characters, spaces, or lines are allowed.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the correct answer from the given multiple-choice options based on the provided problem description.",
+      "train_score": 0.47368421052631576,
+      "train_step": 0,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, determine the correct choice, and respond with exactly one capital letter (A\u2011D)\u2014nothing else.",
+      "train_score": 0.42105263157894735,
+      "train_step": 15,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Based on the problem and its four options, output only the single letter (A\u2011D) that is definitively correct; output \u201c?\u201d if a unique answer cannot be determined. No other characters or whitespace are allowed.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the single correct option (A\u2011D) that satisfies the problem statement and respond with that letter only, without any extra text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 9,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem and its four answer choices (A\u2013D). Identify the one that is definitively correct; if a unique choice cannot be deduced, answer is ambiguous. Output exactly one character\u2014the correct letter or \u201c?\u201d\u2014with no other symbols, spaces, or line breaks.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3157894736842105,
+      "train_step": -1,
+      "test_score": 0.2777777777777778,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the prompt, apply the necessary reasoning, and reply with the single correct option label (A, B, C, or D) only. Do not include any additional text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 5,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step internally; then output exactly one character\u2014A, B, C, or D\u2014nothing else. A short (\u226412\u2011word) explanation may precede the letter only if the answer requires inference, otherwise omit it.",
+      "train_score": 0.42105263157894735,
+      "train_step": 12,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving the question, output a single uppercase character representing the correct choice (A, B, C, or D). If the data do not allow a unique answer, output a single question mark \"?\". Do not include any other symbols, whitespace, or commentary.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem and its four options. Solve it (you may reason step\u2011by\u2011step internally). Then output only one capital letter\u202fA,\u202fB,\u202fC or\u202fD that is the correct answer; if the answer cannot be uniquely determined, output a single \u201c?\u201d. No other characters, spaces, or explanation are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 75,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carefully analyze the problem statement, existing information and answer choices. Use logical reasoning, appropriate concepts, and relevant data to determine the best answer. After solving, present a brief justification for your choice.",
+      "train_score": 0.42105263157894735,
+      "train_step": 1,
+      "test_score": 0.21717171717171718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the problem and its four options. After reasoning, output exactly one symbol\u2014the capital letter of the correct choice (A\u2011D). If a unique answer cannot be determined, output only \u201c?\u201d. No other characters, spaces, or line breaks are allowed.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.1919191919191919,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the prompt, identify the essential information, carry out the necessary reasoning or calculation, and finally respond with only the correct option letter (A, B, C, or D). Precede the letter with a concise (\u226415\u2011word) explanation of the reasoning.",
+      "train_score": 0.42105263157894735,
+      "train_step": 2,
+      "test_score": 0.17676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the single correct option (A\u2011D); if a unique answer cannot be determined output \u201c?\u201d. Respond with only that character and no other text.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.020202020202020204,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3181818181818182,
+    "avg_test_score": 0.2621452621452621,
+    "best_test_instruction": "From the question and its four answer options, select the one that is definitively correct. Respond with ONLY the single uppercase letter A, B, C, or D. If the information does not allow a unique determination, respond with a single question mark ?. Do not include spaces, punctuation, or any additional explanation."
+  }
+}

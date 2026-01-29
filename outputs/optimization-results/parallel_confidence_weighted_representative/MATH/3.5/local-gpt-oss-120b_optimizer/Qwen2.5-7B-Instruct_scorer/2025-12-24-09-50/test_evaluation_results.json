@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a short, numbered solution: state the core principle, carry out each calculation with a brief justification, verify the intermediate result, and conclude with the exact final answer (rounded if required).",
+      "train_score": 0.8411764705882353,
+      "train_step": 2,
+      "test_score": 0.7624257580493904,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a two\u2011line solution: first line gives a single succinct equation that directly yields the answer, annotated with the principle used; second line contains only the numeric result.",
+      "train_score": 0.3764705882352941,
+      "train_step": 99,
+      "test_score": 0.7608627696155048,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Outline the main idea, execute each calculation transparently, verify intermediate results, and conclude with the exact final answer.",
+      "train_score": 0.8235294117647058,
+      "train_step": 2,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "In a single sentence state what is being asked; name the one principle or formula that solves it; carry out a tight chain of calculations, each step showing the operation and the numbers substituted; after the chain give a brief sanity check (e.g., magnitude, sign, units); and conclude with only the exact answer on its own line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 83,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, ordered solution: outline the key idea, perform each required calculation with visible work, check intermediate results, and finish with the exact final answer.",
+      "train_score": 0.8294117647058824,
+      "train_step": 2,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant concepts, set up the necessary equations or logical steps, solve the problem step\u2011by\u2011step, and present the final answer clearly.",
+      "train_score": 0.8352941176470589,
+      "train_step": 0,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into a clear mathematical expression, then evaluate it in a single, fully\u2011simplified computation, checking each intermediate value for consistency, and finally output only the resulting number on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 49,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by phrasing the quantity to determine. Cite the single governing rule or formula, then perform a brief chain of substitutions showing each arithmetic step and a one\u2011word sanity check (e.g., ok). End with the exact numeric result on a line by itself, without any extra text.",
+      "train_score": 0.8058823529411765,
+      "train_step": 99,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nFirst, translate the question into a precise mathematical expression. Next, write a short logical chain where each line (i) names the principle used, (ii) shows the substitution of numbers, and (iii) states the resulting value. After each line, note a sanity check (e.g., sign, size, integer). Conclude with the exact result alone on a new line.\\n",
+      "train_score": 0.8294117647058824,
+      "train_step": 36,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the goal, list the single key formula or principle, perform a brief calculation chain showing each substitution with the rule used, check each intermediate result with a one\u2011word sanity note, and output only the final numeric answer on a new line.",
+      "train_score": 0.7470588235294118,
+      "train_step": 99,
+      "test_score": 0.7271022194435761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the quantity to determine, construct one concise equation that captures the problem, solve it algebraically (showing the substitution of numbers), perform a quick verification by substituting the result back, and finally present only the final numeric answer on a separate line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 55,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the quantity sought, cite the sole governing formula, execute a short chain of substitutions and simplifications with a quick sanity check after each step, and conclude by writing only the final numeric answer on a separate line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 56,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target quantity briefly, list the essential formula(s) needed, perform each computation step with clear substitution, check each intermediate result for plausibility, and finally output only the final numeric answer on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 40,
+      "test_score": 0.7192872772741482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence restatement of what is being asked. Then solve it in a numbered sequence; each item should (a) name the single key concept or formula needed, (b) carry out the computation or logical inference with a brief justification, and (c) perform an immediate check (units, sign, reasonableness). Conclude by writing only the exact final answer on its own line, with no extra commentary.",
+      "train_score": 0.8294117647058824,
+      "train_step": 10,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a one\u2011sentence restatement of what is being asked. Then, in a single paragraph, chain together the necessary formulas and substitutions: for each transformation write the rule used, substitute the actual numbers, simplify, and immediately note a brief sanity check (e.g., sign, magnitude, integer). Conclude the paragraph with the exact final answer on a new line, with no additional commentary.",
+      "train_score": 0.8294117647058824,
+      "train_step": 49,
+      "test_score": 0.7139731165989371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the quantity to find, enumerate the single essential formula(s) or fact(s) required, carry out the computation in a compact sequence\u2014show each substitution together with a brief sanity check (e.g., sign, magnitude, units)\u2014and conclude by writing only the exact final numeric answer on a separate line, with no additional commentary.",
+      "train_score": 0.8235294117647058,
+      "train_step": 68,
+      "test_score": 0.6986558299468584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence restatement of what is asked. Enumerate the indispensable facts or formulas, then solve in a compact, numbered chain where each step (i) names the rule used, (ii) shows the substitution of the given numbers, (iii) gives the resulting expression, and (iv) contains a brief plausibility remark (units, sign, size). After the last step write only the final numeric answer on its own line, without any extra text.",
+      "train_score": 0.8294117647058824,
+      "train_step": 98,
+      "test_score": 0.6892778993435449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required principle, carry out each essential calculation visibly, confirm the result, and finish with the final answer clearly presented.",
+      "train_score": 0.8470588235294118,
+      "train_step": 1,
+      "test_score": 0.6755236011253517,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by restating what is asked in one clause. Identify the single formula or principle that solves it, then perform a brief, line\u2011by\u2011line computation: each line shows the rule used, plugs in the numbers, and includes a one\u2011word sanity check in parentheses. After the last line write only the final numeric result on its own line.",
+      "train_score": 0.7529411764705882,
+      "train_step": 99,
+      "test_score": 0.673648015004689,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the target, list the essential formula(s) needed, compute the result in a single uninterrupted equality chain, insert a brief bracketed sanity comment after the chain, and output only the final numeric value on the next line.",
+      "train_score": 0.45294117647058824,
+      "train_step": 99,
+      "test_score": 0.4060643951234761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8235294117647058,
+      "train_step": -1,
+      "test_score": 0.2888402625820569,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7624257580493904,
+    "avg_test_score": 0.6891290433022224,
+    "best_test_instruction": "Provide a short, numbered solution: state the core principle, carry out each calculation with a brief justification, verify the intermediate result, and conclude with the exact final answer (rounded if required)."
+  }
+}

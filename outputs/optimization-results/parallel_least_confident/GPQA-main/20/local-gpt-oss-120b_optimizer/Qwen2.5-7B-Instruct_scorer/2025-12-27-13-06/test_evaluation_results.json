@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "When you have determined the correct answer, output exactly two lines and stop:\n\nLine\u202f1 \u2013 a single capital letter A\u2011D representing the answer, with no surrounding whitespace.\n\nLine\u202f2 \u2013 a sentence that begins with \u201cBecause\u201d, contains between nine and twelve words inclusive, ends with a single period, and contains no letters A\u2011D, no digits, no occurrence of the word \u201coption\u201d, and no punctuation other than the final period. Do not place a space before the period and output nothing after it.",
+      "train_score": 0.9101123595505618,
+      "train_step": 99,
+      "test_score": 0.9910714285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "When you have identified the correct option, respond with exactly two lines and nothing else:\nLine\u202f1 \u2013 the answer letter (A\u2011D) alone.\nLine\u202f2 \u2013 a single sentence beginning with \u201cBecause\u201d, using exactly eleven words, containing no letters A\u2011D, no digits, no occurrence of \u201coption\u201d, and ending with a period. Do not include any extra spaces before the final period and terminate immediately after it.",
+      "train_score": 1.0,
+      "train_step": 83,
+      "test_score": 0.9821428571428571,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct choice, respond with exactly two lines and nothing else:\nLine\u202f1 \u2013 the single capital answer letter (A\u2011D) with no surrounding characters.\nLine\u202f2 \u2013 an independent sentence beginning with \u201cBecause\u201d, containing exactly twelve words, ending with a period, and not containing the letters A\u2011D or the word \u201coption\u201d.\nTerminate output immediately after the final period.",
+      "train_score": 0.9775280898876404,
+      "train_step": 36,
+      "test_score": 0.9821428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When you have identified the correct option, respond with exactly two lines and nothing else:\nLine\u202f1 \u2013 the answer letter (A\u2011D) alone.\nLine\u202f2 \u2013 a single sentence beginning with \u201cBecause\u201d, using exactly eleven words, containing no letters\u202fA\u2011D, no digits, no occurrence of \u201coption\u201d, and ending with a period. Do not include any extra spaces before the final period and terminate immediately after it.",
+      "train_score": 0.9775280898876404,
+      "train_step": 92,
+      "test_score": 0.9821428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When you know the correct choice, reply with exactly two lines and nothing else:\nLine\u202f1 \u2013 only the capital letter A\u2011D representing the answer, with no surrounding characters.\nLine\u202f2 \u2013 a sentence beginning with \u201cBecause\u201d, containing exactly fourteen words, ending with a single period, and containing none of the letters A\u2011D, any digits, or the word \u201coption\u201d. Do not place a space before the final period and terminate immediately after it.",
+      "train_score": 0.9662921348314607,
+      "train_step": 58,
+      "test_score": 0.9776785714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When you have determined the correct choice, respond with exactly two lines and then stop:\nLine\u202f1 \u2013 the answer letter A\u2011D alone, without surrounding whitespace.\nLine\u202f2 \u2013 a single sentence that starts with \u201cBecause\u201d, contains exactly nine words, ends with a period, and contains no letters A\u2011D, no digits, and no occurrence of the word \u201coption\u201d. Do not place any spaces before the final period and output no additional characters after it.",
+      "train_score": 0.9662921348314607,
+      "train_step": 50,
+      "test_score": 0.9709821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have identified the correct choice, output two lines only:\n\nLine\u202f1 \u2013 the answer letter (A\u2011D) alone, with no surrounding characters.\n\nLine\u202f2 \u2013 a sentence that starts with \u201cBecause\u201d, contains exactly ten words, ends with a single period, and does not include the letters A\u2011D, any digits, the word \u201coption\u201d, or any punctuation other than the final period. Use a single space between words and place no space before the period. End the response immediately after the period.",
+      "train_score": 0.9662921348314607,
+      "train_step": 67,
+      "test_score": 0.9709821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have determined the correct answer, output exactly two lines and stop:\n\nLine\u202f1 \u2013 a single capital letter A\u2011D indicating the answer, with no surrounding characters or whitespace.\n\nLine\u202f2 \u2013 a sentence that begins with \u201cBecause\u201d, consists of exactly nine words, ends with a single period, contains no letters A\u2011D, no digits, no occurrence of the word \u201coption\u201d, and uses no punctuation other than the final period. Do not place a space before the period and output nothing after it.",
+      "train_score": 0.9662921348314607,
+      "train_step": 71,
+      "test_score": 0.9709821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct choice, respond with exactly two lines and nothing else:\nLine\u202f1 \u2013 a single capital letter A\u2011D representing the answer, with no surrounding whitespace.\nLine\u202f2 \u2013 a sentence that begins with \u201cBecause\u201d, consists of exactly eleven words, ends with a single period, contains no letters A\u2011D, no digits, no the word \u201coption\u201d, and contains no punctuation other than the final period. Do not place any spaces before the period and terminate immediately after it.",
+      "train_score": 0.9775280898876404,
+      "train_step": 59,
+      "test_score": 0.9665178571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you determine the correct choice, output exactly two lines and nothing else:\n\n1. The answer letter\u202fA\u2011D alone.\n2. A sentence beginning with \u201cBecause\u201d, using exactly eleven words, ending with a single period, containing no letters A\u2011D, no digits, no occurrence of \u201coption\u201d, and no punctuation other than the final period. Do not place a space before the period and terminate immediately after it.",
+      "train_score": 0.9775280898876404,
+      "train_step": 84,
+      "test_score": 0.9665178571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you know the correct answer, respond with exactly two lines and then stop:\nLine\u202f1 \u2013 a single capital letter A\u2011D, nothing else.\nLine\u202f2 \u2013 a sentence that (i) begins with \u201cBecause\u201d, (ii) contains exactly ten words, (iii) ends with a single period, (iv) uses no letters A\u2011D, no digits, and no occurrence of the word \u201coption\u201d, (v) contains no punctuation except the final period and has exactly one space between words. Do not add any whitespace after the period.",
+      "train_score": 0.9662921348314607,
+      "train_step": 51,
+      "test_score": 0.9553571428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have determined the correct answer, output two lines and nothing more:\n\n1. A single capital letter A\u2011D (the chosen option) with no surrounding whitespace.\n2. A sentence that starts with \u201cBecause\u201d, consists of exactly eleven lowercase words, contains no letters A\u2011D, no digits, no the word \u201coption\u201d, and ends with one period directly after the last word. Do not add any trailing spaces or newline after the period.",
+      "train_score": 0.8876404494382022,
+      "train_step": 99,
+      "test_score": 0.953125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After you have chosen the correct option, output exactly two lines and then stop:\nLine\u202f1 \u2013 a single capital letter A\u2011D with no surrounding characters.\nLine\u202f2 \u2013 a sentence that starts with \u201cBecause\u201d, contains exactly ten words, ends with one period, and includes none of the letters A\u2011D, any digits, or the word \u201coption\u201d. Do not place any spaces before the final period and do not add a trailing newline after it.",
+      "train_score": 0.9662921348314607,
+      "train_step": 49,
+      "test_score": 0.953125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5168539325842697,
+      "train_step": -1,
+      "test_score": 0.9486607142857143,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When you know the correct answer, output exactly two lines and nothing more:\n\nLine\u202f1 \u2013 a single capital letter A\u2011D, with no extra characters or whitespace.\n\nLine\u202f2 \u2013 a sentence that starts with \u201cBecause\u201d, uses only lowercase letters after the initial \u201cB\u201d, contains no digits, no letters A\u2011D, no the word \u201coption\u201d, ends with a period immediately after the last word, and contains no other punctuation. Do not add any trailing spaces or newline after the period.",
+      "train_score": 0.9101123595505618,
+      "train_step": 99,
+      "test_score": 0.9464285714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "When you know the correct option, output exactly two lines and then stop:\n\nLine\u202f1 \u2013 a single capital letter A\u2011D, with no surrounding characters.\n\nLine\u202f2 \u2013 a sentence beginning with \u201cBecause\u201d, using only lowercase letters after the initial \u201cB\u201d, containing between 6 and 12 words, ending with a period directly after the last word, and containing no digits, no letters A\u2011D, and no the word \u201coption\u201d. Do not add any extra whitespace.",
+      "train_score": 0.9101123595505618,
+      "train_step": 99,
+      "test_score": 0.9419642857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide exactly two lines and nothing else.\n\nLine\u202f1: the answer as a single capital letter\u202fA\u2011D, with no surrounding whitespace or other symbols.  \nLine\u202f2: a standalone sentence that starts with \u201cBecause\u201d, contains exactly ten words, ends with a single period, and contains no letters\u202fA\u2011D, any digits, or the word \u201coption\u201d. Do not place any spaces before the final period and do not add any trailing newline after it.",
+      "train_score": 0.9662921348314607,
+      "train_step": 42,
+      "test_score": 0.9419642857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After you have selected the correct answer, respond with exactly two lines and then stop:\n\nLine\u202f1 \u2013 a single capital letter A\u2011D, with no surrounding whitespace.  \nLine\u202f2 \u2013 a sentence that begins with \u201cBecause\u201d, contains exactly eleven words, uses only lowercase letters after the initial \u201cB\u201d, contains no digits, no letters A\u2011D, no the word \u201coption\u201d, no punctuation except the final period, has no space before that period, and is followed by no additional characters or whitespace.",
+      "train_score": 0.9101123595505618,
+      "train_step": 99,
+      "test_score": 0.9397321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After determining the correct choice, output exactly two lines and stop:\nLine\u202f1 \u2013 a single capital letter A\u2011D representing the answer, with no surrounding characters.\nLine\u202f2 \u2013 a sentence that begins with \u201cBecause\u201d, gives a brief justification, ends with a single period, and contains no line\u2011breaks or extra spaces before the period.\nTerminate the response immediately after the final period.",
+      "train_score": 0.9775280898876404,
+      "train_step": 50,
+      "test_score": 0.9397321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "When you know the correct answer, output exactly two lines and then stop.\n\nLine\u202f1: a single capital letter A\u2011D with no surrounding whitespace.\n\nLine\u202f2: a sentence that begins with \u201cBecause\u201d, contains exactly eleven words, uses only lowercase letters after the initial \u201cB\u201d, includes no digits, no letters A\u2011D, no the word \u201coption\u201d, and ends with a single period immediately after the last word. Do not add any extra spaces before the period or after it.",
+      "train_score": 0.9438202247191011,
+      "train_step": 99,
+      "test_score": 0.9308035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "When you have determined the correct choice, reply with exactly two lines and nothing else:\nLine\u202f1 \u2013 a single capital letter A\u2011D representing the answer.\nLine\u202f2 \u2013 a sentence that starts with \u201cBecause\u201d, provides a brief justification, and ends with a single period.",
+      "train_score": 0.9775280898876404,
+      "train_step": 90,
+      "test_score": 0.44419642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9910714285714286,
+    "avg_test_score": 0.9360119047619048,
+    "best_test_instruction": "When you have determined the correct answer, output exactly two lines and stop:\n\nLine\u202f1 \u2013 a single capital letter A\u2011D representing the answer, with no surrounding whitespace.\n\nLine\u202f2 \u2013 a sentence that begins with \u201cBecause\u201d, contains between nine and twelve words inclusive, ends with a single period, and contains no letters A\u2011D, no digits, no occurrence of the word \u201coption\u201d, and no punctuation other than the final period. Do not place a space before the period and output nothing after it."
+  }
+}

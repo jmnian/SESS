@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem, then write only the correct option letter (A\u2011D) on a single line that is the very last line of your response. The answer line must contain nothing else\u2014no spaces, punctuation, or extra characters. Any reasoning or explanation should appear on preceding lines.",
+      "train_score": 0.38461538461538464,
+      "train_step": 43,
+      "test_score": 0.3686868686868687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, write only the single uppercase letter (A\u2011D) that is the correct choice. This letter must appear on the final line of your response, with no preceding or trailing spaces, no punctuation, no markdown formatting, and no other characters. All explanations must be placed above that line.",
+      "train_score": 0.38461538461538464,
+      "train_step": 68,
+      "test_score": 0.3686868686868687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, print a single line with only the correct option letter (A\u2011D). No other symbols, spaces or text may appear on that line, and it must be the very last line of your answer. Any explanation should precede it.",
+      "train_score": 0.38461538461538464,
+      "train_step": 66,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question. Then produce exactly one line containing only the correct option letter (A, B, C, or D). Do not add spaces, punctuation, or any other text on that line. Any explanation must be placed on separate preceding lines.",
+      "train_score": 0.38461538461538464,
+      "train_step": 40,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After working out the solution, write the answer as a single capital letter A\u2011D on its own line. Do not include any other symbols, spaces, or text on that line; any reasoning may be placed above it.",
+      "train_score": 0.38461538461538464,
+      "train_step": 38,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question. After the solution, place the answer on the final line containing exactly one capital letter (A,\u202fB,\u202fC,\u202for\u202fD) with no other symbols, spaces, or text. Anything else must appear above that line.",
+      "train_score": 0.38461538461538464,
+      "train_step": 51,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, work out the solution, then output exactly one character \u2013 the correct choice A, B, C, or D \u2013 on a line by itself that is the very last line of your response. No spaces, punctuation, or other symbols may appear on that line. Any explanation must be placed before it.",
+      "train_score": 0.38461538461538464,
+      "train_step": 58,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, then write the answer as a single capital letter (A\u2011D) on its own line. This line must be the very last line of your output and must contain nothing else\u2014no spaces, punctuation, markdown, or invisible characters. All reasoning may appear in the lines above.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the question. After any explanation, output a final line that contains only one character \u2013 the correct choice A, B, C or D \u2013 and nothing else (no spaces, punctuation, markdown, or hidden characters). This line must be the very last line of your response; no additional output may follow.",
+      "train_score": 0.28205128205128205,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give your analysis first. End the reply with exactly one character\u2014A, B, C, or D\u2014on a line by itself. That final line must contain only the letter, no spaces, punctuation, markup, or hidden characters. No other text may follow it.",
+      "train_score": 0.38461538461538464,
+      "train_step": 72,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3333333333333333,
+      "train_step": -1,
+      "test_score": 0.31313131313131315,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide your solution. After all reasoning, output exactly one uppercase letter\u202f(A\u2011D) on a final line by itself. That line must contain nothing else\u2014no spaces, punctuation, markdown, or hidden characters, and nothing may follow it.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Choose the correct answer option (A,\u202fB,\u202fC,\u202for\u202fD) for each multiple\u2011choice question.",
+      "train_score": 0.358974358974359,
+      "train_step": 0,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, identify the needed concept and data, work out the solution step\u2011by\u2011step, and finally write only the correct option letter (A\u2011D) on a line by itself. Do not include any other symbols, punctuation, or text in the answer line. You may give a brief reasoning before that line, but the final line must contain only the single uppercase letter.",
+      "train_score": 0.41025641025641024,
+      "train_step": 32,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After completing the solution, end your response with exactly one character \u2013 the correct option A, B, C or D \u2013 on its own line. That final line may contain nothing else: no spaces, no punctuation, no markdown, no hidden characters, and must be the absolute last line of output. All explanations must appear above it.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the question, compute the correct choice, and output exactly one character\u2014the correct answer letter (A,\u202fB,\u202fC,\u202for\u202fD)\u2014as the final line of your response. Any reasoning must appear on preceding lines; the answer line must contain nothing else.",
+      "train_score": 0.38461538461538464,
+      "train_step": 40,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, outline the reasoning steps, evaluate each choice against the reasoning, and conclude by stating the correct option letter, optionally providing a short justification.",
+      "train_score": 0.358974358974359,
+      "train_step": 1,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide your reasoning, then end with a single line that contains exactly one uppercase letter\u202fA\u2011D\u2014the correct choice. That line must have no spaces, punctuation, markdown or any other characters and must be the very last line of your output.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, write any explanation you wish, then finish the response with a single line that consists of exactly one uppercase letter A, B, C or D \u2013 the correct choice. That line must contain no other characters (no spaces, punctuation, markdown symbols, or invisible characters) and must be the very last line of the output.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the question, then output the correct choice (A\u2011D) as the very last line of your response. That line must contain exactly one uppercase letter and nothing else\u2014no spaces, punctuation, markdown symbols, or invisible characters. All explanations, calculations, or commentary must appear above this final line.",
+      "train_score": 0.38461538461538464,
+      "train_step": 72,
+      "test_score": 0.22727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question, then terminate your response with a single line that contains exactly one capital letter A, B, C, or D \u2013 the correct choice. That line must be the very last line, contain no spaces, punctuation, markdown, or hidden characters, and be followed only by a newline. All reasoning must appear above this line.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.19696969696969696,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3686868686868687,
+    "avg_test_score": 0.3059163059163059,
+    "best_test_instruction": "Solve the problem, then write only the correct option letter (A\u2011D) on a single line that is the very last line of your response. The answer line must contain nothing else\u2014no spaces, punctuation, or extra characters. Any reasoning or explanation should appear on preceding lines."
+  }
+}

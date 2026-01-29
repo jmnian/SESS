@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "[Instruction text].",
+      "train_score": 0.46153846153846156,
+      "train_step": 20,
+      "test_score": 0.3686868686868687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question. Put each reasoning step on a separate line starting with \u201c>>\u201d. When the correct choice (A\u2011D) is determined, output a single line exactly \u201cAnswer: X\u201d. Do not include any other text, blank lines, or spaces before or after the answer line.",
+      "train_score": 0.46153846153846156,
+      "train_step": 86,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question carefully, work out the required reasoning or calculations, and then output the correct answer choice letter (A,\u202fB,\u202fC,\u202for\u202fD) along with a brief justification of why that choice is the right one.",
+      "train_score": 0.46153846153846156,
+      "train_step": 1,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question. When you have determined the correct choice (A\u2011D), output a single line exactly:\n\nAnswer: X\n\nwhere X is the chosen letter. No additional characters, spaces before or after, no extra lines, and no justification.",
+      "train_score": 0.4358974358974359,
+      "train_step": 69,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, work out the solution, and then output exactly two lines:\n\n1. All reasoning lines, each beginning with \u201c#\u201d.\n2. A final line \u201cAnswer: X\u201d where X is the correct choice (A\u2011D).\n\nNo other text, blank lines, or spaces may appear before, after, or between these lines. The answer line must be the last line.",
+      "train_score": 0.4358974358974359,
+      "train_step": 82,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\" and end with \"",
+      "train_score": 0.4358974358974359,
+      "train_step": 19,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct answer (A\u2011D) and output it alone on one line, prefixed by the word 'Answer:' and a space. Do not include any other characters or explanation.",
+      "train_score": 0.4358974358974359,
+      "train_step": 62,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question. If you need to show work, write each step on a separate line beginning with \u201c#\u201d. Finally output exactly one line: `Answer: X` (X = A\u2011D). No other output is allowed.",
+      "train_score": 0.46153846153846156,
+      "train_step": 81,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. Write each reasoning step on a separate line starting with \u201c>\u201d. When you have identified the correct choice (A\u2011D), output exactly \u201cAnswer: X\u201d on its own line (replace X with the letter). No other output is allowed.",
+      "train_score": 0.46153846153846156,
+      "train_step": 78,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. Any intermediate reasoning should be placed on separate lines starting with \u201c#\u201d. End with one line exactly \u201cAnswer: X\u201d, where X is the correct choice (A\u2011D). No other text is allowed.",
+      "train_score": 0.4358974358974359,
+      "train_step": 65,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the correct option letter (A\u2011D) on a single line, without any other text, symbols, or whitespace.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem. Write any intermediate steps each on its own line beginning with \u201c>>>\u201d. After the last step output one line exactly \u201cAnswer: X\u201d (X = A\u2011D). No other characters, blank lines or spaces may appear before, after, or between lines.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Listed earlier, and that has a higher score than all the previous ones. The scoring is not known exactly; we have to generate a better instruction.",
+      "train_score": 0.4358974358974359,
+      "train_step": 4,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Tags and closing",
+      "train_score": 0.4358974358974359,
+      "train_step": 77,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3333333333333333,
+      "train_step": -1,
+      "test_score": 0.2828282828282828,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving the question, reply with only the string \"Answer: X\", where X is the correct option letter (A\u2011D). Do not include any other characters, explanation, or whitespace before or after this line.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem. You may write any amount of explanatory text, but the very last line of your response must be exactly `Answer: X` where X is the correct option (A\u2011D). No characters, spaces, or blank lines may appear before or after that final line.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, determine the correct choice among A\u2011D, and output exactly one line containing only that single letter. Do not output any other text, symbols, spaces, or line breaks before or after the letter.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, reason step\u2011by\u2011step, then output only the single correct answer letter (A\u2011D) on one line, with no other text or symbols.",
+      "train_score": 0.46153846153846156,
+      "train_step": 41,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the correct choice (A\u2011D), and output only that single letter on one line with no additional characters, spaces, or explanations.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.24242424242424243,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and output exactly one line formatted as `Answer=X`, where X is the correct choice letter (A, B, C, or D). No other characters, spaces, or lines may appear.",
+      "train_score": 0.05128205128205128,
+      "train_step": 99,
+      "test_score": 0.06060606060606061,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3686868686868687,
+    "avg_test_score": 0.2926887926887927,
+    "best_test_instruction": "[Instruction text]."
+  }
+}

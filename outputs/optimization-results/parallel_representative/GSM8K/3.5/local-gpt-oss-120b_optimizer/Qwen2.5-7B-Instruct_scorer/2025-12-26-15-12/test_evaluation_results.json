@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every numeric value, determine the relevant operations, compute each step with clear intermediate results, verify the final result, and output only the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 3,
+      "test_score": 0.9173616376042456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Spot every given number and its unit, tag it with a brief symbol.  \n- From the wording create the sole exact calculation that answers the question using those symbols.  \n- Perform the calculation in clear stages, recording each intermediate value with a short comment.  \n- Cross\u2011check the outcome with a quick estimate.  \n- Output solely the final numeric result (attach the unit if the answer is dimensional).",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers, assign compact symbols, combine them into a single exact expression that solves the question, calculate it showing each intermediate result with a brief note, perform a quick back\u2011of\u2011the\u2011envelope verification, and return only the final numeric result (with unit if needed).",
+      "train_score": 0.9693486590038314,
+      "train_step": 92,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, assign them to concise variables, write a single arithmetic formula that directly yields the answer, compute it step\u2011by\u2011step displaying each intermediate value, perform a quick sanity check, and conclude with only the final numeric result (including units if applicable).",
+      "train_score": 0.9655172413793104,
+      "train_step": 8,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every relevant quantity, translate the problem into the precise mathematical expression needed, compute the result step by step, perform a brief sanity\u2011check, and give only the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 2,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, translate the described relationships into a single clear mathematical statement (equation or expression), compute it sequentially while displaying each intermediate result, verify the outcome with a brief plausibility test, and reply solely with the final numeric answer (and unit if appropriate).",
+      "train_score": 0.9616858237547893,
+      "train_step": 7,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note each numeric quantity and its unit, label them with brief identifiers, translate the whole situation into one precise equation or algebraic expression, solve it while displaying each intermediate computation with a brief explanation, double\u2011check the result by a quick back\u2011of\u2011the\u2011envelope estimate or by substituting back, and output only the final numeric answer (including its unit).",
+      "train_score": 0.9655172413793104,
+      "train_step": 80,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement, pull out all numbers with units, label each with a short variable, construct the one exact arithmetic or algebraic expression that answers the query, compute it sequentially recording each intermediate value with a concise comment, perform a quick sanity\u2011check, and return only the final numeric answer (with unit if any).",
+      "train_score": 0.9693486590038314,
+      "train_step": 24,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical values (and associated units), assign each a brief identifier, construct the sole precise arithmetic or algebraic expression that solves the question, carry out the computation step\u2011by\u2011step while noting each intermediate result with a short justification, do a rapid plausibility or reverse\u2011check, and present only the final numeric result (attach the unit when applicable).",
+      "train_score": 0.9655172413793104,
+      "train_step": 52,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, enumerate each given number, derive the exact arithmetic expression needed, evaluate it showing intermediate calculations, do a quick sanity check, and finish with only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 5,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify every numerical datum (including units) and label it with a short variable.\n- From the problem statement compose a single exact arithmetic expression for the required quantity using those variables.\n- Compute the expression sequentially, listing each intermediate value with a concise justification.\n- Verify the result with a quick back\u2011of\u2011the\u2011envelope check.\n- Output only the final numeric answer (append the unit if the answer is dimensional).",
+      "train_score": 0.9616858237547893,
+      "train_step": 17,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (with its unit), assign a short variable, write one exact arithmetic expression that answers the question, evaluate it showing each intermediate step and a brief comment, perform a quick reverse\u2011check or estimation, and output only the final numeric result (including the unit if needed).",
+      "train_score": 0.9655172413793104,
+      "train_step": 13,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum (including units), denote each by a short placeholder, compose one precise arithmetic statement that directly yields the requested quantity, evaluate it sequentially writing each intermediate outcome, perform a quick back\u2011of\u2011the\u2011envelop verification, and return solely the final number (attach unit if appropriate).",
+      "train_score": 0.9616858237547893,
+      "train_step": 14,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each number in the prompt, give it a brief label, write the one exact formula that answers the question, evaluate it showing each intermediate value with a short note, do a quick reasonableness check, and output solely the final value (including its unit if applicable).",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8764215314632298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers (and units), assign each a brief symbol, formulate the single exact mathematical expression that directly gives the requested quantity, evaluate it step\u2011by\u2011step showing each intermediate result with a short justification, perform a quick plausibility or reverse\u2011check, and output only the final numeric answer (including the unit if appropriate).",
+      "train_score": 0.9616858237547893,
+      "train_step": 27,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (with units) from the problem, give each a short placeholder, write the single exact formula that yields the required quantity, evaluate it step\u2011by\u2011step showing each intermediate result with a brief comment, do a quick plausibility check, and return only the final numeric answer (including the unit if needed).",
+      "train_score": 0.9616858237547893,
+      "train_step": 37,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities and their relationships, carry out the necessary calculations showing each intermediate step, perform a brief sanity\u2011check of the result, and finish by delivering only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 1,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract every given number (and its unit) and label it with a brief variable.  \n- Combine the variables into one exact formula that produces the asked quantity.  \n- Compute the formula step\u2011by\u2011step, writing each intermediate value with a short comment.  \n- Do a quick back\u2011of\u2011the\u2011envelope sanity check.  \n- Output only the final number (including the unit if the answer is dimensional).",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8529188779378317,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8735632183908046,
+      "train_step": -1,
+      "test_score": 0.8347232752084913,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value (and its unit) from the problem, assign each a short symbol, construct the single exact calculation that directly yields the requested quantity, evaluate it step\u2011by\u2011step recording each intermediate result with a brief justification, perform a quick order\u2011of\u2011magnitude sanity check, and answer with only the final numeric value (including its unit if applicable).",
+      "train_score": 0.8007662835249042,
+      "train_step": 99,
+      "test_score": 0.7240333586050038,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each numeric datum, label them, write the sole algebraic expression that directly solves the question, compute it showing just the final intermediate value, sanity\u2011check, then output only the answer (unit if needed).",
+      "train_score": 0.7394636015325671,
+      "train_step": 99,
+      "test_score": 0.6702047005307051,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9173616376042456,
+    "avg_test_score": 0.8669266038485143,
+    "best_test_instruction": "Extract every numeric value, determine the relevant operations, compute each step with clear intermediate results, verify the final result, and output only the final numeric answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Briefly describe the key idea, carry out the essential computation in a few clear steps with light justification, perform a quick check, and finish by outputting only the final numeric answer on a separate line.",
+      "train_score": 0.7823529411764706,
+      "train_step": 8,
+      "test_score": 0.5301656767739918,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the required number, solve it using the most direct technique in no more than three clear steps with brief justification, verify the result quickly, and output only the final numeric answer on a single line.",
+      "train_score": 0.788235294117647,
+      "train_step": 80,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify what is asked, select the most direct formula or reasoning, perform only the necessary calculations with brief justification, quickly confirm the result, and output exactly the final numeric answer on a single line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 66,
+      "test_score": 0.5185995623632386,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the exact quantity the problem asks for, apply the most direct computation or counting rule, perform only the necessary steps with a brief justification, do a quick consistency check, and output only the final numeric answer on a single line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 77,
+      "test_score": 0.5182869646764614,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what the problem seeks, pick the most direct approach, carry out only the indispensable algebra or arithmetic with a brief comment, verify the result quickly, and output solely the exact number on a single line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 72,
+      "test_score": 0.5176617693029072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline your reasoning, carry out each required calculation in order, and finish with the final answer while keeping the explanation concise.",
+      "train_score": 0.7764705882352941,
+      "train_step": 1,
+      "test_score": 0.51734917161613,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, clarify what number the problem is asking for. Then apply the most straightforward method, carrying out only the essential algebra or counting in no more than two concise steps, include a brief justification, confirm the result with a quick sanity check, and finally print just the final answer on its own line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 94,
+      "test_score": 0.5142231947483589,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clarify the exact quantity requested, choose the most straightforward method to evaluate it, carry out only the essential computation with a brief justification, perform a quick consistency check, and output solely the final numeric answer on a single line.",
+      "train_score": 0.7764705882352941,
+      "train_step": 98,
+      "test_score": 0.5123476086276961,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the required numeric result, apply the most direct calculation or theorem, perform the minimal necessary work with a brief rationale, instantly verify consistency, and finish by printing only the exact number on a single line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 77,
+      "test_score": 0.5104720225070335,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity requested, apply the most straightforward principle, perform the computation in the fewest clear steps with a brief justification, verify quickly, and output only the final numeric answer on a single line.",
+      "train_score": 0.7647058823529411,
+      "train_step": 44,
+      "test_score": 0.5048452641450454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the exact quantity sought, employ the quickest valid shortcut, carry out only the unavoidable arithmetic with a brief comment, perform a swift consistency check, and output solely the resulting number on a single line.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.4957799312285089,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the exact quantity required, choose the most efficient approach, perform only the indispensable computation with a concise justification, verify the result briefly, and output the final number alone on one line.",
+      "train_score": 0.7647058823529411,
+      "train_step": 72,
+      "test_score": 0.49484213816817757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the integer sought, apply the most direct technique, carry out only essential calculations with a short justification, do a rapid sanity check, and output solely the final number on one line.",
+      "train_score": 0.7294117647058823,
+      "train_step": 99,
+      "test_score": 0.4939043451078462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity required, apply the most direct principle, carry out only the essential computation with a brief justification, perform a quick verification, and finish by writing only the final numeric answer on a single line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 56,
+      "test_score": 0.4939043451078462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Specify the exact quantity sought, select the most efficient method, perform only the essential computation with concise justification, verify quickly for consistency, and present only the final numeric answer on a single line.",
+      "train_score": 0.7176470588235294,
+      "train_step": 99,
+      "test_score": 0.4935917474210691,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6764705882352942,
+      "train_step": -1,
+      "test_score": 0.4867145983119725,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise quantity required, select the most direct method, execute the minimal necessary calculation with a short justification, do a quick consistency check, and output only the final number on a single line.",
+      "train_score": 0.7705882352941177,
+      "train_step": 86,
+      "test_score": 0.4867145983119725,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact value required, apply the simplest direct method, perform only the indispensable computation with a brief one\u2011sentence justification, do a quick consistency check, and output solely the final numeric answer on its own line.",
+      "train_score": 0.7588235294117647,
+      "train_step": 99,
+      "test_score": 0.485464207564864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Clearly identify the specific value being sought, apply the most direct and efficient method to compute it using the fewest necessary steps with a brief justification, perform a quick verification for consistency, and present only the final numeric answer on a single line.",
+      "train_score": 0.7352941176470589,
+      "train_step": 99,
+      "test_score": 0.4763988746483276,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact integer requested, use the quickest applicable formula or argument, execute only the essential computation with a brief comment, verify the result in a moment, and print solely the final integer on a single line.",
+      "train_score": 0.7176470588235294,
+      "train_step": 99,
+      "test_score": 0.46326977180368867,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the specific quantity the problem asks for, solve it using the simplest appropriate technique in at most three short steps (each step no longer than one sentence), verify the result with a quick sanity check, and finally output only the numerical answer on a single line.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.3694904657705533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5301656767739918,
+    "avg_test_score": 0.4954673335417318,
+    "best_test_instruction": "Briefly describe the key idea, carry out the essential computation in a few clear steps with light justification, perform a quick check, and finish by outputting only the final numeric answer on a separate line."
+  }
+}

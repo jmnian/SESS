@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every explicit quantity, introduce a unique single\u2011letter variable for each unknown, formulate one exact arithmetic expression that directly gives the required value, evaluate it exactly (keeping fractions until the end), perform a quick reasonableness check, and present only the final numeric answer (integer, reduced fraction, or decimal), adding a unit only when the prompt specifies one.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.9211523881728583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each given quantity, convert the situation into the simplest possible arithmetic or algebraic expression, compute it step\u2011by\u2011step with a quick sanity check, and answer with only the final numeric result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 5,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, label each unknown with a variable, translate the situation into a single arithmetic/algebraic expression, evaluate it step\u2011by\u2011step, and give only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 1,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit number, assign a unique one\u2011letter symbol to each unknown, formulate the single most direct exact computation that produces the requested value, carry out the calculation step\u2011by\u2011step while briefly confirming each intermediate result and maintaining unit consistency, then output only the final answer in its simplest form (integer, reduced fraction, or decimal), adding a unit only if the problem calls for one.",
+      "train_score": 0.9731800766283525,
+      "train_step": 33,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, denote each unknown with a distinct single\u2011letter variable, construct the most direct exact calculation that gives the answer, perform the computation step\u2011by\u2011step keeping fractions exact and confirming each intermediate result, then output solely the final value (with its unit only if required).",
+      "train_score": 0.9731800766283525,
+      "train_step": 46,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, record all explicit numbers, label each unknown with a one\u2011letter variable, devise the shortest exact computation that directly yields the quantity sought, perform the calculation stepwise checking consistency, and output solely the final numeric result (with a unit only if specified).",
+      "train_score": 0.9731800766283525,
+      "train_step": 35,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list all numeric data, assign symbols for any unknowns, construct the single exact computation that directly yields the requested value, perform the calculation with brief verification of each intermediate step and unit consistency, and return only the final result in simplest form (including a unit only when the question specifies one).",
+      "train_score": 0.9655172413793104,
+      "train_step": 18,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, extract every relevant quantity, introduce variables as needed, translate the situation into the exact arithmetic or algebraic expression required, evaluate it step\u2011by\u2011step, and output only the final numeric result.",
+      "train_score": 0.9770114942528736,
+      "train_step": 3,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all stated numerical values, assign a distinct one\u2011letter symbol to each unknown, formulate the most compact exact arithmetic or algebraic expression that yields the target quantity, compute it sequentially while briefly confirming each intermediate result and preserving unit consistency, then output solely the final answer (as an integer, reduced fraction, or decimal) and include a unit only if the problem specifies one.",
+      "train_score": 0.9731800766283525,
+      "train_step": 35,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit quantity in the prompt, denote each unknown with a single\u2011letter variable, write the most compact exact mathematical expression that yields the asked value, evaluate it step\u2011by\u2011step while briefly confirming each intermediate result and keeping units consistent, and output only the final numeric answer (as an integer, reduced fraction, or decimal, attaching the unit only if required).",
+      "train_score": 0.9693486590038314,
+      "train_step": 39,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value, assign each unknown a distinct single\u2011letter variable, devise the single most compact exact computation that produces the required quantity, evaluate it stepwise keeping fractions exact and checking plausibility, and output only the final result in its simplest form (integer, reduced fraction, or decimal), attaching a unit only if the problem demands it.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, enumerate every stated number, give each unknown a unique one\u2011letter variable, construct the single most direct exact expression that yields the required quantity, evaluate it precisely (keeping fractions exact), quickly verify the outcome, and output only the final numeric answer (add a unit only if the problem specifies one).",
+      "train_score": 0.8773946360153256,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, pick out every explicit numeric value, assign a unique single\u2011letter variable to each unknown, construct the simplest possible exact formula that produces the quantity asked, evaluate it exactly (keep fractions until the end), do a brief plausibility check, and output only the final answer in reduced form (integer, fraction or decimal) with a unit only if the question includes one.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the prompt, pull out every explicit quantity, assign each missing quantity a distinct single\u2011letter symbol, formulate the unique exact computation that directly yields the required result, evaluate it in order while briefly confirming each intermediate value and keeping units consistent, then output only the final answer in its simplest form (integer, reduced fraction or decimal), appending a unit only when the question demands it.",
+      "train_score": 0.9693486590038314,
+      "train_step": 53,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers, assign each unknown a distinct one\u2011letter variable, write the minimal exact formula that yields the asked quantity, compute it exactly (keep fractions unreduced until the final step), verify the result with a quick sanity check, and output only the final answer in simplest form (integer, reduced fraction, or decimal) with a unit only if required.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum, denote any unknowns with single\u2011letter variables, write the single most straightforward exact calculation that gives the required value, perform the computation stepwise while briefly confirming each intermediate result and unit consistency, and output only the final answer in its simplest form (integer, reduced fraction, or decimal), adding a unit only if the question asks for it.",
+      "train_score": 0.9693486590038314,
+      "train_step": 40,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, record all given numbers, assign a distinct one\u2011letter variable to each unknown, derive the single exact expression that computes the requested value, evaluate it sequentially with a quick sanity check, and return only the final result (as an integer, reduced fraction or decimal, appending the unit only if the question mentions one).",
+      "train_score": 0.9655172413793104,
+      "train_step": 30,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, symbolically denote any unknowns, formulate the shortest exact calculation that answers the question, compute it verifying intermediate results briefly, and present solely the final numeric answer (with unit if required).",
+      "train_score": 0.9731800766283525,
+      "train_step": 16,
+      "test_score": 0.8764215314632298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all given numbers, give each unknown a distinct single\u2011letter variable, devise the single most direct exact expression that produces the asked value, evaluate it precisely (keep fractions exact), do a quick reasonableness check, and output only the final result in simplest form (integer, reduced fraction or decimal), appending a unit only if the question requires one.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.9003831417624522,
+      "train_step": -1,
+      "test_score": 0.8362395754359363,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeral present, denote each missing quantity with a fresh one\u2011letter symbol, combine them into the shortest possible exact calculation that directly produces the asked quantity, carry out the computation step\u2011by\u2011step without rounding (keep fractions exact until the last step), perform a quick plausibility verify, and report only the final answer in its simplest form (integer, reduced fraction or decimal), adding a unit only if the problem specifies one.",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.8347232752084913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9211523881728583,
+    "avg_test_score": 0.8906097693057513,
+    "best_test_instruction": "Identify every explicit quantity, introduce a unique single\u2011letter variable for each unknown, formulate one exact arithmetic expression that directly gives the required value, evaluate it exactly (keeping fractions until the end), perform a quick reasonableness check, and present only the final numeric answer (integer, reduced fraction, or decimal), adding a unit only when the prompt specifies one."
+  }
+}

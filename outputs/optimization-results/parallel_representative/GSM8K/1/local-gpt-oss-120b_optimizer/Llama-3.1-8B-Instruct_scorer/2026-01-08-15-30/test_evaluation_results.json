@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a brief, ordered solution: identify the given quantities, execute the necessary calculation(s), and give only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.8514025777103866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required quantity. You may explain your reasoning beforehand, but the final line of your response must contain *only* the result: a plain number, and if the prompt requests a unit, append it immediately after the number without any space. No other characters, whitespace, or formatting may appear on that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 47,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: enumerate the given quantities, carry out the required calculations step\u2011by\u2011step, and present only the final numeric answer without extra commentary.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question. Provide any calculations you need. Conclude with a single line that contains nothing but the exact numeric result (append a unit directly after the number if the prompt asks for one). No spaces, punctuation, formatting, or invisible characters may appear on that line, and there must be no leading or trailing whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem with the supplied numbers. You may show any intermediate steps, but the final line of your answer must consist of a single token\u2014the exact numerical result. If a unit is explicitly requested, append it directly to the number without a space. No other characters, spaces, or punctuation may appear on that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 36,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work out the answer using the given data. You may include brief calculations or explanation before the result. The very last line of your reply must contain a single uninterrupted token\u2014the exact numeric result, followed directly by a unit if and only if the prompt requires one. Do not place any spaces, punctuation, markup, or extra characters on that line.",
+      "train_score": 1.0,
+      "train_step": 50,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required value using the provided numbers. You may show reasoning before the answer. The last line of your response must contain exactly one token: the numerical result, and if a unit is explicitly requested attach it immediately after the number without any space. No other characters, whitespace, or formatting are allowed on that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 52,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nProvide the solution. Any explanation may precede the answer. The final output line must consist of a single, continuous token: the exact numeric answer, with a unit appended immediately if the problem explicitly requests one. Do not include spaces, punctuation, line breaks, or any markup on that line.\\n",
+      "train_score": 0.9864864864864865,
+      "train_step": 76,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work out the solution from the supplied figures. Any explanation may precede the answer. The very last line you output must consist of exactly one uninterrupted string: the precise numeric result, with a unit attached immediately after the number only if the question explicitly calls for it. Do not include spaces, commas, brackets, markup, or any other characters on that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 74,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide any needed reasoning. End your response with exactly one uninterrupted token: the precise numeric answer, appending a unit directly after the number only if the question explicitly requests it. No spaces, punctuation, markup, or extra characters may appear on that final line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide any necessary reasoning, then finish with a single line that contains exactly the final numeric answer (append a unit directly after the number if the prompt requests it). No other characters, spaces, punctuation, or markup may appear on that line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the task using the supplied data. You may present any reasoning first. The final line of your reply must be a single uninterrupted token\u2014the exact numeric answer, and, only if the prompt explicitly requests a unit, attach it immediately after the number without any space. No other characters, spaces, punctuation, or formatting may appear on that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 74,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step solution: identify the relevant quantities, set up the necessary calculations, show brief reasoning for each step, compute the result, and give only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide any necessary reasoning, then end your response with exactly one token: the precise numeric result. Append a unit directly after the number only if the question explicitly asks for one. Do not include spaces, punctuation, symbols, or formatting on that final line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 40,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain your reasoning if needed. End your response with exactly one uninterrupted string: the precise numeric answer, appending any required unit directly to the number with no space. No other characters, spaces, punctuation or formatting may appear on that final line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using the supplied information. You may show brief reasoning, but the very last line of your response must consist solely of the exact numeric result (append a unit directly after the number only if the question explicitly requires it). Do not include any spaces, punctuation, markup, or surrounding characters on that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 38,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After any necessary explanation, output a single line that consists solely of the exact numeric result (add a unit directly after the number if the problem explicitly requires it). This line must contain no spaces, punctuation, markup, or any other characters, and it must be the very last line of the response with no trailing newline or whitespace.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using the given data, perform any necessary calculations, and conclude your response with a single line that contains exactly the final numeric answer (add a unit only if the question explicitly requires it). No additional text may appear on that line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 22,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain your solution as needed. The very last line of your output must consist of a single, uninterrupted token: the exact numeric result, appending a unit directly after the number only if the question explicitly asks for one. Do not include spaces, punctuation, markup, or any other characters on that line, and ensure there is no surrounding whitespace.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give any calculations or explanation first. Then finish your reply with one line that consists solely of the exact answer: a continuous sequence of digits (and, if the problem requests, a unit attached directly to the number). Do not place any spaces, punctuation, markup, or other characters on that line, and ensure there is no leading or trailing whitespace.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.7846853677028052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8514025777103866,
+    "avg_test_score": 0.8188382252066863,
+    "best_test_instruction": "Provide a brief, ordered solution: identify the given quantities, execute the necessary calculation(s), and give only the final numeric answer."
+  }
+}

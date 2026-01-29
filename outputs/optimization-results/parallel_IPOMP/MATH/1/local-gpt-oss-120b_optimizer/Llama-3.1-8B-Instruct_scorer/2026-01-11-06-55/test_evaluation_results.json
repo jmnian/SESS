@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Give a concise, logical, step\u2011by\u2011step solution that explicitly shows each calculation, then present only the final answer as a plain number (or year) with no additional commentary.",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.5286026883401063,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution and give the final answer as a number.",
+      "train_score": 0.6666666666666666,
+      "train_step": 0,
+      "test_score": 0.5276648952797749,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "We should begin by identifying the key quantities asked, then carry out the required calculations with clear, concise steps, and finally output only the final numeric answer (or simplified expression) without any additional explanation.",
+      "train_score": 0.7291666666666666,
+      "train_step": 2,
+      "test_score": 0.5267271022194435,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step derivation focusing on the essential calculations, and conclude with the exact answer presented alone (as a number or year).",
+      "train_score": 0.75,
+      "train_step": 1,
+      "test_score": 0.5257893091591123,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem with a clear, logical, step-by-step approach and provide the final answer.",
+      "train_score": 0.7291666666666666,
+      "train_step": 0,
+      "test_score": 0.5176617693029072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logical step\u2011by\u2011step solution containing only the necessary calculations and reasoning, and conclude with the final answer presented alone as a plain number (or year) without any additional commentary.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.5076586433260394,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core mathematical task, execute the calculations transparently showing each intermediate step, and conclude with only the final result (numeric value or year). Do not add any extraneous explanation beyond what is necessary for the computation.",
+      "train_score": 0.6666666666666666,
+      "train_step": 1,
+      "test_score": 0.4989059080962801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a succinct solution that isolates the essential quantities, carries out the required calculations showing each intermediate step, and concludes with the answer alone as a plain number (or year), omitting any additional explanation.",
+      "train_score": 0.7708333333333334,
+      "train_step": 2,
+      "test_score": 0.4923413566739606,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the needed quantities, carry out each calculation on its own line (showing the result), and after the final step output only the ultimate numeric answer (or year) on a single line with no extra words or symbols.",
+      "train_score": 0.375,
+      "train_step": 99,
+      "test_score": 0.49015317286652077,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, showing each required calculation succinctly; after the reasoning, output only the resulting value (or year) on a line by itself, without any extra words or explanation.",
+      "train_score": 0.75,
+      "train_step": 2,
+      "test_score": 0.48952797749296656,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, apply the appropriate mathematical reasoning, show the calculations concisely, and present the final answer as a plain number (or simplified expression) without extra commentary.",
+      "train_score": 0.7083333333333334,
+      "train_step": 0,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6458333333333334,
+      "train_step": -1,
+      "test_score": 0.4864020006251954,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logical solution that extracts the necessary numbers, performs only the essential calculations, and ends with the final answer presented alone as a plain number (or year) on its own line\u2014no extra words or commentary.",
+      "train_score": 0.6875,
+      "train_step": 2,
+      "test_score": 0.47889965614254454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, ordered solution that lists every necessary calculation, showing each intermediate result, and conclude with the final numeric answer (or year) alone on its own line, without any additional commentary or explanatory text.",
+      "train_score": 0.6666666666666666,
+      "train_step": 3,
+      "test_score": 0.4745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a succinct solution: list each required computation on a separate line (showing the formula and its value), and after the last line output only the final numeric answer (or year) on its own line with no additional text.",
+      "train_score": 0.375,
+      "train_step": 99,
+      "test_score": 0.46514535792435135,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities that must be computed, write each computation (including its result) on its own line, and after the last computation write a single line that contains only the final numerical answer (or year), with no other words or symbols.",
+      "train_score": 0.6875,
+      "train_step": 4,
+      "test_score": 0.46514535792435135,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the necessary values, presenting each intermediate result in a compact step; then output solely the final answer as a plain number on its own line, with no additional text or commentary.",
+      "train_score": 0.6875,
+      "train_step": 3,
+      "test_score": 0.46326977180368867,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every needed calculation as a separate equation showing its result, then on the next line output only the final numeric answer (or year) by itself with no additional text.",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.45139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write the essential calculations each on a separate line, showing any intermediate values, and after the last calculation output only the final answer (a number or simplified expression) on its own line with no surrounding text.",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.4241950609565489,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a compact solution: first list the essential equations or expressions, then evaluate each one on its own line (showing only the calculation and its result), and finally give a single line that contains solely the final numeric answer (or year) with no additional words or commentary.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.3982494529540481,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantities to compute, write each computation on its own line (including the resulting value), optionally annotate with brief reason, and after the last line output only the final numeric answer (or year) on a separate line with no surrounding text. Do not include any extra explanation, commentary, or formatting.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.37730540793998124,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5286026883401063,
+    "avg_test_score": 0.47994164843180154,
+    "best_test_instruction": "Give a concise, logical, step\u2011by\u2011step solution that explicitly shows each calculation, then present only the final answer as a plain number (or year) with no additional commentary."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 44,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "For every multiple\u2011choice question follow these steps:\n1. Find the one fact, equation or rule that alone fixes the answer.  \n2. Compute the resulting value or logical statement and keep only that final outcome.  \n3. Choose the option (A\u2011D) that expresses this outcome.  \n4. Output a single line exactly: \u201cAnswer <letter>. Because <decisive result> eliminates the other three choices.\u201d No extra characters, headings or line breaks.",
+      "train_score": 0.45454545454545453,
+      "train_step": 68,
+      "test_score": 0.35044642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n1. Find the single fact, rule, or calculation that uniquely determines the correct answer.\n2. Apply it and obtain the decisive result.\n3. Choose the option (A\u2011D) that matches that result.\n4. Output on one line exactly: \u201cAnswer:<letter>. Explanation:<decisive result> makes the other three choices invalid.\u201d\nNo other characters, spaces, or line breaks are allowed.",
+      "train_score": 0.45454545454545453,
+      "train_step": 94,
+      "test_score": 0.34598214285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every MCQ:\n- isolate the one fact or equation that fixes the outcome;\n- compute the resulting numeric/boolean value;\n- select the option (A\u2011D) that matches that value;\n- reply on one line as \u201c<letter>. because <decisive value or rule> excludes the other three choices\u201d. No other text is allowed.",
+      "train_score": 0.45454545454545453,
+      "train_step": 54,
+      "test_score": 0.34375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every MCQ:\n1. Find the one rule, fact, or calculation that alone decides the answer.  \n2. Apply it and retain only the decisive result (number, structural detail, or logical value).  \n3. Choose the option (A\u2013D) that expresses that result.  \n4. Respond on a single line exactly: \u201cAnswer: <letter>. Reason: <decisive result> rules out the other three choices.\u201d No extra words, symbols, or line breaks.",
+      "train_score": 0.4318181818181818,
+      "train_step": 99,
+      "test_score": 0.33035714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For every multiple\u2011choice question:\n1. Determine the single piece of information, rule or computation that uniquely decides the correct choice.\n2. Perform the computation (or logical inference) and keep only the final numeric or truth result.\n3. Locate the option (A\u2013D) that expresses that result.\n4. Output one line exactly: \u201cAnswer: <letter>. Reason: <result> makes the other three options impossible.\u201d Do not add any other characters, words, or line breaks.",
+      "train_score": 0.36363636363636365,
+      "train_step": 99,
+      "test_score": 0.33035714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide the correct answer to the given multiple\u2011choice question and include a brief explanation of why that choice is correct.",
+      "train_score": 0.45454545454545453,
+      "train_step": 0,
+      "test_score": 0.328125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer each MCQ on a single line in the form \u201c<letter>. <brief justification>\u201d. The justification must (i) state the key fact/computation that gives the answer and (ii) in the same sentence explain why the remaining three choices cannot be correct. No extra characters, headings, or line breaks are allowed.",
+      "train_score": 0.36363636363636365,
+      "train_step": 99,
+      "test_score": 0.31919642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each question:\n1. Isolate the one piece of information, rule or computation that alone determines the correct choice.\n2. Apply it and keep only the final numeric/structural/logic result.\n3. Identify which option (A\u2011D) corresponds to that result.\n4. Respond on a single line exactly: \u201cAnswer: <letter>. Reason: <result> eliminates choice A, B, C, and D respectively.\u201d Replace the letters with the appropriate ones, and keep the sentence in one clause. No other text or symbols may appear.",
+      "train_score": 0.4772727272727273,
+      "train_step": 69,
+      "test_score": 0.31919642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3181818181818182,
+      "train_step": -1,
+      "test_score": 0.31473214285714285,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ:\n1. Find the one rule, formula or datum that uniquely determines the answer.  \n2. Compute the resulting numeric/structural/boolean outcome.  \n3. Select the letter (A\u2011D) that expresses that outcome.  \n4. Output a single line exactly: \u201c<letter>. Reason: <outcome> eliminates the other three options.\u201d  No other words, symbols or line breaks.",
+      "train_score": 0.36363636363636365,
+      "train_step": 99,
+      "test_score": 0.31026785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each MCQ: (1) determine the single fact or equation that decides the answer; (2) evaluate it and note the final value or logical outcome; (3) select the choice (A\u2013D) that matches; (4) reply exactly \u201c<letter>. <one\u2011sentence explanation>\u201d, where the sentence mentions the decisive result (or principle) and briefly states why the three remaining options are inconsistent. No extra text.",
+      "train_score": 0.45454545454545453,
+      "train_step": 30,
+      "test_score": 0.31026785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer each MCQ by:\n1. Locate the one decisive fact, rule, or calculation.\n2. Compute it and note the outcome.\n3. Match that outcome to the correct letter (A\u2011D).\nReply exactly: \u201c<letter>. because <brief justification>\u201d, where the justification cites the decisive outcome and explains why the three remaining options are incompatible. No other text or symbols.",
+      "train_score": 0.4772727272727273,
+      "train_step": 31,
+      "test_score": 0.3080357142857143,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer each question by: (a) identifying the sole piece of information or rule that decides the answer, (b) applying it and writing only the conclusive result (numeric value or logical outcome), (c) matching that result to the options A\u2013D, and (d) outputting exactly \u201c<letter>. <concise justification>\u201d. The justification must mention the decisive result or principle and state in the same sentence why the remaining three choices cannot be correct. No other text is allowed.",
+      "train_score": 0.4318181818181818,
+      "train_step": 23,
+      "test_score": 0.30357142857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.4772727272727273,
+      "train_step": 73,
+      "test_score": 0.296875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct answer (A\u2011D) for each multiple\u2011choice problem by: (1) extracting the key information, (2) applying the appropriate principle or calculation, (3) comparing the result with the four options, and (4) replying with the single correct letter together with one brief sentence that explains why this choice is right and the others are wrong.",
+      "train_score": 0.45454545454545453,
+      "train_step": 6,
+      "test_score": 0.29464285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer every MCQ by:\n- extracting the one decisive piece of information,\n- computing the required value or logical outcome,\n- matching it to the correct choice (A\u2011D),\n- replying only with: \u201c<letter>. because <result> makes the other options invalid\u201d. No extra characters.",
+      "train_score": 0.4318181818181818,
+      "train_step": 53,
+      "test_score": 0.28348214285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Procedure for every MCQ:\n\u2013 locate the lone piece of information or law that fixes the answer;\n\u2013 execute the required computation or logical step, retaining only the final outcome;\n\u2013 select the choice (A\u2011D) that corresponds to that outcome;\n\u2013 write exactly \u201c<letter>. <sentence>\u201d. The sentence must contain (i) the decisive result or principle and (ii) a concise reason why each of the three remaining options fails. No other text may appear.",
+      "train_score": 0.4318181818181818,
+      "train_step": 44,
+      "test_score": 0.27455357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Process each MCQ by:\n\u2022 Pinpoint the lone fact, law, or computation that fixes the answer.\n\u2022 Execute it and retain only the ultimate value or logical truth.\n\u2022 Match that outcome to the correct letter (A\u2011D).\n\u2022 Respond with exactly \u201c<letter>. <one\u2011sentence reason>\u201d. The sentence must (a) mention the decisive value or rule and (b) in the same breath explain why each of the other three options fails. No extra characters, headings, or commentary are allowed.",
+      "train_score": 0.4318181818181818,
+      "train_step": 44,
+      "test_score": 0.2700892857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve each multiple\u2011choice item by:\n1. Find the one piece of information (fact, equation, or logical rule) that alone fixes the answer.\n2. Apply it and keep only the final numeric value or logical truth.\n3. Locate the choice (A\u2011D) that expresses that value.\n4. Respond on one line with exactly: \u201c<letter>. because <decisive result> makes the other three choices impossible.\u201d No other characters, headings, or line breaks are allowed.",
+      "train_score": 0.29545454545454547,
+      "train_step": 99,
+      "test_score": 0.2611607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n1. Identify the single piece of information, rule, or calculation that determines the correct choice.\n2. Derive the resulting value or logical statement.\n3. Locate the option (A\u2011D) that matches that result.\n4. Respond on one line exactly as: \u201c<letter>: <explanation>\u201d, where the explanation names the decisive result and, in the same sentence, briefly states why the remaining three choices cannot be true. Include no other characters or line breaks.",
+      "train_score": 0.18181818181818182,
+      "train_step": 99,
+      "test_score": 0.20089285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer each MCQ by:\n- pinpointing the unique fact or equation that settles the problem;\n- evaluating it to obtain a single definitive outcome;\n- selecting the option (A\u2011D) that expresses that outcome;\n- writing ONE sentence on ONE line: \u201c<letter>. because <outcome> invalidates the remaining three\u201d. No other characters.",
+      "train_score": 0.11363636363636363,
+      "train_step": 99,
+      "test_score": 0.19419642857142858,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.35044642857142855,
+    "avg_test_score": 0.2995323129251701,
+    "best_test_instruction": "For every multiple\u2011choice question follow these steps:\n1. Find the one fact, equation or rule that alone fixes the answer.  \n2. Compute the resulting value or logical statement and keep only that final outcome.  \n3. Choose the option (A\u2011D) that expresses this outcome.  \n4. Output a single line exactly: \u201cAnswer <letter>. Because <decisive result> eliminates the other three choices.\u201d No extra characters, headings or line breaks."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the precise value the problem seeks, pinpoint the one indispensable computation (formula, identity or counting rule) that maps the given information to that value, carry out the computation in at most two concise, justified steps, confirm any implicit conditions, and present only the final exact result in simplest form.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.7589871834948422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact quantity requested, encode all given constraints into a single formula or equation, compute the result in one explicit evaluation (or at most two trivial algebraic manipulations), verify that the result meets any implicit requirements, and present solely the final answer in its simplest numeric form.",
+      "train_score": 0.7291666666666666,
+      "train_step": 58,
+      "test_score": 0.7589871834948422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the sole numeric quantity the problem asks for, rewrite the entire situation as one direct computation (formula, counting rule, or simple algorithm), evaluate it in at most two brief justified steps, verify any implicit constraints (e.g., integer, positivity, range), and output only the final exact answer in simplest form.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact number asked for, translate the whole problem into one explicit mathematical expression (formula, identity, or counting rule) that gives that number, evaluate it in a single clear step (or at most two trivial manipulations), check that any implicit restrictions (integrality, positivity, range) are satisfied, and return only the simplified final answer.",
+      "train_score": 0.7291666666666666,
+      "train_step": 87,
+      "test_score": 0.7561738043138481,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the exact number the question seeks, translate the whole situation into a single decisive mathematical operation (formula, counting rule, or direct test), carry out this operation in no more than two brief justified steps, check any implicit constraints (e.g., integrality, positivity, range), and output only the final exact answer in lowest terms.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity sought, apply the sole necessary theorem, perform a brief step\u2011by\u2011step computation with one\u2011line reasoning, and output only the exact answer in simplest form.",
+      "train_score": 0.7083333333333334,
+      "train_step": 7,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the exact number required, apply the sole relevant formula or definition in a single calculation (or at most two trivial algebraic moves), briefly confirm any hidden conditions, and give only the final simplified answer.",
+      "train_score": 0.7291666666666666,
+      "train_step": 64,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact value the question seeks, find the one indispensable theorem or identity that converts the given information into that value, carry out the calculation in the fewest logical moves (justifying each briefly), verify any hidden conditions (e.g., integer, positivity), and reply with only the final simplified answer.",
+      "train_score": 0.75,
+      "train_step": 25,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which number the problem asks for, recall the single formula or theorem that connects the given data to that number, apply it step\u2011by\u2011step, annotating each transition with a concise justification, and conclude by writing only the final simplified result.",
+      "train_score": 0.7083333333333334,
+      "train_step": 15,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unique value the problem asks for, convert the entire statement into the single most direct mathematical expression that produces that value, evaluate it in one clear step (adding a second trivial simplification only if unavoidable), briefly verify any hidden constraints, and return solely the final simplified result.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the precise quantity the problem requests. Select the single core principle (definition, theorem, or identity) that directly yields that quantity from the given data. Carry out the required calculations, giving each algebraic or logical step a brief (one\u2011sentence) justification, and verify any extra conditions (e.g., positivity, primality). Conclude by writing only the final answer in its simplest exact form, with no additional explanation.",
+      "train_score": 0.7083333333333334,
+      "train_step": 16,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the problem into the one fundamental mathematical relation that directly gives the requested value, solve it using the shortest sequence of independent steps (each justified in one concise sentence, no more than three steps), verify any implicit conditions (such as integer, positivity, or bounds), and output only the final exact answer in its simplest form.",
+      "train_score": 0.7291666666666666,
+      "train_step": 47,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise quantity the problem asks for, locate the one fundamental relation (formula, definition, or counting principle) that yields it from the given data, execute that relation in the minimal number of clear, single\u2011sentence operations (at most two), check any hidden constraints (e.g., distinctness, positivity), optionally perform a quick consistency check, and present solely the final exact value.",
+      "train_score": 0.7291666666666666,
+      "train_step": 58,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Target the sole numeric answer, distill the problem to the one essential relation (formula, identity or counting principle) that produces that answer, carry out the evaluation in a single line (or at most two brief justified moves), quickly verify any hidden domain requirements, and reply with only the final exact value in simplest form.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6458333333333334,
+      "train_step": -1,
+      "test_score": 0.7330415754923414,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, pinpoint the exact numerical result required, immediately select the most direct theorem, identity, or definition that links the given data to that result, execute the computation in the fewest logical steps (each justified in one concise sentence), briefly verify the answer if a quick check is available, and output only the final exact value in simplest form.",
+      "train_score": 0.7291666666666666,
+      "train_step": 38,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify exactly what is being asked, select the single dominant method that solves it, carry out the necessary computation with a one\u2011sentence justification for each operation, and return only the final exact answer in simplest terms.",
+      "train_score": 0.7083333333333334,
+      "train_step": 12,
+      "test_score": 0.7314785870584558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Precisely read the required numerical answer, locate the single governing theorem or definition that links the given data to that answer, compute it using the fewest one\u2011sentence justified steps, verify any hidden constraints, and output only the final simplified value.",
+      "train_score": 0.7291666666666666,
+      "train_step": 48,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the single numerical result it requests, translate all given data into one definitive calculation (formula, count, or direct evaluation), carry out that computation using the minimal number of justified steps (no more than two short sentences), quickly verify any implicit restrictions (e.g., integer, positivity, range), and output only the exact final answer in lowest terms.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the problem, locate the single key principle that solves it, outline the minimum logical steps, carry out each computation with a one\u2011sentence justification, and give only the final answer in its exact simplest form.",
+      "train_score": 0.7083333333333334,
+      "train_step": 5,
+      "test_score": 0.6945920600187558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the single numerical answer the problem demands, locate the one indispensable relationship that yields it from the given information, apply it in a single, fully justified computation (splitting into at most two brief sentences if necessary), confirm any hidden domain constraints, and output only the final simplified result.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.6833385432947796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7589871834948422,
+    "avg_test_score": 0.737417943107221,
+    "best_test_instruction": "Determine the precise value the problem seeks, pinpoint the one indispensable computation (formula, identity or counting rule) that maps the given information to that value, carry out the computation in at most two concise, justified steps, confirm any implicit conditions, and present only the final exact result in simplest form."
+  }
+}

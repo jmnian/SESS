@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the one principle that solves the problem, then work through a short numbered list where each entry shows only the required computation together with a brief justification. After a quick verification, output the exact final answer (integer, reduced fraction or simplified expression) on its own line with no additional symbols.",
+      "train_score": 0.875,
+      "train_step": 76,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single governing rule, then solve using a concise numbered list\u2014each step presenting only the necessary computation accompanied by a brief justification. After a quick check, write the exact final answer (a number or comma\u2011separated list) on its own line prefixed by \u201cAnswer:\u201d with no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 47,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single core theorem or formula that solves the problem. Then give a brief numbered solution, each step containing only the indispensable calculation together with a short justification. After a quick verification, write the exact final answer (integer, reduced fraction or simplified expression) on a line by itself with no additional wording.",
+      "train_score": 0.8541666666666666,
+      "train_step": 59,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the lone theorem or formula that solves the problem. Then solve it by a short sequence of steps, each step numbered and containing only the essential calculation plus a concise reason (no more than a clause). After confirming the result, place the final answer\u2014an integer, reduced fraction, or simplified radical\u2014on its own line, prefixed solely by \u201c>>>\u201d and nothing else.",
+      "train_score": 0.875,
+      "train_step": 78,
+      "test_score": 0.692403876211316,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the sole relationship or theorem that applies, then solve with a compact numbered outline\u2014each entry containing the exact calculation and a brief justification. After verifying the result, output only the final numeric answer (or list) on a single line with no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 27,
+      "test_score": 0.6911534854642075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single core principle needed, then solve with a short numbered outline\u2014each step containing only the required computation and a brief one\u2011sentence justification. After a quick verification, place the exact final answer (integer, reduced fraction or simplified radical) on its own line prefixed solely by \u201cResult:\u201d.",
+      "train_score": 0.8541666666666666,
+      "train_step": 94,
+      "test_score": 0.6892778993435449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the one theorem, identity or fact that directly solves the problem. Solve it using a short numbered list: each line contains only the necessary calculation and a concise justification (one clause). Perform a brief check of the result. Finally, write the exact answer (integer, reduced fraction or simplified radical) on its own line preceded solely by \u201cSolution:\u201d. No other text may appear on that line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6845889340418881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the one essential formula or fact needed. Then solve the problem in a brief ordered list: each line contains only the necessary computation and a short justification (no more than a clause). After a quick verification, output the exact result (integer, reduced fraction or simplified radical) on a single line by itself, prefixed with \u201cResult=\u201d and nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 81,
+      "test_score": 0.6830259456080024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single principle needed, then solve with a concise numbered list: each step displays only the required computation plus a brief justification (no more than one clause). After a quick verification, write the exact final result (integer, reduced fraction, or simplified radical) on its own line prefixed with \u201cAns=\u201d and nothing else.",
+      "train_score": 0.875,
+      "train_step": 93,
+      "test_score": 0.6814629571741169,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the one fundamental identity or theorem needed. Then work through a concise numbered solution where each step contains only the indispensable computation together with a brief justification (no more than a clause). After a quick verification, write the exact answer (integer, reduced fraction or simplified radical) on its own line prefixed solely by \u201cAnswer=\u201d. No other text should appear.",
+      "train_score": 0.8541666666666666,
+      "train_step": 88,
+      "test_score": 0.6780243826195687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single principle (theorem, identity, or counting rule) that settles the problem. Then solve it in a minimal outline: for each step write a bullet \u201c-\u201d followed by the needed calculation and a brief (one\u2011sentence) reason. After the outline, do a quick consistency check. Conclude by placing the exact result (integer, reduced fraction or simplified radical) on its own line preceded only by \u201cResult:\u201d and no other characters.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.6770865895592373,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the single principle or formula required, then solve using a compact numbered list where each step contains only the necessary computation and a brief justification. After a quick verification, write the exact final answer (integer, reduced fraction or simplified number) on a line by itself with no surrounding text or symbols.",
+      "train_score": 0.8541666666666666,
+      "train_step": 79,
+      "test_score": 0.6692716473898093,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one brief sentence, identify the single theorem or formula needed, then carry out the minimal required calculations\u2014each placed on its own line prefixed by \u201c\u2192\u201d together with a short justification\u2014and after a quick verification, output only the final answer (a number or fully reduced expression) on a separate line with no extra text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 26,
+      "test_score": 0.6670834635823695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the key relation that solves the problem. Then, in a numbered list, perform only the indispensable calculations\u2014each step on its own line with a brief justification. After a quick check, write the exact answer (single number or comma\u2011separated list) on the final line alone, without any additional wording.",
+      "train_score": 0.8541666666666666,
+      "train_step": 19,
+      "test_score": 0.6636448890278211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the single theorem, identity, or arithmetic fact that resolves the problem. Then solve it with a brief numbered outline: each line contains only the required calculation and a short justification (one clause). After a quick verification, write the exact final answer (integer, reduced fraction or simplified radical) on its own line prefixed solely by \u201cSolution>>\u201d. Do not include any other text on that line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 93,
+      "test_score": 0.6586433260393874,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single key idea that solves the problem. Then resolve it in a brief numbered procedure, each item containing only the required computation and a short justification. After a quick sanity check, output the exact result (integer, reduced fraction or simplified radical) on its own line prefixed solely by \u201c=>\u201d. No additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 68,
+      "test_score": 0.6555173491716161,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the one governing principle needed. Then present a succinct numbered solution: each step shows only the required computation and a brief (single\u2011clause) justification. After a rapid verification, output the exact result (integer, reduced fraction or simplified radical) on its own line preceded only by \u201cAnswer>>\u201d. No other characters or words may appear on that line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6223819943732416,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the one theorem, identity or arithmetic fact that directly settles the problem. Solve it in a terse numbered sequence where each step shows only the necessary calculation and a brief (one\u2011sentence) reason. After a quick check, write the exact answer alone on the last line\u2014no label, no extra symbols, just the number (integer, reduced fraction or simplified radical). No other text may appear on that line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6183182244451391,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the sole formula or theorem that unlocks the problem. Then resolve it using a short ordered list: each entry starts with \u201c#\u201d, shows only the necessary computation, and includes a brief justification in parentheses. After completing the list, do a quick consistency check. Finally, write the exact result on a line that contains only \u201c\u2192\u201d followed by the answer, without any additional words or symbols.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.6095654892153798,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single theorem, identity, or formula that resolves the problem. Then present a brief ordered solution where each step contains only the necessary calculation followed by a one\u2011sentence justification (no extra symbols). After a quick check, write the exact result (integer, reduced fraction or simplified radical) on its own line prefixed solely by \u201cResult>>\u201d. No other text may appear on that line.",
+      "train_score": 0.375,
+      "train_step": 99,
+      "test_score": 0.416380118787121,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7446076899030947,
+    "avg_test_score": 0.6641063427559206,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

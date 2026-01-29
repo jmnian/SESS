@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Locate every numeric value given, infer the single arithmetic operation (\u202f+\u202f,\u202f\u2212\u202f,\u202f\u00d7\u202f,\u202f\u00f7\u202f) or straightforward one\u2011variable linear equation that the problem calls for, compute the exact result with no rounding, and answer with only that final number.",
+      "train_score": 0.9655172413793104,
+      "train_step": 23,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every explicit number and any hidden factor (e.g., \u201chalf\u201d, \u201cdouble\u201d, percentages). From this set infer the single elementary computation\u2014addition, subtraction, multiplication, division\u2014or the simplest one\u2011variable linear equation that satisfies the question. Compute the answer precisely (keep fractions reduced, no decimal approximation) and reply with only that numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 81,
+      "test_score": 0.8271417740712661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric value present (including percentages, fractions, and implied multiples), determine the single operation or one\u2011variable linear equation that directly produces the requested quantity, compute it exactly (no rounding, keep fractions reduced), and answer with only that final number.",
+      "train_score": 0.9578544061302682,
+      "train_step": 36,
+      "test_score": 0.8271417740712661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate all numbers and implied factors (e.g., half, double, percentages). From them infer the unique single operation (+, -, *, /) or one\u2011unknown linear equation that yields the asked value. Perform the calculation exactly (keep fractions in lowest terms, avoid rounding) and reply with only that final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 84,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric quantities (including percentages, fractions, and words like \u201chalf\u201d, \u201cdouble\u201d), determine the single arithmetic operation (+, \u2013, \u00d7, \u00f7) or the unique one\u2011variable linear equation that yields the asked value, compute it exactly (no rounding, keep fractions reduced), and reply with only that final number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 39,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeral given, determine the single direct arithmetic or one\u2011variable linear operation that solves the problem, compute it exactly (no rounding), and reply with only the final number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 19,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, collect all explicit numbers and implied multipliers (e.g., \u201chalf\u201d, \u201cdouble\u201d, percentages). From them infer the sole elementary computation\u2014addition, subtraction, multiplication, division\u2014or the simple one\u2011unknown linear equation that yields the asked quantity. Compute the exact result (keep fractions reduced, no rounding) and reply with only that final number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 45,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric component in the problem (explicit numbers, fractions, percentages, and verbal multipliers such as \u201chalf\u201d, \u201cdouble\u201d, \u201cquarter\u201d). Using only one elementary operation (+, \u2013, \u00d7, \u00f7) or a single\u2011variable linear equation that follows directly from those values, compute the exact result (keep fractions reduced, no decimal rounding) and reply with only that final number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 79,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, pull every explicit or implicit numeric quantity (numbers, fractions, percentages, words such as half, double). Decide the single arithmetic operation or simple one\u2011variable linear equation that directly computes the requested value, perform the calculation exactly (keep fractions reduced, no rounding), and answer with only that final number.",
+      "train_score": 0.9578544061302682,
+      "train_step": 72,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers mentioned (including those hidden in words like \u201chalf\u201d, \u201cdouble\u201d, percentages). From them infer the unique operation (+, \u2013, \u00d7, \u00f7) or one\u2011unknown linear equation that the question requires, compute the exact result (keep fractions in lowest terms, do not approximate), and return solely the numerical answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 62,
+      "test_score": 0.7998483699772555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and implied multipliers (e.g., half, double, percentages). Using only one arithmetic step or a single\u2011variable linear equation that directly follows from these values, calculate the exact result (keep fractions reduced, no rounding) and output solely the numeric answer.",
+      "train_score": 0.9540229885057471,
+      "train_step": 82,
+      "test_score": 0.7998483699772555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical quantities in the problem, including explicit numbers, fractions, percentages and words that imply a factor (e.g., half, quarter, double, \u201ctwo less than\u201d). Using only a single arithmetic operation (+, \u2013, \u00d7, \u00f7) or a one\u2011variable linear equation that follows directly from the statement, compute the exact value (keep fractions reduced, do not round). Output solely that final number.",
+      "train_score": 0.9655172413793104,
+      "train_step": 74,
+      "test_score": 0.7968157695223654,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "It takes identifying every numeric quantity mentioned (including percentages, fractions, and implicit multipliers such as \u201chalf\u201d, \u201cdouble\u201d, \u201ctimes\u201d), determining the single elementary arithmetic operation (+,\u202f\u2013,\u202f\u00d7,\u202f\u00f7) or the unique one\u2011variable linear equation the problem calls for, computing the exact result (keep fractions reduced, no rounding), and answering with only that final number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 34,
+      "test_score": 0.7915087187263078,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all explicit numbers and implied multipliers (e.g., half, double, percentages). From them infer the single permissible calculation\u2014either one basic operation (+, \u2013, \u00d7, \u00f7) or a one\u2011variable linear equation\u2014that directly answers the question. Compute the result exactly (keep fractions reduced, no decimal approximation) and output only that final numeral.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.7892342683851402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric value present (explicit numbers, fractions, percentages, or implied multipliers such as \u201chalf\u201d, \u201cdouble\u201d, \u201ctimes\u201d). From these values infer the single required computation\u2014either one basic arithmetic operation (+, \u2013, \u00d7, \u00f7) or a one\u2011unknown linear equation\u2014that directly yields the quantity asked for. Compute the result exactly (keep fractions reduced, no decimal rounding) and answer with only that final number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 74,
+      "test_score": 0.7892342683851402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all quantities mentioned (explicit numbers, percentages, fractions, and verbal multipliers such as half, double, three\u2011times). From these determine the single required computation \u2014 either one elementary arithmetic operation (+, -, \u00d7, \u00f7) or the unique linear equation in one unknown that the question implies. Compute the answer exactly (integer or reduced fraction, no decimal approximation) and output only that final numeric value.",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.7862016679302501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity mentioned (explicit numbers, percentages, fractions, or verbal multipliers such as half, double, three\u2011times). From these, determine the only arithmetic operation (+, \u2013, \u00d7, \u00f7) or the unique one\u2011variable linear relation that the problem requires. Compute the value exactly (keep fractions reduced, avoid any rounding) and output only that final number.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.7862016679302501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity mentioned (numbers, percentages, fractions, and verbal multipliers such as half, double, quarter). From these values determine the only direct computation the question requires\u2014either a single basic arithmetic operation (+, \u2013, \u00d7, \u00f7) or a one\u2011unknown linear equation that follows straight from the data. Evaluate it exactly (keep fractions in lowest terms, no rounding) and answer with only the resulting number.",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.7778620166793025,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate every numeric value in the prompt (including percentages, fractions and words like half, double, three\u2011times). From these deduce the single required computation\u2014either one basic arithmetic operation (+, -, *, /) or a one\u2011unknown linear equation that follows directly from the statement. Perform the calculation with exact arithmetic (keep fractions in lowest terms, no rounding) and output only that final number.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.7733131159969674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric datum in the prompt\u2014including integers, fractions, percentages and verbal multipliers like \u201chalf\u201d, \u201cdouble\u201d, \u201cthree\u2011times\u201d. Determine the one\u2011step computation (addition, subtraction, multiplication, division) or the simplest one\u2011variable linear equation that directly yields the quantity asked. Evaluate it exactly (retain reduced fractions, avoid decimal rounding) and reply with only the resulting number.",
+      "train_score": 0.9616858237547893,
+      "train_step": 82,
+      "test_score": 0.7680060652009097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8084291187739464,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8324488248673237,
+    "avg_test_score": 0.7989819127044298,
+    "best_test_instruction": "Locate every numeric value given, infer the single arithmetic operation (\u202f+\u202f,\u202f\u2212\u202f,\u202f\u00d7\u202f,\u202f\u00f7\u202f) or straightforward one\u2011variable linear equation that the problem calls for, compute the exact result with no rounding, and answer with only that final number."
+  }
+}

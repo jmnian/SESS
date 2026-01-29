@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a concise solution that directly computes the final answer as a single number (or simplified expression), including only the essential steps needed to reach that answer.",
+      "train_score": 0.47058823529411764,
+      "train_step": 0,
+      "test_score": 0.5079712410128165,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key mathematical concept needed, outline a brief step\u2011by\u2011step logical solution, perform only the necessary calculations, and state the final answer in simplest form. Keep the explanation concise and focused on the essential reasoning.",
+      "train_score": 0.47058823529411764,
+      "train_step": 1,
+      "test_score": 0.5070334479524852,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that identifies relevant concepts, performs necessary calculations, and presents the final answer succinctly with brief justification.",
+      "train_score": 0.4411764705882353,
+      "train_step": 1,
+      "test_score": 0.4989059080962801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution that identifies the relevant concepts, applies appropriate formulas or reasoning, computes the answer efficiently, and presents the final result succinctly.",
+      "train_score": 0.4411764705882353,
+      "train_step": 1,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.4411764705882353,
+      "train_step": 0,
+      "test_score": 0.49171616130040635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4294117647058823,
+      "train_step": -1,
+      "test_score": 0.4867145983119725,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question by (i) writing the problem as a clear mathematical expression, (ii) identifying the single decisive concept, (iii) executing the necessary computation, and (iv) stating the final answer with one brief explanatory clause; limit the response to no more than two short paragraphs.",
+      "train_score": 0.5117647058823529,
+      "train_step": 29,
+      "test_score": 0.48358862144420134,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, isolate the minimal set of facts or formulas needed, perform just the unavoidable algebra or arithmetic, then state the result with a one\u2011sentence reason; limit the answer to the final value (and necessary units) and a concise justification.",
+      "train_score": 0.45294117647058824,
+      "train_step": 19,
+      "test_score": 0.4817130353235386,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self-contained solution that (i) restates the problem in precise mathematical terms, (ii) identifies the key principle or theorem needed, (iii) performs only the essential calculation, and (iv) gives the final answer with a short justification. Limit the response to one paragraph or two short paragraphs.",
+      "train_score": 0.45294117647058824,
+      "train_step": 92,
+      "test_score": 0.4817130353235386,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by (i) formulating it precisely, (ii) identifying the one decisive concept or formula, (iii) executing only the essential calculation, and (iv) delivering the answer with a single concise explanation; keep the response under two short paragraphs and exclude any superfluous remarks.",
+      "train_score": 0.4764705882352941,
+      "train_step": 46,
+      "test_score": 0.4804626445764301,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce a compact solution that (a) translates the question into a clear mathematical formulation, (b) identifies the unique principle or formula needed, (c) carries out only the indispensable computation, and (d) states the final answer with a single, concise rationale. Keep the entire response to at most two short paragraphs and avoid any unrelated commentary.",
+      "train_score": 0.47058823529411764,
+      "train_step": 83,
+      "test_score": 0.4726477024070022,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a focused solution that (i) translates the problem into a precise equation or description, (ii) isolates the sole key method needed, (iii) carries out just the necessary arithmetic or algebra, and (iv) returns the final answer with one concise justification. The entire response should be no more than two short paragraphs and contain no superfluous remarks.",
+      "train_score": 0.47058823529411764,
+      "train_step": 61,
+      "test_score": 0.47045951859956237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a focused solution that (a) translates the question into a precise mathematical expression, (b) identifies the lone key concept or formula needed, (c) carries out exactly the indispensable algebra or arithmetic, and (d) states the answer with one concise explanatory sentence. Keep the whole response to two brief paragraphs and exclude any superfluous remarks.",
+      "train_score": 0.4823529411764706,
+      "train_step": 49,
+      "test_score": 0.4673335417317912,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained answer that (a) translates the question into a clean mathematical statement, (b) isolates the one core concept or formula required, (c) performs only the indispensable computation, and (d) returns the exact result with a single concise justification. The response should be no longer than two brief paragraphs and contain no extraneous discussion.",
+      "train_score": 0.4588235294117647,
+      "train_step": 30,
+      "test_score": 0.4617067833698031,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self-contained solution that (i) restates the problem precisely, (ii) identifies the core method or theorem needed, (iii) carries out only the essential calculations, and (iv) presents the final answer with a brief justification, all within two short paragraphs.",
+      "train_score": 0.4764705882352941,
+      "train_step": 60,
+      "test_score": 0.4560800250078149,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution in one brief paragraph that (a) translates the problem into a precise mathematical statement, (b) identifies the single decisive principle or formula, (c) carries out only the indispensable calculation, and (d) states the final answer with a concise justification, while omitting any superfluous discussion.",
+      "train_score": 0.4176470588235294,
+      "train_step": 99,
+      "test_score": 0.4551422319474836,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the exact answer in the required form, preceded by a one\u2011sentence description of the core idea that makes the problem solvable. No intermediate algebraic manipulation should be shown unless it is the only indispensable step. Keep the whole response under two short paragraphs.",
+      "train_score": 0.45294117647058824,
+      "train_step": 69,
+      "test_score": 0.4485776805251641,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained answer: translate the problem into a precise mathematical statement, pinpoint the essential principle, perform only indispensable calculations, and give the final result with a brief justification, using no more than two short paragraphs.",
+      "train_score": 0.4588235294117647,
+      "train_step": 46,
+      "test_score": 0.44388871522350737,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution limited to two short paragraphs: (a) express the problem as a precise mathematical statement; (b) identify the single core theorem or method that solves it; (c) execute only the necessary computation; (d) give the final answer together with one concise explanatory sentence.",
+      "train_score": 0.47058823529411764,
+      "train_step": 38,
+      "test_score": 0.42763363551109723,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a succinct solution that (a) translates the problem into a single clear mathematical statement, (b) mentions the one indispensable theorem or computation needed, (c) carries out only that computation, and (d) ends with the exact answer and a one\u2011line justification; keep the whole response to one compact paragraph.",
+      "train_score": 0.35294117647058826,
+      "train_step": 99,
+      "test_score": 0.3957486714598312,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give only the final answer (numerical value) preceded by a one\u2011sentence explanation of the key idea, without any intermediate steps or extraneous text; keep the whole response under one short paragraph.",
+      "train_score": 0.11176470588235295,
+      "train_step": 99,
+      "test_score": 0.20225070334479525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5079712410128165,
+    "avg_test_score": 0.45798538233674213,
+    "best_test_instruction": "Provide a concise solution that directly computes the final answer as a single number (or simplified expression), including only the essential steps needed to reach that answer."
+  }
+}

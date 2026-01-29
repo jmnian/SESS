@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Analyze the problem and its four options (A\u2013D). Using all provided information and appropriate reasoning, determine the only answer that is definitively correct. Respond with exactly one capital letter. If the facts do not permit a unique choice, output the exact phrase \u201cData inconclusive\u201d. No other characters, whitespace, or explanations are allowed.",
+      "train_score": 0.5789473684210527,
+      "train_step": 7,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem and its four answer choices labeled A\u2011D. Rely only on the facts supplied and appropriate logical or subject\u2011specific reasoning to identify the one choice that is unequivocally correct. Respond with exactly one capital letter (A, B, C, or D). If the given information does not allow a single answer, output the exact phrase \u201cInsufficient information\u201d. Do not include any other characters, spaces, or explanations.",
+      "train_score": 0.5789473684210527,
+      "train_step": 15,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a question with four choices labeled A\u2011D, use all provided information and appropriate reasoning to determine the uniquely correct answer. Respond with only the single capital letter of that choice. If a definitive answer cannot be deduced, output exactly \u201cNo single answer\u201d. No other text, symbols, or whitespace are allowed.",
+      "train_score": 0.5789473684210527,
+      "train_step": 11,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its four answer options labeled A\u2011D. Using only the information given and appropriate logical or domain\u2011specific reasoning, identify the option that is unequivocally correct. Respond with exactly one capital letter (A, B, C, or D). If a unique answer cannot be deduced, output the single word NONE. Do not include any other characters, spaces, or explanations.",
+      "train_score": 0.5789473684210527,
+      "train_step": 22,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Consider the problem and its four options labeled A\u2013D. Using all given information and appropriate domain reasoning, select the only answer that is definitively correct. Respond exactly with the single capital letter (A, B, C, or D). If the premises do not allow a unique choice, output the exact phrase `Insufficient data`. No other characters, whitespace, or explanation are permitted.",
+      "train_score": 0.5789473684210527,
+      "train_step": 6,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its four options (A\u2011D). Apply all supplied information and suitable reasoning to identify the uniquely correct choice. Respond only with the single capital letter of that choice. If a definitive answer cannot be inferred, output exactly \u201cInsufficient data to decide\u201d. Do not include any other characters, whitespace, or explanation.",
+      "train_score": 0.5789473684210527,
+      "train_step": 10,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question and its four alternatives (A\u2011D). Using only the facts supplied together with any necessary logical or domain reasoning, determine which alternative is definitively forced. Respond with exactly one capital letter representing that choice. If the premises allow two or more alternatives, output the earliest letter alphabetically. If no alternative is supported, output the word IMPOSSIBLE. Do not include any other characters, whitespace, or explanation.",
+      "train_score": 0.631578947368421,
+      "train_step": 79,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its four answer choices labeled A\u2011D. Rely exclusively on the information supplied and logical reasoning to identify the one choice that must be correct. Respond with exactly one capital letter (A, B, C, or D). If the given data do not determine a single answer, output the exact phrase \u201cInsufficient evidence\u201d. Do not include any other characters, spaces, or explanations.",
+      "train_score": 0.5789473684210527,
+      "train_step": 16,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.21052631578947367,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its four answer options (A\u2011D). Using only the information given and logical or domain\u2011specific reasoning, determine which option is necessarily correct. Respond with a single capital letter. If the premises allow more than one option, output the alphabetically earliest letter. If no option can be justified, output the exact word \u201cNONE\u201d. Do not include any other characters, spaces, or explanations.",
+      "train_score": 0.5789473684210527,
+      "train_step": 28,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question and its four options (A\u2011D). Using only the information given and any necessary logical or domain reasoning, determine which option is definitively correct. Respond with a single capital letter. If the given facts do not allow a unique answer, output the phrase \u201cNONE\u201d. Do not include any other characters, whitespace, or explanation.",
+      "train_score": 0.5789473684210527,
+      "train_step": 36,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its four answer choices (A\u2011D). Using all given information and appropriate reasoning, determine which option is definitively correct. Respond with only the single capital letter. If several choices are equally possible, output the earliest letter alphabetically. If no choice can be justified, output exactly \u201cNo answer\u201d. No other characters or whitespace are allowed.",
+      "train_score": 0.5789473684210527,
+      "train_step": 11,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its four options (A\u2011D). Using only the information provided (and any necessary logical deduction), determine which option is compelled. Respond with a single token:\n- the capital letter of the uniquely correct choice;\n- if several choices are possible, the earliest letter alphabetically;\n- if none are supported, output NONE.\nDo not include any other characters, whitespace, or explanation.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question and its four answer choices (A\u2011D). Using only the information given and any necessary logical or subject\u2011specific reasoning, determine which choice is compelled to be correct. Respond with exactly one character: the correct capital letter. If the premises support more than one choice, answer the alphabetically earliest letter. If no choice is defensible, output the exact phrase \u201cNo valid answer\u201d. Do not include any other characters, spaces, or explanation.",
+      "train_score": 0.5789473684210527,
+      "train_step": 35,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given the problem statement and the four options labeled A\u2011D, select the option that is logically compelled by the given information (including any required scientific inference). Output exactly one token:\n* the single capital letter of the forced choice;\n* if multiple options are compatible, output the alphabetically earliest letter;\n* if no option is entailed, output NONE.\nNo additional characters, whitespace, or explanations are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the stem and the four options labeled A\u2011D. Based solely on the facts provided (including any necessary logical deductions), identify the option that must be correct. Respond with:\n- the single letter of that option if it is uniquely determined;\n- otherwise the earliest alphabetic letter among all options that are consistent with the premises;\n- if no option is supported, output NONE.\nOutput only this token, without any whitespace or additional characters.",
+      "train_score": 0.5789473684210527,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From only the statements in the problem, infer which of the four choices (A\u2011D) is necessarily correct. Respond with:\n- that choice\u2019s letter if it is uniquely forced;\n- otherwise the alphabetically first letter among all admissible choices;\n- or the word NONE if no choice is entailed.\nOutput exactly this single token, no spaces or extra characters.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Examine the given stem and the four choices labeled A\u2011D. Rely solely on the supplied facts and appropriate domain reasoning to identify the one choice that is unquestionably correct. Output only the single capital letter of that choice. If the premises do not allow a unique selection, output the exact phrase \u201cUndeterminable\u201d. No additional characters or whitespace may be included.",
+      "train_score": 0.5789473684210527,
+      "train_step": 21,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the stem and its four choices (A\u2011D). Using only the information given (and any necessary logical inference), determine which choice is obligatorily true. Respond with:\n- the single capital letter of the uniquely required answer;\n- if several choices are compatible, the alphabetically first such letter;\n- if no choice is entailed, the word UNKNOWN.\nDo not output any other characters, spaces, or line breaks.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Given a stem and options A\u2011D, determine which option must be true based solely on the information provided (including any logical consequence). Output exactly one token:\n- the letter of the uniquely correct option;\n- if more than one option fits, the earliest letter alphabetically;\n- if none fit, the word NONE.\nNo extra characters, spaces or line breaks are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the stem and its four options (A\u2011D). Rely only on the facts provided and any necessary logical inference. Output exactly one token:\n- the letter of the option that is compelled;\n- if several options satisfy the premises, the earliest letter alphabetically;\n- if none are entailed, output NONE.\nDo not include any other characters or whitespace.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3333333333333333,
+    "avg_test_score": 0.3025493025493026,
+    "best_test_instruction": "Analyze the problem and its four options (A\u2013D). Using all provided information and appropriate reasoning, determine the only answer that is definitively correct. Respond with exactly one capital letter. If the facts do not permit a unique choice, output the exact phrase \u201cData inconclusive\u201d. No other characters, whitespace, or explanations are allowed."
+  }
+}

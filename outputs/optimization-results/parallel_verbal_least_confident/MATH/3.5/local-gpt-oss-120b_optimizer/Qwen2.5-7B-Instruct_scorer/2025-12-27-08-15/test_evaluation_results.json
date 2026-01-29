@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the exact number the problem requires, apply the simplest exact technique, show only the indispensable intermediate value(s) each with a concise justification, do a brief consistency check, and conclude with a single line containing just the final answer\u2014written as an integer, a reduced fraction, or a terminating decimal\u2014and nothing else.",
+      "train_score": 0.7411764705882353,
+      "train_step": 64,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, decide which number the problem asks for. Then use the most direct exact technique, performing only the indispensable arithmetic (showing at most one intermediate result together with a brief justification). Check the result quickly for consistency, and finally write the answer alone on one line\u2014as an integer, a reduced fraction, or a terminating decimal\u2014without any other characters or commentary.",
+      "train_score": 0.7411764705882353,
+      "train_step": 73,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, choose the quickest correct approach, compute showing only the necessary intermediate number(s), perform a quick sanity check, and conclude with a single line that contains exactly the answer\u2014nothing else.",
+      "train_score": 0.7235294117647059,
+      "train_step": 29,
+      "test_score": 0.75054704595186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise quantity asked, apply the most direct exact method, perform only essential calculations (showing at most one unavoidable intermediate together with a one\u2011sentence justification), quickly check consistency, and output solely the final numeric result\u2014integer, reduced fraction or terminating decimal\u2014on a single line with no extra characters or commentary.",
+      "train_score": 0.4823529411764706,
+      "train_step": 99,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity the problem asks for, select the most direct correct approach, perform only the indispensable calculations (showing at most one necessary intermediate result with a brief justification), quickly verify consistency, and conclude with a single line containing solely the final answer written as an integer, reduced fraction, or terminating decimal\u2014no additional symbols or text.",
+      "train_score": 0.7176470588235294,
+      "train_step": 49,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the specific quantity being asked for, choose the simplest suitable method, perform a concise derivation showing only indispensable intermediate results, double\u2011check the calculation, and output only the final numeric answer on a single line.",
+      "train_score": 0.7176470588235294,
+      "train_step": 9,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6823529411764706,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, decide exactly what number is asked, apply the simplest exact method, compute only the necessary steps (displaying at most one essential intermediate result with a brief justification), verify the result, and output solely the final value on one line\u2014written as an integer, a reduced fraction, or a terminating decimal\u2014without any other characters.",
+      "train_score": 0.7235294117647059,
+      "train_step": 50,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the exact numeric quantity being asked, select the most direct exact method, carry out a concise, fully justified computation (showing only an unavoidable intermediate value if needed), perform a quick sanity check, and end with one line containing only the final number\u2014no units, symbols, or additional words.",
+      "train_score": 0.7176470588235294,
+      "train_step": 17,
+      "test_score": 0.7417943107221007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique numeric answer required, select the most straightforward exact technique, execute a minimal calculation showing at most a single necessary intermediate result with a brief justification, perform a quick consistency check, and finally write only that final value on a single line\u2014as an integer, a reduced fraction, or a terminating decimal\u2014without any other characters.",
+      "train_score": 0.7176470588235294,
+      "train_step": 49,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the key mathematical principle, perform a fully justified calculation, and present the answer as the sole numeric value.",
+      "train_score": 0.7176470588235294,
+      "train_step": 1,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the exact value the problem requests, apply the most concise exact method, show at most one indispensable intermediate together with a one\u2011sentence justification, perform a quick verification, and finish with a single line that contains only the final answer (integer, reduced fraction or terminating decimal) and nothing else.",
+      "train_score": 0.7176470588235294,
+      "train_step": 55,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what number the problem seeks, solve it with the most direct exact reasoning, display at most one unavoidable intermediate value together with a one\u2011sentence justification, confirm the answer with a brief sanity check, and conclude with a single line containing only the final result\u2014written as an integer, a reduced fraction, or a terminating decimal\u2014nothing else.",
+      "train_score": 0.7470588235294118,
+      "train_step": 55,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact number the problem seeks, use the most direct exact technique, carry out a tight computation showing only the unavoidable intermediate value(s) each with a one\u2011sentence justification, perform a quick sanity check, and finish by writing just that final value on a single line\u2014integer, reduced fraction or terminating decimal\u2014nothing else.",
+      "train_score": 0.7176470588235294,
+      "train_step": 47,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity the problem asks for, apply the most straightforward exact method, perform only the necessary calculations (showing any essential intermediate result), quickly verify the outcome, and conclude with a single line that contains only the final numeric answer\u2014written as an integer, a reduced fraction, or a terminating decimal, with no units, symbols, or additional text.",
+      "train_score": 0.7235294117647059,
+      "train_step": 40,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely which numeric result the problem requires. Use the simplest exact method possible; if an intermediate calculation is unavoidable, display only that one value together with a single\u2011sentence justification. Perform a brief check of the final result, then output *only* the answer on one line as an integer, a reduced fraction, or a terminating decimal\u2014no other characters, words, or units.",
+      "train_score": 0.6470588235294118,
+      "train_step": 99,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity required, apply the most direct exact technique, perform only the indispensable computation (showing at most one intermediate value with a one\u2011sentence justification), confirm the result with a quick check, and then write only the final answer\u2014an integer, a reduced fraction, or a terminating decimal\u2014on a single line with no additional characters.",
+      "train_score": 0.7176470588235294,
+      "train_step": 62,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity required, choose the suitable formula or reasoning, perform a tight computation displaying only the indispensable intermediate results, verify the outcome, and output solely the final numeric answer on a single line.",
+      "train_score": 0.7235294117647059,
+      "train_step": 6,
+      "test_score": 0.7224132541419194,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the precise number the question seeks. Solve it with the simplest exact method, writing down only unavoidable calculations (at most one intermediate result, accompanied by a brief justification). Perform a quick consistency check, and then output a single line containing only the final answer\u2014as an integer, a reduced fraction, or a terminating decimal\u2014without any units, symbols, or extra text.",
+      "train_score": 0.6294117647058823,
+      "train_step": 99,
+      "test_score": 0.6636448890278211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact numeric value requested. Choose the most direct exact method, perform only indispensable calculations (you may show one intermediate result in a brief comment), quickly verify, and output solely the final answer on one line as an integer, a reduced fraction, or a terminating decimal\u2014nothing else.",
+      "train_score": 0.6941176470588235,
+      "train_step": 99,
+      "test_score": 0.6242575804939043,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, pinpoint the exact numerical answer it seeks, then solve it using the shortest exact method possible. Show at most one unavoidable intermediate calculation, accompanied by a single\u2011sentence rationale, quickly check the result, and finally write only that final value\u2014an integer, a reduced fraction, or a terminating decimal\u2014on a solitary line with no extra symbols, words, or units.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.4254454517036574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.7152235073460457,
+    "best_test_instruction": "Identify the exact number the problem requires, apply the simplest exact technique, show only the indispensable intermediate value(s) each with a concise justification, do a brief consistency check, and conclude with a single line containing just the final answer\u2014written as an integer, a reduced fraction, or a terminating decimal\u2014and nothing else."
+  }
+}

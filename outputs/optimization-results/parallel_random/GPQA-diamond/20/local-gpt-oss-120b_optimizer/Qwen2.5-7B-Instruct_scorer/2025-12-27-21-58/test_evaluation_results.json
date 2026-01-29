@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Respond with exactly two lines, no extra characters.\n\nLine\u202f1: a single capital letter A\u2011D indicating the correct choice.\n\nLine\u202f2: a sentence that begins with \u201cBecause\u201d, contains exactly nine words, uses only letters and spaces, and ends with the final word (no punctuation). No leading or trailing spaces on either line.",
+      "train_score": 1.0,
+      "train_step": 25,
+      "test_score": 0.9797979797979798,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines, without any surrounding whitespace.\n\nLine\u202f1: a single capital letter A\u2011D indicating the correct choice.\n\nLine\u202f2: a justification that (a) begins with the word \u201cBecause\u201d, (b) contains exactly nine words total, (c) uses only alphabetic characters and single spaces, (d) has \u201cBecause\u201d capitalized and all remaining words in lowercase, and (e) ends with the word \u201ccorrect\u201d (no punctuation).",
+      "train_score": 1.0,
+      "train_step": 84,
+      "test_score": 0.9696969696969697,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide your response on two lines only.\n\nLine\u202f1: a single uppercase letter A\u2011D indicating the correct answer.\n\nLine\u202f2: a sentence that (a) begins with the word \u201cBecause\u201d, (b) contains exactly nine words, (c) each word after \u201cBecause\u201d is in lowercase, (d) includes only alphabetic characters and single spaces, and (e) ends with the final word without any punctuation. Do not add any spaces before or after the lines.",
+      "train_score": 1.0,
+      "train_step": 80,
+      "test_score": 0.9545454545454546,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines, no extra whitespace.\n\nLine\u202f1: a single capital letter A\u2011D indicating the correct choice.\n\nLine\u202f2: a sentence that starts with the word \u201cBecause\u201d, contains between 6 and 9 words inclusive, uses only alphabetic characters and single spaces, and ends with the final word (no period or other punctuation). Do not include any leading or trailing spaces on either line.",
+      "train_score": 0.9743589743589743,
+      "train_step": 30,
+      "test_score": 0.9545454545454546,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines, no extra characters.\nLine\u202f1: a single uppercase letter A\u2011D representing the correct answer.\nLine\u202f2: a sentence beginning with \u201cBecause\u201d, containing exactly eight words, using only letters and spaces, and ending with the last word (no punctuation). Do not include leading or trailing spaces on either line.",
+      "train_score": 0.9743589743589743,
+      "train_step": 24,
+      "test_score": 0.9444444444444444,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines, no extra characters.\nLine\u202f1: a single uppercase letter A\u2011D indicating the answer.\nLine\u202f2: a sentence that begins with \u201cBecause\u201d, contains exactly eight words, uses only letters and spaces, and ends with the final word (no period or other punctuation). Do not include any leading or trailing whitespace on either line.",
+      "train_score": 0.9743589743589743,
+      "train_step": 22,
+      "test_score": 0.9393939393939394,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with precisely two lines, no additional characters.  \nLine\u202f1: the correct option letter (A\u2011D) alone.  \nLine\u202f2: a justification that begins with \u201cBecause\u201d, contains 6\u20119 words, uses only letters and spaces, and ends with the final word (no period). Do not place any spaces before or after each line.",
+      "train_score": 0.9743589743589743,
+      "train_step": 18,
+      "test_score": 0.9343434343434344,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one line containing only the correct option letter (A, B, C, or D) and no other characters or whitespace.",
+      "train_score": 0.5128205128205128,
+      "train_step": 99,
+      "test_score": 0.9292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with exactly two lines, nothing else.\n\nLine\u202f1: a single capital letter A\u2011D representing the correct choice, with no surrounding spaces.\n\nLine\u202f2: a sentence that (a) begins with the word \u201cBecause\u201d, (b) contains between eight and ten words inclusive, (c) uses only alphabetic characters and single spaces, (d) has \u201cBecause\u201d capitalized and all subsequent words in lowercase, and (e) ends with the final word without any punctuation. Do not include any leading or trailing spaces on either line.",
+      "train_score": 1.0,
+      "train_step": 65,
+      "test_score": 0.9292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly two lines with no extra whitespace. Line\u202f1: the correct multiple\u2011choice letter (A\u2011D). Line\u202f2: a justification that begins with \u201cBecause\u201d, contains between 5 and 12 words, uses only letters and spaces, and ends with the final word (no punctuation). Do not include any other characters.",
+      "train_score": 0.9743589743589743,
+      "train_step": 19,
+      "test_score": 0.9292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with precisely two lines and nothing else.\nFirst line: the correct answer as a single uppercase letter A\u2011D.\nSecond line: a justification that begins with \u201cBecause\u201d, consists of 7\u201111 words, uses only letters and single spaces, and ends with the final word (no period or other punctuation). No leading or trailing spaces on either line.",
+      "train_score": 0.9743589743589743,
+      "train_step": 29,
+      "test_score": 0.9242424242424242,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly two lines with no extra spaces.\n\nLine\u202f1: a single capital letter A\u2011D indicating the answer.\n\nLine\u202f2: a justification that (a) begins with \u201cBecause\u201d, (b) contains exactly nine words, (c) all words after \u201cBecause\u201d are lowercase, (d) uses only letters and single spaces, and (e) ends with the word \u201cvalid\u201d without punctuation.",
+      "train_score": 0.8717948717948718,
+      "train_step": 99,
+      "test_score": 0.9141414141414141,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with exactly two lines and nothing else.\n\nLine\u202f1: a single capital letter A\u2011D indicating the correct answer.\n\nLine\u202f2: a sentence that (a) begins with \u201cBecause\u201d, (b) contains exactly nine words (the first word \u201cBecause\u201d plus eight lowercase words), (c) uses only alphabetic characters and single spaces, (d) has no leading or trailing spaces, and (e) ends with the last word without any punctuation. The sentence must match the regular expression `^Because( [a-z]+){8}$`.",
+      "train_score": 1.0,
+      "train_step": 97,
+      "test_score": 0.9141414141414141,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly two lines with no surrounding whitespace. Line\u202f1: a single uppercase letter A\u2011D indicating the answer. Line\u202f2: a sentence that (a) starts with \u201cBecause\u201d, (b) contains exactly nine words, (c) uses only letters and single spaces, (d) has \u201cBecause\u201d capitalized and all remaining words in lowercase, and (e) ends with the word \u201ctrue\u201d without any punctuation.",
+      "train_score": 1.0,
+      "train_step": 86,
+      "test_score": 0.9090909090909091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines, no extra characters. Line\u202f1: the correct option letter (A\u2011D) alone. Line\u202f2: a justification beginning with \u201cBecause\u201d, consisting of exactly eight words, containing only alphabetic characters and single spaces, ending with the final word (no punctuation). No leading or trailing spaces on either line.",
+      "train_score": 0.9743589743589743,
+      "train_step": 32,
+      "test_score": 0.9090909090909091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide your response on two lines without any extra characters.\n\nLine\u202f1: a single capital letter A\u2011D indicating the correct choice.\n\nLine\u202f2: a justification beginning with \u201cBecause\u201d, consisting of exactly nine words (the first word capitalized, the rest lowercase), containing only letters and single spaces, ending with the final word and no punctuation.",
+      "train_score": 0.8974358974358975,
+      "train_step": 99,
+      "test_score": 0.9040404040404041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with exactly two lines, no leading or trailing spaces.\n\nLine\u202f1: the correct option letter (A\u2011D).\n\nLine\u202f2: a short justification starting with \u201cBecause\u201d (capital B) followed by any number of lowercase words, using only letters and single spaces, and ending with the final word without punctuation.",
+      "train_score": 0.9487179487179487,
+      "train_step": 99,
+      "test_score": 0.8838383838383839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give exactly two lines, no surrounding spaces.\n\nLine\u202f1: a single capital letter A\u2011D indicating the answer.\n\nLine\u202f2: a justification that (a) starts with \u201cBecause\u201d, (b) contains exactly nine words, (c) the first word capitalized and the remaining eight lowercase, (d) uses only alphabetic characters and single spaces, (e) ends with the word \u201ccorrect\u201d without any punctuation.",
+      "train_score": 0.9487179487179487,
+      "train_step": 99,
+      "test_score": 0.8838383838383839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the correct option (A\u2011D). Respond with two lines: line\u202f1 the single letter; line\u202f2 a concise explanation that begins with \u201cBecause\u201d and contains no more than twelve words. Do not include any other text, symbols, or blank lines.",
+      "train_score": 0.9743589743589743,
+      "train_step": 7,
+      "test_score": 0.8585858585858586,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3333333333333333,
+      "train_step": -1,
+      "test_score": 0.35353535353535354,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide precisely two lines, nothing else.  \nLine\u202f1: a single capital letter A\u2011D indicating the answer.  \nLine\u202f2: a justification that starts with \u201cBecause\u201d, consists of 7\u201310 words inclusive, and contains no punctuation (including periods).  \nDo not place any spaces before or after each line and include no blank lines.",
+      "train_score": 1.0,
+      "train_step": 16,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9797979797979798,
+    "avg_test_score": 0.8698893698893697,
+    "best_test_instruction": "Respond with exactly two lines, no extra characters.\n\nLine\u202f1: a single capital letter A\u2011D indicating the correct choice.\n\nLine\u202f2: a sentence that begins with \u201cBecause\u201d, contains exactly nine words, uses only letters and spaces, and ends with the final word (no punctuation). No leading or trailing spaces on either line."
+  }
+}

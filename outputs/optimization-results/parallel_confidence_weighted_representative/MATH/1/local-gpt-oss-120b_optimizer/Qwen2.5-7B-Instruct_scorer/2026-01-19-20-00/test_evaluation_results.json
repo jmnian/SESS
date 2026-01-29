@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Exactly and ends with",
+      "train_score": 0.8333333333333334,
+      "train_step": 10,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, logically ordered solution: first restate the problem, then identify the core concept(s) needed, work through each calculation with brief justification, and finally state only the exact answer (as a simplified number or expression) without additional commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in your own words, then list all given data, constraints, and the quantity to find. Identify the key mathematical principle(s) that apply. Solve the problem in a clear, numbered sequence, giving a brief reason for each move. Once a result is obtained, perform a quick check that it meets the original conditions. Conclude with a single line that contains only the exact final answer (numeric or simplified expression), without any additional commentary.",
+      "train_score": 0.8541666666666666,
+      "train_step": 2,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, then identify the core concept(s) needed. Solve it in a clear, numbered sequence, giving a short justification for each step. After obtaining a result, quickly verify it satisfies the original conditions, and conclude with only the exact final answer (as a number or simplified expression) on its own line. No extra commentary is required.",
+      "train_score": 0.875,
+      "train_step": 2,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list all given quantities and what is asked, select the minimal set of formulas or concepts needed, solve in a clear numbered progression with a one\u2011sentence rationale for each step, verify quickly, and conclude with a single line containing only the final simplified answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 3,
+      "test_score": 0.7183494842138168,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Separate the known data under \u201cGiven\u201d and the quantity to determine under \u201cFind\u201d. Choose the minimum necessary theorem or formula. Solve by enumerating steps: each numbered line shows the expression and a short cue (e.g., substitute, simplify). After the last step, perform a quick sanity check against the original conditions. Conclude with a single line containing only the final exact answer (integer, decimal, or reduced expression) with no extra symbols.",
+      "train_score": 0.8541666666666666,
+      "train_step": 89,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a short sentence, note the only required facts or theorem, then work through the solution in a numbered list where each step gives the calculation and a brief justification. After obtaining a result, verify it satisfies the original conditions, and conclude with a single line that contains *only* the exact final answer (as a number or reduced expression), no additional commentary.",
+      "train_score": 0.8541666666666666,
+      "train_step": 4,
+      "test_score": 0.7139731165989371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one brief sentence. Create two sections \u201cGiven\u201d (all numbers/relations) and \u201cWanted\u201d (the value to find). Identify the single core formula or identity that connects them. Solve using a numbered list; each step displays the computation and a short tag (e.g., plug\u2011in, simplify). When the computation ends, do a quick sanity check with the original data, then write only the final exact result (integer or reduced expression) on its own line, with no extra text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 74,
+      "test_score": 0.7036573929352923,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in a single sentence. Then create two sections \u201cData\u201d and \u201cGoal\u201d and enumerate every numeric fact. Pinpoint the single mathematical tool needed. Work through the problem in a numbered chain, each item showing the computation followed by a brief tag (e.g., substitute, reduce). When the computation ends, perform a brief validation against the original statement and write only the final answer\u2014exact number or reduced expression\u2014on a line by itself, nothing else.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6989684276336355,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in a single sentence. List every known value under \u201cGiven\u201d and the unknown under \u201cFind\u201d. Identify the minimal theorem or identity that connects them. Solve in a numbered chain, each step showing the expression and a short tag (e.g., substitute, simplify). After the last step, do a brief consistency check, then output only the exact final answer (integer or fully reduced expression) on its own line with no extra characters.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.6970928415129728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one sentence. List the key formulas or facts you will need. Solve it using a numbered list, giving a brief justification and any intermediate value for each step. Verify the result quickly against the original conditions. End with only the final numeric answer (or fully reduced expression) on its own line, with no extra commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.6967802438261956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one concise sentence. List all given quantities and the quantity to determine. Decide the single principle or formula that links them. Solve by writing each transformation on its own numbered line, giving a brief rationale (a few words). Once a result is obtained, briefly verify it satisfies the original conditions, then output only the final answer\u2014either a number or a reduced exact expression\u2014on a line by itself, without any extra commentary.",
+      "train_score": 0.875,
+      "train_step": 16,
+      "test_score": 0.6955298530790872,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the task in one brief sentence. Enumerate the known data and the quantity sought. Identify the single essential formula or rule. Solve step\u2011by\u2011step, numbering each line; after the expression give a short justification in brackets. When the computation finishes, perform a quick consistency check, then output only the final numeric or fully reduced exact answer on its own line\u2014no extra text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 38,
+      "test_score": 0.6930290715848703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the task in one short sentence. Under separate headings list \u201cData\u201d (all given numbers/relations) and \u201cGoal\u201d (the quantity to find). State the single mathematical tool required. Solve using a numbered list; each step shows the computation and a brief tag (e.g., substitute, simplify, apply). After the last step perform a quick sanity check against the original conditions. Finally output only the numeric or fully reduced exact answer on a line labeled \u201cAnswer:\u201d and nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 52,
+      "test_score": 0.684276336355111,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate concisely. Under \u201cGiven\u201d list all numerical data; under \u201cGoal\u201d write the quantity to find. State the single most relevant theorem/equation. Solve with a numbered chain; each line shows the expression and a brief justification in parentheses. After the last step, perform a quick sanity check, then output only the final exact result on a line prefixed by \u201cAnswer:\u201d and nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 92,
+      "test_score": 0.6824007502344482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, identify the single key fact or operation required, then work through a concise numbered solution\u2014each step showing the computation and a one\u2011sentence justification. After the result, perform a quick sanity check, and conclude with one line that contains only the final numeric answer (or fully simplified expression), with no extra text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 5,
+      "test_score": 0.6783369803063457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a single sentence. List the \u201cGiven\u201d facts and the \u201cTarget\u201d quantity. Identify the single essential formula or theorem. Solve using a numbered list; each line shows the calculation and a brief (one\u2011word) justification. After the final step, perform a quick sanity check, then write only the exact final answer (numeric or fully reduced expression) on its own line with no extra text.",
+      "train_score": 0.875,
+      "train_step": 67,
+      "test_score": 0.6452016255079712,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Rewrite the problem in one sentence. Make two bullet lists \u201cGiven\u201d and \u201cFind\u201d. State the single key theorem, identity or formula that connects them. Solve using a numbered list; each line contains the computed expression followed by a one\u2011word label (plug\u2011in, simplify, factor, etc.). After the last step perform a brief consistency check, then output only the final exact answer (integer, fraction or simplified radical) on its own line with no additional characters.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6405126602063145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "In a single opening sentence restate the problem. Immediately list \u201cGiven\u201d and \u201cFind\u201d items. Identify the essential theorem or formula, then resolve the task in a numbered chain of calculations, each line showing only the expression and a one\u2011word tag (e.g., plug\u2011in, simplify). After completing, verify the result against the original conditions, and finally write exactly one line containing the answer alone (numeric or fully reduced symbolic), with no extra text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 42,
+      "test_score": 0.6405126602063145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the question. List the known values and the unknown. State the single theorem or operation needed. Solve in a numbered sequence; each line contains the calculation followed by a short rationale in parentheses. After completing, perform a quick verification, then output only the final result (exact number or simplified expression) on its own line with no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 25,
+      "test_score": 0.6370740856517662,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.6976733800741303,
+    "best_test_instruction": "Exactly and ends with"
+  }
+}

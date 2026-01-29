@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Pull out every explicit numeral, give each unknown a unique one\u2011letter variable, write one exact closed\u2011form expression that directly produces the quantity sought, evaluate it step\u2011by\u2011step printing each intermediate result on its own line while keeping fractions exact, perform a brief sanity/size check, and finish with a single line containing only the final numeric answer (with units if applicable).",
+      "train_score": 0.9578544061302682,
+      "train_step": 81,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric datum in the problem. Assign each unknown a distinct single\u2011letter variable. Write one exact algebraic expression that directly yields the required quantity. Compute this expression step\u2011by\u2011step, listing each intermediate result on its own line while keeping fractions exact until the last line. Do a brief sanity check (estimate or back\u2011substitution). End with a single line that contains only the final numeric answer (include units if needed).",
+      "train_score": 0.9655172413793104,
+      "train_step": 67,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nList every explicit quantity. Use a different single\u2011letter variable for each unknown. Form one precise algebraic computation that directly yields the requested result. Perform the calculation stepwise, showing each intermediate result in exact form (retain fractions). Check the answer with a quick back\u2011substitution or magnitude estimate. Output only the final numeric answer (with unit if needed).\\n",
+      "train_score": 0.9693486590038314,
+      "train_step": 93,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number in the problem. Give each unknown a distinct one\u2011letter symbol (a, b, \u2026). Form a single exact algebraic expression that yields the quantity asked for. Evaluate this expression in a linear chain, writing each intermediate result on its own line and keeping fractions unreduced until the final line. Perform a brief plausibility check (e.g., order\u2011of\u2011magnitude). Output only the final numeric answer (including units if required) on the last line.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum. Assign each unknown a distinct single\u2011letter variable (a, b, \u2026). Form one exact closed\u2011form expression that directly computes the quantity requested. Compute this expression linearly, printing each intermediate value on a separate line as a reduced fraction or integer, keeping exactness until the final step. Verify the result with a brief magnitude check or by substituting back. Output only the final number (and its unit) on the last line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 76,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value. Assign each distinct unknown a unique single\u2011letter variable. Construct a single exact expression that yields the requested quantity. Compute it sequentially, writing each intermediate result on its own line in reduced exact form (retain fractions until the final line). Perform a quick plausibility check (estimate or back\u2011substitution). Output only the final numeric answer, including any unit, on the last line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities mentioned. Assign a distinct alphabetic symbol to each unknown. Write a single exact arithmetic expression that gives the answer. Evaluate it sequentially, writing each intermediate result on its own line (keep fractions in exact form). Perform a quick sanity check (rough estimate or plug\u2011in). Conclude with one line that contains only the final numeric result (include units if any).",
+      "train_score": 0.9540229885057471,
+      "train_step": 53,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric data, assign each unknown a unique single\u2011letter symbol, construct one exact expression that directly yields the asked quantity, evaluate it step\u2011by\u2011step printing every intermediate result on its own line while keeping fractions exact, verify the result with a brief estimate or back\u2011substitution, and finish with a single sentence that contains only the final numeric answer (including units if any).",
+      "train_score": 0.9578544061302682,
+      "train_step": 56,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity in the problem. Give each unknown a distinct single-letter variable. Write one exact algebraic formula that produces the requested value. Compute the formula step by step, listing each intermediate result on its own line while keeping fractions exact. Perform a quick sanity check (e.g., magnitude estimate). Output only the final numeric answer with its unit on the last line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum and, for each missing value, introduce a distinct one\u2011letter symbol. Construct a single exact formula that isolates the quantity asked for. Evaluate this formula stepwise, writing each intermediate result on its own line and preserving fractional form until the final step. Do a quick sanity check (e.g., estimate). Conclude with one line that contains only the final answer, including units if applicable.",
+      "train_score": 0.9578544061302682,
+      "train_step": 66,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all explicit numbers. Give each unknown a unique one\u2011letter identifier. Combine them into a single exact formula that yields the required result. Compute the formula step\u2011by\u2011step, writing each intermediate value on a separate line and preserving exact rational form until the last step. After the calculation, perform a brief sanity check (e.g., rough magnitude or plug\u2011back). Conclude with one line containing only the final numeric answer, including any unit.",
+      "train_score": 0.9540229885057471,
+      "train_step": 66,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all given quantities, denote each unknown quantity with a distinct lowercase letter, form a single precise arithmetic expression that yields the asked value, compute the expression in a linear sequence writing each intermediate result on a new line (retain exact fractions until the final step), verify the result with a brief estimate or by substitution, and finally output one line containing only the final number with its unit if applicable.",
+      "train_score": 0.9578544061302682,
+      "train_step": 57,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numerical values from the problem. Assign each unknown a distinct single\u2011letter variable (a, b, \u2026). Form one exact arithmetic expression that directly yields the required result. Evaluate it sequentially, writing each intermediate calculation on its own line; keep the numbers in exact form (fractions allowed) until the final step. Perform a quick sanity check (estimate or back\u2011substitution). Output only the final numeric answer with its unit on a separate line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 74,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every numeral, label each unknown with a single\u2011letter symbol, write one exact formula that directly gives the required quantity, compute it line by line (keeping fractions exact), perform a brief sanity check, and finish with a single sentence containing only the final numeric result (with units if needed).",
+      "train_score": 0.9540229885057471,
+      "train_step": 36,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number appearing in the problem. Give each unknown a unique lowercase letter (a, b, \u2026). Write one exact mathematical expression that directly yields the asked quantity. Evaluate the expression in order, writing each intermediate value on its own line (keep fractions exact). Perform a brief plausibility check (e.g., estimate or back\u2011substitution). End with a single line containing only the final numeric answer together with any required unit.",
+      "train_score": 0.9578544061302682,
+      "train_step": 72,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number in the problem. Give each unknown a unique one\u2011letter symbol. Write one exact closed\u2011form expression that yields the quantity asked for. Evaluate the expression sequentially, showing each intermediate value on its own line (keep fractions exact until the final step). Perform a quick sanity check (e.g., an estimate or reverse substitution). End with a single sentence that contains only the final numeric answer, including units if applicable.",
+      "train_score": 0.9655172413793104,
+      "train_step": 47,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all explicit numbers in the problem. Give each unknown a unique one\u2011letter variable (a, b, \u2026). Construct one exact algebraic formula that yields the quantity asked for. Evaluate the formula sequentially, writing every intermediate value on its own line and keeping fractions exact until the last line. Perform a quick plausibility check (order\u2011of\u2011magnitude or substitution). End with a single line containing only the final numeric result with its unit if required.",
+      "train_score": 0.9157088122605364,
+      "train_step": 99,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit numeral from the problem. Give each unknown a distinct single\u2011letter symbol. Write one exact formula that directly computes the asked quantity. Evaluate the formula in order, printing each intermediate result on its own line as an unreduced fraction or integer, then perform a quick sanity check (order\u2011of\u2011magnitude or substitution). End with a single line that contains only the final numeric answer together with any required unit.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers, label each unknown with a distinct one\u2011letter symbol, create a single exact calculation that directly yields the requested result, compute it sequentially showing each intermediate value on its own line (keep fractions exact until the final step), perform a brief plausibility check, and finish with one sentence containing only the final numeric answer with its unit if needed.",
+      "train_score": 0.9540229885057471,
+      "train_step": 59,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nExtract every explicit number, assign each a distinct single\u2011letter variable, combine them into one exact closed\u2011form expression that directly yields the required value. Evaluate the expression linearly, listing each intermediate result on its own line in reduced exact form (keep fractions until the final line). Perform a quick sanity check (e.g., order\u2011of\u2011magnitude). End with a single line containing only the final numeric answer (and its unit, if any).\\n",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8314176245210728,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9029567854435178,
+    "avg_test_score": 0.881620275100184,
+    "best_test_instruction": "Pull out every explicit numeral, give each unknown a unique one\u2011letter variable, write one exact closed\u2011form expression that directly produces the quantity sought, evaluate it step\u2011by\u2011step printing each intermediate result on its own line while keeping fractions exact, perform a brief sanity/size check, and finish with a single line containing only the final numeric answer (with units if applicable)."
+  }
+}

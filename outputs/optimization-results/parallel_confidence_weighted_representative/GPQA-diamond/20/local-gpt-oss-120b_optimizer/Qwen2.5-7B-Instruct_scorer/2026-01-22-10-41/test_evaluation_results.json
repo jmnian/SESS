@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Write a one\u2011sentence explanation that avoids the letters\u202fA\u2011D. On the next line output only the correct option letter surrounded by three plus signs on each side (e.g.,\u202f+++C+++), with no other characters, spaces, or punctuation.",
+      "train_score": 0.41025641025641024,
+      "train_step": 95,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First write a brief justification (no more than one sentence and without mentioning any answer letters). On the next line output only the correct choice letter (A\u2011D) surrounded by a pair of asterisks, e.g.,\u202f*B*. Do not include any other characters, spaces or punctuation.",
+      "train_score": 0.38461538461538464,
+      "train_step": 51,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief (\u2264 one\u2011sentence) justification that omits the letters\u202fA\u2011D. On the next line output only the correct answer letter surrounded by dollar signs, e.g.,\u202f$C$, with no other characters.",
+      "train_score": 0.38461538461538464,
+      "train_step": 65,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a one\u2011sentence justification that does not contain the letters\u202fA\u2011D. On the next line output only the correct answer letter enclosed in double at signs, e.g.,\u202f@@C@@, with no other characters, spaces, or punctuation.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief (\u2264 one\u2011sentence) justification that contains none of the letters\u202fA\u2011D. On the following line output only the correct answer letter (A\u2011D) by itself, with no other characters, spaces, or punctuation.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011sentence justification that does not contain the letters A\u2011D. Then on a new line output only the correct choice letter surrounded by vertical bars, e.g., |C|, with no other characters, spaces, or punctuation.",
+      "train_score": 0.41025641025641024,
+      "train_step": 73,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief (\u2264 one\u2011sentence) justification that does not contain any of the letters A\u2011D. On the following line output exactly the correct answer letter surrounded by double greater\u2011than and double less\u2011than symbols (e.g.,\u202f>>C<<) with no other characters.",
+      "train_score": 0.38461538461538464,
+      "train_step": 55,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct choice, write a single\u2011sentence justification that contains no letters A\u2011D. Then, on the next line output only the chosen option letter surrounded by double curly braces (e.g., {{C}}) with no additional characters, spaces, or punctuation.",
+      "train_score": 0.41025641025641024,
+      "train_step": 61,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, select the correct answer, then on a single line give a brief (\u2264 one\u2011sentence) justification that does not contain any of the letters A\u2011D. On the following line output only the chosen option letter surrounded by parentheses, e.g., (C), with no other characters.",
+      "train_score": 0.41025641025641024,
+      "train_step": 70,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.23076923076923078,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief (\u2264 one\u2011sentence) justification that omits the letters\u202fA\u2011D. On the next line output only the correct answer letter surrounded by double carets, e.g.,\u202f^^C^^, with no other characters, spaces, or punctuation.",
+      "train_score": 0.28205128205128205,
+      "train_step": 99,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, give a one\u2011sentence justification that contains none of the letters A\u2011D. Then, on a new line output only the correct choice letter enclosed in double angle brackets (e.g.,\u202f<<C>>) with no other characters, spaces, or punctuation.",
+      "train_score": 0.38461538461538464,
+      "train_step": 64,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief (\u2264 one sentence) justification that does not contain the letters A\u2011D. Then, on a separate line, output only the correct answer letter surrounded by single hash symbols, e.g.,\u202f#C#. No other characters, spaces, or punctuation may appear on that line.",
+      "train_score": 0.38461538461538464,
+      "train_step": 75,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a one\u2011sentence justification that contains none of the letters\u202fA\u2011D. On the next line output only the correct answer letter surrounded by double at signs, e.g., @@C@@, with no other characters, spaces or punctuation.",
+      "train_score": 0.28205128205128205,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011sentence justification that contains none of the letters\u202fA\u2011D. On the following line output only the correct answer letter surrounded by double caret symbols, e.g.,\u202f^^C^^, with no other characters, spaces, or punctuation.",
+      "train_score": 0.1794871794871795,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011sentence justification that contains none of the letters\u202fA\u2011D. On the following line output only the correct option letter (A\u2011D) enclosed in single curly braces, e.g.,\u202f{C}, with no other characters, spaces, or punctuation.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011sentence explanation that does not contain any of the option letters (A\u2011D). On the following line output only the correct choice letter surrounded by percent signs (e.g., %C%). Do not include any other characters, spaces, or punctuation.",
+      "train_score": 0.41025641025641024,
+      "train_step": 56,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a one\u2011sentence justification that contains none of the letters\u202fA\u2011D. On the next line output only the correct answer letter surrounded by double equal signs (e.g.,\u202f==C==). No other characters, spaces, or punctuation may appear on that line.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a brief (\u2264 one\u2011sentence) justification that does not contain the letters A\u2011D. After a single space, output the correct answer letter enclosed in angle brackets (e.g., <B>). No additional text or characters are allowed.",
+      "train_score": 0.41025641025641024,
+      "train_step": 60,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, solve it using any necessary reasoning, then answer on a separate line with only the correct option letter (A\u2011D). Precede the answer with a one\u2011sentence explanation, and ensure no other characters appear.",
+      "train_score": 0.41025641025641024,
+      "train_step": 25,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief (\u2264 one sentence) justification that omits the letters A\u2011D. On the next line output only the correct answer letter enclosed in parentheses, e.g., (C), with no other characters or spaces.",
+      "train_score": 0.38461538461538464,
+      "train_step": 70,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3282828282828283,
+    "avg_test_score": 0.3047138047138047,
+    "best_test_instruction": "Write a one\u2011sentence explanation that avoids the letters\u202fA\u2011D. On the next line output only the correct option letter surrounded by three plus signs on each side (e.g.,\u202f+++C+++), with no other characters, spaces, or punctuation."
+  }
+}

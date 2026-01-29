@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numeric values, infer the required arithmetic relationships, compute the solution step\u2011by\u2011step with brief justifications, and respond with only the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 3,
+      "test_score": 0.8392721758908264,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every quantity mentioned, infer the exact calculation the problem requires, perform the computation with full accuracy (handling any unit or percentage conversion), and answer with only the final numeric result.",
+      "train_score": 0.9594594594594594,
+      "train_step": 73,
+      "test_score": 0.8369977255496588,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to locate all numbers, construct the precise mathematical expression that answers the query, compute it exactly, and provide solely the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 22,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list every numeric value, infer the exact calculation needed to answer the query, evaluate it precisely (round only if required), and reply with only the final numeric result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 24,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all figures mentioned, construct the precise calculation needed to answer the query, perform the computation, and return solely the final number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 9,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify all quantities (including percentages, fractions, and units), convert them as needed, formulate the exact calculation required, compute it precisely (round only if instructed), and output only the final numeric result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 27,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate each required arithmetic operation, compute the intermediate results sequentially, and after completing all calculations output only the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 1,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantitative element, convert any percentages, fractions, or units to plain numbers, deduce the single algebraic formula the problem describes, calculate it with exact arithmetic (only rounding if the prompt specifies), verify any constraints, and reply solely with the resulting number.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, pull out every numeric quantity (including fractions, percentages, and units), convert as needed, express the solution as one exact arithmetic or algebraic computation, evaluate it with full precision (round only if the prompt says), verify any stated constraints, and reply with only the final number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every quantity (including fractions, percentages, and units), apply any required conversions, compute the exact answer the question asks for (round only if instructed), verify any stated constraints, and output only the final numeric value.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find every numerical value in the prompt, translate the scenario into the exact arithmetic expression needed, evaluate it precisely, and return only the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 11,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every number presented, construct the exact mathematical formula that solves the problem, calculate it accurately, and output solely the final number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 24,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities (numbers, fractions, percentages, units) from the prompt, translate them into a single coherent arithmetic or algebraic expression that directly answers the question, evaluate the expression exactly (keep full precision, round only if the problem tells you), verify that the obtained value fulfills any stated bounds or conditions, and reply with only that final number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 29,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, pull all numbers (including fractions, percentages, units), build the single precise formula the prompt asks for, compute it (apply rounding only if specified), ensure any given conditions hold, and return only the final numeric value.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numeric quantity, determine the exact arithmetic expression needed, evaluate it (a brief sanity\u2011check of intermediate steps is optional), and reply with only the final numeric result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 9,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, figure out the exact operation required, compute the result precisely (a quick sanity\u2011check of intermediates is optional), and answer with only the final number.",
+      "train_score": 0.9459459459459459,
+      "train_step": 9,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (including fractions, percentages, and units), apply any needed conversions, derive the single exact mathematical expression the problem asks for, evaluate it with full precision (round only if instructed), confirm any given conditions, and output solely the final number.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.7945413191811979,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the question, pull out all numbers (including fractions, percentages, and units), translate the problem into one precise mathematical computation, perform any required conversions, compute the exact result (round only if instructed), verify any stated constraints, and respond with only that final numeric value.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.7808946171341926,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeric quantity present, decide the single mathematical operation or combination required, compute the expression exactly (perform any unit or percentage conversions, keep full precision, round only if instructed), and output only the final numeric result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 24,
+      "test_score": 0.7687642153146323,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (fractions, percentages, units, etc.), apply any required conversions, reformulate the problem as a single clear arithmetic (or algebraic) expression that answers the question, compute it exactly (round only if the prompt explicitly says so), verify any given constraints, and reply with only the final number and nothing else.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.7020470053070508,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8392721758908264,
+    "avg_test_score": 0.8077547925917903,
+    "best_test_instruction": "Identify all numeric values, infer the required arithmetic relationships, compute the solution step\u2011by\u2011step with brief justifications, and respond with only the final numeric answer."
+  }
+}

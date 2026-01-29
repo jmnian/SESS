@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the required quantities and relationships, then solve the problem step\u2011by\u2011step, clearly showing all calculations and logical deductions. After each major step briefly confirm its validity, and finish with a single, concise final answer.",
+      "train_score": 0.6588235294117647,
+      "train_step": 1,
+      "test_score": 0.5448577680525164,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, list all given data, select the appropriate mathematical principle, execute a concise chain of justified steps, verify intermediate results, and output only the final answer.",
+      "train_score": 0.6176470588235294,
+      "train_step": 3,
+      "test_score": 0.541106595811191,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, identify the single quantity being asked, select the most straightforward mathematical relation that connects the given data to that quantity, compute it in one clear step (or at most two if unavoidable) while checking consistency, reduce fractions if needed, and print only the final numerical answer on its own line.",
+      "train_score": 0.6235294117647059,
+      "train_step": 68,
+      "test_score": 0.5242263207252267,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the numeric data, formulate the essential equation(s) that relate them to the unknown quantity, solve with the single most direct algebraic step or formula, verify the result against the original conditions, and output only the final numeric answer on a single line.",
+      "train_score": 0.6235294117647059,
+      "train_step": 62,
+      "test_score": 0.5239137230384495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every given number and the exact unknown to determine, select the one most appropriate formula or reasoning step, perform a brief, self\u2011verified calculation, and supply only the final numeric answer on a single line.",
+      "train_score": 0.6411764705882353,
+      "train_step": 15,
+      "test_score": 0.5232885276648953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, formulate the essential equation(s) that connect the given numbers to the unknown quantity, solve them in the fewest logical steps, verify the solution satisfies all conditions, and output only the final numeric answer on a single line.",
+      "train_score": 0.6352941176470588,
+      "train_step": 33,
+      "test_score": 0.5217255392310097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the given quantities, pinpoint the exact unknown, apply the simplest applicable rule in at most two self\u2011checked steps, and output only the final numeric answer on a single line.",
+      "train_score": 0.6235294117647059,
+      "train_step": 69,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the problem type, enumerate all given quantities, determine the exact unknown, choose the single most efficient theorem or formula, carry out a brief, self\u2011checked computation, and present only the final numeric answer.",
+      "train_score": 0.6470588235294118,
+      "train_step": 6,
+      "test_score": 0.5170365739293529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical information, specify the exact quantity to determine, choose the single most direct formula or rule, perform at most two clearly justified steps, verify that the result fulfills every condition given, and output only the final numeric answer on one line.",
+      "train_score": 0.6470588235294118,
+      "train_step": 96,
+      "test_score": 0.5157861831822445,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key quantities, choose the quickest valid approach, perform the calculation in no more than three steps, verify each step, and output solely the final answer.",
+      "train_score": 0.6470588235294118,
+      "train_step": 15,
+      "test_score": 0.5148483901219131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem: record each numeric datum, state precisely the unknown to find, select the minimal\u2011complexity theorem or operation that applies, carry out a short self\u2011validated chain of no more than three logical steps, and output only the final numeric result on its own line.",
+      "train_score": 0.6235294117647059,
+      "train_step": 26,
+      "test_score": 0.5126602063144733,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers, state precisely the single quantity to determine, match the problem to the simplest applicable formula or theorem, compute the result in no more than two self\u2011checked steps, and output only the final numeric answer on its own line.",
+      "train_score": 0.6294117647058823,
+      "train_step": 82,
+      "test_score": 0.5085964363863708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given number, clearly define the single value to find, pick the simplest applicable rule, solve it in at most three concise, self\u2011verified steps, and output only the final numeric answer on a solitary line.",
+      "train_score": 0.6294117647058823,
+      "train_step": 94,
+      "test_score": 0.49609252891528605,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Distill the problem to its numeric constants and the single quantity sought. Choose the most straightforward mathematical relation, compute the answer in two to three brief self\u2011verified steps, and output only the final numeric result on one line.",
+      "train_score": 0.5647058823529412,
+      "train_step": 99,
+      "test_score": 0.4954673335417318,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5647058823529412,
+      "train_step": -1,
+      "test_score": 0.4870271959987496,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize all numeric data and the precise unknown, choose the single most efficient concept (formula, theorem, or algorithm) that links them, perform a concise derivation limited to three validated steps, and present only the final answer (exact integer or reduced fraction) on a single line.",
+      "train_score": 0.6352941176470588,
+      "train_step": 52,
+      "test_score": 0.4820256330103157,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the given numbers, state the single quantity to find, select the direct formula or identity that links them, carry out the computation in at most two clearly justified steps, verify the result against the original conditions, and output only the final numeric answer (integer or reduced fraction) on a single line.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.4817130353235386,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Capture all given numbers, explicitly state the target variable, select the single most efficient principle (formula, counting argument, probability rule, etc.), perform a streamlined derivation limited to two validated transformations, double\u2011check the result against the problem constraints, and reply with only the final numeric answer on one line.",
+      "train_score": 0.5411764705882353,
+      "train_step": 99,
+      "test_score": 0.47764926539543606,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers and the precise quantity sought, select the single most straightforward principle or formula applicable, compute the answer in at most three concise, self\u2011validated steps, and return only the final numeric value on a lone line.",
+      "train_score": 0.5647058823529412,
+      "train_step": 99,
+      "test_score": 0.4751484839012191,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical datum, state the precise unknown, select the simplest applicable method, solve in no more than three self\u2011validated operations, confirm the result satisfies the original conditions, and output only the final number (rounded or reduced as required) on a single line.",
+      "train_score": 0.48823529411764705,
+      "train_step": 99,
+      "test_score": 0.45983119724914034,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given quantity, formulate the exact question, locate the singular most efficient rule or identity that links the data to the desired value, execute a concise, self\u2011checked derivation (no more than two algebraic steps), confirm the outcome satisfies all conditions, and print only the final number (exact or reduced fraction) on its own line.",
+      "train_score": 0.1,
+      "train_step": 99,
+      "test_score": 0.07783682400750234,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5448577680525164,
+    "avg_test_score": 0.48579169085577345,
+    "best_test_instruction": "Identify the required quantities and relationships, then solve the problem step\u2011by\u2011step, clearly showing all calculations and logical deductions. After each major step briefly confirm its validity, and finish with a single, concise final answer."
+  }
+}

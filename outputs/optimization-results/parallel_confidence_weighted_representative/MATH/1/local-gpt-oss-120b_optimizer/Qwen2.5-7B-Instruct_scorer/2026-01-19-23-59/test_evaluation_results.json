@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the objective, note every given value, choose the appropriate theorem or formula, solve with a brief numbered chain of calculations and short comments, verify the result, and end by writing only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 7,
+      "test_score": 0.7333541731791184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every given value and the quantity to determine, select the suitable mathematical concept, work through the solution in a concise, numbered sequence showing only essential calculations with brief justification, verify the result, and write the exact final answer alone on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 7,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list known data and what is asked, choose the appropriate mathematical tools, work through the solution with clear, numbered steps showing each calculation and brief justification, check the result, and output only the final numeric answer (rounded if needed) on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 2,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the goal, record each given number, choose the single formula or theorem that directly addresses the problem, carry out a brief numbered computation where each step shows the operation plus a concise justification, verify that the result meets all conditions, and end by writing only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 13,
+      "test_score": 0.7233510472022507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Declare the exact value to be determined, record every numeric datum supplied, choose the single most decisive theorem/identity that connects them, resolve the problem in a terse numbered list (each entry: computation\u202f\u2192\u202fbrief justification), do a rapid consistency check (plug\u2011in, bounds, parity, etc.), and print only the final numeric answer on its own line (round only if the statement explicitly demands it).",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.7177242888402626,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the unknown quantity, enumerate every numerical fact provided, choose the single most direct theorem, identity, or counting argument that links them, solve in a compact ordered list (each line: calculation followed by a brief rationale such as \u201capply binomial coefficient\u201d), perform an immediate sanity check (e.g., substitute back, compare ranges), and output only the final numeric result on a separate line, rounding only when the problem explicitly demands it.",
+      "train_score": 0.8541666666666666,
+      "train_step": 57,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to determine, write down every given number, select the single most appropriate theorem or algebraic relation, solve using a concise numbered chain where each step contains the calculation followed by a brief parenthetical reason, perform a quick validation (e.g., plug\u2011in, unit consistency), and finally print only the exact numeric answer on its own line (round only if instructed).",
+      "train_score": 0.8958333333333334,
+      "train_step": 30,
+      "test_score": 0.7155361050328227,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, note the quantity to find and all given numbers, pick the single most suitable formula or counting rule, compute the answer in a compact numbered list (one operation per line with a brief justification), quickly verify the result meets the problem\u2019s conditions, and output only the final numeric value on its own line (round only if the problem requires).",
+      "train_score": 0.8541666666666666,
+      "train_step": 23,
+      "test_score": 0.7130353235386058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity sought, list all supplied numbers, choose the one most fitting mathematical rule or formula, compute using a short numbered sequence where each line shows the operation followed by a brief parenthetical justification, verify that the result meets every condition of the problem, and finally output only the final numeric value on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 19,
+      "test_score": 0.7111597374179431,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the target quantity, enumerate every given number, choose the simplest applicable theorem or arithmetic relation, solve using a minimal series of numbered calculations each accompanied by a one\u2011sentence rationale, perform a quick validation (e.g., plug back, check units), and finally print only the exact final number on a separate line (round only when instructed).",
+      "train_score": 0.8541666666666666,
+      "train_step": 21,
+      "test_score": 0.7111597374179431,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the asked quantity, list every numeric fact given, choose the single governing theorem or formula, solve in a terse numbered sequence (each step: calculation and a brief rationale), perform a rapid sanity check (plug\u2011in or bound), and output only the exact numeric answer on a separate line (round only if the problem states so).",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7033447952485151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the specific quantity sought, list every numeric given, choose the single most pertinent formula or theorem, solve with a compact numbered list where each entry shows the calculation and a brief parenthetical justification, briefly verify the result meets all problem constraints, and finally output only the exact numeric answer on its own line (round only if the prompt demands).",
+      "train_score": 0.875,
+      "train_step": 37,
+      "test_score": 0.6961550484526414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown quantity, write down every numeric datum, select the single principle (formula, identity, or counting rule) that directly connects them, derive the answer in a short ordered list where each line contains the calculation and a brief rationale, confirm the result meets all given conditions, and finally print only the final number on a separate line (apply rounding only if the problem explicitly requests it).",
+      "train_score": 0.8958333333333334,
+      "train_step": 65,
+      "test_score": 0.6927164738980931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity asked for. Record every numerical condition given. Pick the single most powerful relation (formula, identity, theorem, or counting principle) that links them. Compute the answer in a tight ordered list\u2014each item shows the arithmetic performed and a one\u2011word justification. Perform an immediate sanity check (substitute back, verify bounds). Finally, print only the resulting number on a new line, rounding only if the problem states so.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.6914660831509847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the quantity to be found, enumerate every numeric fact provided, pick the single most direct principle (formula, identity, or counting rule) that solves it, carry out the computation in a brief numbered list where each step shows the arithmetic and a concise justification, perform a quick check (substitution or condition test), and finally write only the resulting number on its own line (apply rounding only if the problem states so).",
+      "train_score": 0.8541666666666666,
+      "train_step": 50,
+      "test_score": 0.6911534854642075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State what must be found, list all given numbers, pick the single most relevant theorem or operation, compute using a brief numbered list (each step: calculation\u202f+\u202fshort parenthetical justification), verify the answer meets every condition, and output only the final numeric result on its own line (round only if required).",
+      "train_score": 0.8541666666666666,
+      "train_step": 37,
+      "test_score": 0.6883401062832135,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be found, list every numeric datum, choose the single most direct formula or principle that links them, solve in a brief numbered sequence (each line: operation \u2192 short justification), perform a quick consistency check, and output only the final number on its own line (round only if required).",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6758361988121288,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pinpoint the unknown quantity and record every given numeral or relation. Choose the single most powerful theorem, identity or counting rule that directly solves the problem. Compute the answer in a compact numbered list\u2014each line presenting the arithmetic operation and a brief parenthetical justification. Quickly check that the result satisfies all conditions, then output only the final numeric value on its own line (round only if the prompt requires).",
+      "train_score": 0.8541666666666666,
+      "train_step": 49,
+      "test_score": 0.66051891216005,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a single sentence, enumerate every given number, pick the one most appropriate theorem or formula, compute the answer in a compact numbered list (one calculation per line with a brief rationale, e.g., \u201capply Pythagoras\u201d), quickly verify that the result satisfies all conditions, and print only the final numeric value on its own line (round only if the prompt asks).",
+      "train_score": 0.8541666666666666,
+      "train_step": 26,
+      "test_score": 0.6442638324476399,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to find, list each given numeric fact, select the single most direct mathematical principle that links them, solve in one concise derivation (no more than two algebraic steps), check the result against the original conditions, and output only the exact numeric answer on its own line (apply rounding only if explicitly requested).",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.37574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7446076899030947,
+    "avg_test_score": 0.6885782759493294,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

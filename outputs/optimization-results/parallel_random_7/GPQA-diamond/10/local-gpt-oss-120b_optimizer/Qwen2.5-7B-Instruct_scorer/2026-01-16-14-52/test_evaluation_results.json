@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "1. Carefully read the question and note every numerical value or condition.  \n2. Identify the single chemical/physical principle that governs the problem.  \n3. Perform the necessary calculation or logical deduction using only the given data.  \n4. Compare the obtained result with each answer option, discarding any that conflict with the result or basic rules.  \n5. Respond with the remaining option\u2019s letter and a one\u2011line statement explaining why it fits.",
+      "train_score": 0.42105263157894735,
+      "train_step": 2,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem entirely, use only the given data, determine the single principle needed, compute mentally, and output on one line the correct choice letter (A\u2011D). No extra text, symbols, or explanation.",
+      "train_score": 0.42105263157894735,
+      "train_step": 34,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nUsing only the information provided, compute the correct answer choice. Respond with exactly one uppercase letter (A, B, C, or D) followed by a newline and nothing else.\\n",
+      "train_score": 0.47368421052631576,
+      "train_step": 95,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach each MCQ with a structured chain\u2011of\u2011thought:\n- Extract every datum and the underlying scientific principle.\n- Derive the quantitative or qualitative result step by step, showing intermediate values.\n- Match the final result against the four options, eliminating any that violate the calculation or basic laws.\n- Respond with only the option label (A, B, C, or D). No extra commentary.",
+      "train_score": 0.42105263157894735,
+      "train_step": 2,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Process the entire question, deduce the unique correct answer, and output exactly one character\u2014the corresponding choice A, B, C, or D\u2014followed by a newline. Do not include anything else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 64,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform a brief chain\u2011of\u2011thought: (1) parse the problem, (2) extract all given data, (3) apply the relevant principle to identify the correct option, (4) finally output only the chosen letter (A\u2011D) on a single line, without any additional commentary.",
+      "train_score": 0.42105263157894735,
+      "train_step": 6,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please carefully read each problem statement and answer each multiple choice question based solely on the content provided; avoid making assumptions beyond the given information. Provide a brief explanation for the correct answer and a concise summary of why.",
+      "train_score": 0.5263157894736842,
+      "train_step": 0,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the whole question, use only the data provided, and write the single correct answer letter (A, B, C or D) alone on one line. Nothing else\u2014not even a space or comment\u2014may appear.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the given data decide which choice (A\u2011D) is correct. Respond with that single capital letter on its own line; if you add an explanation, place it after one space and keep it \u22648 words. No other characters may appear.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the entire question, rely exclusively on the information given, determine the single correct choice (A\u2011D) and output only that capital letter on a line by itself. Do not add any other text, symbols, or whitespace.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Using only the information provided, determine the correct choice (A\u2011D). Respond with that single capital letter on its own line; you may add a brief justification (\u22648 words) after one space. No other characters or whitespace are allowed.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by reasoning step\u2011by\u2011step, but return only the correct answer label (A, B, C, or D) on a single line with no additional text or explanation.",
+      "train_score": 0.42105263157894735,
+      "train_step": 13,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire question, use only the information provided, identify the single correct choice (A\u2011D) and output only that capital letter on a line by itself\u2014no spaces, punctuation, comments, or any other characters.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3684210526315789,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire question, extract every given datum, decide which single principle or formula applies, compute using only those data (round numeric results to one decimal if needed), match the outcome to the four choices, and output on a single line ONLY the correct option letter (A\u2011D) followed by a brief justification of up to nine words. No other text or symbols are allowed.",
+      "train_score": 0.42105263157894735,
+      "train_step": 27,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the entire question and note every explicit fact.  \n2. Determine the single concept, formula or logical rule needed.  \n3. Solve using only the given information.  \n4. Compare the result with the four choices and eliminate those that conflict.  \n5. Respond on one line with the correct option letter (A\u2011D) followed by a brief justification of at most nine words in parentheses.  Do not add any other text, symbols or whitespace.",
+      "train_score": 0.42105263157894735,
+      "train_step": 40,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire question, note all given data, and identify the core principle needed. Using only this information, perform the required calculation or logical reasoning to eliminate incorrect options. Output the single correct answer label (A\u2011D) followed by a concise one\u2011sentence explanation. Do not include any additional text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 2,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the whole question, note every explicit datum, identify the single formula or logical rule that connects them, compute the result using only those data, compare with the four choices, and output on one line the correct option letter (A\u2011D) followed by a brief justification of no more than eight words. Do not include any other text, symbols, or whitespace.",
+      "train_score": 0.42105263157894735,
+      "train_step": 32,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ: (1) read the whole problem; (2) list all given data and identify the governing concept; (3) perform the necessary calculation or logical inference using only that information; (4) match the outcome to the options, eliminating any that contradict it; (5) output the correct option letter (A\u2011D) and, in a single short sentence, state why it is correct.",
+      "train_score": 0.42105263157894735,
+      "train_step": 2,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Using only the information provided, select the unique correct answer (A\u2011D). Output exactly one capital letter on its own line; if you wish, add a short comment (\u22649 words) after a single space on the same line. No other characters, symbols, or whitespace are allowed.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, extract every given datum, decide the single rule or calculation needed, solve internally, then write on one line the correct choice letter (A\u2011D) followed by a brief parenthetical note (\u226412 words) stating the decisive fact. Do not include any other text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 21,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.35353535353535354,
+    "avg_test_score": 0.3136123136123136,
+    "best_test_instruction": "1. Carefully read the question and note every numerical value or condition.  \n2. Identify the single chemical/physical principle that governs the problem.  \n3. Perform the necessary calculation or logical deduction using only the given data.  \n4. Compare the obtained result with each answer option, discarding any that conflict with the result or basic rules.  \n5. Respond with the remaining option\u2019s letter and a one\u2011line statement explaining why it fits."
+  }
+}

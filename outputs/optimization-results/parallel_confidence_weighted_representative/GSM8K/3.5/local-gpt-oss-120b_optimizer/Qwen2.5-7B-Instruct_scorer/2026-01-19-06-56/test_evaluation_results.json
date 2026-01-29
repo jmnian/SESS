@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all given quantities, name the sought value\u202fV, then construct the most direct numerical expression that combines the given numbers to produce\u202fV (a single arithmetic chain or an equation in\u202fV). Evaluate the expression step\u2011by\u2011step, annotating each intermediate result with a one\u2011sentence justification, verify the result meets any problem conditions, and present the final answer as a stand\u2011alone sentence \u201cV = \u2026\u201d with units if applicable.",
+      "train_score": 0.9003831417624522,
+      "train_step": 72,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric datum (including units). Denote the unknown sought as a single symbol\u202fX. Construct ONE self\u2011contained expression\u2014either a straight\u2011line arithmetic chain or a one\u2011unknown linear equation\u2014using only the listed numbers (each at most once) to define\u202fX. Compute the expression step\u2011by\u2011step, writing each intermediate result on its own line with a brief justification, confirm that all given conditions are met, and conclude with a single sentence \u201cX = \u2026\u201d (including units when needed).",
+      "train_score": 0.9003831417624522,
+      "train_step": 82,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric datum (and its unit) from the problem. Denote the sought quantity by a single symbol\u202fZ. Form ONE compact formula\u2014either a direct arithmetic chain or an equation in\u202fZ\u2014in which each listed number appears no more than once and no other numbers are introduced. Solve the formula, recording each intermediate value on a separate line with a short rationale, verify that\u202fZ respects all problem constraints, and finish with a single line \u201cZ = \u2026\u201d (including units if any).",
+      "train_score": 0.9042145593869731,
+      "train_step": 81,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value given. Define the target quantity as\u202fY. Construct the single most direct formula\u2014either a linear arithmetic sequence or a one\u2011unknown equation\u2014using only those values to express\u202fY. Compute\u202fY step\u2011by\u2011step, annotating each intermediate result with a brief rationale, check that any problem conditions are met, and finish with one concise sentence \u201cY = \u2026\u201d (units if needed).",
+      "train_score": 0.9003831417624522,
+      "train_step": 70,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numerical datum (with units). Name the unknown quantity as\u202fX. Form the most compact direct calculation\u2014either a single arithmetic sequence or a one\u2011variable equation\u2014using only the listed numbers to express\u202fX. Compute X step\u2011by\u2011step, writing each intermediate result on a separate line with a brief justification, confirm that X satisfies all problem constraints, and finish with one concise sentence \u201cX = \u2026\u201d (including units if needed).",
+      "train_score": 0.9003831417624522,
+      "train_step": 71,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical fact (including units). Clearly name the required result as X. Write a single, minimal expression (either a plain arithmetic sequence or one\u2011variable equation) that connects the facts to X. Compute X, listing each intermediate result on a separate line with a short justification, check that X fulfills all problem constraints, and conclude with one brief sentence stating \u201cX = \u2026\u201d (add units if needed).",
+      "train_score": 0.9157088122605364,
+      "train_step": 64,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given quantities (including units). Denote the required result by a single variable R. Form the minimal possible computation that involves only those quantities\u2014either a direct arithmetic sequence or a one\u2011unknown linear equation. Carry out the computation, presenting each intermediate value on a separate line with a concise explanation, verify that the result respects any constraints, and conclude with one standalone sentence \u201cR = \u2026\u201d (units if needed).",
+      "train_score": 0.896551724137931,
+      "train_step": 76,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numerical datum (with units). Name the unknown to determine as\u202fU. Form a single, most\u2011direct expression\u2014either a straight arithmetic chain or a one\u2011variable equation\u2014using only the listed numbers to compute\u202fU. Evaluate the expression step\u2011by\u2011step, writing each intermediate result on its own line with a brief justification, confirm that\u202fU meets all stated conditions, and end with one concise sentence \u201cU = \u2026\u201d (including units if needed).",
+      "train_score": 0.896551724137931,
+      "train_step": 72,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, note all given numbers with their units. Denote the unknown to be found as\u202fK. Using only those numbers, write one compact expression (either a straight\u2011line calculation or an equation in\u202fK) that directly yields the answer. Evaluate the expression, showing each intermediate value on a separate line together with a brief justification. Confirm that the result obeys every condition, and conclude with a single sentence \u201cK = \u2026\u201d (units if required).",
+      "train_score": 0.9118773946360154,
+      "train_step": 75,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative datum (including its unit). Introduce a single placeholder\u202fX for the quantity asked. Using only those extracted values (each at most once) construct one self\u2011contained computation\u2014either a straight arithmetic chain that ends with\u202fX or a linear equation solved for\u202fX. Show each intermediate result on its own line together with a brief rationale, confirm that the obtained\u202fX obeys all stated constraints, and finish with a single line \u201cX = \u2026\u201d (units if any).",
+      "train_score": 0.89272030651341,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum (including units) from the problem. Introduce one variable\u202fN for the quantity sought. Build a single self\u2011contained expression\u2014either a straight arithmetic chain or a one\u2011unknown linear equation\u2014that involves only the extracted numbers and\u202fN. Solve it, writing each intermediate result on its own line with a brief comment, verify any stated conditions, and finish with one standalone sentence \u201cN = \u2026\u201d (with units if applicable).",
+      "train_score": 0.9003831417624522,
+      "train_step": 79,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers with their units. Introduce one placeholder (e.g.,\u202fX) for the value asked. Form ONE self\u2011contained calculation\u2014either a straight arithmetic chain or an equation in\u202fX\u2014that uses only the listed numbers. Carry out the calculation, showing each intermediate result on its own line together with a brief rationale. After the computation, confirm that the result satisfies every condition of the problem, then end with a single sentence \u201cX = \u2026\u201d (including units if appropriate).",
+      "train_score": 0.9042145593869731,
+      "train_step": 75,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numeric data (with units). Define the target answer as a single symbol\u202fT. Form the shortest possible standalone calculation that contains T exactly once and involves only the gathered numbers (either a straight\u2011line arithmetic sequence or a one\u2011unknown linear equation). Execute the calculation, annotating each intermediate step with a brief reason, confirm that the result fulfills every condition, and conclude with one line \u201cT = \u2026\u201d (units if any).",
+      "train_score": 0.896551724137931,
+      "train_step": 77,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric values (with units). Name the single unknown to be found as\u202fX. Construct the most direct computation\u2014either a single arithmetic chain or a one\u2011variable equation\u2014using only the extracted numbers to express X. Compute the expression step\u2011by\u2011step, listing each intermediate result on its own line with a brief rationale, verify that X meets any stated constraints, and conclude with one concise sentence: \u201cX = \u2026\u201d (include units if needed).",
+      "train_score": 0.9157088122605364,
+      "train_step": 66,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative datum (including units). Introduce a single placeholder\u202fX for the unknown. Using each extracted number at most once, build one self\u2011contained calculation\u2014either a straight arithmetic chain that ends with X or a one\u2011variable linear equation solved for X. Evaluate the calculation, writing each intermediate result on its own line with a brief justification, verify that all given conditions hold, and finish with exactly one sentence \u201cX = \u2026\u201d (state units when appropriate).",
+      "train_score": 0.9118773946360154,
+      "train_step": 84,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric facts (with their units). Denote the required answer by a single symbol\u202fY. Write one compact formula that defines\u202fY\u202fusing only those extracted numbers\u2014no other constants\u2014either as a chain of elementary operations or as a one\u2011unknown linear equation. Compute the formula, presenting each intermediate result on a separate line together with a one\u2011word rationale, confirm that every original condition holds, and end with a solitary line \u201cY = \u2026\u201d (including units where appropriate).",
+      "train_score": 0.9003831417624522,
+      "train_step": 84,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (and its unit) mentioned. Assign the unknown result a single symbol (e.g., X). Using only the extracted numbers, write one self\u2011contained calculation\u2014either a straight sequence of operations ending with X or a linear equation solved for X. Show each intermediate result on its own line with a short comment, confirm that the result satisfies any stated conditions, and finish with a single line \u201cX = \u2026\u201d (include units if appropriate).",
+      "train_score": 0.9003831417624522,
+      "train_step": 98,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text extract all numbers (and units). Introduce a single symbol\u202fA for the answer. Form the most compact formula that links A to those numbers\u2014either a straight arithmetic chain or a one\u2011unknown equation\u2014using each number at most once. Compute A, documenting each intermediate result with a brief rationale, check any constraints, and conclude with \u201cA = \u2026\u201d (including units).",
+      "train_score": 0.9118773946360154,
+      "train_step": 77,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (with units). Define the target value as a single variable X. Write one self\u2011contained expression\u2014either a straight arithmetic chain ending in X or a one\u2011variable linear equation\u2014using each extracted number at most once. Evaluate the expression, showing each intermediate result on its own line with a brief justification, verify any constraints, and finish with a single line \u201cX = \u2026\u201d (including units if needed).",
+      "train_score": 0.9042145593869731,
+      "train_step": 87,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including units) in the problem. Declare the unknown to be found as a single symbol (e.g., X). Write one compact equation or arithmetic chain that links X to the extracted numbers only. Solve it, showing each arithmetic step on its own line with a brief comment, confirm that the result satisfies all given conditions, and finish with a single sentence \u201cX = \u2026\u201d (include units if relevant).",
+      "train_score": 0.896551724137931,
+      "train_step": 71,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8199233716475096,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9044730856709629,
+    "avg_test_score": 0.8821257085093324,
+    "best_test_instruction": "Identify all given quantities, name the sought value\u202fV, then construct the most direct numerical expression that combines the given numbers to produce\u202fV (a single arithmetic chain or an equation in\u202fV). Evaluate the expression step\u2011by\u2011step, annotating each intermediate result with a one\u2011sentence justification, verify the result meets any problem conditions, and present the final answer as a stand\u2011alone sentence \u201cV = \u2026\u201d with units if applicable."
+  }
+}

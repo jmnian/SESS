@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the unknown by directly converting the word problem into a single algebraic statement; solve it, double\u2011check the computation, and return only the final numeric answer in the format requested.",
+      "train_score": 0.8888888888888888,
+      "train_step": 28,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into the simplest exact arithmetic or algebraic expression that yields the requested quantity, compute it step\u2011by\u2011step while briefly confirming each operation, and output only the final numeric answer in the required format.",
+      "train_score": 0.8850574712643678,
+      "train_step": 97,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical datum, represent the entire situation with one minimal correct arithmetic/algebraic expression, evaluate it step\u2011by\u2011step verifying each intermediate result, and output only the final numeric answer in plain form.",
+      "train_score": 0.8850574712643678,
+      "train_step": 18,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the needed numbers, devise the simplest exact formula or minimal system that solves for the asked quantity, compute it step\u2011by\u2011step while briefly confirming each intermediate result, and output only the final numeric answer in the requested format.",
+      "train_score": 0.8850574712643678,
+      "train_step": 48,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list the relevant quantities and relationships, apply appropriate arithmetic or algebra to compute the answer, and present the final result clearly.",
+      "train_score": 0.896551724137931,
+      "train_step": 1,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement pull out all numbers and how they connect to the unknown, construct a single direct algebraic or arithmetic expression that solves for the unknown, evaluate it step\u2011by\u2011step with brief verification of each operation, and present only the final numerical result in the required form.",
+      "train_score": 0.8850574712643678,
+      "train_step": 51,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the entire problem into a single exact formula that directly produces the asked quantity, compute it step\u2011by\u2011step while briefly verifying each intermediate result, and output only the final numeric answer in the required format.",
+      "train_score": 0.8850574712643678,
+      "train_step": 69,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, encode the problem into one precise mathematical expression that directly gives the target, evaluate it step\u2011wise while checking each intermediate value, and output only the final numeric result in the required format.",
+      "train_score": 0.8850574712643678,
+      "train_step": 72,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, pinpoint every given quantity and its relationship, build the simplest correct mathematical expression or system, solve it step\u2011by\u2011step with brief verification of each intermediate result, and output only the final numeric answer in the required format.",
+      "train_score": 0.8812260536398467,
+      "train_step": 13,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, substitute every mentioned quantity with its numeric value, build the single most compact exact calculation that yields the required result, evaluate it step\u2011by\u2011step while briefly confirming each intermediate value, and output only the final numeric answer in the format requested.",
+      "train_score": 0.8850574712643678,
+      "train_step": 82,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity sought, gather all given numbers and their exact relationships, combine them into the simplest possible mathematical expression (or minimal system), evaluate it step\u2011by\u2011step with brief verification, and output solely the final numeric answer in the format requested.",
+      "train_score": 0.8888888888888888,
+      "train_step": 34,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine every given number, introduce the unknown(s), formulate the simplest exact equation(s) that relate them, solve analytically while briefly checking each intermediate result, and output only the final numeric answer in the required format.",
+      "train_score": 0.8812260536398467,
+      "train_step": 11,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the target quantity, list each given number with its exact relationship to that quantity, build the most compact correct formula (or minimal system of equations), compute it step\u2011by\u2011step while briefly verifying each intermediate operation, and output only the final numeric answer in the required format.",
+      "train_score": 0.8850574712643678,
+      "train_step": 57,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given numeral and its precise relationship to the quantity sought, fuse them into the most compact exact formula that directly produces that quantity, evaluate the formula step\u2011by\u2011step while briefly confirming each intermediate computation, and output solely the final numeric result in the required format.",
+      "train_score": 0.8544061302681992,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum and its relationship to the target, write one compact exact expression that yields the target, evaluate it sequentially with brief validation of each step, and output only the final numeric result in the format required.",
+      "train_score": 0.842911877394636,
+      "train_step": 99,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers, express the problem as the single simplest exact formula that directly yields the asked quantity, evaluate that formula step\u2011by\u2011step with brief verification of each intermediate result, and output only the final numeric answer in the exact required format.",
+      "train_score": 0.8352490421455939,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every constant given, express the target variable as a single precise arithmetic/algebraic expression using those constants, evaluate it sequentially while briefly confirming each intermediate value, and output solely the final numeric result in the exact requested format.",
+      "train_score": 0.8735632183908046,
+      "train_step": 99,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the statement, extract every numeric fact and its relationship to the quantity asked, turn the whole problem into one exact calculation (including any needed unit conversion), perform the arithmetic step\u2011by\u2011step while briefly verifying each intermediate value, and output only the final numeric answer in the format requested.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text pull out every numeric fact, write one exact mathematical expression (or smallest possible system) that represents the quantity being asked, solve it in a clear step\u2011by\u2011step chain verifying each arithmetic move, and output solely the final value in the requested format.",
+      "train_score": 0.8199233716475096,
+      "train_step": 99,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8007662835249042,
+      "train_step": -1,
+      "test_score": 0.8256254738438211,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, pinpoint the quantity to determine, convert every described amount into its precise numeric value, write the shortest exact formula (or system) that yields the required result, evaluate it step\u2011by\u2011step while briefly checking each intermediate calculation, and output only the final number in the format requested.",
+      "train_score": 0.4367816091954023,
+      "train_step": 99,
+      "test_score": 0.48597422289613346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8765659410087007,
+    "best_test_instruction": "Determine the unknown by directly converting the word problem into a single algebraic statement; solve it, double\u2011check the computation, and return only the final numeric answer in the format requested."
+  }
+}

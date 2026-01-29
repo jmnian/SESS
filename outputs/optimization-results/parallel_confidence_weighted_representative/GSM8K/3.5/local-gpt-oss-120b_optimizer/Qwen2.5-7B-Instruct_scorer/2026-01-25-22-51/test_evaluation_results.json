@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine what figure the question seeks. Write down all numbers appearing in the text with their units. Combine them into a single correct arithmetic expression (the simplest possible) that directly yields the desired figure. Perform the calculation, checking each intermediate step, and finally state the numeric result together with a brief, self\u2011contained justification.",
+      "train_score": 0.946360153256705,
+      "train_step": 44,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Precisely pinpoint the required answer, enumerate every numeric fact (including units, fractions, percents), encode the whole problem into a single, clearly\u2011parenthesized, unit\u2011consistent arithmetic equation (observing any rounding or integer requirements), evaluate it sequentially while briefly checking each intermediate, and finally give only the numeric answer together with a short explanatory clause.",
+      "train_score": 0.9540229885057471,
+      "train_step": 67,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, note the exact quantity being asked, record each numeric datum exactly as given (including units, percentages or fractions), and construct the single simplest mathematically\u2011correct, fully\u2011parenthesised expression that uses those numbers and obeys any rounding or integer constraints. Evaluate the expression step\u2011by\u2011step, confirming each intermediate result, and finally output only the final numeric answer together with a brief one\u2011sentence explanation.",
+      "train_score": 0.9540229885057471,
+      "train_step": 82,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact value the problem seeks, extract every numerical datum (including units, fractions, or percentages), translate the situation into one unambiguous, unit\u2011consistent arithmetic formula (applying any required integer or rounding rules), evaluate it transparently, and return solely the resulting number.",
+      "train_score": 0.9540229885057471,
+      "train_step": 44,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what numeric value the question asks for. Write down every given quantity (including units, percentages or fractions). Combine them into one clear, fully\u2011parenthesized, unit\u2011consistent arithmetic expression that directly computes the target (apply any required rounding or integer rules). Calculate the expression step\u2011by\u2011step, showing each intermediate result, and finally output only the final number together with a single concise explanatory sentence.",
+      "train_score": 0.9540229885057471,
+      "train_step": 70,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the required result, enumerate each given number (including units, percentages, or fractions), combine them into the simplest correct arithmetic expression (fully parenthesized and unit\u2011consistent), compute it step\u2011by\u2011step verifying each intermediate value, and finally output only the numeric answer together with a brief explanatory clause.",
+      "train_score": 0.9540229885057471,
+      "train_step": 90,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact number the question asks for. Record every quantitative detail given (values, units, percentages, fractions). Assemble these data into the most compact, correctly parenthesized arithmetic formula that produces the required value, observing any rounding or integer conditions. Compute the formula in a transparent, line\u2011by\u2011line fashion, verifying each intermediate outcome, and finally present only the resulting number together with a short explanatory sentence.",
+      "train_score": 0.9578544061302682,
+      "train_step": 73,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the specific value the question seeks, note every numerical fact (including units), form the shortest correct arithmetic formula that produces that value, compute it in transparent, step\u2011by\u2011step fashion checking each intermediate result, and finally give the exact number with a brief, self\u2011contained justification.",
+      "train_score": 0.946360153256705,
+      "train_step": 19,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what number the question seeks. Record every given quantity (value and unit, % or fraction). Combine them into one clear, fully\u2011parenthesized, unit\u2011consistent formula that respects any rounding or whole\u2011number requirements. Compute the formula step\u2011by\u2011step, confirming each intermediate outcome, and output only the final numeric result with a brief explanatory clause.",
+      "train_score": 0.9501915708812261,
+      "train_step": 72,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, decide exactly which numeric result is asked for, write down every given quantity (including units, percentages, fractions), combine them into a single clear, properly parenthesized arithmetic expression that follows unit\u2011consistency and any rounding/integer rules, evaluate the expression step\u2011by\u2011step while verifying each intermediate value, and finally output only the resulting number together with a brief explanatory sentence.",
+      "train_score": 0.9501915708812261,
+      "train_step": 85,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the statement, isolate the exact unknown to find, write down every numerical datum (including units, percents or fractions), convert the entire scenario into one explicit, correctly parenthesized arithmetic equation that respects those units and any required integer/rounding rules, solve the equation stepwise while briefly confirming each intermediate computation, and output the sole final number accompanied by a concise explanatory clause.",
+      "train_score": 0.9540229885057471,
+      "train_step": 51,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, determine the precise number required, list every given quantity (including units, percentages or fractions), and write one clear, fully\u2011parenthesized formula that uses those quantities exactly as presented (applying any rounding or integer constraints). Compute the formula step\u2011by\u2011step, checking each intermediate outcome, and finally present only the resulting number with a brief explanatory clause.",
+      "train_score": 0.9540229885057471,
+      "train_step": 72,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the word problem into one explicit equation that directly computes the required quantity, listing all given numbers with their units first. Solve the equation step\u2011by\u2011step, confirming each intermediate result, and output only the final numeric answer accompanied by a brief one\u2011line explanation.",
+      "train_score": 0.946360153256705,
+      "train_step": 44,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which numeric result the question seeks. Write down every given figure exactly as presented (including units, percentages or fractions). Combine these figures into one clear, fully\u2011parenthesized arithmetic expression that respects any rounding or integer rules (apply rounding only after the final value). Compute the expression step\u2011by\u2011step, confirming each intermediate outcome, and output solely the final number together with a brief explanatory clause.",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact quantity required. List all given numbers with their units. Combine them in one unambiguous, fully\u2011parenthesized expression that respects any rounding rules only after the final result. Evaluate the expression stepwise, verifying each intermediate value, and return only the final number together with a brief explanatory sentence.",
+      "train_score": 0.8199233716475096,
+      "train_step": 99,
+      "test_score": 0.8097043214556482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, determine the single numeric value being asked, write down every given quantity exactly as it appears (including units, percentages or fractions), compose one clear, fully\u2011parenthesized arithmetic expression that uses those quantities without alteration (apply any rounding only to the final result), evaluate the expression step\u2011by\u2011step confirming each intermediate outcome, and return only the final number with a brief explanatory clause.",
+      "train_score": 0.7662835249042146,
+      "train_step": 99,
+      "test_score": 0.7505686125852918,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity sought, list every numerical fact (value, unit, % or fraction), translate the whole situation into one explicit, fully\u2011parenthesised arithmetic equation that respects those units and any rounding or integer rules, compute the equation sequentially while confirming each intermediate result, and finally give only the resulting number followed by a concise one\u2011sentence justification.",
+      "train_score": 0.7509578544061303,
+      "train_step": 99,
+      "test_score": 0.730098559514784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the exact quantity required. Record each number given (including units, percentages or fractions). Insert those numbers exactly as they appear into one unambiguous, fully\u2011parenthesised arithmetic expression that follows any rounding or integer rules. Compute the expression step\u2011by\u2011step, verifying each intermediate value, and finally output only the resulting number together with a one\u2011sentence justification.",
+      "train_score": 0.7011494252873564,
+      "train_step": 99,
+      "test_score": 0.6724791508718726,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the exact number requested. List every numeric datum exactly as given (including units, percentages, fractions). Form the shortest possible mathematically\u2011correct, fully\u2011parenthesized expression that uses those data without alteration and that follows any rounding/integer rules only after the final value. Compute the expression step\u2011by\u2011step, confirming each intermediate result, and output only the final numeric answer together with one concise sentence explaining the calculation.",
+      "train_score": 0.44061302681992337,
+      "train_step": 99,
+      "test_score": 0.4040940106141016,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the single numeric result required, copy every given number exactly as written (with its unit, % or fraction), build one clear, fully\u2011parenthesized formula that uses those copies and follows any rounding or integer constraints, evaluate the formula in order, and reply with just the final value plus a short sentence stating what it represents.",
+      "train_score": 0.367816091954023,
+      "train_step": 99,
+      "test_score": 0.31842304776345715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9052312357846853,
+    "avg_test_score": 0.8025921513412038,
+    "best_test_instruction": "Determine what figure the question seeks. Write down all numbers appearing in the text with their units. Combine them into a single correct arithmetic expression (the simplest possible) that directly yields the desired figure. Perform the calculation, checking each intermediate step, and finally state the numeric result together with a brief, self\u2011contained justification."
+  }
+}

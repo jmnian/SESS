@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "\\nCompute all quantities stepwise, printing each numeric expression on a separate line ( LaTeX optional ). When finished, output exactly one line `Answer: X` with the final integer and no surrounding characters.\\n",
+      "train_score": 0.946360153256705,
+      "train_step": 51,
+      "test_score": 0.9211523881728583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step-by-step, using appropriate calculations and clear reasoning. Provide a concise explanation and conclude with \"Answer:\" followed by the final integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 1,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline the solution process clearly, showing each computation step. Conclude with a line \"Answer: X\" where X is the final integer result, and provide no additional text after this line.",
+      "train_score": 0.9731800766283525,
+      "train_step": 2,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please complete the arithmetic or word problem step by step. You can write the fundamental problem details in sentences and solve it as cleanly as possible. If any mathematical expression is needed to write that, embed it in $$. End with a clear \"Answer:\" and your response. The answer must be a single integer without additional text or justification.",
+      "train_score": 0.9616858237547893,
+      "train_step": 0,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution in plain sentences, embed each arithmetic expression (optionally in $\u2026$) on its own line, and finish with a single line exactly `Answer: X` where X is the integer result, with no other characters before or after that line.",
+      "train_score": 0.946360153256705,
+      "train_step": 96,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a step-by-step solution to the given problem with relevant formulae and expressions, and ensure that the final answer is a single integer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 0,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step by step, displaying each intermediate calculation. End with a line \u201cAnswer: X\u201d where X is the final integer result, and include no additional commentary.",
+      "train_score": 0.9578544061302682,
+      "train_step": 1,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show each calculation on its own line (LaTeX optional). When the result is obtained, finish the response with a single line `Answer: X` where X is the integer, and the answer line must be the very last line, containing no other characters.",
+      "train_score": 0.9425287356321839,
+      "train_step": 97,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step calculation of the problem, writing each intermediate arithmetic expression on its own line (use LaTeX $\u2026$ if desired). After the final computation, output a single line exactly \"Answer: X\" where X is the integer result, with no extra text before or after that line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 75,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the solution as a sequence of numbered calculations, each on its own line (plain text or $\u2026$). After the last calculation output a single line `Answer: X` where X is the integer result, and ensure no other content appears before or after that line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write every calculation as a separate bullet line (\u2011\u202f), optionally in\u202f$\u2026$. After the last bullet, output a single line exactly `Answer: X` where\u202fX\u202fis the integer result, with no other text before or after that line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 62,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question by listing every intermediate calculation on a separate line (you may enclose formulas in $\u2026$). After the last calculation write a single line that is exactly `Answer: X` where X is the resulting integer, and include no other text or symbols before or after that line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 68,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each arithmetic operation on a separate line, prefix it with \"Step k:\", and show the resulting value. Use LaTeX delimiters if desired. After the last step output a single line that reads exactly `Answer: X` (replace X with the final integer). Do not include any other text before or after the answer line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 77,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write each computation on its own line (use LaTeX delimiters if desired). After completing the calculations, output a single line exactly `Answer: X` where X is the integer result, with no other characters before or after that line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 42,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the solution by writing every intermediate arithmetic operation on its own line in the format `Step n: <expression> = <value>` (the expression may be enclosed in $\u2026$ if you wish). After the last step, output one line that is exactly `Answer: X` where X is the integer result, with no additional text before or after that line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 64,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the given numbers, calculate each intermediate quantity on a separate line (plain or inside\u202f$\u2026$), you may add a short label to the step, and end with exactly one line `Answer: X` where\u202fX\u202fis the final integer result. Do not include any other text before or after that line.",
+      "train_score": 0.946360153256705,
+      "train_step": 6,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the solution by writing every arithmetic step on its own line in the form `=> <expression> = <value>` (the expression may be placed inside $\u2026$). After the final step output exactly one line `Answer: X` where X is the integer result, with no other characters before or after that line.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8582375478927203,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the solution by writing each separate arithmetic step on a new line (you may wrap expressions in $\u2026$). Once the last step yields the final number, output a solitary line `Answer: X` (replace X with the integer). Ensure this answer line is the very last line and contains no additional text or symbols.",
+      "train_score": 0.8275862068965517,
+      "train_step": 99,
+      "test_score": 0.7733131159969674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Break the problem into individual arithmetic steps. Write each step on its own line as an expression (optionally wrapped in\u202f$\u2026$) followed by its evaluated value. When the last step yields the final result, output a single line that reads exactly `Answer: X`, where\u202fX\u202fis the integer answer, and include no other text before or after this line.",
+      "train_score": 0.7816091954022989,
+      "train_step": 99,
+      "test_score": 0.7126611068991661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write each intermediate arithmetic expression on its own line inside a plain two\u2011column table (e.g., `expression | value`). After the table, output a single line that is exactly `Answer: X` where X is the integer result, with no extra characters before or after that line.",
+      "train_score": 0.7701149425287356,
+      "train_step": 99,
+      "test_score": 0.6535253980288097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9211523881728583,
+    "avg_test_score": 0.864038412939095,
+    "best_test_instruction": "\\nCompute all quantities stepwise, printing each numeric expression on a separate line ( LaTeX optional ). When finished, output exactly one line `Answer: X` with the final integer and no surrounding characters.\\n"
+  }
+}

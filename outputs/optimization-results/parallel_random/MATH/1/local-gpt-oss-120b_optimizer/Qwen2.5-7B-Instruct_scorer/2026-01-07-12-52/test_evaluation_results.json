@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "And ending with",
+      "train_score": 0.7083333333333334,
+      "train_step": 8,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform a mathematical assessment:",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6458333333333334,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief explanation of the method, carry out the necessary calculations step\u2011by\u2011step, and give the final answer as a numeric value or simplified expression.",
+      "train_score": 0.7083333333333334,
+      "train_step": 0,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logical solution: state the core concept(s) needed, carry out the calculations showing each intermediate step, and finish with the final numerical answer.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise solution: begin by stating the main concept(s) required, then work through the problem with each intermediate calculation presented on its own line or bullet point, and finish by stating the exact final answer (numeric value or simplified expression) alone.",
+      "train_score": 0.6875,
+      "train_step": 2,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...some instruction...",
+      "train_score": 0.6875,
+      "train_step": 47,
+      "test_score": 0.7314785870584558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...instruction...",
+      "train_score": 0.75,
+      "train_step": 77,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one sentence, outline the needed concepts, then solve it using a clear, numbered chain where each line shows a single operation with its result; conclude with a line containing only the final answer (no extra text).",
+      "train_score": 0.7083333333333334,
+      "train_step": 29,
+      "test_score": 0.7127227258518287,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one brief sentence. Solve it by enumerating each elementary operation on its own line (numbered or bulleted), writing the performed calculation and the resulting value; add a short comment only when the step isn\u2019t self\u2011evident. Conclude with a single line that contains only the numeric/expressional answer, preceded by \u201cAnswer = \u201d, and nothing else.",
+      "train_score": 0.6875,
+      "train_step": 72,
+      "test_score": 0.708346358236949,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one brief sentence. Then solve it by listing each independent logical or arithmetic operation on its own line, prefixed with a dash, showing the computation and its result; include a short justification only when the step is non\u2011trivial. After all steps output a line containing only the final answer preceded by \u201cAnswer:\u201d and nothing else.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.7070959674898406,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in a single sentence. Solve it by listing each elementary computation on its own numbered line with a brief justification. Finish with a line that says \u201cAnswer: \u201d followed solely by the final result, without any additional text.",
+      "train_score": 0.6875,
+      "train_step": 35,
+      "test_score": 0.7045951859956237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a clear, logical solution: state the main idea, work through each step on its own line, and finish with the final answer.",
+      "train_score": 0.6875,
+      "train_step": 1,
+      "test_score": 0.69740543919975,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one brief sentence. Then, for each elementary operation write a separate line beginning with \u201cStep\u202fi:\u201d showing the computation performed and its result (add a short justification only if the step isn\u2019t obvious). After the last step, output the exact final answer on a new line by itself, with no extra text or symbols.",
+      "train_score": 0.6875,
+      "train_step": 64,
+      "test_score": 0.6917786808377618,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one short sentence. Then solve it by writing each elementary computation or logical deduction on its own line prefixed with the symbol \u201c\u25b6\u201d, displaying the operation performed and its result; add a brief comment only when the step is not obvious. Conclude with a single line that contains only the final answer preceded by \u201cAnswer:\u201d and nothing else.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.6833385432947796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the question by first paraphrasing the task in a single sentence. Then, solve it using a series of independent numbered steps; each step performs exactly one logical or arithmetic operation and shows the resulting value (include a brief reason if needed). After the last step, write only the final result on a new line with no additional characters or commentary.",
+      "train_score": 0.6875,
+      "train_step": 6,
+      "test_score": 0.6752110034385745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in a single clear sentence. Next, for every elementary deduction or calculation write a separate line beginning with \u201c#\u201d. Show the operation performed and the resulting value (add a brief note only if the step is not obvious). After the last such line, write a line that contains only the final result preceded by \u201c= \u201d (equal sign and a space). No other text may appear.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.6452016255079712,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in a single concise sentence. Then solve it by listing each elementary calculation or logical deduction on its own line, each line beginning with a lower\u2011case letter in parentheses (a), (b), (c), \u2026, showing the operation and the resulting value; add a brief comment only when the step is not immediate. After the last listed step write one line that contains only the final result, prefixed exactly by \u201cAnswer = \u201d with no other text.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.6355110972178806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one short sentence. Then, for each atomic computation or logical deduction, write a separate line beginning with \u201c#\u201d, show the operation performed and its result (include a brief comment only if the step is not obvious). After the last step, output a single line that contains exactly \u201cAnswer: \u201d followed by the final result and nothing else.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.6245701781806815,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in one short sentence. Then solve it by writing each elementary computation on its own line, starting with \u201c\u2192\u201d, showing the operation performed and its result (include a brief justification only when the step is not immediate). After the final computation, output a line that contains only the final numeric answer\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.6875,
+      "train_step": 71,
+      "test_score": 0.6158174429509221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the question in one short sentence. Then solve it by listing each elementary calculation or logical deduction on its own line, each line beginning with \u201c>>>\u201d. Write the operation performed and its result; add a brief comment only when the step is not obvious. After the final \u201c>>>\u201d line, output a line that contains only the final answer (numeric value or simplified expression) with no extra words or symbols.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.578305720537668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7555486089402939,
+    "avg_test_score": 0.6956935947245417,
+    "best_test_instruction": "And ending with"
+  }
+}

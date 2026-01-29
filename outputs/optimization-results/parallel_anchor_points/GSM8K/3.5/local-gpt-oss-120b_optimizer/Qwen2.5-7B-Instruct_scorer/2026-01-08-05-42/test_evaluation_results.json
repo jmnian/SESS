@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, isolate every numeric detail (including words like half, double, percent), convert each to an exact integer, deduce the single arithmetic expression implied, compute it precisely, verify the outcome with a different equivalent calculation, and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 40,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number and verbal multiplier (half, third, quarter, double, percent, etc.), translate each into an integer using a single consistent unit, construct the unique integer expression implied by the problem, evaluate it exactly, confirm the answer by substituting it back into the original statements, and output only the final integer result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 93,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity and any implicit multiplier (e.g., half, double, percent), convert them to integers using a common scale, determine the single integer formula the problem entails, compute it exactly, verify the outcome with an independent alternate calculation (such as reversing the operation or substituting back), and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 66,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numeric values and implied factors (percent, half, double, etc.) in the prompt, express each as an integer, formulate the unique integer equation that satisfies the conditions, calculate the answer with exact arithmetic, verify by an alternative method (e.g., inverse operation or reordered evaluation), and output only the final integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 53,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeral and any word\u2011based factor (e.g., double, half, percent), translate all quantities into exact integers (using common denominators for fractions if needed), derive the single whole\u2011number expression required by the problem, evaluate it with precise arithmetic, confirm the outcome by an independent alternate computation (such as a different grouping or substitution), and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 24,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative expression (numbers, percentages, or words like half, double) from the problem, convert each to an integer in a common unit, determine the single whole\u2011number formula that satisfies all conditions, compute it precisely, confirm the result by an independent calculation (e.g., rearranged or inverse), and return only the integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 64,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity (numbers, fractions, percentages, ratios, and verbal multipliers such as half, double, triple). Convert each to an exact integer using a common unit. deduce the single whole\u2011number expression required, evaluate it with exact integer arithmetic, independently verify the result by an alternate but equivalent calculation (e.g., reversed order or inverse operation), and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 42,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every numeric datum and word\u2011based multiplier in the prompt, turn them into integers with a common unit, deduce the unique integer formula required, compute it exactly, cross\u2011check the result with an alternative calculation (e.g., using the inverse or a different order), and output only the integer answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 75,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeric element in the prompt (including percentages, ratios, or verbal multipliers like double, half, etc.), translate each to an exact integer, deduce the sole integer expression that fulfills the stated relationships, compute it with exact arithmetic, independently verify the result by recomputing the same expression using a different order or equivalent transformation, and output only the final integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 19,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities mentioned (including words like \u2018double\u2019, \u2018half\u2019, percentages), convert them to plain numbers in consistent units, determine the unique whole\u2011number calculation implied, compute the answer with exact arithmetic, validate the result by a separate recomputation (e.g., different grouping or substitution), and output only the final integer value.",
+      "train_score": 0.9655172413793104,
+      "train_step": 17,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, pull out all numbers, construct the unique integer equation that solves it, compute the value, double\u2011check by recomputing in a different order, and output only the resulting integer number.",
+      "train_score": 0.9616858237547893,
+      "train_step": 7,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all explicit numbers and any verbal multipliers, translate them into integers, determine the unique whole\u2011number expression implied, compute it using exact arithmetic, confirm the result by an independent check (e.g., reverse the operation or regroup), and output only the final integer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 22,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers and implied multipliers, translate them to integers in a single unit, determine the single integer expression the problem defines, evaluate it with exact arithmetic, cross\u2011verify by applying the inverse operation, and return only the integer result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 84,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the question extract all numbers and implied multipliers, convert them to plain integers, deduce the one arithmetic expression that solves the problem, compute it precisely, verify by a second method, and output just the integer result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 50,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric values and verbal factors, normalize them to whole numbers in one unit, deduce the single integer formula implied, evaluate it with exact arithmetic, confirm by a reverse or alternative computation, and return only the integer result.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Scan the problem for all quantities (including explicit numbers, fractions, percentages and words like half, double), express each as an integer using a common scale, infer the unique integer calculation that satisfies the statement, perform the calculation with exact integer arithmetic, double\u2011check by plugging the result back, and return only that integer.",
+      "train_score": 0.9080459770114943,
+      "train_step": 99,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate all quantitative data (numerals, fractions, percentages, or words like half, double), turn each into an integer using one consistent unit, formulate the unique integer operation the problem encodes, evaluate it with exact arithmetic, validate the result by an independent method (e.g., substitution or reversed operation), and output solely the integer result.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8237547892720306,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number and any verbal multiplier (half, double, percent, etc.), convert each to an integer using a single common scale, infer the unique integer expression the problem defines, compute it exactly, verify the result with an alternate equivalent calculation, and output only the final integer.",
+      "train_score": 0.7586206896551724,
+      "train_step": 99,
+      "test_score": 0.7323730098559514,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find all quantities mentioned (including percentages, fractions and verbal multipliers like half, double, triple). Express every quantity as an integer in the same unit, deduce the sole integer equation that fulfills the given conditions, compute the exact integer answer, confirm it by an alternative method (e.g., rearranging or substituting back), and return only that integer.",
+      "train_score": 0.5555555555555556,
+      "train_step": 99,
+      "test_score": 0.5754359363153905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers and implicit multipliers (e.g., half, double, percent) in the statement, translate each to an integer using a single consistent scale, deduce the one integer expression that satisfies all relations, compute it with exact integer arithmetic, confirm the result by a complementary calculation (such as reversing the operation or substituting back), and output only that integer.",
+      "train_score": 0.4099616858237548,
+      "train_step": 99,
+      "test_score": 0.3980288097043215,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.8458789125961226,
+    "best_test_instruction": "Read the problem, isolate every numeric detail (including words like half, double, percent), convert each to an exact integer, deduce the single arithmetic expression implied, compute it precisely, verify the outcome with a different equivalent calculation, and output only the final integer answer."
+  }
+}

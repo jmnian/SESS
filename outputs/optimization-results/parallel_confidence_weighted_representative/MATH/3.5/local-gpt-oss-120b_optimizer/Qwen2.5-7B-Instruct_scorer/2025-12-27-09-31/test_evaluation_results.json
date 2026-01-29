@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Present a concise, independent solution: determine the key idea, execute only the necessary arithmetic (a brief check optional), and conclude with the single numerical answer on the final line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 63,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a terse, self\u2011contained solution: first, briefly articulate the core principle; second, execute the minimal required calculation (include a quick check if desired); finally, output the exact answer as the sole content of the last line.",
+      "train_score": 0.7764705882352941,
+      "train_step": 99,
+      "test_score": 0.7583619881212879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present an independent solution: isolate the core reasoning, perform only the indispensable calculation(s), optionally verify, and place the final numeric result alone on the last line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 56,
+      "test_score": 0.7583619881212879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Supply a brief, self\u2011contained solution: state the pivotal observation, perform only the necessary computation (a short verification optional), and end with the exact numerical answer alone on the final line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 67,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained solution that (i) identifies the crucial idea, (ii) executes only the necessary computation, and (iii) finishes with a line that contains nothing but the exact numeric answer.",
+      "train_score": 0.8529411764705882,
+      "train_step": 96,
+      "test_score": 0.7564864020006252,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, standalone solution: pinpoint the decisive insight, carry out only the required computation, and conclude with the exact answer as the sole number on the final line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 23,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained answer: state the key insight, perform only the essential calculation (a brief verification may be added), and finish with the exact result as the only number on the final line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 18,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief complete solution: state the essential observation, perform only the unavoidable calculation(s), and put the resulting integer alone on the last line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 46,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a tight solution: highlight the key observation, perform just the required arithmetic (a short verification may be added), and write the exact number alone on the last line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 55,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a terse, self\u2011sufficient solution: identify the pivotal idea, perform only the required computation (a brief verification may be added), and end with the exact answer as the sole entry on the final line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 18,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compose a brief, stand\u2011alone solution that (i) identifies the decisive insight, (ii) carries out only the necessary computation (a quick verification may be included), and (iii) concludes with the exact numerical answer as the sole entry on the final line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 74,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a succinct, stand\u2011alone answer: highlight the essential insight, carry out only the required computation (a brief verification may be added), and conclude with the exact numeric result as the only entry on the final line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 72,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a brief, standalone solution: pinpoint the key idea, perform solely the necessary calculation (optional quick verification), and present just the number on the concluding line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 59,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained answer: briefly explain the crucial step, carry out only the necessary arithmetic (optional verification), and conclude with a line that contains nothing but the exact numeric result.",
+      "train_score": 0.7470588235294118,
+      "train_step": 99,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution: state the essential principle, perform only the inevitable calculation (quick check optional), and write the exact answer alone on the last line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 63,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Demonstrate a clear method for understanding the problem and develop an optimal solution, giving the final answer and supporting it with key steps.",
+      "train_score": 0.8352941176470589,
+      "train_step": 1,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution that (a) highlights the decisive observation, (b) performs only the unavoidable computation (a brief check optional), and (c) ends with the exact answer as the only text on the final line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 96,
+      "test_score": 0.6811503594873398,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, standalone solution: briefly identify the core principle, perform only the indispensable computation (optionally verify), and write the exact answer as the sole content on the last line.",
+      "train_score": 0.7647058823529411,
+      "train_step": 99,
+      "test_score": 0.6564551422319475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Produce a brief, self\u2011contained solution: (i) highlight the key observation, (ii) execute the necessary calculation (a short check optional), and (iii) output exactly the numeric answer on a line by itself, with nothing else.",
+      "train_score": 0.7470588235294118,
+      "train_step": 99,
+      "test_score": 0.655204751484839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Deliver a minimal, stand\u2011alone answer: (i) state the key insight in one sentence, (ii) perform the unavoidable calculation (optionally verify), and (iii) place only the exact numeric result on the last line, with no other text.",
+      "train_score": 0.5058823529411764,
+      "train_step": 99,
+      "test_score": 0.6508283838699593,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8411764705882353,
+      "train_step": -1,
+      "test_score": 0.4426383244763989,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.761175367302282,
+    "avg_test_score": 0.7171884070915018,
+    "best_test_instruction": "Present a concise, independent solution: determine the key idea, execute only the necessary arithmetic (a brief check optional), and conclude with the single numerical answer on the final line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a compact, standalone answer: summarize the task, identify the essential principle, execute all calculations explicitly with intermediate values, confirm the correctness, and conclude with the exact answer alone on the last line.",
+      "train_score": 0.7941176470588235,
+      "train_step": 99,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by outlining the necessary reasoning, performing the calculations, checking the result for correctness, and conclude your response with just the single numeric answer.",
+      "train_score": 0.8352941176470589,
+      "train_step": 4,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step solution with all essential calculations, verify the result, and finish your response containing only the exact final numeric answer.",
+      "train_score": 0.8352941176470589,
+      "train_step": 5,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained solution: briefly restate the problem, list the essential steps, perform each calculation explicitly, double\u2011check the outcome, and conclude with only the final numeric answer on a single line.",
+      "train_score": 0.8529411764705882,
+      "train_step": 17,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained solution: briefly restate the problem, point out the key principle or formula, perform every required calculation displaying intermediate results, confirm the outcome, and conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 80,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained solution: briefly restate the problem, name the key principle or formula, carry out all needed calculations showing intermediate results, verify the outcome, and conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.8470588235294118,
+      "train_step": 99,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, presenting each logical step and any required calculations; once you have verified the result, output only the final numeric answer.",
+      "train_score": 0.8470588235294118,
+      "train_step": 3,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a succinct, self\u2011contained solution: briefly explain the core reasoning, perform the required calculation(s), verify the result, and conclude with only the exact final numeric answer.",
+      "train_score": 0.8470588235294118,
+      "train_step": 5,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8352941176470589,
+      "train_step": 2,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution: succinctly restate the problem, identify the key principle, carry out each needed calculation with visible intermediate steps, verify the result, and conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 49,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained solution: briefly restate the problem, list the principal formulas, carry out each computation step\u2011by\u2011step, verify the obtained value, and end the answer with the single exact number on its own line, without any additional commentary.",
+      "train_score": 0.8411764705882353,
+      "train_step": 7,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution step by step, perform every needed calculation, confirm the result, and finish your response with just the final numeric answer.",
+      "train_score": 0.8352941176470589,
+      "train_step": 6,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work out the problem, show every required calculation, verify the result, and end your response with a single line containing only the final numeric answer.",
+      "train_score": 0.8058823529411765,
+      "train_step": 99,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, stand\u2011alone answer: briefly describe the objective, identify the relevant principle(s), carry out all required algebra or counting steps with intermediate results shown, verify the calculation, and conclude with a single line that contains only the final numeric value.",
+      "train_score": 0.8352941176470589,
+      "train_step": 28,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact, stand\u2011alone solution: briefly state the key idea, perform each required calculation explicitly, double\u2011check the result, and finish with only the final numeric answer on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 15,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief, self\u2011contained solution: outline the key reasoning, carry out every required computation explicitly, confirm the answer\u2019s correctness, and end your response with just the final numeric result on its own line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 12,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact solution: first paraphrase the task, then list the core principle(s), compute all needed quantities showing work, verify the outcome, and conclude with a single line that contains nothing but the exact final number.",
+      "train_score": 0.8411764705882353,
+      "train_step": 37,
+      "test_score": 0.7211628633948108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained response: briefly paraphrase the task, indicate the principal formula, perform the calculations with clear intermediate results, check the computation, and finish the answer with a single line that contains only the final number.",
+      "train_score": 0.8352941176470589,
+      "train_step": 24,
+      "test_score": 0.7111597374179431,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a clear, self\u2011contained derivation: outline the problem, apply the appropriate method, compute each intermediate quantity, confirm the final value, and output only the final number on a separate line.",
+      "train_score": 0.7411764705882353,
+      "train_step": 99,
+      "test_score": 0.6958424507658644,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a complete, self\u2011contained solution: briefly describe the core method, carry out each needed calculation showing intermediate results, verify the computation, and conclude the response with exactly one line that consists solely of the final numeric result (no extra characters or commentary).",
+      "train_score": 0.4647058823529412,
+      "train_step": 99,
+      "test_score": 0.46326977180368867,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.755861206627071,
+    "avg_test_score": 0.7284716950237425,
+    "best_test_instruction": "Provide a compact, standalone answer: summarize the task, identify the essential principle, execute all calculations explicitly with intermediate values, confirm the correctness, and conclude with the exact answer alone on the last line."
+  }
+}

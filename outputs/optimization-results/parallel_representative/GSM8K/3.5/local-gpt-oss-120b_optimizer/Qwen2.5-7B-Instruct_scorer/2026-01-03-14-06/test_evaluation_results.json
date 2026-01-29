@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract each numeric value with its meaning, convert the situation into the precise arithmetic expression(s), evaluate them step\u2011by\u2011step showing every intermediate result on its own line (keep fractions exact), perform a brief plausibility check, and output only the final answer in lowest\u2011terms integer or reduced\u2011fraction form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 5,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number with its meaning, build the exact arithmetic expression required (keep fractions exact), evaluate it step\u2011by\u2011step showing every intermediate result on a separate line, perform a quick sanity check, and output ONLY the final answer as a reduced integer or fraction.",
+      "train_score": 0.9731800766283525,
+      "train_step": 11,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every numerical value together with what it represents, turn the situation into the exact arithmetic expression(s) required, compute them by writing each elementary operation on its own line, do a quick sanity check, and output only the final result in the simplest integer or reduced\u2011fraction form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 4,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record every numeric datum and its meaning. Build the exact (non\u2011approximate) arithmetic expression that answers the question. Compute it step\u2011by\u2011step, placing each elementary operation and its result on its own line. Do a quick plausibility check, then output only the final result as an integer or a reduced fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 36,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, identify every numerical value and its meaning, translate the scenario into a clear arithmetic expression, evaluate it showing each intermediate step, perform a quick consistency check, and output only the final result in simplest integer or reduced fractional form.",
+      "train_score": 0.9693486590038314,
+      "train_step": 2,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric quantity with its meaning, build the exact mathematical expression(s) needed, solve them displaying every intermediate step on its own line (keep fractions exact), perform a brief sanity check, and output ONLY the final answer as a reduced integer or fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 7,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract each numeric value along with what it stands for.  \n- Convert the situation into the exact mathematical equation(s) needed.  \n- Compute the solution step\u2011by\u2011step, listing every intermediate result on its own line (keep fractions exact).  \n- Do a quick plausibility/sanity check.  \n- Output only the final answer in the simplest integer or reduced\u2011fraction form.",
+      "train_score": 0.9770114942528736,
+      "train_step": 7,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Scan the problem and note each number together with what it measures (including units).  \n- Combine these data into one exact mathematical formula that yields the required quantity; keep any fractions in their original form.  \n- Solve the formula step\u2011by\u2011step, writing one elementary operation and its resulting value on a separate line.  \n- Perform a quick sanity check against the problem description.  \n- Print only the final answer, reduced to an integer or a fraction in lowest terms.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify each numeric value and what it represents.  \n- Build the exact arithmetic/algebraic formula(s) required, leaving all fractions unreduced.  \n- Compute the formula(s) step\u2011by\u2011step, placing one elementary operation and its result on each separate line.  \n- Perform a quick sanity/consistency check against the original statements.  \n- Output only the final answer as an integer or in lowest\u2011terms fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 25,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numeric datum and its meaning. Formulate a precise rational or integer expression that solves the problem, preserving exact fractions. Evaluate the expression step\u2011by\u2011step, writing every single operation and its result on its own line. Perform a quick consistency check, then output solely the final result reduced to an integer or lowest\u2011terms fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 47,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each numerical quantity together with its unit or role.  \n- Convert all quantities to compatible units and form one exact rational (or integer) formula that solves the problem; keep fractions unreduced.  \n- Compute the formula step\u2011by\u2011step, writing every elementary operation and its resulting value on its own line.  \n- Do a quick plausibility check against the original statement.  \n- Output only the final result, reduced to an integer or lowest\u2011terms fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 48,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each given number and its meaning.  \n- Form a single precise arithmetic formula (integer or rational) that answers the question, leaving fractions unreduced and using compatible units.  \n- Compute the formula step\u2011by\u2011step, placing one elementary operation and its result on its own line.  \n- Do a quick plausibility check against the original statement.  \n- Output only the final result as an integer or a reduced\u2011to\u2011lowest\u2011terms fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 82,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each numeric datum with its meaning.  \n- Assemble a single exact rational or integer expression that answers the question, keeping all fractions unreduced.  \n- Evaluate the expression step\u2011by\u2011step, writing each elementary operation and its result on its own line.  \n- Perform a quick consistency check with the original data.  \n- Output only the final answer as an integer or a reduced fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 77,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each given number together with what it represents.  \n- Construct the precise arithmetic or algebraic expression(s) required, leaving all fractions unreduced and units compatible.  \n- Compute the expression(s) step\u2011by\u2011step, writing one elementary operation and its result on a separate line.  \n- Perform a brief plausibility check against the original problem.  \n- Output only the final answer as an integer or a reduced\u2011to\u2011lowest\u2011terms fraction.",
+      "train_score": 0.9731800766283525,
+      "train_step": 54,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify every given quantity and its purpose.  \n- Write the precise arithmetic (or algebraic) formula(s) that answer the question, keeping fractions exact.  \n- Compute the formula(s) step\u2011by\u2011step, placing each intermediate result on its own line.  \n- Do a quick sanity check of the result.  \n- Output ONLY the final answer as an integer or a reduced fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 9,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and what they represent, formulate the exact arithmetic expression(s) required (retain fractions in their original form), evaluate the expression(s) one operation at a time, writing each operation and its result on a new line, perform a brief plausibility check, and finally present only the final answer as a reduced integer or fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 45,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record every numeric datum together with what it measures.  \n- Combine them into the exact algebraic or rational expression that directly yields the requested quantity (keep fractions unreduced).  \n- Decompose that expression into elementary operations; compute each one in order, writing the operation and its resulting value on its own line.  \n- Perform a brief sanity check against the original situation.  \n- Present only the final answer, reduced to an integer or lowest\u2011terms fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 52,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract every numeric datum and label its meaning.  \n- Convert all quantities to compatible units, then write the exact arithmetic (or algebraic) expression(s) required, keeping fractions unreduced.  \n- Evaluate the expression(s) step\u2011by\u2011step, placing each elementary operation and its result on a separate line.  \n- Perform a brief plausibility check against the original problem.  \n- Output ONLY the final answer, reduced to an integer or lowest\u2011terms fraction.",
+      "train_score": 0.9693486590038314,
+      "train_step": 42,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Catalogue each given number together with its meaning.\n- Build one exact rational or integer formula that directly answers the question; do not simplify fractions prematurely.\n- Evaluate the formula step\u2011by\u2011step, writing the performed operation and its result on a separate line for every step.\n- Do a quick consistency verification with the problem statement.\n- Print solely the final answer, reduced to an integer or lowest\u2011terms fraction.",
+      "train_score": 0.896551724137931,
+      "train_step": 99,
+      "test_score": 0.865049279757392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8620689655172413,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Scan the statement and write down every number together with its role.  \n- Combine those numbers into a single exact arithmetic or algebraic expression that directly yields the asked quantity (do not simplify fractions early).  \n- Evaluate the expression step\u2011by\u2011step, placing each elementary operation and its result on a separate line.  \n- Do a quick plausibility check against the original wording.  \n- Output ONLY the final result, reduced to an integer or a lowest\u2011terms fraction.",
+      "train_score": 0.7701149425287356,
+      "train_step": 99,
+      "test_score": 0.7323730098559514,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.8847250803278096,
+    "best_test_instruction": "Extract each numeric value with its meaning, convert the situation into the precise arithmetic expression(s), evaluate them step\u2011by\u2011step showing every intermediate result on its own line (keep fractions exact), perform a brief plausibility check, and output only the final answer in lowest\u2011terms integer or reduced\u2011fraction form."
+  }
+}

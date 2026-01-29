@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "That instructs ChatGPT to provide a solution that is concise, includes essential reasoning and calculations, and outputs only the final numeric answer on the last line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 74,
+      "test_score": 0.7646139418568303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8235294117647058,
+      "train_step": 15,
+      "test_score": 0.7596123788683964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And closed with",
+      "train_score": 0.8117647058823529,
+      "train_step": 8,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, show the essential reasoning, and output only the final numeric answer.",
+      "train_score": 0.8294117647058824,
+      "train_step": 0,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the solution in a few logical steps, show all required calculations, and output only the final number.",
+      "train_score": 0.8176470588235294,
+      "train_step": 1,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7941176470588235,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution: briefly identify the key concept, perform only the necessary calculations, and finish with the exact numeric answer on the last line alone.",
+      "train_score": 0.8176470588235294,
+      "train_step": 88,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a minimal solution: give just the necessary reasoning and calculations, and conclude with the exact answer as the sole entry on the final line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 36,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify, Analyze, and Solve the Problem",
+      "train_score": 0.8058823529411765,
+      "train_step": 0,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a brief but complete reasoning, perform the necessary calculation(s), and end the output with the precise numeric answer as the only text on the final line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 15,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a concise solution that includes only the essential reasoning and calculations, and end with the exact answer as the sole text on the final line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 7,
+      "test_score": 0.7099093466708346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, complete solution: state the pivotal idea, show only the essential justified steps and calculations, then end with the exact numeric answer as the sole text on the final line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 21,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: briefly state the key insight, show only essential calculations, then output just the final numeric result on the last line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 58,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief justification of the method, carry out the minimal necessary calculation, and conclude with the precise numeric answer on the last line, with no additional text.",
+      "train_score": 0.8294117647058824,
+      "train_step": 15,
+      "test_score": 0.7077211628633948,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short, self\u2011contained answer: state the main insight in one paragraph, perform only the necessary arithmetic (displaying intermediate results only when they clarify the step), then on the very last line output the exact numeric result alone, without any additional commentary.",
+      "train_score": 0.788235294117647,
+      "train_step": 99,
+      "test_score": 0.6527039699906221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a succinct solution: identify the pivotal concept, perform only the indispensable calculations (include intermediate numbers only if they illuminate the process), and end the response with the exact answer as the sole content on the final line.",
+      "train_score": 0.6882352941176471,
+      "train_step": 99,
+      "test_score": 0.6064395123476086,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution: in one short paragraph state the key insight and perform only the indispensable calculations (showing intermediate numbers only if they clarify the reasoning). Then insert a single blank line and write the exact numeric result alone on the final line, with no other text.",
+      "train_score": 0.711764705882353,
+      "train_step": 99,
+      "test_score": 0.5995623632385121,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a compact, self\u2011contained response: in one short paragraph explain the key insight and carry out the indispensable calculation(s); then, after a single blank line, output the exact numerical result alone on the final line, with no extra symbols or commentary.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.487964989059081,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a short, self\u2011contained answer: start with a one\u2011sentence summary of the core idea, perform only the indispensable calculations (show intermediate values only when they aid understanding), and end with the exact numeric result as the sole text on the final line, without any extra commentary.",
+      "train_score": 0.37058823529411766,
+      "train_step": 99,
+      "test_score": 0.3910597061581744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a self\u2011contained solution: briefly explain the key observation, perform only the needed calculation (show intermediate results only if they are essential), and finish by placing the exact numeric answer alone on the following line (no label, no extra text).",
+      "train_score": 0.32941176470588235,
+      "train_step": 99,
+      "test_score": 0.2588308846514536,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained explanation: in one short sentence state the core idea, perform only the essential calculation (showing intermediate numbers only when they clarify the reasoning), and conclude with the exact numeric answer as the sole content of the final line.",
+      "train_score": 0.1588235294117647,
+      "train_step": 99,
+      "test_score": 0.17192872772741483,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7646139418568303,
+    "avg_test_score": 0.6420161062236711,
+    "best_test_instruction": "That instructs ChatGPT to provide a solution that is concise, includes essential reasoning and calculations, and outputs only the final numeric answer on the last line."
+  }
+}

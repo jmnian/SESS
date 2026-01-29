@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Convert the described scenario into a mathematical equation, solve for the unknown step\u2011by\u2011step showing each manipulation, confirm the result, and output only the final numeric answer on a separate line.",
+      "train_score": 1.0,
+      "train_step": 4,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the description into an equation, solve it while displaying each calculation step and a quick sanity check, then print only the final integer result on its own line.",
+      "train_score": 1.0,
+      "train_step": 4,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all variables, compute the needed arithmetic with explicit intermediate steps, verify each step, and output only the final integer answer on its own line.",
+      "train_score": 1.0,
+      "train_step": 4,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every unknown quantity, show each arithmetic operation in order with its result, confirm the final value, and output only that final integer on a new line.",
+      "train_score": 1.0,
+      "train_step": 4,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number, label them, carry out the needed calculations while showing every intermediate result, perform a brief sanity check, and output only the final integer answer on its own line.",
+      "train_score": 1.0,
+      "train_step": 6,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, assign a clear symbol to each, carry out the required calculations step\u2011by\u2011step while showing each intermediate result, perform a brief sanity check, and output only the final integer answer on its own line.",
+      "train_score": 1.0,
+      "train_step": 6,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every number, assign simple symbols, write the exact arithmetic expression needed, evaluate it step\u2011by\u2011step displaying each intermediate result, perform a quick consistency check, and finally output only the final integer answer on its own line.",
+      "train_score": 1.0,
+      "train_step": 7,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate every given quantity, carry out the required operations in a logical sequence while recording each intermediate result, verify the final value, and output only the final integer answer on its own line.",
+      "train_score": 1.0,
+      "train_step": 5,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical value, assign a brief variable name to each, construct the exact arithmetic expression dictated by the problem, evaluate it step\u2011by\u2011step while briefly confirming each intermediate result, and output only the final integer answer on a separate line.",
+      "train_score": 1.0,
+      "train_step": 8,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numeric value in the problem, label them, perform the required arithmetic in logical order while briefly checking each intermediate result, and finally output only the final integer answer on its own line.",
+      "train_score": 1.0,
+      "train_step": 6,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the required quantities, calculate each step in a clear logical order (showing intermediate results), verify the final value, and respond with only the final numeric answer on a separate line.",
+      "train_score": 1.0,
+      "train_step": 3,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the needed quantities, perform the calculations with brief step\u2011by\u2011step justification, double\u2011check the result, and output only the final numeric answer on a separate line.",
+      "train_score": 1.0,
+      "train_step": 3,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number in the question, assign each a brief variable name, construct the complete arithmetic expression using those variables, evaluate the steps sequentially while briefly confirming each intermediate result, and finally output only the final integer on its own line.",
+      "train_score": 1.0,
+      "train_step": 8,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out all numbers, label them with brief symbols, express the required computation as a single formula, evaluate it step\u2011by\u2011step while showing each intermediate result and a quick sanity check, then print only the final integer on its own line.",
+      "train_score": 1.0,
+      "train_step": 8,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given quantity, assign symbols, formulate the precise computation, execute each arithmetic operation while briefly confirming plausibility, and output only the final integer answer on a separate line.",
+      "train_score": 1.0,
+      "train_step": 5,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value in the problem in order, label them a, b, c, \u2026, form one exact arithmetic expression that uses only those labels to answer the question, evaluate it directly (showing each intermediate result with a one\u2011sentence sanity check), and finally print only the resulting integer on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.7862016679302501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, note every explicit number in the order it appears, label them a, b, c, \u2026 respectively. Form a single exact calculation using only these labels that yields the required answer. Perform the calculation step\u2011by\u2011step, briefly confirming each intermediate value, and finally output only the resulting integer on its own line.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.7043214556482184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the numbers in the problem, name them a, b, c \u2026 as they appear, form one exact arithmetic formula with these names that gives the required result, evaluate it, and print only the final integer on a separate line.",
+      "train_score": 0.6621621621621622,
+      "train_step": 99,
+      "test_score": 0.6785443517816527,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number in the statement, label them consecutively (a, b, c, \u2026). Using only these labels, devise one precise arithmetic expression that answers the question. Carry out the computation in order, giving a short sanity check after each step, then print solely the final integer on a new line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.66868840030326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers in order, assign them sequential single\u2011letter names (a, b, c, \u2026). Form one exact arithmetic expression using only those names that solves the problem, evaluate it step\u2011by\u2011step with brief sanity checks, and output only the final integer on its own line.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.6497346474601972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.913570887035633,
+    "avg_test_score": 0.84927253691469,
+    "best_test_instruction": "Convert the described scenario into a mathematical equation, solve for the unknown step\u2011by\u2011step showing each manipulation, confirm the result, and output only the final numeric answer on a separate line."
+  }
+}

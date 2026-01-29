@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the given word problem by performing each arithmetic operation explicitly. Write every intermediate calculation inside inline LaTeX ($$) and explain briefly in plain sentences. After the reasoning, output exactly one line containing \u201cAnswer: \u201d followed by the final integer, and nothing else.",
+      "train_score": 0.9578544061302682,
+      "train_step": 1,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Proceed through the problem step by step. For every step write a brief explanatory sentence, then give the exact calculation in inline LaTeX ($$ ... $$). After completing all steps, output a single line exactly \u201cAnswer:\u202fX\u201d, where X is the final integer result, and include no other text.",
+      "train_score": 0.9540229885057471,
+      "train_step": 2,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution for each word or arithmetic problem that includes setting up the problem, explaining each calculation, and concluding with the final integer answer presented alone on a new line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 1,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, showing each arithmetic operation in its own line using inline LaTeX ($$). After the reasoning, output exactly one line containing \u201cAnswer:\u202fX\u201d where X is the integer result, and nothing else.",
+      "train_score": 0.9501915708812261,
+      "train_step": 2,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem sequentially. For each arithmetic step write a line that may begin with a short English remark followed by the precise computation wrapped in inline LaTeX $$\u2026$$; the LaTeX must end with \u201c= result\u201d. After the last step write a single line exactly\n\nAnswer: N\n\nwhere N is the integer answer. No other characters, words, or blank lines may appear before or after that final line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 28,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every arithmetic operation required, output one line that may start with a short note, then the exact calculation wrapped in inline LaTeX $$<expression>=<value>$$. List the lines in the order the operations are performed. When no further calculations are needed, write a single line that reads exactly\n\nAnswer: X\n\nwhere\u202fX\u202fis the integer result, with no leading or trailing spaces or blank lines.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For every arithmetic step, write a separate line that may start with a brief comment, then place the exact calculation inside inline LaTeX $$<expression>=<value>$$. Perform steps in the order needed. After the last step output one line exactly `Answer: X` where X is the integer result, with no extra spaces or blank lines before or after it.",
+      "train_score": 0.9540229885057471,
+      "train_step": 90,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Detail every computational step as a numbered list; each step should contain a plain\u2011language explanation followed by the exact arithmetic in $$\u2026$$. Conclude with a solitary line `Answer: X` (X the integer result) and omit any further commentary.",
+      "train_score": 0.9578544061302682,
+      "train_step": 4,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "We solve the problem by listing each required arithmetic operation on a separate line, writing the exact expression in inline LaTeX $$...$$ (a brief comment may precede it). After the last operation we output a single line exactly `Answer: X` where X is the integer result, with no additional characters or blank lines.",
+      "train_score": 0.9540229885057471,
+      "train_step": 18,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each necessary calculation write a separate line that may start with a brief comment, then present the exact expression and its result in inline LaTeX as $$<expression>=<value>$$. Perform the calculations in the order they are needed. After the last calculation output a single line that is exactly\n\nAnswer: X\n\nwhere X is the integer result, with no extra characters, spaces, or blank lines before or after this line.",
+      "train_score": 0.9540229885057471,
+      "train_step": 66,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each distinct computation write a separate line that contains an optional short description, then the exact arithmetic in inline LaTeX of the form $$expression = value$$. Keep the lines in logical order. After all computations add a line that reads exactly `Answer: X` where X is the integer result, and no other text. Do not include any extra blank lines before or after the answer line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 21,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each arithmetic operation needed, output a separate line consisting of optional brief comment followed by the exact expression and its result inside inline LaTeX $$<expression>=<value>$$. Keep the lines in the order the calculations are performed. After the last computation output a single line exactly `Answer: X` where X is the integer result, with no extra characters, spaces, or blank lines before or after this line.",
+      "train_score": 0.9616858237547893,
+      "train_step": 58,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every required computation as a separate markdown bullet. Each bullet may begin with a brief comment, then must contain the exact arithmetic inside inline LaTeX of the form $$<expression>=<value>$$. Preserve the logical order of the steps. After the last bullet output one line (not a bullet) that is exactly\n\nAnswer: X\n\nwith X the integer answer. No extra spaces, blank lines, or other text may appear before or after this final line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 54,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every required calculation on its own line. Each line must consist solely of optional plain\u2011English comment (if desired) followed by the exact arithmetic wrapped in inline LaTeX $$ ... $$, where the expression ends with \u201c= value\u201d. Perform the steps sequentially. When all calculations are completed, write one final line that is exactly `Answer: X` (X the integer result) and ensure there is no preceding or trailing whitespace or empty lines.",
+      "train_score": 0.9540229885057471,
+      "train_step": 27,
+      "test_score": 0.865049279757392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every required numeric step write a single line that may start with a brief note, then the exact calculation in inline LaTeX of the form $$<expression>=<value>$$. Keep the lines in the order the steps are carried out. After the last calculation output one line that is exactly\n\nAnswer: X\n\nwhere X is the final integer. No additional characters, spaces, or blank lines may appear before or after this answer line.",
+      "train_score": 0.9578544061302682,
+      "train_step": 97,
+      "test_score": 0.8612585291887794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write each required arithmetic operation on its own line. The line may begin with a brief English phrase, then must show the computation inside inline LaTeX $$<expression>=<value>$$. Preserve the natural order of the steps. When no more calculations are needed, produce a single line that reads exactly\n\nAnswer: X\n\nwith X the integer result, and ensure there are no extra spaces, blank lines, or other text surrounding this final line.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.846095526914329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write each necessary calculation on its own line. The line may begin with a short English note, then the exact expression and its result inside inline LaTeX: $$<expression>=<value>$$. Perform the calculations in the order they are needed. When all calculations are done, output one solitary line exactly\n\nAnswer: X\n\nwith X the integer answer. Ensure there is nothing before the first line and nothing after the answer line (no extra spaces or blank lines).",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8582375478927203,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For every arithmetic operation required, output a separate line that may begin with a short note, then the exact computation in inline LaTeX of the form $$<expression>=<value>$$. Do not include any other characters on that line. List the lines in the order the calculations are performed. When all calculations are finished, output a single line that is exactly\n\nAnswer: X\n\nwhere X is the integer result, with no surrounding spaces or blank lines before or after this line.",
+      "train_score": 0.8582375478927203,
+      "train_step": 99,
+      "test_score": 0.7998483699772555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output each arithmetic operation on its own line. Begin the line with a short description (optional), then write the exact expression and its value inside inline LaTeX, ending with \u201c= value\u201d. Do not include any other characters on the line. After the final computation, output a lone line that reads exactly `Answer: X` where X is the integer result, with no surrounding whitespace or extra lines.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.7748294162244125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For every needed arithmetic operation write a single line that may start with a brief comment, then the exact computation formatted as $$<expression>=<value>$$. List the lines in the order the operations are performed. After the last computation output one line that is exactly\n\nAnswer: X\n\nwhere X is the integer result. Do not include any other text, symbols, or blank lines before or after the answer line.",
+      "train_score": 0.7126436781609196,
+      "train_step": 99,
+      "test_score": 0.6383623957543594,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9037149355572404,
+    "avg_test_score": 0.8566735261200767,
+    "best_test_instruction": "Solve the given word problem by performing each arithmetic operation explicitly. Write every intermediate calculation inside inline LaTeX ($$) and explain briefly in plain sentences. After the reasoning, output exactly one line containing \u201cAnswer: \u201d followed by the final integer, and nothing else."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the mathematical concept needed. Then solve the problem, writing each arithmetic operation on its own line exactly as `<expression> = <value>`. After all intermediate lines, write a single line that contains only the final numeric answer (no symbols or words). If you wish, you may add a one\u2011sentence verification before the final answer.",
+      "train_score": 0.8647058823529412,
+      "train_step": 39,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the applicable theorem or rule, then work forward, placing each calculation on its own line exactly as  \n\n\\<expression> = \\<value>  \n\nusing ordinary notation. When no further steps remain, write one final line that contains only the numeric answer (integer or reduced fraction) with no extra characters, symbols, or whitespace.",
+      "train_score": 0.8647058823529412,
+      "train_step": 86,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a full solution: start by identifying the relevant concepts, then work through each calculation explicitly, and conclude by stating the precise numeric result, with no extra text.",
+      "train_score": 0.8647058823529412,
+      "train_step": 1,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise and direct solution for each question. Ensure to compute any calculations explicitly, present the final answer, and include a brief explanation supporting your answer.",
+      "train_score": 0.888235294117647,
+      "train_step": 0,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the essential reasoning, carry out all necessary calculations clearly, and conclude with the exact numeric answer\u2014no extra commentary.",
+      "train_score": 0.8705882352941177,
+      "train_step": 1,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the main principle, then work through the solution. For every intermediate result write a line exactly as `<expression> = <value>` (using standard notation). When the solution is complete, place the exact final answer\u2014an integer or reduced fraction\u2014on a line by itself with no other characters.",
+      "train_score": 0.8529411764705882,
+      "train_step": 99,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by presenting a clear, step\u2011by\u2011step solution and give the final answer.",
+      "train_score": 0.8588235294117647,
+      "train_step": 0,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which theorem or counting rule applies. Then, for every intermediate step, write a line exactly as `<expression> = <value>` (no extra symbols). When no further steps remain, place the final result on its own line, containing only the number. Optionally add a brief one\u2011line check before the final line.",
+      "train_score": 0.8647058823529412,
+      "train_step": 44,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8529411764705882,
+      "train_step": -1,
+      "test_score": 0.7327289778055642,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key mathematical rule needed, then work through the solution step by step. For every intermediate computation write a separate line exactly as  \n\n\\<expression> = \\<value>  \n\nusing ordinary notation. After the last computation optionally add a one\u2011sentence check, and finally write a single line that contains only the final numeric result (integer or reduced fraction) with no other characters.",
+      "train_score": 0.8823529411764706,
+      "train_step": 81,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing mathematical idea, then work through the solution writing each calculation as \u201cexpression = value\u201d on its own line. Conclude with one line that contains just the final numeric answer, without any additional symbols or words.",
+      "train_score": 0.8705882352941177,
+      "train_step": 4,
+      "test_score": 0.7289778055642389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. Show each algebraic or arithmetic step on its own line in the form \u201c<expression> = <value>\u201d. After the last step write a single line containing only the final answer (integer or reduced fraction) with no extra characters.",
+      "train_score": 0.8647058823529412,
+      "train_step": 90,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required mathematical rule, then perform each calculation on its own line using the format `expression \u2192 result`. When all intermediate steps are shown, finish with one line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.8647058823529412,
+      "train_step": 37,
+      "test_score": 0.7236636448890278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First identify the relevant theorem, formula, or counting principle. Then work through the problem, placing every computation on its own line in the exact format \u201c<expression> => <value>\u201d. After the last intermediate line, output a single line that contains only the final numeric answer\u2014no extra symbols or words.",
+      "train_score": 0.8705882352941177,
+      "train_step": 40,
+      "test_score": 0.7211628633948108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the governing theorem or principle, then work through the solution step by step. Write each intermediate computation on its own line in the exact form  \n\n\\<expression> = \\<value>  \n\nusing ordinary mathematical notation. After the last intermediate line, output a single line that contains only the final numeric answer\u2014no extra words, symbols, or trailing decimal point.",
+      "train_score": 0.8647058823529412,
+      "train_step": 69,
+      "test_score": 0.7133479212253829,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the main principle needed, then solve the problem step\u2011by\u2011step. Write each intermediate calculation on its own line exactly as  \n\n\\<expression> = \\<value>  \n\nusing standard mathematical notation. After the last such line output one line that contains only the final answer (as an integer or a reduced fraction), with no other characters or commentary.",
+      "train_score": 0.8117647058823529,
+      "train_step": 99,
+      "test_score": 0.6967802438261956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the main theorem or rule, then solve the problem writing every intermediate step on its own line as \u201c<expression> = <value>\u201d. After the last step output a single line that contains only the final numeric answer (integer or reduced fraction), with no additional words or symbols.",
+      "train_score": 0.7235294117647059,
+      "train_step": 99,
+      "test_score": 0.6436386370740856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the core principle needed, then work forward. Write each intermediate computation on its own line in the exact format `<expression> = <value>` (no extra characters). When no further steps remain, produce one final line that consists solely of the answer\u2014written as an integer or a reduced fraction, with no surrounding text, symbols, or whitespace.",
+      "train_score": 0.7588235294117647,
+      "train_step": 99,
+      "test_score": 0.628633948108784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief statement of the key concept, then list each intermediate computation on its own line as `<value> \u2190 <expression>` (no extra symbols). After the last step, write a single line containing only the final numeric answer (integer or reduced fraction) with no other characters.",
+      "train_score": 0.5117647058823529,
+      "train_step": 99,
+      "test_score": 0.5089090340731478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the central mathematical concept in one sentence, then perform each required computation on its own line using the exact format `<expression> = <value>`. After the last computation, output a single line that contains only the final numerical result (as an integer or reduced fraction), with no other words, symbols, or whitespace.",
+      "train_score": 0.4117647058823529,
+      "train_step": 99,
+      "test_score": 0.40887777430447014,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem by writing every explicit computation on its own line in the exact format `<expression> = <value>`. After all intermediate lines output a single line that consists solely of the final result (integer or reduced fraction), with no additional words, symbols, or whitespace. Do not use any markup or formatting.",
+      "train_score": 0.3352941176470588,
+      "train_step": 99,
+      "test_score": 0.3351047202250703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.748046264457643,
+    "avg_test_score": 0.6778755265782461,
+    "best_test_instruction": "Identify the mathematical concept needed. Then solve the problem, writing each arithmetic operation on its own line exactly as `<expression> = <value>`. After all intermediate lines, write a single line that contains only the final numeric answer (no symbols or words). If you wish, you may add a one\u2011sentence verification before the final answer."
+  }
+}

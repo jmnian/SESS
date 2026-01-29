@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a concise, step-by-step solution with all necessary calculations, brief reasoning, verification of the result, and conclude by outputting only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.8392721758908264,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute every required value, give a brief reason for each step, perform a quick consistency check, and output only the final numeric answer on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 5,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the necessary calculations step by step, give a brief justification for each, and finish by outputting only the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 3,
+      "test_score": 0.8369977255496588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Execute all required calculations, provide a brief justification for each step, perform a quick sanity check, and output only the final numeric answer on its own line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 5,
+      "test_score": 0.8369977255496588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For the given problem, determine every required numeric quantity, express each as a clear arithmetic formula, compute only those results that are needed for subsequent steps, briefly note the purpose of each computation, perform a quick consistency verification, and finally print only the final numeric answer on a single line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 40,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every needed value, write its exact arithmetic expression, accompany it with a short justification, evaluate only those expressions that are required for subsequent steps, carry out a brief plausibility check (e.g., reverse\u2011calculate or compare magnitudes), and conclude by printing only the final numeric answer on a single line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Work through the problem methodically: for every needed arithmetic operation, write the exact calculation, add a brief comment explaining its role, retain only essential intermediate values, perform a quick sanity/consistency check, and conclude by outputting only the final numeric answer on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 26,
+      "test_score": 0.8157695223654283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by listing each required arithmetic expression, give a one\u2011sentence reason for its use, compute only the needed intermediate values, perform a quick sanity check, and output only the final numeric answer on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 22,
+      "test_score": 0.799090219863533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every required quantity, write the exact arithmetic formula followed by a short phrase explaining why it\u2019s needed, keep only intermediate values that are used later, perform a fast sanity check, and finally output only the final numeric answer on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 41,
+      "test_score": 0.799090219863533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by identifying each required arithmetic operation, write the exact calculation, give one\u2011sentence rationale for its necessity, keep only the intermediate values that are reused, perform a quick plausibility check, and output solely the final numeric answer on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 16,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute exactly what's asked: for each needed quantity write the arithmetic expression, note in one phrase why it matters, keep only values that feed later steps, do a quick plausibility check, and finally output just the numeric answer on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 27,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem stepwise: for each needed arithmetic expression write it out, add a concise comment why it is needed, keep only the essential intermediate figures, do a quick consistency check, and finish by printing the single final answer on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 8,
+      "test_score": 0.7915087187263078,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by performing each needed calculation, give a brief comment on its purpose, verify the intermediate result with a quick sanity check, and end with only the final numeric answer on a single line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 85,
+      "test_score": 0.7854435178165277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the problem into a minimal set of arithmetic statements, label each with a one\u2011sentence purpose, evaluate only the statements that feed later ones, perform a quick estimate to confirm plausibility, and output solely the final numeric answer on a single line.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.7793783169067475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Transform the problem into the minimal necessary arithmetic expression(s). For each expression, write it exactly, note in one phrase why it is required, compute only the values needed for the final result, perform a quick plausibility check (e.g., magnitude or reverse operation), and finally output *only* the final numeric answer on a single line.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.7733131159969674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Break the problem into needed numbers. For each: write the precise arithmetic expression, add a brief note of its role, keep only values that feed later steps, perform a quick sanity check, then output solely the final numeric answer on one line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 75,
+      "test_score": 0.7604245640636846,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into its necessary arithmetic steps. For each step: briefly state the purpose, write the exact calculation, and show the resulting value (only if needed later). After all steps, do a quick consistency check and write only the final numeric answer on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 8,
+      "test_score": 0.759666413949962,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7297297297297297,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, pull out every given value, then construct the minimal set of arithmetic expressions needed to reach the answer. For each expression write the exact math and a short comment of its role, keep only those intermediate results that are reused, perform a quick plausibility test, and finally output only the final result on its own line.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.7369219105382866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each required value, write the precise formula followed by a one\u2011line purpose, calculate it only when it feeds a later step, after completing all calculations do a brief plausibility check, and conclude by printing just the final numeric result on its own line.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.7149355572403336,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every required quantity, write its exact arithmetic expression, add a brief one\u2011word purpose, compute only intermediates that are reused, perform a quick reverse\u2011check of the total, and output only the final numeric answer on a single line.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.7035633055344959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8392721758908264,
+    "avg_test_score": 0.7887649373623598,
+    "best_test_instruction": "Provide a concise, step-by-step solution with all necessary calculations, brief reasoning, verification of the result, and conclude by outputting only the final numeric answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8125,
+      "train_step": 4,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution to the problem, including all necessary calculations and the final answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 0,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the problem\u2019s core type (e.g., algebraic, geometric). Apply the relevant formulas or theorems directly. Simplify expressions as needed, calculate precisely, and double-check your steps. Conclude with an answer that aligns with the conditions provided.",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, translate it into a mathematical statement, choose the appropriate technique, execute each arithmetic or algebraic operation explicitly while noting why it is valid, confirm the intermediate outcomes, and output the exact result (with units if required) on a single line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 3,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem, identify the relevant concepts, work through each calculation with clear justification, verify intermediate results, and conclude with the exact answer (including any units) in a concise, self\u2011contained solution.",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one clear sentence, note all given quantities, pinpoint the main theorem or formula needed, outline a short plan, then carry out each algebraic or arithmetic step with a concise justification, checking any intermediate result for consistency; finally present the simplified exact answer alone on a line (including units if required) and nothing else.",
+      "train_score": 0.7708333333333334,
+      "train_step": 5,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem, identify the key mathematical ideas, work through the solution in a clear, step\u2011by\u2011step order while verifying each intermediate result, and finish with the exact final answer (including any required units).",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution: briefly restate the task, identify the key principle, perform each algebraic step with justification, verify any intermediate values, and present the final numeric answer clearly (with units when appropriate).",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a detailed solution to the problem using logical reasoning and step-by-step calculations.",
+      "train_score": 0.75,
+      "train_step": 0,
+      "test_score": 0.7274148171303533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step by step, clearly showing your reasoning.",
+      "train_score": 0.7708333333333334,
+      "train_step": 0,
+      "test_score": 0.7246014379493592,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, determine the necessary concepts, work through the solution methodically, and present the answer with a brief, clear explanation of each step.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence. Identify the governing theorem or formula. Write a brief outline of the solution. Then execute the outline, showing every algebraic or arithmetic step together with a concise justification, and briefly verify each intermediate result against the problem\u2019s conditions. End with the final numerical answer on its own line (including units if required).",
+      "train_score": 0.7916666666666666,
+      "train_step": 5,
+      "test_score": 0.7195998749609253,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, logically ordered solution: first restate the problem, then outline the method, carry out each calculation step explicitly, verify intermediate results, and finally give the exact answer with appropriate units if needed.",
+      "train_score": 0.75,
+      "train_step": 1,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one sentence, list all given values, name the exact theorem or formula to be used, then work through the solution in a numbered list where each line shows the calculation and a brief justification. After each computation confirm it satisfies the conditions, and end with only the final numerical result (including units if any) on a separate line.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the problem in one sentence, note the key concept or formula, then solve it in clear, ordered steps, writing each intermediate result with a brief justification, and finish with the exact final answer (including units if any) on its own line.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.7052203813691779,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, note the essential mathematical idea, then solve it in a numbered sequence. For each step give (i) the rule or formula applied, (ii) the calculation performed, and (iii) a brief sanity check. Conclude with the exact final result on a single line (include units if any) and nothing else.",
+      "train_score": 0.4375,
+      "train_step": 99,
+      "test_score": 0.7042825883088465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the question in one line, pinpoint the essential theorem or formula, then solve it in a compact chain of justified steps, checking each intermediate result, and finish by writing only the final numeric value (including units if any) on a separate line.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.7014692091278525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in one sentence, identify the central theorem or formula, then solve it using a numbered list: for each step give the calculation, a brief justification, and a quick sanity check. End with only the final numeric answer (including units if needed) on its own line, with no additional commentary.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.6545795561112848,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly paraphrase the question, then present a numbered solution where each step shows the applied formula or logical deduction and its result; after confirming consistency, output only the final numeric answer (including units) on its own line.",
+      "train_score": 0.1875,
+      "train_step": 99,
+      "test_score": 0.18193185370428258,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7530478274460769,
+    "avg_test_score": 0.7000401911311571,
+    "best_test_instruction": "And ending with"
+  }
+}

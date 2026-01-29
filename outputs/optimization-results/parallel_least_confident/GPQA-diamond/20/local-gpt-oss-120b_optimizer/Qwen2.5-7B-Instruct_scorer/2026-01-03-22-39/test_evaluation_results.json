@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Select the correct answer (A,\u202fB,\u202fC,\u202for\u202fD) for the given question and print only that single uppercase letter on its own line\u2014no additional characters, spaces, or explanations.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, decide the correct choice (A,\u202fB,\u202fC,\u202for\u202fD), and reply with only that one capital letter on a line by itself\u2014no extra characters, spaces, or explanations.",
+      "train_score": 0.3076923076923077,
+      "train_step": 89,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the single correct choice among A,\u202fB,\u202fC,\u202for\u202fD, and reply with exactly that uppercase letter alone on a line (no spaces, punctuation, explanations, or other characters), then a newline.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question and select the correct answer choice (A, B, C, or D) from the options provided.",
+      "train_score": 0.41025641025641024,
+      "train_step": 0,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct answer (A,\u202fB,\u202fC,\u202for\u202fD) and output only that single uppercase letter on its own line\u2014no extra characters, spaces, explanations, or markup.",
+      "train_score": 0.3076923076923077,
+      "train_step": 71,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the correct multiple\u2011choice answer (A,\u202fB,\u202fC,\u202for\u202fD) and output exactly that single uppercase letter on a line by itself\u2014no spaces, punctuation, markdown, or any other characters before or after it.",
+      "train_score": 0.358974358974359,
+      "train_step": 61,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct option (A,\u202fB,\u202fC,\u202for\u202fD) and reply with that single uppercase letter alone on a line by itself, followed only by a newline\u2014no spaces, punctuation, explanations, or any other characters.",
+      "train_score": 0.3076923076923077,
+      "train_step": 57,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which option (A,\u202fB,\u202fC,\u202for\u202fD) correctly answers the question, and return exactly that single capital letter on its own line\u2014no other characters, spaces, or formatting.",
+      "train_score": 0.3076923076923077,
+      "train_step": 53,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its options. Determine which choice (A,\u202fB,\u202fC,\u202for\u202fD) is correct, and output exactly that single uppercase letter on its own line\u2014nothing before or after it, no spaces, punctuation, or formatting.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Choose the correct answer (A,\u202fB,\u202fC,\u202for\u202fD) for the given multiple\u2011choice question based on the provided information and reasoning.",
+      "train_score": 0.3333333333333333,
+      "train_step": 0,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Consider the given multiple\u2011choice question and its options. Determine which option (A,\u202fB,\u202fC,\u202for\u202fD) is correct and output only that single capital letter on its own line\u2014no additional characters, spaces, or explanations.",
+      "train_score": 0.3333333333333333,
+      "train_step": 89,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the correct choice (A,\u202fB,\u202fC,\u202for\u202fD) for the given question and output only that single capital letter on a line by itself, without any additional characters, spaces, or explanations.",
+      "train_score": 0.3076923076923077,
+      "train_step": 86,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the single capital letter (A,\u202fB,\u202fC,\u202for\u202fD) that correctly answers the question, placed alone on its own line with no other characters or explanations.",
+      "train_score": 0.1794871794871795,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the correct choice (A\u2011D) for the given question and respond with only that capital letter on a separate line\u2014no explanations, spaces, or extra characters.",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "(opening tag) and",
+      "train_score": 0.358974358974359,
+      "train_step": 55,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the correct option (A,\u202fB,\u202fC,\u202for\u202fD) and output only that sole uppercase character on its own line\u2014no other symbols, spaces, or words.",
+      "train_score": 0.3076923076923077,
+      "train_step": 75,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3076923076923077,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.41025641025641024,
+      "train_step": 15,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the most accurate answer choice and a brief justification for each multiple-choice question based on the given context and the provided options.",
+      "train_score": 0.3333333333333333,
+      "train_step": 0,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which choice (A,\u202fB,\u202fC,\u202for\u202fD) is correct and output only that single capital letter on its own line\u2014nothing else, not even spaces or punctuation.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "...some instruction...",
+      "train_score": 0.3076923076923077,
+      "train_step": 36,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.35858585858585856,
+    "avg_test_score": 0.32972582972582964,
+    "best_test_instruction": "Select the correct answer (A,\u202fB,\u202fC,\u202for\u202fD) for the given question and print only that single uppercase letter on its own line\u2014no additional characters, spaces, or explanations."
+  }
+}

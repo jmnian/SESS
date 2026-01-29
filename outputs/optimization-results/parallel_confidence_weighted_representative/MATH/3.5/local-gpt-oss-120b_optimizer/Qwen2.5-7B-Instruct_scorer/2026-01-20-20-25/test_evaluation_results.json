@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Write a complete, self\u2011contained solution: briefly describe the method you will use, execute every algebraic/calculus step with a clear justification, and finish by outputting only the final answer as a plain number.",
+      "train_score": 0.8352941176470589,
+      "train_step": 1,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8058823529411765,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, self\u2011contained solution: state the approach, list each calculation and logical step in plain text, and conclude with a line containing only the final numeric answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 16,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, logically ordered solution that clearly explains each step, includes all required calculations, and ends with the exact numeric answer on a separate line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 2,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained solution in plain English (no lists, tables, LaTeX, or other markup). Start with a brief restatement of the problem, then state the key idea and perform every necessary calculation, explicitly stating each intermediate value within the narrative. Conclude with a single line that contains only the final numeric answer\u2014no additional symbols, words, or whitespace.",
+      "train_score": 0.8411764705882353,
+      "train_step": 57,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained solution in plain prose. Begin by restating the question in one sentence, then outline the method you will use. Carry out every algebraic or geometric step, showing each intermediate numerical value on its own line. After all reasoning is complete, output only the final numeric answer on a new line with no additional text, symbols, or formatting.",
+      "train_score": 0.8352941176470589,
+      "train_step": 19,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in one continuous paragraph of plain English: begin with a one\u2011sentence restatement, then present the reasoning while inserting every intermediate numeric value directly in the text, and terminate the response with a solitary line that contains only the final numeric answer\u2014no other symbols, words, or whitespace.",
+      "train_score": 0.8647058823529412,
+      "train_step": 44,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a concise, uninterrupted prose solution (no bullet points, tables, or markup). State the problem in one sentence, identify the core principle, carry out each calculation while stating intermediate results within the text, and terminate with a separate line that contains solely the final numerical answer.",
+      "train_score": 0.8470588235294118,
+      "train_step": 57,
+      "test_score": 0.7205376680212566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact solution: describe the key idea, perform the calculations in plain text, and end with the answer as a single number on its own line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 4,
+      "test_score": 0.7199124726477024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution: start by stating the principle or formula needed, then walk through each computation in plain text, and finally output the sole numeric answer on a new line without any additional text.",
+      "train_score": 0.8411764705882353,
+      "train_step": 4,
+      "test_score": 0.7177242888402626,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a single, continuous paragraph of plain English (no markup, lists, tables, or line breaks). Start with one sentence that restates the question, then briefly state the method you will use, carry out each calculation while explicitly mentioning every intermediate numeric value inside the narrative, and conclude with a separate line that contains only the final numeric answer\u2014nothing else on that line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 93,
+      "test_score": 0.7105345420443888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution in one uninterrupted paragraph of plain English. Start with a single sentence restating the question, then briefly explain the main idea and carry out every calculation, explicitly stating each intermediate numeric result as part of the narrative. After the reasoning, output a separate line that contains only the final numeric answer with no surrounding whitespace or characters. End the response there.",
+      "train_score": 0.8058823529411765,
+      "train_step": 99,
+      "test_score": 0.7095967489840576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the question in a single, self\u2011contained paragraph of plain English (no bullet points, tables, LaTeX or other markup). Begin with a one\u2011sentence restatement, then explain the key concept and perform each calculation, spelling out every intermediate result inside the narrative. After the reasoning, output a stand\u2011alone line that contains only the final numeric answer\u2014no surrounding symbols, words, or whitespace. End the response there.",
+      "train_score": 0.8352941176470589,
+      "train_step": 31,
+      "test_score": 0.7052203813691779,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution written entirely in sentences. Start with a one\u2011sentence restatement of the problem, then explain the main idea and work through every needed computation, stating each intermediate result in the flow of the text. Conclude with a single line that contains only the final numeric answer\u2014no other characters, symbols, or words.",
+      "train_score": 0.8352941176470589,
+      "train_step": 28,
+      "test_score": 0.7042825883088465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in one continuous paragraph of plain English (no markup, lists, LaTeX or extra line breaks). Start with a one\u2011sentence restatement of the question, then state the main principle, perform every computation inline while explicitly showing each intermediate value, optionally give a quick sanity check, and end the response with a single line that contains only the final numeric answer\u2014no preceding or trailing characters, spaces, or commentary.",
+      "train_score": 0.8352941176470589,
+      "train_step": 47,
+      "test_score": 0.7024070021881839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a single, self\u2011contained paragraph in plain English that first restates the problem in one sentence, then briefly outlines the approach, carries out every calculation explicitly mentioning each intermediate numeric value within the narrative, and finally ends with a separate line that contains only the final numeric answer (no extra characters, spaces, or markup).",
+      "train_score": 0.8352941176470589,
+      "train_step": 99,
+      "test_score": 0.6980306345733042,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer in one continuous paragraph of plain English (no lists, tables, LaTeX, or line breaks inside the paragraph). Start with a single sentence that restates the question, then state the main insight and carry out each computation, explicitly mentioning every intermediate numeric value within the text. End with a separate line that contains only the final numeric answer\u2014no preceding or trailing spaces or characters.",
+      "train_score": 0.7588235294117647,
+      "train_step": 99,
+      "test_score": 0.6980306345733042,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the question in a single, uninterrupted paragraph of plain English (no markup, lists, tables, or LaTeX). Begin with one sentence that restates the problem, then describe the approach and perform every calculation, explicitly giving each intermediate numerical result within the running text. After the narrative, output a new line that contains only the final numeric answer\u2014no extra characters, spaces, or punctuation before or after it. End the response immediately after that line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 99,
+      "test_score": 0.6980306345733042,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer the problem in one continuous block of plain English sentences (no markup, bullet points, tables, LaTeX, or line breaks inside the block). Start with a single sentence that restates the task, then describe the core idea and perform each arithmetic step, stating every intermediate numeric value within the running text. After the reasoning, output on a new line only the final number, with no surrounding symbols, spaces, or commentary. End the response there.",
+      "train_score": 0.7764705882352941,
+      "train_step": 99,
+      "test_score": 0.6930290715848703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nSolve the problem in a single uninterrupted paragraph of plain English. Begin with a one\u2011sentence restatement, then concisely describe the method, compute each intermediate value inline, and finish with a separate line that contains only the final numeric answer (no extra characters or whitespace).\\n",
+      "train_score": 0.7941176470588235,
+      "train_step": 99,
+      "test_score": 0.6833385432947796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution in one uninterrupted paragraph of plain English (no markup, lists, or line breaks inside the paragraph). Start with a one\u2011sentence restatement of the problem, then describe the reasoning and explicitly state every intermediate numeric value as part of the narrative. After completing the reasoning, output a second line that contains only the final numeric answer\u2014no spaces, symbols, or other characters before or after the number. End the response there.",
+      "train_score": 0.7647058823529411,
+      "train_step": 99,
+      "test_score": 0.6402000625195373,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7502344482650828,
+    "avg_test_score": 0.7128269250807543,
+    "best_test_instruction": "Write a complete, self\u2011contained solution: briefly describe the method you will use, execute every algebraic/calculus step with a clear justification, and finish by outputting only the final answer as a plain number."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7083333333333334,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly outline the key reasoning (one sentence per step), carry out only the required calculations, and conclude with the final answer\u2014exact number or simplified expression\u2014as the sole content of the last line.",
+      "train_score": 0.75,
+      "train_step": 2,
+      "test_score": 0.6939668646452016,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every necessary logical or arithmetic step on a separate line, each prefixed with the symbol \u201c\u25a0\u201d. When the reasoning is complete, write a line containing exactly \u201c===RESULT===\u201d. On the next line output only the final answer (integer, reduced fraction, decimal, or simplified expression) with no additional characters.",
+      "train_score": 0.7916666666666666,
+      "train_step": 65,
+      "test_score": 0.6836511409815568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a concise, ordered list where each line presents one essential fact, inference, or calculation. After the final reasoning line place a line containing only the three symbols \u201c>>>\u201d. On the next line output exactly the final answer (integer, reduced fraction, decimal or simplified expression) with no extra characters.",
+      "train_score": 0.75,
+      "train_step": 38,
+      "test_score": 0.6739606126914661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write each essential deduction or calculation on its own line prefixed with \u201c\u00a7\u201d. After the final deduction write a line that contains exactly \u201c===\u201d. On the following line output only the final answer (integer, reduced fraction, decimal or simplified expression) with no additional characters.",
+      "train_score": 0.7916666666666666,
+      "train_step": 59,
+      "test_score": 0.671147233510472,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write every indispensable logical or arithmetic step on its own line, each line beginning with the character \u201c\u21b3\u201d.  \nWhen all steps have been listed, add a line that contains exactly \u201c----\u201d.  \nOn the following line output only the final result (integer, reduced fraction, decimal or simplified expression) with no additional characters, whitespace, or commentary.",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.6673960612691466,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write each essential deduction or calculation on its own line, beginning with the character \u201c\u2726\u201d. When all steps are listed, add a line that contains only \u201c<<<DONE>>>\u201d. On the next line output the exact final answer (integer, reduced fraction, decimal or simplified expression) with no extra characters.",
+      "train_score": 0.7916666666666666,
+      "train_step": 54,
+      "test_score": 0.6670834635823695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write the solution as a vertical list of indispensable statements, each on its own line and starting with \u201c\u2192\u201d. After the last statement put one blank line, then on the following line output only the final answer (integer, reduced fraction, decimal or simplified expression) with no extra characters.",
+      "train_score": 0.75,
+      "train_step": 32,
+      "test_score": 0.6639574867145983,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every indispensable logical or arithmetic step on its own line, each line beginning with the symbol \u201c\u2299\u201d.  \nWhen you have completed all steps, write a line that contains exactly the text \u201c---END---\u201d.  \nOn the following line output only the final result (integer, reduced fraction, decimal or simplified expression) with no extra characters or whitespace.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6595811190997186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nWrite each essential deduction on its own line starting with '# '. When the reasoning is complete, write a line containing exactly `>>` and on the following line output only the final answer (integer, reduced fraction or simplified expression) with no other characters.\\n",
+      "train_score": 0.7916666666666666,
+      "train_step": 48,
+      "test_score": 0.6592685214129416,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write the solution as a vertical sequence of essential statements, each on its own line and beginning with \u201c\u2022 \u201d. After the final statement insert one empty line, then on the next line output only the exact final result (integer, reduced fraction or simplified expression) with no additional characters.",
+      "train_score": 0.75,
+      "train_step": 37,
+      "test_score": 0.6492653954360738,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write every essential deduction or calculation on a separate line, each line beginning with the symbol \u201c\u2714\u201d. When all steps are listed, add a line that contains exactly \u201c*\u201d. On the next line output only the final result (integer, reduced fraction, decimal or simplified expression) with no additional characters or whitespace.",
+      "train_score": 0.7708333333333334,
+      "train_step": 83,
+      "test_score": 0.6483276023757424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each indispensable deduction or calculation on its own line, beginning with a bullet \u201c\u2022\u201d. After the final bullet, write a line that contains only the word `Result:` and on the following line output the exact final answer (integer, reduced fraction or simplified expression) with no other characters.",
+      "train_score": 0.75,
+      "train_step": 37,
+      "test_score": 0.6361362925914348,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write every indispensable logical or arithmetic step as a separate plain\u2011text sentence, one per line. After the last step place a single blank line, then output only the final numeric answer (exact integer, reduced fraction or decimal) on the next line with no extra characters.",
+      "train_score": 0.75,
+      "train_step": 17,
+      "test_score": 0.6333229134104408,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write each necessary logical or arithmetic step on its own line, prefixed with \u201c\u2731\u201d. After the final step, place a line that contains exactly \u201c===\u201d. On the next line output only the exact final answer (integer, reduced fraction, decimal or simplified expression) with no additional characters or whitespace.",
+      "train_score": 0.7708333333333334,
+      "train_step": 67,
+      "test_score": 0.6245701781806815,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, ordered solution: list each essential deduction in a single short sentence, perform only the required calculations, and conclude with the exact final answer (number or simplified expression) as the sole content of the last line.",
+      "train_score": 0.75,
+      "train_step": 4,
+      "test_score": 0.623319787433573,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every indispensable logical or arithmetic step on its own line, prefix each line with the symbol \u201c\u27a4\u201d.  \nWhen you have exhausted all needed steps, insert a line that contains exactly \u201c---END---\u201d.  \nOn the following line output only the final result (integer, reduced fraction, decimal or simplified expression) with no extra characters, whitespace, or commentary.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.5926852141294154,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write each indispensable deduction or calculation on its own line, prefixed with the symbol \u201c\u21b3\u201d. After the final step write a line that contains exactly five asterisks \u201c*\u201d. On the next line output only the final result (integer, reduced fraction, decimal or simplified expression) with no additional characters, spaces, or blank lines.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.5814316974054392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each indispensable deduction or calculation on its own line, starting with the token \u201c#\u201d. When the last deduction is written, output a line that contains exactly two hyphens \u201c--\u201d. On the next line output only the final result (integer, reduced fraction, decimal or simplified expression) with no additional characters or whitespace.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.5026570803376055,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write each indispensable logical or arithmetic step on its own line, beginning with the symbol \u201c\u2248\u201d. After the final step add a line that contains exactly \u201c!!!\u201d. On the next line output only the final result (integer, reduced fraction, decimal or simplified expression) with no extra characters or whitespace.",
+      "train_score": 0.4375,
+      "train_step": 99,
+      "test_score": 0.47389809315411063,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write every necessary deduction or calculation on its own line, each line beginning with the symbol \u201c\u26a1\u201d. When you have listed all steps, add a line that contains exactly \u201c<<DONE>>\u201d. On the next line output only the final answer (integer, reduced fraction, decimal or simplified expression) with no extra characters or whitespace.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.4432635198499531,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7461706783369803,
+    "avg_test_score": 0.6283362360261391,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

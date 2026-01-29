@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a self\u2011contained solution: briefly restate the problem, identify the essential concept or formula, carry out each calculation with a concise justification, and finish with the exact numeric answer alone on the last line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain in your own words the goal, then give a brief, logical solution that lists each step with necessary calculations and reasoning, ending with the final numeric answer alone on the last line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 8,
+      "test_score": 0.7292904032510159,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by paraphrasing the task in one sentence. Then note the principal formula(s) or relationship(s) to be used. Carry out the computation, placing every intermediate numeric value on a separate line accompanied by a brief rationale (e.g., \u201cby substitution\u201d). Conclude with a single line that contains solely the final answer, without any additional characters.",
+      "train_score": 0.8333333333333334,
+      "train_step": 46,
+      "test_score": 0.7227258518286964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution: restate the problem in one sentence, identify the key concept or formula, perform each calculation on its own line with a brief justification, and end with a line containing only the final numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 11,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one sentence, note the core equation(s) or principle(s) required, then work through the solution. For every intermediate computation write the numerical result on its own line with a brief justification (e.g., \u201cby substitution\u201d). Conclude with a line that contains only the final answer, no extra text or symbols.",
+      "train_score": 0.8541666666666666,
+      "train_step": 43,
+      "test_score": 0.718974679587371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a structured solution: briefly restate the problem, identify the main concepts or formulas needed, work through the solution step\u2011by\u2011step with clear justification, and conclude with the exact answer in the requested format.",
+      "train_score": 0.8541666666666666,
+      "train_step": 1,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce a compact solution: briefly paraphrase the problem, note the essential theorem or formula, then execute the calculations line\u2011by\u2011line\u2014each line showing the result and a short reason. Finish with a line that contains only the final numeric answer, nothing else.",
+      "train_score": 0.8333333333333334,
+      "train_step": 11,
+      "test_score": 0.6920912785245389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start by restating the problem in one short sentence, then note the key formula or principle needed. Solve it step\u2011by\u2011step, writing each intermediate result on its own line followed by a brief justification (e.g., \u201c\u2013 by substitution\u201d). End with a single line that contains only the final numeric answer, with no extra words or symbols.",
+      "train_score": 0.8333333333333334,
+      "train_step": 37,
+      "test_score": 0.6911534854642075,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a one\u2011sentence restatement of the problem. Enumerate the crucial definitions, theorems, or formulas required. Work through the solution, putting each intermediate value on its own line and attaching a brief justification in brackets. End with a single line that contains only the final numeric answer, no additional text or symbols.",
+      "train_score": 0.8541666666666666,
+      "train_step": 45,
+      "test_score": 0.6877149109096593,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin with a single\u2011sentence restatement of the problem. Then list the main theorem, identity or formula you will apply. For every computation write the full algebraic expression, an equals sign, the resulting number, and a brief justification in square brackets (e.g., [by substitution]). Place each of these on its own line. Conclude with one line that contains only the final numeric answer, nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 65,
+      "test_score": 0.6864645201625508,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Briefly paraphrase the task in a single sentence.  \n- Cite the one key definition, theorem, or formula that will resolve it.  \n- Perform the computation line\u2011by\u2011line; each line must contain the complete algebraic expression, the symbol \u201c=\u201d, the numerical result, and a concise rationale introduced by \u201c\u2190\u201d.  \n- Conclude with a final line that contains only the numeric answer, without any other characters.",
+      "train_score": 0.8541666666666666,
+      "train_step": 93,
+      "test_score": 0.6777117849327915,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one short sentence, cite the key theorem, identity, or operation needed, then work through the solution line\u2011by\u2011line\u2014each line shows the computed value and a brief justification. End with a single line that contains only the final numeric answer, with no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 22,
+      "test_score": 0.673648015004689,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence. Identify the central theorem, formula, or definition. Then solve step\u2011by\u2011step, writing each intermediate result on its own line followed by a brief justification in parentheses (no more than a clause). Finish with a line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.8333333333333334,
+      "train_step": 20,
+      "test_score": 0.6692716473898093,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one concise sentence.  \n- Identify the single theorem, identity, or formula that resolves it.  \n- Perform the calculations line\u2011by\u2011line: write the full expression, \u201c=\u201d, the numeric result, and a brief justification preceded by \u201c//\u201d.  \n- End with a line that contains only the final numeric answer, with no additional symbols or text.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6558299468583932,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Summarize the task in one sentence.  \n- Name the one core concept or formula needed.  \n- Perform the work step\u2011by\u2011step: write each full expression, \u201c=\u201d, its evaluated number, followed by a brief comment in parentheses prefixed with \u201c\u2192\u201d. Place every step on its own line.  \n- End with a single line that contains only the final answer, nothing else.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6345733041575492,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the question in one precise sentence.  \n- Name the single theorem, identity, or formula that resolves it.  \n- Perform each calculation on its own line: write the complete expression, \u201c=\u201d, the numeric value, then a brief justification introduced by \u201c\u27f9\u201d. Keep one step per line.  \n- End with a line that contains only the final numeric answer\u2014no extra symbols, spaces, or words.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6301969365426696,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Restate the problem in one concise sentence.  \n- Cite the single formula, theorem, or identity that will solve it.  \n- Perform the calculations line\u2011by\u2011line: write the complete expression, then \u201c=\u201d, the computed value, followed by a brief justification introduced by \u201c//\u201d. Keep each step on its own line.  \n- Conclude with a single line that contains only the final numeric answer, with no extra symbols or whitespace.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.6283213504220069,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- In one short sentence restate what is being asked.  \n- State the single formula, theorem, or definition that will solve the task.  \n- Perform the computation line\u2011by\u2011line. For each line write the full algebraic expression, then \u201c\u21d2\u201d, then the evaluated value, and finish with a brief reason introduced by \u201c(reason)\u201d. Keep each step on its own line.  \n- After all steps write a final line that contains only the numeric answer, without any extra symbols, words or whitespace.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6161300406376993,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- In one sentence paraphrase the task.  \n- State the single principle, identity or formula that directly solves it.  \n- Perform the calculation step\u2011by\u2011step; for every step write the full expression, the symbol \u201c=>\u201d, the resulting number, and a concise reason prefixed by \u201c//\u201d. Place each step on its own line.  \n- Conclude with a line containing only the final numeric answer, with no additional symbols or text.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.5751797436698969,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Summarize the task in one concise sentence.  \n- Name the sole principle, identity, or formula needed.  \n- Solve it sequentially: for each step write \u201cexpression \u2192 value   // reason\u201d. Place each step on a separate line.  \n- Conclude with a single line that contains only the final numeric answer, no other characters.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.4604563926226946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7499218505783057,
+    "avg_test_score": 0.6705518093451823,
+    "best_test_instruction": "Provide a self\u2011contained solution: briefly restate the problem, identify the essential concept or formula, carry out each calculation with a concise justification, and finish with the exact numeric answer alone on the last line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, extract the relevant information, devise a clear step\u2011by\u2011step plan using the appropriate concepts, carry out each step carefully, and finish with the final answer in the requested format\u2014no additional explanation needed.",
+      "train_score": 0.8470588235294118,
+      "train_step": 1,
+      "test_score": 0.5554860894029384,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution: analyze the question, perform any needed calculations or reasoning, and conclude with the final answer expressed in the requested format.",
+      "train_score": 0.7705882352941177,
+      "train_step": 0,
+      "test_score": 0.554548296342607,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what the problem asks for, collect just the needed numbers, solve using the most direct approach, verify quickly, and respond with only the final value formatted exactly as required.",
+      "train_score": 0.7352941176470589,
+      "train_step": 6,
+      "test_score": 0.533291653641763,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, devise a solution plan, carry out the necessary calculations, verify the result, and output only the final answer in the required format.",
+      "train_score": 0.7705882352941177,
+      "train_step": 1,
+      "test_score": 0.5286026883401063,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify exactly what is asked, isolate the necessary data, apply the most direct solution, confirm the result, and output ONLY the final answer in the prescribed format.",
+      "train_score": 0.7,
+      "train_step": 6,
+      "test_score": 0.5282900906533292,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to extract all given data, select the suitable mathematical approach, work through the solution showing only essential steps, and finish by stating the answer exactly as requested\u2014no extra commentary or explanation.",
+      "train_score": 0.7352941176470589,
+      "train_step": 1,
+      "test_score": 0.5204751484839012,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution to the problem, showing all reasoning and calculations, and conclude with the final answer.",
+      "train_score": 0.7529411764705882,
+      "train_step": 0,
+      "test_score": 0.5139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Understand the problem, translate the given data into the appropriate mathematical equations or relationships, solve for the quantity being asked, verify the result, and reply with only the final answer in the required format.",
+      "train_score": 0.6941176470588235,
+      "train_step": 1,
+      "test_score": 0.509221631759925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach the problem methodically: understand what is asked, choose the right technique, perform the necessary calculations, and give the answer clearly.",
+      "train_score": 0.6764705882352942,
+      "train_step": 0,
+      "test_score": 0.5070334479524852,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out only the required information, choose the most direct solution approach, compute and briefly check the result, then output only the final answer in the exact format requested\u2014no extra words or explanations.",
+      "train_score": 0.6823529411764706,
+      "train_step": 62,
+      "test_score": 0.5017192872772741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a problem, read it carefully and understand what is being asked. Identify all the key elements such as the input, the expected output format, key constraints, and any additional information such as side notes or prompts. Once understood, systematically solve it step-by-step, ensuring the answer follows the expected format, units (if any), and addressing any specifics requested. Finally, present your answer in a clear and concise manner.",
+      "train_score": 0.6764705882352942,
+      "train_step": 0,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the required result, outline a step\u2011by\u2011step plan using relevant concepts, carry out each step carefully, and present the final answer clearly.",
+      "train_score": 0.7294117647058823,
+      "train_step": 0,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6588235294117647,
+      "train_step": -1,
+      "test_score": 0.4870271959987496,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, isolate the essential data, pick the simplest valid method, compute the result, verify it briefly, and respond with only the final answer formatted exactly as required.",
+      "train_score": 0.6764705882352942,
+      "train_step": 86,
+      "test_score": 0.4851516098780869,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, isolate just the necessary data, solve using the most straightforward valid method, perform a brief sanity check, and respond with only the final answer in exactly the required format\u2014no extra text.",
+      "train_score": 0.5764705882352941,
+      "train_step": 99,
+      "test_score": 0.45826820881525476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem attentively, pinpoint the exact quantity sought, extract only the essential data, apply the most efficient valid approach, compute and briefly verify the result, then output solely the final answer in the precise format requested\u2014no extra commentary.",
+      "train_score": 0.6176470588235294,
+      "train_step": 99,
+      "test_score": 0.4366989684276336,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the statement, pinpoint the single value being asked, extract just the relevant figures, solve with the most efficient method, perform a quick sanity check, and write only that value in the exact output format\u2014nothing else.",
+      "train_score": 0.5058823529411764,
+      "train_step": 99,
+      "test_score": 0.3541731791184745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem attentively, pinpoint the exact quantity asked, isolate the minimal necessary data, apply the simplest correct method, verify the result briefly, and respond with only the final answer formatted exactly as required\u2014no additional explanation.",
+      "train_score": 0.49411764705882355,
+      "train_step": 99,
+      "test_score": 0.3351047202250703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the problem, identify the exact quantity sought, use the most straightforward correct method to compute it, perform a brief sanity check, and reply with only the precise answer in the required format, with no extra wording.",
+      "train_score": 0.4588235294117647,
+      "train_step": 99,
+      "test_score": 0.3304157549234136,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, extract the minimal set of numbers, select the quickest correct method, compute, perform a quick sanity check, and output only the final answer in the exact format, without any explanation or additional text.",
+      "train_score": 0.4294117647058823,
+      "train_step": 99,
+      "test_score": 0.2979055954985933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the exact quantity sought, extract only the numbers needed, choose the most straightforward computation, mentally verify the result, and respond with solely the final value in the precise format required\u2014nothing else.",
+      "train_score": 0.36470588235294116,
+      "train_step": 99,
+      "test_score": 0.24476398874648328,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5554860894029384,
+    "avg_test_score": 0.460367078997901,
+    "best_test_instruction": "Read the problem, extract the relevant information, devise a clear step\u2011by\u2011step plan using the appropriate concepts, carry out each step carefully, and finish with the final answer in the requested format\u2014no additional explanation needed."
+  }
+}

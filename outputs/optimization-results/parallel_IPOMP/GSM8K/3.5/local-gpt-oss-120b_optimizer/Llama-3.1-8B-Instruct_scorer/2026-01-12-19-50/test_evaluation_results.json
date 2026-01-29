@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine every explicit numeric value and its stated relationship, translate the whole problem into the most compact calculation (introducing a variable only if inevitable), perform the computation (showing only indispensable intermediate results if you wish), and output a single line containing solely the final number, without any additional text or units.",
+      "train_score": 0.9233716475095786,
+      "train_step": 11,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each stated number and its connection, formulate the answer with the smallest possible arithmetic expression (introducing a temporary variable only if the wording forces it), compute the value, and write exactly one line containing just that final number\u2014no additional text.",
+      "train_score": 0.9157088122605364,
+      "train_step": 67,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate every quantity, express the required total with the simplest possible arithmetic formula, compute it showing each operation, and respond with only the resulting number.",
+      "train_score": 0.9233716475095786,
+      "train_step": 3,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and how they relate, construct the simplest possible calculation that fulfills the problem, compute it (showing only essential intermediate steps if needed), and output only the final numeric result on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 6,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": " Identify all numeric facts and their connections, combine them into the most concise formula (one equation unless multiple are necessary), perform the calculation (showing only essential steps), and output a single line containing ONLY the final numeric answer, no added\n\n",
+      "train_score": 0.9233716475095786,
+      "train_step": 23,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit number and its described connection, merge them into the smallest possible arithmetic or algebraic expression that solves the question, compute it (showing only indispensable intermediate values if you wish), and reply with a single line containing exactly the final number and nothing else.",
+      "train_score": 0.9233716475095786,
+      "train_step": 13,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, pull each number and its operation, combine them into one arithmetic expression that follows the problem\u2019s logic, calculate it, and output only the final numeric value.",
+      "train_score": 0.9425287356321839,
+      "train_step": 5,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nDistill the problem to its raw numbers and relations, construct the most compact formula that yields the answer, compute it (showing only necessary intermediate values), and reply with a single line containing just the final number.\\n",
+      "train_score": 0.9157088122605364,
+      "train_step": 65,
+      "test_score": 0.8119787717968158,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all stated numbers and how they connect, synthesize them into the single most direct calculation (introducing variables only when unavoidable), perform the computation while showing any indispensable intermediate values, and output exactly one line that contains only the final numeric answer\u2014no words, symbols, or units.",
+      "train_score": 0.9157088122605364,
+      "train_step": 65,
+      "test_score": 0.8119787717968158,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical fact, express the required result with the most concise arithmetic expression (using at most one equation), calculate stepwise showing each intermediate value, and output ONLY the final numeric answer on its own line.",
+      "train_score": 0.9195402298850575,
+      "train_step": 4,
+      "test_score": 0.8066717210007581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit number and its stated relation, convert the whole problem into one direct computation (introduce auxiliary symbols only when the wording makes them unavoidable), evaluate it (displaying only truly needed intermediate values if you choose), and conclude with a single line that contains only the final numeric answer\u2014no words, symbols, or units.",
+      "train_score": 0.9233716475095786,
+      "train_step": 66,
+      "test_score": 0.7998483699772555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record every stated number and its connection, fuse them into a single, most\u2011compact calculation (use a variable only when the problem forces it), compute the result, and answer with a lone line containing just the number.",
+      "train_score": 0.9272030651340997,
+      "train_step": 7,
+      "test_score": 0.7975739196360879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note each explicit number and how it is related, combine them into the minimal possible arithmetic or algebraic expression (use at most one equation and introduce symbols only if unavoidable), evaluate it, and reply with a single line that contains only the final numeric result.",
+      "train_score": 0.9195402298850575,
+      "train_step": 9,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the required numbers and relationships, compute the answer using the simplest possible calculation (no extra variables unless unavoidable), and output exactly one line containing only the final numeric result\u2014no words, symbols, or units.",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.78013646702047,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8084291187739464,
+      "train_step": -1,
+      "test_score": 0.7543593631539045,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value and its stated relationship, convert the whole problem into the most direct single arithmetic/algebraic expression that yields the answer (introducing auxiliary symbols only if the wording forces it), evaluate that expression, and reply with exactly one line containing just the final number\u2014no words, symbols, or units.",
+      "train_score": 0.8045977011494253,
+      "train_step": 99,
+      "test_score": 0.6974981046247157,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all stated numbers and how they combine, convert the problem into the single simplest arithmetic expression (introduce extra symbols only if the text makes them unavoidable), evaluate it, and answer with exactly one line that contains solely the final numeric result\u2014no additional words, symbols or units.",
+      "train_score": 0.7662835249042146,
+      "train_step": 99,
+      "test_score": 0.6808188021228203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit quantity and its relationship, translate the problem into a single arithmetic expression (introducing a temporary variable only if unavoidable), evaluate it, and respond with exactly one line containing the final numeric result\u2014no additional text, symbols, or units.",
+      "train_score": 0.7126436781609196,
+      "train_step": 99,
+      "test_score": 0.6315390447308568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather each explicit numeric datum and its indicated operation, turn the whole problem into one direct arithmetic or algebraic formula (introducing auxiliary symbols only if the wording forces it), evaluate it, and reply with a single line that contains only the resulting number\u2014no words, symbols, or units.",
+      "train_score": 0.7432950191570882,
+      "train_step": 99,
+      "test_score": 0.6186504927975739,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every given number and the operation linking them, perform the exact calculation required, and answer with only the final numeric value on a single line\u2014no additional words, symbols, or units.",
+      "train_score": 0.7011494252873564,
+      "train_step": 99,
+      "test_score": 0.5572403335860501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine all numbers mentioned and how they are combined, create the most compact single computation (introducing a temporary variable only if the wording makes it necessary), evaluate it, and output just the final numeric result on one line\u2014nothing else.",
+      "train_score": 0.6283524904214559,
+      "train_step": 99,
+      "test_score": 0.535253980288097,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8324488248673237,
+    "avg_test_score": 0.75331239394924,
+    "best_test_instruction": "Determine every explicit numeric value and its stated relationship, translate the whole problem into the most compact calculation (introducing a variable only if inevitable), perform the computation (showing only indispensable intermediate results if you wish), and output a single line containing solely the final number, without any additional text or units."
+  }
+}

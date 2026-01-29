@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract the essential theorem or formula, carry out only the required computation with a brief justification, verify each intermediate result, and end the response with the final numeric answer on a single line.",
+      "train_score": 0.8941176470588236,
+      "train_step": 30,
+      "test_score": 0.7589871834948422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the lone essential formula, compute the result in the fewest logical steps while briefly justifying each, double\u2011check all intermediate numbers, and output solely the final answer on a separate line.",
+      "train_score": 0.9058823529411765,
+      "train_step": 40,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Craft a short, linear solution: pinpoint the required formula or rule, execute each arithmetic or algebraic step with a brief justification, double\u2011check the computations, and end with a single line that contains only the final numeric answer.",
+      "train_score": 0.888235294117647,
+      "train_step": 16,
+      "test_score": 0.7533604251328541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the decisive principle, execute only the required arithmetic or algebra with concise justification, double\u2011check the results, and conclude by writing the sole integer answer on its own line.",
+      "train_score": 0.888235294117647,
+      "train_step": 31,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single indispensable formula or fact, perform only the necessary calculations in a clear linear order while briefly justifying each step, verify every intermediate result, and conclude your response with one line that contains solely the final numeric answer.",
+      "train_score": 0.8823529411764706,
+      "train_step": 47,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute only what is necessary: state the key formula, perform the calculations in a brief, ordered manner, confirm the intermediate values, and conclude with the sole numeric answer on its own line.",
+      "train_score": 0.8941176470588236,
+      "train_step": 17,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Detect the fundamental mathematical task, perform the required calculations in a brief, logically ordered chain with short justification, validate each intermediate outcome, and conclude with only the final integer answer on a single line.",
+      "train_score": 0.8823529411764706,
+      "train_step": 24,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity to evaluate, write the minimal governing formula, then perform the computation in a linear sequence of single\u2011sentence steps, explicitly checking each intermediate value; finally output only the final numeric result on a solitary line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 99,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the minimal required expression, compute it in the fewest logical steps with brief justification, verify each intermediate value, and conclude with exactly one line containing only the final numeric answer.",
+      "train_score": 0.888235294117647,
+      "train_step": 68,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pick out the required value, carry out just the indispensable operations, giving a one\u2011sentence justification for each step, double\u2011check every intermediate outcome, and conclude with only the final number on a separate line.",
+      "train_score": 0.888235294117647,
+      "train_step": 86,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single essential value to find, perform only the required arithmetic or algebra in a brief, ordered sequence with concise justification, verify each intermediate result, and conclude with exactly one line containing just the final numeric answer.",
+      "train_score": 0.9,
+      "train_step": 76,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a succinct solution: pinpoint the central concept, perform the necessary computation with brief justification, verify any intermediate values, and finish by outputting only the final numeric answer on its own line.",
+      "train_score": 0.888235294117647,
+      "train_step": 12,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the single key fact needed, carry out only the indispensable computation with brief justification, verify each intermediate result, and conclude by outputting exactly one line containing the final numeric answer.",
+      "train_score": 0.8823529411764706,
+      "train_step": 27,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact value being asked, state the single necessary formula or counting principle, compute each intermediate quantity on its own short line with a one\u2011sentence justification, confirm each intermediate result, and finish with one line that contains only the final integer or decimal answer.",
+      "train_score": 0.8411764705882353,
+      "train_step": 99,
+      "test_score": 0.7364801500468896,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity to compute, perform the minimal sequence of calculations with a concise rationale, verify each intermediate result, and conclude the reply with a lone line that contains only the final number.",
+      "train_score": 0.888235294117647,
+      "train_step": 70,
+      "test_score": 0.7261644263832447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity to determine, write the simplest applicable formula, then execute the computation in a brief ordered list where each step is a single concise sentence that also checks the previous result; after all verification, output only the final numeric answer on a separate line with no other characters.",
+      "train_score": 0.8294117647058824,
+      "train_step": 99,
+      "test_score": 0.7233510472022507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise, step\u2011by\u2011step derivation: name the key principle, execute each calculation with a brief justification, verify each intermediate result, and finish by writing only the final numeric answer on a separate line.",
+      "train_score": 0.8823529411764706,
+      "train_step": 6,
+      "test_score": 0.7170990934667083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "  \nState the exact value to be found, then perform the shortest possible sequence of calculations. For each step write a numbered line containing the operation and a brief one\u2011sentence justification, immediately verify the result, and after the last verification output only the final numeric answer on a single line by itself.  \n",
+      "train_score": 0.788235294117647,
+      "train_step": 99,
+      "test_score": 0.7067833698030634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity sought; for each required computation write a numbered short line with a brief justification and the resulting value, confirm each intermediate result, and finish with a single line that contains only the final numeric answer.",
+      "train_score": 0.8529411764705882,
+      "train_step": 99,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8529411764705882,
+      "train_step": -1,
+      "test_score": 0.6980306345733042,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity required, then in a minimal chain of calculations list each operation on its own line with a brief justification, verify every intermediate result, and terminate the answer with a single line containing only the final numeric value\u2014no extra text.",
+      "train_score": 0.8235294117647058,
+      "train_step": 99,
+      "test_score": 0.6945920600187558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7589871834948422,
+    "avg_test_score": 0.7337411988865566,
+    "best_test_instruction": "Extract the essential theorem or formula, carry out only the required computation with a brief justification, verify each intermediate result, and end the response with the final numeric answer on a single line."
+  }
+}

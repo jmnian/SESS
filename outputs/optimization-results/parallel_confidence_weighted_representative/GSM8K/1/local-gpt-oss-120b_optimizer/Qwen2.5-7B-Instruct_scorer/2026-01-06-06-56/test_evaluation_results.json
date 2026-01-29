@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all quantities, translate the relationships into equations, solve for the unknown(s) step\u2011by\u2011step, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out the numbers and their meanings, decide which basic arithmetic or rate relation is needed, compute the result step\u2011by\u2011step, and give only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 1,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all explicit numbers and their meanings, discard unrelated wording, formulate the single most direct arithmetic or one\u2011unknown linear expression needed to obtain the requested value, compute it step\u2011by\u2011step with a quick sanity check, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 16,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every quantity mentioned, translate the whole scenario into one minimal arithmetic expression that directly yields the answer, evaluate it step\u2011by\u2011step (including a quick sanity check), and output solely the final numeric value.",
+      "train_score": 0.972972972972973,
+      "train_step": 8,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every explicit numeric quantity and what it represents, then write the simplest single expression\u2014either one basic arithmetic operation (+, \u2013, \u00d7, \u00f7) or a one\u2011unknown linear equation\u2014that directly yields the required value. Compute it, perform a quick plausibility check, and output only the final numeric answer including units if specified.",
+      "train_score": 0.9864864864864865,
+      "train_step": 56,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the value sought, list each explicit numeric datum and its role, formulate the single simplest arithmetic or one\u2011variable linear operation that connects them, compute the result with a brief verification, and output just the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 21,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and their meanings, construct the one\u2011step numerical expression (using +, \u2013, \u00d7, \u00f7 or a single\u2011unknown linear equation) that yields the quantity asked for, evaluate it, perform a quick plausibility check, and output only the final answer in the required units.",
+      "train_score": 0.972972972972973,
+      "train_step": 29,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their meanings, formulate the one minimal arithmetic or linear equation that directly answers the question, solve it with brief step\u2011by\u2011step reasoning, and output only the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 11,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every numerical datum and its role, translate the problem into the minimal necessary arithmetic (or a one\u2011step equation), compute the answer with brief justification, and present only the final integer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 15,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number mentioned and its meaning, discard unrelated wording, formulate the unique arithmetic expression or one\u2011variable equation that directly answers the question, evaluate it with a concise step\u2011wise check, and return solely the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 11,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all given numbers with their meanings, pinpoint the target value, then write the most direct formula\u2014either one elementary operation (+, \u2013, \u00d7, \u00f7) on the necessary numbers or a single\u2011unknown linear equation\u2014solve it, perform a brief sanity check, and return solely the final answer (with units if the question specifies).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given numeric value with its meaning, identify the specific quantity being asked, then create the single required formula\u2014either one elementary arithmetic operation on the appropriate numbers or a one\u2011variable linear equation\u2014to compute that quantity. Solve it, do a brief sanity check, and output only the final numeric result (including units if the problem specifies).",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the statement, assign variables to unknowns, translate every sentence into a simple equation, solve the resulting equations systematically, and output only the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit quantity, state the unknown being asked, construct the single most direct computation\u2014either a single binary arithmetic operation (+, \u2013, \u00d7, \u00f7) on the relevant numbers or a one\u2011variable linear equation linking the unknown to those numbers\u2014solve it, perform a brief consistency check, and return only the final numeric answer (include units if the question demands).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every stated number, construct the one\u2011step formula (either a single +, \u2013, \u00d7, \u00f7 or a one\u2011variable linear equation) that directly gives the asked quantity, compute it, do a quick consistency check, and output only the final numeric answer with units if needed.",
+      "train_score": 0.972972972972973,
+      "train_step": 46,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given quantities with their meanings, pinpoint the exact quantity being asked, and then derive the single most direct numerical relation that uses each relevant number exactly once\u2014either a solitary arithmetic operation (+, \u2013, \u00d7, \u00f7) or a one\u2011unknown linear equation. Solve this relation, quickly verify the result makes sense, and output only the final numeric answer (with units if the question includes them).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every explicit numeric datum and its role, determine the unknown quantity sought, and immediately write the single simplest mathematical expression\u2014either one basic operation (+, \u2013, \u00d7, \u00f7) on the relevant numbers or a one\u2011variable linear equation\u2014that yields the requested value; evaluate it, do a quick plausibility check, and output only the final numeric result (including units if the problem demands).",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all quantities supplied, mark the quantity the problem asks for, then create the simplest possible formula that either (i) applies one arithmetic operator to the relevant numbers, or (ii) sets up a single\u2011unknown linear equation linking the unknown to the given data. Evaluate, do a brief consistency check, and return only the numeric answer (including units when stated).",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.868081880212282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pull out each number with its meaning, assign one variable to the quantity being asked, formulate the single simplest arithmetic relation or one\u2011unknown linear equation that connects the variable to the given numbers, compute the solution with a brief check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 18,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to find, note every explicit number and its role, directly compute the answer by either (i) applying a single arithmetic operation to the relevant numbers or (ii) solving a one\u2011unknown linear equation, then output the result alone (with units if asked).",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.8801039748727393,
+    "best_test_instruction": "Identify all quantities, translate the relationships into equations, solve for the unknown(s) step\u2011by\u2011step, and output only the final numeric answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Translate the problem into mathematical equations, solve them systematically, and verify that the solution satisfies all given conditions.",
+      "train_score": 0.8333333333333334,
+      "train_step": 0,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Block and closing",
+      "train_score": 0.8541666666666666,
+      "train_step": 66,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into precise mathematical statements, then work through a clear, ordered sequence of deductions\u2014showing each intermediate step and justification\u2014and finally give the exact answer, confirming it satisfies all conditions.",
+      "train_score": 0.8541666666666666,
+      "train_step": 3,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7916666666666666,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Assign symbols, write the exact relation(s) that capture the requirement, then solve using a numbered list; for each number give (a) the manipulation, (b) a brief justification, and (c) any intermediate result needed later. Conclude with a single\u2011sentence verification by substituting the result back into the original condition and print only the final numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 96,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence, define the unknown(s), and translate the condition(s) into exact algebraic equation(s). Solve them in a numbered list; for each number give (i) the algebraic manipulation, (ii) a brief rationale, and (iii) any intermediate quantity that will be needed later. After the last line perform a one\u2011sentence plug\u2011in check that the obtained value satisfies the original condition, then output only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 28,
+      "test_score": 0.7149109096592685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in a single sentence, define the unknown(s), write the precise mathematical relation(s) that capture the requirement, then resolve them in a numbered chain of at most three steps; each step must show the operation, a brief reason, and any intermediate value needed later. Conclude with a one\u2011line check that the obtained value satisfies the original condition, and print only the final numeric answer on its own line.",
+      "train_score": 0.875,
+      "train_step": 25,
+      "test_score": 0.7139731165989371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the goal in one sentence, introduce any symbols needed, and write the exact equation(s) that capture the problem. Then solve them in a numbered sequence where each item contains (i) the operation performed, (ii) a brief justification, and (iii) any intermediate value that will be reused. After the last step, substitute the result back into the original condition in a single sentence to confirm correctness, and finally output only the final numeric answer on its own line.",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7133479212253829,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in a single sentence, define the unknown(s), write the exact formula(s) that give the desired quantity, then compute it in a short numbered routine (each step: calculation, one\u2011line reason, any intermediate value). Conclude with a quick plug\u2011in check that the value satisfies the original statement and print only the final number on a line by itself.",
+      "train_score": 0.8541666666666666,
+      "train_step": 31,
+      "test_score": 0.7133479212253829,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one brief sentence, denote every variable, write the precise algebraic relation(s) that capture the requirement, then solve in a numbered list (each item: computation\u202f+\u202fshort reason\u202f+\u202fany reused value). After the final item, perform a one\u2011sentence plug\u2011in check that the result satisfies all original conditions, and output only the final numeric answer on a line by itself.",
+      "train_score": 0.8541666666666666,
+      "train_step": 48,
+      "test_score": 0.7011566114410753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the question briefly, introduce any needed variables, and formulate the exact algebraic condition(s). Solve the problem in a clear, numbered sequence where each step lists (i) the calculation performed, (ii) a concise justification, and (iii) any intermediate result that will be reused. After the last step, perform a one\u2011sentence verification by substituting the result back into the original condition(s). Finally, output only the numeric answer on a line by itself.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.700218818380744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, extract the core quantity to compute, then produce a compact solution as a numbered chain: each step states the calculation, a one\u2011sentence reason, and records any value needed later. End with a brief plug\u2011in check that the obtained number satisfies every requirement, and print only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 14,
+      "test_score": 0.6964676461394186,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the asked quantity in one sentence, define all symbols, write the precise equation(s) that represent the situation, then resolve them in a numbered sequence where each entry lists (a) the algebraic manipulation, (b) the rule used, and (c) the resulting intermediate value. End with a single sentence plugging the final value back into the original condition, and print only that final numeric value on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 63,
+      "test_score": 0.6958424507658644,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in a single line, introduce all variables, write the precise formula(s) or equation(s) that model the situation, then solve in a compact numbered list where each line shows the computation, a brief rationale, and records any intermediate result. End with a one\u2011sentence check that the obtained value satisfies every original condition and print only the final numeric answer on a separate line.",
+      "train_score": 0.875,
+      "train_step": 34,
+      "test_score": 0.6908408877774305,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in a single sentence, denote every variable, write the exact equation(s) that represent the situation, then resolve them in a compact sequence of no more than three steps; for each step give the operation, a brief rationale, and keep any intermediate value needed later. Conclude with a quick plug\u2011in verification that the result fulfills all original requirements and print only the final numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 37,
+      "test_score": 0.6899030947170991,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single sentence, identify the core principle that applies, then work through a concise numbered solution where each step shows the calculation, a brief justification, and any intermediate result needed later. After completing the steps, perform a quick check that the result satisfies all original conditions and output only the final numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 8,
+      "test_score": 0.6802125664270084,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one brief sentence, introduce any variables, and write the exact governing equation(s) or formula(s). Solve it in a numbered list of no more than three items; each item must contain (i) the performed operation, (ii) a short justification, and (iii) any intermediate result needed later. After the last item, give a single\u2011sentence check by substituting the obtained value into the original condition, and then output only the final numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 43,
+      "test_score": 0.6677086589559237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one concise sentence, pinpoint the central mathematical principle involved, introduce any necessary variables, then compute the answer in a numbered list of at most three items; each item must contain (i) the exact computation or theorem used, (ii) the resulting intermediate value. Conclude with a single\u2011sentence verification that the obtained number satisfies the original condition, and print only that final numeric answer on a separate line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 76,
+      "test_score": 0.6380118787120975,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question in one sentence, introduce symbols for unknowns, and write the precise mathematical condition(s). Solve by listing at most three numbered steps; each step must contain (a) the exact manipulation performed, (b) a brief reason, and (c) any intermediate quantity that will be reused. After the last step, substitute the obtained value back into the original condition in one sentence to confirm correctness, then output only the final numeric answer on a separate line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6298843388558925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence. Introduce symbols for every unknown and write the exact equation(s) that represent the condition(s). Solve them by a bullet\u2011point list; for each bullet give (i) the operation or formula applied, (ii) a short reason, and (iii) the intermediate value that will be required later. After the last bullet, verify the result by substituting it back into the original condition in a single sentence. Finally, output only the numeric answer on its own line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.6083150984682714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a one\u2011sentence recap, define variables, express the core equation(s). Then give a bullet\u2011point proof where each bullet contains (i) the transformation, (ii) the principle applied, and (iii) the resulting expression (if reused). After the last bullet, perform a one\u2011line sanity check by plugging the result back, and print the final number alone on a line.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6067521100343858,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7474210690840888,
+    "avg_test_score": 0.6934160972923086,
+    "best_test_instruction": "Translate the problem into mathematical equations, solve them systematically, and verify that the solution satisfies all given conditions."
+  }
+}

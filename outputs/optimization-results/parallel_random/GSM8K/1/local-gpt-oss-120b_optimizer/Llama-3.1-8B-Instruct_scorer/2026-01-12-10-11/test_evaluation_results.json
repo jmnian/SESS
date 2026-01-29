@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Return the exact integer answer as a single uninterrupted digit string, with no additional characters, spaces, or line breaks.",
+      "train_score": 0.9594594594594594,
+      "train_step": 7,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Print only the final integer value\u2014no spaces, newlines, or any other characters before or after the digits.",
+      "train_score": 0.9459459459459459,
+      "train_step": 37,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return the exact numeric answer as a plain integer string\u2014no spaces, newline characters, markdown, or any other symbols surrounding it.",
+      "train_score": 0.972972972972973,
+      "train_step": 34,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Print only the integer answer as a continuous digit string\u2014no spaces, letters, symbols, or newline characters before or after it.",
+      "train_score": 0.972972972972973,
+      "train_step": 40,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem and output only the final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 0,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return the answer as a single integer token\u2014only the digit characters (with an optional leading minus sign)\u2014and nothing else (no spaces, line breaks, or other symbols).",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8203184230477635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Return only the integer answer as a plain, uninterrupted digit sequence\u2014no spaces, letters, symbols, or line breaks.",
+      "train_score": 0.9459459459459459,
+      "train_step": 47,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the final integer result as a plain, continuous digit string with no extra characters, whitespace, or line breaks before or after it.",
+      "train_score": 0.9459459459459459,
+      "train_step": 36,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Print the answer as a single integer token\u2014only digits (and a leading \u2018\u2011\u2019 if negative)\u2014with no preceding or trailing characters, whitespace, or line\u2011breaks.",
+      "train_score": 0.9459459459459459,
+      "train_step": 76,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the exact integer result\u2014no extra spaces, symbols, or line breaks before or after the digits.",
+      "train_score": 0.9459459459459459,
+      "train_step": 93,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Print exactly the integer answer as a single uninterrupted digit string, with no surrounding whitespace, symbols, or newline characters before or after it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 72,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return solely the integer result\u2014exact digits only\u2014with no preceding or trailing whitespace, punctuation, or line breaks.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Return the answer as a plain integer, with no surrounding characters, spaces, or line\u2011breaks\u2014just the digits.",
+      "train_score": 0.9459459459459459,
+      "train_step": 12,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exclusively the integer result, with no additional characters, spaces, or line breaks surrounding it.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8051554207733131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Return the answer as a bare integer token: a sequence of digits (optionally prefixed with a minus sign) with nothing else\u2014no spaces, line breaks, or any other characters surrounding it.",
+      "train_score": 0.9459459459459459,
+      "train_step": 83,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Calculate the answer and output only the integer result as a continuous string of digits, without any extra characters, spaces, or line breaks.",
+      "train_score": 0.9324324324324325,
+      "train_step": 11,
+      "test_score": 0.7998483699772555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return the answer as a plain integer string with no leading or trailing spaces, line breaks, or any other characters\u2014only the digit sequence (and an optional leading \u2018\u2011\u2019 for negatives).",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7432432432432432,
+      "train_step": -1,
+      "test_score": 0.7513267626990144,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Emit only the numeric answer as a contiguous string of digits (include a leading \u2018-\u2019 if the result is negative), with no preceding or trailing characters, whitespace, markdown, or newline characters.",
+      "train_score": 0.16216216216216217,
+      "train_step": 99,
+      "test_score": 0.14935557240333586,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with exactly the integer answer\u2014no spaces, no line breaks, no punctuation, no markdown, and no other characters surrounding it.",
+      "train_score": 0.06756756756756757,
+      "train_step": 99,
+      "test_score": 0.06899166034874905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer with only the integer result\u2014just the digits (and a leading \u2018\u2011\u2019 if negative)\u2014and nothing else.",
+      "train_score": 0.013513513513513514,
+      "train_step": 99,
+      "test_score": 0.003032600454890068,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.824109173616376,
+    "avg_test_score": 0.7049712986028376,
+    "best_test_instruction": "Return the exact integer answer as a single uninterrupted digit string, with no additional characters, spaces, or line breaks."
+  }
+}

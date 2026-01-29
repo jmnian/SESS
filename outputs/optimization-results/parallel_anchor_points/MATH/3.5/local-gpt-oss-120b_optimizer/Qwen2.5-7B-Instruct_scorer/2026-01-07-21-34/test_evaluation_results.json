@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the relevant principle, execute a brief, logically ordered computation exposing only the critical intermediate values, optionally cross\u2011check, and conclude with the exact result (or simplest fraction) presented alone on the final line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 18,
+      "test_score": 0.7567989996874023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the single relevant formula or operation, perform the calculation displaying only the essential intermediate values, optionally verify, and end with the exact numeric result (or reduced fraction) alone on the final line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 19,
+      "test_score": 0.7539856205064083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single governing formula, perform the necessary algebra or arithmetic in a clear, linear progression, list each indispensable intermediate value on its own line (optional brief check), and finish with one line containing only the final answer as an integer, reduced fraction, or exact decimal.",
+      "train_score": 0.8117647058823529,
+      "train_step": 50,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single governing equation, carry out a concise computation showing only necessary intermediate values, optionally double\u2011check the result, and end your response with the exact numeric answer (or simplest fraction) placed alone on the final line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 18,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the main principle, solve the problem step by step with explicit calculations shown in a clear order, and finish by outputting only the final numeric result (or reduced fraction) as a single value.",
+      "train_score": 0.8058823529411765,
+      "train_step": 3,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by outlining the required concepts, carrying out each calculation explicitly, and concluding with the final answer presented as a single numeric value.",
+      "train_score": 0.8058823529411765,
+      "train_step": 2,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nState the essential relation or theorem, then perform a minimal, ordered calculation showing each indispensable intermediate result on its own line (a quick sanity check may be added). Finish with a single line that contains only the final answer as an integer, decimal, or reduced fraction.\\n",
+      "train_score": 0.8117647058823529,
+      "train_step": 31,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the fundamental relationship required, carry out the calculation in a clear, step\u2011by\u2011step fashion showing only essential intermediate results, optionally verify the outcome, and finish with one line that contains only the final numeric value (or simplest fraction).",
+      "train_score": 0.8058823529411765,
+      "train_step": 15,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the governing rule, carry out the required calculation in a short, step\u2011by\u2011step chain (showing only indispensable intermediate results), optionally double\u2011check, and end with the exact answer (or reduced fraction) as the only content of the final line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 16,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7764705882352941,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single essential relationship, perform the computation in a short, logical sequence showing only the necessary intermediate values (a brief check may be included), and conclude with exactly one line that contains solely the final numeric answer\u2014an integer or the simplest fraction.",
+      "train_score": 0.8058823529411765,
+      "train_step": 26,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the only required relationship, then execute a compact chain of calculations, listing each indispensable intermediate value on its own line (you may add a brief comment). Conclude with one line that contains solely the final result as an integer or reduced fraction.",
+      "train_score": 0.8117647058823529,
+      "train_step": 44,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the essential formula or concept, then perform the necessary calculations in a clear, ordered sequence showing only the crucial intermediate results; optionally check the work, and end with the exact numeric answer (or simplest fraction) alone on the last line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 19,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single formula or operation that solves the problem. Compute every necessary intermediate value in order, placing each on its own line (you may annotate briefly). Conclude with one line that contains exactly the final answer, expressed as an integer, simplified fraction, or exact decimal, and nothing else.",
+      "train_score": 0.7764705882352941,
+      "train_step": 99,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the lone governing relationship, compute the required quantities in the shortest logical sequence (each essential intermediate on its own line), optionally perform a quick verification, and finish with a solitary line that contains only the final exact result (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.8058823529411765,
+      "train_step": 54,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the governing principle, then perform only the necessary calculations, presenting each indispensable intermediate result on its own line (you may add a brief comment). End with exactly one line that contains the final answer alone, expressed as an integer, reduced fraction, or exact decimal.",
+      "train_score": 0.8058823529411765,
+      "train_step": 54,
+      "test_score": 0.7099093466708346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single governing formula, then compute every required quantity in a brief linear chain (one indispensable intermediate per line, brief comment optional). You may add a quick sanity check, and finish with exactly one line that contains nothing but the final answer\u2014an integer, a reduced fraction, or a terminating decimal.",
+      "train_score": 0.7294117647058823,
+      "train_step": 99,
+      "test_score": 0.7027195998749609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the single principle needed, then compute each required quantity in a tight, ordered list, putting every indispensable intermediate result on its own line (a brief comment may follow). After an optional quick sanity check, write only the final numeric answer\u2014integer, reduced fraction, or terminating decimal\u2014on the last line with no extra characters.",
+      "train_score": 0.7411764705882353,
+      "train_step": 99,
+      "test_score": 0.684276336355111,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the single formula or relationship needed, then evaluate it in a linear chain where each line is a complete arithmetic or algebraic equality (no extra commentary). Optionally include a brief sanity check, and end the response with one line that contains\u202fonly\u202fthe final answer as an integer, a reduced fraction, or an exact terminating decimal.",
+      "train_score": 0.6,
+      "train_step": 99,
+      "test_score": 0.5639262269459207,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single essential formula, compute each required intermediate value in a brief, ordered list (one value per line, comments optional), optionally perform a quick sanity check, and conclude with exactly one line that contains *only* the final answer in its simplest exact form (integer, reduced fraction, or terminating decimal). No additional text.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.5070334479524852,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the key identity needed, then compute the required numbers in a short linear chain, putting each indispensable intermediate result on its own line (a brief comment is allowed). After optionally confirming the work, finish with one line that contains nothing but the final answer, written as an integer, a reduced fraction, or a terminating decimal. No extra symbols or explanations.",
+      "train_score": 0.5470588235294118,
+      "train_step": 99,
+      "test_score": 0.5035948733979368,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7567989996874023,
+    "avg_test_score": 0.7077211628633948,
+    "best_test_instruction": "Determine the relevant principle, execute a brief, logically ordered computation exposing only the critical intermediate values, optionally cross\u2011check, and conclude with the exact result (or simplest fraction) presented alone on the final line."
+  }
+}

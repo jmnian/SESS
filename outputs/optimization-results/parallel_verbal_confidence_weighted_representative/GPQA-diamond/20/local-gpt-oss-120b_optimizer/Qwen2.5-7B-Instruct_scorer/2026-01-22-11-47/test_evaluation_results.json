@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Carefully read the problem, perform all necessary calculations or logical deductions, double\u2011check the result against each option, and finally output only the single uppercase letter (A\u2011D) that corresponds to the correct choice. End the response immediately after that letter.",
+      "train_score": 0.41025641025641024,
+      "train_step": 15,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Thoroughly read the question and all answer choices. Perform any needed reasoning or calculations internally, then double\u2011check the result against the options. Respond with exactly one capital letter (A\u2011D) representing the correct choice, and nothing else. End the response immediately after that letter.",
+      "train_score": 0.38461538461538464,
+      "train_step": 36,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After fully reading the prompt and options, solve it internally (a short chain\u2011of\u2011thought is allowed). Confirm the chosen option, then output only the single uppercase letter A, B, C, or D\u2014nothing else. For several items, place each letter on its own line, ending immediately after the final character.",
+      "train_score": 0.38461538461538464,
+      "train_step": 30,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire problem and all answer choices. Perform any required reasoning internally (a brief chain\u2011of\u2011thought is permitted). Then reply with only the correct option letter(s) A\u2011D\u2014one letter per question, with no spaces, punctuation, quotes, or other characters before or after, and terminate immediately.",
+      "train_score": 0.41025641025641024,
+      "train_step": 43,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read each problem, carry out any required reasoning or calculations internally, and then output only the single correct answer letter (A, B, C, or\u202fD).  Do not include spaces, punctuation, explanations, or any other characters.  For several questions, list the letters in order, one per line.",
+      "train_score": 0.38461538461538464,
+      "train_step": 6,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve each multiple\u2011choice item internally. Then output only the sequence of answer letters (A\u2011D) in order, each on its own line, containing no spaces, punctuation, markup or extra characters before the first letter or after the last. End the response immediately after the final letter.",
+      "train_score": 0.41025641025641024,
+      "train_step": 72,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, calculate the required result, compare it with the answer choices, and output the corresponding option letter.",
+      "train_score": 0.38461538461538464,
+      "train_step": 0,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving each question, output only the uppercase answer choice (A, B, C, or D). For multiple items write each letter on a separate line. Do not include any other characters, spaces, or markup before the first letter or after the last. End the response immediately after the final letter.",
+      "train_score": 0.41025641025641024,
+      "train_step": 89,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, parse the entire question and all answer options. Then, work out the solution using any needed calculations or logical deduction, explicitly showing a brief internal reasoning trace. Finally, respond with a single capital letter (A\u2011D) that corresponds to the correct answer, without any additional symbols, whitespace, or explanation. End your output immediately after that letter.",
+      "train_score": 0.38461538461538464,
+      "train_step": 29,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read every question completely, work out the answer internally, and output only the correct option letter (A\u2011D). For multiple items list one letter per line in order, with no spaces, punctuation, or extra characters before or after the letters.",
+      "train_score": 0.38461538461538464,
+      "train_step": 43,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read every question, determine the correct answer, and output only the uppercase option letter (A\u2011D). For multiple questions write each letter on its own line, with absolutely no spaces, punctuation, markdown, or additional line breaks before the first letter or after the last one. End the output directly after the final character.",
+      "train_score": 0.38461538461538464,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "When you have determined the correct choice(s), reply with only the capital letters A\u2011D corresponding to each question, one per line, without any additional symbols, spaces, or formatting. Do not include a trailing newline after the last letter.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For every presented multiple\u2011choice query, solve it internally (you may write a brief chain\u2011of\u2011thought). Then output exactly the letter of the correct option (A, B, C, or D). If there are several queries, place each letter on its own line, with no surrounding spaces, punctuation, or markup, and terminate immediately after the final character.",
+      "train_score": 0.38461538461538464,
+      "train_step": 45,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2564102564102564,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.38461538461538464,
+      "train_step": 28,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire prompt, solve the problem internally, and reply with only the uppercase answer letter\u202f(A\u2011D). For several questions list each letter on its own line, with no spaces, punctuation, or extra characters before or after, and stop output right after the final character.",
+      "train_score": 0.38461538461538464,
+      "train_step": 46,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving each question, output ONLY the uppercase answer choice (A\u2011D) for that question. List each answer on its own line, with no spaces, punctuation, formatting, or extra line breaks before the first answer or after the last. End the response immediately after the final character.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving the question(s), output only the uppercase answer choice(s) A\u2011D, one per line, with no extra characters, spaces, punctuation, or markup before the first letter or after the last. End the response immediately after the final letter.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve each question internally. Then, in the final answer, output ONLY the correct choice letters (A\u2011D), one per line, with absolutely no other characters\u2014no spaces, punctuation, markdown, or extra line breaks before the first letter or after the last. End the response immediately after the final letter.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem internally. Respond exactly with the sequence of answer letters (A\u2011D) corresponding to each item, each on its own line. Do not include any other characters, spaces, or formatting before the first letter or after the final one.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the answer choice letters (A\u2011D). Output one letter per line, each being a single uppercase character with no surrounding spaces, punctuation, markup, or extra line breaks before the first or after the last character. End the response immediately after the final letter.",
+      "train_score": 0.2564102564102564,
+      "train_step": 99,
+      "test_score": 0.24242424242424243,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.35858585858585856,
+    "avg_test_score": 0.3097643097643098,
+    "best_test_instruction": "Carefully read the problem, perform all necessary calculations or logical deductions, double\u2011check the result against each option, and finally output only the single uppercase letter (A\u2011D) that corresponds to the correct choice. End the response immediately after that letter."
+  }
+}

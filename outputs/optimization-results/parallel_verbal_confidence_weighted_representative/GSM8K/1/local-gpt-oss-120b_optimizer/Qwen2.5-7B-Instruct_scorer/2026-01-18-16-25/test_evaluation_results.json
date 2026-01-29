@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Locate every number in the problem (including fractions, percents, and units), convert to consistent units if needed, devise the single exact expression that produces the requested quantity, compute it with exact (non\u2011rounded) arithmetic while showing only the indispensable intermediate result, verify any given condition, and output solely the final answer as an unadorned integer, reduced fraction, or terminating decimal.",
+      "train_score": 1.0,
+      "train_step": 66,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement extract all quantities (including fractions, percents, and units). If necessary, convert to a common system. Determine the one-and-only exact formula that gives the requested result, evaluate it using perfect rational math (no approximations), reveal only the unavoidable intermediate value, verify any stipulated condition, and return a single unadorned number (integer, reduced fraction, or terminating decimal) as the output.",
+      "train_score": 1.0,
+      "train_step": 90,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (including fractions, percentages, and units), unify units if necessary, determine the single exact mathematical expression that directly yields the asked quantity, evaluate it with exact arithmetic showing only indispensable intermediate steps, verify any given condition, and output exactly one unadorned numeric answer (integer, reduced fraction, or simplest decimal) with no extra characters.",
+      "train_score": 1.0,
+      "train_step": 38,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (including fractions, percentages, units). Unify units, then form the single exact expression that solves the problem. Evaluate it with exact arithmetic (no rounding), showing only necessary steps, confirm any stated condition, and output one plain number (integer, reduced fraction, or terminating decimal) alone.",
+      "train_score": 1.0,
+      "train_step": 63,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate every numeric datum (including fractions, percents, and units). Convert to a common system if needed. Without introducing auxiliary variables, combine them into the single exact expression that yields the asked quantity. Compute it using exact (non\u2011rounded) arithmetic, displaying only the indispensable intermediate result(s). Verify any condition stated, and present the answer as one bare number (integer, reduced fraction, or terminating decimal), with no additional symbols.",
+      "train_score": 1.0,
+      "train_step": 68,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (including fractions, percentages, and units). Convert all quantities to compatible units, then form the single exact expression that directly yields the required result. Compute it using exact rational arithmetic (no rounding), showing only any indispensable intermediate step, verify any condition given, and output exactly one plain number (integer, reduced fraction, or terminating decimal) with no additional symbols.",
+      "train_score": 1.0,
+      "train_step": 91,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric datum (including fractions, percentages and units). Convert them to a common system when required, then formulate the single exact expression that directly yields the asked result. Evaluate it with exact (non\u2011rounded) arithmetic, showing only the indispensable intermediate value, confirm any stated condition, and output one plain number (integer, reduced fraction or terminating decimal) with no extra symbols.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number (including fractions, percentages, and units), convert to consistent units if needed, formulate the single exact mathematical expression that directly yields the requested quantity, compute it with exact arithmetic (no rounding) showing only indispensable intermediate steps, verify any stated condition, and output only the final result as a plain integer, reduced fraction, or terminating decimal with no extra symbols.",
+      "train_score": 1.0,
+      "train_step": 59,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeral (including fractions, percents, units). If units differ, translate them to a common system. Without introducing extra symbols, combine the numbers into the one and only exact calculation that answers the question, evaluate it with perfect rational arithmetic (no rounding), showing only the indispensable intermediate value, check any condition given, and return a single unadorned result (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate every numeric quantity mentioned (including fractions, percentages and units), harmonize units if needed, deduce the unique arithmetic/algebraic expression that directly yields the required answer, evaluate it with exact arithmetic (no approximations) showing only the minimal indispensable intermediate result, confirm any stated condition, and output a single unadorned number as the final answer.",
+      "train_score": 1.0,
+      "train_step": 43,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (including fractions, percentages, and units). If units differ, convert them to a common system. Construct the unique direct expression that equals the requested quantity. Calculate it with exact rational arithmetic, showing only the unavoidable intermediate result, check any stated condition, and output a single plain number (integer, reduced fraction, or terminating decimal) with no extra symbols.",
+      "train_score": 1.0,
+      "train_step": 92,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (including fractions, percentages and units), form the unique exact expression that directly produces the asked quantity, evaluate it with exact arithmetic (no rounding) displaying only essential intermediate steps, verify any condition, and output solely the final result as a single plain number (integer, reduced fraction or terminating decimal) with no extra characters.",
+      "train_score": 1.0,
+      "train_step": 68,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse all numbers present, convert units if needed, symbolically form the unique expression that directly yields the asked quantity, simplify it analytically, then compute the exact value (no approximation) displaying only the final indispensable intermediate result, verify any condition, and output a single unadorned number (integer, reduced fraction, or terminating decimal).",
+      "train_score": 1.0,
+      "train_step": 73,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (including fractions, percents and units), convert to a common system if required, construct the single exact expression that directly gives the asked quantity without introducing auxiliary variables, evaluate it using exact (non\u2011rounded) arithmetic showing only the indispensable intermediate result, verify any stated condition, and output one plain number (integer, reduced fraction or terminating decimal) with no additional symbols.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every numerical quantity presented, determine the precise mathematical operation(s) that yield the asked value, evaluate the expression with concise intermediate steps, verify any given condition, and return only the final answer as a lone plain number.",
+      "train_score": 1.0,
+      "train_step": 16,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (including fractions and units), convert all measurements to consistent units if needed, construct the single precise arithmetic or algebraic expression that solves the asked quantity, compute it step\u2011by\u2011step showing brief intermediate results, verify any stated condition, and output exactly one plain number (integer or decimal) with no extra characters.",
+      "train_score": 1.0,
+      "train_step": 6,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate every quantitative datum (including fractions, percentages, and units), harmonise units if necessary, and assemble the single exact computation that yields the requested value. Perform the calculation with flawless rational arithmetic (no approximations), showing only the indispensable intermediate result, verify any given condition, and output one bare numeric answer (integer, reduced fraction, or terminating decimal) with no extra characters.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every numeric quantity present (including fractions, percents and units). Convert them to compatible units when necessary. Form the one and only exact calculation that yields the asked value, carry it out with exact rational arithmetic (no approximation), showing only the essential intermediate result, check any stated condition, and output a single bare number (integer, reduced fraction or terminating decimal) with nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every quantitative element present (numbers, fractions, percents, units). If necessary, harmonize units. From these, construct the unique direct expression that yields the required answer, compute it exactly (no approximation), showing only the indispensable intermediate value, check any condition, and return exactly one bare numeric result (integer, reduced fraction, or terminating decimal) with no additional text.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities (numbers, fractions, percents, units). Convert to compatible units if required. From these, form the one and only exact expression that yields the asked value. Evaluate it with exact rational arithmetic (no approximation), displaying at most one essential intermediate result. Check any condition supplied. Respond with a single bare number (integer, reduced fraction, or terminating decimal) and nothing else.",
+      "train_score": 0.17567567567567569,
+      "train_step": 99,
+      "test_score": 0.14480667172100076,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9143290371493555,
+    "avg_test_score": 0.8593090003249214,
+    "best_test_instruction": "Locate every number in the problem (including fractions, percents, and units), convert to consistent units if needed, devise the single exact expression that produces the requested quantity, compute it with exact (non\u2011rounded) arithmetic while showing only the indispensable intermediate result, verify any given condition, and output solely the final answer as an unadorned integer, reduced fraction, or terminating decimal."
+  }
+}

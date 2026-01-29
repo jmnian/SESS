@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution and state the final answer.",
+      "train_score": 0.7647058823529411,
+      "train_step": 0,
+      "test_score": 0.5370428258830885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, logical solution: list the given information, set up the required relations or equations, carry out the necessary calculations step\u2011by\u2011step, and conclude with the final answer expressed as a single number (or expression) without extra commentary.",
+      "train_score": 0.7647058823529411,
+      "train_step": 1,
+      "test_score": 0.5336042513285402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by outlining a clear, step\u2011by\u2011step reasoning process and give the final numerical answer.",
+      "train_score": 0.7647058823529411,
+      "train_step": 0,
+      "test_score": 0.5179743669896842,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a problem, solve it and provide the answer as a plain number.",
+      "train_score": 0.7647058823529411,
+      "train_step": 0,
+      "test_score": 0.5123476086276961,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise statement of the key idea, perform the required calculation, and conclude with one line that contains only the exact final answer (integer, reduced fraction, or decimal) and nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 28,
+      "test_score": 0.5042200687714911,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse explanation of the key step(s), carry out the necessary arithmetic, and conclude the reply with a single line consisting solely of the final value (as an integer, reduced fraction, or decimal), without any additional characters or formatting.",
+      "train_score": 0.7529411764705882,
+      "train_step": 39,
+      "test_score": 0.4973429196623945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key relationship, perform the necessary computation concisely, and conclude with a single line containing only the exact final answer (integer, reduced fraction, or decimal), with no additional commentary.",
+      "train_score": 0.7529411764705882,
+      "train_step": 22,
+      "test_score": 0.4957799312285089,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly outline the needed reasoning, perform the calculation, and conclude the reply with exactly one line that contains only the final numeric answer (integer, reduced fraction or decimal), without any surrounding words, symbols, or formatting.",
+      "train_score": 0.7764705882352941,
+      "train_step": 27,
+      "test_score": 0.49171616130040635,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the essential formula or fact, perform the needed computation, and conclude with a single line containing only the exact answer (integer, reduced fraction, or terminating decimal) and no other characters or text.",
+      "train_score": 0.7647058823529411,
+      "train_step": 76,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence identification of the core concept, carry out only the indispensable arithmetic, and conclude with exactly one line that shows just the final numeric answer (integer, lowest\u2011terms fraction or terminating decimal) and nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 61,
+      "test_score": 0.4885901844326352,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6705882352941176,
+      "train_step": -1,
+      "test_score": 0.4867145983119725,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the essential reasoning in one short sentence, perform the required calculation, and conclude with a single line that contains only the exact final answer (integer, reduced fraction, or decimal) and nothing else.",
+      "train_score": 0.7705882352941177,
+      "train_step": 49,
+      "test_score": 0.4807752422632072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the required reasoning in one short sentence, execute the calculation, and conclude with a single line that contains solely the exact numerical answer (integer, fraction, or decimal) without any additional characters.",
+      "train_score": 0.7588235294117647,
+      "train_step": 29,
+      "test_score": 0.47858705845576743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the solution in no more than three sentences, include any necessary arithmetic, and conclude with a line that contains solely the final numeric answer (integer, reduced fraction, or terminating decimal).",
+      "train_score": 0.7411764705882353,
+      "train_step": 99,
+      "test_score": 0.47702407002188185,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using the minimal necessary reasoning; after a brief justification list the exact final answer (integer, decimal, or simplified fraction) on a line by itself with no other text.",
+      "train_score": 0.7588235294117647,
+      "train_step": 15,
+      "test_score": 0.47671147233510475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the core principle in one clause, perform the essential computation, and finish your response with a solitary line that contains only the exact numeric answer (as an integer, a reduced fraction, or a terminating decimal), without any surrounding text, symbols, or formatting.",
+      "train_score": 0.6529411764705882,
+      "train_step": 99,
+      "test_score": 0.46420756486402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give at most one short sentence that captures the key idea, perform the required computation, and end the response with a single line containing only the exact final numeric answer (integer, lowest\u2011terms fraction, or terminating decimal), with no additional characters or words.",
+      "train_score": 0.6294117647058823,
+      "train_step": 99,
+      "test_score": 0.45139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the essential reasoning in no more than two short sentences, perform the necessary calculation, and place the exact numerical answer (integer, reduced fraction or terminating decimal) on a final line by itself with no additional text or symbols.",
+      "train_score": 0.6647058823529411,
+      "train_step": 99,
+      "test_score": 0.4501406689590497,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011sentence summary of the method, compute the result, and reply with a single line that contains only the exact answer (integer, lowest\u2011terms fraction, or terminating decimal), with no other characters.",
+      "train_score": 0.6705882352941176,
+      "train_step": 99,
+      "test_score": 0.4488902782119412,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a minimal but complete solution: state the relevant theorem or formula in one line, perform only the indispensable calculation, and output exactly one line containing the final result (integer, reduced fraction, or terminating decimal) with no extra text.",
+      "train_score": 0.5294117647058824,
+      "train_step": 99,
+      "test_score": 0.3851203501094092,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Explain in a single concise sentence which principle solves the problem, carry out the computation, and then write only the exact answer (integer, reduced fraction, or terminating decimal) on the next line\u2014nothing else, no symbols, no words, no formatting.",
+      "train_score": 0.4470588235294118,
+      "train_step": 99,
+      "test_score": 0.3207252266333229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5370428258830885,
+    "avg_test_score": 0.47562482323345084,
+    "best_test_instruction": "Provide a clear, step\u2011by\u2011step solution and state the final answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Decompose the problem, identify the key concepts, carry out each calculation step explicitly, verify the outcome, and conclude by presenting only the final numeric answer.",
+      "train_score": 0.7176470588235294,
+      "train_step": 1,
+      "test_score": 0.7599249765551734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7058823529411765,
+      "train_step": -1,
+      "test_score": 0.755861206627071,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logical solution: state the core idea, work through each calculation transparently, verify the outcome, and finish by outputting only the final answer.",
+      "train_score": 0.711764705882353,
+      "train_step": 2,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the specific quantity required, evaluate it with the most direct formula or algebraic steps, perform a brief consistency check, and answer with only the final numeric value (showing a decimal point for whole numbers).",
+      "train_score": 0.711764705882353,
+      "train_step": 17,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what is asked, derive the needed expression using the most straightforward relationship, compute the value in as few steps as possible, confirm the answer makes sense, and present only the computed number (use a decimal point if the result is integral).",
+      "train_score": 0.7352941176470589,
+      "train_step": 21,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, indicate the governing concept, carry out the calculation showing each transformation on a separate line, perform a quick consistency check, and conclude with only the final numeric result (including a decimal point for whole numbers).",
+      "train_score": 0.7176470588235294,
+      "train_step": 9,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Focus on the quantity asked, rewrite the problem as a single clear arithmetic or algebraic operation, perform the calculation (showing at most one intermediate result), do a brief consistency test, and present only the final numeric answer in decimal form.",
+      "train_score": 0.711764705882353,
+      "train_step": 60,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact number sought, reduce the problem to a single clear mathematical operation (or a minimal chain of at most two operations), perform the calculation, do a swift sanity check, and return solely the resulting value written as a decimal point\u2011zero when integral.",
+      "train_score": 0.7235294117647059,
+      "train_step": 83,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required numeric result, reduce the problem to the simplest possible calculation, execute it (showing at most one intermediate quantity), confirm its plausibility, and finish with only the final answer expressed as a decimal.",
+      "train_score": 0.7411764705882353,
+      "train_step": 54,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the minimal exact expression for the answer, evaluate it with exact arithmetic, confirm it is reasonable, and output solely the final value in decimal form.",
+      "train_score": 0.7176470588235294,
+      "train_step": 38,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.7058823529411765,
+      "train_step": 20,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity required, convert the problem to the simplest direct computation, evaluate it using exact arithmetic, perform a quick sanity check, and output only the final numeric answer (as a decimal, even for integers).",
+      "train_score": 0.7176470588235294,
+      "train_step": 39,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...some text...",
+      "train_score": 0.7235294117647059,
+      "train_step": 27,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, select the appropriate formula or counting principle, carry out the computation with concise steps, do a quick sanity\u2011check, and output only the exact final numeric answer.",
+      "train_score": 0.7176470588235294,
+      "train_step": 10,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\" and end with \"",
+      "train_score": 0.7235294117647059,
+      "train_step": 65,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity asked, derive the simplest exact expression using the most direct principle, compute it, perform a brief sanity check, and return only the final numeric result (include a decimal point even for integers).",
+      "train_score": 0.7235294117647059,
+      "train_step": 27,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer by translating the problem into its core mathematical expression, evaluate it directly, verify the result with a brief sanity check, and respond with only the final numeric value (displayed as a decimal even when it is an integer).",
+      "train_score": 0.7352941176470589,
+      "train_step": 42,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity required, evaluate it using the simplest direct formula (showing at most one intermediate result), perform a brief plausibility check, and reply with only the final value written as a decimal (even if integral).",
+      "train_score": 0.7352941176470589,
+      "train_step": 40,
+      "test_score": 0.7102219443576118,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a clear, step\u2011by\u2011step solution that identifies the key concept, carries out all required calculations with justification, verifies the result, and concludes by stating only the final answer.",
+      "train_score": 0.7058823529411765,
+      "train_step": 3,
+      "test_score": 0.7024070021881839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the quantity being asked, rewrite the problem as a single arithmetic (or algebraic) expression, evaluate it (showing at most one intermediate result), perform a brief plausibility check, and respond with only the final numeric answer written as a decimal.",
+      "train_score": 0.7235294117647059,
+      "train_step": 90,
+      "test_score": 0.6999062206939669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the desired quantity, express it with the simplest possible exact expression, compute that expression (displaying at most one intermediate result), briefly confirm its reasonableness, and return only the final value formatted as a decimal with one digit after the point.",
+      "train_score": 0.7235294117647059,
+      "train_step": 95,
+      "test_score": 0.6820881525476712,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7599249765551734,
+    "avg_test_score": 0.7366736629006088,
+    "best_test_instruction": "Decompose the problem, identify the key concepts, carry out each calculation step explicitly, verify the outcome, and conclude by presenting only the final numeric answer."
+  }
+}

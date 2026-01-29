@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Restate the problem briefly, list the given quantities, then solve it step\u2011by\u2011step showing every arithmetic operation. Finish with a line containing only \u201cAnswer:\u201d followed by the final numeric result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 2,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in your own words, identify the needed quantities, and solve it step by step, showing every arithmetic operation. After the explanation, output a blank line followed by exactly\n\nAnswer: <result>\n\nwhere <result> is the numeric answer (or short answer). Do not include any additional text after this line.",
+      "train_score": 0.946360153256705,
+      "train_step": 2,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the solution in clear, full\u2011sentence steps, showing each calculation (use $$ for any math). End with a separate line that reads \u201cAnswer:\u202fX\u201d, where X is the numeric answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 1,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, numbered step\u2011by\u2011step explanation of your reasoning, show each calculation, and end with a line \u201cAnswer:\u202fX\u201d where X is the final numeric result.",
+      "train_score": 0.9386973180076629,
+      "train_step": 1,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, then solve it step\u2011by\u2011step, showing every calculation on a separate line. Conclude with a line that reads \u201cAnswer:\u202fX\u201d, where\u202fX is the final numeric result.",
+      "train_score": 0.9310344827586207,
+      "train_step": 2,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities given in the problem, assign a symbol to the unknown amount, write the necessary arithmetic equation(s), solve them step by step (show each intermediate result on its own line, using LaTeX $$ if desired), optionally check the solution, and finish with a line that contains only\n\nAnswer: <result>\n\nwhere <result> is the final numeric answer. No additional text may appear after that line.",
+      "train_score": 0.9348659003831418,
+      "train_step": 13,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, then list each given number as a separate bullet. Solve by performing each required arithmetic operation on its own line, using $$ for any formula, and include a short justification after each line. After all calculations, add one sentence confirming that the result answers the question, and finish with a line that contains only  \n\nAnswer: <result>  \n\nwhere\u202f<result>\u202fis the final numeric answer. No additional text may appear after this line.",
+      "train_score": 0.946360153256705,
+      "train_step": 25,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, then solve it by writing each arithmetic step on its own line (preceded by a dash) with any formulas in $$, and terminate the response with a single line `Answer:` followed by the final numeric result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 2,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the question. Assign a symbol to every unknown quantity, then write the needed arithmetic expressions using the given numbers. Compute each step on a separate line (formulas may be wrapped in $$), displaying the numerical result of that step. After the last computation, add one short sentence verifying that the result answers the question. End the response with exactly  \n\nAnswer: <result>  \n\nand no other text before or after that line.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present the solution as a brief numbered list. In each step write a full sentence explaining the reasoning and include any arithmetic expression (using $$). After the final step, output a separate line that reads\u202f`Answer:`\u202ffollowed by the numeric result, and include no additional text after the answer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 2,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a one\u2011sentence restatement of the problem. Define a symbol for every unknown and assign each given number to a symbol. Perform the calculations in the order needed, displaying each step on a separate line (plain text or $$). After the last step, add a single verification sentence, then output only  \n\nAnswer: <result>  \n\nas the final line of your response.",
+      "train_score": 0.9080459770114943,
+      "train_step": 99,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one sentence. Introduce a variable for the quantity to find, write the necessary equation(s) using the given numbers, solve them showing each intermediate arithmetic line (you may enclose expressions in $$). After the computation include a brief check, and finish with a line that contains exactly  \n\nAnswer: <result>  \n\nwhere <result> is the final numeric answer and no other text follows that line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 41,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one sentence. Extract every numerical value as a bullet list, assigning a clear variable name to each. Solve the problem by writing each arithmetic step on its own line, prefixed with \u201c\u2013\u201d, showing the expression in $$ LaTeX and its evaluated result. After the computation, include a brief verification that the obtained value satisfies the original ask. End the response with a single line exactly:  \nAnswer: <result>  \nwith no additional text before or after that line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 40,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Then present each given quantity as a bullet (variable = value). Derive the required answer using a clear step\u2011by\u2011step calculation; each step must be a separate line beginning with \u201c-\u201d, contain the expression in $$ and its evaluated result, and include a short justification. After the final step write a single verification sentence. End the response with a line that reads exactly \u201cAnswer: <result>\u201d and nothing else.",
+      "train_score": 0.9348659003831418,
+      "train_step": 96,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one clear sentence. List each given quantity as a separate bullet point, assigning a symbol if helpful. Solve by writing every required computation on its own line, prefixed with \u201c-\u201d, showing the formula in $$ LaTeX and its evaluated result. After the calculations, include a one\u2011sentence verification that the answer satisfies the question. Finally, output exactly  \n\nAnswer: <result>  \n\nwith no additional characters before or after the line.",
+      "train_score": 0.9348659003831418,
+      "train_step": 38,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one line, introduce a variable for the unknown, write the required equation(s) using the given numbers, solve showing each arithmetic operation on its own line (expressions may be in $$), end with a single sentence confirming the answer, and then a line that contains exactly  \n\nAnswer: <result>  \n\nand nothing else.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8505747126436781,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one sentence. List every given quantity as \u201clabel\u202f=\u202fvalue\u201d. Introduce a variable for the unknown. Carry out each required calculation on its own line in the form \u201clabel: $$ expression $$ = result\u201d. After the final calculation write a brief sentence confirming that the obtained value answers the question, then end the response with a line containing exactly  \n\nAnswer: <result>  \n\nand no other text before or after that line.",
+      "train_score": 0.5938697318007663,
+      "train_step": 99,
+      "test_score": 0.5655799848369977,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the question in one line, then create a minimal algebraic model: assign a variable to the unknown, write the governing equation(s) using the given numbers, solve the equation(s) in a single line showing the substitution and final computation, optionally give a brief sanity check, and finish with exactly  \n\nAnswer: <result>  \n\nwith no other text before or after that line.",
+      "train_score": 0.632183908045977,
+      "train_step": 99,
+      "test_score": 0.5140257771038665,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one sentence. Create a short table listing each given quantity with a variable name and its value. Write a single line showing the required arithmetic expression using those variables and give its evaluated result. State a brief verification sentence. Finally output exactly  \n\nAnswer: <result>  \n\nwith no other text before or after that line.",
+      "train_score": 0.2720306513409962,
+      "train_step": 99,
+      "test_score": 0.24260803639120546,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly paraphrase the question. Then create a table with two columns \u201cQuantity\u201d and \u201cValue\u201d for all numbers given. Perform each required calculation on a separate line, writing the formula in plain text (or LaTeX) followed by its numeric result in parentheses. After the last calculation, state one sentence confirming that the obtained number answers the asked question. Finally, on a line by itself output exactly\n\nAnswer: <result>\n\nand nothing else.",
+      "train_score": 0.007662835249042145,
+      "train_step": 99,
+      "test_score": 0.006823351023502654,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9112964366944655,
+    "avg_test_score": 0.779053395429438,
+    "best_test_instruction": "Restate the problem briefly, list the given quantities, then solve it step\u2011by\u2011step showing every arithmetic operation. Finish with a line containing only \u201cAnswer:\u201d followed by the final numeric result."
+  }
+}

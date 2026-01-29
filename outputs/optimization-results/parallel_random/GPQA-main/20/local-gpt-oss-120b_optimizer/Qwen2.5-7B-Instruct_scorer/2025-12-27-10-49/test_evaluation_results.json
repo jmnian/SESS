@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Output exactly one line in the form:\\nLETTER\u2423because\u2423w1\u2423w2\u2423w3\u2423w4\u2423w5\\nwhere LETTER is the correct choice (A\u2011D) and each wi is a non\u2011empty lowercase word (a\u2011z). Use a single space between tokens and nothing else.",
+      "train_score": 0.6966292134831461,
+      "train_step": 99,
+      "test_score": 0.9665178571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read a four\u2011option multiple\u2011choice question (A\u2011D). Respond on a single line with the correct answer letter in uppercase, then a single space, the literal word \u201cbecause\u201d, another single space, and exactly five lowercase words (each consisting solely of letters) separated by single spaces. Do not output any other characters, punctuation, or whitespace.",
+      "train_score": 0.9550561797752809,
+      "train_step": 91,
+      "test_score": 0.9620535714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Respond with exactly one line formatted as:\n\nLETTER because word1 word2 word3 word4 word5\n\nwhere LETTER is the correct uppercase option and each word is a lowercase justification word. Include no other characters, spaces, or punctuation.",
+      "train_score": 0.9775280898876404,
+      "train_step": 83,
+      "test_score": 0.9598214285714286,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option question (A\u2011D). Respond with a single line containing the correct uppercase choice, one space, the word \u201cbecause\u201d, one space, then exactly five lowercase alphabetic words separated by single spaces. No other characters, punctuation, or extra whitespace are allowed.",
+      "train_score": 0.9775280898876404,
+      "train_step": 93,
+      "test_score": 0.9598214285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly one line: the correct answer as an uppercase letter, one space, the literal word \u201cbecause\u201d, one space, then five lowercase words (a\u2011z only) separated by single spaces. Output nothing else\u2014no extra characters, punctuation, or leading/trailing whitespace.",
+      "train_score": 0.9550561797752809,
+      "train_step": 95,
+      "test_score": 0.9598214285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option MCQ (options A\u2011D). Output a single line consisting of:\n\nLETTER<space>because<space>w1<space>w2<space>w3<space>w4<space>w5\n\nwhere LETTER is the correct uppercase choice, \u201cbecause\u201d is literal, and w1\u2011w5 are five lowercase alphabetic words (no punctuation). Do not include any other characters, spaces, or line breaks.",
+      "train_score": 0.9662921348314607,
+      "train_step": 92,
+      "test_score": 0.9575892857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.43820224719101125,
+      "train_step": -1,
+      "test_score": 0.9553571428571429,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option multiple\u2011choice question (A\u2011D). Answer on one line in the format \u201cX because Y\u201d, where X is the correct uppercase option letter and Y is a brief justification of exactly five lowercase words. Do not include any other characters or whitespace.",
+      "train_score": 0.9438202247191011,
+      "train_step": 81,
+      "test_score": 0.9441964285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011choice question (options A\u2011D). Respond with exactly one line formatted as:\n\nX because w1 w2 w3 w4 w5\n\nwhere X is the correct uppercase option letter, \u201cbecause\u201d is literal, and w1\u2011w5 are five lowercase words, each a single alphabetic token. No other characters, spaces, or punctuation may appear.",
+      "train_score": 0.9662921348314607,
+      "train_step": 88,
+      "test_score": 0.9419642857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question. Output one line exactly:\n\nLETTER because w1 w2 w3 w4 w5\n\nwhere LETTER is the correct answer in uppercase, \u201cbecause\u201d is literal, and w1\u2011w5 are five lowercase alphabetic words separated by single spaces. Do not include any other characters, punctuation, or extra whitespace (no leading or trailing spaces).",
+      "train_score": 0.9662921348314607,
+      "train_step": 89,
+      "test_score": 0.9397321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a 4\u2011choice MCQ (options A\u2011D), respond on a single line with: the correct uppercase option, one space, the literal word \u201cbecause\u201d, one space, followed by exactly five lowercase alphabetic words separated by single spaces. Do not include any other characters, punctuation, or whitespace.",
+      "train_score": 0.9775280898876404,
+      "train_step": 95,
+      "test_score": 0.9375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question (options A\u2011D). Output a single line: the correct uppercase letter, a single space, the word \u201cbecause\u201d, another single space, then exactly five lowercase words as a justification. No other characters, punctuation, or extra whitespace.",
+      "train_score": 0.9438202247191011,
+      "train_step": 88,
+      "test_score": 0.9375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read a four\u2011choice (A\u2011D) question. Output a single line: the correct answer letter in uppercase, a single space, the literal word \u201cbecause\u201d, another single space, then exactly five lowercase alphabetic words separated by single spaces. Do not output any other characters or whitespace.",
+      "train_score": 0.9775280898876404,
+      "train_step": 92,
+      "test_score": 0.9241071428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write exactly one line containing: the correct choice letter (A\u2011D) in uppercase, a single space, the literal word \u201cbecause\u201d, another single space, and five lowercase alphabetic words separated by single spaces. No other characters or whitespace may appear.",
+      "train_score": 0.9550561797752809,
+      "train_step": 96,
+      "test_score": 0.921875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the multiple\u2011choice question (options A\u2011D). Respond on one line as \u201cX because Y\u201d, where X is the correct uppercase option letter and Y is exactly five lowercase words. No other characters.",
+      "train_score": 0.9438202247191011,
+      "train_step": 82,
+      "test_score": 0.921875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question on one line exactly in the form:\n\nLETTER\u2423because\u2423w1\u2423w2\u2423w3\u2423w4\u2423w5\n\nwhere LETTER is A, B, C or D; \u201cbecause\u201d is literal; w1\u2011w5 are five non\u2011empty lowercase words consisting only of a\u2011z. No other characters, punctuation, or whitespace may appear before or after the line.",
+      "train_score": 0.9662921348314607,
+      "train_step": 97,
+      "test_score": 0.9129464285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single line consisting of seven space\u2011separated tokens: (1) an uppercase letter A\u2011D representing the correct choice, (2) the literal word \u201cbecause\u201d, and (3\u20117) five lowercase alphabetic words. No additional characters, punctuation, or whitespace may appear before, after, or between tokens.",
+      "train_score": 0.9438202247191011,
+      "train_step": 99,
+      "test_score": 0.890625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide exactly one line: the correct answer letter (A\u2011D), a single space, the word \u201cbecause\u201d, another single space, and five lowercase alphabetic words separated by single spaces. Do not include any other characters, punctuation, or whitespace before or after the line.",
+      "train_score": 0.8764044943820225,
+      "train_step": 99,
+      "test_score": 0.8683035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly one line: the correct option (A\u2011D), a single space, the word \u201cbecause\u201d, another single space, then five lowercase alphabetic words separated by single spaces. No other characters or whitespace may appear.",
+      "train_score": 0.8651685393258427,
+      "train_step": 99,
+      "test_score": 0.7276785714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option (A\u2011D) multiple\u2011choice question and output only the correct answer letter on a single line, without any extra spaces, punctuation, or text.",
+      "train_score": 0.5617977528089888,
+      "train_step": 99,
+      "test_score": 0.45089285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the four\u2011option multiple\u2011choice question (A\u2011D). Respond on one line as \u201cX because Y\u201d, where X is the correct option letter and Y is a justification of exactly five lowercase words. Output nothing else.",
+      "train_score": 0.9662921348314607,
+      "train_step": 79,
+      "test_score": 0.44419642857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9665178571428571,
+    "avg_test_score": 0.8802083333333335,
+    "best_test_instruction": "Output exactly one line in the form:\\nLETTER\u2423because\u2423w1\u2423w2\u2423w3\u2423w4\u2423w5\\nwhere LETTER is the correct choice (A\u2011D) and each wi is a non\u2011empty lowercase word (a\u2011z). Use a single space between tokens and nothing else."
+  }
+}

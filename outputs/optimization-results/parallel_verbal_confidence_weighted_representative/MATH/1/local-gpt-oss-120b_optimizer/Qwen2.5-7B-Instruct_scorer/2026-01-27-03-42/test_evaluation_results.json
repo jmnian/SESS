@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Zero in on the single computation that resolves the problem, plug in every given quantity, carry out the evaluation in one uninterrupted exact step, perform a brief consistency check, and output only the final answer (as an integer, reduced fraction, decimal, or simplest radical as appropriate).",
+      "train_score": 0.8541666666666666,
+      "train_step": 56,
+      "test_score": 0.7630509534229447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Insert all given quantities into the single formula that directly gives the answer, compute it in one step, confirm it meets the problem\u2019s constraints, and return only the exact numeric result (integer, reduced fraction or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 54,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the sole quantity the problem requests, evaluate it exactly from the provided data (no approximations), perform a quick check of any stated conditions, and output only the final result in its simplest exact form (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.875,
+      "train_step": 95,
+      "test_score": 0.7602375742419506,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the specific numerical answer required, substitute all given data into the appropriate exact relationship, evaluate it in a single exact computation (no approximations), briefly verify any stated constraints, and output only the final value in its simplest exact form (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.758674585808065,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate the exact value the problem asks for, insert every given number into the corresponding exact expression, evaluate it in one uninterrupted analytical step (no approximations), briefly confirm it meets any given conditions, and output solely the final answer in its simplest exact form (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 73,
+      "test_score": 0.7583619881212879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what the problem seeks, place every provided number into the correct formula or definition, evaluate it in one uninterrupted calculation, do a quick sanity check, and output only the final exact result (as an integer, reduced fraction or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 47,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single exact numeric value required by the problem, insert all given numbers into the appropriate formula, evaluate it in one uninterrupted exact computation (no approximations), verify it satisfies any stated conditions, and output only that final result in its simplest form (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate the single decisive expression that produces the answer, substitute all given numbers, evaluate it in one exact step, perform a brief consistency check with the problem\u2019s conditions, and output only the final precise value (integer, reduced fraction or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 49,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the single numeric quantity the problem asks for, replace every parameter with the provided values, evaluate the resulting expression in one exact operation (no rounding or approximation), perform a brief verification of any stated conditions, and output only the final answer in its simplest exact form (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7561738043138481,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Derive the exact numerical quantity the problem requests (e.g., a maximum, minimum, or specific value), plug every provided constant into the appropriate exact expression or inequality, evaluate it in one uninterrupted calculation (no approximations), briefly verify that all given conditions are satisfied, and output only that final answer in its simplest exact form (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine precisely what the problem requests, plug every given value into the correct expression, compute it in a single clear step, do a quick consistency check, and output only the final exact answer (integer, decimal, reduced fraction or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 45,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single numeric quantity the problem requests, substitute every given number into the correct exact formula, compute it in one uninterrupted, non\u2011approximate step, briefly confirm any stated conditions, and return only that final result in its simplest exact form (integer, reduced fraction, terminating decimal or simplest radical).",
+      "train_score": 0.875,
+      "train_step": 98,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single exact numeric answer required, substitute all given numbers into the appropriate precise expression, evaluate it in one uninterrupted calculation (no approximations), perform a brief consistency check, and output *only* that final value in its simplest exact form (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the single number the problem seeks, replace all parameters with the given values in the correct exact formula, evaluate it in one uninterrupted exact computation (no decimal approximations), do a quick sanity check of any imposed conditions, and output only that final simplified result (integer, reduced fraction, terminating decimal, or simplest radical).",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the unique mathematical expression that completely solves the question, substitute all numbers given, evaluate it in one exact step, perform a brief consistency check with the problem conditions, and output only the final exact value (integer, reduced fraction or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 42,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the exact quantity asked for, substitute every given number into the appropriate expression, perform one uninterrupted exact computation, do a brief sanity check against the problem conditions, and output only the final result (integer, reduced fraction or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 55,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the one quantity that directly answers the problem, substitute all given values into its expression, evaluate it in a single exact step, perform a brief consistency check with the original conditions, and output only the final numeric result (integer, reduced fraction, decimal, or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 45,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single required calculation, insert all given numbers, carry out the computation in one step, briefly confirm the result meets the problem\u2019s conditions, and return only that exact numeric value (as an integer, reduced fraction, or simplified radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 38,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the core formula or definition that yields the answer, insert all given quantities, compute the result in a single step, briefly confirm it satisfies the problem, and return only the exact numeric answer (integer, reduced fraction or simplest radical).",
+      "train_score": 0.8541666666666666,
+      "train_step": 58,
+      "test_score": 0.7474210690840888,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact numeric answer requested, substitute all given quantities into the appropriate formula, evaluate in one precise step without approximation, verify it satisfies any problem conditions, and output ONLY that number in its simplest exact form (integer, reduced fraction, terminating decimal, or simplest radical), with no additional text or formatting.",
+      "train_score": 0.20833333333333334,
+      "train_step": 99,
+      "test_score": 0.19349796811503595,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7630509534229447,
+    "avg_test_score": 0.7275487875675435,
+    "best_test_instruction": "Zero in on the single computation that resolves the problem, plug in every given quantity, carry out the evaluation in one uninterrupted exact step, perform a brief consistency check, and output only the final answer (as an integer, reduced fraction, decimal, or simplest radical as appropriate)."
+  }
+}

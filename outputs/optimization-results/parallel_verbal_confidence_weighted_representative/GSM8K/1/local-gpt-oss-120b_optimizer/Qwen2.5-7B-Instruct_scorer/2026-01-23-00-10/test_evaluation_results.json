@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Parse every explicit quantity, translate the described relations into one precise mathematical expression, compute it exactly, confirm the result with an independent quick verification, and return only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 36,
+      "test_score": 0.9211523881728583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value given, convert the described relationships into a single precise arithmetic expression (including any required percentage, ratio, or unit conversion), evaluate it exactly using rational arithmetic, briefly confirm the result with an independent reasoning step, and output only the final integer or reduced fraction.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 0.9196360879454132,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate all given numbers, convert the described relationships into the one exact arithmetic expression needed, compute it precisely, verify the result with a brief check, and return only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 29,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given quantities and the exact relationships among them, combine them into a single exact arithmetic calculation (handling any percentages, ratios, or unit conversions), evaluate it with perfect rational precision, perform a short independent verification, and output only the final integer or lowest\u2011terms fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every stated number, translate all described relations into one precise algebraic expression, evaluate it exactly (no approximation), briefly verify the result using a different logic path, and output solely the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 57,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric fact, translate the given relationships into the single exact algebraic expression (handling any units or fractions), compute it with precise arithmetic, confirm the result by an independent check, and output only the final number.",
+      "train_score": 1.0,
+      "train_step": 36,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical fact and any relational condition, convert them into a single exact symbolic equation or computation (handling percentages, ratios, unit conversions), solve it with exact arithmetic, confirm the result by an independent short reasoning, and return only the simplified numeric answer.",
+      "train_score": 1.0,
+      "train_step": 58,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit numeric fact and its described relationship, formulate the single exact algebraic expression that resolves the problem, compute it with perfect precision, perform a brief consistency check, and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 35,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and constraints, form the one exact expression required (handle percentages, ratios, unit changes), compute it with exact rational arithmetic, quickly verify, and output only the final integer or lowest\u2011terms fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all given numbers, decode the exact mathematical relationship they impose, evaluate that relationship using exact arithmetic (no rounding), briefly validate the result with an alternative reasoning, and output only the final integer or simplest fraction.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each numeric quantity, translate the described relationships into a single exact calculation (including any unit, percentage, or fraction conversions), evaluate it with exact arithmetic (no rounding), perform a quick independent sanity check, and output only the resulting integer or reduced fraction.",
+      "train_score": 1.0,
+      "train_step": 57,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every explicit quantity and its exact relation, combine them into a single precise mathematical expression (handling any percentages, ratios, or unit conversions), evaluate it with exact rational arithmetic, briefly verify the result with an independent check, and output only the final integer or simplest fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate each stated quantity, infer the unique arithmetic relationship that resolves the query, compute the answer using exact arithmetic, double\u2011check via an alternative method, and provide only the final number.",
+      "train_score": 1.0,
+      "train_step": 15,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all stated quantities and their connections, formulate the single exact arithmetic operation needed, compute it precisely, verify the result, and return only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 15,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numeric data presented, interpret the explicit relationships to form the unique exact computation required, solve it using precise arithmetic, briefly validate the result, and return solely the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 30,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given quantity, translate each described relation into an exact algebraic equation, combine them into a single solvable expression, evaluate it with exact rational arithmetic, verify the answer by an independent quick check, and output only the final integer or simplest fraction.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every given quantity, deduce the single exact formula they imply (including any percentages, ratios, or unit conversions), evaluate it analytically with perfect rational precision, perform a brief independent sanity check, and output only the simplified numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all explicit numbers and their stated relationships, construct the sole precise arithmetic expression needed, evaluate it exactly, perform a brief sanity verification, and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 23,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity, infer the solitary exact expression that satisfies the problem, evaluate it using exact arithmetic (no rounding), validate the answer with an independent quick check, and return only the resulting number.",
+      "train_score": 1.0,
+      "train_step": 51,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint every stated numeric term and its relational context, synthesize the exact arithmetic formula required, compute it accurately, confirm the outcome, and present solely the final number.",
+      "train_score": 1.0,
+      "train_step": 15,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9211523881728583,
+    "avg_test_score": 0.8984439871475506,
+    "best_test_instruction": "Parse every explicit quantity, translate the described relations into one precise mathematical expression, compute it exactly, confirm the result with an independent quick verification, and return only the final numeric value."
+  }
+}

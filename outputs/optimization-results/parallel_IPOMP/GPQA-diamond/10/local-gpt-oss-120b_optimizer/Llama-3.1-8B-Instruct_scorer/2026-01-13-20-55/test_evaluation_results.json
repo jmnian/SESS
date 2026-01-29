@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Briefly extract the essential data (\u226420 words), then compute the result, and finally output two lines: first line \u201cAnswer: X\u201d (X = A\u2011D), second line a concise justification (\u22648 words). No other text is allowed.",
+      "train_score": 0.42105263157894735,
+      "train_step": 7,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, determine the correct answer (A\u2013D), then output exactly two lines:\nLine\u202f1: \u201cAnswer: X\u201d where X is the chosen letter.\nLine\u202f2: a brief justification of no more than nine words.\nDo not include any other characters or text.",
+      "train_score": 0.15789473684210525,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, identify the key data and concept, perform the needed reasoning or calculation, then output exactly:\n\nAnswer: X\n\nwhere X is the correct choice (A\u2011D), followed by a brief justification (\u226415\u202fwords). Include no other text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 5,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Think carefully through the problem, then output exactly two lines:\n1. `Answer: X` where X is the correct option (A\u2011D).\n2. `Reason: Y` where Y is a concise justification of ten words or fewer.\nDo not include any other text.",
+      "train_score": 0.15789473684210525,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the problem, apply the relevant concept, and find the correct choice. Respond with exactly two lines:  \n1. \u201cAnswer: X\u201d where X is the letter A\u2011D of the correct option.  \n2. A justification of ten words or fewer. No other text.",
+      "train_score": 0.5263157894736842,
+      "train_step": 5,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, determine the correct choice (A\u2011D), and output exactly one line: \u201cAnswer: X \u2013 Y\u201d, where X is the correct letter and Y is a concise justification of no more than ten words. No additional text is allowed.",
+      "train_score": 0.42105263157894735,
+      "train_step": 6,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct answer choice (A\u2011D). Output exactly one line in the form \u201cAnswer: X \u2013 Y\u201d, where X is the chosen letter and Y is a justification no longer than 12 words. Do not include any other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 6,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the correct option (A\u2011D), then output exactly two lines: first line 'Answer: X' where X is the chosen letter, second line a concise justification not exceeding eight words. No other text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 6,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, then on the first line write \u201cAnswer: X\u201d (X\u202f=\u202fA\u2011D), and on the second line provide a brief justification (\u226412\u202fwords). Do not include any other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 5,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, then output exactly one line in the form:\n\nAnswer: X | Y\n\nwhere X is the correct option letter (A\u2011D) and Y is a justification of ten words or fewer. No other text or punctuation may appear.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and output exactly two lines:\n1) \u201cAnswer: X\u201d where X is the correct letter A\u2011D.\n2) A brief explanation (no more than ten words) describing why X is correct.\nDo not write anything else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 6,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using the appropriate concepts, then on the last line output \u201cAnswer: X\u201d where X is the correct choice (A\u2011D), followed by a brief (\u226415\u2011word) justification. No other text is allowed.",
+      "train_score": 0.42105263157894735,
+      "train_step": 4,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.29292929292929293,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the crucial information, carry out the required calculation or logical inference, and then output a single line exactly as \u201cAnswer: X \u2013 Y\u201d, where X is the correct choice (A\u2011D) and Y is a brief justification (\u226412 words). Produce no additional text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 5,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct option (A\u2011D) and provide a brief justification (no more than twelve words), presented on a single line.",
+      "train_score": 0.42105263157894735,
+      "train_step": 5,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, perform the necessary calculations or reasoning, and output the correct answer choice (A\u2013D).",
+      "train_score": 0.3684210526315789,
+      "train_step": 1,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question thoroughly, pinpoint the key concepts and data, perform the necessary reasoning or calculations, and then output the correct multiple\u2011choice label (A\u2011D) followed by a single concise sentence justifying your choice.",
+      "train_score": 0.42105263157894735,
+      "train_step": 3,
+      "test_score": 0.24242424242424243,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After determining the correct choice (A\u2011D), output exactly two lines: first line the single letter (A, B, C, or D); second line a justification of nine words or fewer. Include nothing else.",
+      "train_score": 0.05263157894736842,
+      "train_step": 99,
+      "test_score": 0.05555555555555555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and output a single line JSON object: {\"answer\":\"X\",\"reason\":\"Y\"} where X is the correct option (A\u2011D) and Y is a justification of ten words or fewer. No additional text or whitespace is allowed.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.03535353535353535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly one JSON object with two keys: \"answer\" (the correct letter A\u2011D) and \"reason\" (a concise justification of ten words or fewer). Include no other text.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.030303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and then output exactly two lines:\n1. The correct option as a single letter (A\u2011D) with no extra text.\n2. A brief justification of ten words or fewer.\nDo not include any other characters, spaces, or punctuation.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.030303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3434343434343434,
+    "avg_test_score": 0.26022126022126024,
+    "best_test_instruction": "Briefly extract the essential data (\u226420 words), then compute the result, and finally output two lines: first line \u201cAnswer: X\u201d (X = A\u2011D), second line a concise justification (\u22648 words). No other text is allowed."
+  }
+}

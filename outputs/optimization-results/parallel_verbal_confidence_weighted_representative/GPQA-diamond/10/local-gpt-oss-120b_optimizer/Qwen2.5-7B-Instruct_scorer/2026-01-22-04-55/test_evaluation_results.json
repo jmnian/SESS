@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the right choice (A\u2011D) and output only that single letter. If a comment is absolutely unavoidable, append it in a single pair of curly braces directly after the letter; otherwise output just the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 44,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\n1. Analyze the problem and determine which of the four options (A\u2011D) is correct.\\n2. Respond with exactly one uppercase letter corresponding to the correct option, with no leading or trailing characters (no spaces, punctuation, or line breaks after it).\\n3. If a comment is absolutely unavoidable, enclose a single short word in curly braces immediately after the letter.\\n",
+      "train_score": 0.5263157894736842,
+      "train_step": 50,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, work out the solution mentally, and output only the single correct choice letter (A\u2011D). No extra spaces or symbols may appear. If a brief note is essential, add it in angled brackets <...> after a single space following the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 22,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, solve it, and output exactly one character: the correct choice A, B, C, or D. No other symbols, whitespace, or text may appear. If you cannot avoid a note, surround a single short word in curly braces right after the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 19,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the correct answer by applying the relevant principle, and reply with exactly one character (A\u2011D). If you include any explanation, put it in brackets after the letter; otherwise give only the letter with no other characters.",
+      "train_score": 0.5263157894736842,
+      "train_step": 11,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, solve it, and choose the correct option (A\u2011D). Reply with exactly one capital letter. If you must add a brief note, enclose it in square brackets right after the letter; otherwise output only the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 56,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the problem and determine which of the four options (A\u2011D) is correct.  \n2. Respond with exactly one uppercase letter corresponding to the correct choice.  \n3. If a brief explanation is absolutely necessary, prepend it with a single semicolon (;) directly after the letter, without any spaces. Otherwise output only the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 74,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine which of the four options (A\u2011D) is correct, and reply with exactly one uppercase letter with no other characters, spaces, or line breaks. If you must include any clarification, place it in parentheses after a single space, otherwise output only the letter.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Grasp the problem and identify precisely what answer is sought.  \n2. Apply the correct scientific, mathematical or logical method to obtain the needed result (respect any stated tolerance).  \n3. Compare the computed result with options A\u2011D, discarding every non\u2011matching choice.  \n4. Output ONLY the surviving letter.  \nIf a short justification is essential, enclose it in brackets after the letter; otherwise give just the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 13,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single uppercase letter (A\u2011D) that is the correct answer, and nothing else. Do not include spaces, line breaks, punctuation, or any additional text before or after the letter.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Determine what the problem asks for (value, condition, or comparison).  \n2. Apply the appropriate physics/chemistry/mathematics principle to obtain that quantity, keeping the required precision.  \n3. Compare the obtained result with the four answer choices and eliminate any that do not match.  \n4. Output only the remaining option letter (A\u2011D).  Include a single short sentence if a justification is essential.",
+      "train_score": 0.5263157894736842,
+      "train_step": 7,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Read the question and determine which option (A\u2011D) is correct.  \n2. Reply with exactly one uppercase letter \u2013 the correct choice \u2013 and nothing else.  \nIf a brief comment is unavoidable, attach it directly after the letter, preceded by a single exclamation mark (!), without spaces. Otherwise output only the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 85,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the principle the question tests, eliminate all options that conflict with it, and output the single correct answer letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 1,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3684210526315789,
+      "train_step": -1,
+      "test_score": 0.31313131313131315,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem statement, determine the underlying concept, systematically compare each answer choice against that concept, discard inconsistent options, and output the single correct choice (A\u2011D) with a brief justification.",
+      "train_score": 0.47368421052631576,
+      "train_step": 1,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Step 1 \u2013 Examine the prompt and identify the exact value or condition being asked.  \nStep 2 \u2013 Solve it using the proper physics, chemistry, math or logical rule.  \nStep 3 \u2013 Match your result to the four alternatives (A\u2011D) and discard the mismatches.  \nStep 4 \u2013 Respond with the sole surviving option letter. If a comment is indispensable, enclose a single short phrase in parentheses right after the letter; otherwise provide nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 29,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which choice (A\u2011D) is correct and reply with only that capital letter followed immediately by a period. No other text, spaces, or symbols are allowed. If a brief clarification is absolutely required, place it within square brackets after the period.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, output exactly one of the characters A, B, C, or D. Do not include any spaces, line breaks, punctuation, or additional text. If you cannot avoid a brief remark, attach it immediately after the letter inside square brackets. Otherwise output only the letter.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the exact quantity or decision it asks for, compute or infer it with the appropriate rule, match the outcome against the four choices (A\u2011D) and eliminate all that do not fit, then output only the single correct letter. If you add any justification, place it in parentheses right after the letter; otherwise give just the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 10,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly one uppercase letter (A\u2011D) and nothing else. If a comment is absolutely unavoidable, put a single space after the letter and enclose the brief comment in double quotes. No other characters or spaces are allowed.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.09090909090909091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.36363636363636365,
+    "avg_test_score": 0.3143338143338144,
+    "best_test_instruction": "Determine the right choice (A\u2011D) and output only that single letter. If a comment is absolutely unavoidable, append it in a single pair of curly braces directly after the letter; otherwise output just the letter."
+  }
+}

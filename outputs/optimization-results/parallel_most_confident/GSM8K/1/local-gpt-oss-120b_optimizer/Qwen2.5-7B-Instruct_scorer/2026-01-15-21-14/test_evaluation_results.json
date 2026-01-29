@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every number given, turn the problem into one exact arithmetic expression with +, \u2013, \u00d7, \u00f7 (and % if required), compute it step\u2011by\u2011step, and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 8,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity mentioned (integers, decimals, fractions, percentages, rates), convert any percentages or rates to plain numbers, write a single exact arithmetic formula that captures the situation using only\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7,\u202f^\u202for\u202f%\u202fas required, evaluate the formula step\u2011by\u2011step (recording each intermediate value on its own brief line), and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 11,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all numbers present, determine the exact arithmetic formula the story implies (using +, \u2013, \u00d7, \u00f7, %, or powers), compute the expression step\u2011by\u2011step with a brief comment for each operation, and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 6,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities (including percentages), translate them into a single arithmetic expression with the appropriate operators (+, \u2013, \u00d7, \u00f7), evaluate the expression step\u2011by\u2011step (showing a brief note for each step if desired), and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 7,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric quantities (including integers, fractions, percentages, and rates) in the prompt, convert any non\u2011numeric descriptors to numbers, construct a single correct arithmetic expression using +, \u2013, \u00d7, \u00f7, ^, or % that represents the situation, evaluate it step\u2011by\u2011step while briefly noting each intermediate result, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 12,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every quantity (numbers, percentages, fractions), change percentages to decimals, assemble one exact arithmetic expression using +, -, *, /, ^ or % that matches the scenario, evaluate it in order while noting each intermediate value briefly, and return only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 10,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, extract every numeric value (including percentages, fractions, and rates) and any implied quantities, convert them to plain numbers, write one exact arithmetic expression that captures the relationships using +, \u2013, \u00d7, \u00f7, ^ or % as appropriate, evaluate the expression step\u2011by\u2011step (showing only a brief result for each intermediate step), and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 10,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity (including integers, decimals, fractions, percentages, and unit rates), convert any described rates into plain numbers, write a single precise arithmetic expression that models the situation using only\u202f+,\u202f\u2212,\u202f*,\u202f/,\u202f^\u202for\u202f%\u202foperators, evaluate the expression step\u2011by\u2011step while noting each intermediate result in a short comment, and output only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 12,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantitative values, turn any percentages into decimals, build the exact arithmetic expression needed using +, \u2013, \u00d7, \u00f7 (and ^ when appropriate), evaluate it step\u2011by\u2011step while noting only one brief result per operation, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 9,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including integers, decimals, fractions, percentages, and unit rates) in the problem, translate any non\u2011numeric terms into numbers, construct a single fully\u2011parenthesized arithmetic expression that exactly represents the relationships using +, -, *, /, ^ and % as needed, compute the expression step\u2011by\u2011step while briefly noting each intermediate result, and output only the final numeric value.",
+      "train_score": 1.0,
+      "train_step": 11,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric element in the problem (including fractions, percentages, or rates), turn any non\u2011numeric descriptions into plain numbers, construct one fully\u2011parenthesized expression that reflects the stated relationships using +, -, *, /, ^ or %, evaluate the expression step\u2011by\u2011step while noting each intermediate result in a brief line, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 13,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (integers, fractions, or percentages) from the question, convert percentages to decimals, form the exact arithmetic expression implied (using +, \u2013, \u00d7, \u00f7), evaluate it step\u2011by\u2011step with a short note for each operation, and output only the final numeric answer.",
+      "train_score": 1.0,
+      "train_step": 5,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nIdentify all numbers present (including fractions, percentages, and rates), translate any non\u2011numeric terms into their numeric equivalents, construct the unique arithmetic expression that fulfills the relationships using +, -, *, /, ^ or % as appropriate, compute the expression sequentially while noting each intermediate result in one short statement, and return only the final numeric value.\\n",
+      "train_score": 1.0,
+      "train_step": 11,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value in the prompt (integers, fractions, decimals, percentages, ratios, or rates) and write each as its exact rational form. Using each extracted number exactly once and only the operators +, -, *, /, ^, or %, construct a single fully\u2011parenthesized arithmetic expression that answers the question. Evaluate the expression step\u2011by\u2011step, printing each intermediate result on its own line prefixed with \u201c\u2192\u201d. After the final step output only the resulting number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numeric term (integers, fractions, decimals, percentages, ratios, rates) from the prompt, write it as its exact value, and use every extracted number exactly once to build a single fully\u2011parenthesized arithmetic expression using only +, -, *, /, ^, %. Evaluate the expression step\u2011by\u2011step, outputting each intermediate result on its own line prefixed with \u201c=>\u201d. After the final step output only the numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.7642153146322972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers present in the prompt (including integers, fractions, decimals, percentages, ratios, or rates) and list them as their exact values. Combine these numbers, each used exactly once, with only the symbols +, -, *, /, ^, % to form one completely parenthesized arithmetic formula that directly yields the answer. Compute the formula by performing a single operation per line, prefix each line with \u201c>>>\u201d. After the last line output solely the final numeric result.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.7429871114480667,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find every numeric quantity (integers, fractions, decimals, percentages, ratios or rates) present in the question. Write each as its exact value. Using each number exactly once and no other constants, compose a single fully\u2011parenthesized arithmetic expression that employs only +, -, *, /, ^ or %. Evaluate the expression one operation at a time, printing each intermediate result on its own line prefixed with \u201c!!\u201d. After the last line output only the final numeric result.",
+      "train_score": 0.6081081081081081,
+      "train_step": 99,
+      "test_score": 0.5731614859742229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers appearing in the question (including fractions, decimals, percentages, ratios, or rates) and write each as its exact value. Combine every extracted number exactly once, using only the operators\u202f+,\u202f\u2011,\u202f*,\u202f/,\u202f^\u202for\u202f%, into a single completely parenthesized arithmetic formula that directly yields the answer. Compute the formula sequentially, listing each single\u2011operation result on a new line that starts with \u201c=>\u201d. After the final line output only the resulting number.",
+      "train_score": 0.5405405405405406,
+      "train_step": 99,
+      "test_score": 0.5087187263078089,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers (integers, fractions, decimals, percentages, ratios, rates) from the question, write each as its exact value, and combine them once each into a single fully\u2011parenthesized expression using only +, -, *, /, ^, %. Compute the expression step\u2011by\u2011step, printing each one\u2011operation result on a new line prefixed with \u201c\u22a2\u201d. After the last step output only the final numeric answer.",
+      "train_score": 0.527027027027027,
+      "train_step": 99,
+      "test_score": 0.4700530705079606,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Detect all numeric values (integers, fractions, decimals, percentages, ratios, rates) in the question. Write each as its exact value. Using each number exactly once and no other constants, build one fully\u2011parenthesized arithmetic expression that employs only +, -, *, /, ^, %. Evaluate the expression one operation at a time, printing each intermediate result on a new line that starts with \u201c%%\u201d. After the last line output only the final numeric result.",
+      "train_score": 0.14864864864864866,
+      "train_step": 99,
+      "test_score": 0.17968157695223655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9097801364670205,
+    "avg_test_score": 0.7858045416802052,
+    "best_test_instruction": "Identify every number given, turn the problem into one exact arithmetic expression with +, \u2013, \u00d7, \u00f7 (and % if required), compute it step\u2011by\u2011step, and output only the final numeric result."
+  }
+}

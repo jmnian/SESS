@@ -31,6 +31,7 @@ sys.path.insert(0, OPRO_ROOT_PATH)
 import numpy as np
 from opro.evaluation import metrics
 import pandas as pd
+from tqdm import tqdm
 
 # the Boolean symbols appeared in BBH tasks
 BOOLEAN_SYMBOLS = [["false", "true"], ["no", "yes"], ["invalid", "valid"]]
@@ -77,7 +78,7 @@ def instruction_to_filename(instruction, md5_hashing=True):
   """Convert an instruction string to filename."""
   if md5_hashing:
     m = hashlib.md5()
-    m.update(instruction.encode("ascii"))
+    m.update(instruction.encode("utf-8"))
     filename = m.hexdigest()
   else:
     # remove punctuations and line break, and give a name to the empty string
@@ -182,7 +183,7 @@ def gen_prompt(
     include_qa (bool): whether to include "Q:" and "A:" formats in the prompt.
     instruction_pos (str): where to put the instruction, one of {'before_Q',
       'Q_begin', 'Q_end', 'A_begin'}.
-    dataset_name (str): one of {"mmlu", "bbh", "gsm8k"}.
+    dataset_name (str): one of {"mmlu", "bbh", "gsm8k", "math", "gpqa", ...}.
 
   Returns:
     prompt (str): the generated prompt.
@@ -192,11 +193,13 @@ def gen_prompt(
       "mmlu",
       "bbh",
       "gsm8k",
+      "math",
       "multiarith",
       "aqua",
+      "gpqa",
   }, (
-      "The lower-case dataset name must be one of mmlu, bbh, gsm8k, multiarith,"
-      " or aqua."
+      "The lower-case dataset name must be one of mmlu, bbh, gsm8k, math, multiarith,"
+      " aqua, or gpqa."
   )
   assert instruction_pos in {
       "before_Q",
@@ -214,8 +217,12 @@ def gen_prompt(
     question = data[idx]["input"]
   elif dataset_name == "gsm8k":
     question = data.iloc[idx, 0]
+  elif dataset_name == "math":
+    question = data[idx]["input"]
   elif dataset_name == "multiarith":
     question = data[idx]["sQuestion"].strip()
+  elif dataset_name == "gpqa":
+    question = _format_gpqa_example(data, idx)
   else:
     assert dataset_name == "aqua"
     question = _format_aqua_example(data, idx)
@@ -266,11 +273,13 @@ def fetch_true_answer(data, idx, dataset_name):
       "mmlu",
       "bbh",
       "gsm8k",
+      "math",
       "multiarith",
       "aqua",
+      "gpqa",
   }, (
-      "The lower-case dataset name must be one of mmlu, bbh, gsm8k, multiarith,"
-      " or aqua."
+      "The lower-case dataset name must be one of mmlu, bbh, gsm8k, math, multiarith,"
+      " aqua, or gpqa."
   )
   if dataset_name == "mmlu":
     return data.iloc[idx, -1]
@@ -278,8 +287,12 @@ def fetch_true_answer(data, idx, dataset_name):
     return data[idx]["target"]
   elif dataset_name == "gsm8k":
     return data.iloc[idx, 1]
+  elif dataset_name == "math":
+    return data[idx]["target"]
   elif dataset_name == "multiarith":
     return int(data[idx]["lSolutions"][0])
+  elif dataset_name == "gpqa":
+    return data[idx]["target"]  # Returns letter A, B, C, or D
   else:
     assert dataset_name == "aqua"
     return data[idx]["correct"]
@@ -350,7 +363,7 @@ def _prompting_to_get_raw_answers(
       element is a prompt).
     call_server_func (function): the name of the function that calls the
       inference server.
-    server_index (int): (PaLM only) the index of the server to prompt.
+    server_index (int): the index of the server to prompt.
     max_retry (int): the maximum number of retries.
     sleep_time (int): the number of seconds to sleep before a retry.
     verbose (bool): whether to print out progress information.
@@ -391,7 +404,14 @@ def _get_accuracy(
       morning? (A) west (B) east (C) north (D) south". Must contain consecutive
       upper-case bracketed letters like (A) (B) (C) (D).
     treat_include_as_correct (bool): whether to treat the answer as correct when
-      true_answer is included in pred_answer.
+      true_answer is included in pred_answer. 
+      
+      WARNING: Do NOT set this to True for multiple choice questions!
+      Single letters (A, B, C, D) appear frequently in text (e.g., 'b' in 
+      "because", 'a' in "answer"), causing massive false positives.
+      
+      Only use True for free-form text answers where substring matching is 
+      appropriate (e.g., "Chicago" in "The answer is Chicago because...").
 
   Returns:
     accuracy (int): 1 or 0, indicating the answer is right or wrong.
@@ -479,11 +499,22 @@ def _get_accuracy(
         or pred_answer.strip() == true_answer_as_true_or_false_str.strip()
     )
 
+  # Try numeric comparison for math problems (e.g., "3" vs "3.0")
+  is_numeric_match = False
+  try:
+    true_num = float(true_answer)
+    pred_num = float(pred_answer)
+    # Use approximate comparison for floating point
+    is_numeric_match = abs(true_num - pred_num) < 1e-6
+  except (ValueError, TypeError):
+    pass
+  
   accuracy = int(
       result_exact_match
       or is_choice_text_exact_match
       or is_true_choice_text_included_and_other_choice_text_excluded
       or is_boolean_match
+      or is_numeric_match
   )
   if treat_include_as_correct:
     accuracy = int(bool(accuracy) or true_answer_included_in_pred_answer)
@@ -703,9 +734,8 @@ def evaluate_single_instruction(
         call_server_local_func=call_server_func,
     )
   else:  # no parallelism in first round
-    raw_answers = [
-        call_server_func(prompt)[0] for prompt in raw_prompts_flattened
-    ]
+    # Pass all prompts at once to the function for maximum efficiency
+    raw_answers = call_server_func(raw_prompts_flattened)
 
   if verbose:
     print("first round of prompting finished")
@@ -739,10 +769,11 @@ def evaluate_single_instruction(
           ),
       )
     else:
-      raw_answers_second_round = [
-          call_server_func(prompt, max_decode_steps=50)[0]
-          for prompt in raw_prompts_flattened_second_round
-      ]
+      # Pass all prompts at once for maximum efficiency
+      raw_answers_second_round = call_server_func(
+          raw_prompts_flattened_second_round, 
+          max_decode_steps=50
+      )
     if verbose:
       print("second round of prompting finished")
 
@@ -819,7 +850,12 @@ def evaluate_single_instruction(
 
   accuracies = []
   for i, _ in enumerate(eval_index_all):
-    treat_include_as_correct = not prediction_treat_as_number_list[i]
+    # For multiple choice, don't use "include" fallback - single letters 
+    # like 'b' appear in words like "because", causing false positives.
+    # Only use include fallback for free-form text answers (e.g., city names).
+    treat_include_as_correct = (
+        not prediction_treat_as_number_list[i] and not is_multiple_choice[i]
+    )
     input_text = raw_prompts_flattened[i] if is_multiple_choice[i] else ""
     accuracy = get_accuracy_of_list(
         true_answer=true_answers[i],
@@ -914,3 +950,107 @@ def load_bbh_task_data(
     data = formatted_examples
 
   return data
+
+
+def load_math_task_data(
+    split: str,
+    base_dir: str,
+):
+  """Load MATH dataset from disk.
+
+  The MATH dataset (Hendrycks et al.) contains competition mathematics problems.
+  Downloaded from HuggingFace: jeggers/competition_math (numeric subset).
+
+  Args:
+    split (str): 'train' or 'test'
+    base_dir (str): the directory containing math_train.json and math_test.json
+
+  Returns:
+    data (list): a list of examples, each example is a dict with keys:
+      'input': the problem text
+      'target': the numerical answer
+      'solution': the step-by-step solution
+      'level': difficulty level (Level 1-5)
+      'type': problem category (Algebra, Geometry, etc.)
+  """
+  assert split in {"train", "test"}, f"Split must be 'train' or 'test', got {split}"
+  
+  file_path = os.path.join(base_dir, f"math_{split}.json")
+  if not os.path.exists(file_path):
+    raise FileNotFoundError(
+        f"MATH data file not found: {file_path}\n"
+        "Run 'python scripts/download_math_dataset.py' to download the dataset."
+    )
+  
+  with open(file_path, "r") as f:
+    raw_data = json.load(f)
+  
+  # Format to match expected structure (input/target like BBH)
+  formatted_examples = []
+  for d in raw_data:
+    formatted_examples.append({
+        "input": d["problem"],
+        "target": str(d["answer"]),  # Convert to string for consistency
+        "solution": d.get("solution", ""),
+        "level": d.get("level", ""),
+        "type": d.get("type", ""),
+    })
+  
+  return formatted_examples
+
+
+def load_gpqa_task_data(
+    subset: str,
+    base_dir: str,
+):
+  """Load GPQA dataset from disk.
+
+  GPQA (Graduate-Level Google-Proof Q&A Benchmark) is a challenging multiple-choice
+  question answering dataset requiring expert-level knowledge.
+
+  Downloaded from HuggingFace: Idavidrein/gpqa
+
+  Args:
+    subset (str): 'main', 'extended', or 'diamond'
+    base_dir (str): the directory containing gpqa_*.json files
+
+  Returns:
+    data (list): a list of examples, each example is a dict with keys:
+      'input': the formatted multiple-choice question with (A)(B)(C)(D) options
+      'question_only': the question text without options
+      'target': the correct answer letter (A, B, C, or D)
+      'correct_answer_text': the text of the correct answer
+      'choices': dict mapping A/B/C/D to answer text
+      'domain': high-level domain (e.g., Biology, Physics)
+      'subdomain': specific subdomain
+  """
+  valid_subsets = {"main", "extended", "diamond"}
+  assert subset in valid_subsets, f"Subset must be one of {valid_subsets}, got {subset}"
+  
+  file_path = os.path.join(base_dir, f"gpqa_{subset}.json")
+  if not os.path.exists(file_path):
+    raise FileNotFoundError(
+        f"GPQA data file not found: {file_path}\n"
+        "Run 'python scripts/download_gpqa_dataset.py' to download the dataset."
+    )
+  
+  with open(file_path, "r") as f:
+    data = json.load(f)
+  
+  return data
+
+
+def _format_gpqa_example(data, idx, include_question=True):
+  """Generate the question part of the GPQA prompt.
+
+  Args:
+    data (list): the GPQA data
+    idx (int): the index of the question in data
+    include_question (bool): whether to include the final question sentence
+
+  Returns:
+    prompt (str): the generated question with choices
+  """
+  # The 'input' field already contains the formatted question with choices
+  # Just return it directly
+  return data[idx]["input"]

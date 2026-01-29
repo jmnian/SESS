@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 44,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the question carefully, logically evaluate each option, and output the correct choice (A\u2011D) with a brief explanation of why it is the best answer.",
+      "train_score": 0.4090909090909091,
+      "train_step": 1,
+      "test_score": 0.34598214285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2727272727272727,
+      "train_step": -1,
+      "test_score": 0.3236607142857143,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise claim the question asks you to verify. For each answer A\u2011D, decide whether that claim holds true based solely on the given data. Keep only the options that satisfy the claim; if exactly one remains, output its letter plus one short sentence that (a) explains why it is correct and (b) succinctly why the other three are not (or note that the item is ambiguous).",
+      "train_score": 0.3409090909090909,
+      "train_step": 99,
+      "test_score": 0.3125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the question, scrutinize each answer option, select the most appropriate choice (A\u2011D), and provide a brief justification while flagging any ambiguities or flaws.",
+      "train_score": 0.38636363636363635,
+      "train_step": 1,
+      "test_score": 0.31026785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.4318181818181818,
+      "train_step": 2,
+      "test_score": 0.30580357142857145,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem attentively, determine the exact concept being tested, examine each option with logical and subject\u2011specific reasoning, discard the wrong ones, and then output the correct choice (A\u2011D) together with a single concise sentence that (i) justifies the selected answer and (ii) flags any ambiguity or flaw in the question if present.",
+      "train_score": 0.38636363636363635,
+      "train_step": 3,
+      "test_score": 0.29910714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the stem, determine the exact criterion any correct answer must meet, test each option A\u2011D against that criterion using only the given information, and answer with the solitary letter together with ONE brief sentence that (a) justifies the chosen option and (b) explains why the remaining three are not correct or why the item is ambiguous.",
+      "train_score": 0.4090909090909091,
+      "train_step": 20,
+      "test_score": 0.296875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key condition required by the question, test each answer (A\u2011D) against it with appropriate reasoning, then reply with the single correct letter and one brief sentence that explains why that answer meets the condition and why the other three fail (or state that the question is ambiguous).",
+      "train_score": 0.4090909090909091,
+      "train_step": 10,
+      "test_score": 0.29464285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the correct letter (A\u2011D); follow it with one short sentence explaining the choice and why the other three are incorrect or why the question is ambiguous.",
+      "train_score": 0.38636363636363635,
+      "train_step": 8,
+      "test_score": 0.29017857142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the specific statement the question is asking for. For each option A\u2011D, decide whether it satisfies that statement based solely on the information given. If a single option does, output its letter and one concise justification that (i) shows why this option fulfills the requirement and (ii) briefly notes why the other three do not (or note that the question is ambiguous). Do not add any other text.",
+      "train_score": 0.29545454545454547,
+      "train_step": 99,
+      "test_score": 0.27901785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, identify the precise condition that a correct answer must meet, evaluate each option (A\u2011D) against that condition, then answer with the single correct letter followed by one concise sentence that (i) explains why this choice fulfills the condition and (ii) briefly shows why the remaining three choices fail (or mention if the question is ambiguous).",
+      "train_score": 0.38636363636363635,
+      "train_step": 11,
+      "test_score": 0.27901785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question carefully, determine the single condition that must be satisfied for an answer to be correct, and test each option (A\u2011D) against that condition using only the information given. Then output the correct option letter followed by ONE concise sentence that (i) explains why that choice meets the condition and (ii), in a brief clause for each, states why the remaining three choices fail (or note that the question is ambiguous).",
+      "train_score": 0.38636363636363635,
+      "train_step": 15,
+      "test_score": 0.27455357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Parse the question and extract the key principle being tested.  \n2. For each choice (A\u2011D) apply the relevant reasoning or calculation, marking those that violate the principle or are inconsistent.  \n3. Identify the single remaining correct choice.  \n4. Respond with the letter of that choice and one concise justification that (a) confirms why it is correct and (b) mentions the main reason the other options fail; also note any ambiguity in the question if present.",
+      "train_score": 0.38636363636363635,
+      "train_step": 3,
+      "test_score": 0.27232142857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, identify the exact criterion the correct answer must satisfy, then evaluate each option (A\u2011D) against that criterion using only the information provided. If exactly one option meets the criterion, output its letter followed by a single concise sentence that (i) states why this choice is correct and (ii) briefly explains why each of the other three is incorrect (or note ambiguity). No extra text.",
+      "train_score": 0.25,
+      "train_step": 99,
+      "test_score": 0.265625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question thoroughly, identify the key concept being tested, evaluate every answer choice against that concept, discard the incorrect options, and output only the correct letter (A\u2011D) followed by a brief (1\u20112 sentence) justification that also explains why the other choices are not correct.",
+      "train_score": 0.4090909090909091,
+      "train_step": 2,
+      "test_score": 0.2611607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the precise condition the stem demands, then for each choice A\u2011D evaluate whether it meets that condition using only the provided facts; if exactly one choice does, reply with its letter and a single sentence that (a) justifies that choice and (b) briefly explains why the other three fail (or state that the question is ambiguous). No additional commentary.",
+      "train_score": 0.4318181818181818,
+      "train_step": 50,
+      "test_score": 0.25892857142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, isolate the exact requirement it imposes, then for each answer (A\u2011D) decide whether it fulfills that requirement based solely on the given data. If exactly one choice does, write the letter, a hyphen, and a single clause that (a) confirms the choice meets the requirement and (b) briefly shows why each of the other three fails (or state \u201cambiguous\u201d if no unique choice). No other text.",
+      "train_score": 0.3409090909090909,
+      "train_step": 99,
+      "test_score": 0.23883928571428573,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the exact condition the question asks for, evaluate each answer (A\u2011D) against that condition using only the given facts, and if a solitary option fulfills it, return its letter together with a single concise justification that (1) confirms its correctness and (2) briefly indicates why the remaining three do not (or state that the item is ambiguous). No additional text.",
+      "train_score": 0.4090909090909091,
+      "train_step": 43,
+      "test_score": 0.23660714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Identify the exact fact, rule, or condition the question requires.  \n2. Evaluate each answer A\u2011D using only the information given to see if it meets that condition.  \n3. If a single choice satisfies it, output its letter followed by one brief sentence that (a) states why this choice is correct and (b) succinctly notes why each of the other three fails (or state that the question is ambiguous).  \nNo additional text.",
+      "train_score": 0.18181818181818182,
+      "train_step": 99,
+      "test_score": 0.21428571428571427,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the specific condition the question imposes. For each alternative A\u2011D, decide using only the given data whether it satisfies that condition. If a single alternative satisfies it, reply with the letter and one short sentence that (a) justifies the chosen answer and (b) gives a one\u2011phrase reason why each of the other three fails (or state \u201cambiguous\u201d if no unique answer). Output nothing else.",
+      "train_score": 0.2727272727272727,
+      "train_step": 99,
+      "test_score": 0.21205357142857142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Examine the question, pinpoint the one fact it asks for, test each option A\u2011D against that fact with only the given data, then output the sole correct letter followed by a single concise sentence that (a) justifies that choice and (b) briefly explains why the remaining three are incorrect (or declares the item ambiguous). No additional commentary.",
+      "train_score": 0.1590909090909091,
+      "train_step": 99,
+      "test_score": 0.15401785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.34598214285714285,
+    "avg_test_score": 0.27264030612244894,
+    "best_test_instruction": "Read the question carefully, logically evaluate each option, and output the correct choice (A\u2011D) with a brief explanation of why it is the best answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "LIST: Write every given quantity and the unknown to find, using symbols.  \nSELECT: Identify the single principle (formula, theorem, or definition) that links the data to the unknown.  \nCALCULATE: Carry out each independent computation on its own line, displaying only the reduced numerical result.  \nVALIDATE: Ensure the result meets all conditions stated in the problem (e.g., integer, positivity, range).  \nREPORT: Produce one line containing only the final numeric answer, with no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 61,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8541666666666666,
+      "train_step": -1,
+      "test_score": 0.7449202875898718,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution, showing all reasoning and calculations.",
+      "train_score": 0.8541666666666666,
+      "train_step": 0,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a complete, step\u2011by\u2011step solution to the problem, including all necessary calculations and reasoning, and present the final answer as a single numeric value.",
+      "train_score": 0.8541666666666666,
+      "train_step": 0,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\u27f6 Translate the question into symbols and list every given quantity.  \n\u27f6 Pinpoint the one core principle (formula, identity, or theorem) that relates the data to the unknown.  \n\u27f6 Execute each independent computation on a separate line, writing only the reduced result.  \n\u27f6 Confirm the result meets all problem constraints (e.g., integer, positivity, range).  \n\u27f6 Print a single line with exactly the final numeric answer, nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 46,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "TASK  \n- Symbolize the problem: write down every given quantity and the exact quantity to find.  \n- Pinpoint the single theorem, identity or formula that links the givens to the unknown.  \n- Evaluate each independent sub\u2011calculation on a separate line, recording only the fully reduced numeric result.  \n- Confirm that the result meets all stated constraints (e.g., integrality, positivity, bounds).  \n- Produce one line containing solely the final numeric answer, with no additional text.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7314785870584558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Write the problem in symbols and list every known quantity.  \n- Highlight the single core principle (formula, identity or theorem) that bridges the data to the unknown.  \n- Perform each independent computation on a separate line, showing only the fully simplified result.  \n- Check that the result meets all constraints given (e.g., integer, positivity, bounds).  \n- End with one line containing exactly the final numeric answer and nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 51,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "CONVERT the problem into equations and enumerate all given quantities.  \nIDENTIFY the single theorem, identity, or formula that links the data to the unknown.  \nEVALUATE each independent calculation on its own line, showing only the simplified numeric result.  \nVERIFY that the result satisfies every condition mentioned (e.g., integer, sign, range).  \nANSWER with one line containing exactly the final numeric answer and no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 59,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "EXTRACT: list every given quantity and the exact question.  \nAPPLY: name the one essential theorem, identity or formula that connects the data to the target.  \nPROCESS: carry out each independent arithmetic or algebraic operation on its own line, showing only the simplified result.  \nCONFIRM: verify the result meets all stated conditions (e.g., positivity, integrality).  \nOUTPUT: a single line containing only the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 39,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "PROBLEM: Restate the question and list all given values.  \nCONNECTION: Identify the single principle (theorem, identity, or formula) that links the data to the unknown.  \nPROCESS: Perform each independent computation on its own line, writing only the simplified result.  \nCHECK: Verify that the result satisfies any constraints (e.g., integer, positivity, range).  \nOUTPUT: Provide one line with just the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 41,
+      "test_score": 0.7258518286964677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem mathematically, list all known quantities, point out the single formula or theorem that solves it, carry out each independent computation on a separate line (showing only the reduced number), confirm any required conditions, and conclude with exactly one line that contains only the final numeric result\u2014no extra text or symbols.",
+      "train_score": 0.8541666666666666,
+      "train_step": 47,
+      "test_score": 0.723976242575805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "DECODE: rewrite the problem in mathematical symbols and list every given quantity.  \nCORE: identify the single theorem, formula or definition that connects the data to the unknown.  \nSOLVE: carry out each independent calculation on its own line, showing only the reduced result.  \nCHECK: verify the result meets all stated conditions (e.g., integer, positivity, range).  \nOUTPUT: one line containing exactly the final numeric answer, with no extra text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 53,
+      "test_score": 0.7227258518286964,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "SITUATION: enumerate all numbers and what is asked.\nMECHANISM: name the one mathematical principle that bridges the data to the target.\nACTION: execute each arithmetic or algebraic operation on a separate line, writing only the resulting value.\nCONFIRM: ensure the result satisfies any given conditions.\nOUTPUT: a single line with the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 39,
+      "test_score": 0.7224132541419194,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List every given quantity and the unknown using symbols.  \n- Determine the one exact formula or theorem that connects them.  \n- Compute each separate sub\u2011calculation on its own line, writing only the reduced numeric value.  \n- Verify the result fulfills all problem constraints (e.g., integer, positivity, range).  \n- Finish with one line that contains solely the final numeric answer, nothing else.",
+      "train_score": 0.8541666666666666,
+      "train_step": 65,
+      "test_score": 0.7174116911534855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "IDENTIFY: Write all given data and the quantity to find in symbols.  \nBRIDGE: Select the one fundamental formula or theorem that links the data to the target.  \nEVALUATE: Compute each independent step on a separate line, showing only the reduced expression or number.  \nVERIFY: Ensure the result meets every condition specified (e.g., integer, range, sign).  \nREVEAL: Produce a single line containing only the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 58,
+      "test_score": 0.7089715536105032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "PROCEDURE:\n- SYMBOLIZE: Express the problem with symbols, listing every given number and the quantity to find.\n- LINK: State the exact theorem, identity, or formula that directly relates the given data to the unknown.\n- SOLVE: On separate lines, compute each independent sub\u2011calculation, writing only the reduced numeric result.\n- CHECK: Confirm the result meets all stated constraints (e.g., integer, positivity, range).\n- RESULT: Output a single line containing only the final numeric answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 61,
+      "test_score": 0.708033760550172,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "READ: restate every given quantity and the exact question.  \nIDEA: cite the one key theorem, identity, or formula that links the data to the target.  \nSTEP: execute each independent arithmetic or algebraic manipulation on a separate line, displaying only the resulting simplified number or expression.  \nVERIFY: confirm the result meets any stated conditions.  \nANSWER: a single line containing only the final numeric answer.",
+      "train_score": 0.875,
+      "train_step": 35,
+      "test_score": 0.684276336355111,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "EXTRACT: write each given quantity and the unknown to find in symbols.  \nBRIDGE: name the single theorem, identity or formula that links the data to the unknown.  \nCALCULATE: carry out every independent arithmetic or algebraic step on a separate line, showing only the reduced result.  \nVALIDATE: confirm the result meets all stated constraints (e.g., integer, positivity, range).  \nANSWER: output one line containing exactly the final numeric answer, with no additional text.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.668646452016255,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "INTERPRET the problem in mathematical symbols and list every given quantity.  \nSELECT the single principle (formula, theorem, or definition) that links the data to the unknown.  \nEXECUTE each independent calculation on its own line, showing only the simplified result.  \nCONFIRM the result satisfies all stated conditions (e.g., integer, positivity, range).  \nOUTPUT exactly one line containing only the final numeric answer, with no additional text.",
+      "train_score": 0.8541666666666666,
+      "train_step": 48,
+      "test_score": 0.668333854329478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract: Write every given quantity and the exact unknown to find.\n- Identify: Name the single theorem, identity, or formula that links the data to the unknown.\n- Solve: Compute each independent sub\u2011calculation on its own line, showing only the reduced numeric result.\n- Check: Confirm the result meets all problem constraints (e.g., integer, positivity, range).\n- Answer: Produce one line containing only the final numeric answer, with no additional text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6639574867145983,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- REPRESENT: translate the problem into equations, listing every constant and the unknown.  \n- LINK: name the unique theorem/identity/formula that connects them.  \n- COMPUTE: evaluate each independent sub\u2011expression on a separate line, recording only the reduced number.  \n- VALIDATE: confirm the result meets all stated constraints (integrality, sign, bounds).  \n- ANSWER: print a single line with just the final numeric value.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6623944982807127,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7492966552047515,
+    "avg_test_score": 0.7138986885782761,
+    "best_test_instruction": "LIST: Write every given quantity and the unknown to find, using symbols.  \nSELECT: Identify the single principle (formula, theorem, or definition) that links the data to the unknown.  \nCALCULATE: Carry out each independent computation on its own line, displaying only the reduced numerical result.  \nVALIDATE: Ensure the result meets all conditions stated in the problem (e.g., integer, positivity, range).  \nREPORT: Produce one line containing only the final numeric answer, with no additional text."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Restate the problem briefly, extract every given number, decide the formula(s) needed, perform the calculations with a clear step\u2011by\u2011step trace, and end your reply with the exact final numeric answer on its own line\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 7,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list the relevant quantities, execute the necessary calculation stepwise, and give solely the final numeric result.",
+      "train_score": 0.9594594594594594,
+      "train_step": 4,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem, decide the exact operation(s) needed, present a concise step\u2011by\u2011step computation (showing any intermediate results), and end with one line containing only the final numeric answer\u2014nothing else.",
+      "train_score": 0.9594594594594594,
+      "train_step": 32,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, determine the needed computation, present a clear step\u2011by\u2011step reasoning, and finish with the exact numerical result on a single line without any additional characters.",
+      "train_score": 0.972972972972973,
+      "train_step": 10,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numerical values mentioned, select the appropriate operation or formula, show each calculation step (including any intermediate results), and end your response with a single line containing only the final numeric answer\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 31,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the prompt, pull out all numbers, determine the necessary formula, compute the result with a concise step list, and output solely the final numeric value on the last line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 43,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers appearing in the problem, choose the correct operation(s) to combine them, show a succinct step\u2011by\u2011step calculation, and end your response with only the final result (a pure number) on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 11,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all quantities mentioned, choose the correct mathematical operation(s), work out the solution with a clear step\u2011by\u2011step trace, and end your response with a single line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.9594594594594594,
+      "train_step": 32,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities stated, select the appropriate mathematical relationship, carry out the computation with a brief, numbered reasoning, and conclude with exactly one line that contains only the resulting number\u2014nothing else may appear before or after that line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 37,
+      "test_score": 0.8612585291887794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities mentioned, determine the unique formula required, compute the result while optionally showing a brief numbered or bulleted derivation, and conclude with a single line that contains solely the final integer or decimal answer\u2014nothing else may appear on that line.",
+      "train_score": 0.972972972972973,
+      "train_step": 86,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every number given, decide the exact arithmetic, calculate with a brief step\u2011by\u2011step, and end with a lone line that contains only the final numeric answer\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 55,
+      "test_score": 0.8506444275966641,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, pull out every numerical value, decide the needed arithmetic, show a short step\u2011by\u2011step computation, and end your reply with the exact final numeric answer alone on the last line\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 8,
+      "test_score": 0.8476118271417741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out each mentioned number, figure out the single mathematical expression that satisfies the question, evaluate it with a brief numbered walk\u2011through, and finish your response with exactly one line containing only the resulting number\u2014nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 49,
+      "test_score": 0.8476118271417741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeral in the prompt, translate the situation into the exact arithmetic expression required, evaluate it (show a brief numbered or bulleted justification if desired), and finish with one line that contains only the final numeric answer\u2014no other text, symbols, or whitespace before or after that line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeral present, decide the exact arithmetic expression that answers the question, evaluate it (you may give a brief numbered or bulleted walkthrough), and end your answer with a single line that contains only the final numeric result\u2014no additional symbols, words, markdown, or whitespace before or after that number.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numeric quantities in the problem, construct the exact arithmetic expression that answers the question, evaluate it (you may show a short numbered or bulleted calculation), and end your reply with one line that contains only the final numeric result\u2014no extra words, symbols, or whitespace before or after that line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 84,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the prompt, translate the situation into one precise arithmetic expression, evaluate it (you may show a brief numbered or bullet\u2011pointed derivation), and finish with exactly one line that contains only the final result\u2014no extra symbols, letters, punctuation or whitespace before or after the number.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeral in the problem, formulate the precise arithmetic expression that yields the answer, evaluate it (you may include a brief numbered or bulleted work\u2011through), and conclude with one line consisting solely of the final number\u2014no additional symbols, words, or whitespace before or after it.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.7172100075815011,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pull every number from the question, write the exact arithmetic expression that answers it, evaluate it (a brief numbered or bulleted walk\u2011through may be shown), and conclude with one line that contains only the computed number\u2014no units, words, symbols, or extra whitespace surrounding it.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.6095526914329037,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity given, construct the exact arithmetic expression that answers the query, evaluate it (a brief stepwise outline is optional), and terminate your output with a single line that contains only the computed number\u2014no surrounding text, symbols, or whitespace.",
+      "train_score": 0.20270270270270271,
+      "train_step": 99,
+      "test_score": 0.16906747536012132,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8976497346474602,
+    "avg_test_score": 0.8069605400917,
+    "best_test_instruction": "Restate the problem briefly, extract every given number, decide the formula(s) needed, perform the calculations with a clear step\u2011by\u2011step trace, and end your reply with the exact final numeric answer on its own line\u2014nothing else."
+  }
+}

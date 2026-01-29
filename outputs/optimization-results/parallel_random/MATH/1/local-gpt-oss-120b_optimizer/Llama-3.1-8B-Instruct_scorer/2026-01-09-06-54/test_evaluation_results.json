@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution and state the final answer.",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.5370428258830885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step by step, explicitly show each reasoning step, include a brief sanity check, and conclude by outputting only the final numeric answer.",
+      "train_score": 0.6666666666666666,
+      "train_step": 7,
+      "test_score": 0.532979055954986,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step by step, showing your reasoning, and output the final answer.",
+      "train_score": 0.7083333333333334,
+      "train_step": 0,
+      "test_score": 0.5236011253516724,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the core idea, perform every necessary computation on a separate line with a brief justification, optionally do a quick sanity check, and finish with one line that contains only the final numeric answer.",
+      "train_score": 0.6458333333333334,
+      "train_step": 43,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, ordered solution: first identify the quantity to find, then perform each necessary calculation on its own line with a short comment, optionally do a quick plausibility check, and conclude with a single line containing only the final numeric answer.",
+      "train_score": 0.6666666666666666,
+      "train_step": 87,
+      "test_score": 0.5195373554235698,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution to the problem and give the final answer.",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.5170365739293529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, logically ordered solution: identify the core principle, perform the necessary calculations concisely, and state only the final numeric answer.",
+      "train_score": 0.6458333333333334,
+      "train_step": 3,
+      "test_score": 0.5167239762425758,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a short, logical solution: state the crucial insight, do the necessary calculation, and end with just the final numerical answer.",
+      "train_score": 0.6875,
+      "train_step": 3,
+      "test_score": 0.5120350109409191,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a structured solution: first identify the key principle, then perform each required calculation on a separate short line with a brief justification, optionally include a quick sanity check, and conclude by outputting only the final numeric answer.",
+      "train_score": 0.6666666666666666,
+      "train_step": 7,
+      "test_score": 0.5110972178805877,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nGive a brief derivation that directly leads to the required number; after the reasoning, output only the final numeric answer on a new line.\\n",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.5101594248202563,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the central objective, list the required data, carry out each computation on its own line with a brief justification, optionally do a quick sanity check, and finish by presenting only the final numerical answer.",
+      "train_score": 0.6666666666666666,
+      "train_step": 18,
+      "test_score": 0.5098468271334792,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nState the key idea in one line, then list each required calculation on a separate line prefixed by \u2018Step\u202fk:\u2019, optionally add a quick consistency check, and finally write the answer alone on the last line.\\n",
+      "train_score": 0.625,
+      "train_step": 99,
+      "test_score": 0.5051578618318224,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer with a tight solution: briefly state the key insight, carry out each necessary arithmetic or algebra step on a separate line with a short justification, optionally verify the result with a quick sanity check, and conclude by outputting only the final numeric answer.",
+      "train_score": 0.6666666666666666,
+      "train_step": 9,
+      "test_score": 0.5045326664582682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem systematically, writing each essential computation on its own line with a brief comment, and conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.6458333333333334,
+      "train_step": 76,
+      "test_score": 0.4973429196623945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be found, then enumerate each essential logical or arithmetic step on its own line (a brief label is allowed), optionally include a one\u2011line plausibility check, and end with a single line that contains only the final numeric result.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.4957799312285089,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Construct a compact solution: (a) capture the decisive property, (b) perform each required computation on a new line preceded by a brief label, (c) if helpful, run a quick plausibility test, (d) finish with a lone line showing only the final answer.",
+      "train_score": 0.6875,
+      "train_step": 63,
+      "test_score": 0.4957799312285089,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core relationship, compute each needed quantity on its own line (labelled if you wish), briefly verify the result, and conclude with a single line that contains just the final number.",
+      "train_score": 0.6458333333333334,
+      "train_step": 85,
+      "test_score": 0.49046577055329793,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the core insight in a single sentence, perform the required calculation concisely (with an optional quick sanity check), and conclude by outputting only the final numeric answer.",
+      "train_score": 0.6458333333333334,
+      "train_step": 6,
+      "test_score": 0.48921537980618945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4583333333333333,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity to find, then write each necessary calculation on a separate line (optionally prefixed by a short label), include a one\u2011sentence sanity check if desired, and end with one line that contains only the final numeric answer.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.4795248515160988,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the target value, then output a concise chain of essential computations\u2014each on its own line, optionally preceded by a short identifier\u2014followed by one optional line verifying plausibility, and finally a single line that contains just the final number (no words, no symbols other than the number).",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.3207252266333229,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5370428258830885,
+    "avg_test_score": 0.4987719376590899,
+    "best_test_instruction": "Provide a clear, step\u2011by\u2011step solution and state the final answer."
+  }
+}

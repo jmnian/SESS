@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Construct a thorough, step\u2011by\u2011step solution that identifies the problem\u2019s type, applies the appropriate mathematical principles, and verifies each intermediate result, concluding with only the final numeric answer. Use precise language, include brief explanations for each step, and ensure clarity for both learners and instructors.",
+      "train_score": 0.788235294117647,
+      "train_step": 1,
+      "test_score": 0.5379806189434199,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution and state the final answer.",
+      "train_score": 0.7705882352941177,
+      "train_step": 0,
+      "test_score": 0.5336042513285402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution that includes key steps, essential calculations, and a brief justification, ending with only the final numeric answer.",
+      "train_score": 0.7470588235294118,
+      "train_step": 1,
+      "test_score": 0.5239137230384495,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Begin by recognizing the mathematical domain of the question and naming the precise theorem, formula, or principle you will employ. Perform each required computation on its own line, giving a short justification for each step. After a brief sanity\u2011check, output exactly one line in the form `Answer: <number>` and nothing else.",
+      "train_score": 0.7352941176470589,
+      "train_step": 38,
+      "test_score": 0.5211003438574554,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step, showing each essential calculation on its own line with a brief justification. After verifying the result, output only a single line containing \u201cAnswer: <number>\u201d. Do not include any other text.",
+      "train_score": 0.7470588235294118,
+      "train_step": 34,
+      "test_score": 0.5192247577367928,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution with all necessary reasoning and calculations, and finish by stating only the final numeric answer.",
+      "train_score": 0.7235294117647059,
+      "train_step": 0,
+      "test_score": 0.5192247577367928,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise, structured solution: first identify the problem type and the key formula(s) needed; then solve step by step, showing all calculations with brief justification for each move; include a short verification of the result; finally output only the final numeric answer. Use clear language suitable for both learners and instructors.",
+      "train_score": 0.7,
+      "train_step": 1,
+      "test_score": 0.5192247577367928,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, well\u2011structured solution: first state the mathematical topic and the key result you will use, then perform the necessary calculations with a short justification for each step, optionally check the result, and finish the response with a single line containing only the numeric answer prefixed by \u201cAnswer:\u201d. No additional explanation or commentary is required.",
+      "train_score": 0.7058823529411765,
+      "train_step": 20,
+      "test_score": 0.5176617693029072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by:\n- Naming the relevant branch of mathematics and the exact formula needed.\n- Executing every indispensable arithmetic or algebraic operation on a separate line, appending a short justification in parentheses.\n- Giving one brief sanity\u2011check sentence (optional).\n- Finally writing only `Answer: <number>` on a new line, with nothing else.",
+      "train_score": 0.7235294117647059,
+      "train_step": 58,
+      "test_score": 0.5114098155673648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the problem type, apply the suitable mathematical principle with a brief justification, perform the essential calculations, and conclude by stating only the final numeric answer.",
+      "train_score": 0.7235294117647059,
+      "train_step": 1,
+      "test_score": 0.506408252578931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief rationale (no more than three sentences) that states the problem category and the core principle or formula you will use, then carry out the required calculations. End your response with a single line that contains only \u201cAnswer:\u202f<number>\u201d. Include no other text.",
+      "train_score": 0.7529411764705882,
+      "train_step": 8,
+      "test_score": 0.5026570803376055,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question by: stating the needed concept, performing every indispensable calculation on its own line with a short comment, and finishing with a single line `Answer: <value>` with no additional characters or explanations.",
+      "train_score": 0.7176470588235294,
+      "train_step": 80,
+      "test_score": 0.5023444826508284,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution:\n- Identify the mathematical domain and the exact theorem or formula you will use.\n- Perform each necessary computation on a separate line, appending a brief reason in parentheses.\n- Do a quick sanity check (optional).\n- End with only one line `Answer: <number>` and no other text.",
+      "train_score": 0.7352941176470589,
+      "train_step": 62,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a minimal solution:\n- Identify the relevant branch of mathematics and the precise result you will apply.\n- Perform each necessary computation on a separate line, appending a short reason in parentheses.\n- (Optional) write a brief consistency check.\n- Finish with exactly one line `Answer: <number>` and no other text.",
+      "train_score": 0.7176470588235294,
+      "train_step": 92,
+      "test_score": 0.49796811503594873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using a compact, ordered solution:\n- State the subject area and the precise result (formula/theorem) you will apply.\n- Perform each necessary computation on a separate line, appending a short reason in parentheses.\n- End with a single line `Answer: <value>` and no further text.",
+      "train_score": 0.7176470588235294,
+      "train_step": 88,
+      "test_score": 0.49609252891528605,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction text ...",
+      "train_score": 0.7294117647058823,
+      "train_step": 6,
+      "test_score": 0.4942169427946233,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "[our instruction text]",
+      "train_score": 0.7176470588235294,
+      "train_step": 50,
+      "test_score": 0.49015317286652077,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7176470588235294,
+      "train_step": -1,
+      "test_score": 0.4882775867458581,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a solution or answer to the given problem.",
+      "train_score": 0.7058823529411765,
+      "train_step": 0,
+      "test_score": 0.4882775867458581,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, ordered solution: first name the main principle or formula needed, then carry out the calculations with a one\u2011sentence justification for each step, and finally write only the final numeric result on its own line prefixed by \u201cAnswer:\u201d. No other text should be included.",
+      "train_score": 0.7,
+      "train_step": 3,
+      "test_score": 0.4864020006251954,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a solution in the following format: Domain: <...>. Formula: <...>. Calculations: (list each essential computation on its own line inside a code block, each followed by a brief parenthetical justification). Check: (optional one\u2011sentence sanity check). Finally, a line containing only `Answer: <number>`. No additional text outside these sections.",
+      "train_score": 0.4294117647058823,
+      "train_step": 99,
+      "test_score": 0.27383557361675526,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5379806189434199,
+    "avg_test_score": 0.49658375385165004,
+    "best_test_instruction": "Construct a thorough, step\u2011by\u2011step solution that identifies the problem\u2019s type, applies the appropriate mathematical principles, and verifies each intermediate result, concluding with only the final numeric answer. Use precise language, include brief explanations for each step, and ensure clarity for both learners and instructors."
+  }
+}

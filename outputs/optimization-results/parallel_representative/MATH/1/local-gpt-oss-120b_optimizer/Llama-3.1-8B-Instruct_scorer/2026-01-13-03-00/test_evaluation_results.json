@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, list the relevant concepts, solve it with a clear step\u2011by\u2011step logical derivation, show all essential calculations, and end with the exact final answer (numeric or simplified).",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.5345420443888715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, determine the required mathematical operation(s), carry out a concise derivation, and conclude with only the exact final numeric answer.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.5336042513285402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the single value asked, choose the minimal applicable principle, perform only the necessary calculation(s), briefly justify each step, check all given conditions, and output exactly the final result\u2014integer if whole, otherwise as a reduced fraction or to one decimal place.",
+      "train_score": 0.8541666666666666,
+      "train_step": 87,
+      "test_score": 0.5267271022194435,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the exact answer that satisfies all problem conditions, verify it meets any constraints, and output only that number.",
+      "train_score": 0.8333333333333334,
+      "train_step": 18,
+      "test_score": 0.5264145045326665,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what the problem asks for, apply the minimal necessary theory or calculation to obtain it, briefly justify each step, verify that all stated conditions are satisfied, and output only the final numeric result (as an integer if whole, otherwise as a reduced fraction or a decimal rounded to one digit).",
+      "train_score": 0.8333333333333334,
+      "train_step": 87,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity requested, use the most direct reasoning or formula needed, carry out only the essential computation, verify that all stated conditions are satisfied, and output solely the final numeric result\u2014present it as an integer when it is whole, otherwise as a reduced fraction or a decimal rounded to one decimal place.",
+      "train_score": 0.8333333333333334,
+      "train_step": 66,
+      "test_score": 0.5148483901219131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential idea, perform a brief calculation, and give only the exact final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.514535792435136,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the governing concept, perform only the indispensable calculations, and output exclusively the exact final result.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.5132854016880275,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact value requested, apply the most direct formula or theorem, perform only essential calculations, briefly confirm any constraints, and output solely the final result\u2014present it as an integer if whole, otherwise as a reduced fraction or a decimal rounded to one place.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.5129728040012503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the unique quantity asked for, select the single most relevant formula or theorem, compute only the indispensable value, confirm all problem constraints, and return solely the final result\u2014present it as an integer when whole, otherwise as a reduced fraction or a decimal rounded to one place.",
+      "train_score": 0.8541666666666666,
+      "train_step": 52,
+      "test_score": 0.5117224132541419,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the central concept, execute a concise logical solution with only indispensable calculations, and output solely the exact final answer.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.5073460456392622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a focused solution: state the key principle, carry out the necessary calculations succinctly, and provide only the exact final answer.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.5060956548921538,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the specific number the problem requires, apply the simplest appropriate operation or formula, carry out only the indispensable computation, verify any given restrictions, and answer with just that value\u2014write it as an integer if it is whole, otherwise as a reduced fraction or a decimal rounded to one place.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.5001562988433885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity sought, apply the simplest applicable principle or formula, perform only the essential calculation, verify that all stated conditions are satisfied, and output solely the final result\u2014write it as an integer if it is whole, otherwise as a reduced fraction or a decimal rounded to one decimal place.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.5001562988433885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the single value the problem seeks, apply the most direct relevant formula or simplification, perform only the indispensable computation, confirm any stated conditions, and output solely the exact result\u2014write it as an integer when it is whole, otherwise as a reduced fraction (or to one decimal place if a decimal is required).",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.4976555173491716,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Interpret the question, pinpoint the single key principle required, perform only the indispensable computation(s) while briefly justifying each, confirm the answer satisfies any stated conditions, and reply with exactly the final numeric result and nothing else.",
+      "train_score": 0.8333333333333334,
+      "train_step": 7,
+      "test_score": 0.49140356361362925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the exact quantity asked for, apply the most straightforward reasoning or formula, carry out only the necessary calculation, confirm any problem conditions, and output solely the resulting number\u2014integer if integral, otherwise rounded to one decimal place.",
+      "train_score": 0.8333333333333334,
+      "train_step": 58,
+      "test_score": 0.4817130353235386,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nFocus on the single value the problem requests. Choose the most direct formula or reasoning, execute only the essential calculation, check any given conditions, and present the answer alone\u2014integer if whole, otherwise as a reduced fraction or a decimal rounded to one digit.\\n",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.43294779618630824,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the precise number the problem requests, apply the single most suitable theorem or identity, perform only the unavoidable arithmetic (no more than one computational step), verify that all given conditions are satisfied, and output only that result\u2014write it as an integer if it is whole, otherwise as a reduced fraction or a decimal rounded to one decimal place. No additional text.",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.26914660831509846,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the exact value required, compute it using the simplest necessary method, confirm any given conditions, and output solely the final result\u2014present it as an integer when whole, otherwise as a reduced fraction, with no additional commentary.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.2031884964051266,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5345420443888715,
+    "avg_test_score": 0.48019470370204975,
+    "best_test_instruction": "Read the problem, list the relevant concepts, solve it with a clear step\u2011by\u2011step logical derivation, show all essential calculations, and end with the exact final answer (numeric or simplified)."
+  }
+}

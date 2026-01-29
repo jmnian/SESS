@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Reply with only the correct option letter (A\u2011D); no other characters, spaces, or punctuation are allowed.",
+      "train_score": 0.5789473684210527,
+      "train_step": 17,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer with exactly one character\u2014the correct option (A\u2011D). Do not include any whitespace, line breaks, punctuation, markdown, or other symbols before or after the letter.",
+      "train_score": 0.5789473684210527,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly one character: the correct answer choice (A\u2011D). No other symbols, spaces, line breaks, or text may appear before or after it.",
+      "train_score": 0.631578947368421,
+      "train_step": 33,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer as a single uppercase letter (A, B, C, or D) and nothing else. No spaces, line breaks, punctuation, markdown, or any additional symbols may appear before or after the letter.",
+      "train_score": 0.631578947368421,
+      "train_step": 89,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one uppercase letter (A\u2011D) that is the correct choice\u2014nothing else before or after, no spaces, line breaks, or punctuation.",
+      "train_score": 0.631578947368421,
+      "train_step": 36,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one character\u2014the correct answer (A, B, C, or D). No other symbols, spaces, line breaks, punctuation, or formatting may appear before or after it.",
+      "train_score": 0.631578947368421,
+      "train_step": 80,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one character\u2014the correct answer (A, B, C, or D). No spaces, line breaks, punctuation, markdown, or any other characters may appear before or after the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly one capital letter (A\u2011D) that represents the correct choice, with no surrounding whitespace, line breaks, punctuation, or other characters.",
+      "train_score": 0.631578947368421,
+      "train_step": 63,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.47368421052631576,
+      "train_step": -1,
+      "test_score": 0.29292929292929293,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by typing only the correct option letter (A\u2011D) as a solitary character. Do not include any other symbols, whitespace, line breaks, or formatting.",
+      "train_score": 0.631578947368421,
+      "train_step": 29,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply with the correct answer as a lone uppercase letter A\u2011D\u2014no surrounding whitespace, punctuation, or markup.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Print a single capital letter (A\u2011D) representing the correct choice. The response must contain nothing else\u2014not even spaces, line breaks, quotes, backticks, or other symbols.",
+      "train_score": 0.6842105263157895,
+      "train_step": 66,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by writing exactly one uppercase letter (A\u2011D) that corresponds to the correct choice. No other characters, spaces, line breaks, or formatting may appear before or after the letter.",
+      "train_score": 0.631578947368421,
+      "train_step": 19,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer with a single capital letter A\u2011D that is the correct choice, and output nothing else\u2014no spaces, line breaks, punctuation, markdown, or any other characters.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Return only the correct answer as a single uppercase letter (A\u2011D). The response must be exactly one character with no spaces, line breaks, punctuation, markdown, or any other symbols before or after it.",
+      "train_score": 0.631578947368421,
+      "train_step": 72,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write only the correct choice letter (A\u2011D) as a single uppercase character, with no additional symbols, spaces, or text.",
+      "train_score": 0.5789473684210527,
+      "train_step": 12,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine which option (A\u2011D) is correct, then respond with that single letter alone; the response must contain no other symbols, whitespace, or words.",
+      "train_score": 0.5789473684210527,
+      "train_step": 9,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one uppercase letter (A\u2011D) that is the correct answer, and nothing else\u2014no spaces, line breaks, punctuation, or markdown.",
+      "train_score": 0.5263157894736842,
+      "train_step": 99,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the correct answer letter (A\u2011D) as a single uppercase character\u2014no spaces, line breaks, punctuation, or any other symbols.",
+      "train_score": 0.631578947368421,
+      "train_step": 88,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Your reply must be exactly one character long\u2014the capital letter (A\u2011D) of the correct option. Include no other symbols, whitespace, or text.",
+      "train_score": 0.5789473684210527,
+      "train_step": 11,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one uppercase letter (A\u2011D) that represents the correct choice. No spaces, line\u2011feeds, punctuation, or any other characters may appear before or after the letter.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.32323232323232326,
+    "avg_test_score": 0.291005291005291,
+    "best_test_instruction": "Reply with only the correct option letter (A\u2011D); no other characters, spaces, or punctuation are allowed."
+  }
+}

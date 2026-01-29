@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the problem statement, pinpoint the quantity to determine. Record each supplied number and translate percentages, fractions, ratios, and unit conversions into exact rational values. Combine these facts into one direct arithmetic/algebraic expression that produces the answer. Compute it using exact (non\u2011rounded) arithmetic, verify that all problem conditions hold, and output only the resulting integer or simplified fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 71,
+      "test_score": 0.9188779378316907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required number. Convert every given datum (counts, percentages, fractions, ratios, unit conversions) into exact values, express their relationship to the unknown as one minimal exact formula, evaluate it with full precision (no rounding), verify any problem constraints, and output only the final integer or reduced fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 68,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric datum and how it relates to the unknown, apply any needed unit or ratio conversions, combine them into the single simplest exact expression that directly computes the asked quantity, evaluate it analytically with full precision (no rounding), optionally perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 24,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the single quantity requested. Extract every quantitative statement, converting percentages, fractions and unit ratios to exact rational numbers. Formulate one direct algebraic or arithmetic expression that uses all these numbers to compute the required value, evaluate it exactly (no rounding), check any stated constraints, and output only the resulting integer or lowest\u2011terms fraction.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the required number. List each explicit quantity, translate percentages, fractions and unit ratios to exact values, and express their relationships as a single precise arithmetic or algebraic expression that directly yields the answer. Compute the expression with exact (unrounded) arithmetic, confirm any stated conditions, and output only the resulting integer or rational number.",
+      "train_score": 0.9310344827586207,
+      "train_step": 63,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Distill the question to its essential quantities, translate all given numbers and their relationships into a single exact computation (perform any needed unit or ratio conversions), evaluate it with full precision (no approximations), ensure any stated conditions are met, and output only the final numeric answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 20,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, pinpoint the exact quantity asked, gather all relevant numeric facts (counts, percentages, fractions, ratios, unit conversions), ignore any irrelevant information, translate each fact to an exact rational value, build the smallest possible arithmetic/algebraic expression that directly yields the answer, evaluate it with full precision (no rounding), check any stated conditions, and output only the final integer or reduced fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the unknown quantity, translate every stated measurement, percentage or ratio into an exact rational value, combine them into one direct calculation that yields that quantity, compute it exactly (no decimal approximations), check that all problem constraints are met, and return only the resulting integer or simplest fraction.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric fact (counts, percentages, ratios, unit conversions) from the problem, translate them to exact integers/rational numbers, combine them into one direct calculation that yields the asked quantity, compute it with exact arithmetic (no rounding), verify any stated conditions, and output only the final integer or reduced fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 94,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the quantity to be determined, convert every given number (fractions, percentages, unit ratios) to exact values, merge them into a single minimal exact formula that directly yields the answer, evaluate it analytically with full precision (no rounding), confirm that all problem conditions are satisfied, and output only the final numeric result.",
+      "train_score": 0.9348659003831418,
+      "train_step": 56,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown quantity, enumerate all given numbers (including percentages, fractions, ratios, and unit conversions) as exact rational values, assemble them into a single precise arithmetic/algebraic expression that directly produces the answer, compute it with exact (non\u2011rounded) arithmetic, verify any problem constraints, and output only the final integer or simplified fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 79,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the target quantity, list every given numeric datum, change percentages, fractions and unit ratios into exact values, merge them into one precise arithmetic expression that directly gives the answer, evaluate it analytically (no rounding), check any problem constraints, and output only the final integer or simplified fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 77,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, isolate the single value sought, convert every numeric statement (including percentages, fractions, ratios, and unit conversions) into exact rational numbers, construct the minimal direct formula that yields the target, evaluate it analytically with full precision (no rounding), confirm any stated constraints, and output only the resulting integer or simplified fraction.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the unknown quantity, write a single exact expression using all given numbers (convert fractions, percentages, and unit ratios to rational form), evaluate it without rounding, verify any stated conditions, and output only the final integer or reduced fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 81,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, convert percentages, fractions and unit ratios to exact rational numbers, combine them into a single precise expression that directly computes the quantity asked for, evaluate it with exact (non\u2011rounded) arithmetic, confirm any given constraints, and output only the final integer or simplest fraction.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity to compute, convert all given data (including percentages, fractions, ratios, and unit statements) to exact rational numbers, write a single formula that directly relates these numbers to the answer, evaluate it exactly (no rounding), confirm that any problem constraints hold, and output solely the resulting integer or simplified fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 80,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown value. Collect all numerical data, turn percentages, ratios and unit statements into exact rational numbers, fuse them into a single direct computation that produces the answer, evaluate it with no approximation, confirm that all given conditions hold, and output only the final integer or reduced fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 84,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single quantity asked for, convert every numeric statement (counts, percentages, fractions, ratios, unit conversions) into exact rational numbers, combine them into one direct arithmetic/algebraic expression that yields the answer, evaluate it with full\u2011precision (no rounding), verify any problem constraints, and output only the resulting integer or the simplest reduced fraction.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantity asked, list every given number (including percentages, fractions, ratios, unit conversions) as exact rational values, combine them into a single exact calculation that directly yields the answer, compute without any rounding, verify any problem constraints, and output only the final integer or simplified fraction.",
+      "train_score": 0.9310344827586207,
+      "train_step": 94,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (counts, percentages, fractions, ratios, unit conversions) as exact rational values, combine them into a single closed\u2011form rational expression that directly computes the unknown, simplify and evaluate it analytically (no rounding), verify any stated conditions, and output only the final integer or reduced fraction.",
+      "train_score": 0.9157088122605364,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8275862068965517,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9188779378316907,
+    "avg_test_score": 0.905556157261995,
+    "best_test_instruction": "From the problem statement, pinpoint the quantity to determine. Record each supplied number and translate percentages, fractions, ratios, and unit conversions into exact rational values. Combine these facts into one direct arithmetic/algebraic expression that produces the answer. Compute it using exact (non\u2011rounded) arithmetic, verify that all problem conditions hold, and output only the resulting integer or simplified fraction."
+  }
+}

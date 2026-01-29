@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numbers, convert the described relationships into a single integer arithmetic expression, evaluate it exactly, verify any stated condition, and output only the integer result.",
+      "train_score": 0.972972972972973,
+      "train_step": 30,
+      "test_score": 0.9181197877179682,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the description into one whole\u2011number equation using only the given numbers and explicitly mentioned operations, solve it exactly, check any condition, and output only the integer answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 69,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value and each explicitly mentioned arithmetic relation, build the sole whole\u2011number computation that the wording unambiguously determines, evaluate it exactly, verify any stated condition, and output only the final integer answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 70,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the quantities mentioned, determine how they are combined, construct the shortest possible math expression, calculate it exactly, check consistency with the problem, and return just the integer answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 23,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit integer and each directly stated arithmetic relation in the problem (including speed\u2011distance\u2011time implications). Using only those values and relations, construct the unique whole\u2011number calculation the wording determines, perform the exact integer arithmetic, confirm any required condition, and output only the resulting integer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeral and every explicit arithmetic cue in the problem (e.g., add, subtract, multiply, divide, double, half). Build exactly one integer expression that the wording uniquely determines, following the implied order of operations, evaluate it without rounding, confirm any condition, and output only the integer result.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities, formulate the minimal exact arithmetic expression needed, compute it, verify the result satisfies the problem, and output only the integer answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 24,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numbers, deduce the single arithmetic expression that resolves the question, compute it with exact integer arithmetic, verify any given condition, and output only the integer answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 27,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, construct the single integer arithmetic expression that directly satisfies the problem's conditions, compute it precisely, verify any constraints, and output only the final integer answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 32,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate each number in the statement, construct the minimal exact integer calculation that satisfies the problem, perform it, ensure any condition holds, and return just the integer result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 31,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every integer mentioned, interpret the story to form one exact integer expression using only the operations given, evaluate it precisely, check any stated condition, and output the solitary integer result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 33,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, note each given number and each mentioned arithmetic operator, combine them exactly as implied to build one integer formula, solve it without approximation, check any condition, and return only the integer result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 50,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric literal and each explicitly stated operation word from the problem, combine them in the logical order implied to form the unique whole\u2011number expression, evaluate it with exact integer arithmetic, verify any condition given, and output only the final integer result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 76,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all explicit numeric values and each arithmetic verb in the problem (e.g., add, subtract, multiply, divide, double, half, times, plus, minus, over, percent). Using only these elements and preserving the logical sequence implied, construct the unique integer expression, evaluate it exactly with integer arithmetic, verify any condition, and output only the final integer result.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all explicit integers and operation keywords (add, subtract, multiply, divide, double, half, \u201ctimes\u201d, \u201cplus\u201d, \u201cminus\u201d, \u201cover\u201d, \u201cfraction of\u201d, etc.) from the statement. Form the single integer expression that the wording uniquely determines, preserving the implied sequence, evaluate it exactly, verify any stated condition, and output only the final integer result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 84,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, find every number mentioned, deduce the minimal arithmetic expression that answers it, compute and verify the result, then output only the integer answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 23,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all explicit numbers and every operation word (add, subtract, multiply, divide, double, half, percent, etc.) in the statement. Construct the only whole\u2011number formula that the wording uniquely determines, using exactly those numbers and operations in the order the scenario implies, compute it precisely, check any condition given, and output just the final integer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 75,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each integer and each explicit arithmetic verb in the text (e.g., add, minus, times, divided by, double, half). Translate the sequence of verbs and numbers directly into a single integer expression, evaluate it exactly, confirm any required condition, and output only the integer result.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem text, extract every numeral and each explicitly stated arithmetic relation (e.g., add, subtract, multiply, divide, double, half, per, each, times, over). Form the sole integer computation that follows directly from these elements in the order the scenario implies, evaluate it precisely using integer arithmetic, confirm any condition given, and output only the final integer value.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every explicit integer and each arithmetic keyword present in the problem (e.g., add, subtract, multiply, divide, double, half, percent). Using only these items and respecting the order and implied precedence of the narrative, form the single whole\u2011number expression the statement defines, evaluate it exactly, confirm any stated condition, and output only the final integer.",
+      "train_score": 0.6621621621621622,
+      "train_step": 99,
+      "test_score": 0.6224412433661866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9181197877179682,
+    "avg_test_score": 0.8765298386223328,
+    "best_test_instruction": "Identify all numbers, convert the described relationships into a single integer arithmetic expression, evaluate it exactly, verify any stated condition, and output only the integer result."
+  }
+}

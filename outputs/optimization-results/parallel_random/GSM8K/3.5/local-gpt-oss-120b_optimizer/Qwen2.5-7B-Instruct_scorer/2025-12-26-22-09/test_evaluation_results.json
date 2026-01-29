@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, record every number given, convert the described relationships directly into a sequence of elementary arithmetic operations (introduce a variable only when an unknown cannot be expressed outright). Evaluate the operations in order, writing each step on its own line as \u201c<expression> = <value>\u201d. End with one line that contains solely the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 29,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution: list the given quantities, translate the problem into appropriate mathematical expressions, perform each calculation explicitly showing intermediate results, and conclude with the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 2,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, translate the problem into explicit arithmetic steps, compute each step in order while displaying intermediate results, and output only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 3,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and implied operations, construct a step\u2011by\u2011step calculation, show each intermediate result, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 7,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all quantities mentioned, write down the exact arithmetic operation each one is involved in, combine them into one complete formula (use a temporary symbol only when a value cannot be expressed directly), then evaluate the formula step by step, printing every intermediate computation as \u201c<sub\u2011expression> = <result>\u201d on a separate line, and finish with a single line that contains only the final numeric result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 41,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, convert the situation into the simplest arithmetic formula (using a variable only when necessary), then evaluate it step\u2011by\u2011step, writing each intermediate computation as \u201c<expression> = <value>\u201d on its own line, and finish with one line containing only the final numeric result.",
+      "train_score": 0.9731800766283525,
+      "train_step": 31,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity and operation from the problem, formulate the exact arithmetic expression that models it, compute the expression step\u2011by\u2011step displaying each intermediate result, and give the final numeric answer only.",
+      "train_score": 0.9655172413793104,
+      "train_step": 2,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value in the statement and the explicit relationships between them. Translate the whole problem into a single arithmetic expression (introducing a variable only if an unknown cannot be expressed directly). Evaluate the expression sequentially, printing each elementary operation on its own line in the form \u201c<expression> = <value>\u201d. After all intermediate lines, output one line containing solely the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 30,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate each number given in the problem together with the precise operation it participates in. Convert the whole scenario into a chain of elementary arithmetic steps (create a temporary placeholder only when a value cannot be written outright). Perform the steps sequentially, outputting each line in the form \u201c<expression> = <value>\u201d. Finally, provide one line that contains only the ultimate numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 50,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list all quantities and the operations they imply, compute the result step\u2011by\u2011step showing each intermediate calculation, and output only the final number.",
+      "train_score": 0.9655172413793104,
+      "train_step": 24,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers, construct the exact calculation as a sequence of explicit arithmetic steps, compute each step while displaying its intermediate result, and conclude with only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 4,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each number and the exact operation it participates in, form a fully explicit chain of arithmetic expressions (introducing a temporary placeholder only when a sub\u2011value cannot be written directly), then evaluate the chain in the natural order. Write every evaluation on its own line as \u201cstep\u202fk: <expression> = <value>\u201d, and after the final step output one line that contains only the ultimate numeric result.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each given quantity, introduce variables for unknowns, convert every stated relationship into a precise arithmetic or algebraic equation, solve the equations step\u2011by\u2011step while writing each intermediate calculation on its own line, and end with a single line that contains only the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 11,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric value and the exact operation it participates in, translate the whole situation into one explicit arithmetic formula (introduce a temporary symbol only if a quantity cannot be written directly). Evaluate the formula step\u2011by\u2011step, printing every elementary computation on its own line as \u201c<expression> = <value>\u201d, and finish with a single line that contains only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 68,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and the precise arithmetic operation it belongs to, write a single clear expression that captures the whole problem (use a placeholder symbol only when a term cannot be expressed directly). Then compute the expression step by step in the order dictated by parentheses, and after each elementary computation output a line \u201c<current expression> = <value>\u201d. Conclude with one line that contains only the final numeric result.",
+      "train_score": 0.9540229885057471,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement, list every numeric value and each implied operation, build the minimal arithmetic/algebraic expression(s) that represent the situation, evaluate them in logical order while printing each individual calculation together with its intermediate result on its own line, and conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 15,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and the precise operation it is involved in, arrange them into a clear sequential computation that exactly models the problem, evaluate the sequence step\u2011by\u2011step printing each line as \u201c<partial expression> = <value>\u201d, and after the last step output a single line containing only the final numeric result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity and its exact arithmetic role, form the complete calculation as a single fully parenthesized expression (using a temporary variable only when a term cannot be expressed directly), then evaluate it from innermost to outermost. For each evaluation step output a line formatted exactly as \u201c<sub\u2011expression> = <value>\u201d. After all steps output one line containing only the final result. Do not include any explanatory text.",
+      "train_score": 0.41379310344827586,
+      "train_step": 99,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8888888888888888,
+      "train_step": -1,
+      "test_score": 0.8362395754359363,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric quantities, give each a clear variable name, construct a single fully\u2011parenthesized arithmetic expression that exactly represents the problem using those variables, then evaluate it step\u2011by\u2011step. For every elementary operation output a line formatted as \u201c<sub\u2011expression> = <value>\u201d. After the final operation output one line containing only the ultimate numeric result. No extra explanations or text are permitted.",
+      "train_score": 0.5057471264367817,
+      "train_step": 99,
+      "test_score": 0.4094010614101592,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the description, note every numeric quantity and the operation it is involved in. Turn the whole problem into a sequential list of elementary arithmetic expressions (introduce a temporary name only if a value cannot be written directly). Evaluate the expressions one after another, writing each line as \u201c<expression> = <value>\u201d. After the last intermediate line output a single line that contains only the final numeric answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.37680060652009095,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.8496335607783675,
+    "best_test_instruction": "Read the problem, record every number given, convert the described relationships directly into a sequence of elementary arithmetic operations (introduce a variable only when an unknown cannot be expressed outright). Evaluate the operations in order, writing each step on its own line as \u201c<expression> = <value>\u201d. End with one line that contains solely the final numeric answer."
+  }
+}

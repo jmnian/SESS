@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "After identifying the relevant data and applying the appropriate rule, give exactly two lines: line\u202f1 \u201cAnswer: X\u201d (X = A\u2011D); line\u202f2 a concise justification (max\u202f8\u202fwords) that cites the decisive quantity, formula, or result. Do not include any other text, symbols, or whitespace.",
+      "train_score": 0.5263157894736842,
+      "train_step": 33,
+      "test_score": 0.3888888888888889,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, work out the problem. Then output exactly two lines:\nLine\u202f1 \u2013 a brief (\u226412\u202fwords) statement of the key result or principle.\nLine\u202f2 \u2013 the word \u201cAnswer:\u201d followed immediately by the correct option letter (A\u2011D), with nothing else on the line.\nDo not include any other text, symbols, or blank lines.",
+      "train_score": 0.5263157894736842,
+      "train_step": 40,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, then output exactly two lines: first line a concise (\u22648\u202fwords) statement of the decisive formula, rule, or computed value; second line \u201cAnswer:\u202fX\u201d where X is the correct option (A\u2011D). Include no other text, symbols, or whitespace.",
+      "train_score": 0.47368421052631576,
+      "train_step": 32,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nCompute the needed value (rounded as in the options). On the next line write exactly \\\"Answer: X\\\" with the correct letter A\u2011D. Output nothing else.\\n",
+      "train_score": 0.5263157894736842,
+      "train_step": 31,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, briefly outline the reasoning in one sentence, then on a separate line output \"Answer: \" followed by the correct option letter (A\u2011D). Keep the reasoning sentence \u226415 words and the answer line alone. No other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 11,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly two lines with no surrounding whitespace:\nLine\u202f1 \u2013 the text \u201cAnswer:\u201d immediately followed by the correct option letter (A\u2011D).  \nLine\u202f2 \u2013 a single keyword (\u2264\u202f6\u202fletters) naming the decisive principle or quantity.  \nDo not include any other characters or blank lines.",
+      "train_score": 0.5263157894736842,
+      "train_step": 65,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the decisive concept or computed value in \u226412 words, then on a new line write 'Answer: ' and the correct letter (A\u2011D). Include nothing else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 13,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. Output exactly one line with no surrounding whitespace: \u201cAnswer:\u201d\u202fimmediately followed by the correct option letter (A\u2011D), a single space, then a concise justification (\u22648\u202fwords) naming the decisive principle, law, or result. No other text or lines are allowed.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the key variable(s), perform the required calculation or logical step, and reply with a single line \u201cAnswer:\u202fX\u201d. Optionally, after a semicolon give a brief (\u226410\u2011word) note of the decisive result. No additional commentary.",
+      "train_score": 0.47368421052631576,
+      "train_step": 18,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the decisive principle or computed value in \u22648 words, then on a new line output exactly \u201cAnswer: X\u201d (X = A\u2011D). No other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 29,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output exactly two lines with no leading or trailing whitespace:\n1. \u201cAnswer:\u201d immediately followed by the correct option letter (A\u2011D).  \n2. \u201cReason:\u201d followed by a concise explanation (\u226410\u202fwords) naming the key principle, law, or calculation that determines the answer.  \nDo not include any other characters, spaces, or blank lines.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After completing the problem, output exactly one line with no surrounding whitespace: write the word \u201cAnswer:\u201d immediately followed by the correct option letter (A\u2011D), a single space, and a brief justification not exceeding eight words. Do not include any other characters, punctuation, or blank lines.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3157894736842105,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.5263157894736842,
+      "train_step": 17,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, produce exactly two lines with no surrounding whitespace: line\u202f1 \u2013 the single correct option letter (A\u2011D); line\u202f2 \u2013 the word \u201cAnswer:\u201d followed immediately by the same letter. Do not include any other characters or blank lines.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide exactly two lines with no extra whitespace:\nLine\u202f1 \u2013 the word \u201cAnswer:\u201d followed immediately by the correct option letter (A\u2011D).\nLine\u202f2 \u2013 a brief phrase (\u22645 words) stating the decisive principle, formula, or result that leads to the answer.\nDo not include any other characters, spaces before or after the lines, or blank lines.",
+      "train_score": 0.5263157894736842,
+      "train_step": 98,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the known values, cite the single relevant law (\u22645 words), compute the answer, round appropriately, then output two lines: first the rounded result (or key phrase), second \u201cAnswer: X\u201d. No other output.",
+      "train_score": 0.47368421052631576,
+      "train_step": 27,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a two\u2011line reply, nothing else.\n\nLine\u202f1 \u2013 the literal word \u201cAnswer:\u201d directly attached to the correct option letter (A\u2011D).  \nLine\u202f2 \u2013 a brief justification (\u2264\u202f8\u202fwords) that cites the key principle, equation, or value determining the answer.\n\nDo not add extra spaces, blank lines or characters.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem, then output exactly one line with no leading or trailing spaces:\n`Answer:` immediately followed by the correct option letter (A\u2011D), a single space, and a brief justification (\u22648 words) enclosed in parentheses. Nothing else.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using a brief chain\u2011of\u2011thought: (1) identify the physical or chemical principle, (2) list any needed formulas or data, (3) perform the calculation or logical inference, (4) compare the result with each option, (5) state only the correct choice letter (A\u2011D). End with a one\u2011sentence rationale (\u226420 words) that cites the decisive quantity or rule. No extra commentary.",
+      "train_score": 0.47368421052631576,
+      "train_step": 8,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output a single JSON object with two fields: \\\"answer\\\" containing the correct option letter (A\u2011D) and \\\"justification\\\" with a brief phrase (\u22648 words) naming the key principle. No other output.",
+      "train_score": 0.0,
+      "train_step": 99,
+      "test_score": 0.010101010101010102,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3888888888888889,
+    "avg_test_score": 0.3056758056758057,
+    "best_test_instruction": "After identifying the relevant data and applying the appropriate rule, give exactly two lines: line\u202f1 \u201cAnswer: X\u201d (X = A\u2011D); line\u202f2 a concise justification (max\u202f8\u202fwords) that cites the decisive quantity, formula, or result. Do not include any other text, symbols, or whitespace."
+  }
+}

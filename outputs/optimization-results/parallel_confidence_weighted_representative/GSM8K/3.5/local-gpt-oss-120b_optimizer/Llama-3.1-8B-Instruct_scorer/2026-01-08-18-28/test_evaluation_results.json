@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, identify the relevant numbers and operations, compute the result, and give the final answer as a single numeric value.",
+      "train_score": 0.9540229885057471,
+      "train_step": 0,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the exact numeric result dictated by the problem, performing any required conversions, and provide only that number as the answer.",
+      "train_score": 0.946360153256705,
+      "train_step": 67,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, extract the numbers and operations needed, compute the result, and output only the final numeric answer.",
+      "train_score": 0.9425287356321839,
+      "train_step": 1,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, deduce the exact arithmetic relationship among all mentioned quantities (handling any unit, percentage, ratio, or fraction adjustments), compute the precise outcome, and reply with only the final numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 37,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, identify every quantity and the exact mathematical operation it participates in (including percentages, ratios, fractions, or unit conversions), compute the precise result, and reply with only the single numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 23,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities and the explicit or implicit mathematical relations among them (including any required unit, percentage, or ratio conversions), compute the exact result, and respond solely with the resulting number.",
+      "train_score": 0.9386973180076629,
+      "train_step": 13,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, isolate every numeric quantity, determine the exact calculation implied (including any required unit, percentage, ratio, or fraction conversions), perform the computation with full precision, and respond with only the single resulting number.",
+      "train_score": 0.9386973180076629,
+      "train_step": 32,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and the operations they imply (including any required percentage, ratio, or unit conversion), construct the corresponding equation, compute the exact result, and output only the final numeric value.",
+      "train_score": 0.9386973180076629,
+      "train_step": 11,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate all numbers in the prompt, determine the exact mathematical operation they imply (including any needed unit, percentage, ratio or fraction conversion), compute the precise result, and return solely the final numeric value.",
+      "train_score": 0.9425287356321839,
+      "train_step": 17,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, formulate the exact mathematical expression the statement implies (including any percentages, ratios, fractions, or unit conversions), compute the result with full precision (no rounding), and output only the final numeric answer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nConvert the scenario into its exact arithmetic expression (including implied rates, fractions, or discounts), evaluate it without approximation, and output only the final numeric answer.\\n",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Translate the problem into one exact mathematical expression (applying any needed unit, percentage, ratio, or fraction conversions), compute its value with full precision, and answer with only the resulting number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 34,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, pick out all numeric data, formulate the precise computation required (including any discounts, multiples, fractions, or unit changes), perform the calculation exactly, and output solely the final numeric result.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value, infer the exact mathematical relationship (including percentages, fractions, ratios, or unit conversions) implied by the problem, compute the precise result, and reply with only the final number.",
+      "train_score": 0.9501915708812261,
+      "train_step": 23,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, determine the exact mathematical relationship they imply (including any addition, subtraction, multiplication, division, percentages, ratios, fractions, or unit conversions), compute the precise result with full accuracy (no rounding), and reply with only the final numeric answer.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, infer the exact calculation (including any unit, percentage, ratio, or fraction conversion), compute the precise result with no rounding, and output only the final number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 72,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical values, determine the precise arithmetic operation (including any needed unit or percentage conversions), compute the exact result, and output only the final single number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 5,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, collect every numeric value, convert the wording into the exact arithmetic expression (handling percentages, ratios, fractions, and unit changes), compute the result with full precision (no rounding or approximation), and reply with *only* the plain number.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text, derive the single numeric answer implied\u2014apply any necessary multiples, discounts, ratios, fractions, or unit conversions\u2014compute it exactly (no rounding), and reply with only that number.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.7998483699772555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8314176245210728,
+      "train_step": -1,
+      "test_score": 0.7513267626990144,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number stated, determine the exact mathematical expression the problem defines (including hidden multiplications, divisions, percentages, ratios, fractions or unit conversions), compute it with full precision (no rounding), and reply with only that single numeric result\u2014no words, symbols, or explanations.",
+      "train_score": 0.5134099616858238,
+      "train_step": 99,
+      "test_score": 0.4245640636846095,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8423047763457164,
+    "avg_test_score": 0.8009675439546553,
+    "best_test_instruction": "Read the problem, identify the relevant numbers and operations, compute the result, and give the final answer as a single numeric value."
+  }
+}

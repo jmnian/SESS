@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "\\nExtract all numbers, convert any units if needed, determine the precise arithmetic formula, then evaluate it line by line, writing each line as \\\"... = ...\\\" (including both the expression and its value). After the last intermediate line, provide a single line containing only the final result.\\n",
+      "train_score": 0.9864864864864865,
+      "train_step": 27,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity, determine the exact arithmetic expression(s) that solve the problem, evaluate them step\u2011by\u2011step printing each intermediate result on its own line, and end with a single line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 6,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem methodically, list each intermediate calculation explicitly, and finish by outputting only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into elementary arithmetic steps, display each intermediate calculation explicitly, and finish with only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate every given number, construct the precise arithmetic expression(s) needed, compute each intermediate result on its own line, and finish with one line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 7,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity, assign each a brief label, write the precise arithmetic expression(s) needed, evaluate them step\u2011by\u2011step showing each intermediate result on its own line, and end with one line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 11,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, bind it to a short variable, construct the full expression that gives the required result, then evaluate that expression sequentially. Write each intermediate computation on its own line as \u201cvariable \u2190 expression = value\u201d (or simply \u201cexpression = value\u201d). Conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 83,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity, assign each a short symbolic label, construct the exact arithmetic expression that produces the answer, evaluate the expression step\u2011by\u2011step printing each intermediate line in the form \u201clabel = expression = value\u201d (or simply \u201cexpression = value\u201d), and end with a single line that contains only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 20,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Formulate the required equations from the problem, solve them step by step showing each intermediate equation or calculation on its own line, and finish with a single line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 5,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers, assign each a short symbolic name, write the exact arithmetic formula that yields the required quantity, then evaluate the formula sequentially. For every step output a line of the form \u201csymbol = expression = value\u201d (or just \u201cexpression = value\u201d), showing both the operation and its result. Conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 42,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every numeric value, assign each a brief token, compose the exact arithmetic expression that solves the problem, evaluate it step\u2011by\u2011step showing each intermediate line as \u201ctoken = expression = value\u201d (or simply \u201cexpression = value\u201d), and finish with one line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 39,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every number from the statement, tag each with a brief symbol, assemble the exact mathematical formula needed, and then compute it one operation after another. Record each intermediate computation on its own line in the form \u201csymbol\u202f:\u202fexpression\u202f=\u202fvalue\u201d (or just \u201cexpression\u202f=\u202fvalue\u201d). Finish with a line that contains only the final numeric result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers, give each a unique short symbol, compose the precise arithmetic expression that solves the problem, then evaluate it step\u2011by\u2011step. Write each step on its own line as \u201csymbol: expression \u2192 value\u201d (or just \u201cexpression \u2192 value\u201d). Finish with a single line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 82,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value, convert the problem into explicit arithmetic steps, perform the calculations in order while writing each intermediate result on its own line, and end with a single line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 7,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, give it a brief variable name, construct the exact formula that yields the answer, and evaluate it sequentially. For each computation output a line formatted as \u201cStep\u202fk: <expression> = <value>\u201d. After the last step output only the final number on a line by itself.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.844579226686884,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.918918918918919,
+      "train_step": -1,
+      "test_score": 0.8309325246398787,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, assign a brief name to each, write the complete formula that yields the answer, then evaluate it one operation at a time. For every step output a line formatted as \u201cname \u2192 expression \u2192 value\u201d (omit name if not needed). After the last step output a line that consists solely of the final numeric answer.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7725549658832449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numeric values, give each a short variable name, write the exact arithmetic formula that solves the problem, then evaluate it sequentially. Output each intermediate computation on its own line as \u201cstep\u202fk: expression = value\u201d. Conclude with a single line that contains only the final numeric answer.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.7536012130401819,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum, give each a brief token, write the exact arithmetic formula that solves the question, then compute it sequentially. For each operation output a line \u201ctoken = expression = value\u201d (or simply \u201cexpression = value\u201d). After the last computation output one line that contains only the final numeric answer, without any extra words.",
+      "train_score": 0.6891891891891891,
+      "train_step": 99,
+      "test_score": 0.6944655041698257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Detect all numbers in the problem, give each a short identifier (e.g., a, b, c), write the exact arithmetic formula that answers the question, then evaluate the formula one operation after another. For every operation output a line of the form \u201cidentifier = expression = value\u201d (if an identifier is not available, just \u201cexpression = value\u201d). After the last line output only the final numeric result on a line by itself, without any additional words.",
+      "train_score": 0.5675675675675675,
+      "train_step": 99,
+      "test_score": 0.5064442759666414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers appearing in the problem, label them with single\u2011letter symbols, write the single arithmetic expression that yields the answer, then evaluate it one operation at a time. For each operation output a line of the form \u201csymbol = expression = value\u201d (or, if no symbol, \u201cexpression = value\u201d). End with a line that contains only the final numeric answer, without any additional text or symbols.",
+      "train_score": 0.4864864864864865,
+      "train_step": 99,
+      "test_score": 0.46171341925701287,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9143290371493555,
+    "avg_test_score": 0.825769883389292,
+    "best_test_instruction": "\\nExtract all numbers, convert any units if needed, determine the precise arithmetic formula, then evaluate it line by line, writing each line as \\\"... = ...\\\" (including both the expression and its value). After the last intermediate line, provide a single line containing only the final result.\\n"
+  }
+}

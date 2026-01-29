@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all numerical values, convert the situation into a single definitive formula\u2014either a direct arithmetic expression or a one\u2011variable linear equation\u2014compute it, perform a quick consistency check, and output only the resulting integer.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Work through the problem methodically, list each calculation or deduction clearly, and conclude by outputting only the final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 1,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, extract every given number, devise the minimal one\u2011step arithmetic or one\u2011variable equation that directly yields the requested value, compute it, quickly verify it satisfies all conditions, and output only the final integer answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 29,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect all numbers, form the one needed calculation (simple arithmetic or one\u2011variable equation), compute it, sanity\u2011check, and output the integer answer only.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric fact and its relationship, reduce the problem to the single essential computation\u2014either a plain arithmetic expression or a one\u2011variable linear equation\u2014that directly yields the requested integer, evaluate it, perform a brief sanity check against the original statements, and output only that integer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 67,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the only arithmetic or one\u2011variable linear step that yields the asked integer, perform it, sanity\u2011check, and output that integer alone.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Strip the problem down to its numbers, build the one required formula that solves for the asked value, compute it, confirm it meets all constraints, and reply with the solitary integer answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 36,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number and its relation, choose the single essential computation (a direct arithmetic blend or a one\u2011unknown linear equation) that yields the desired value, perform it, quickly verify it satisfies all conditions, and output only the resulting integer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 45,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the numbers required, translate the situation into one straightforward calculation, perform it with brief verification, and output solely the final integer result.",
+      "train_score": 0.9324324324324325,
+      "train_step": 15,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact and its relation, decide the single indispensable calculation\u2014either a plain arithmetic combination or a one\u2011variable linear equation\u2014that directly yields the requested integer, evaluate it, perform a brief sanity check against the original conditions, and output only that integer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 78,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given quantities, translate the scenario into a single algebraic or arithmetic expression that yields the required value, compute it, briefly check that the result satisfies all stated conditions, and output only the integer result.",
+      "train_score": 0.9324324324324325,
+      "train_step": 41,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the minimal set of numbers needed, form the single arithmetic or linear equation that directly solves for the asked integer, compute it precisely, perform a brief sanity check against all given constraints, and output only the integer result.",
+      "train_score": 0.9324324324324325,
+      "train_step": 42,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers, formulate the single arithmetic or one\u2011variable linear expression that directly yields the answer, evaluate it, perform a quick consistency check, and output only the resulting integer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 49,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers given, decide the one essential arithmetic or linear step that determines the requested value, execute it, quickly verify it satisfies the problem conditions, and output just the final integer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 38,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem list every given number, reduce the information to the single indispensable computation\u2014either a direct arithmetic expression or a one\u2011unknown linear equation\u2014that yields the requested integer, evaluate it, do a brief sanity check, and output only that integer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 63,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum and its stated relationship, identify the single simplest computation (plain arithmetic or a one\u2011variable equation) that directly produces the requested value, perform it, briefly validate it against all conditions, and output only the final integer answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 30,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, determine the single direct calculation (plain arithmetic or a one\u2011variable linear equation) that gives the requested integer, perform it, quickly verify it satisfies the conditions, and output only that integer.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8521607278241091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Distill the problem to its numbers, form the sole required calculation (either a direct arithmetic expression or a one\u2011variable linear equation), compute it exactly, sanity\u2011check the result, and output only the integer.",
+      "train_score": 0.5675675675675675,
+      "train_step": 99,
+      "test_score": 0.42380591357088704,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric value in the prompt, determine the one calculation (either a direct arithmetic expression or a one\u2011unknown linear equation) that gives the asked integer, compute it, do a brief sanity check, and output only that integer.",
+      "train_score": 0.3783783783783784,
+      "train_step": 99,
+      "test_score": 0.287338893100834,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value, form the one required calculation (either plain arithmetic or a one\u2011unknown linear equation), evaluate it, do a quick sanity check, and print only the resulting integer\u2014nothing else.",
+      "train_score": 0.10810810810810811,
+      "train_step": 99,
+      "test_score": 0.16300227445034116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.806021878046139,
+    "best_test_instruction": "Extract all numerical values, convert the situation into a single definitive formula\u2014either a direct arithmetic expression or a one\u2011variable linear equation\u2014compute it, perform a quick consistency check, and output only the resulting integer."
+  }
+}

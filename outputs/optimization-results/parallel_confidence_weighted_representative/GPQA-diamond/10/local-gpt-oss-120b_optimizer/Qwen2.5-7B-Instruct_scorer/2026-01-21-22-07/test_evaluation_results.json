@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify the core principle or calculation required, solve the problem, and state a single concise justification (one sentence at most). On the following line output exactly \u201cAnswer: \u201d followed by the correct option letter (A\u2011D). Do not include any other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 8,
+      "test_score": 0.37373737373737376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, isolate the essential fact or formula that governs it, test this against every choice, discard any that fail, then write a single sentence (max\u202f20\u202fwords) explaining why the remaining choice is correct and on the following line output exactly \u201cAnswer: \u201d followed by the letter A\u2011D. No additional characters or commentary are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 20,
+      "test_score": 0.37373737373737376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach each MCQ as follows:\n\u2022 Capture all supplied information.\n\u2022 Pinpoint the sole governing formula, law or logical test.\n\u2022 Apply it to compute the target quantity (use at least four significant figures; accept 1e\u20114 deviation) and compare with every option, eliminating mismatches.\n\u2022 Produce a single sentence (\u2264\u202f20\u202fwords) that explains why the surviving option is correct.\n\u2022 On a new line write exactly \u201cAnswer: \u201d and the letter A\u2011D. Include no additional characters.",
+      "train_score": 0.47368421052631576,
+      "train_step": 39,
+      "test_score": 0.37373737373737376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the essential quantities and governing equation, carry out the calculation, match the result to the answer choices, and respond with a concise justification followed by the sole correct option letter (A\u2011D) on the next line.",
+      "train_score": 0.5263157894736842,
+      "train_step": 6,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question: (i) note all givens; (ii) pinpoint the single rule or calculation that decides the answer; (iii) test each option against it (numeric tolerance\u202f1\u202f\u00d7\u202f10\u207b\u2074 if needed) and discard failures; (iv) write one concise reason (\u2264\u202f20\u202fwords) why the remaining choice is correct; (v) on the next line output exactly \u201cAnswer: \u201d followed by the letter A\u2011D. No other characters are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 25,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the multiple\u2011choice problem by (1) extracting all given data, (2) identifying the single principle, equation or rule that determines the answer, (3) applying it to each option (numerical tolerance 1e\u20114 when needed), (4) selecting the sole remaining choice, (5) writing one brief justification (max 20\u202fwords), and finally on a new line output exactly \u201cAnswer: \u201d followed by the letter A\u2011D. No other text is allowed.",
+      "train_score": 0.5263157894736842,
+      "train_step": 23,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question, find the correct answer and output exactly \u201cAnswer: \u201d followed by the single letter A\u2011D on its own line. No other text, calculations, or explanations are required.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n1. Extract the given data.\n2. Identify the single concept, equation or logical rule that decides the answer.\n3. Apply it to every option; keep only those that satisfy the condition (numeric tolerance 1\u202f\u00d7\u202f10\u207b\u2074).\n4. Write one brief sentence (\u2264\u202f20\u202fwords) that states why the remaining option is correct.\n5. On the next line output exactly \u201cAnswer: \u201d followed by the chosen letter A\u2011D. No other text is permitted.",
+      "train_score": 0.47368421052631576,
+      "train_step": 17,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Process every MCQ as follows:\n- Capture every given datum.\n- Identify the single decisive rule or formula.\n- Compute the required value (minimum 4\u2011significant\u2011figure precision; numeric tolerance 1e\u20114) and test each choice, removing any that fail.\n- Summarize the reason the surviving choice is correct in one sentence (\u2264\u202f20\u202fwords).\n- Finally, on a new line write exactly \u201cAnswer: \u201d and the letter A\u2011D. No other text may appear.",
+      "train_score": 0.47368421052631576,
+      "train_step": 19,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ:\n1. Note all data.\n2. Identify the single rule/formula needed.\n3. Perform calculation with at least 4\u2011significant\u2011figure precision (allow 1e\u20114 error).\n4. Choose the only option matching the result.\n5. Write one sentence (\u226420 words) justifying the choice, then on a new line output exactly \u201cAnswer: \u201d followed by the letter A\u2011D. No other text.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve every multiple\u2011choice item by:\n1. Listing all given quantities, equations and constraints.\n2. Finding the single relation (conservation law, algebraic formula, logical rule) that must hold.\n3. Evaluating each choice against that relation (numeric tolerance 1\u202f\u00d7\u202f10\u207b\u2074 when applicable).\n4. Selecting the only choice that satisfies it.\n5. Writing one concise reason (\u2264\u202f18\u202fwords) and on the next line exactly \u201cAnswer: \u201d followed by the letter A\u2011D. No other output.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the MCQ by (i) pinpointing the essential concept or equation, (ii) testing each alternative against it, (iii) discarding those that fail, (iv) summarizing in one short sentence why the surviving choice is correct, and (v) writing on the next line exactly \u201cAnswer: \u201d followed by the letter A\u2011D. No additional commentary.",
+      "train_score": 0.47368421052631576,
+      "train_step": 11,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. List all data provided and what is required.  \n2. Identify the one governing principle, equation or rule that resolves the question.  \n3. Perform the calculation (\u2265\u202f4\u202fsignificant figures; numeric tolerance\u202f1\u202f\u00d7\u202f10\u207b\u2074).  \n4. Test each choice against the result, eliminating mismatches.  \n5. Write a single sentence (\u2264\u202f20\u202fwords) explaining why the surviving option is correct.  \n6. On the next line output exactly \u201cAnswer: \u201d and the chosen letter A\u2011D. No other characters or text allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 18,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each MCQ: (1) note all given facts; (2) determine the single governing principle or calculation; (3) apply it to every option, discarding those that do not satisfy (allow 1\u202f\u00d7\u202f10\u207b\u2074 error for numbers); (4) write one brief reason (\u2264\u202f20\u202fwords) for the remaining choice; (5) on the next line output exactly \u201cAnswer: \u201d followed by the correct letter A\u2011D. No other text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 27,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Process each MCQ by:\n- listing all supplied facts;\n- pinpointing the unique rule or calculation that governs the problem;\n- evaluating every answer with that rule (numeric tolerance\u202f1e\u20114); keep only the option that satisfies it;\n- provide a brief rationale (max\u202f15\u202fwords);\n- then on a new line write exactly \u201cAnswer: \u201d and the correct letter (A\u2011D). No other output is allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 31,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve each multiple\u2011choice item by:\n1. Listing all given information.\n2. Selecting the one governing theorem, reaction or formula that resolves the problem.\n3. Using it to evaluate every answer (numeric tolerance\u202f1e\u20114 when applicable) and discarding the failures.\n4. Producing a single sentence (\u2264\u202f18\u202fwords) that explains why the surviving choice is correct.\n5. On the following line write exactly \u201cAnswer: \u201d and the chosen letter A\u2011D, with nothing else.",
+      "train_score": 0.47368421052631576,
+      "train_step": 34,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.21052631578947367,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the key concepts, apply the relevant knowledge to eliminate incorrect choices, and output the correct option (A, B, C, or D) as your final answer.",
+      "train_score": 0.5263157894736842,
+      "train_step": 0,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "For each multiple\u2011choice question:\n1. List every given datum.\n2. Determine the single principle, formula or logical test that decides the answer.\n3. Apply it to each option (use at least four significant figures; accept 1\u202f\u00d7\u202f10\u207b\u2074 deviation for numeric results) and discard the wrong ones.\n4. Write one concise sentence (\u2264\u202f20\u202fwords) explaining why the remaining option is correct.\n5. On the next line output exactly \u201cAnswer: \u201d followed by the correct letter A\u2011D and nothing else.",
+      "train_score": 0.5263157894736842,
+      "train_step": 40,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve each MCQ by:\n1. Recording every datum.\n2. Determining the one principle/equation that resolves the question.\n3. Using it to test each option (numeric tolerance\u202f1e\u20114 if needed) and discarding failures.\n4. Writing a single concise reason (max\u202f15\u202fwords) for the remaining choice.\n5. On the next line printing exactly \u201cAnswer: \u201d and the correct letter A\u2011D. No other output.",
+      "train_score": 0.5263157894736842,
+      "train_step": 58,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one line, then identify the single physical/chemical principle that determines the answer. Apply it to each choice, discarding those that violate the principle or give a mismatched value (allowing 1e-4 tolerance when numeric). After the elimination, write a concise justification (no more than one sentence) followed by the correct option letter alone on the next line.",
+      "train_score": 0.47368421052631576,
+      "train_step": 6,
+      "test_score": 0.20202020202020202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.37373737373737376,
+    "avg_test_score": 0.32972582972582976,
+    "best_test_instruction": "Identify the core principle or calculation required, solve the problem, and state a single concise justification (one sentence at most). On the following line output exactly \u201cAnswer: \u201d followed by the correct option letter (A\u2011D). Do not include any other text."
+  }
+}

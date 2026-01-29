@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all quantities, turn each relationship into an explicit arithmetic expression, evaluate them step\u2011by\u2011step with brief justification, verify the result meets the problem\u2019s conditions, and then output only the final numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 2,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the description, write down every quantity and the explicit arithmetic it creates, turn these into the most compact exact equation(s), solve them analytically (no rounding), briefly note each intermediate result, check that any given constraint holds, and print only the final number (as an integer when whole, otherwise as a reduced fraction or exact decimal).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number and the operation it implies, turn the whole situation into the simplest explicit formula (or minimal sequence of formulas), evaluate the formula step\u2011by\u2011step with a brief justification for each move, verify any given condition, and output only the final value (as an integer when it is exact).",
+      "train_score": 0.9594594594594594,
+      "train_step": 12,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each quantity and the operation it dictates, combine them into the most compact exact formula (or set of formulas), evaluate analytically step\u2011by\u2011step with a brief justification, ensure any stated condition holds, and output only the final numeric answer\u2014present it as an integer when whole, otherwise as a reduced fraction or exact decimal.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given number and its relation, turn the description into exact arithmetic expressions, evaluate them step\u2011by\u2011step with a short justification for each, verify the result meets any stated conditions, and finally output only the resulting numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 3,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number and the direct arithmetic operation it suggests, combine them into the most compact exact formula (or minimal set of formulas), evaluate the formula(s) step\u2011by\u2011step providing a short justification for each computation, verify that any condition mentioned in the problem is satisfied, and output ONLY the final numeric answer\u2014use an integer when the result is whole, otherwise a reduced fraction or exact decimal.",
+      "train_score": 0.9594594594594594,
+      "train_step": 45,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical facts and the operations they imply, combine them into the most compact exact formula (or system of formulas), solve it analytically in a logical sequence while providing a brief justification for each intermediate result, confirm that any given condition holds, and answer with only the final numeric value (integer for whole results, otherwise reduced fraction or exact decimal).",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers and the relationships they imply, translate them into one or more exact algebraic/arithmetical expressions, solve the expressions in logical order while providing a concise comment for each intermediate result, verify any constraints, and finally output ONLY the final numeric answer, using an integer if the value is integral, otherwise the reduced fraction or exact decimal.",
+      "train_score": 0.9594594594594594,
+      "train_step": 43,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities and relational statements, formulate the exact arithmetic or algebraic expression required, evaluate it step\u2011by\u2011step providing a brief justification for each step, confirm the result satisfies any given condition, and output solely the final number (as an integer when it is whole).",
+      "train_score": 0.9594594594594594,
+      "train_step": 5,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum and the operation it implies, combine them into the smallest exact arithmetic expression(s) that capture the problem, evaluate the expression(s) step\u2011by\u2011step giving a brief justification for each calculation, verify any stated condition, and finally output only the resulting number\u2014use an integer when the answer is whole, otherwise present it as a reduced fraction or decimal.",
+      "train_score": 0.9594594594594594,
+      "train_step": 30,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and the operations they imply, combine them into the simplest exact expression, evaluate it step\u2011by\u2011step with a brief rationale, ensure any given condition is satisfied, and output ONLY the final numeric result (as an integer when whole, otherwise as a reduced fraction or decimal).",
+      "train_score": 0.9594594594594594,
+      "train_step": 26,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and the explicit arithmetic they imply, construct the simplest exact formula(s), evaluate them in order with a brief justification for each calculation, verify any condition given, and print solely the final answer\u2014present it as an integer if it has no fractional part, otherwise as a reduced fraction or exact decimal.",
+      "train_score": 0.9594594594594594,
+      "train_step": 41,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and the exact operation it dictates, merge them into the most compact mathematically precise expression(s) that capture the whole problem, evaluate the expression(s) step\u2011by\u2011step providing a brief justification for each calculation, check that all stated conditions are met, and finally print only the resulting value (as an integer when it has no fractional component).",
+      "train_score": 0.9594594594594594,
+      "train_step": 15,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number and the mathematical relationship it creates, write the minimal exact expression(s) that capture these relationships, evaluate them sequentially with a brief rationale for each computation, verify that all problem conditions are satisfied, and finally print ONLY the resulting value\u2014use an integer for whole numbers, otherwise the simplest fraction or decimal.",
+      "train_score": 0.9594594594594594,
+      "train_step": 43,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and its implied operation, formulate the exact equation(s) that model the problem, solve them step\u2011by\u2011step providing a brief justification for each manipulation, confirm any condition mentioned, and output only the final result (as an integer if whole, otherwise as a reduced fraction or decimal).",
+      "train_score": 0.9594594594594594,
+      "train_step": 35,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum and the operation it dictates, merge them into a single exact arithmetic expression that represents the whole problem, evaluate it step\u2011by\u2011step with a brief comment for each intermediate result, verify that any stated condition is met, and output only the final numeric answer (use an integer when the result is whole, otherwise a reduced fraction or exact decimal).",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number mentioned and the direct arithmetic relation it creates, translate the whole problem into the minimal set of exact equations, solve them in logical order with a short comment for each manipulation, verify that all given constraints are satisfied, and output solely the final numeric result (integer if whole, otherwise reduced fraction or decimal).",
+      "train_score": 0.9594594594594594,
+      "train_step": 52,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each given number and its required operation, translate the entire scenario into the shortest possible exact formula(s), evaluate them step\u2011by\u2011step with a brief comment for each computation, ensure any condition is met, and output ONLY the final answer \u2013 integer if the result is whole, otherwise the reduced fraction or exact decimal.",
+      "train_score": 0.9594594594594594,
+      "train_step": 70,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and its associated operation, translate the entire scenario into the simplest exact arithmetic expression (or minimal set if needed), evaluate it using exact arithmetic while offering a concise one\u2011sentence justification for each intermediate result, confirm that all stated conditions are satisfied, and output only the final numeric answer (as an integer when whole, otherwise as a reduced fraction or exact decimal).",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.869598180439727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the statement list every number and its associated operation, write the most compact exact equation(s) that model the scenario, solve them in logical order providing a one\u2011sentence justification for each step, verify any requirement mentioned, and return solely the final numeric answer (use an integer for whole values, otherwise a reduced fraction or exact decimal).",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7837837837837838,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9112964366944655,
+    "avg_test_score": 0.8939311888515831,
+    "best_test_instruction": "Extract all quantities, turn each relationship into an explicit arithmetic expression, evaluate them step\u2011by\u2011step with brief justification, verify the result meets the problem\u2019s conditions, and then output only the final numeric answer."
+  }
+}

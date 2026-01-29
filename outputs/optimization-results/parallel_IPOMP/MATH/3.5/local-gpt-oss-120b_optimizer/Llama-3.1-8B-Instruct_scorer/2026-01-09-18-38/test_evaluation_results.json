@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Briefly outline the main idea, then solve the problem with a clear, logical progression of steps, showing necessary calculations, and finish by stating the final answer alone.",
+      "train_score": 0.7647058823529411,
+      "train_step": 1,
+      "test_score": 0.541106595811191,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the critical information, select the suitable mathematical approach, solve step\u2011by\u2011step with concise justification, double\u2011check the result, and output only the final answer in its simplest form.",
+      "train_score": 0.7411764705882353,
+      "train_step": 2,
+      "test_score": 0.5370428258830885,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution and state the final answer.",
+      "train_score": 0.7470588235294118,
+      "train_step": 0,
+      "test_score": 0.5354798374492029,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Systematically extract the given data, choose the proper mathematical principle, solve with concise justified steps, quickly verify, and output only the exact final answer.",
+      "train_score": 0.7294117647058823,
+      "train_step": 2,
+      "test_score": 0.5245389184120037,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the essential data, choose the most direct method, solve with a brief justification, verify the outcome, and output only the final answer in its simplest form.",
+      "train_score": 0.7176470588235294,
+      "train_step": 3,
+      "test_score": 0.5226633322913411,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, apply the appropriate method, show the reasoning step\u2011by\u2011step, and give the final answer clearly.",
+      "train_score": 0.7352941176470589,
+      "train_step": 0,
+      "test_score": 0.5223507346045639,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential data, select the optimal mathematical approach, perform the computation with concise but clear reasoning, verify the result, and output only the final answer in its simplest exact form.",
+      "train_score": 0.7294117647058823,
+      "train_step": 3,
+      "test_score": 0.5192247577367928,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the task, list the relevant data, select the appropriate method, carry out the calculations with brief justification, check the result, and output only the final answer in its simplest form.",
+      "train_score": 0.7470588235294118,
+      "train_step": 2,
+      "test_score": 0.5170365739293529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to isolate the essential data, pick the simplest correct method, solve with concise, justified steps, verify the result, and output only the exact final answer (fully simplified numeric or algebraic form) on a single line.",
+      "train_score": 0.5176470588235295,
+      "train_step": 99,
+      "test_score": 0.5151609878086902,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the given data, formulate the required equations, solve them step by step with brief justification, and present the final answer exactly as requested.",
+      "train_score": 0.7470588235294118,
+      "train_step": 1,
+      "test_score": 0.5132854016880275,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate what is asked, list the relevant quantities, solve using the appropriate technique with clear but minimal justification, confirm the result, and finish by writing only the final answer (exact number or simplified expression) on its own line.",
+      "train_score": 0.7352941176470589,
+      "train_step": 3,
+      "test_score": 0.5085964363863708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the key quantities from the question, decide on the suitable mathematical tool, work through the solution with concise justified steps, confirm the result, and respond with only the final answer (a number or simplified expression) on a single line.",
+      "train_score": 0.7411764705882353,
+      "train_step": 3,
+      "test_score": 0.5082838386995936,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step-by-step solution explaining the reasoning and conclude with the exact answer.",
+      "train_score": 0.7176470588235294,
+      "train_step": 0,
+      "test_score": 0.5079712410128165,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core quantities, select the quickest valid method, perform only the necessary calculations with brief justification, verify the outcome, and output solely the exact answer on a single line.",
+      "train_score": 0.5352941176470588,
+      "train_step": 99,
+      "test_score": 0.506720850265708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Distill the problem to the crucial data, select the simplest valid technique, solve with a brief logical sequence, verify the outcome, and output only the exact final answer on a single line.",
+      "train_score": 0.7294117647058823,
+      "train_step": 8,
+      "test_score": 0.5051578618318224,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the required values, apply the most straightforward formula or theorem, carry out only the essential steps, verify the outcome briefly, and present solely the final exact answer on a single line.",
+      "train_score": 0.5235294117647059,
+      "train_step": 99,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6588235294117647,
+      "train_step": -1,
+      "test_score": 0.48483901219130976,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First restate the problem concisely, then extract the essential data, choose the simplest appropriate method, solve with a brief logical sequence and minimal justification, quickly verify the result, and output only the exact final answer (number or simplified expression) on a single line.",
+      "train_score": 0.5705882352941176,
+      "train_step": 99,
+      "test_score": 0.44701469209127853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, isolate the numerical values needed, choose the simplest appropriate method, solve with a brief logical chain, verify the result, and output only the exact final answer on a single line with no additional commentary.",
+      "train_score": 0.48823529411764705,
+      "train_step": 99,
+      "test_score": 0.4426383244763989,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, isolate the relevant numbers, pick the most direct method, perform the calculation with brief justified steps, double\u2011check the result, and write ONLY the exact final answer (as a number or simplified expression) on a single line.",
+      "train_score": 0.4647058823529412,
+      "train_step": 99,
+      "test_score": 0.41262894654579557,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the core data, pick the most straightforward solution technique, perform the computation with minimal but clear reasoning, quickly confirm the result, and respond with only the exact answer (numeric or simplified symbolic) on a single line, without any additional explanation.",
+      "train_score": 0.4411764705882353,
+      "train_step": 99,
+      "test_score": 0.3673022819631135,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.541106595811191,
+    "avg_test_score": 0.4969261227466917,
+    "best_test_instruction": "Briefly outline the main idea, then solve the problem with a clear, logical progression of steps, showing necessary calculations, and finish by stating the final answer alone."
+  }
+}

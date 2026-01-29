@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a brief, logically ordered solution: outline the key reasoning, perform the necessary calculations clearly, and end with the exact numerical answer (rounded if required) placed alone on the final line.",
+      "train_score": 0.5882352941176471,
+      "train_step": 1,
+      "test_score": 0.7546108158799625,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem. State the main formula. Write every calculation on its own line (intermediate values allowed). Optionally add one line checking the work. End with the final answer\u2014integer, reduced fraction or",
+      "train_score": 0.5764705882352941,
+      "train_step": 99,
+      "test_score": 0.7511722413254142,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief explanation of the approach, list all relevant steps and calculations, and finish with the final result alone on a new line.",
+      "train_score": 0.6058823529411764,
+      "train_step": 1,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5764705882352941,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution that highlights the key insight, shows only the essential calculations, and ends with the exact numeric answer (or simplified expression) on its own line.",
+      "train_score": 0.5882352941176471,
+      "train_step": 1,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Insight: one concise sentence describing the main idea.  \n- Work: each arithmetic step on its own line; include intermediate values, labeling optional.  \n- Verify (optional): one line checking the result.  \n- Answer: the exact result\u2014integer, simplest fraction, or decimal to one place\u2014appearing alone on the final line.",
+      "train_score": 0.6,
+      "train_step": 68,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one sentence, note the key theorem or relation, then perform every calculation, putting each intermediate value on a separate line. End with the exact answer (integer, simplest fraction, or appropriately rounded decimal) alone on the last line.",
+      "train_score": 0.5764705882352941,
+      "train_step": 81,
+      "test_score": 0.7283526101906845,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem briefly.  \n- Identify the main concept or formula needed.  \n- Perform each calculation on its own line, showing any intermediate numbers.  \n- (Optional) Include a quick verification line.  \n- Output only the final answer (integer, reduced fraction, or as required) on the last line with no extra text.",
+      "train_score": 0.611764705882353,
+      "train_step": 91,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Briefly restate the question in one sentence.  \n- Identify the main principle or formula needed.  \n- Perform every arithmetic or logical operation, writing each numeric result on its own line (intermediate values may be labeled).  \n- (Optional) Include a single line that checks the result.  \n- End with only the final answer\u2014integer, reduced fraction, or correctly rounded decimal\u2014on a separate line with no additional characters.",
+      "train_score": 0.5529411764705883,
+      "train_step": 99,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Begin with a single\u2011sentence restatement of what is being asked.\n- Indicate the main principle or formula that will resolve the problem.\n- Perform every arithmetic or algebraic operation, placing each numeric outcome on a separate line (you may tag the line, but tags are optional).\n- (Optional) Add a brief line that confirms the computation.\n- Conclude by writing only the final result\u2014integer, simplest fraction, or correctly rounded decimal\u2014on its own line, without any additional characters.",
+      "train_score": 0.5764705882352941,
+      "train_step": 95,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\n- Summarize the core insight in a single concise sentence.\\n- Perform every necessary computation, writing each result on a separate line; include any intermediate values you use.\\n- (Optional) Add one line that checks the result.\\n- End with the exact answer\u2014integer, simplest fraction, or decimal rounded to one decimal place\u2014standing alone on the final line.\\n",
+      "train_score": 0.6,
+      "train_step": 63,
+      "test_score": 0.7158487027195999,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in a single concise sentence.  \n- State the key insight or formula that solves it.  \n- Perform every necessary computation on its own line, showing any intermediate numbers.  \n- (Optional) Add a one\u2011line sanity check.  \n- End with only the final answer\u2014integer, reduced fraction, or a decimal rounded to one place\u2014appearing alone on the last line.",
+      "train_score": 0.5823529411764706,
+      "train_step": 65,
+      "test_score": 0.7127227258518287,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the core observation in one sentence. Then, perform every required arithmetic or algebraic step, writing each result on a separate line (intermediate values may be labeled). After a brief optional check, output only the final numeric result\u2014integer, simplest fraction, or appropriately rounded decimal\u2014on the last line alone.",
+      "train_score": 0.6,
+      "train_step": 84,
+      "test_score": 0.7099093466708346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\n- Summarize the solution in a single sentence.\\n- Perform every required calculation, writing each result on its own line (intermediate values allowed).\\n- (Optional) Add one line verifying the result.\\n- End with only the final answer \u2014 integer, simplest fraction, or one\u2011decimal-place decimal \u2014 on the last line with no extra characters.\\n",
+      "train_score": 0.5764705882352941,
+      "train_step": 59,
+      "test_score": 0.7099093466708346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in one concise sentence.  \n- Identify the crucial observation, formula, or principle that solves it.  \n- Execute every needed arithmetic or logical step on a separate line, displaying any intermediate values (labels optional).  \n- (Optional) Add a single line that quickly checks the result.  \n- Conclude with the exact answer\u2014integer, simplest fraction, or appropriately rounded decimal\u2014placed alone on the final line with no extra characters.",
+      "train_score": 0.611764705882353,
+      "train_step": 74,
+      "test_score": 0.7092841512972804,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in one sentence.  \n- State the key observation or formula needed.  \n- Perform every required computation, placing each intermediate result on its own line (labels optional).  \n- (Optional) Add one line that verifies the result.  \n- End the response with only the final answer\u2014integer, reduced fraction, or decimal rounded to the nearest hundredth\u2014as a single line with no extra characters.",
+      "train_score": 0.5764705882352941,
+      "train_step": 73,
+      "test_score": 0.7036573929352923,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the solving idea in one line.  \n- Write every calculation as a separate line, showing intermediate numbers.  \n- (Optional) Add a brief sanity check.  \n- End with ONLY the final answer (integer/fraction/rounded decimal) on a line by itself.",
+      "train_score": 0.6,
+      "train_step": 87,
+      "test_score": 0.7014692091278525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short description of the key idea, then perform the required calculations, writing each step on a separate line (including any intermediate values). End the response with the exact answer\u2014integer, simplest fraction, or decimal rounded to one decimal place\u2014appearing alone on the final line.",
+      "train_score": 0.5764705882352941,
+      "train_step": 56,
+      "test_score": 0.6970928415129728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Begin with a one\u2011sentence summary of the main idea.  \n- Perform each needed computation on a separate line; show any intermediate values (labels optional).  \n- (Optional) Add one line that validates the result.  \n- Conclude with the exact answer\u2014integer, simplest fraction, or one\u2011decimal\u2011place decimal\u2014standing alone on the final line, without any surrounding text or symbols.",
+      "train_score": 0.5764705882352941,
+      "train_step": 70,
+      "test_score": 0.6905282900906533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a one\u2011sentence restatement of the problem. Then, in clear sequential steps, present the crucial insight and all necessary calculations, putting every intermediate result on its own line. After the work, output just the final answer\u2014integer, reduced fraction or appropriately rounded decimal\u2014on a line by itself with no extra characters.",
+      "train_score": 0.5941176470588235,
+      "train_step": 75,
+      "test_score": 0.6874023132228821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Summarize the problem in a single concise sentence.  \n- State the core concept or formula that will be used.  \n- Perform all calculations, placing each intermediate numeric result on its own line (labels optional).  \n- (Optional) Add one line that quickly checks the result.  \n- Output only the final result\u2014integer, simplest fraction, or appropriately rounded decimal\u2014on a line by itself, and include nothing else after it.",
+      "train_score": 0.4470588235294118,
+      "train_step": 99,
+      "test_score": 0.562363238512035,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7546108158799625,
+    "avg_test_score": 0.7124845561857127,
+    "best_test_instruction": "Provide a brief, logically ordered solution: outline the key reasoning, perform the necessary calculations clearly, and end with the exact numerical answer (rounded if required) placed alone on the final line."
+  }
+}

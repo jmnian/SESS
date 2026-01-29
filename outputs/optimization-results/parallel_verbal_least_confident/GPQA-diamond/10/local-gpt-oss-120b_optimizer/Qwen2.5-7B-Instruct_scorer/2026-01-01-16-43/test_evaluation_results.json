@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Derive the exact solution (value, structure, or logical conclusion) implied by the question. Then compare this solution to the four answer strings; output the label of the option that is identical. If no option matches exactly, output the label of the option that does not contradict any statement in the question and has the highest overlap with the derived solution. If still ambiguous, choose the alphabetically first.",
+      "train_score": 0.5263157894736842,
+      "train_step": 71,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.2631578947368421,
+      "train_step": -1,
+      "test_score": 0.3434343434343434,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and determine the single principle or fact that must hold for a correct answer. For each choice A\u2011D, check whether it contradicts that principle; discard any that do. If one remains, output its letter; if several remain, choose the one that introduces the fewest new assumptions, breaking ties alphabetically. Output only the chosen letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 46,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, list all required features (functional groups, numerical values, structural patterns, spectral signals, etc.). For each option A\u2011D, check whether it fulfills each feature; assign a penalty for any missed or contradictory feature. Keep the option(s) with zero penalty; if several have none, choose the one that satisfies the greatest number of higher\u2011priority features. Return the single letter of the final choice.",
+      "train_score": 0.47368421052631576,
+      "train_step": 15,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the prompt, compute any needed values, compare the results with each answer choice, and output the letter of the matching choice.",
+      "train_score": 0.42105263157894735,
+      "train_step": 11,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Decompose the question, recall the applicable principle(s), test every option against them, eliminate those that fail, and return the correct answer label (A\u2011D).",
+      "train_score": 0.47368421052631576,
+      "train_step": 3,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all statements that must be true according to the problem. For each option A\u2011D, mark it as valid if it contradicts none of those statements. If exactly one option is valid, output its letter. If multiple are valid, choose the one that contradicts the fewest statements; if still tied, pick the alphabetically earliest.",
+      "train_score": 0.47368421052631576,
+      "train_step": 97,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Identify the precise quantity or statement the question asks for.\n2. Using the given data and relevant domain knowledge, compute the correct answer.\n3. Compare the computed answer with each option (A\u2013D); discard any option that conflicts with the computed answer or violates any explicit condition.\n4. If more than one option remains, select the one that requires the fewest additional assumptions; if still tied, pick the alphabetically earliest.\nReturn only the chosen letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 98,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the core claim the problem asks for.\n- Determine all statements in the stem that must be true for that claim.\n- Eliminate any answer that is inconsistent with any required statement.\n- If several remain, rank them by the total number of additional assumptions they introduce (fewer is better); break remaining ties by alphabetical order.\n- Output the single letter of the chosen answer.",
+      "train_score": 0.47368421052631576,
+      "train_step": 87,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, list the necessary condition(s), logically test options A\u2011D against those condition(s), and return only the label of the sole option that meets every condition.",
+      "train_score": 0.42105263157894735,
+      "train_step": 7,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using appropriate knowledge to obtain the exact answer. Then, for each option, compute a match score: +1 if the option\u2019s content exactly equals the derived answer, 0 otherwise. If no exact match, assign a partial score for each element (e.g., correct formula, correct value). Choose the option with the highest total score; break ties alphabetically.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the set of statements that must be true for a correct answer. For each option A\u2011D compute whether the option together with the problem statement yields a logically consistent model; reject any inconsistent option. If several remain, pick the option that adds the fewest new statements beyond the necessary ones; if still a tie, output the first letter alphabetically. Return only that letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 70,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Extract all mandatory facts from the stem.  \n2. Compute the unique solution demanded by the problem.  \n3. For each answer choice, test (i) does it obey every mandatory fact? (ii) does it equal the computed solution?  \n4. Keep choices passing both tests; if none, keep those obeying all mandatory facts.  \n5. Among remaining choices, select the one that introduces the fewest non\u2011required elements; if still tied, pick the alphabetically first.  \nReturn only the chosen label.",
+      "train_score": 0.21052631578947367,
+      "train_step": 99,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Extract all mandatory requirements from the stem (numerical values, equations, logical relations).  \n- Solve the problem to obtain the definitive answer.  \n- For each choice compute a consistency score: +1 for each mandatory requirement satisfied, \u22121 for each violated, and \u22120.5 for each unnecessary element.  \n- Select the option with the highest score; if a tie remains, choose the earliest letter alphabetically.  \nReturn only that letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 98,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the exact target (value, identity, probability, etc.) the question demands.  \n- Solve the problem directly, ignoring the answer list.  \n- Scan the four answer strings; select the one that exactly equals the computed target.  \n- If none matches, eliminate any answer that contradicts any fact given in the stem; among the remaining, choose the one that requires the smallest number of unstated assumptions, breaking ties alphabetically.  \nReturn only the chosen letter.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, list every explicit or implicit requirement, and for each option (A\u2011D) test whether it satisfies all mandatory requirements; discard any that violate them. If multiple options remain, rank them by the number of satisfied optional requirements, breaking ties alphabetically. Output only the chosen letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 40,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Extract every explicit requirement (hard constraints) and the exact quantity or statement the problem asks for.  \n2. Derive the unique correct result from the given data and relevant theory.  \n3. For each answer choice A\u2011D compute a score = (number of hard constraints satisfied) \u2013 (number of hard constraints violated) \u2013 (number of unnecessary assumptions).  \n4. Select the choice with the highest score; if a tie remains, pick the alphabetically earliest.  \nReturn only the selected letter.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": ":\n1. Solve the problem using the appropriate domain knowledge, obtaining a definitive answer (value, concept, or statement).  \n2. Compare this answer with each choice A\u2011D; keep those that match exactly.  \n3. If a single choice matches, output its letter.  \n4. If none or multiple match, list the logical premises from the stem, discard any choice contradicting a premise, and finally output the alphabetically first remaining choice.",
+      "train_score": 0.47368421052631576,
+      "train_step": 51,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Extract every mandatory condition (hard constraints) from the stem.  \n2. For each answer choice A\u2013D, test whether it satisfies all mandatory conditions. Discard any that violate one.  \n3. For the remaining choices, count how many optional (soft) conditions they satisfy; also count any extra features not required.  \n4. Choose the choice with the highest (optional satisfied\u202f\u2212\u202fextra) score; if a tie, select the alphabetically first.  \nOutput only the letter.",
+      "train_score": 0.5263157894736842,
+      "train_step": 85,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the stem into a complete list of logical constraints (structural features, numerical values, reaction outcomes, rank orders, etc.). Treat each answer choice as a candidate set and test it against every constraint, discarding any candidate that fails any constraint. If exactly one candidate remains, output its letter; if multiple remain, rank them by the count of satisfied constraints (giving precedence to constraints tagged as critical) and output the top\u2011ranked letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 17,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Extract every explicit requirement from the question and determine the unique answer it demands.  \n2. For each option A\u2011D, check whether it fulfills all extracted requirements; discard any that violate a requirement.  \n3. If several options remain, rank them by the number of additional, non\u2011essential assumptions they introduce (fewest is best); resolve any remaining tie by selecting the alphabetically earliest letter. Output only that letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 93,
+      "test_score": 0.2474747474747475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3484848484848485,
+    "avg_test_score": 0.2873977873977874,
+    "best_test_instruction": "Derive the exact solution (value, structure, or logical conclusion) implied by the question. Then compare this solution to the four answer strings; output the label of the option that is identical. If no option matches exactly, output the label of the option that does not contradict any statement in the question and has the highest overlap with the derived solution. If still ambiguous, choose the alphabetically first."
+  }
+}

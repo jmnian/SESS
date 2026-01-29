@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Formulate one concise equation that represents the problem, solve it with at most two clearly justified manipulations, verify any stated conditions, and output only the final simplified numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 17,
+      "test_score": 0.7683651140981557,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the unique governing rule, apply it in a single explicit step (or the smallest number of steps needed), check any stated condition, and present only the final simplified numeric result.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7530478274460769,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem concisely, identify the one governing formula or theorem, perform the computation in the minimum clear steps while confirming any given conditions, and present only the final simplified numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 19,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8125,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a step-by-step walkthrough for solving the problem, ensuring each algebraic manipulation (or mathematical operation) is clearly justified, and present the final answer as a simplified numeric value.",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief problem restatement, then in one clear line write the relevant equation or principle, follow with a succinct derivation using the fewest logical steps, verify any constraints, and end with the exact simplified numerical answer alone.",
+      "train_score": 0.8333333333333334,
+      "train_step": 12,
+      "test_score": 0.7333541731791184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem briefly, write the unique governing expression, solve it with the smallest possible number of explicit, justified operations (no more than two), check any stated condition, and output solely the final simplified number.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7264770240700219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide an ultra\u2011compact solution: briefly restate the problem, name the one essential formula or theorem, carry out the computation in the smallest number of clearly justified steps (no more than three), confirm any given condition, and output only the final simplified numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 27,
+      "test_score": 0.7261644263832447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, pinpoint the single key concept, solve it in no more than three concise, justified steps, verify any stated conditions, and output only the final simplified numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 17,
+      "test_score": 0.7255392310096905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, focused solution: pinpoint the key concept, carry out the required steps with clear justification, and conclude with the exact numeric answer (no additional commentary).",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.7221006564551422,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three concise stages: (i) restate the problem in one short sentence; (ii) state the single governing formula or theorem; (iii) perform the calculation using the minimal number of justified steps, verify any required condition, and output only the final reduced numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 80,
+      "test_score": 0.7086589559237262,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in five steps: concise problem paraphrase; key relation; direct computation; condition check; final answer alone.",
+      "train_score": 0.8333333333333334,
+      "train_step": 27,
+      "test_score": 0.705532979055955,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically ordered solution: state the key principle, apply it step\u2011by\u2011step, and finish with the exact numerical answer (no extra text).",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.7045951859956237,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one brief sentence, identify the lone key concept or formula required, solve using the smallest number of clearly justified steps (up to three), verify any given conditions, and present only the final simplified numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 50,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in a single short sentence, indicate the one essential formula or principle, perform the necessary computation in the minimal number of clearly justified steps, verify any stated constraints, and output only the final simplified numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 19,
+      "test_score": 0.6886527039699907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution: - restate the problem in one concise sentence; - indicate the primary concept or formula required; - perform the calculations with succinct justification; - confirm the result satisfies any given conditions; and finally present only the simplified numeric answer without any additional wording.",
+      "train_score": 0.8333333333333334,
+      "train_step": 7,
+      "test_score": 0.6423882463269772,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in a phrase, write the decisive equation or counting rule, solve it in at most two algebraic moves, ensure all given constraints hold, and output only the exact final number.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.5620506408252579,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one short sentence, identify the single decisive theorem or algebraic identity that solves it, execute the solution in at most two clearly justified steps, verify any stated condition, and output only the final simplified numeric answer with no extra wording.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.1978743357299156,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the problem in one brief sentence, name the single governing theorem or identity, solve it using the smallest possible number of clearly justified steps (ideally one or two), check any stated condition, and output only the exact final numeric answer, with no extra wording.",
+      "train_score": 0.16666666666666666,
+      "train_step": 99,
+      "test_score": 0.17974366989684276,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "In one concise line: (i) name the single theorem or formula that solves the problem; (ii) perform the minimal algebraic or arithmetic manipulation (at most two justified operations) required, explicitly confirming any condition given; (iii) write only the resulting number as the answer\u2014no exposition, symbols, or extra text.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.1772428884026258,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011line restatement, identify the single decisive principle, solve it in two or fewer clearly justified operations while confirming any condition, and output nothing but the exact final number.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.1681775554860894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7683651140981557,
+    "avg_test_score": 0.6107563375459593,
+    "best_test_instruction": "Formulate one concise equation that represents the problem, solve it with at most two clearly justified manipulations, verify any stated conditions, and output only the final simplified numeric answer."
+  }
+}

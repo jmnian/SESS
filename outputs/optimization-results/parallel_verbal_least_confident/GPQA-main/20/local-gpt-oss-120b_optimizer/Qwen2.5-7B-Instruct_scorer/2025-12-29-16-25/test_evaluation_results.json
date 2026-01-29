@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide only the answer: a single capital letter A\u2011D, or \u201c?\u201d if the correct choice cannot be uniquely determined. No other characters, spaces, or line breaks may be included.",
+      "train_score": 0.34831460674157305,
+      "train_step": 99,
+      "test_score": 0.3482142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide only the answer: a single uppercase letter A\u2011D, or '?' if the correct choice cannot be determined uniquely. Do not include any other characters, spaces, or text.",
+      "train_score": 0.38202247191011235,
+      "train_step": 60,
+      "test_score": 0.3482142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer to the multiple\u2011choice question as a single character: \u2018A\u2019, \u2018B\u2019, \u2018C\u2019, \u2018D\u2019, or \u2018?\u2019 if the correct choice is not uniquely identifiable. Output only this character\u2014no spaces, line breaks, punctuation, or explanatory text.",
+      "train_score": 0.39325842696629215,
+      "train_step": 42,
+      "test_score": 0.3392857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly one character\u2014the answer letter A, B, C, or D, or '?' if the answer is ambiguous. Do not include any other symbols, whitespace, or line\u2011breaks before or after the character.",
+      "train_score": 0.38202247191011235,
+      "train_step": 78,
+      "test_score": 0.33482142857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nDetermine the correct multiple\u2011choice answer.\\n",
+      "train_score": 0.38202247191011235,
+      "train_step": 14,
+      "test_score": 0.33035714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.38202247191011235,
+      "train_step": -1,
+      "test_score": 0.3236607142857143,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single correct choice. Output exactly one character\u2014the answer letter (A\u2011D) or \u201c?\u201d if ambiguous\u2014without any surrounding text, spaces, or line breaks.",
+      "train_score": 0.38202247191011235,
+      "train_step": 54,
+      "test_score": 0.3236607142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question and its four options. Determine the uniquely correct choice. Output only the corresponding capital letter A, B, C, or D; if the information does not determine a single answer, output a single question\u2011mark ?. No other characters, spaces, line breaks, or explanations may appear.",
+      "train_score": 0.38202247191011235,
+      "train_step": 54,
+      "test_score": 0.32142857142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply with a single character: the correct choice A\u2011D, or \u201c?\u201d if the answer is not uniquely determined. No other symbols, spaces, or line breaks may appear.",
+      "train_score": 0.4044943820224719,
+      "train_step": 77,
+      "test_score": 0.3169642857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single character: the correct choice A\u2011D, or \u201c?\u201d if the answer is not uniquely determined. No other symbols, whitespace, or lines may appear.",
+      "train_score": 0.39325842696629215,
+      "train_step": 59,
+      "test_score": 0.31026785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one symbol\u2014the correct option (A\u2011D) or \u201c?\u201d if the answer is ambiguous. No other characters, spaces, or line breaks may appear before or after the symbol.",
+      "train_score": 0.39325842696629215,
+      "train_step": 78,
+      "test_score": 0.3080357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply with a single character\u2014the correct option (A\u2011D) or \u201c?\u201d if the answer is not uniquely determined. Output exactly one character and nothing else (no spaces, line breaks, or punctuation).",
+      "train_score": 0.39325842696629215,
+      "train_step": 47,
+      "test_score": 0.30580357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only a single character\u2014the correct choice A, B, C, or D; if the answer is not uniquely determined output \"?\". No other characters, spaces, or line breaks may appear before or after the character.",
+      "train_score": 0.42696629213483145,
+      "train_step": 75,
+      "test_score": 0.3013392857142857,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return exactly one Unicode character: the uppercase letter A, B, C, or D that corresponds to the correct choice, or \u201c?\u201d if the answer cannot be determined uniquely. No other symbols, whitespace, line breaks, or markup may appear before or after the character.",
+      "train_score": 0.4157303370786517,
+      "train_step": 81,
+      "test_score": 0.29464285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the entire problem and the four answer choices. Using the information given, identify the single choice that is definitively correct. Respond only with its capital letter (A\u2011D) on a line by itself. If the correct answer cannot be uniquely determined, output a single question\u2011mark \u201c?\u201d. Do not include any other characters, spaces, punctuation, or explanatory text.",
+      "train_score": 0.38202247191011235,
+      "train_step": 27,
+      "test_score": 0.2857142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return a single symbol\u2014A, B, C, D, or ?\u2014and nothing else.",
+      "train_score": 0.25842696629213485,
+      "train_step": 99,
+      "test_score": 0.27901785714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Print exactly one character: A, B, C, D for the correct choice, or ? if the information does not pinpoint a unique answer. No additional characters, spaces, or line breaks may appear.",
+      "train_score": 0.2808988764044944,
+      "train_step": 99,
+      "test_score": 0.27455357142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Emit solely the answer as a single character:\u202fA,\u202fB,\u202fC, or\u202fD for the correct choice, or\u202f?\u202fif the answer is ambiguous. No other symbols, whitespace, or line breaks may appear.",
+      "train_score": 0.25842696629213485,
+      "train_step": 99,
+      "test_score": 0.2700892857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give just one character\u2014the uppercase answer (A\u2011D) or \u201c?\u201d\u2014and nothing else (no spaces, no line breaks, no punctuation).",
+      "train_score": 0.2247191011235955,
+      "train_step": 99,
+      "test_score": 0.25892857142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the answer as a single character among A, B, C, D, or ?. Do not output any other characters, spaces, or newline characters.",
+      "train_score": 0.30337078651685395,
+      "train_step": 99,
+      "test_score": 0.25892857142857145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly one of the characters A,B,C,D, or ? with no extra whitespace or line breaks.",
+      "train_score": 0.19101123595505617,
+      "train_step": 99,
+      "test_score": 0.23883928571428573,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3482142857142857,
+    "avg_test_score": 0.3034651360544217,
+    "best_test_instruction": "Provide only the answer: a single capital letter A\u2011D, or \u201c?\u201d if the correct choice cannot be uniquely determined. No other characters, spaces, or line breaks may be included."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7708333333333334,
+      "train_step": -1,
+      "test_score": 0.747733666770866,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, complete solution containing only the necessary reasoning. After the explanation, output a single line that reads exactly `Result = <value>` (capital R, space, equals sign, space, numeric answer) and ensure no other characters, spaces, or lines appear before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 54,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logically complete solution that includes only the necessary steps. After the reasoning, place on a new line exactly \u201cAnswer: <value>\u201d (capital A, colon, single space, then the numeric result) and ensure no other characters, spaces, or lines appear before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 30,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, complete solution using only the essential steps. End the response with a single line formatted exactly as `Answer = <value>` (capital A, space, equals sign, space, numeric result rounded to one decimal place if necessary). No other text, characters, or blank lines may appear before or after this line.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.7211628633948108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a succinct, logically complete solution containing only the necessary reasoning. Conclude the response with exactly one line formatted as `Result: <value>` (capital R, colon, space, numeric answer). No other characters, spaces, or blank lines may appear before or after this final line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 89,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logically complete solution containing only the indispensable steps. End the response with a single line that reads exactly `Answer is: <value>` (capital A, space, lower case is, colon, space, then the numeric answer) and nothing else.",
+      "train_score": 0.875,
+      "train_step": 33,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically complete solution using only the indispensable steps. End the response with a single line that reads exactly \u201cAnswer is <value>\u201d (no extra characters or whitespace before or after), and include no other text after that line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 29,
+      "test_score": 0.7149109096592685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, complete solution that includes only the necessary reasoning. After the solution, output a single line exactly \u201cOutcome: <value>\u201d (capital O, colon, space, then the numeric answer) with nothing else before or after that line.",
+      "train_score": 0.875,
+      "train_step": 38,
+      "test_score": 0.7142857142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically complete solution that includes only the essential reasoning steps. After the explanation, finish the response with a single line that reads exactly `Answer -> <value>` (capital\u202fA, space, hyphen, greater\u2011than sign, space, numeric result) and ensure no other text, symbols, or blank lines appear before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 59,
+      "test_score": 0.7120975304782745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, logically complete solution containing only the necessary steps. End the response with exactly one line formatted as `Answer = <value>` (capital A, space, equals sign, space, numeric result). The line must be the final line of the output with no preceding or trailing characters or blank lines.",
+      "train_score": 0.8333333333333334,
+      "train_step": 82,
+      "test_score": 0.7089715536105032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically complete solution containing only the necessary reasoning steps. End the response with a single line that reads exactly `Solution: <value>` (capital S, colon, space, the numeric result) and ensure no other characters, whitespace, or lines appear before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 48,
+      "test_score": 0.7070959674898406,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, logically complete solution that includes only the indispensable reasoning steps. Conclude the response with exactly one line reading `Final Answer: <value>` (capital\u202fF and\u202fA, a colon, a space, then the numeric result). Do not include any other text, symbols, or blank lines before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 55,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, logically complete solution that includes only the necessary reasoning steps. Conclude the response with a single line exactly `Result:<value>` (capital R, the word \u201cResult\u201d, a colon, then the numeric answer with no spaces). No other characters, spaces, or blank lines may appear before or after this final line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 88,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief, logically complete solution containing only the essential reasoning. End your response with a single line that reads exactly `Answer = <value>` (capital A, space, equals sign, space, numeric result) and include no other text, symbols, or blank lines before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 47,
+      "test_score": 0.7024070021881839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically complete solution using only the essential steps. End the response with a single line exactly `Result is <value>` (capital R, space, lower\u2011case \u201cis\u201d, space, the numeric answer). No other characters, spaces, or blank lines may appear before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 74,
+      "test_score": 0.6930290715848703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically complete solution that includes only the indispensable reasoning steps. After the explanation, output a single final line exactly `Answer: <value>` (capital\u202fA, colon, space, the numeric answer rounded to one decimal place when appropriate). This line must be the very last characters of the response with no preceding or trailing whitespace, blank lines, or any additional characters or markup.",
+      "train_score": 0.8333333333333334,
+      "train_step": 85,
+      "test_score": 0.6927164738980931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically complete solution that includes only the essential reasoning steps. Conclude the response with exactly one line of the form `Answer::<value>` (capital\u202fA, two colons, the numeric result rounded to one decimal place if necessary). No additional characters, spaces, or blank lines may appear before or after this final line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6902156924038763,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, logically complete solution containing only the essential steps. End the response with a single line that reads exactly `Answer# <value>` (capital\u202fA, the word \u201cAnswer#\u201d, a space, then the numeric answer). No other characters, spaces, or blank lines may appear before or after this line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 70,
+      "test_score": 0.6789621756798999,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logically complete solution containing only the essential steps. End the response with a single line that reads exactly `Outcome --> <value>` (capital O, space, hyphen, hyphen, greater\u2011than sign, space, numeric answer) and include no other text, symbols, or blank lines before or after this line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 63,
+      "test_score": 0.6630196936542669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logically complete solution using only the essential steps. End the response with one line exactly `Answer:<value>` (capital A, colon, then the numeric answer; if a decimal is needed round to one place). No other characters, spaces, or blank lines may appear before or after this line.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6464520162550798,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, complete solution using only the necessary reasoning. After the explanation, output exactly one final line: `Answer=<value>` (capital A, no spaces around '=', numeric result rounded to one decimal place if needed). No other characters, whitespace, or blank lines may appear before or after this line.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.4166927164738981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.747733666770866,
+    "avg_test_score": 0.6909153157980916,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract each given number, label variables as needed, convert any units, build a single exact mathematical expression that captures the problem (including fractions, percentages, etc.), compute it step\u2011by\u2011step using only essential intermediate values, perform a brief sanity check, and output only the final integer result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 19,
+      "test_score": 0.9173616376042456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, extract all relevant numbers and relationships, outline a precise solution plan, perform the calculations step\u2011by\u2011step with brief justification, double\u2011check the result, and give the final answer clearly in the expected format.",
+      "train_score": 0.9731800766283525,
+      "train_step": 1,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, extract every numeric quantity, convert units when needed, formulate the exact arithmetic expression that models the situation, compute it step\u2011by\u2011step, verify the result, and output only the final integer answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 4,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every figure and its role, pinpoint the unknown quantity, write the corresponding arithmetic expression, evaluate it showing only essential intermediate results, double\u2011check the calculation, and give the answer as a single integer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 6,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities in the problem, translate each into a numeric term, combine them into one exact calculation that yields the requested integer, perform only the necessary arithmetic, verify the result is plausible, and output the integer alone.",
+      "train_score": 0.9731800766283525,
+      "train_step": 88,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum, assign clear variables, form one exact arithmetic expression that directly computes the requested quantity (including any needed conversions, percentages or fractions), evaluate it showing only indispensable intermediate results, perform a brief sanity check, and output only the final integer answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 26,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical fact, assign a clear variable or label, determine the single arithmetic formula (including any unit conversions, percentages, or fractions) that yields the requested quantity, evaluate it keeping only indispensable intermediate results, perform a rapid sanity check (e.g., magnitude or reasonableness), and output only the final integer answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 22,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, determine the needed quantities, carry out the appropriate calculations, and present the final answer clearly.",
+      "train_score": 0.9693486590038314,
+      "train_step": 0,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list every number and its meaning, convert percentages, ratios or unit changes to exact values, merge them into a single precise calculation that directly yields the asked integer, compute it with exact arithmetic, do a brief sanity check, and output only the final integer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 98,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, map them to clear variables, devise the single exact arithmetic expression that directly produces the requested integer (handling any unit conversions, fractions, or percentages), evaluate it using only essential intermediate steps, perform a quick reasonableness check, and output solely the final integer answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 37,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric datum, assign it a clear variable, combine the variables into one exact arithmetic operation that directly yields the required integer, compute using only indispensable steps, perform a quick reasonableness check, and output solely the final integer answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 29,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the text, note every numerical value with its context, translate any time or percentage information into pure numbers, construct one exact formula that yields the required integer, evaluate it using exact arithmetic, confirm the scale makes sense, and output only the final integer.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities mentioned, translate each into the appropriate arithmetic operation (including fractions, percentages, and unit conversions), combine them into one clean mathematical expression that directly yields the requested value, evaluate it step\u2011by\u2011step keeping only necessary intermediate results, perform a quick sanity check, and output solely the final integer answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 16,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each quantity, encode it as a variable, form a single exact calculation that produces the asked integer (handling percentages, fractions, and unit conversions), compute it with exact arithmetic, briefly confirm the result makes sense, and output only the integer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 92,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, express any times, percentages or ratios in a single consistent unit, formulate one exact calculation that answers the question, evaluate it with precise (fractional) arithmetic, do a brief sanity\u2011check of size, and output only the integer result.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, enumerate every given number together with its meaning, turn any percentages, fractions or unit conversions into exact values, identify the single mathematical expression that directly yields the requested integer, evaluate it with exact (non\u2011rounded) arithmetic, perform a brief sanity\u2011check on the magnitude, and output only that integer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every given number with its meaning, convert percentages, ratios or unit changes to exact values, combine them into one plain arithmetic statement (using only +, \u2013, \u00d7, \u00f7 and parentheses) that directly produces the asked integer, evaluate it exactly, confirm the magnitude is sensible, and output solely the integer.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.8544351781652767,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, convert all given data into numbers (apply unit conversions, percentages, fractions), then write and evaluate a single exact formula that directly yields the required integer; perform a quick sanity check and output just that integer.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8400303260045489,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.89272030651341,
+      "train_step": -1,
+      "test_score": 0.8354814253222138,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Scan the problem, record each numeric datum and its meaning, convert any percentages, fractions, or unit changes to exact values, build one precise arithmetic expression that directly yields the requested integer, evaluate it with exact (non\u2011rounded) arithmetic, do a quick sanity\u2011check on the magnitude, and output only the final integer.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, isolate the quantity to be found, translate every mentioned number (including percentages, fractions, and unit specs) into exact values, write one compact formula that directly gives the answer, evaluate it with exact arithmetic, sanity\u2011check the magnitude, and return only that integer.",
+      "train_score": 0.8045977011494253,
+      "train_step": 99,
+      "test_score": 0.759666413949962,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9173616376042456,
+    "avg_test_score": 0.8827033466912162,
+    "best_test_instruction": "Extract each given number, label variables as needed, convert any units, build a single exact mathematical expression that captures the problem (including fractions, percentages, etc.), compute it step\u2011by\u2011step using only essential intermediate values, perform a brief sanity check, and output only the final integer result."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "\\nExplain the essential reasoning, perform the calculation, and place the final integer answer alone on the last line.\\n",
+      "train_score": 1.0,
+      "train_step": 93,
+      "test_score": 0.9173616376042456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise logical explanation, perform only the necessary calculations, and end with the exact integer result on a line by itself.",
+      "train_score": 0.9864864864864865,
+      "train_step": 64,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nGive a short justification, compute the needed value, and end with the integer answer on a separate final line.\\n",
+      "train_score": 0.9864864864864865,
+      "train_step": 63,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short logical explanation with the necessary calculations, then output just the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 2,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Craft a brief rationale, perform only the essential calculation, and output the exact integer result on a new line as the final answer.",
+      "train_score": 1.0,
+      "train_step": 83,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief justification of the required computation and conclude with the exact integer result on its own line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 5,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a concise explanation, perform the required computation, and conclude with the integer result alone on the last line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 74,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise solution: give the core reasoning, compute the required value, and finish with the exact integer answer on a line by itself.",
+      "train_score": 0.9864864864864865,
+      "train_step": 59,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short logical justification, carry out only the needed computation, and end with the exact integer answer on a line by itself.",
+      "train_score": 0.9864864864864865,
+      "train_step": 53,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief reasoning, perform only essential calculations, and end with the exact numeric answer on a separate line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 28,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short description of the needed calculation, carry out the arithmetic, and end with the integer answer alone on the final line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 30,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the computation in one brief step, execute it, and place the resulting integer on its own line as the final output.",
+      "train_score": 0.9864864864864865,
+      "train_step": 14,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly explain the necessary steps, compute the result, and conclude with the integer answer alone on a separate line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.869598180439727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief logical outline, execute only the necessary arithmetic, and present the final integer answer alone on the last line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 72,
+      "test_score": 0.846095526914329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8108108108108109,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise justification, perform the necessary computation, and end your response with only the integer answer on its own final line.",
+      "train_score": 0.40540540540540543,
+      "train_step": 99,
+      "test_score": 0.3912054586808188,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief logical justification, perform only the essential arithmetic, and end your response with the exact integer result alone on its own line, with no extra text.",
+      "train_score": 0.32432432432432434,
+      "train_step": 99,
+      "test_score": 0.312357846853677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give the necessary reasoning, do the required calculation, and output solely the integer result on its own line.",
+      "train_score": 0.20270270270270271,
+      "train_step": 99,
+      "test_score": 0.18271417740712662,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief logical step, perform only the required arithmetic, and conclude your answer with the single integer result on its own line\u2014nothing else.",
+      "train_score": 0.1891891891891892,
+      "train_step": 99,
+      "test_score": 0.1463229719484458,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the core calculation in one sentence, perform it, and output only the final integer result on a new line.",
+      "train_score": 0.20270270270270271,
+      "train_step": 99,
+      "test_score": 0.13570887035633056,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present the essential logic in one sentence, carry out only the necessary arithmetic, and place the exact integer result alone on the final line.",
+      "train_score": 0.20270270270270271,
+      "train_step": 99,
+      "test_score": 0.11296436694465505,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9173616376042456,
+    "avg_test_score": 0.6925159753059678,
+    "best_test_instruction": "\\nExplain the essential reasoning, perform the calculation, and place the final integer answer alone on the last line.\\n"
+  }
+}

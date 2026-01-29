@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numbers mentioned, determine how they are connected, reduce the problem to the single most reduced exact calculation (one expression or the smallest set of equations), evaluate it, confirm the outcome matches the original constraints, and output only the final numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities and the operations they imply, translate the whole problem into a single straightforward arithmetic expression (or minimal set of equations), compute the result step\u2011by\u2011step, verify quickly, and output only the exact final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 5,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, identify the quantities and relationships, set up the necessary equations, perform the calculations step by step, and provide only the final numeric answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 1,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number given, infer the exact relationships they create, build the most compact algebraic expression (or minimal system of equations), evaluate it step\u2011by\u2011step with a quick sanity check, and output solely the final numeric result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 17,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric detail, translate the problem into the most reduced exact computation (a single formula or the minimal set of equations), evaluate it step\u2011by\u2011step, confirm the result satisfies all given conditions, and output only the final numeric value, nothing else.",
+      "train_score": 0.9616858237547893,
+      "train_step": 94,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem statement carefully, determine the unknowns, choose the appropriate mathematical operation(s), solve step\u2011by\u2011step showing all relevant logic, and provide the final answer in plain language. Verify your solution before finalizing.",
+      "train_score": 0.9616858237547893,
+      "train_step": 1,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numeric facts, apply any required unit conversions, deduce the exact arithmetic relationship they create, collapse it to the simplest possible expression (or minimal system), compute the value precisely, perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 74,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all explicit numbers, deduce the precise arithmetic relationship they form, reduce it to the simplest single expression (or minimal equation set), compute the value with a quick consistency check, and output only the final numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 34,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the numbers, deduce their exact arithmetic relation, compute the minimal expression, verify, and output the sole numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 95,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the quantities mentioned, turn the described relationships into a simple arithmetic expression, evaluate it step\u2011by\u2011step, and give only the final numeric answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 1,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given quantity, translate the described relationships into the smallest possible system of exact equations, solve analytically (or by direct arithmetic), perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 81,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate all numerical values, translate the described relations into the smallest exact calculation (single formula or minimal system), compute it precisely, and respond with only the final numeric result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 66,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, deduce the exact relation they impose, collapse it into the minimal algebraic expression, compute it, verify briefly, and output only the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 24,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...instructions...",
+      "train_score": 0.9655172413793104,
+      "train_step": 91,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical quantity (including its unit), convert the description into the most compact exact arithmetic expression (or minimal set of equations), solve it step\u2011by\u2011step with a brief sanity check, and return only the final numeric answer.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8812260536398467,
+      "train_step": -1,
+      "test_score": 0.8407884761182715,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, infer the single exact computation they imply, compute it, double\u2011check consistency, and output only the final number.",
+      "train_score": 0.8275862068965517,
+      "train_step": 99,
+      "test_score": 0.759666413949962,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number and its implied relationship, reduce the problem to the simplest exact computation (one closed\u2011form expression or the minimal set of equations), evaluate it analytically, confirm the result satisfies the original conditions, and output only the final answer\u2014if the result is not an integer give it as a reduced fraction; otherwise give the integer\u2014without any additional wording.",
+      "train_score": 0.8390804597701149,
+      "train_step": 99,
+      "test_score": 0.7520849128127369,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Strip away all non\u2011numeric wording, list each given number with the operation it implies, combine them into the most compact exact formula (or minimal system of equations), evaluate it, perform a brief sanity check, and respond with only the final numeric answer.",
+      "train_score": 0.735632183908046,
+      "train_step": 99,
+      "test_score": 0.7005307050796058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every explicit quantity and every implied operation, collapse the entire problem into the shortest possible exact arithmetic expression (a single formula whenever feasible), evaluate it using exact integer/decimal arithmetic, perform a quick sanity check, and output only the resulting number.",
+      "train_score": 0.6206896551724138,
+      "train_step": 99,
+      "test_score": 0.5496588324488249,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, extract every numeric fact, infer the precise mathematical operation linking them, reduce the problem to the most compact formula, evaluate it, verify the answer against the original conditions, and reply with only the resulting number.",
+      "train_score": 0.5632183908045977,
+      "train_step": 99,
+      "test_score": 0.4268385140257771,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.8361673706632008,
+    "best_test_instruction": "Identify all numbers mentioned, determine how they are connected, reduce the problem to the single most reduced exact calculation (one expression or the smallest set of equations), evaluate it, confirm the outcome matches the original constraints, and output only the final numeric answer."
+  }
+}

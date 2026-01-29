@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List all quantities, assign a unique placeholder to each unknown, convert everything to a single unit system, formulate the exact equation(s) implied (including any rate or proportional link), solve the equations with a clear, step\u2011by\u2011step arithmetic flow (no intermediate rounding), check that all given conditions are met, and reply with only the final numeric answer and its unit.",
+      "train_score": 0.9791666666666666,
+      "train_step": 17,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, unify their units, deduce the single governing formula (proportion, rate, or equality) that links the unknown to the data, solve it analytically with exact arithmetic, confirm it satisfies every condition, and output only the final numeric value with its correct unit, applying rounding only once at the end if required.",
+      "train_score": 0.9791666666666666,
+      "train_step": 99,
+      "test_score": 0.7571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum, keep all units unchanged, construct the simplest exact algebraic relation(s) that capture the situation (including any proportional or rate connections), solve them with a transparent, sequential calculation (no rounding until the final result), confirm that all original conditions are satisfied, and output only the final numeric answer with its appropriate unit (rounded once if needed).",
+      "train_score": 0.9791666666666666,
+      "train_step": 21,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value with its unit, convert all quantities to a single uniform unit system, formulate the single equation dictated by the problem (direct or inverse proportion, rate, or equality), solve it analytically with full precision (postpone rounding), verify that all given conditions are satisfied, and output only the final numeric result with its proper unit, rounding once at the end if necessary.",
+      "train_score": 0.9583333333333334,
+      "train_step": 99,
+      "test_score": 0.7527352297592997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each numeric value and its unit (or treat percentages as dimensionless), convert everything to a single coherent system, translate the problem statement into one algebraic equation (direct proportion, inverse proportion, rate, or equality), solve it analytically without intermediate rounding, verify the solution satisfies all constraints, then output only the final numeric result with its appropriate unit (or no unit), rounding a single time if required.",
+      "train_score": 0.9583333333333334,
+      "train_step": 99,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, note every given number, convert to consistent units, write the minimal exact formula(s) that model the situation, solve them with transparent arithmetic, check that the solution fulfills all statements, and output only the final numeric answer with its unit (rounded at the end).",
+      "train_score": 0.9791666666666666,
+      "train_step": 15,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers presented, assign a unique placeholder to each unknown, unify units, write the precise functional relationship dictated by the problem (e.g., direct, inverse, proportional), solve the resulting exact equation(s) step\u2011by\u2011step without intermediate rounding, verify consistency with the original statements, and return solely the final numeric answer with its unit (round once at the end if needed).",
+      "train_score": 0.9791666666666666,
+      "train_step": 19,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numerical fact, designate a unique variable for each unknown, translate the statements into precise algebraic relations, solve them with clear, ordered steps, verify the solution satisfies all conditions, and output only the final numeric answer with any needed units.",
+      "train_score": 0.9791666666666666,
+      "train_step": 6,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6875,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given quantity, translate the story into a single precise equation (or a minimal system) using consistent units, solve it analytically with explicit intermediate steps, confirm the result meets all original statements, and output solely the final numeric value with its correct unit (rounded only at the end).",
+      "train_score": 0.9791666666666666,
+      "train_step": 12,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantitative fact, convert all quantities to a single unit system, write the minimal exact formula(s) dictated by the problem (including any direct, inverse or proportional links), solve analytically with a transparent step\u2011by\u2011step chain (no intermediate rounding), verify that all constraints are satisfied, and output only the final numeric answer with its proper unit, rounded only at the final step.",
+      "train_score": 0.9791666666666666,
+      "train_step": 16,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record every given quantity, assign a unique variable to each unknown, express the whole situation as exact mathematical statements (including any direct, inverse or proportional relationships and necessary unit conversions), solve the equations with a clear, ordered step\u2011by\u2011step computation, verify that the result meets all conditions, and report only the final numeric answer with appropriate units.",
+      "train_score": 0.9791666666666666,
+      "train_step": 7,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given quantities, assign a distinct variable to each unknown, translate the problem into the minimal exact algebraic formulation (including required unit conversions and proportional relationships), solve it with a clear, ordered computation showing each arithmetic step, verify that all original conditions are satisfied, and output only the final numeric result with its unit, rounded only at the end.",
+      "train_score": 0.9791666666666666,
+      "train_step": 15,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, note each number, define a fresh symbol for every unknown, rewrite the situation as the simplest possible exact equation (using consistent units and any proportional relations), solve it stepwise with complete arithmetic, check that the result satisfies every given condition, and finally return only the numeric answer together with its unit (round only once at the end).",
+      "train_score": 0.9791666666666666,
+      "train_step": 19,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the known quantities, denote each unknown with its own symbol, bring all measurements to a common unit, write the most compact exact relation(s) that embody any stated proportional or rate connection, solve the relation(s) step\u2011by\u2011step while keeping arithmetic exact, check that the answer fulfills every condition, and finally print only the resulting number with its unit (round only at the final step if a unit requires it).",
+      "train_score": 0.9791666666666666,
+      "train_step": 23,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity with its unit, convert everything to a single consistent unit system, write the one exact formula (direct/inverse proportion, rate or equality) that the problem dictates for the unknown, solve it analytically keeping full precision, check that all problem conditions are met, and output only the final numeric answer with its proper unit, rounding a single time at the end if required.",
+      "train_score": 0.9791666666666666,
+      "train_step": 99,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities, give each unknown a distinct symbol, convert everything to a common unit, derive the minimal exact equation(s) dictated by the text (including direct, inverse, or proportional relations), solve them with a clear, ordered computation, verify that the solution meets every condition, and return only the final numeric value with its proper unit.",
+      "train_score": 0.9791666666666666,
+      "train_step": 14,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the unknown, list all given quantities with units, reduce everything to one consistent unit, write the single equation (direct/inverse proportion, rate, or equality) implied, solve exactly (no intermediate rounding), verify constraints, and output only the final numeric result with its unit, rounding once at the end if needed.",
+      "train_score": 0.9791666666666666,
+      "train_step": 99,
+      "test_score": 0.7380431384807753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all numbers present, assign a unique variable to each unknown quantity, express the problem as the minimal exact algebraic relation(s) (converting to a common unit and handling direct, inverse, or proportional links), solve the relation(s) step\u2011by\u2011step showing each arithmetic operation, verify that the solution meets every given condition, and finally output only the resulting numeric value with its unit, performing any rounding only in the last step.",
+      "train_score": 0.9791666666666666,
+      "train_step": 19,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Define the unknown, enumerate all given figures, express the situation as one exact mathematical relation (proportion, rate or equality), compute the unknown using exact arithmetic (postponing any rounding), verify that all problem constraints are met, and output solely the final numeric result with its unit, applying a single rounding only at the end if the unit demands it.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7074085651766177,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify what is being asked. List every numeric fact given (including units). Translate the wording into the sole governing equation (proportion, rate, or equality). Solve that equation with exact arithmetic, only rounding the final answer (if a unit demands it). Check that the solution meets all problem constraints. Respond with just the numeric result and its unit.",
+      "train_score": 0.20833333333333334,
+      "train_step": 99,
+      "test_score": 0.16692716473898092,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7574241950609566,
+    "avg_test_score": 0.7177391744443947,
+    "best_test_instruction": "List all quantities, assign a unique placeholder to each unknown, convert everything to a single unit system, formulate the exact equation(s) implied (including any rate or proportional link), solve the equations with a clear, step\u2011by\u2011step arithmetic flow (no intermediate rounding), check that all given conditions are met, and reply with only the final numeric answer and its unit."
+  }
+}

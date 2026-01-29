@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Gather all numerical data and its meaning, discard irrelevant text, express the problem as a single exact algebraic or arithmetic formula (including any required unit or percentage conversions, fractions, ratios, repetitions, or exponents), evaluate the formula step\u2011by\u2011step using exact arithmetic while confirming each intermediate result, verify that the obtained value answers the question, and output only that final numeric value.",
+      "train_score": 0.9731800766283525,
+      "train_step": 28,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numeric datum and its role, convert percentages, fractions or unit changes to exact rational values, formulate a single self\u2011contained mathematical expression that embodies the entire calculation (including any repetitions, ratios, powers or conversions), evaluate it analytically with no rounding, verify that the result directly answers the question, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 99,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantitative information, convert percentages, fractions and unit changes into exact rational values, formulate a single exact equation that captures the problem (including any repeats, ratios or exponents), solve it analytically using rational arithmetic, verify the solution satisfies the original question, and output only the final numeric answer.",
+      "train_score": 0.9770114942528736,
+      "train_step": 71,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum and its role, convert any percentages or units, construct the exact single formula that yields the answer (keeping fractions exact, no rounding), evaluate it step\u2011by\u2011step while confirming each intermediate result, and output solely the final numeric value.",
+      "train_score": 0.9731800766283525,
+      "train_step": 27,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numerical fact and its role, perform any needed unit or percentage conversions, compose one exact arithmetic expression that captures the whole problem (including fractions, ratios, percentages, powers, or repeated operations), solve it step\u2011by\u2011step with exact values (no rounding), confirm the result directly answers the question, and output only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 29,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities present, translate any percentages, fractions or unit conversions into exact rational numbers, disregard non\u2011essential wording, construct a single mathematically exact formula that captures the whole task (including any repeated operations, ratios, or powers), evaluate it step\u2011by\u2011step using only exact arithmetic (no rounding), briefly confirm each intermediate result, ensure the final value answers the question, and output only that final numeric answer.",
+      "train_score": 0.9770114942528736,
+      "train_step": 78,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numerical datum and its role, perform any necessary unit, percentage or ratio conversions to exact rational numbers, combine them into one self\u2011contained mathematical expression that directly yields the required quantity, compute the expression analytically with no approximation, confirm it satisfies the problem, and output only the resulting number.",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum together with its role, eliminate irrelevant text, and construct a single precise mathematical expression that captures the problem (perform any needed unit conversions, percent or ratio handling, repetitions, or exponentiation). Evaluate the expression using exact values (no rounding), confirming each intermediate step, ensure the result directly answers the question, and output only the final number.",
+      "train_score": 0.9770114942528736,
+      "train_step": 25,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its meaning, replace percentages, fractions, and unit changes with exact rational equivalents, formulate a single precise mathematical statement that incorporates all required operations (including repeats, ratios, exponents), solve it analytically without any rounding, check that the result satisfies the original question, and output only that final numeric result.",
+      "train_score": 0.9770114942528736,
+      "train_step": 76,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity with its meaning, ignore any non\u2011essential wording, perform any required unit or percentage conversions, write one exact mathematical expression that captures the problem (including fractions, ratios, powers or repeated steps), evaluate it using exact arithmetic (no rounding) while checking each intermediate result, confirm the result answers the question, and output only the final number.",
+      "train_score": 0.9731800766283525,
+      "train_step": 28,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every number present and its associated meaning, decide the exact mathematical operation(s) needed (including any unit changes, percentages, ratios, repetitions, or exponents), write the single compact expression that solves the problem, evaluate it step\u2011by\u2011step while confirming each intermediate result, verify that the obtained value answers the question as asked, and output only the final numeric value.",
+      "train_score": 0.9731800766283525,
+      "train_step": 19,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity and its role, discard irrelevant wording, construct the exact arithmetic expression needed (including any unit conversions, percentages, ratios, fractions, or repeated operations), evaluate it step\u2011by\u2011step using exact values (no rounding), verify that each intermediate result is consistent, and output only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 21,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, interpret any percentages, fractions or unit conversions as exact fractions, construct a single self\u2011contained formula that embodies the entire problem (including repeats, ratios, exponents, and unit adjustments), simplify and evaluate it analytically with exact rational arithmetic (no decimal approximations), check that the obtained value answers the asked question, and return only that final number.",
+      "train_score": 0.9770114942528736,
+      "train_step": 80,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact and its meaning, ignore all non\u2011essential story text, perform any required unit, percentage or ratio conversions, construct a single exact arithmetic expression (including fractions, powers or repeated steps) that captures the whole problem, evaluate it step\u2011by\u2011step while briefly confirming each intermediate result, and output only the final number that directly answers the question.",
+      "train_score": 0.9731800766283525,
+      "train_step": 30,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every numeric quantity with its role, construct the minimal exact mathematical expression required (including any needed unit or percentage conversions, ratios, repetitions, or exponents), evaluate it step\u2011by\u2011step checking each intermediate value, and reply with only the final numeric answer.",
+      "train_score": 0.9731800766283525,
+      "train_step": 26,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the prompt extract all quantities with their meaning, perform any required unit or percent conversions to exact rational numbers, compose one complete arithmetic formula that embodies the whole calculation (including repeats, ratios, powers, or unit adjustments), compute the formula analytically without rounding, confirm that the obtained value directly answers the question, and output solely the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the statement isolate all quantitative values, express any percentages, fractions or unit conversions as exact fractions, construct one complete algebraic/arithmetical formula that directly solves the question, evaluate it using exact arithmetic, and return solely the final number.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8505747126436781,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above\" \u2013 likely means not identical. So paraphrasing is okay.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.8165276724791509,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numerical quantity and its meaning, convert percentages, fractions, and unit changes to exact rational values, formulate one complete exact expression that yields the answer, evaluate it step\u2011by\u2011step using only exact arithmetic (no rounding), verify that the result satisfies the question, and reply with only that final number.",
+      "train_score": 0.20689655172413793,
+      "train_step": 99,
+      "test_score": 0.17210007581501138,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each quantity and its role, translate all units, percentages, and ratios into exact rational numbers, formulate a single closed\u2011form expression that directly yields the asked value (including any required unit conversions or exponentiation), compute the expression analytically with full precision (no rounding), briefly verify that each intermediate step respects the original wording, and respond with only the resulting number.",
+      "train_score": 0.17624521072796934,
+      "train_step": 99,
+      "test_score": 0.12661106899166036,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8243618903209502,
+    "best_test_instruction": "Gather all numerical data and its meaning, discard irrelevant text, express the problem as a single exact algebraic or arithmetic formula (including any required unit or percentage conversions, fractions, ratios, repetitions, or exponents), evaluate the formula step\u2011by\u2011step using exact arithmetic while confirming each intermediate result, verify that the obtained value answers the question, and output only that final numeric value."
+  }
+}

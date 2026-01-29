@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.75,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity being asked for. Convert all given data into a single exact formula using integers or radicals as appropriate. Evaluate the formula step\u2011by\u2011step, writing each indispensable intermediate result on its own line (you may prepend a short label). After each step, note any simple check (e.g., parity, size) to verify plausibility. Finally, output only the final answer as a plain number on one line\u2014no units, symbols, or explanatory text.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Analyze the question, determine the exact mathematical approach, solve it while listing every computation and its justification, perform a brief sanity check, and conclude with the answer as a single unadorned number.",
+      "train_score": 0.7916666666666666,
+      "train_step": 11,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the prompt, choose the appropriate mathematical tool, work through the solution writing each essential intermediate result on its own line, perform a brief verification, and end with only the final numeric answer on a single line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 11,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the appropriate mathematical concept, convert the given information into a single exact expression, compute it step\u2011by\u2011step showing every indispensable intermediate result on its own line (a short label may be added), perform a quick verification, and conclude with only the final numeric answer on one line\u2014no units, symbols, or extra text.",
+      "train_score": 0.8333333333333334,
+      "train_step": 31,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, determine the precise mathematical operation required, solve it step\u2011by\u2011step showing each intermediate value with a brief justification, perform a quick consistency check, and finish with the final answer as a single plain number on its own line (no units or additional text).",
+      "train_score": 0.7916666666666666,
+      "train_step": 9,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify what the problem asks, translate the given numbers into a single exact expression, compute it line\u2011by\u2011line showing each intermediate value (you may add a brief note), perform a quick consistency check, and finish by printing only the final answer as a plain number on its own line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 33,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact computation the problem asks for, perform the calculation showing just the essential intermediate values each on its own line (labelled if useful), do a quick consistency check, and conclude with the answer as a single plain number on its own line (no units, symbols or extra wording).",
+      "train_score": 0.8333333333333334,
+      "train_step": 20,
+      "test_score": 0.7180368865270397,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact value asked for, write a single precise expression using all given numbers, evaluate it step\u2011by\u2011step printing each indispensable intermediate result on its own line (you may add a short note), confirm the result with a quick consistency check, and end with only the final answer as a lone number on one line\u2014no units, symbols, or extra text.",
+      "train_score": 0.8125,
+      "train_step": 62,
+      "test_score": 0.7164738980931541,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect the supplied numbers, formulate the exact mathematical expression required, compute it step\u2011wise printing each essential intermediate value on its own line (labels optional), perform a quick sanity check, and finish by writing only the final numeric answer on a single line with no extra symbols or text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 28,
+      "test_score": 0.7039699906220694,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the target value, formulate the exact equation or algorithm needed, execute the computation while writing each crucial intermediate outcome on a separate line (you may add a brief descriptor), spot\u2011check the result for plausibility, and finally print only the final number on a single line\u2014nothing else.",
+      "train_score": 0.7916666666666666,
+      "train_step": 33,
+      "test_score": 0.7014692091278525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target value, translate all given information into one precise mathematical expression, compute it while listing each indispensable intermediate result on a separate line (a brief label is optional), verify the result with a simple consistency check, and conclude with only the final answer presented as a lone number on a single line\u2014no units, symbols, or extra text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 51,
+      "test_score": 0.6936542669584245,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity to find, convert the given data into the exact mathematical expression, evaluate it step\u2011by\u2011step showing each essential intermediate result on its own line (a brief label is optional), perform a quick sanity check, and finish with only the final answer as a single plain number on one line\u2014no units, symbols, or extra text.",
+      "train_score": 0.8125,
+      "train_step": 30,
+      "test_score": 0.6855267271022194,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity to find, write the correct mathematical expression, evaluate it step\u2011by\u2011step printing each required intermediate value on its own line (a short comment may be added), perform a brief sanity check, and end with only the final answer as a single plain number on one line\u2014no units, symbols, or extra text.",
+      "train_score": 0.8125,
+      "train_step": 29,
+      "test_score": 0.6733354173179118,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly state the core reasoning in one sentence, then carry out the necessary calculation, showing each key intermediate value on its own line (optionally labelled), perform a quick check, and finish with the exact answer as a lone number on a single line (no units or extra text).",
+      "train_score": 0.7916666666666666,
+      "train_step": 17,
+      "test_score": 0.6677086589559237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clarify what numeric result is required, convert every given datum into a single exact formula, evaluate it while writing each crucial intermediate value on its own line (a brief tag may follow), do a quick plausibility check, and finish with only the final number on a separate line\u2014no symbols or extra text.",
+      "train_score": 0.8125,
+      "train_step": 74,
+      "test_score": 0.6667708658955924,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely the number sought, convert all given data into a single exact formula, evaluate it while listing each essential intermediate result on its own line (a brief label is optional), perform a quick sanity check, and conclude with only the final value on one line\u2014no units, symbols, or extra text.",
+      "train_score": 0.7916666666666666,
+      "train_step": 50,
+      "test_score": 0.6514535792435135,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in one short sentence. Then give a numbered list of steps: each step should state the operation performed and display the resulting numeric value. After the list, perform a brief sanity check, and end with a single line that contains only the final numeric answer (no units, symbols or extra text).",
+      "train_score": 0.7916666666666666,
+      "train_step": 43,
+      "test_score": 0.620819005939356,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact value requested. Convert all given information into a single precise formula. Evaluate the formula, writing each indispensable intermediate result on a separate line (a brief label after \u201c=\u201d is optional). Conduct a quick sanity check, then output solely the final result as an isolated number on its own line\u2014no units, symbols, or extra wording.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.5673648015004689,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the quantity being asked for in one short sentence.\u202fNext, write a single exact mathematical expression that incorporates all given numbers.\u202fCompute the expression, printing each essential intermediate result on its own line (a brief label may precede the value).\u202fDo a quick sanity check, then output only the final numeric answer on a single line\u2014no units, symbols, or extra text.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.45326664582682086,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the quantity to be found in one brief sentence. Convert all given information into a single exact expression. Evaluate it, recording each indispensable intermediate result on its own line (optional short label after \u201c=\u201d is fine). Perform a quick sanity check, then output only the final numeric answer on a single line\u2014no units, symbols, or extra wording.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.4116911534854642,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7446076899030947,
+    "avg_test_score": 0.6705518093451823,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

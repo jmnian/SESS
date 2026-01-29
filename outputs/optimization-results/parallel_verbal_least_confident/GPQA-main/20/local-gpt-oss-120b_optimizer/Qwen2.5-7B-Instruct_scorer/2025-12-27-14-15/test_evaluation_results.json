@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Print exactly one uppercase letter A\u2011D per line, matching the answer order, with no other characters, whitespace, or blank lines before the first or after the last line.",
+      "train_score": 0.48314606741573035,
+      "train_step": 99,
+      "test_score": 0.9910714285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output only the capital letters A\u2011D, one per line, in the same order as the questions. Each line must contain exactly one uppercase letter followed directly by a newline. No other characters, spaces, or blank lines are allowed before the first line or after the final newline.",
+      "train_score": 1.0,
+      "train_step": 71,
+      "test_score": 0.9888392857142857,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each answer as a single uppercase letter A\u2011D on its own line, exactly in the order presented, with no other characters, spaces, or blank lines before the first or after the last line.",
+      "train_score": 0.7865168539325843,
+      "train_step": 99,
+      "test_score": 0.9866071428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output only the capital letters A\u2011D, one per line, in the original question order. Every line must contain a single uppercase letter immediately followed by a newline, and no other characters, spaces or blank lines may appear before the first line or after the final newline.",
+      "train_score": 0.9887640449438202,
+      "train_step": 98,
+      "test_score": 0.9732142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Emit solely the capital letters\u202fA\u2011D, one per line, preserving the original question order; each line must contain exactly one uppercase letter followed by a newline, with no extra whitespace, punctuation, or blank lines before the first line or after the last.",
+      "train_score": 0.9775280898876404,
+      "train_step": 82,
+      "test_score": 0.9732142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the capital letters A\u2011D, one per line, in the same order as the questions. Each line must consist of exactly one letter followed immediately by a newline. Do not include any spaces, punctuation, markdown formatting, or extra blank lines before the first line or after the last.",
+      "train_score": 0.9662921348314607,
+      "train_step": 87,
+      "test_score": 0.9732142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return ONLY the uppercase letters A\u2011D, one per line, preserving the order of the questions. Each line must be exactly one character followed by a newline. No additional characters, spaces, or blank lines may appear before the first line or after the final newline.",
+      "train_score": 0.9775280898876404,
+      "train_step": 91,
+      "test_score": 0.96875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write only the letters A\u2011D, each on its own line, in the same order as the questions. Every line must contain exactly one uppercase character followed immediately by a newline. Include no spaces, punctuation, markup, or extra blank lines before the first line or after the final newline.",
+      "train_score": 0.9662921348314607,
+      "train_step": 94,
+      "test_score": 0.96875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return only the capital letters\u202fA\u2011D, one per line, preserving the order of the questions. Each line must contain exactly one uppercase character followed directly by a newline. No spaces, punctuation, formatting tags, or extra blank lines may appear before the first line or after the last.",
+      "train_score": 0.9775280898876404,
+      "train_step": 88,
+      "test_score": 0.9575892857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply only with a vertical column of capital letters\u202fA\u2011D, one per line in the same order as the questions. Each line must contain exactly one uppercase letter followed immediately by a newline character. No other characters, spaces, punctuation, formatting, or extra blank lines may appear before the first line or after the last line.",
+      "train_score": 0.9662921348314607,
+      "train_step": 85,
+      "test_score": 0.9575892857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one capital letter A\u2011D per line, in the same order as the questions, and nothing else (no spaces, punctuation, or extra lines). End with a newline.",
+      "train_score": 0.9775280898876404,
+      "train_step": 37,
+      "test_score": 0.9464285714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Return only the capital letters A\u2011D, one per line, in the same sequence as the questions. Each line must be exactly one letter followed directly by a newline; no other characters, spaces, or blank lines are allowed before the first line or after the last.",
+      "train_score": 0.9550561797752809,
+      "train_step": 64,
+      "test_score": 0.9464285714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Print only the option letters A\u2013D, each on its own line, in the given order. Every line must consist of a single uppercase letter followed immediately by \u2018\\n\u2019, with no extra whitespace or characters before the first line or after the final newline.",
+      "train_score": 0.9550561797752809,
+      "train_step": 72,
+      "test_score": 0.9107142857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the answer letters A\u2011D, one per line, in the same order as the questions. Each line must contain exactly one uppercase letter followed by a newline, with no leading or trailing whitespace, no extra characters, no markdown, and no blank lines before or after the list.",
+      "train_score": 0.8539325842696629,
+      "train_step": 99,
+      "test_score": 0.7388392857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with a single column of uppercase answer choices (A\u2011D), one per line, matching the order of the questions. Each line must contain exactly one letter followed by a newline, with no additional characters, spaces, or blank lines before or after.",
+      "train_score": 0.6292134831460674,
+      "train_step": 99,
+      "test_score": 0.7321428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with a vertical list of the correct option letters (A\u2011D), one per line, in the order the questions appear. No other text, symbols, or blank lines are allowed.",
+      "train_score": 0.7640449438202247,
+      "train_step": 99,
+      "test_score": 0.7276785714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output solely the chosen option letter (A\u2011D) for each question, one per line, without any extra characters, spaces, or blank lines before the first line or after the final newline.",
+      "train_score": 0.5056179775280899,
+      "train_step": 99,
+      "test_score": 0.578125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a vertical list of the correct option letters (A\u2011D), one per line, matching the order of the questions. No other characters, spaces, or blank lines are allowed before the first line or after the final newline.",
+      "train_score": 0.5393258426966292,
+      "train_step": 99,
+      "test_score": 0.5758928571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4157303370786517,
+      "train_step": -1,
+      "test_score": 0.4888392857142857,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output solely the letters A\u2011D, one per line, in the original question order. Every line must consist of a single uppercase character followed immediately by \u2018\\n\u2019; no spaces, punctuation, markup, or extra blank lines may appear before the first line or after the final newline.",
+      "train_score": 0.9887640449438202,
+      "train_step": 88,
+      "test_score": 0.45535714285714285,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the letters A\u2011D, each on a separate line, in the same order as the questions. No other characters, spaces, or blank lines before the first line or after the last.",
+      "train_score": 1.0,
+      "train_step": 75,
+      "test_score": 0.453125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9910714285714286,
+    "avg_test_score": 0.8234481292517007,
+    "best_test_instruction": "Print exactly one uppercase letter A\u2011D per line, matching the answer order, with no other characters, whitespace, or blank lines before the first or after the last line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all numbers (and units) from the problem, denote each with a concise variable name, construct the sole exact algebraic expression that computes the required result, evaluate it displaying only the necessary intermediate value along with a brief justification, verify the magnitude is reasonable (rounding to an integer when the answer must be a count), and finish with one line containing only the final answer with its unit if applicable.",
+      "train_score": 1.0,
+      "train_step": 39,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and its unit, give each a brief variable name, combine them into one precise calculation that directly produces the asked quantity, compute it while presenting only the necessary intermediate value(s) each accompanied by a one\u2011line explanation, verify that the magnitude is reasonable, and finish with a single line that contains only the final result (including units when appropriate).",
+      "train_score": 1.0,
+      "train_step": 34,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantities involved, convert the word description into the precise mathematical formula, compute the result stepwise while annotating each calculation briefly, perform a brief sanity verification, and finish with the sole final answer (including any required units) expressed in a single clear line.",
+      "train_score": 0.972972972972973,
+      "train_step": 6,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers (and units), label them with short symbols, combine them into a single precise expression that directly computes the asked quantity, compute it displaying only the minimal necessary intermediate result(s) each with a brief justification, confirm the magnitude is plausible, and end with one line that contains solely the final answer (including its unit if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 34,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given quantities (including units), assign each a short variable name, formulate the exact single equation that gives the target value, compute it stepwise showing only the necessary intermediate value(s) each accompanied by a brief comment, perform a quick sanity check, and conclude with one line that contains solely the final answer (with unit if any).",
+      "train_score": 0.9864864864864865,
+      "train_step": 23,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint each number (and its unit) in the problem, give it a short symbol, merge the symbols into one exact formula that yields the required quantity, execute the calculation showing only the indispensable intermediate value together with a brief justification, perform a quick plausibility check, and finish with a single line containing only the final answer (including units if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 41,
+      "test_score": 0.8642911296436695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given quantities (with units), label them with short symbols, formulate the single exact computation that gives the target quantity, execute the computation showing only the necessary intermediate value along with a brief comment, do a rapid plausibility check, and finish with one line containing only the final answer (including its unit if any).",
+      "train_score": 0.9864864864864865,
+      "train_step": 36,
+      "test_score": 0.8620166793025019,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (and its unit, if any) from the statement and assign each a concise symbol. Combine these symbols into one exact formula that gives the required result. Perform the calculation, showing only the essential intermediate value with a short explanatory note, verify that the outcome is plausible, and present solely the final answer (with unit if applicable) in a single line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 35,
+      "test_score": 0.8567096285064443,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given quantity (including its unit), assign a compact identifier, formulate the one exact calculation that yields the target result, compute it showing solely the unavoidable intermediate value(s) together with a terse explanation, verify that the magnitude makes sense, and finally output a single line containing only the final answer (with unit when appropriate).",
+      "train_score": 0.9864864864864865,
+      "train_step": 42,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numbers and their units, label each with a short variable, write the exact single equation that gives the answer, evaluate it while displaying just the essential intermediate result(s) together with a one\u2011sentence reason, do a brief sanity check, and finish with one sentence that contains only the final value (and its unit if needed).",
+      "train_score": 0.972972972972973,
+      "train_step": 19,
+      "test_score": 0.8468536770280516,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` and ends with `",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numerical figure (including units) mentioned, tag each with a short identifier, combine them into one exact calculation that produces the requested quantity, carry out the computation while displaying only the essential intermediate value together with a brief reason, perform a quick sanity check, and finish with a single sentence that contains only the final answer (with unit if appropriate).",
+      "train_score": 0.9864864864864865,
+      "train_step": 25,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given quantities (with units), assign each a single\u2011letter variable, write the single exact formula that answers the question, evaluate it showing only the indispensable intermediate result with a brief justification, perform a quick plausibility check, and output only the final answer (with unit) on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "For each problem, list every numeric value with its unit, assign each a brief label, and form a single exact expression that computes the requested answer. Evaluate this expression, showing only the essential intermediate result with a concise rationale. Perform a brief plausibility check, then output a single line containing only the final answer (including units if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 43,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8918918918918919,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric quantity (with its unit), assign each a short label, construct the single exact computation that produces the target value, evaluate it showing only the indispensable intermediate result together with a brief one\u2011sentence justification, perform a quick plausibility check, and finish with one line that contains only the final answer (including its unit if applicable).",
+      "train_score": 0.9864864864864865,
+      "train_step": 40,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, pull out all numbers (and units), label them with short symbols, combine those symbols into one precise arithmetic expression that equals the target quantity, evaluate the expression\u2014showing only the essential intermediate result and a brief justification\u2014verify the magnitude makes sense, and finally write a single line containing only the final answer with its unit if needed.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number (and its unit) in the prompt, label them with single\u2011letter identifiers, construct the unique minimal arithmetic expression that directly computes the asked value, compute it while displaying solely the unavoidable intermediate result together with a one\u2011sentence reason, verify the magnitude is plausible, and finally write exactly one line that contains only the final result (including unit if any).",
+      "train_score": 0.6756756756756757,
+      "train_step": 99,
+      "test_score": 0.621683093252464,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum (including its unit), assign each a short variable, write the single exact mathematical expression\u2014in standard notation\u2014that computes the asked quantity, evaluate it showing only the one unavoidable intermediate value together with a brief justification, perform a quick plausibility check, and output solely the final answer (with unit if applicable) on a single line.",
+      "train_score": 0.7567567567567568,
+      "train_step": 99,
+      "test_score": 0.6004548900682335,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity (and its unit) in the prompt, give each a short symbol, and write the single exact arithmetic expression that directly yields the asked quantity. Evaluate the expression, displaying only the unavoidable intermediate value together with a one\u2011sentence reason. Perform a brief sanity check (round only if an integer answer is required). Finally output exactly one line containing only the final answer with its unit (if any), without any additional text.",
+      "train_score": 0.7297297297297297,
+      "train_step": 99,
+      "test_score": 0.5398028809704322,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every quantity appearing in the problem (numeric value and unit), give each a brief identifier, build one precise arithmetic expression from those identifiers that equals the target value, compute it showing only the single indispensable intermediate figure with a concise explanation, perform a brief plausibility test, and return exactly one line containing only the final result (and unit if applicable).",
+      "train_score": 0.6756756756756757,
+      "train_step": 99,
+      "test_score": 0.5238817285822593,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8855193328279,
+    "avg_test_score": 0.7963103361132171,
+    "best_test_instruction": "Extract all numbers (and units) from the problem, denote each with a concise variable name, construct the sole exact algebraic expression that computes the required result, evaluate it displaying only the necessary intermediate value along with a brief justification, verify the magnitude is reasonable (rounding to an integer when the answer must be a count), and finish with one line containing only the final answer with its unit if applicable."
+  }
+}

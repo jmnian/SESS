@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7916666666666666,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a full, logically ordered solution: detail every computation and justification, then give the exact final answer.",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that includes all necessary reasoning, calculations, and justifications, and conclude with the exact numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please solve the problem step-by-step thoroughly, making all calculations and justifications clear and correct.",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, logical solution: first pinpoint the main concept or theorem required, then solve the problem with explicit step\u2011by\u2011step calculations and reasoning, and finish by stating the exact numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.7333541731791184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution and state the final answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 0,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach the problem methodically: identify the key principle, outline the solution steps, perform all calculations with clear justification, simplify where needed, give the exact final answer, and include a quick verification of the result.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.7317911847452329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a tight, stepwise solution: start by stating what is asked and the main mathematical tool, then carry out each calculation clearly, and finish with the exact final value, checking it against the conditions.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a full solution: briefly restate the problem, name the key concept or formula, work through each step with a short justification, simplify to the exact final value, and write that answer alone on the last line (optionally verify).",
+      "train_score": 0.8333333333333334,
+      "train_step": 8,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact solution that (i) rephrases the problem in one line, (ii) names the essential theorem or operation, (iii) carries out each required computation with a brief justification, (iv) reduces the expression to the exact final number, and (v) writes that answer alone on the last line (a short check may follow).",
+      "train_score": 0.8125,
+      "train_step": 10,
+      "test_score": 0.7180368865270397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a concise solution that (i) summarizes the question, (ii) selects the appropriate principle, (iii) performs each calculation step with a brief justification, (iv) reduces the work to the exact numerical answer, and (v) places that answer alone on the last line (a brief verification can be added).",
+      "train_score": 0.8541666666666666,
+      "train_step": 8,
+      "test_score": 0.7130353235386058,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Deliver a full, systematic solution: determine the key principles involved, carry out each calculation in a logical order with explicit reasoning, display all intermediate results, and finish by stating the precise numerical answer, optionally providing a brief check for correctness.",
+      "train_score": 0.8333333333333334,
+      "train_step": 2,
+      "test_score": 0.708346358236949,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact solution in five parts: (i) rewrite the question in one line, (ii) name the main theorem or formula needed, (iii) perform each computation step, attaching a brief justification, (iv) simplify to the exact numerical result, and (v) output that result alone on the final line (a brief check may be added after the answer).",
+      "train_score": 0.8333333333333334,
+      "train_step": 12,
+      "test_score": 0.708033760550172,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Offer a comprehensive, step\u2011by\u2011step solution that clearly explains the reasoning, displays all intermediate calculations, justifies each step, and concludes with the final answer together with a brief verification of the result.",
+      "train_score": 0.8125,
+      "train_step": 1,
+      "test_score": 0.7036573929352923,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the problem in your own words, identify the central concept or theorem needed, then work through a fully ordered solution showing each calculation and justification; finish by giving the exact numerical answer and a short verification of the result.",
+      "train_score": 0.8125,
+      "train_step": 2,
+      "test_score": 0.7033447952485151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer by:\n- Restating the problem in a single clear clause.\n- Naming the exact theorem, definition, or arithmetic rule needed.\n- Executing every computation on a separate line, prefixed with a short rationale.\n- Continuing until only the definitive numeric result is left.\n- Writing that result alone on the last line; a brief verification may be added after it.",
+      "train_score": 0.8125,
+      "train_step": 88,
+      "test_score": 0.6961550484526414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in a single clear sentence.  \n- Cite the exact theorem, definition, or formula needed.  \n- Carry out every algebraic or arithmetic operation on its own line, appending a short reason in parentheses.  \n- Continue until the expression is reduced to the exact numeric value.  \n- Output that value alone on the final line; a brief check may follow on the next line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 65,
+      "test_score": 0.6861519224757737,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the query by:\n- Rephrasing the task in a single sentence.\n- Naming the principal concept or formula that will solve it.\n- Carrying out every arithmetic or algebraic operation on its own line, each prefixed with a brief comment explaining the purpose.\n- Reducing the expression step\u2011by\u2011step until only the exact numeric value remains.\n- Placing that value alone on the final line; a one\u2011line sanity check may follow.",
+      "train_score": 0.8125,
+      "train_step": 85,
+      "test_score": 0.6717724288840262,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First outline the solving strategy in one sentence, then solve the problem stepwise, giving a short justification for each manipulation, and conclude by writing only the final numeric answer on the last line (a brief verification may follow).",
+      "train_score": 0.8333333333333334,
+      "train_step": 15,
+      "test_score": 0.6664582682088153,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Restate the problem in exactly one clear sentence.  \n- Identify the single mathematical rule, formula, or theorem that solves it.  \n- Produce a numbered sequence; each entry performs one algebraic or logical step and includes a brief parenthetical justification.  \n- Keep going until the expression collapses to a single numeric value.  \n- Place that value alone on the last line; optionally add a one\u2011line comment immediately after confirming the result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 93,
+      "test_score": 0.6411378555798687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve by following these strict steps:\n- Condense the problem statement into one precise sentence.\n- Indicate the exact formula, identity or theorem that will be used.\n- Write every manipulation on a new line; after the equal sign add a short parenthetical comment explaining the move.\n- Proceed until the expression collapses to a single numeral.\n- Output that numeral alone on the last line; you may add one brief line afterwards confirming the result.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.5939356048765239,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7467958737105346,
+    "avg_test_score": 0.7057264919096741,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

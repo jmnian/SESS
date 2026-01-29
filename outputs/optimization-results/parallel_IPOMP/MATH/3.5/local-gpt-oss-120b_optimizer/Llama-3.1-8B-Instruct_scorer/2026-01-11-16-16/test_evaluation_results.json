@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "First, restate the problem and identify every given value and unknown. Decide which mathematical principle (e.g., algebraic manipulation, geometry, complex\u2011number roots) applies. Carry out the solution in a logical sequence, showing each essential step, and simplify to the exact form requested (integer, fraction, decimal, etc.). End with only the final answer, formatted as specified, without extra commentary.",
+      "train_score": 0.7235294117647059,
+      "train_step": 1,
+      "test_score": 0.5426695842450766,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the unknowns, convert the given conditions into equations or geometric relations, solve them step\u2011by\u2011step, and present the final answer exactly in the required format (including any rounding).",
+      "train_score": 0.7294117647058823,
+      "train_step": 1,
+      "test_score": 0.541106595811191,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note all given values and the quantity to find, choose the right mathematical method, work through the solution showing only essential steps, and output only the final answer in the format requested.",
+      "train_score": 0.7529411764705882,
+      "train_step": 2,
+      "test_score": 0.5379806189434199,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carefully read the question, then solve it step\u2011by\u2011step: outline the approach, perform all necessary calculations with clear reasoning, and conclude with the final answer in the exact format requested.",
+      "train_score": 0.7176470588235294,
+      "train_step": 1,
+      "test_score": 0.5376680212566427,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution: interpret the problem, list all given relations, set up the necessary equations, solve them while showing all work, compute the required quantity, and present the final answer exactly in the form requested.",
+      "train_score": 0.7176470588235294,
+      "train_step": 1,
+      "test_score": 0.5373554235698655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret and solve the problem, providing the final answer in the format specified.",
+      "train_score": 0.7764705882352941,
+      "train_step": 0,
+      "test_score": 0.5370428258830885,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, identify the essential equations or concepts, carry out each algebraic or geometric step with complete calculations, and give the final answer in the format requested.",
+      "train_score": 0.7529411764705882,
+      "train_step": 1,
+      "test_score": 0.5361050328227571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, execute the required computation directly, and output only the final result in the exact format requested.",
+      "train_score": 0.7,
+      "train_step": 2,
+      "test_score": 0.5236011253516724,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution showing all work and state the final numeric answer.",
+      "train_score": 0.7294117647058823,
+      "train_step": 0,
+      "test_score": 0.5223507346045639,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, step-by-step solution to the given problem, showing all reasoning and final answer.",
+      "train_score": 0.7176470588235294,
+      "train_step": 0,
+      "test_score": 0.5192247577367928,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, showing only the indispensable steps with brief logic, and conclude by writing solely the final answer in the exact format requested on a single line.",
+      "train_score": 0.5588235294117647,
+      "train_step": 99,
+      "test_score": 0.5160987808690216,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution: outline the reasoning, perform any required calculations, and finish by stating the final answer.",
+      "train_score": 0.711764705882353,
+      "train_step": 0,
+      "test_score": 0.5135979993748047,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly analyze the question, perform only the essential calculations, and output solely the final answer in exactly the required format\u2014no extra commentary.",
+      "train_score": 0.7411764705882353,
+      "train_step": 3,
+      "test_score": 0.5089090340731478,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity asked for, carry out just the essential calculations (giving a terse justification for each), and then print only the final answer in the precise format requested, on a single line with no extra characters or commentary.",
+      "train_score": 0.49411764705882355,
+      "train_step": 99,
+      "test_score": 0.503907471084714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the sought quantity, apply the appropriate principle in the fewest logical steps, and conclude with only the final answer formatted exactly as required\u2014nothing else.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.49609252891528605,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine precisely what the problem asks for, set up only the essential equations or simplifications, carry out the needed computation with brief justification for each step, and conclude by writing only the final result in the exact format requested\u2014single line, no extra symbols or commentary.",
+      "train_score": 0.49411764705882355,
+      "train_step": 99,
+      "test_score": 0.48952797749296656,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.6588235294117647,
+      "train_step": -1,
+      "test_score": 0.4870271959987496,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the quantity to compute, carry out only the essential calculations with brief justification, and write only the final answer in the exact format requested (numeric value or simplified expression) on a single line\u2014no extra words or symbols.",
+      "train_score": 0.7,
+      "train_step": 3,
+      "test_score": 0.485464207564864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what the problem requests, compute it using the most direct reasoning while showing only the indispensable steps, and finish by writing only the final result on a single line in exactly the required format (numeric value or simplified expression). Do not include any extra words, symbols, or explanations.",
+      "train_score": 0.43529411764705883,
+      "train_step": 99,
+      "test_score": 0.46483276023757425,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the quantity being asked, execute just the essential computation with a short rationale, and present only the final answer exactly as required\u2014no additional text or symbols.",
+      "train_score": 0.3235294117647059,
+      "train_step": 99,
+      "test_score": 0.291653641763051,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine what quantity is asked, compute it with concise reasoning, and output only that quantity in the exact format given (numeric value or simplified expression) on a single line\u2014no labels, no commentary.",
+      "train_score": 0.1411764705882353,
+      "train_step": 99,
+      "test_score": 0.12816505157861832,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5426695842450766,
+    "avg_test_score": 0.4866848271037079,
+    "best_test_instruction": "First, restate the problem and identify every given value and unknown. Decide which mathematical principle (e.g., algebraic manipulation, geometry, complex\u2011number roots) applies. Carry out the solution in a logical sequence, showing each essential step, and simplify to the exact form requested (integer, fraction, decimal, etc.). End with only the final answer, formatted as specified, without extra commentary."
+  }
+}

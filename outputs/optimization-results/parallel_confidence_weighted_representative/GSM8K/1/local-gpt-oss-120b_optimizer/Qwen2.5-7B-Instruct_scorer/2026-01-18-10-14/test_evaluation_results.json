@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Analyze the problem, extract each mentioned quantity and its relational constraint, construct the single exact arithmetic expression that satisfies all conditions, evaluate it using precise integer/fraction arithmetic, perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 73,
+      "test_score": 0.9166034874905231,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each quantity and its constraints, build one exact arithmetic calculation (keeping any fractions), evaluate it precisely, perform a quick validation, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 74,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value and its described operation (including percentages, fractions, or unit changes), combine them into the single exact arithmetic formula that fulfills all constraints, evaluate it using exact rational/integer arithmetic (no rounding), perform a brief sanity check, and output solely the final numeric result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each numeric value and its stated relation, combine them into a single exact arithmetic expression (use fractions only when explicitly given), evaluate it, perform a quick consistency check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 61,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, locate every numerical value and the exact relation it participates in, construct a single precise arithmetic expression that satisfies all conditions (keeping any fractions or unit conversions), evaluate it with exact arithmetic, do a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 75,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, pull out every explicit number and the way it is combined (addition, subtraction, multiplication, division, percentage, fraction, or unit conversion). Merge these into one unambiguous arithmetic statement, compute it using precise rational arithmetic, confirm the outcome makes sense, and output just the resulting value.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value and its described operation (including percentages, fractions, or unit conversions), construct one exact mathematical expression that satisfies all given relationships, evaluate it with exact arithmetic, perform a quick consistency check, and return only the resulting number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 77,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and its explicit relationship, construct the one exact mathematical expression that fulfills all conditions, evaluate it precisely (honoring fractions when given), perform a quick sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 65,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each stated quantity together with its operation, merge them into the single definitive arithmetic formula that fulfills all constraints, calculate it exactly (retain fractions, avoid rounding), perform a quick consistency check, and output only the final number.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeral and its constraint, translate them into the one precise arithmetic equation that satisfies all conditions, solve it while briefly confirming each intermediate computation, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 47,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity and the operation it participates in (including percentages, fractions, or unit conversions), merge them into a single unambiguous arithmetic expression that satisfies all constraints, evaluate it exactly (preserving fractions and avoiding rounding), perform a brief sanity check, and return only the final numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric datum and the operation it participates in, combine them into a single exact calculation (preserving fractions, percentages, and unit conversions), compute the result with precise arithmetic, confirm its plausibility briefly, and output only the final numerical answer.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities and their relationships, formulate the precise arithmetic expression needed, compute it in one sequence while briefly checking each step, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 8,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and their unit relationships, formulate the one exact calculation required, compute it, perform a brief sanity check, and output solely the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 52,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and their operations (including unit conversions), build one exact expression, compute it precisely, do a brief sanity check, and output only the final number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 78,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given number and its relationship, convert them into a single exact mathematical expression, evaluate it with a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 13,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and its relational role, construct the simplest exact arithmetic expression that answers the question, evaluate it with a quick sanity check of each intermediate result, and output solely the final numeric value.",
+      "train_score": 0.9864864864864865,
+      "train_step": 25,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every stated quantity and its constraint, infer the unique exact calculation that fulfills all conditions, compute it while performing a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 67,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric fact and the operation it implies (addition, subtraction, multiplication, division, percentages, fractions, or unit conversions). Form a single exact mathematical equation that captures all relationships, solve it using precise arithmetic (no rounding), briefly verify the result, and output only the final number.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.844579226686884,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each given amount and the operation it participates in, fuse them into the single most compact exact formula (keep any fractions, percentages, or unit conversions intact), compute the value with exact arithmetic, quickly confirm the outcome makes sense, and output only the final number.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9166034874905231,
+    "avg_test_score": 0.8910068955557963,
+    "best_test_instruction": "Analyze the problem, extract each mentioned quantity and its relational constraint, construct the single exact arithmetic expression that satisfies all conditions, evaluate it using precise integer/fraction arithmetic, perform a brief sanity check, and output only the final numeric result."
+  }
+}

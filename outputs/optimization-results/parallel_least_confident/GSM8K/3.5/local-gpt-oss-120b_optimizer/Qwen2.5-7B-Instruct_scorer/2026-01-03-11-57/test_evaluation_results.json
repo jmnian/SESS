@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Gather all stated numbers, construct the single reduced arithmetic expression that directly yields the required quantity (use a variable only if the problem asks for an unknown), evaluate it stepwise keeping fractions in lowest terms, verify the result with a quick check, and output only the final answer exactly as specified.",
+      "train_score": 0.89272030651341,
+      "train_step": 70,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given quantities, construct the minimal exact mathematical expression (introducing variables only if unavoidable) that directly yields the requested numeric result, evaluate it stepwise with a brief verification, and output solely the final answer in the specified format.",
+      "train_score": 0.896551724137931,
+      "train_step": 76,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit number, convert the scenario into the single required arithmetic or algebraic expression (introduce a variable only if the question explicitly demands one), compute it step\u2011by\u2011step with a brief sanity check, and output only the final numeric answer in the exact format requested.",
+      "train_score": 0.89272030651341,
+      "train_step": 80,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity and its role, construct the precise mathematical model (a single expression or a minimal system of equations) that answers the query, solve it step\u2011by\u2011step with a brief plausibility check, and output only the final numeric result in the required format.",
+      "train_score": 0.8888888888888888,
+      "train_step": 21,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement, enumerate all given numbers, infer the single arithmetic relationship that yields the requested quantity, compute that relationship in a clear ordered manner with a quick sanity check, and return only the final numeric answer in the exact format required.",
+      "train_score": 0.9003831417624522,
+      "train_step": 52,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical facts, convert them into a single correct mathematical expression (equation if needed), evaluate it in clear sequential steps with a brief validity check, and return solely the final number in the exact format requested.",
+      "train_score": 0.8888888888888888,
+      "train_step": 10,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, translate the entire problem into the minimal exact arithmetic or algebraic formula (introducing variables only if necessary), evaluate it step\u2011by\u2011step with a brief sanity check, and output only the final numeric answer in the requested format.",
+      "train_score": 0.896551724137931,
+      "train_step": 21,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the word problem into the required arithmetic or algebraic equation(s), solve them step\u2011by\u2011step with a brief sanity check, and output only the final numeric answer.",
+      "train_score": 0.8888888888888888,
+      "train_step": 5,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each explicit quantity, infer the unique minimal expression that answers the question (use variables only if the problem explicitly requires one), calculate it in a clear linear sequence, perform a brief consistency check, and output only the final value in the exact format requested.",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, list each explicit quantity with its role, translate the situation into the single necessary arithmetic or algebraic expression (introduce a variable only if explicitly required), evaluate it in a clear, ordered manner, perform a quick sanity check, and output only the final numeric result exactly as requested.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each stated numeric value, map the scenario to the minimal exact formula (add a variable only if explicitly required), compute the formula in a transparent, ordered manner, perform a brief plausibility check, and output solely the final numeric answer in the required format.",
+      "train_score": 0.8582375478927203,
+      "train_step": 99,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every stated quantity, translate the scenario into the minimal exact calculation (introducing symbols only if unavoidable), compute it sequentially with a quick sanity check, and output solely the final numeric answer in the prescribed format.",
+      "train_score": 0.89272030651341,
+      "train_step": 67,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every stated value, reformulate the problem as a single definitive calculation (introducing the minimal number of symbols required), carry out the arithmetic in a clear step\u2011by\u2011step sequence with a quick consistency check, and output only the final numeric result in the exact format requested.",
+      "train_score": 0.9003831417624522,
+      "train_step": 39,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given numeric value, assign its role, convert the situation into the simplest possible direct computation (introduce a variable only if the question explicitly requires one), carry out the calculation in a clear, ordered sequence with a quick sanity check, and output solely the final number in the exact format requested.",
+      "train_score": 0.89272030651341,
+      "train_step": 94,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit number in the problem, introduce symbols only when a variable is unavoidable, formulate the single shortest exact calculation (or minimal set of equations) that yields the answer, compute it in clear sequential steps with a quick sanity check, and output solely the final numeric result in the format requested.",
+      "train_score": 0.896551724137931,
+      "train_step": 30,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each number and its meaning from the statement, decide the exact arithmetic operation(s) needed, perform the calculation in a clear step\u2011by\u2011step manner with a brief consistency check, and return solely the final number in the requested format.",
+      "train_score": 0.89272030651341,
+      "train_step": 6,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, record each explicitly stated number with its meaning, devise the single necessary mathematical operation (or minimal set of equations) that directly yields the asked quantity, carry out the computation in a clear, ordered way, do a quick plausibility check, and then output only the final result exactly as required.",
+      "train_score": 0.8582375478927203,
+      "train_step": 99,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the quantity being asked, pull every explicit figure from the statement, build the minimal exact calculation (introducing a variable only if the question itself asks for one), compute it stepwise with a quick plausibility test, and output solely the final number in the required format.",
+      "train_score": 0.8199233716475096,
+      "train_step": 99,
+      "test_score": 0.8574677786201668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each explicit quantity, determine the single necessary computation that directly gives the asked quantity (introduce a symbol only if the problem explicitly requests an unknown), carry out the arithmetic in straightforward sequential steps, perform a quick verification, and return *only* the final numeric answer in the exact format required.",
+      "train_score": 0.842911877394636,
+      "train_step": 99,
+      "test_score": 0.8498862774829417,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.789272030651341,
+      "train_step": -1,
+      "test_score": 0.8165276724791509,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated quantity, construct the unique minimal formula that yields the answer (introduce symbols only if required), evaluate it exactly in a logical sequence, verify the outcome briefly, and output exclusively the final number formatted exactly as asked.",
+      "train_score": 0.5747126436781609,
+      "train_step": 99,
+      "test_score": 0.5435936315390447,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.910538286580743,
+    "avg_test_score": 0.8725946785082493,
+    "best_test_instruction": "Gather all stated numbers, construct the single reduced arithmetic expression that directly yields the required quantity (use a variable only if the problem asks for an unknown), evaluate it stepwise keeping fractions in lowest terms, verify the result with a quick check, and output only the final answer exactly as specified."
+  }
+}

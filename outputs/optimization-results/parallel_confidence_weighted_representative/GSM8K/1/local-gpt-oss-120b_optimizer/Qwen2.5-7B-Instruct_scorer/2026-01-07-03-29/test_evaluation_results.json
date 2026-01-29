@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numerals present. If any amount is unspecified, assign a single variable X. Form the sole calculation implied\u2014either a plain chain of +, \u2013, *, / (with normal precedence) or a linear equation in X. Perform the computation step\u2011by\u2011step, attaching a concise explanation to each intermediate result, confirm that the result fulfills every condition, and output only the final value as an integer or a lowest\u2011terms fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 95,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numeric data, map their relationships into a single expression using only +, \u2013, \u00d7, \u00f7 (or a simple linear equation), compute the expression step\u2011by\u2011step with brief justification, confirm the result satisfies every condition, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 5,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Scan the statement for all concrete numbers. When a missing amount exists, assign it the single symbol X. Using only the operations +, \u2013, \u00d7, \u00f7 (respecting normal order) or a one\u2011variable linear equation, write the sole formula that the problem forces. Evaluate the formula step by step, attaching a brief explanation to each intermediate value, check that every original condition holds, and finally return just the resulting integer or reduced fraction.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all stated numbers. If something is missing, create one placeholder variable (X). Form the single mathematical relationship implied\u2014either a plain chain of +, -, *, / (respecting standard order) or an equation linear in X. Solve it, documenting each intermediate computation with a concise explanation, verify that the solution fulfills every condition, and finally output only the numeric answer (integer or reduced fraction), nothing else.",
+      "train_score": 0.9864864864864865,
+      "train_step": 98,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeral. If any quantity is unknown, denote it with a single placeholder X. Form the unique calculation required\u2014either a flat expression built from +, -, *, / (standard precedence) or a linear equation in X. Evaluate it step\u2011by\u2011step, annotating each intermediate result with a brief justification, confirm that all conditions hold, and output only the final result as an integer or in lowest terms fraction, nothing else.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate all explicit numbers in the statement. If a quantity is missing, denote it with a single placeholder (e.g., X). Build the only necessary calculation\u2014either a plain chain of the four basic operations or a one\u2011unknown linear equation\u2014that follows directly from the text. Solve it sequentially, writing a short justification after each step, confirm the result satisfies every condition, and output solely the final value as an integer or a fraction in lowest terms.",
+      "train_score": 0.972972972972973,
+      "train_step": 40,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every number present, mark the missing quantity with a single placeholder, devise the sole required calculation (either a straight arithmetic chain or a single\u2011unknown linear equation) employing only +, \u2013, \u00d7, \u00f7, execute the computation in order while annotating each step with a concise justification, verify that the obtained result fulfills all stated constraints, and finally return only the numeric answer (as an integer or simplest fraction).",
+      "train_score": 0.972972972972973,
+      "train_step": 20,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeric value in the statement. Introduce at most one unknown symbol (X) for any missing quantity. Write the single mathematical relation dictated by the text\u2014either a flat expression using only +, \u2013, \u00d7, \u00f7 or a one\u2011variable linear equation\u2014and solve it, showing each computation with a brief rationale. Ensure the solution satisfies all conditions, then return only the final integer or simplest fraction, nothing else.",
+      "train_score": 1.0,
+      "train_step": 80,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse all numbers, form the unique minimal arithmetic expression or one\u2011variable linear equation with +,\u2212,\u00d7,\u00f7 that captures the problem, compute it step\u2011by\u2011step with brief justification, verify all constraints, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 14,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeral from the problem. If a quantity is missing, introduce a single unknown symbol (X). Write the unique calculation implied by the wording\u2014either a plain sequence of +, \u2013, *, \u00f7 (obeying normal precedence) or one linear equation in X. Solve it step\u2011by\u2011step, adding a brief justification after each intermediate result, verify that all stated conditions hold, and return only the final answer as an integer or a reduced fraction, with no extra text.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every explicit numeral from the statement. If a quantity is missing, introduce a single unknown symbol (e.g., X). Write the sole calculation implied\u2014either a flat sequence of +, \u2013, *, / or a one\u2011variable linear equation\u2014using only those numbers and X. Evaluate it step\u2011by\u2011step, appending a short justification after each intermediate result, check that all given conditions are satisfied, and output only the final answer as an integer or a lowest\u2011terms fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 82,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every explicit number. Introduce at most one letter for the unknown. Form the single expression or linear equation dictated by the problem, using only +, \u2013, \u00d7, \u00f7. Compute it sequentially, writing a brief note for each operation, check that all given requirements are met, and output only the final value (integer or lowest\u2011terms fraction).",
+      "train_score": 0.972972972972973,
+      "train_step": 31,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given number. If the problem contains an unknown, represent it with exactly one variable. Construct the only necessary formula \u2013 a direct sequence of +, \u2013, \u00d7, \u00f7 or a one\u2011variable linear equation \u2013 that captures the relation described. Evaluate the formula sequentially, annotating each step with a concise rationale, confirm the result fulfills all constraints, and output solely the final numeric value (integer or reduced fraction).",
+      "train_score": 0.972972972972973,
+      "train_step": 30,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated numbers, denote the missing quantity with a single placeholder, write the sole arithmetic relation (either a direct formula or a one\u2011variable linear equation) that follows from the problem using only +, \u2013, \u00d7, \u00f7, compute it in the proper order while annotating each step with a short justification, verify that the result obeys every condition, and return only the final numeric value.",
+      "train_score": 0.972972972972973,
+      "train_step": 14,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem. Use at most one variable (X) for any unknown. Build the unique arithmetic expression that follows directly from the text, using only +, -, *, / (standard precedence) or a linear equation in X. Solve it, showing each operation with a concise justification, verify all constraints, and output only the final answer as an integer or simplest fraction, without any extra text.",
+      "train_score": 0.9864864864864865,
+      "train_step": 65,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeral. If the problem contains an unknown, denote it with a single variable (use X). Write the only required calculation\u2014either a straight chain of +, \u2013, \u00d7, \u00f7 or a one\u2011variable linear equation\u2014using those numbers and X. Compute it in order, attaching a brief rationale to each intermediate result. Verify that the obtained value meets all conditions, and output only the final answer as an integer or reduced fraction, without any extra words or symbols.",
+      "train_score": 0.972972972972973,
+      "train_step": 37,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers from the problem. Introduce at most one placeholder for the unknown value. Form a single expression or a linear equation that connects the numbers using only +, -, *, /. Compute it sequentially, giving a short rationale for each operation, confirm the result satisfies every stated condition, and respond with only the final integer or simplest fraction.",
+      "train_score": 0.9864864864864865,
+      "train_step": 21,
+      "test_score": 0.8567096285064443,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number stated in the problem. If a quantity is missing, introduce exactly one placeholder variable\u202fX. Form the sole required computation\u2014either a plain chain of\u202f+,\u202f\u2013,\u202f\u00d7,\u202f\u00f7 (obeying normal precedence) or a linear equation in\u202fX\u2014directly implied by the wording. Solve it step\u2011by\u2011step, adding a concise comment after each intermediate result, confirm that all given conditions hold, and output only the final result as an integer or a lowest\u2011terms fraction, with no extra text.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8514025777103866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit numeral. Introduce at most one unknown symbol (X) for any missing quantity. Build the single required formula \u2013 either a flat chain of +,\u2011,*,/ (respecting ordinary precedence) or a one\u2011variable linear equation. Evaluate it line by line, appending a one\u2011sentence reason after each line, confirm that the result meets all given constraints, and return ONLY the final value as an integer or a lowest\u2011terms fraction.",
+      "train_score": 0.7567567567567568,
+      "train_step": 99,
+      "test_score": 0.7225170583775588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric quantity mentioned. Introduce at most one symbol (e.g.,\u202fX) for any missing value. From the wording formulate the sole required computation\u2014either a single arithmetic chain using +, -, *, / (standard precedence) or a linear equation in X. Solve it in logical order, writing one short comment after each intermediate result, confirm that all given conditions are satisfied, and finally output only the resulting integer or a reduced fraction, with no extra text.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.686125852918878,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.869598180439727,
+    "best_test_instruction": "Identify all numerals present. If any amount is unspecified, assign a single variable X. Form the sole calculation implied\u2014either a plain chain of +, \u2013, *, / (with normal precedence) or a linear equation in X. Perform the computation step\u2011by\u2011step, attaching a concise explanation to each intermediate result, confirm that the result fulfills every condition, and output only the final value as an integer or a lowest\u2011terms fraction."
+  }
+}

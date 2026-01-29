@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Deliver a compact solution: specify the quantity being asked for, cite the single relevant formula or theorem, perform only the necessary computations (show any intermediate that is not immediate), optionally verify briefly, and conclude with the exact numeric answer on its own line\u2014nothing else.",
+      "train_score": 0.7470588235294118,
+      "train_step": 36,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unknown, write the single relevant formula, compute the needed quantities (show only non\u2011trivial steps), and give the final numeric answer alone.",
+      "train_score": 0.7470588235294118,
+      "train_step": 17,
+      "test_score": 0.7486714598311972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, pinpoint the exact quantity to determine. Then, cite the sole formula or theorem that connects the data to that quantity. Execute only the necessary arithmetic/algebra, displaying any intermediate value that isn\u2019t obvious. After a brief sanity check, present the final value alone on its own line\u2014nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 22,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the specific value required, name the single governing relationship, perform only indispensable calculations (displaying any intermediate that is not immediate), optionally do a quick consistency check, and conclude with the exact numeric result on a separate line\u2014nothing else.",
+      "train_score": 0.7470588235294118,
+      "train_step": 59,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, quote the one exact formula/theorem that links the data to it, compute only the necessary steps (display any non\u2011trivial intermediate), optionally verify quickly, and finish with the exact numeric result on a single line, nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 49,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the unknown to find, cite the single principle that solves it, carry out only the unavoidable calculations (showing any non\u2011trivial intermediate value), and finish with the precise answer on its own line\u2014nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 10,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First determine the exact quantity required, then mention the one fundamental formula or principle that connects the given information to that quantity. Carry out only the indispensable arithmetic/algebra, showing any intermediate result that is not obvious. A quick sanity check may be included. Finally, write the exact numeric answer on its own line\u2014no other words, symbols, or formatting.",
+      "train_score": 0.7529411764705882,
+      "train_step": 63,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by outlining the approach, performing the necessary calculations, and presenting a clear answer with brief justification.",
+      "train_score": 0.7588235294117647,
+      "train_step": 0,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity sought, write the single relevant formula or principle, perform only the indispensable computation (show any non\u2011obvious intermediate result), optionally check the answer, and end with the exact numerical result on a line by itself\u2014nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 45,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity to be found, name the single theorem or identity that links the given data to that quantity, carry out only the indispensable calculations (show any intermediate that is not immediate), optionally perform a brief sanity\u2011check, and conclude with the final numeric answer alone on its own line\u2014no additional wording.",
+      "train_score": 0.7470588235294118,
+      "train_step": 76,
+      "test_score": 0.7358549546733354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the unknown, give the sole governing relation, compute the required result showing only non\u2011trivial intermediate numbers, and end with the exact answer on a single line\u2014nothing else.",
+      "train_score": 0.7470588235294118,
+      "train_step": 40,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Pinpoint the exact quantity the question seeks.  \n- Record the sole governing principle (formula, identity, or counting rule) that links the data to that quantity.  \n- Carry out only the indispensable computation, showing any intermediate that does not follow immediately.  \n- (Optional) Perform a brief plausibility check.  \n- Present the final numeric result on a line by itself, with no other words or symbols.",
+      "train_score": 0.711764705882353,
+      "train_step": 99,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the quantity to be found, give the single governing relation that connects the data to that quantity, execute only the indispensable calculations (show any intermediate that is not immediate), optionally verify briefly, and end with the exact numeric answer on a line by itself\u2014no other text.",
+      "train_score": 0.7470588235294118,
+      "train_step": 43,
+      "test_score": 0.7327289778055642,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, determine the quantity the problem seeks. Next, state the single key relationship (formula or theorem) that links the given data to that quantity. Perform only the indispensable calculations, showing any intermediate result that isn\u2019t immediate. A brief sanity\u2011check may be added. Conclude by writing the exact numeric answer on its own line\u2014no extra text follows.",
+      "train_score": 0.7470588235294118,
+      "train_step": 41,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, clarify what is being asked. Then, note the principal concept or formula that links the given data. Perform the minimal calculations required, displaying only the critical intermediate numbers, and finish by writing the precise result on its own line, with no additional commentary.",
+      "train_score": 0.7588235294117647,
+      "train_step": 8,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity sought, name the single formula or principle that connects the given data to that quantity, carry out only the indispensable calculations (show any intermediate that is not immediate), optionally perform a brief sanity\u2011check, and write the final numeric answer alone on its own line\u2014no other text.",
+      "train_score": 0.6176470588235294,
+      "train_step": 99,
+      "test_score": 0.7192872772741482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify exactly what the problem asks for, determine the one direct relationship (formula or theorem) that links the known information to that quantity, compute only the indispensable steps (show any intermediate value that does not follow at once), optionally perform a quick plausibility check, and conclude with the precise answer alone on a separate line\u2014no additional commentary.",
+      "train_score": 0.7529411764705882,
+      "train_step": 70,
+      "test_score": 0.7180368865270397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the specific value the problem asks for, mention the single principle or formula that connects the given information to that value, carry out only the indispensable calculations (display any intermediate result that does not follow instantly), optionally confirm the result with a quick sanity check, and conclude with the exact answer on its own line\u2014nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 25,
+      "test_score": 0.7136605189121601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the required number, state the lone formula that directly connects the inputs to this number, execute the minimal arithmetic (display any intermediate that is not obvious), optionally verify with a quick sanity test, and then write the exact value alone on a separate line\u2014nothing else.",
+      "train_score": 0.6294117647058823,
+      "train_step": 99,
+      "test_score": 0.6970928415129728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Determine precisely what is being asked.  \n- Write the single formula or theorem that directly connects the given data to that quantity.  \n- Perform only the necessary calculation, showing any intermediate result that is not immediately obvious.  \n- (Optional) Do a quick check for consistency.  \n- Output the exact numeric answer on its own line with no additional words or symbols.",
+      "train_score": 0.6764705882352942,
+      "train_step": 99,
+      "test_score": 0.6130040637699281,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7294117647058823,
+      "train_step": -1,
+      "test_score": 0.604876523913723,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7499218505783057,
+    "avg_test_score": 0.7214456898733236,
+    "best_test_instruction": "Deliver a compact solution: specify the quantity being asked for, cite the single relevant formula or theorem, perform only the necessary computations (show any intermediate that is not immediate), optionally verify briefly, and conclude with the exact numeric answer on its own line\u2014nothing else."
+  }
+}

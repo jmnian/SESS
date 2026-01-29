@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a self\u2011contained, concise solution: briefly restate the problem, pinpoint the central mathematical idea, outline a short step\u2011by\u2011step plan, carry out each calculation or logical deduction with clear reasoning, perform a quick verification, and end with the final numeric answer only.",
+      "train_score": 0.8958333333333334,
+      "train_step": 3,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a brief problem summary, select the most relevant mathematical technique, perform the necessary calculations with clear justification, verify the result, and output only the final number.",
+      "train_score": 0.8958333333333334,
+      "train_step": 7,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8541666666666666,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach:\n- Encode the problem as a short mathematical statement.\n- Cite the lone theorem, identity, or counting rule that resolves it.\n- Execute the necessary computation, presenting each indispensable algebraic or logical move on its own line prefixed by \u2018\u2192\u2019.\n- Perform a one\u2011sentence sanity check.\n- Conclude with the line \u201cAnswer: \u2026\u201d containing only the final numeric value.",
+      "train_score": 0.9166666666666666,
+      "train_step": 34,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Decompose the problem to its essential elements, apply the relevant mathematical principle with explicit, step\u2011by\u2011step calculations, verify the outcome, and state the final answer concisely.",
+      "train_score": 0.8958333333333334,
+      "train_step": 2,
+      "test_score": 0.7383557361675523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in three phases: (i) translate the problem into a concise formula; (ii) execute the minimal algebraic or arithmetic steps required, displaying only the indispensable work; (iii) perform a one\u2011line sanity check and state the final numeric answer alone.",
+      "train_score": 0.9166666666666666,
+      "train_step": 15,
+      "test_score": 0.73210378243201,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution: briefly restate the problem, identify the single underlying principle, outline a short ordered plan, execute each step with only the necessary calculations and logical reasoning, perform a quick sanity check, and conclude with the final numeric answer alone.",
+      "train_score": 0.8958333333333334,
+      "train_step": 6,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution: briefly restate the problem, identify the core mathematical principle, outline the necessary steps, carry out each calculation with clear justification, perform a quick sanity check, and present only the final numeric answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 6,
+      "test_score": 0.7255392310096905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a thorough, step\u2011by\u2011step solution: identify the underlying concept, carry out each calculation or logical deduction explicitly, and conclude with a clear, concise final answer.",
+      "train_score": 0.8958333333333334,
+      "train_step": 1,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Problem: restate briefly.  \nConcept: name the exact theorem, identity, or counting principle that solves it.  \nStrategy: give a numbered outline of the indispensable steps.  \nWork: carry out each step, placing every key calculation or logical move on its own line with a short reason.  \nValidation: perform a one\u2011line consistency check.  \nAnswer: write only the final numeric result.",
+      "train_score": 0.8958333333333334,
+      "train_step": 27,
+      "test_score": 0.7158487027195999,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by following these steps: (i) restate the question succinctly; (ii) pinpoint the exact mathematical rule or formula that applies; (iii) outline a short ordered procedure; (iv) carry out each computation or logical deduction, showing only essential work; (v) do a quick sanity check; (vi) present only the final answer. No extra commentary is needed.",
+      "train_score": 0.9375,
+      "train_step": 7,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution format:\n- Problem: rewrite as a single exact expression.\n- Core: name the one formula/theorem that solves it.\n- Derivation: list each necessary transformation as \u201c\u2192 <step>   // <reason>\u201d.\n- Check: one brief validation.\n- Answer: \u201cAnswer: <number>\u201d.",
+      "train_score": 0.9166666666666666,
+      "train_step": 57,
+      "test_score": 0.7149109096592685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer outline:\n- Interpretation: translate the problem into a precise mathematical statement.\n- Core tool: name the unique theorem, identity, or counting rule needed.\n- Procedure: enumerate the essential moves; for each move write a single line of calculation or logical inference with a brief comment.\n- Check: give one short sanity\u2011test sentence.\n- Result: write \u201cAnswer: \u201d followed only by the final number.",
+      "train_score": 0.8958333333333334,
+      "train_step": 39,
+      "test_score": 0.7149109096592685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a complete solution: restate the question succinctly, identify the essential mathematical principle, outline a concise strategy, work through each step with transparent calculations and reasoning, perform a brief sanity check, and conclude with the final answer alone.",
+      "train_score": 0.9166666666666666,
+      "train_step": 5,
+      "test_score": 0.7145983119724914,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a terse, complete answer: (i) paraphrase the problem, (ii) name the relevant principle, (iii) outline the minimal sequence of steps, (iv) execute each step with clear arithmetic or logic, (v) verify the result briefly, (vi) present only the final answer.",
+      "train_score": 0.8958333333333334,
+      "train_step": 6,
+      "test_score": 0.7049077836824007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a streamlined format:\n\u2022 Statement: rewrite the question as a precise mathematical claim.\n\u2022 Insight: cite the sole formula/theorem that resolves it.\n\u2022 Sketch: bullet the indispensable steps in logical order.\n\u2022 Work: for each bullet give one line of computation or inference, each accompanied by a short rationale.\n\u2022 Confirmation: a brief sanity check, then write only the final numeric result prefixed by \u201cAnswer:\u201d. No other commentary.",
+      "train_score": 0.8958333333333334,
+      "train_step": 38,
+      "test_score": 0.7020944045014067,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution template:\n- Restate the problem as a concise mathematical statement.\n- Key idea: name the one formula/logic needed.\n- Derivation: write each indispensable manipulation on its own line, beginning with \u201c\u2192\u201d, and give a brief justification.\n- Check: one short consistency test.\n- Result: output only \u201cAnswer: <number>\u201d.",
+      "train_score": 0.9166666666666666,
+      "train_step": 55,
+      "test_score": 0.6995936230071897,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer blueprint:\n- Define: translate the prompt into a precise mathematical statement using symbols.\n- Core: cite the exact principle that settles the statement.\n- Derive: write a minimal chain of deductions, each on a separate line beginning with \u201c=>\u201d, annotated with a concise reason.\n- Validate: give one brief sanity test.\n- Result: print only \u201cAnswer: <number>\u201d.",
+      "train_score": 0.9166666666666666,
+      "train_step": 92,
+      "test_score": 0.69740543919975,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in four compact stages:\n\u2022 Summarize the problem as a clear mathematical statement.\n\u2022 Cite the exact principle or formula that resolves it.\n\u2022 Execute the indispensable calculations, each shown on a separate line with a short rationale.\n\u2022 Conduct a brief sanity check and then write only the final number.",
+      "train_score": 0.9166666666666666,
+      "train_step": 30,
+      "test_score": 0.6852141294154424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer format:\n- Problem statement \u2013 one precise sentence.\n- Key insight \u2013 the exact theorem/formula needed.\n- Derivation \u2013 each necessary calculation on its own line, start with \u201c\u2192\u201d, add a short comment.\n- Quick check \u2013 a single sentence confirming the result makes sense.\n- Final result \u2013 write only \u201cAnswer: <value>\u201d.",
+      "train_score": 0.9166666666666666,
+      "train_step": 80,
+      "test_score": 0.6852141294154424,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution in exactly four sections:\n\nProblem \u2013 restate the question as a single precise equation or counting expression.  \nKey \u2013 name the one theorem, identity, or principle that resolves it.  \nWork \u2013 carry out each indispensable step, one per line, with a brief justification.  \nAnswer \u2013 after a one\u2011sentence sanity check, write only \u201cAnswer: X\u201d. No other commentary.",
+      "train_score": 0.8958333333333334,
+      "train_step": 41,
+      "test_score": 0.6511409815567365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7492966552047515,
+    "avg_test_score": 0.7160571011774512,
+    "best_test_instruction": "Provide a self\u2011contained, concise solution: briefly restate the problem, pinpoint the central mathematical idea, outline a short step\u2011by\u2011step plan, carry out each calculation or logical deduction with clear reasoning, perform a quick verification, and end with the final numeric answer only."
+  }
+}

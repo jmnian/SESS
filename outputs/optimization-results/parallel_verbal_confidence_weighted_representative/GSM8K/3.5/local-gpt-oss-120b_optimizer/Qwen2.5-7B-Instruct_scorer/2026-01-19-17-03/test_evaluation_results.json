@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Translate the problem into a single mathematical expression, evaluate it, and present only the resulting integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 2,
+      "test_score": 0.9241849886277483,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities and their operations, build the precise integer formula, compute it, and respond with the sole integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 23,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, list all quantities with their mathematical links, translate them into a single exact integer formula (using fractions for any percentages), compute the formula without any rounding, and return just the integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 30,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate every quantitative detail into an exact arithmetic expression (handling fractions or percentages precisely), combine them into one closed\u2011form integer formula, evaluate it with full precision (no rounding), and output only the final integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 37,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, translate the relationships into a single exact integer-valued formula (treat fractions, percentages, decimals as exact rationals), compute it without approximation, and output only the integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 65,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all quantities mentioned, translate words like \u201chalf\u201d, \u201cdouble\u201d, \u201cthree\u2011times\u201d into exact fractions, assemble them into the unique arithmetic formula that the problem describes, evaluate the formula with exact rational arithmetic, and reply with the sole integer answer.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, extract all numerical data, convert any percentages, fractions or decimals to exact rational numbers, construct the unique integer\u2011valued expression dictated by the relationships, evaluate it with exact arithmetic (no rounding), and output only the final integer result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 66,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the entire problem as a single exact integer arithmetic task: convert every quantity (including whole numbers, fractions, percentages, and verbal multipliers) into its exact rational value, apply the described operations to form one closed\u2011form integer expression, evaluate it with perfect arithmetic (no rounding), and output only the final integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 84,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, list each quantity, convert any fractions, percentages or verbal multipliers into exact rational numbers, merge all described operations into one simplified integer formula, compute it exactly, and output only the integer result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 74,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, turn each mentioned quantity and its relationship into a precise rational operation, merge all operations into a single formula that yields an integer, evaluate it exactly (no approximations), and output only that integer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 42,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers, convert percentages/fractions/decimals to exact fractions, combine them into the single mathematically implied integer formula, evaluate it precisely (no rounding), and output exclusively the integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 44,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric detail, translate the story into one complete integer formula, solve it without approximation, and print just the integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 24,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value (including fractions, percentages, decimals and verbal multipliers), turn each into its exact rational form, combine them according to the stated relationships into a single closed\u2011form expression that yields an integer, evaluate it with exact arithmetic, and output only that integer.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Translate every numeric detail\u2014including whole numbers, fractions, percentages, decimals and verbal multipliers\u2014into its exact rational value, combine them according to the stated relations into one closed\u2011form integer expression, compute it with exact arithmetic (no rounding), and output only the resulting integer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text, convert every mentioned number (including percentages, fractions, decimals, and verbal multipliers) into its exact rational value, infer the single arithmetic formula they define, evaluate it without any rounding, and return only the integer answer.",
+      "train_score": 0.9578544061302682,
+      "train_step": 91,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric term (whole numbers, fractions, percentages, decimals, verbal multipliers), convert each to its exact rational value, build the unique integer\u2011valued expression implied by the problem, evaluate it with exact rational arithmetic, confirm the result is an integer, and output solely that integer.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Convert the entire word problem into one exact closed\u2011form integer equation (using exact rational values for any fractions, percentages or verbal multipliers), solve it without any approximation, and return only the integer answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 88,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, extract every numeric term and its associated operation, represent each term as an exact rational number (including fractions, percentages, and mixed\u2011unit quantities), combine them into the single integer\u2011valued expression implied, evaluate it with full precision (no rounding), and output only that integer result.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Interpret the whole statement as one exact integer calculation: turn every mentioned quantity\u2014including whole numbers, fractions, percentages, decimals and verbal multipliers\u2014into its precise rational value, apply the given relationships to form a single expression, evaluate it without any rounding, and output only the resulting integer.",
+      "train_score": 0.8314176245210728,
+      "train_step": 99,
+      "test_score": 0.8233510235026535,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8659003831417624,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity, turn each into an exact rational (including fractions, percentages, decimals, and verbal multipliers), combine them into the single integer\u2011valued expression dictated by the problem, evaluate it with full precision (no rounding), and output only the resulting integer.",
+      "train_score": 0.6704980842911877,
+      "train_step": 99,
+      "test_score": 0.7134192570128886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9241849886277483,
+    "avg_test_score": 0.8919094552149895,
+    "best_test_instruction": "Translate the problem into a single mathematical expression, evaluate it, and present only the resulting integer."
+  }
+}

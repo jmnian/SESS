@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Output next: {{answer}}.",
+      "train_score": 0.918918918918919,
+      "train_step": 0,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly show your reasoning, then on the next line output only the final numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 5,
+      "test_score": 0.8529188779378317,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct answer.",
+      "train_score": 0.8378378378378378,
+      "train_step": 0,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8243243243243243,
+      "train_step": 7,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, step\u2011by\u2011step solution that directly answers the question with the correct numeric result, using concise reasoning and minimal extraneous text.",
+      "train_score": 0.8783783783783784,
+      "train_step": 1,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...instructions...",
+      "train_score": 0.8243243243243243,
+      "train_step": 58,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a solution or answer to the given problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": 0,
+      "test_score": 0.8059135708870356,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...instruction...",
+      "train_score": 0.8243243243243243,
+      "train_step": 41,
+      "test_score": 0.8051554207733131,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Above\". So we must ensure not identical phrase. There is risk of overlapping.",
+      "train_score": 0.8513513513513513,
+      "train_step": 90,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please solve the given problem by providing an answer that correctly addresses the question, ensuring precision and clarity in your response. This should be done in a well-structured format that emphasizes the essential steps or calculations needed.",
+      "train_score": 0.7972972972972973,
+      "train_step": 0,
+      "test_score": 0.800606520090978,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ". The instruction will be used to solve the problem: The AI will output a solution following the instruction.",
+      "train_score": 0.8108108108108109,
+      "train_step": 72,
+      "test_score": 0.7907505686125853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, bullet\u2011point breakdown of the essential calculations, then on the next line output only the final integer result with no extra symbols or text.",
+      "train_score": 0.9054054054054054,
+      "train_step": 62,
+      "test_score": 0.7846853677028052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State a brief reasoning, then on the next line write the exact integer answer alone.",
+      "train_score": 0.8108108108108109,
+      "train_step": 19,
+      "test_score": 0.7285822592873389,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Outline the key computation steps (using up to three short bullet points). Immediately after, on a new line by itself, write only the integer result with no additional characters.",
+      "train_score": 0.7432432432432432,
+      "train_step": 99,
+      "test_score": 0.711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise explanation (max two sentences), then on a new line output only the final integer answer without any extra characters.",
+      "train_score": 0.32432432432432434,
+      "train_step": 99,
+      "test_score": 0.24336618650492797,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise rationale (no more than two sentences). On the next line write only the final numeric result, without any extra symbols or words.",
+      "train_score": 0.20270270270270271,
+      "train_step": 99,
+      "test_score": 0.16376042456406367,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise explanation (one or two sentences) of how you obtain the answer, then on the next line output only the final integer result with no extra symbols or text.",
+      "train_score": 0.21621621621621623,
+      "train_step": 99,
+      "test_score": 0.155420773313116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize your reasoning in one or two brief sentences. Then, on the following line, write only the exact integer or decimal answer\u2014no extra text, symbols, or formatting.",
+      "train_score": 0.24324324324324326,
+      "train_step": 99,
+      "test_score": 0.15314632297194844,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief one\u2011sentence explanation of your method, then on the following line write only the final answer as a plain number (no symbols or extra text).",
+      "train_score": 0.2702702702702703,
+      "train_step": 99,
+      "test_score": 0.1516300227445034,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a brief, one\u2011to\u2011two\u2011sentence explanation of your reasoning, then on the next line output only the resulting integer, with no additional text, symbols, or formatting.",
+      "train_score": 0.20270270270270271,
+      "train_step": 99,
+      "test_score": 0.12585291887793784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8771796815769523,
+    "avg_test_score": 0.6224412433661867,
+    "best_test_instruction": "Output next: {{answer}}."
+  }
+}

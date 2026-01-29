@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "- Determine the key mechanism or formula underlying the question.  \n- Extract exactly the data that the mechanism requires.  \n- Perform the necessary single-step computation or logical inference.  \n- Compare the outcome with choices A\u2011D, discarding any that conflict; if more than one remains, revisit the previous step.  \n- Respond with the remaining option letter and a concise justification (one sentence).",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Extract the minimal set of numbers/facts that the question hinges on.  \n- State the single formula or logical step that links them to the quantity asked.  \n- Carry out that step, obtain the answer, and cross\u2011check it with options A\u2011D.  \n- Reply with the matching letter and a brief justification (one sentence).",
+      "train_score": 0.47368421052631576,
+      "train_step": 39,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, pinpoint the essential principle and data, perform the needed calculation or logical deduction step\u2011by\u2011step, compare the resulting value or conclusion with each of the four answer choices, and then output the single correct option (A\u2011D) together with a brief explanation of why it is the right choice.",
+      "train_score": 0.47368421052631576,
+      "train_step": 3,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential data from the question, apply the appropriate concept or calculation, compare the outcome with each option, and then give the single correct choice (A\u2011D) plus a brief justification.",
+      "train_score": 0.42105263157894735,
+      "train_step": 5,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\u2022 Determine the single law, reaction, or logical rule that solves the problem.  \n\u2022 Write down only the quantitative or factual inputs that the rule requires.  \n\u2022 Perform the one necessary operation (calculation, rearrangement, or inference) to obtain a definite result.  \n\u2022 Scan the four options (A\u2011D); keep the one that coincides with your result and discard the rest.  \n\u2022 Output that letter together with a brief (one\u2011sentence) justification of its correctness.",
+      "train_score": 0.47368421052631576,
+      "train_step": 92,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the relevant data and the theory required, compute the answer, then eliminate the impossible options among A\u2011D to reveal the sole correct choice, providing the letter and a short justification.",
+      "train_score": 0.47368421052631576,
+      "train_step": 12,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core facts of the question, apply the appropriate principle to solve it, and then provide the correct answer letter (A\u2011D) along with a brief justification.",
+      "train_score": 0.42105263157894735,
+      "train_step": 13,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.42105263157894735,
+      "train_step": -1,
+      "test_score": 0.29797979797979796,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by applying the relevant concepts or calculations, then output the letter (A\u2011D) of the correct choice.",
+      "train_score": 0.42105263157894735,
+      "train_step": 1,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement, extract the necessary facts, apply the relevant theory to compute or infer the solution, then match your result against the four choices and provide the correct letter (A\u2011D) together with a short explanation.",
+      "train_score": 0.42105263157894735,
+      "train_step": 4,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Extract every numerical or definitional datum and identify the core principle the problem tests.  \n2. Apply the relevant rule or calculation, showing only the indispensable step(s) to reach a result.  \n3. Match that result against the four options A\u2011D, eliminate all mismatches, and confirm that a single choice remains.  \n4. Output the sole correct letter together with a concise (one\u2011sentence) justification of its correctness.",
+      "train_score": 0.47368421052631576,
+      "train_step": 32,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract only the quantities and the single quantum\u2011mechanical principle the problem invokes.  \n- Apply that principle in the one essential step that yields the desired result (eigenvalue, probability, etc.).  \n- Compare the obtained result with the four options A\u2013D; eliminate every choice that does not coincide.  \n- Output the remaining letter and, in a single concise sentence, state the reason it is uniquely correct.",
+      "train_score": 0.47368421052631576,
+      "train_step": 79,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the core concept (formula, reaction, law, or logical rule) the problem tests.  \n- Extract the minimal set of data needed for that concept.  \n- Perform the single indispensable computation or deduction to obtain a concrete result.  \n- Compare this result with options A\u2011D; discard any that differ and confirm that exactly one choice remains.  \n- Respond with that letter and, in one short sentence, state the reason it is the only correct option.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the essential facts and the governing principle, solve the problem with a transparent step\u2011by\u2011step argument, then match the outcome to the four choices (A\u2013D) and output the correct letter together with a brief explanation of why it is the only viable option.",
+      "train_score": 0.47368421052631576,
+      "train_step": 15,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the needed information, carry out the appropriate computation or logical inference, compare the result to each choice, and output the correct option (A\u2011D) together with a succinct explanation.",
+      "train_score": 0.42105263157894735,
+      "train_step": 3,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the governing principle(s) and all constraints given in the problem.  \n- For each answer choice (A\u2011D) quickly check whether it satisfies every constraint; mark it \u201cpossible\u201d or \u201creject\u201d.  \n- The choice that remains \u201cpossible\u201d after all constraints are applied is the correct answer.  \n- Respond with the letter of that choice and a single sentence stating which constraint(s) eliminated the others.",
+      "train_score": 0.10526315789473684,
+      "train_step": 99,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "1. Classify the problem (e.g., algebraic, mechanistic, quantum).  \n2. Write down every numerical or definitional input.  \n3. Apply the appropriate rule to obtain a result.  \n4. Match the result to one of the four alternatives and output its label with a short explanation.",
+      "train_score": 0.47368421052631576,
+      "train_step": 24,
+      "test_score": 0.2676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the core principle or rule that the problem hinges on.  \n- Write down only the indispensable data supplied.  \n- Execute the single necessary inference/calculation dictated by that principle to reach a definite answer.  \n- Compare this answer with the four options (A\u2011D); cross out every non\u2011matching choice.  \n- Return the remaining letter and a brief (\u2264 one sentence) explanation of its correctness.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.25757575757575757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Follow these steps:  \n1. List all given numbers, symbols and the central concept of the problem.  \n2. Determine the exact rule, formula or logical inference needed and carry it out, writing only the essential steps.  \n3. Compare the obtained result with options A\u2011D, discarding any that do not match.  \n4. Output the sole correct letter together with a brief (\u2264 one sentence) justification of why it is the only viable choice.",
+      "train_score": 0.47368421052631576,
+      "train_step": 29,
+      "test_score": 0.25252525252525254,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Determine what the problem is really asking and which fundamental concept solves it.  \n- List only the pieces of information that are actually used by that concept.  \n- Perform the single necessary computation or logical step to get a concrete answer.  \n- Scan the four options; keep the one that coincides with your answer and confirm no other option fits.  \n- Respond with the option letter and a brief (one\u2011sentence) justification.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.24242424242424243,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify the core principle needed and the only variables it employs.  \n- Perform the one calculation or logical inference that follows directly from that principle.  \n- Write down the exact numerical/qualitative outcome.  \n- Scan options A\u2011D; pick the one whose content matches the outcome, confirming that no other option does.  \n- Reply with the chosen letter and a single concise sentence explaining the match.",
+      "train_score": 0.15789473684210525,
+      "train_step": 99,
+      "test_score": 0.20202020202020202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3484848484848485,
+    "avg_test_score": 0.29100529100529104,
+    "best_test_instruction": "- Determine the key mechanism or formula underlying the question.  \n- Extract exactly the data that the mechanism requires.  \n- Perform the necessary single-step computation or logical inference.  \n- Compare the outcome with choices A\u2011D, discarding any that conflict; if more than one remains, revisit the previous step.  \n- Respond with the remaining option letter and a concise justification (one sentence)."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8541666666666666,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a short, logical step\u2011by\u2011step solution that highlights the main ideas and calculations, then state the final answer clearly.",
+      "train_score": 0.9166666666666666,
+      "train_step": 1,
+      "test_score": 0.7280400125039075,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a fully worked out solution: outline the method, execute each calculation with justification, and clearly state the final answer.",
+      "train_score": 0.9166666666666666,
+      "train_step": 1,
+      "test_score": 0.7246014379493592,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the problem, then present a single chain of equalities that transforms the given data into the required quantity, placing after each equality a parenthetical note (\u2264\u202fone sentence) that names the rule or reason applied. Optionally perform a one\u2011line sanity check, and finish with the exact answer on a line by itself.",
+      "train_score": 0.9166666666666666,
+      "train_step": 50,
+      "test_score": 0.7130353235386058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one clear sentence. Then produce a short numbered list; each item must (i) cite the precise rule or definition being used, (ii) justify its use in one sentence, and (iii) show the resulting calculation or simplification. A brief consistency check may follow. Conclude with the exact answer alone on the final line.",
+      "train_score": 0.9166666666666666,
+      "train_step": 48,
+      "test_score": 0.710847139731166,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one concise sentence. Then, in a numbered list, for each move: (i) name the specific formula or theorem being used, (ii) apply it with a brief justification, and (iii) compute the result. After the list, optionally perform a quick sanity check, and finally output only the final numeric answer on a separate line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 15,
+      "test_score": 0.7089715536105032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by (i) restating it as a simple equation or inequality, (ii) applying the relevant theorem or arithmetic rule with a brief one\u2011line explanation for each manipulation, (iii) optionally checking the work, and (iv) concluding with the exact numeric answer on a line that contains only that number.",
+      "train_score": 0.8958333333333334,
+      "train_step": 18,
+      "test_score": 0.7049077836824007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Then, in a numbered list, for each step: (i) indicate the mathematical principle used, (ii) give a short justification, (iii) show the computation. After completing the steps, include a brief sanity check if convenient, and finally write the exact answer alone on the last line.",
+      "train_score": 0.9166666666666666,
+      "train_step": 15,
+      "test_score": 0.7027195998749609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence. Identify the target value and the single principle or formula that connects the given data to that target. Carry out each necessary algebraic or arithmetic operation, annotating each move with a brief (one\u2011line) justification. Optionally, do a quick sanity check. Conclude by writing only the final numeric answer on a line by itself.",
+      "train_score": 0.8958333333333334,
+      "train_step": 31,
+      "test_score": 0.7024070021881839,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve concisely: first restate the problem as a short mathematical expression; then enumerate the indispensable operations, giving each a one\u2011line justification; compute the needed values, optionally perform a quick sanity check, and conclude by writing only the final answer on a separate line.",
+      "train_score": 0.9166666666666666,
+      "train_step": 12,
+      "test_score": 0.7017818068146295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in a single clear sentence. Next, create a numbered checklist where each item (a) names the needed concept or formula, (b) applies it with a brief rationale, and (c) shows the resulting computation. After completing the checklist, optionally perform a quick consistency check, and end the response with only the final numeric answer on its own line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 28,
+      "test_score": 0.694904657705533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in a single sentence. Next, enumerate the essential calculations: for each step write the formula or rule used, a brief rationale, and the computed result. Perform any quick verification you like, and conclude by placing only the final numeric answer on its own line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6908408877774305,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a short, self\u2011contained solution: briefly restate the problem, then list the required steps with a one\u2011sentence justification for each, perform any calculations (optionally verify), and end by writing only the exact final answer on its own line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 6,
+      "test_score": 0.6830259456080024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a compact solution: name the governing principle, execute the essential calculations with a one\u2011sentence justification per step, optionally check the result, and conclude with the exact answer isolated on the last line.",
+      "train_score": 0.9166666666666666,
+      "train_step": 5,
+      "test_score": 0.6730228196311347,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one brief sentence. Next, create a numbered outline where each item: (i) cites the precise formula, theorem, or counting principle needed; (ii) supplies a one\u2011sentence justification for its use; and (iii) shows the resulting intermediate value or expression. After the outline, optionally perform a quick sanity check, and conclude by writing only the final numeric answer on a line by itself.",
+      "train_score": 0.9166666666666666,
+      "train_step": 51,
+      "test_score": 0.6645826820881525,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the question in a single sentence. Then present a brief ordered list; for each item give: the precise mathematical operation or rule applied, a one\u2011sentence reason why it is valid, and the resulting intermediate result. After the list optionally add a quick consistency check, and finish with the exact answer on its own line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6402000625195373,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly restate the task. Then solve it in a compact pipeline: each line should (i) name the key rule or arithmetic used, (ii) give a \u2264\u2011sentence justification, (iii) show the resulting expression or number. End with a single line containing only the final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6301969365426696,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Restate the task in a single clear sentence. Then give a short bullet\u2011point solution where each bullet includes: the exact operation or theorem used, a brief (\u2264 one sentence) justification, and the resulting intermediate value. Optionally add a one\u2011line sanity check, and end the response with the final numeric answer on its own line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6289465457955611,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in one sentence. Then produce a linear chain of transformations, writing each equality or inequality on a new line; after each line place a parenthetical comment (\u2264\u202fone sentence) stating the rule or reason applied. After the chain you may add a single\u2011line consistency check, and conclude with the exact answer on a separate line.",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.6242575804939043,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Rewrite the question as a short mathematical statement. Solve it by a minimal sequence of calculations: for each line write the expression, then in parentheses give the rule or fact applied (\u2264 one sentence), and immediately show the new value. After the last line, optionally add a one\u2011sentence sanity check, and on the final line output only the exact answer.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6039387308533917,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly paraphrase the question. Then produce a compact solution consisting of at most three numbered steps; each step must (i) name the exact operation or theorem used, (ii) give a one\u2011sentence reason, and (iii) display the resulting intermediate result. Optionally add a one\u2011sentence check, and finish with the final number alone on a new line.",
+      "train_score": 0.5625,
+      "train_step": 99,
+      "test_score": 0.4395123476086277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7446076899030947,
+    "avg_test_score": 0.6721594545914644,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

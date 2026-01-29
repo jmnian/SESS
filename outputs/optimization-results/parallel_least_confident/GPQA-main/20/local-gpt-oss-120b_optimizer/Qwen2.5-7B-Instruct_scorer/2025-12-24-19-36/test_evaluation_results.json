@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the correct option (A\u2011D). Output exactly one line containing only the chosen letter. If you wish to include a brief remark, place it on a second line starting with \u2018//\u2019 and use no more than five words. No other text, symbols, or blank lines are allowed.",
+      "train_score": 0.7865168539325843,
+      "train_step": 89,
+      "test_score": 0.859375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given data, determine the single rule needed, perform any calculations (you may list each intermediate result on its own line), then output exactly one line:\n\nAnswer: X\n\nwhere X is the correct choice letter A\u2011D. If you wish to add a brief remark, place it after the answer separated by a single space and prefixed by \u201c#\u201d, using at most five words. Produce no other characters, lines, or whitespace.",
+      "train_score": 0.7752808988764045,
+      "train_step": 46,
+      "test_score": 0.8459821428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical or logical information, identify the single principle needed, perform the calculation (you may list intermediate values on separate lines), then output exactly one line in the form `Answer:X` where X is A\u2011D. If you wish to add a comment, place it after the answer preceded by \u201c|\u201d and limit it to three words. Do not include any other characters, symbols, or blank lines.",
+      "train_score": 0.5617977528089888,
+      "train_step": 99,
+      "test_score": 0.8415178571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine which choice (A\u2011D) is correct. Provide only the line \\\"Answer: X\\\" where X is the correct letter. If a brief justification is included, place it after a double\u2011pipe \\\"||\\\" and keep it under five words. No other text, symbols, or blank lines may appear.",
+      "train_score": 0.7865168539325843,
+      "train_step": 60,
+      "test_score": 0.8348214285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, extract every numeric or logical datum, identify the single principle required, perform any needed calculations (you may list intermediate results on separate lines), then output one line exactly:\n\nAnswer: X\n\nwhere X is the correct choice (A\u2011D). If you wish to include a brief note, place it after the answer preceded by \u201c#\u201d and keep it to six words or fewer. No other text, symbols or blank lines are allowed.",
+      "train_score": 0.7640449438202247,
+      "train_step": 53,
+      "test_score": 0.8303571428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the prompt, pull out the key data or concept, apply the single governing rule, solve in brief steps, then write one line exactly `Answer: X` where X\u202f=\u202fA\u2011D. If you add a rationale, separate it with a vertical bar `|` and limit it to eight words. No other text or symbols may appear.",
+      "train_score": 0.7640449438202247,
+      "train_step": 12,
+      "test_score": 0.8147321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key numbers or conditions, pick the single rule that solves the problem, work out the answer showing each calculation on its own line, then compare the result with choices A\u2011D. Respond with exactly `Answer: X` where X is the correct letter; an optional comment may follow after \u201c//\u201d limited to five words. No other characters or lines are allowed.",
+      "train_score": 0.7752808988764045,
+      "train_step": 17,
+      "test_score": 0.8125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note all numerical/logical facts, apply the sole relevant principle, obtain the result, then output one line exactly: `Answer: X` where X\u2208{A,B,C,D}. An optional brief note may follow after a single \u2018%\u2019, limited to four words. No other text allowed.",
+      "train_score": 0.797752808988764,
+      "train_step": 90,
+      "test_score": 0.8080357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the given data, identify the single rule needed, perform any necessary calculation (intermediate results may be listed on separate lines), then output one line exactly:\n\nAnswer: X\n\nwhere X is the correct choice (A\u2011D). An optional brief note may follow on the same line after a single space, introduced by \u201c%\u201d and limited to five words. No other text, symbols, or blank lines are allowed.",
+      "train_score": 0.7865168539325843,
+      "train_step": 90,
+      "test_score": 0.8035714285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given data, identify the single required principle, compute any intermediate values (one per line if needed), then output exactly one line `Answer: X` where X\u2208A\u2011D. If you add a comment, prepend it with \u201c%\u201d and keep it \u22645 words. No other characters or blank lines may appear.",
+      "train_score": 0.7640449438202247,
+      "train_step": 62,
+      "test_score": 0.796875,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers and conditions, identify the single relevant principle, perform any calculations (you may list intermediates on separate lines), then output exactly one line `Answer: X` where X\u2208{A,B,C,D}. If you wish to add a short comment, place it after the answer separated by a single \u201c%\u201d and keep it to at most five words. No other text or blank lines may appear.",
+      "train_score": 0.7752808988764045,
+      "train_step": 83,
+      "test_score": 0.7879464285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out all numerical or logical facts, choose the single governing principle, compute the result (intermediate values may be on separate lines), then output exactly `Answer: X` where X\u202f=\u202fA\u2011D. If you add a comment, prepend it with \u201c/\u201d and limit it to seven words. No other text or symbols may appear.",
+      "train_score": 0.8202247191011236,
+      "train_step": 17,
+      "test_score": 0.7790178571428571,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list the key data, state the governing rule, execute each calculation on a separate line, then select the matching choice. Respond strictly with `Answer: X` where X is A\u2013D; optionally follow with a brief (\u22648\u2011word) comment after a semicolon. No other output.",
+      "train_score": 0.797752808988764,
+      "train_step": 6,
+      "test_score": 0.7790178571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given data, determine the single concept needed, perform any required calculation (intermediate steps may be on their own lines), then produce exactly one line:\n\nAnswer: X\n\nwith X \u2208 {A,B,C,D}. You may optionally add a short remark after the answer, introduced by \u201c~\u201d and limited to three words. No other text, symbols or blank lines are permitted.",
+      "train_score": 0.550561797752809,
+      "train_step": 99,
+      "test_score": 0.7745535714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the only required quantities and principle, compute the answer, and output exactly one line `Answer:X` where X is A\u2011D. If you include a comment, prepend it with a dash and limit it to five words. No other text, symbols, or blank lines may appear.",
+      "train_score": 0.7640449438202247,
+      "train_step": 15,
+      "test_score": 0.7633928571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the required concept, compute the answer, and output exactly one line:\n\nAnswer:X\n\nwhere X is the correct choice letter (A\u2011D). No other characters, spaces, symbols, or blank lines are allowed.",
+      "train_score": 0.42696629213483145,
+      "train_step": 99,
+      "test_score": 0.7455357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the essential data, select the single governing principle, perform any needed calculations (intermediate results may be on separate lines), then output exactly one line `Answer: X` where X\u2208{A,B,C,D}. An optional brief note may follow after a single \u201c@\u201d and must be four words or fewer. No other text, symbols, or blank lines are allowed.",
+      "train_score": 0.5955056179775281,
+      "train_step": 99,
+      "test_score": 0.7053571428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, extract all necessary data, identify the single principle or formula required, perform any calculations (intermediate results may be on separate lines), then output exactly one line:\n\nAnswer: X\n\nwhere X is the correct option A\u2011D. If you add a short remark, place it after the answer preceded by a single \u201c~\u201d and keep it to five words or fewer. No other text, symbols, or blank lines are allowed.",
+      "train_score": 0.6067415730337079,
+      "train_step": 99,
+      "test_score": 0.6897321428571429,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.42696629213483145,
+      "train_step": -1,
+      "test_score": 0.6629464285714286,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, extract every needed datum, decide the single principle required, perform any calculations (intermediate results may appear on separate lines), then output exactly one line:\n\nAnswer = X\n\nwhere X\u202f\u2208\u202f{A,B,C,D}. If you add a brief comment, start it with \u201c#\u201d and keep it to five words or fewer. No other text, symbols, or blank lines are permitted.",
+      "train_score": 0.651685393258427,
+      "train_step": 99,
+      "test_score": 0.48214285714285715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the relevant data, select the appropriate single formula, carry out the calculation (list intermediate numbers if desired), then determine which choice A\u2011D is correct. Output only one line in the exact form\n\nAnswer: X\n\nwhere X \u2208 {A,B,C,D}. An optional short remark may follow after a trailing \u201c%\u201d and must not exceed five words. No other characters, whitespace or lines may appear.",
+      "train_score": 0.797752808988764,
+      "train_step": 84,
+      "test_score": 0.39732142857142855,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.859375,
+    "avg_test_score": 0.7530824829931972,
+    "best_test_instruction": "Determine the correct option (A\u2011D). Output exactly one line containing only the chosen letter. If you wish to include a brief remark, place it on a second line starting with \u2018//\u2019 and use no more than five words. No other text, symbols, or blank lines are allowed."
+  }
+}

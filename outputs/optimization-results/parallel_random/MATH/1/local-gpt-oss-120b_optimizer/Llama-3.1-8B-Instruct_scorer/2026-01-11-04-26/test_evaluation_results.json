@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a clear, step-by-step solution with reasoning and state the final answer.",
+      "train_score": 0.6875,
+      "train_step": 0,
+      "test_score": 0.5336042513285402,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the governing idea in a single sentence, then work through the solution step by step, providing a brief justification for each move; you may include a quick consistency check, and finish with one line that contains only the final numeric answer.",
+      "train_score": 0.6458333333333334,
+      "train_step": 10,
+      "test_score": 0.5267271022194435,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem by stating the core approach, carrying out each step of the calculation clearly, and finishing with the exact numeric answer.",
+      "train_score": 0.6458333333333334,
+      "train_step": 1,
+      "test_score": 0.5211003438574554,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a one\u2011sentence description of the main approach. Solve the problem in a small number of clear steps, giving a brief justification and noting any intermediate values. Simplify intermediate results and, if you wish, perform a quick consistency check. Conclude by writing only the final numeric answer on a single line\u2014no units, symbols, or extra words.",
+      "train_score": 0.7083333333333334,
+      "train_step": 39,
+      "test_score": 0.5195373554235698,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present the essential reasoning, list any intermediate results needed, and finish with the final answer presented as a lone number.",
+      "train_score": 0.625,
+      "train_step": 1,
+      "test_score": 0.5154735854954673,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, structured solution: briefly outline the key idea, then perform each necessary calculation with short justification, optionally check the result, and conclude by writing only the final numeric answer on a line by itself.",
+      "train_score": 0.625,
+      "train_step": 3,
+      "test_score": 0.5142231947483589,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Develop a concise, step\u2011by\u2011step solution: first identify the core concept, then perform each required calculation with brief justification, optionally verify the result, and finally present the answer as a single numeric value.",
+      "train_score": 0.7291666666666666,
+      "train_step": 2,
+      "test_score": 0.5123476086276961,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence description of the main idea, then solve the problem step by step, providing a concise justification for each calculation and simplifying intermediate results. Conclude with exactly one line that consists solely of the final numeric answer (no symbols, units, or additional words).",
+      "train_score": 0.7083333333333334,
+      "train_step": 21,
+      "test_score": 0.5101594248202563,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise explanation of the method, carry out each calculation with a brief justification, optionally verify the result, and output only the final numeric answer on a single line.",
+      "train_score": 0.625,
+      "train_step": 3,
+      "test_score": 0.5060956548921538,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the main idea in one sentence, then work through the problem in a few short steps, giving a brief reason for each calculation; simplify when possible, optionally check consistency, and conclude with exactly one line containing the final numeric answer alone (no units or extra symbols).",
+      "train_score": 0.6666666666666666,
+      "train_step": 34,
+      "test_score": 0.49171616130040635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief overview of the key idea (one sentence), then solve the problem step\u2011by\u2011step, providing a short justification for each calculation. After completing the work, output only the final numeric result on a single line with no additional text.",
+      "train_score": 0.6666666666666666,
+      "train_step": 18,
+      "test_score": 0.49140356361362925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4583333333333333,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the core mathematical idea in one brief sentence. Then work through the problem in a numbered list of no more than four short steps; for each step give a concise justification and, when you obtain a number, record it after \u201c=\u201d. Simplify each intermediate result right away and, if it helps, do a quick sanity check. End with a single line that contains only the final numeric answer\u2014no units, symbols, or extra text.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.45451703657392933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the key idea in one brief sentence. Then solve the problem using a numbered list of no more than three steps; for each step give a concise justification and write any intermediate value after \u201c\u2192\u201d. Finally, output a single line that contains only the final numeric answer (rounded as the problem asks), with no units, symbols, or extra words.",
+      "train_score": 0.6666666666666666,
+      "train_step": 67,
+      "test_score": 0.42700844013754297,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a one\u2011sentence summary of the key idea. Then present the solution in at most three short bullet points; each bullet should contain a brief justification and, when a number is produced, show it after \u201c\u2192\u201d. Simplify intermediate results immediately, optionally include a quick consistency check, and end with exactly one line that holds only the final numeric answer (no units or extra characters).",
+      "train_score": 0.4375,
+      "train_step": 99,
+      "test_score": 0.4173179118474523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the core idea in one brief sentence, then resolve the problem in up to three bullet\u2011point steps, each with a short justification; end the response with a single line containing only the final numeric result (no units, symbols, or additional text).",
+      "train_score": 0.6458333333333334,
+      "train_step": 75,
+      "test_score": 0.41481713035323536,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one short sentence. Then, in a numbered list of at most three items, perform the calculations; each item must contain (i) a brief reason, (ii) the numeric result of that step written after \u201c=\u201d. Simplify each result immediately. If you wish, add a one\u2011line sanity check. End the response with a single line that contains only the final numeric answer (no units, symbols, or additional words).",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.3557361675523601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the main mathematical principle in one short sentence. Then solve the problem in at most three numbered steps, each step containing a single calculation with a brief justification; simplify each intermediate result immediately. After the steps, write a single line that contains only the final numeric answer (no extra symbols, units, or text). If desired, include a quick verification before the final line.",
+      "train_score": 0.2916666666666667,
+      "train_step": 99,
+      "test_score": 0.34510784620193813,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the main concept in one short sentence. Then solve the problem using at most three numbered steps; each step must contain a single clear calculation together with a brief justification, simplifying any intermediate result immediately. After the steps, write a single line that contains only the final numeric answer (no units, symbols, or extra words). If a quick sanity check is obvious, include it in the last step.",
+      "train_score": 0.3958333333333333,
+      "train_step": 99,
+      "test_score": 0.3344795248515161,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Begin with a one\u2011sentence summary of the key method. Proceed with a numbered solution of no more than three steps; each step should be a single sentence giving a brief reason and, if a quantity is produced, show it after \u201c\u2192\u201d. Reduce fractions or radicals right away. You may add a brief consistency check, then finish with a solitary line that contains only the final numeric result (exactly as required, without units or extra characters).",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.3135354798374492,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the essential insight in a single sentence. Immediately follow with a compact proof consisting of at most three sequential statements; each statement should (i) give a concise reason, (ii) show any intermediate numeric result after \u201c=\u201d, and (iii) simplify the result on the spot. After the proof you may do a brief sanity check, and then write only the final number on one line\u2014no units, symbols, or explanatory text.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.27571115973741794,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5336042513285402,
+    "avg_test_score": 0.4509296059780586,
+    "best_test_instruction": "Provide a clear, step-by-step solution with reasoning and state the final answer."
+  }
+}

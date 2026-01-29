@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all numerical data and the explicit relationships, harmonize any units or rates, build the sole exact algebraic expression (or smallest consistent set of equations) that embodies the complete problem, compute its value with arbitrary\u2011precision rational arithmetic, verify every original condition, and output only the final number (as an integer or a reduced fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 44,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, list each explicit number and its indicated operation, combine them into one exact mathematical expression that satisfies all stated relationships, evaluate it with unlimited\u2011precision (no\u2011rounding) arithmetic, confirm every condition is met, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 28,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique exact value requested by the problem: identify every numeric fact, formulate the minimal arithmetic calculation (or system of equations) that meets all constraints, solve it using exact integer/fraction arithmetic (no rounding), and output only that final number.",
+      "train_score": 0.9616858237547893,
+      "train_step": 55,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every explicit quantity, convert any percentages or rates, formulate the single exact computation (or smallest consistent set of equations) that satisfies all constraints, evaluate it with arbitrary\u2011precision integer/fraction arithmetic (no rounding), ensure all original conditions hold, and output only the final value (integer or lowest\u2011terms fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 81,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each explicit number and its described relationship, discard irrelevant wording, build the minimal exact algebraic expression or system of equations that satisfies all constraints, compute it with unlimited\u2011precision integer/rational arithmetic (no rounding), verify the solution meets every condition, and output only the final result as an integer or lowest\u2011terms fraction.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all given quantities, translate the whole problem into a single exact algebraic expression (or the smallest consistent system), simplify it analytically, compute the value with arbitrary\u2011precision rational arithmetic (no approximation), verify every stated condition, and output only the final numeric result in the requested units (integer when the value is whole, otherwise as a lowest\u2011terms fraction).",
+      "train_score": 0.9731800766283525,
+      "train_step": 40,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all stated numbers and their meanings, perform any necessary unit or percentage conversions, formulate the single exact algebraic expression (or minimal consistent system) that fulfills every relationship and constraint, compute it with arbitrary\u2011precision rational arithmetic (no rounding), confirm all conditions are satisfied, and output only the final numeric answer (as an integer when whole, otherwise as a reduced fraction).",
+      "train_score": 0.9655172413793104,
+      "train_step": 50,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum and its role, convert any percentages, rates or units, construct the smallest possible exact mathematical model (single expression or minimal system) that satisfies all given relationships, simplify analytically, evaluate with exact rational arithmetic, verify that all original conditions hold, and return solely the final result (integer or reduced fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 78,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical data and their relationships, encode the problem as a single exact symbolic expression, simplify it analytically, then evaluate it with unlimited\u2011precision rational arithmetic (no rounding), verify any constraints, and output only the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 26,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, list all given numbers and any percentages/ratios, formulate the minimal exact mathematical model (one expression or the smallest consistent set of equations) that captures every stated relation, solve it with unlimited\u2011precision integer or rational arithmetic (no approximation), confirm that the solution satisfies every condition, and output solely the final result, reduced to an integer or lowest\u2011terms fraction.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric datum, convert any units or percentages, encode all stated relationships into the simplest exact formula or minimal consistent system, solve it using arbitrary\u2011precision integer/fraction arithmetic (no rounding), verify that all original conditions hold, and output only the final value (as an integer when whole, otherwise as a reduced\u2011terms fraction).",
+      "train_score": 0.9655172413793104,
+      "train_step": 74,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, list every explicit number and the way it is linked to others, form the minimal exact algebraic expression or smallest consistent set of equations that fulfills all stated relations, compute the value using unlimited\u2011precision integer/rational arithmetic (no rounding), confirm that all constraints hold, and output only the final answer\u2014as an integer if whole, otherwise as a reduced\u2011terms fraction.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numeric facts, encode every relationship as the smallest exact formula or system, compute it using unlimited\u2011precision rational arithmetic (no rounding), verify all given constraints, and output only the final result (integer or reduced fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 66,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Systematically list every given quantity, translate the described relationships into the minimal exact arithmetic formula(s), solve them with unlimited\u2011precision rational computation (no rounding), verify all constraints, and output only the final numeric answer (integer or lowest\u2011terms fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 63,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, list every explicit numeric datum (including percentages, rates, or ratios) and its stipulated relation; translate these into the single most compact exact algebraic expression or the minimal consistent system of equations, carry out the computation with exact arbitrary\u2011precision integer or fraction arithmetic (no approximations), check that all original constraints are met, and output solely the resulting integer or reduced fraction.",
+      "train_score": 0.9425287356321839,
+      "train_step": 99,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every stated number and its explicit relationships, build the simplest exact computation (a single formula or the minimal system of equations) that satisfies all conditions, evaluate it with unlimited\u2011precision integer or fraction arithmetic (no rounding), confirm the solution meets every constraint, and output only the final integer or reduced\u2011fraction result.",
+      "train_score": 0.9578544061302682,
+      "train_step": 99,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers and the relationships among them, construct the most compact exact algebraic representation (single formula or minimal equation system) that satisfies every condition, compute the value with arbitrary\u2011precision integer/rational arithmetic (no rounding), confirm the solution meets all constraints, and return only the final result (integer or lowest\u2011terms fraction).",
+      "train_score": 0.9386973180076629,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers and their connections, build the minimal exact formula (or system) that captures the problem, compute it with unlimited\u2011precision rational arithmetic (no approximations), check all conditions, and output only the resulting integer or lowest\u2011terms fraction.",
+      "train_score": 0.9616858237547893,
+      "train_step": 71,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity and its explicit relationships, translate the whole problem into the minimal exact algebraic expression (or smallest consistent system), solve it using unlimited\u2011precision rational arithmetic (no rounding or approximation), confirm that all stated conditions are satisfied, and output only the final numeric answer\u2014integer when whole, otherwise reduced to lowest\u2011terms fraction.",
+      "train_score": 0.9616858237547893,
+      "train_step": 42,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8160919540229885,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric fact and its stated relationship, encode the problem as the simplest exact algebraic expression or minimal system of equations that uniquely satisfies all constraints, simplify symbolically, evaluate using arbitrary\u2011precision integer\u2011or\u2011rational arithmetic (no approximation), confirm the solution meets every condition, and output only the final result \u2014 an integer when whole, otherwise the reduced fraction, with no extra text.",
+      "train_score": 0.39846743295019155,
+      "train_step": 99,
+      "test_score": 0.3980288097043215,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9120545868081881,
+    "avg_test_score": 0.8745442073721075,
+    "best_test_instruction": "Extract all numerical data and the explicit relationships, harmonize any units or rates, build the sole exact algebraic expression (or smallest consistent set of equations) that embodies the complete problem, compute its value with arbitrary\u2011precision rational arithmetic, verify every original condition, and output only the final number (as an integer or a reduced fraction)."
+  }
+}

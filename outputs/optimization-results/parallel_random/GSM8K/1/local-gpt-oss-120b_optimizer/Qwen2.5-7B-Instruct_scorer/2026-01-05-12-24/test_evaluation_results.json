@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem, showing the key calculations, and finish with the answer presented as a lone number.",
+      "train_score": 0.972972972972973,
+      "train_step": 1,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem logically, displaying each calculation, and conclude with the answer as a single number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show each calculation (expr=val) line by line, then output only the final number.",
+      "train_score": 0.972972972972973,
+      "train_step": 58,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the problem step\u2011by\u2011step, showing every intermediate equation on a separate line. Conclude with one line that consists solely of the final integer answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 24,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show the key calculations required, then output only the final numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise reasoning of the solution, followed by the final answer as a single number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly explain the approach, then for each arithmetic step write the exact expression followed by \u201c=\u201d, its value, each on its own line in execution order. After the last step output a single line containing only the final numeric answer with no extra characters.",
+      "train_score": 0.9594594594594594,
+      "train_step": 34,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Perform the required calculations, explicitly showing each intermediate result, then output only the final answer as a bare number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 2,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain briefly how to solve the problem. Then, for each arithmetic operation required, write the exact formula, a single \u201c=\u201d, and its computed value on its own line, in the order the operations are performed. Finally, write a line that contains only the final integer result, with no extra characters.",
+      "train_score": 0.9864864864864865,
+      "train_step": 86,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short explanation of the approach. Then for each necessary arithmetic step write the exact expression, a space, \u201c=\u201d, a space, and its computed value on its own line, in the order the calculations are carried out. End with one line that contains only the final integer answer\u2014nothing else.",
+      "train_score": 0.9594594594594594,
+      "train_step": 68,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly describe the reasoning, then enumerate each arithmetic step in the exact order needed using the format \u201c<expression> \u2192 <value>\u201d. After all steps, output only the final answer as a bare number on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 40,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain briefly, then list every arithmetic operation as \u201c<expression> = <result>\u201d on its own line in the order performed. After the last line write only the final numeric answer on a new line with no other characters.",
+      "train_score": 0.9594594594594594,
+      "train_step": 16,
+      "test_score": 0.8498862774829417,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly state the solving idea. Then, for each arithmetic step, write the full expression followed by a single equals sign and its evaluated result, each on a separate line in the order they are performed. Conclude with one line that contains just the final numeric answer, nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 93,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the method briefly. Then list each required calculation on its own line as \u201c<expression> \u21d2 <result>\u201d in the exact order the operations are performed. End with a line that contains only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 97,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief outline of the solution, then for every arithmetic step write the exact expression followed by \u201c=\u201d, a space, and its computed result on a separate line in the order performed. After listing all steps, output one line that contains only the final numeric answer with no additional characters.",
+      "train_score": 0.9594594594594594,
+      "train_step": 64,
+      "test_score": 0.8074298711144806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u202fby\u202fstep. For every arithmetic operation write the full expression, a single \u201c=\u201d, and its calculated value on its own line, preserving the exact order of computation. After the final operation, output one line that contains only the final numeric answer as a plain number, with no extra symbols or text.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.7460197119029568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief plan, then for each necessary arithmetic operation write the full formula, a single \u2018=\u2019, and its value on its own line, preserving the exact order of evaluation. After the last such line output one line containing only the final numeric result, without any surrounding text or symbols.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.6959818043972706,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly describe the approach. Then, for every required arithmetic operation write the complete expression, a single colon, a space, and its computed value on its own line, in the exact order the calculations are performed. Conclude with one line that contains only the final numeric answer, with no extra characters.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.6853677028051555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the solving idea in one sentence. Then, for each required computation, write the full formula exactly as it is evaluated, followed by a single \u201c=\u201d, a space, and the computed result, each on its own line in the order the calculations are performed. Finally, place the final answer on a new line by itself with no other characters.",
+      "train_score": 0.7567567567567568,
+      "train_step": 99,
+      "test_score": 0.6588324488248674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the main idea in one brief sentence. Then, for every arithmetic operation required, write the complete expression, a single \u201c=\u201d, and its computed value on its own line, preserving the exact order of computation. Conclude with one line that contains only the final numeric answer\u2014no other words or symbols.",
+      "train_score": 0.6351351351351351,
+      "train_step": 99,
+      "test_score": 0.4943138741470811,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.8211848803205891,
+    "best_test_instruction": "Solve the problem, showing the key calculations, and finish with the answer presented as a lone number."
+  }
+}

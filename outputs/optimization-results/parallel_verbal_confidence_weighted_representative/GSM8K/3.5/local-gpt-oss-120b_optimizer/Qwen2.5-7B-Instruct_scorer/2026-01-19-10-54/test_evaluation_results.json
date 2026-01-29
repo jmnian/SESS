@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all given numbers (and units), label each with a brief variable, convert to a common unit if needed, construct ONE exact, fully\u2011parenthesized arithmetic expression that directly computes the required quantity, evaluate it step\u2011by\u2011step showing the operation and intermediate result, optionally verify by back\u2011substitution, and finish with only the final numeric answer followed by a short statement that it meets the problem.",
+      "train_score": 0.9425287356321839,
+      "train_step": 35,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each number (with unit), give it a concise label, and if units differ convert them to a single consistent system. Form ONE exact, fully\u2011parenthesized formula that directly computes the required quantity. Compute the formula sequentially, writing every intermediate line as \u201cStep\u202fi: <operation> = <value>\u201d. Finally output only the final number together with a short sentence such as \u201cThus the answer is X, which fulfills the problem.\u201d",
+      "train_score": 0.946360153256705,
+      "train_step": 70,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to list every quantity with its unit, assign each a clear variable name, convert all quantities to consistent units, construct the single exact expression that yields the required value, evaluate it step\u2011by\u2011step showing each intermediate result and the operation performed, briefly verify the result by substituting back into the context, and finish with only the final numeric answer plus a short statement that it satisfies the original question.",
+      "train_score": 0.9425287356321839,
+      "train_step": 26,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all given numbers with their units, convert them to compatible units if necessary, then construct the single precise arithmetic formula (including parentheses) that directly answers the question. Evaluate this formula in a clear, ordered sequence, showing each intermediate value and briefly explaining the operation used, and conclude with only the final numeric result together with a concise confirmation that it meets the problem\u2019s requirement.",
+      "train_score": 0.9501915708812261,
+      "train_step": 20,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, record each given number (and its unit) as a brief variable, convert all to a single consistent unit if necessary, then formulate one completely parenthesised arithmetic formula that yields the asked quantity. Compute the formula step\u2011by\u2011step, prefixing each line with \u201cStep\u202fk:\u201d, showing the operation and the resulting value. Conclude with a line that contains only the final number followed by a short confirmation such as \u201cThus the answer satisfies the problem\u201d.",
+      "train_score": 0.9425287356321839,
+      "train_step": 95,
+      "test_score": 0.8688400303260045,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities (including units), give each a concise label, bring everything to the same unit, formulate a single, fully parenthesized calculation that directly gives the requested value, compute it line\u2011by\u2011line showing the operation and intermediate result, confirm that the result meets the original statement, and output only the final numeric answer with a brief affirmation.",
+      "train_score": 0.946360153256705,
+      "train_step": 30,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number and its unit, convert quantities to compatible units when needed, express the problem as the single exact arithmetic computation that directly yields the requested value, perform the calculation step\u2011by\u2011step showing each intermediate result, and finish with only the final numeric answer accompanied by a brief statement confirming it satisfies the original question.",
+      "train_score": 0.9386973180076629,
+      "train_step": 17,
+      "test_score": 0.8635329795299469,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity mentioned, label them with brief identifiers, harmonize units if necessary, then formulate a single, completely parenthesized expression that computes the answer. Compute this expression step\u2011by\u2011step, writing each line as \u201c\u2192 <operation> = <value>\u201d, and conclude with a line that contains only the final numeric result together with a concise statement confirming it meets the problem\u2019s demand.",
+      "train_score": 0.9501915708812261,
+      "train_step": 46,
+      "test_score": 0.8605003790750568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum (including its unit), give each a brief label, and if needed convert all to a single consistent unit. Form ONE fully\u2011parenthesized arithmetic expression that directly computes the quantity asked for. Evaluate the expression step\u2011by\u2011step, recording each intermediate result as \u201cStep\u202fk: <label> = <value>\u201d. Conclude with a line that contains only the final numeric answer and a short affirmation (e.g., \u201c\u2705 answer satisfies the problem\u201d).",
+      "train_score": 0.946360153256705,
+      "train_step": 98,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, record each given number (with unit) as a brief variable, harmonize units if needed, and construct a single fully\u2011parenthesized formula that directly computes the asked quantity. Compute the formula step\u2011by\u2011step, prefixing each line with \u201cStep\u202fk:\u201d and showing the operation performed together with its result. Conclude with a line that contains only the final numeric answer and a concise affirmation (e.g., \u201cConfirmed.\u201d).",
+      "train_score": 0.9425287356321839,
+      "train_step": 97,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, give each a short label, and, when units differ, convert them to a common unit. Build one fully\u2011parenthesized arithmetic formula using those labels that equals the quantity asked for. Compute the formula in logical order, outputting each intermediate computation as \u201cStep\u202fk: <label> = <value>\u201d. Finish with a line that contains only the final number followed by a brief confirmation such as \u201cAnswer satisfies the problem\u201d.",
+      "train_score": 0.9616858237547893,
+      "train_step": 98,
+      "test_score": 0.8544351781652767,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each numeric datum with its unit, assign a short identifier, and, if needed, convert all to a common unit system. Form one completely parenthesized exact calculation using those identifiers that yields the requested quantity. Compute the calculation sequentially, writing each line as \u201cStep\u202fk: <identifier> = <value>\u201d together with the operation performed. After the last step output only the final numeric result followed by a brief confirmation such as \u201cThis is the answer required.\u201d.",
+      "train_score": 0.9501915708812261,
+      "train_step": 90,
+      "test_score": 0.8544351781652767,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (and its unit) from the problem, give each a brief label, convert all quantities to a common unit if needed, then write ONE fully\u2011parenthesized arithmetic formula using those labels that directly computes the asked value. Evaluate the formula line\u2011by\u2011line, prefixing each intermediate result with \u201c\u2192\u201d, and after the last line output only the final numeric answer followed by a short statement (e.g., \u201cThis satisfies the problem\u201d).",
+      "train_score": 0.946360153256705,
+      "train_step": 75,
+      "test_score": 0.8514025777103866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value (including its unit) in the problem, assign each a short symbol, convert to a common unit if needed, then write ONE fully\u2011parenthesized arithmetic expression that yields the requested quantity. Evaluate the expression sequentially, listing each intermediate result as \u201c\u2192 <operation> = <value>\u201d. Finish with a line that contains only the final number followed by a brief confirmation (e.g., \u201cAnswer satisfies the question\u201d).",
+      "train_score": 0.9157088122605364,
+      "train_step": 99,
+      "test_score": 0.8476118271417741,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers (and their units), convert them to compatible units, and construct one exact arithmetic expression that directly gives the asked quantity. Evaluate this expression step\u2011by\u2011step, listing each intermediate result together with a short note of the operation used, then output only the final numeric answer followed by a brief sentence confirming it meets the original requirement.",
+      "train_score": 0.9501915708812261,
+      "train_step": 21,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number (and its unit), assign a brief label, convert to a single unit system if needed. Write ONE completely parenthesised formula with those labels that equals the required result. Compute the formula step\u2011by\u2011step, listing each intermediate value beside the operation that produced it. Conclude with a line that contains only the final numeric answer and a short confirmation (e.g., \u201cAnswer satisfies the problem\u201d).",
+      "train_score": 0.89272030651341,
+      "train_step": 99,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each given quantity with its unit, assign a brief identifier, and if needed convert everything to the same unit system. Using those identifiers write one completely parenthesised formula that equals the quantity asked for. Compute the formula in order, writing each step as \u201cStep\u202fn: <operation> \u2192 <value>\u201d. End with a line that contains only the final number followed by a short confirmation such as \u201cAnswer satisfies the question.\u201d",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Transform the word problem into one explicit arithmetic sentence that uses all given quantities (labelled with short symbols) and directly produces the asked value. Evaluate that sentence in order, writing each operation and its result on a separate line (format: operation \u2192 value). Conclude with a line that contains only the final numeric result followed by a brief affirmation that it satisfies the question.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers (and units) in the statement. If units differ, convert them to a single system. Write one fully\u2011parenthesized arithmetic formula that directly computes the required result, inserting the actual numbers instead of symbols. Evaluate the formula step\u2011by\u2011step, listing each operation and its resulting value. Conclude with a line that contains only the final numeric answer and a short phrase confirming it satisfies the question.",
+      "train_score": 0.8544061302681992,
+      "train_step": 99,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8467432950191571,
+      "train_step": -1,
+      "test_score": 0.8165276724791509,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value (and its unit) in the problem, assign each a short identifier, convert to a common unit if needed, then write ONE fully\u2011parenthesized arithmetic expression that directly yields the asked\u2011for quantity. Evaluate the expression sequentially, putting each intermediate result on its own line prefixed with \u201c#\u201d, and finish with a single line containing only the final number followed by a brief statement that it satisfies the original question.",
+      "train_score": 0.8237547892720306,
+      "train_step": 99,
+      "test_score": 0.7854435178165277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.88855193328279,
+    "avg_test_score": 0.8490920249828514,
+    "best_test_instruction": "Extract all given numbers (and units), label each with a brief variable, convert to a common unit if needed, construct ONE exact, fully\u2011parenthesized arithmetic expression that directly computes the required quantity, evaluate it step\u2011by\u2011step showing the operation and intermediate result, optionally verify by back\u2011substitution, and finish with only the final numeric answer followed by a short statement that it meets the problem."
+  }
+}

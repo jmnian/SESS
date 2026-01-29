@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "List all numerical values and units, convert them to compatible units, write a single minimal arithmetic expression that directly gives the requested quantity, compute it step\u2011by\u2011step showing each intermediate result, perform a quick consistency check, and output only the final answer on its own line (including units if needed).",
+      "train_score": 0.9594594594594594,
+      "train_step": 10,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, convert to consistent units if needed, write the minimal direct formula that yields the required result, compute it showing each intermediate step, verify the magnitude, and output only the final numeric answer (with unit) on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 38,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every quantitative datum (including units). Decide what the problem asks for. Convert all quantities to a single consistent unit. Construct the minimal single arithmetic clause that computes the desired quantity. Compute it, presenting each intermediate outcome on its own line prefixed by the operation. Verify the magnitude intuitively. Finally, print only the final number (and its unit) on one line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 65,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number with its unit. Convert to a common unit if necessary. State the target quantity. Construct one minimal arithmetic expression that directly yields the target. Evaluate it step\u2011by\u2011step, listing each intermediate result on a separate line. Verify the magnitude makes sense. Finally print only the final numeric answer (including its unit) on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 56,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (with unit), convert all to a common unit, express the unknown as the most compact arithmetic relation to the knowns, compute the relation step\u2011by\u2011step showing each intermediate value, sanity\u2011check the outcome, and finally print only the final answer (with unit) on a single line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 15,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numeric datum (with units) given, decide the unknown to find, convert all values to consistent units, then write the shortest direct arithmetic expression that yields the unknown. Calculate it, listing each intermediate result on its own line labeled by the operation, verify the magnitude makes sense, and finally print only the final answer (with unit) on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 63,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given quantity, formulate the single most direct arithmetic expression that yields the desired result, evaluate it step\u2011by\u2011step while showing each intermediate value, perform a quick plausibility check, and output only the final answer (including units if any) on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 7,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every given number (including its unit). Convert all quantities to a common unit if they differ. Formulate the single simplest arithmetic statement that directly computes the asked value. Evaluate this statement stepwise, recording each intermediate result on its own line with a brief label. Check that the result is reasonable, then output only the final number (with unit when appropriate) on one line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 63,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract all numbers (with units) from the problem.  \n- Identify the exact quantity to be found.  \n- Build the minimal arithmetic expression that directly gives that quantity (convert units only if they differ).  \n- Evaluate the expression step\u2011by\u2011step, writing each intermediate value on a separate line and labeling the operation.  \n- Do a brief sanity check.  \n- Print only the final numeric answer (including its unit, if any) on one line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 59,
+      "test_score": 0.8718726307808946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (and units), rewrite the problem to pinpoint the exact unknown, construct a single concise arithmetic expression that yields that unknown, compute it line by line labeling each operation, perform a quick sanity check, and write only the final numeric result (with its unit) on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 26,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities (numbers with units) from the problem. Determine the unknown to be solved. Convert any differing units to a common system. Form a single, most\u2011direct algebraic expression that computes the unknown from the extracted quantities. Evaluate this expression step by step, writing each intermediate value on its own line together with the operation performed. Perform a quick plausibility check, then print only the final numeric result (including its unit, if any) on one line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 69,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each numeric value (with units) from the problem. Identify the quantity being asked. Convert all values to a common unit if necessary. Write one direct arithmetic expression that yields the desired quantity, then evaluate it, showing every intermediate result on its own line prefixed by the operation performed. Perform a quick sanity check, then output only the final result (with unit) on a single line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 96,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum (including units). Convert disparate units if necessary. Write the single arithmetic formula that yields the asked quantity, then evaluate it, listing each intermediate result on its own line prefixed by the operation performed. After a brief plausibility check, output only the final numeric answer with its unit on a separate line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 23,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given quantities (numeric values with their units). Define the unknown variable. Derive the most concise formula that relates the unknown to the extracted quantities. Compute the formula step\u2011by\u2011step, labelling each line with the performed operation. Verify the magnitude makes sense. Return only the final result (with unit) on one line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 57,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nExtract every numeric value (including units). Identify the target quantity. Write a single compact formula that gives the target from the extracted values (convert units if necessary). Evaluate the formula step\u2011by\u2011step, listing each intermediate result. Do a brief plausibility check. Finally, print only the final answer (with unit) on its own line.\\n",
+      "train_score": 0.9459459459459459,
+      "train_step": 52,
+      "test_score": 0.8589840788476119,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number (with its unit), convert to compatible units, construct the shortest possible formula that directly yields the required quantity, evaluate it step\u2011by\u2011step while listing each intermediate value, perform a quick plausibility check, and finally print only the final answer (including unit if applicable) on a separate line with no extra text.",
+      "train_score": 0.9459459459459459,
+      "train_step": 11,
+      "test_score": 0.8582259287338894,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Write down each number appearing in the text (and its unit).  \n- Clarify the quantity to be found.  \n- Build the simplest possible formula that connects the target to the listed numbers (apply unit conversions if required).  \n- Compute the formula step\u2011by\u2011step, showing every intermediate result on its own line.  \n- Do a brief sanity check.  \n- Finally, print only the final value (with unit) on a single line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 35,
+      "test_score": 0.8544351781652767,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each numeric value together with its unit.  \n- Transform all values to a common unit when they differ.  \n- State clearly the quantity required.  \n- Compose a single, minimal arithmetic formula that computes that quantity from the recorded numbers.  \n- Evaluate the formula step\u2011by\u2011step, writing each intermediate result on its own line and labeling the operation performed.  \n- Do a brief sanity check, then print only the final answer (with unit) on one line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 68,
+      "test_score": 0.8423047763457164,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Scan the problem and write down all quantities with their units.  \n- If units differ, convert them to a common unit.  \n- Construct the shortest possible mathematical expression that links the unknown to the known quantities.  \n- Carry out the calculation, displaying every intermediate value on its own line.  \n- Do a brief sanity check against the story.  \n- Finally, print only the resulting value (and unit if applicable) on a line by itself.",
+      "train_score": 0.9459459459459459,
+      "train_step": 12,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record every numeric datum (include unit).  \n- State clearly the quantity to be found.  \n- Build the shortest possible single arithmetic formula that gives that quantity from the recorded numbers (perform any needed unit conversion beforehand).  \n- Evaluate the formula step\u2011by\u2011step, writing each intermediate value on its own line prefixed by the operation symbol (+, \u2013, \u00d7, \u00f7).  \n- Do a quick plausibility check.  \n- Output only the final numeric result with its unit on one line, nothing else.",
+      "train_score": 0.5405405405405406,
+      "train_step": 99,
+      "test_score": 0.5784685367702805,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8847611827141774,
+    "avg_test_score": 0.8523773421423156,
+    "best_test_instruction": "List all numerical values and units, convert them to compatible units, write a single minimal arithmetic expression that directly gives the requested quantity, compute it step\u2011by\u2011step showing each intermediate result, perform a quick consistency check, and output only the final answer on its own line (including units if needed)."
+  }
+}

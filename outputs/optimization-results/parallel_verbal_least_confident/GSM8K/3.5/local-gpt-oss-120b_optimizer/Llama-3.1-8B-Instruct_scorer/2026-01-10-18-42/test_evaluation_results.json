@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem attentively, list the given quantities, determine the required arithmetic operation(s), compute step\u2011by\u2011step, and output only the final numeric answer.",
+      "train_score": 0.89272030651341,
+      "train_step": 1,
+      "test_score": 0.8589840788476119,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant numbers, determine the necessary arithmetic steps, execute the calculations with clear reasoning, and present only the final numeric answer.",
+      "train_score": 0.8812260536398467,
+      "train_step": 1,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given quantities, translate the scenario into a clear mathematical formula, compute the result stepwise, and present only the final number as your answer.",
+      "train_score": 0.8697318007662835,
+      "train_step": 2,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem methodically: read the question, perform the required calculations with clear steps, and provide only the final numeric answer.",
+      "train_score": 0.8697318007662835,
+      "train_step": 0,
+      "test_score": 0.8301743745261562,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, formulate the appropriate arithmetic equation using the given numbers, solve it, and return only the final numeric answer.",
+      "train_score": 0.8812260536398467,
+      "train_step": 1,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical information (integers, fractions, percentages, units), translate each into an exact plain number, set up any necessary equations, solve them using exact arithmetic (apply rounding only if the statement explicitly demands it), and output solely the final answer as a single number on its own line, with no extra words, symbols, or units.",
+      "train_score": 0.8659003831417624,
+      "train_step": 53,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including percentages, fractions, and unit statements), convert each to an exact number, determine the precise arithmetic or simple equation required, compute the result with full exactness (round only if the problem explicitly says so), and output only the final answer as a single plain number on its own line, without any units or extra words.",
+      "train_score": 0.8850574712643678,
+      "train_step": 83,
+      "test_score": 0.8157695223654283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (including fractions, percentages, and units), convert them to exact numbers, determine the required calculation, compute it precisely without rounding unless instructed, and output only the final result as a plain number on a single line.",
+      "train_score": 0.8812260536398467,
+      "train_step": 41,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical value in the question, convert percentages, fractions or units into plain numbers, construct the minimal necessary arithmetic formula, evaluate it exactly, and respond with only the resulting number.",
+      "train_score": 0.8620689655172413,
+      "train_step": 2,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Scan the question for all quantitative data, convert percentages, fractions and unit statements into pure numbers, determine the exact calculation required (including solving simple equations if needed), carry out the computation with full precision (keep exact fractions until the end), and write only the final answer as a single numeral on its own line.",
+      "train_score": 0.8697318007662835,
+      "train_step": 80,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every number mentioned (including fractions, percents, and units), translate each into its exact numeric value, determine the exact computation the problem requires, execute it with full precision (no rounding unless instructed), and return only the final result as a single integer or reduced fraction on its own line\u2014no extra words, symbols, or units.",
+      "train_score": 0.8237547892720306,
+      "train_step": 99,
+      "test_score": 0.8059135708870356,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, pull out all numbers (including fractions and percents), represent them as exact values, formulate the precise arithmetic expression implied, evaluate it exactly, and reply with only the computed number on its own line.",
+      "train_score": 0.8697318007662835,
+      "train_step": 18,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, convert any percentages, fractions or unit specifications into plain numbers, determine the exact arithmetic required, compute it precisely (keeping exact values until the final step), and output only the final result as a single number with no extra words, symbols, or units.",
+      "train_score": 0.8659003831417624,
+      "train_step": 6,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity in the prompt (including percentages, fractions, and units), convert them to exact numbers, construct the required arithmetic or algebraic expression, evaluate it with full precision (round only if explicitly instructed), and output solely the final answer as a plain number (integer or reduced fraction) on a single line with no extra words or symbols.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.800606520090978,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every quantitative value, transform fractions, percentages, and unit statements into plain numbers, determine the exact calculation required, compute it with full precision, and output only the final numeric result on a single line.",
+      "train_score": 0.8620689655172413,
+      "train_step": 9,
+      "test_score": 0.799090219863533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given numeric quantity, convert percentages, fractions and unit references into plain numbers, formulate the exact arithmetic expression implied, carry out the calculation without intermediate rounding (unless specified), and output solely the final value as a single number.",
+      "train_score": 0.8659003831417624,
+      "train_step": 24,
+      "test_score": 0.7983320697498104,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (including percentages, fractions, and units), convert them to exact numbers, determine the precise arithmetic or equation implied, compute the result using exact arithmetic (keep fractions until the end, round only if explicitly required), and return only the final answer\u2014an integer or a reduced fraction\u2014on a single line with no other characters.",
+      "train_score": 0.8199233716475096,
+      "train_step": 99,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value given, convert each to its exact quantity, determine the exact computation the problem requires, evaluate it with full precision (round only if explicitly instructed), and output solely the final result as a single integer or reduced fraction on one line\u2014no units, symbols, or extra words.",
+      "train_score": 0.8007662835249042,
+      "train_step": 99,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact value asked for: convert every quantity given (including percentages, fractions, and units) to numbers, perform the required arithmetic or solve the implied equation with full precision (round only if the problem says so), and output only the final integer or reduced fraction on a single line\u2014no words, symbols, or explanations.",
+      "train_score": 0.8122605363984674,
+      "train_step": 99,
+      "test_score": 0.7816527672479151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7624521072796935,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities in the prompt, translate them to exact numbers, compute the required result using exact arithmetic (no rounding unless explicitly required), and reply with ONLY the final answer presented as an integer or, if non\u2011integral, as a reduced fraction on a single line\u2014no words, symbols, or units.",
+      "train_score": 0.7586206896551724,
+      "train_step": 99,
+      "test_score": 0.7043214556482184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8589840788476119,
+    "avg_test_score": 0.8042889635004874,
+    "best_test_instruction": "Read the problem attentively, list the given quantities, determine the required arithmetic operation(s), compute step\u2011by\u2011step, and output only the final numeric answer."
+  }
+}

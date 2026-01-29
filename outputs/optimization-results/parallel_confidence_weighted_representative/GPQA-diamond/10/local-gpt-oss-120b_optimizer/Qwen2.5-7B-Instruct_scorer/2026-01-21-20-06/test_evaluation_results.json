@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the correct choice (A\u2011D). Then produce a response consisting of exactly one line containing that letter alone, without any surrounding whitespace or additional characters. Terminate the output right after the letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 97,
+      "test_score": 0.37373737373737376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, deduce the solution through logical or quantitative reasoning, and reply solely with the correct choice label (A, B, C, or D), omitting any explanation.",
+      "train_score": 0.42105263157894735,
+      "train_step": 3,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Carefully work through the problem using the relevant concepts or calculations, then output only the single correct answer letter (A, B, C, or D).",
+      "train_score": 0.42105263157894735,
+      "train_step": 1,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the correct option (A\u2011D). Respond with exactly that letter, nothing else\u2014no spaces, line breaks, or punctuation before or after it.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem statement carefully, analyze the given information, and select the option (A, B, C, or D) that correctly answers the question.",
+      "train_score": 0.47368421052631576,
+      "train_step": 0,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After deciding the correct option (A\u2011D), write a brief rationale (\u226412 words) on the line above, then output a single line containing only the answer letter. No other characters or blank lines are allowed.",
+      "train_score": 0.47368421052631576,
+      "train_step": 81,
+      "test_score": 0.3484848484848485,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the reasoning in no more than 15 words. Then on a new line output the correct choice letter (A\u2011D) enclosed between two vertical bars (e.g., |B|) with no additional characters. End the response immediately after the closing bar.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Carefully examine the problem, apply the necessary reasoning or calculations, and output only the correct choice letter (A, B, C, or D) with no additional text.",
+      "train_score": 0.42105263157894735,
+      "train_step": 2,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Think through the problem step\u2011by\u2011step, then output only the single correct choice letter (A, B, C, or D) as the entire response, without any explanation, symbols, or extra characters.",
+      "train_score": 0.42105263157894735,
+      "train_step": 3,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State a short rationale (\u2264\u202f15\u202fwords). Then, on the next line, write exactly one uppercase letter A\u2011D that is the answer, with no extra characters. End output after that letter.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise justification (\u2264\u202f20\u202fwords), then on the next line output only the correct choice letter (A\u2011D). Include no other characters or whitespace.",
+      "train_score": 0.47368421052631576,
+      "train_step": 61,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Select the right answer (A\u2011D). Your entire reply must consist of that one uppercase character alone\u2014no whitespace, line breaks, punctuation, quotes, or other symbols before or after it. Stop right after the letter.",
+      "train_score": 0.2631578947368421,
+      "train_step": 99,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and make your entire response consist solely of the correct answer letter (A, B, C, or D) \u2014 no other symbols, spaces, or text.",
+      "train_score": 0.47368421052631576,
+      "train_step": 13,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with only the single correct answer choice (A, B, C, or D). Do not include any additional characters, whitespace, or explanation.",
+      "train_score": 0.47368421052631576,
+      "train_step": 52,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief justification (\u226412\u202fwords). On the next line output the correct answer letter A\u2011D enclosed in double quotes (\"A\"-\"D\") with no other characters or spaces, and stop immediately after the closing quote.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, give a brief justification, then on a separate line output exactly one uppercase letter (A\u2011D) that is the correct answer\u2014nothing else may appear on that line.",
+      "train_score": 0.47368421052631576,
+      "train_step": 37,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a brief explanation (max\u202f8\u202fwords). Then on a new line write the correct choice letter (A\u2011D) surrounded by double asterisks \u202f with no extra characters or whitespace. Stop immediately after the second asterisk.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, write a brief (\u226412\u2011word) explanation, then on the following line output ONLY the correct choice letter (A\u2011D) with no surrounding characters or spaces. End the response immediately after that letter.",
+      "train_score": 0.47368421052631576,
+      "train_step": 82,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.21052631578947367,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Think through the problem, then output two lines: first a concise justification (no more than 12 words), second a single uppercase letter A\u2011D that is the correct answer, with no other characters or spaces. End the response right after that letter.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "After solving, give a brief justification (\u226420\u202fwords) and then output the correct answer as a single uppercase letter A\u2011D enclosed in parentheses, with no other characters.",
+      "train_score": 0.47368421052631576,
+      "train_step": 73,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.37373737373737376,
+    "avg_test_score": 0.33213083213083217,
+    "best_test_instruction": "Determine the correct choice (A\u2011D). Then produce a response consisting of exactly one line containing that letter alone, without any surrounding whitespace or additional characters. Terminate the output right after the letter."
+  }
+}

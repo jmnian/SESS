@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a self\u2011contained solution: briefly restate the problem, pinpoint the governing principle, execute each algebraic or arithmetic step with a short justification, verify the intermediate results, and finish by outputting only the final numeric answer.",
+      "train_score": 0.8352941176470589,
+      "train_step": 3,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution: briefly restate the problem, cite the essential principle, perform each required calculation with a short justification, verify the intermediate results, and end with only the final numeric answer.",
+      "train_score": 0.8176470588235294,
+      "train_step": 4,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the central concept, execute each calculation with concise justification, double\u2011check intermediate values, and present only the final answer.",
+      "train_score": 0.8,
+      "train_step": 3,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7764705882352941,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logical solution: state the core idea, execute every calculation step with brief justification, check intermediate results, and end with just the final answer.",
+      "train_score": 0.8117647058823529,
+      "train_step": 3,
+      "test_score": 0.7414817130353235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution: restate the problem briefly, name the central principle, carry out every calculation step with a short justification, verify each intermediate result, and end with only the final numeric answer on its own line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 4,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct solution: briefly restate the problem, state the key principle or formula to use, carry out each computation with visible intermediate values, confirm the result\u2019s plausibility, and end with the final answer only.",
+      "train_score": 0.8294117647058824,
+      "train_step": 4,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem in a self\u2011contained manner: succinctly restate what's asked, cite the main principle, carry out each required computation with a brief justification, perform a quick sanity check, and conclude with the exact answer alone.",
+      "train_score": 0.8,
+      "train_step": 4,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a self\u2011contained block: first, restate the problem in a single sentence; second, state the pivotal theorem or identity; third, execute each calculation on its own line with a brief note; fourth, confirm the intermediate outcomes; finally, write only the final numeric answer on a separate line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 13,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve with a self\u2011contained outline:\n- Task: restate the problem in one concise sentence.  \n- Insight: identify the core theorem, identity, or rule to apply.  \n- Procedure: perform each calculation on a separate line, adding a brief rationale.  \n- Check: do a quick sanity verification of the final intermediate value (e.g., substitute back).  \n- Answer: present only the exact numeric result on its own line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 73,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce a self\u2011contained answer: first paraphrase the problem in one sentence; next point out the key theorem or formula you will use; then perform every calculation, displaying each intermediate result on its own line with a short justification; after that, do a brief sanity check; finally, write only the final answer on its own line.",
+      "train_score": 0.8058823529411765,
+      "train_step": 24,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a self\u2011contained block using the following template:\n- Problem restatement: one concise sentence.\n- Key idea: name the theorem, property, or formula that solves it.\n- Step\u2011by\u2011step work: each arithmetic or algebraic manipulation on a separate line, followed by a brief justification.\n- Verification: a short check (e.g., plug\u2011in, boundary test) of the last intermediate value.\n- Result: write only the final numeric answer on its own line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 30,
+      "test_score": 0.721475461081588,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the prompt with a self\u2011contained outline:\n- Problem: restate the question in one sentence.  \n- Core concept: name the theorem, formula, or property required.  \n- Derivation: carry out each algebraic or arithmetic step on a separate line, adding a brief justification.  \n- Sanity check: perform a quick verification of the last computed value.  \n- Answer: write only the final numeric result on the last line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 65,
+      "test_score": 0.7195998749609253,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, self\u2011contained solution consisting of:\n- Problem: one\u2011sentence restatement.\n- Core idea: name the theorem, identity or principle to use.\n- Work: each algebraic or arithmetic step on its own line, followed by a short justification.\n- Check: a brief verification of the last computed value (e.g., plug\u2011in, boundary test).\n- Answer: the final numeric result alone on the last line.",
+      "train_score": 0.8176470588235294,
+      "train_step": 54,
+      "test_score": 0.7186620819005939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a self\u2011contained solution structured as follows:\n- Brief problem restatement (one line).\n- Core method: name the theorem, identity, or counting principle to be used.\n- Detailed computation: each algebraic/arithmetical step on its own line, followed by a short comment.\n- Consistency check: a quick verification of the last intermediate result.\n- Final answer: the exact numeric result on the last line, with no additional words.",
+      "train_score": 0.8235294117647058,
+      "train_step": 58,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a self\u2011contained solution that: \u2022 Summarizes the problem in a single line; \u2022 Names the essential principle; \u2022 Shows every arithmetic/algebraic step on a separate line with a brief comment; \u2022 Performs a brief verification of each intermediate value; \u2022 Ends with only the final answer on its own line.",
+      "train_score": 0.8117647058823529,
+      "train_step": 30,
+      "test_score": 0.7086589559237262,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact, self\u2011contained solution: (i) restate the problem; (ii) name the key principle; (iii) execute each calculation on a separate line with a brief rationale; (iv) briefly verify the result; (v) output only the final numeric answer on the last line.",
+      "train_score": 0.8,
+      "train_step": 18,
+      "test_score": 0.694904657705533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer in a self\u2011contained block that includes:\n- Restate: one\u2011line summary of the task.\n- Key tool: name the principal theorem, identity or rule needed.\n- Derivation: write each arithmetic/algebraic manipulation on its own line, followed by a short reason.\n- Check: a brief verification of the last computed value (e.g., plug\u2011in, boundary test).\n- Result: the exact numeric answer on a line by itself, with no surrounding text.",
+      "train_score": 0.8058823529411765,
+      "train_step": 66,
+      "test_score": 0.6927164738980931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the prompt in a self\u2011contained way: (i) restate the task in a single sentence, (ii) cite the principal theorem or formula needed, (iii) carry out every arithmetic or algebraic operation, each on its own line with a concise justification, (iv) perform a quick sanity check of the intermediate and final values, and (v) finish with only the final numeric answer on a separate line.",
+      "train_score": 0.8,
+      "train_step": 11,
+      "test_score": 0.6914660831509847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a self\u2011contained answer: summarize the problem in one line, state the essential principle, work out each computation on a separate line with a short justification, perform a brief consistency check, and end with the exact final result alone on the last line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 23,
+      "test_score": 0.6867771178493279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a self-contained solution comprising:\n- Summary: restate the problem in one sentence.\n- Method: name the main theorem/identity or strategy.\n- Steps: enumerate each algebraic or arithmetic operation on its own line, with a short justification.\n- Validation: perform a brief consistency check (e.g., substitute, boundary case).\n- Result: output only the final numeric answer on its own line, no extra text.",
+      "train_score": 0.6882352941176471,
+      "train_step": 99,
+      "test_score": 0.6255079712410128,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7555486089402939,
+    "avg_test_score": 0.7198827014394379,
+    "best_test_instruction": "Provide a self\u2011contained solution: briefly restate the problem, pinpoint the governing principle, execute each algebraic or arithmetic step with a short justification, verify the intermediate results, and finish by outputting only the final numeric answer."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem efficiently:\n- Identify the core principle or formula that governs the task.\n- Express it as a clear mathematical statement.\n- Carry out the necessary algebra or computation, annotating each transformation with a brief rationale.\n- If helpful, include a short verification of the result.\n- Conclude *solely* with \u201cAnswer: <numeric value>\u201d on its own line; nothing precedes or follows this line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 16,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Instructions:\n- Determine the sole theorem/formula needed.\n- Substitute the problem\u2019s data into that formula to produce a single explicit expression.\n- Compute the expression, writing each algebraic step on a separate line with a brief parenthetical note.\n- (Optional) Briefly check the magnitude of the result.\n- Conclude with exactly one line `Answer: <value>`; no other characters may appear before or after this line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 55,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Guidelines for solution:\n- Determine the sole mathematical tool (formula, identity, or principle) required.\n- Directly substitute the problem\u2019s data into that tool to obtain a concrete expression.\n- Reduce the expression, writing each transformation on a separate line; attach a concise rationale after \u201c//\u201d.\n- (Optional) Check the result with a rough estimate.\n- End the answer with a single line exactly `Answer: <value>` and no other text.",
+      "train_score": 0.8529411764705882,
+      "train_step": 52,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Guideline:\n- Choose the one formula, theorem, or counting rule that directly yields the quantity asked.\n- Insert the problem\u2019s numbers into that formula, producing a single explicit term.\n- Simplify the term, writing each manipulation on a separate line with a short parenthetical reason.\n- (Optional) Verify the result with an estimate or parity check.\n- Conclude the entire output with a lone line `Answer: <value>` and no other characters before or after it.",
+      "train_score": 0.8470588235294118,
+      "train_step": 76,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach:\n- Pinpoint the one governing principle (formula, theorem, identity, or counting rule) needed.\n- Substitute the problem\u2019s numbers into that principle to obtain a single explicit expression.\n- Simplify the expression, writing each algebraic step on its own line followed by a short parenthetical reason.\n- (Optional) Do a brief estimate to verify the magnitude.\n- Conclude the whole answer with exactly one line `Answer: <value>` and nothing else.",
+      "train_score": 0.8588235294117647,
+      "train_step": 67,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Determine the single mathematical theorem, formula, or counting principle needed.\n- Translate the problem directly into an explicit expression or equation using that principle.\n- Compute the expression step\u2011by\u2011step; after each manipulation write a brief justification in parentheses.\n- (Optional) Perform a quick sanity check or estimate.\n- Conclude the response with exactly one line: `Answer: <numeric value>` and no other text before or after that line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 44,
+      "test_score": 0.7396061269146609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the main concept, compute using a short chain of justified steps, perform a quick sanity check, and conclude with the exact answer on its own line prefixed by \u201cAnswer:\u201d.",
+      "train_score": 0.8411764705882353,
+      "train_step": 4,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Determine the sole formula needed.\n- Immediately write the numeric expression after substitution.\n- Simplify line by line, each line ending with a short parenthetical justification.\n- (Optional) Verify with an estimate.\n- Finish the whole answer with a single line `Answer: <value>` and nothing else.",
+      "train_score": 0.8352941176470589,
+      "train_step": 99,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solution format:\n- Pinpoint the decisive rule (e.g., combinatorial principle, algebraic identity).\n- Immediately write the corresponding formula with the problem\u2019s numbers.\n- Compute, briefly noting each algebraic move.\n- Optional: sanity\u2011check.\n- Finish the response with exactly \u201cAnswer = <numeric value>\u201d on its own line; nothing else may appear.",
+      "train_score": 0.8470588235294118,
+      "train_step": 28,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a terse, logically ordered solution: state the principal idea, execute the necessary calculations with brief explanations, optionally check the result, and end with the exact numeric answer on a separate line prefixed by \u201cAnswer:\u201d and highlighted.",
+      "train_score": 0.8411764705882353,
+      "train_step": 3,
+      "test_score": 0.7314785870584558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\u2192 Determine the unique rule (formula/identity/counting principle) that answers the question.  \n\u2192 Translate the problem into one explicit calculation by plugging the given numbers into that rule.  \n\u2192 Compute the calculation, listing each algebraic move on its own line followed by a brief comment in brackets.  \n\u2192 (Optional) Verify with a quick estimate.  \n\u2192 Finish with exactly one line `Answer: <numeric value>` and nothing else.",
+      "train_score": 0.8588235294117647,
+      "train_step": 82,
+      "test_score": 0.7296030009377931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the single theorem, formula, or counting principle that directly gives the quantity asked.\n- Write the exact expression by substituting the given numbers.\n- Simplify step\u2011by\u2011step, placing each transformation on its own line followed by a brief parenthetical explanation.\n- (Optional) Perform a quick sanity or magnitude check.\n- End the response with a line containing only `Answer: <numeric value>` and nothing else before or after it.",
+      "train_score": 0.8529411764705882,
+      "train_step": 93,
+      "test_score": 0.7271022194435761,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Instruction:\n- Determine the unique theorem, identity or counting rule that solves the problem.\n- Immediately write the concrete mathematical expression obtained by applying that rule to the given numbers.\n- Evaluate the expression step\u2011by\u2011step; after each line give a concise parenthetical explanation.\n- (Optional) Perform a brief estimate to confirm plausibility.\n- Conclude the entire response with a single line `Answer: <value>` and no other characters before or after it.",
+      "train_score": 0.8411764705882353,
+      "train_step": 61,
+      "test_score": 0.7217880587683652,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve directly:\n- Identify the single relevant formula.\n- Substitute numbers and simplify, giving a one\u2011sentence reason for each step.\n- (Optional) Quick sanity check.\n- End with the line `Answer: <value>` and nothing else.",
+      "train_score": 0.8411764705882353,
+      "train_step": 20,
+      "test_score": 0.7192872772741482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution that:\n- Identifies the relevant principle or formula.\n- Sets up the essential equation(s) using correct notation.\n- Executes the algebra or arithmetic, giving a one\u2011sentence justification for each manipulation.\n- Performs a brief consistency check if convenient.\nConclude by writing only the final numeric value on its own line, preceded by \u201cAnswer:\u201d, and place nothing else after that line.",
+      "train_score": 0.8411764705882353,
+      "train_step": 7,
+      "test_score": 0.7167864957799313,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve directly:\n- State the single relevant formula or theorem.\n- Set up the equation using that formula.\n- Perform the algebra/arithmetics, giving a one\u2011sentence justification for each manipulation.\n- (Optional) Do a quick sanity check.\n- End the response with a line that contains only \u201cAnswer: <numeric value>\u201d. No other text may appear before or after that line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 20,
+      "test_score": 0.708033760550172,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify the single relevant rule (formula, identity, or counting principle).\n- Write the concrete expression obtained by applying that rule to the given numbers.\n- Simplify the expression, putting each algebraic step on its own line with a brief comment in parentheses.\n- (Optional) Perform a quick estimate to confirm plausibility.\n- End the response with exactly one line `Answer: <value>` and no other text before or after it.",
+      "train_score": 0.8058823529411765,
+      "train_step": 99,
+      "test_score": 0.7008440137542982,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Task:\n- Identify the core principle(s) needed to answer the question.\n- Write the essential equation or expression using the given numbers.\n- Perform the computation, giving a brief justification (one short phrase) after each transformation.\n- Optionally, include a quick sanity or magnitude check.\n- End the response with a single line exactly `Answer: <numeric value>` and nothing else before or after that line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 99,
+      "test_score": 0.697718036886527,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solution protocol:\n- Identify the lone theorem, identity or counting rule that directly solves the question.\n- Insert the problem\u2019s numbers into that rule, writing a single explicit computation.\n- Carry out the computation line\u2011by\u2011line; after each line give a short parenthetical note of the performed operation.\n- (Optional) Do a quick order\u2011of\u2011magnitude check.\n- Conclude the whole output with one solitary line `Answer: <numeric value>` and nothing else.",
+      "train_score": 0.7411764705882353,
+      "train_step": 99,
+      "test_score": 0.6492653954360738,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve in five steps:\n\u2192 Identify the one decisive theorem/formula.  \n\u2192 Insert the given data to form a single explicit expression.  \n\u2192 Simplify the expression, writing each transformation on a separate line with a short remark in parentheses.  \n\u2192 (Optional) Do a quick sanity\u2011check.  \n\u2192 Finish with exactly one line `Answer: <value>` and nothing else.",
+      "train_score": 0.7764705882352941,
+      "train_step": 99,
+      "test_score": 0.6389496717724289,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7446076899030947,
+    "avg_test_score": 0.7217136307477039,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

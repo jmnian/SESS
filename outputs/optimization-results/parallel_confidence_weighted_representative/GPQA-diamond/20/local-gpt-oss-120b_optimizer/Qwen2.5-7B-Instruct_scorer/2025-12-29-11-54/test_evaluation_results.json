@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the prompt, isolate the key data and question, select the relevant theory, perform the calculation or reasoning step\u2011by\u2011step, then compare the final value (with appropriate precision) to every listed choice, discard the mismatches, and reply with just the correct option\u2019s letter.",
+      "train_score": 0.48717948717948717,
+      "train_step": 14,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the key principle, compute the required result, discard all answer choices that do not match, and output the single remaining option letter.",
+      "train_score": 0.46153846153846156,
+      "train_step": 8,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core concept the question tests, apply the appropriate knowledge to evaluate each answer choice, discard options that contradict the concept, and select the remaining correct answer.",
+      "train_score": 0.46153846153846156,
+      "train_step": 1,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential information, compute the required value (including units or sign as needed), locate the single answer choice that matches this value exactly, and output only that option\u2019s letter.",
+      "train_score": 0.46153846153846156,
+      "train_step": 24,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what the question seeks, calculate the exact result (with correct sign and units), compare it against every answer choice, eliminate all that do not match, and output only the single remaining option\u2019s letter.",
+      "train_score": 0.46153846153846156,
+      "train_step": 41,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.46153846153846156,
+      "train_step": 4,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the question\u2019s requirement, compute the solution using the relevant principle, then identify the single multiple\u2011choice option that matches this result and output only its letter.",
+      "train_score": 0.48717948717948717,
+      "train_step": 10,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "1. Parse the question and note the quantity or statement to be determined.  \n2. Solve for that quantity using the relevant theory, keeping proper units and sign.  \n3. Compare the obtained value with each option (A\u2011D) and discard any that differ.  \n4. The single remaining option is the answer; output only its letter.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.3076923076923077,
+      "train_step": -1,
+      "test_score": 0.2878787878787879,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, extract the needed data, compute the precise result using the appropriate formulae (including any corrections), compare this result with every answer option, discard all non\u2011matching ones, and return only the letter of the single correct choice.",
+      "train_score": 0.46153846153846156,
+      "train_step": 15,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the key scientific principle, infer the result it predicts, and then choose the answer option that best matches that result while discarding the inconsistent ones.",
+      "train_score": 0.4358974358974359,
+      "train_step": 1,
+      "test_score": 0.2828282828282828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the problem\u2019s central requirement, perform the necessary reasoning or calculation, then select the only answer choice that satisfies that result; output just the option letter.",
+      "train_score": 0.46153846153846156,
+      "train_step": 8,
+      "test_score": 0.2777777777777778,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the underlying concept the question probes, carry out the required calculation or logical inference (including units and sign), double\u2011check that the result satisfies the original condition, find the option that matches this result exactly, and output only its letter.",
+      "train_score": 0.46153846153846156,
+      "train_step": 23,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity or conclusion the question seeks, compute it correctly, find the single answer choice that matches your result exactly, and respond with only that option\u2019s letter (A\u2011D), without any additional text.",
+      "train_score": 0.46153846153846156,
+      "train_step": 92,
+      "test_score": 0.2727272727272727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem carefully, pull out all relevant information, apply the correct scientific or mathematical reasoning to obtain the answer, compare the computed result with each answer choice, discard any that do not match, and output only the single correct option letter (A\u2011D) with no additional text.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve for the quantity the problem asks, applying the correct method with the needed precision, compare the result to each answer choice, and output only the single matching option letter (A\u2011D) with no additional text.",
+      "train_score": 0.38461538461538464,
+      "train_step": 99,
+      "test_score": 0.20202020202020202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the essential information, solve the problem with the appropriate reasoning or calculation, and respond only with the single correct answer choice\u2019s letter (A\u2011D), without any extra text.",
+      "train_score": 0.48717948717948717,
+      "train_step": 60,
+      "test_score": 0.17676767676767677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, compute the required result using the appropriate method, compare it to each answer choice, and reply with only the single matching option letter (A\u2011D), omitting any additional text.",
+      "train_score": 0.15384615384615385,
+      "train_step": 99,
+      "test_score": 0.1717171717171717,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the answer, then output its choice letter only.",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.16666666666666666,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the question using the appropriate method, compare your answer to each listed choice, and reply with only the matching option letter (A\u2011D), nothing else.",
+      "train_score": 0.10256410256410256,
+      "train_step": 99,
+      "test_score": 0.15656565656565657,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, determine the value or decision it seeks, compute or infer it, locate the matching answer among the choices, and output only the corresponding letter (A\u2011D), nothing else.",
+      "train_score": 0.23076923076923078,
+      "train_step": 99,
+      "test_score": 0.15656565656565657,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3434343434343434,
+    "avg_test_score": 0.2621452621452621,
+    "best_test_instruction": "Read the prompt, isolate the key data and question, select the relevant theory, perform the calculation or reasoning step\u2011by\u2011step, then compare the final value (with appropriate precision) to every listed choice, discard the mismatches, and reply with just the correct option\u2019s letter."
+  }
+}

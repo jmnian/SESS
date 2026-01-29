@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 39,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, determine the correct option (A\u2011D). If you give a justification, write exactly one sentence (\u226420 words) on the line immediately before the answer. Then output only the chosen letter on the final line\u2014no spaces, punctuation, or extra characters. No further text may follow.",
+      "train_score": 0.41025641025641024,
+      "train_step": 69,
+      "test_score": 0.36363636363636365,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, apply the necessary reasoning or calculation, and state a brief one\u2011sentence justification. On the next line write Answer: followed by the correct choice letter (A\u2011D) with no extra characters. No text should appear after this final line.",
+      "train_score": 0.41025641025641024,
+      "train_step": 22,
+      "test_score": 0.35858585858585856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve the task and, if you wish, give a brief justification enclosed in parentheses. On the following line output exactly one capital letter A\u2011D representing the answer, with no other characters, spaces, or punctuation. The answer line must be the final line of your response.\\n",
+      "train_score": 0.41025641025641024,
+      "train_step": 58,
+      "test_score": 0.35353535353535354,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the question using the necessary analysis or computation. If you give an explanation, keep it to a single sentence placed above the answer. The last line of your response must consist solely of the chosen option letter (A, B, C, or D) without any surrounding whitespace or symbols.",
+      "train_score": 0.41025641025641024,
+      "train_step": 19,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, perform any necessary reasoning or calculation, and if you give a justification write exactly one sentence (\u226415 words) on the line immediately before the answer. Then output on the final line only the correct option letter (A, B, C, or D) with no other characters, spaces, or punctuation. Nothing may follow the answer line.",
+      "train_score": 0.41025641025641024,
+      "train_step": 48,
+      "test_score": 0.3434343434343434,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, perform any necessary calculations or reasoning, and determine the unique correct option among A\u2011D. Write a brief (\u226420\u2011word) explanation on a separate line if you wish, then place the answer letter alone on the final line\u2014no spaces, punctuation, or extra text may follow.",
+      "train_score": 0.41025641025641024,
+      "train_step": 26,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nIf you wish to explain, write a single sentence inside square brackets on the line directly before the answer. Then write on the next line ONLY the correct choice letter (A\u2011D) with no other characters, spaces or punctuation. No further output may follow this line.\\n",
+      "train_score": 0.41025641025641024,
+      "train_step": 74,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Examine the question, use the needed scientific or logical reasoning (including any required calculations) to find the one correct option among A\u2011D, give a single\u2011sentence justification, and then output only the selected letter on a line by itself with no extra text or symbols.",
+      "train_score": 0.38461538461538464,
+      "train_step": 3,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem statement carefully, identify the core scientific principle involved, and select the correct answer option (A, B, C, or D). Provide a concise explanation that links the chosen option to the relevant concept or calculation. Finally, state the answer clearly.",
+      "train_score": 0.38461538461538464,
+      "train_step": 0,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem. If you give a justification, write one sentence (\u226420\u202fwords) on its own line before the answer. Then output only a single capital letter A\u2011D on the last line\u2014no spaces, punctuation, labels, or extra characters. No text may follow that line.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the single correct choice (A\u2011D) using the necessary reasoning or calculation. Give a concise one\u2011sentence justification, then on the next line output only the selected letter with no extra characters, spaces, or punctuation.",
+      "train_score": 0.38461538461538464,
+      "train_step": 8,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.1282051282051282,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, perform any required reasoning or calculations, and state the rationale in one brief sentence. Then, on a new line, write only the correct answer choice (A\u2011D) with no extra characters, spaces, or punctuation\u2014the answer line must be the very last line of your response.",
+      "train_score": 0.41025641025641024,
+      "train_step": 14,
+      "test_score": 0.30303030303030304,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer the question by selecting the correct option (A\u2011D). If you include a rationale, write it as a single sentence (\u226420 words) on the line directly above the answer. The final line must consist of exactly one capital letter (A, B, C, or D) and nothing else\u2014no spaces, punctuation, symbols, or trailing newline characters after it. No other output is allowed.",
+      "train_score": 0.358974358974359,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem using the required analysis or computation. If you give a rationale, limit it to one sentence (\u226420\u202fwords) on the line right before the answer. Then output exactly one character\u2014the correct option letter A, B, C, or D\u2014on the final line, with no spaces, punctuation, or extra text.",
+      "train_score": 0.41025641025641024,
+      "train_step": 34,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, carry out the needed reasoning, and select the correct option (A\u2011D). If you provide an explanation, write a single sentence (no more than 20 words) on the line immediately above the answer. The final line of your response must contain only the chosen capital letter, with no spaces, punctuation, or other characters.",
+      "train_score": 0.41025641025641024,
+      "train_step": 76,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "If you wish, write a single justification (\u226420\u202fwords) on the line directly before the answer. Then write only the capital letter of the correct choice (A\u2011D) on the last line\u2014no labels, spaces, punctuation, or other characters may appear.",
+      "train_score": 0.3076923076923077,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide, if you wish, a single\u2011sentence justification (\u226420\u202fwords) on its own line. Then on the next line output only the selected answer letter (A\u2011D) with no other characters, spaces, or punctuation. No additional text may appear before or after these two lines.",
+      "train_score": 0.28205128205128205,
+      "train_step": 99,
+      "test_score": 0.21717171717171718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a concise (\u226420\u202fwords) justification on its own line if you wish; then on the next line output only the correct option letter (A\u2011D) with no surrounding characters. No additional text may follow.",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.21212121212121213,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a one\u2011sentence justification (\u226420\u202fwords) on its own line if desired, then on the next line write only the correct option letter (A\u2011D) with no other characters. If no justification is given, start directly with the answer letter. No further text may follow.",
+      "train_score": 0.20512820512820512,
+      "train_step": 99,
+      "test_score": 0.20202020202020202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide at most one short justification (no more than 15\u202fwords) on its own line, then on the following line output only the correct option letter (A\u2011D). No other text may appear before or after these two lines.",
+      "train_score": 0.1794871794871795,
+      "train_step": 99,
+      "test_score": 0.18181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.36363636363636365,
+    "avg_test_score": 0.3008658008658009,
+    "best_test_instruction": "Read the problem, determine the correct option (A\u2011D). If you give a justification, write exactly one sentence (\u226420 words) on the line immediately before the answer. Then output only the chosen letter on the final line\u2014no spaces, punctuation, or extra characters. No further text may follow."
+  }
+}

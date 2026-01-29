@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "diamond",
+  "num_test_questions": 198,
+  "num_train_questions": 19,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Output exactly one uppercase letter A\u2011D that is the correct choice. No other characters, spaces, line breaks, or markup are allowed. Only if the prompt explicitly asks for an explanation (contains the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d, case\u2011insensitive) may you append a single space followed by a justification of eight words or fewer. End the response immediately after the last character.",
+      "train_score": 0.42105263157894735,
+      "train_step": 99,
+      "test_score": 0.3383838383838384,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Your response must consist of a single uppercase letter (A\u2011D) denoting the correct choice. Include no other characters, spaces, or line breaks. If the prompt explicitly requests a justification, add a brief sentence after a single space.",
+      "train_score": 0.47368421052631576,
+      "train_step": 18,
+      "test_score": 0.3333333333333333,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with the single uppercase letter (A\u2011D) that is the correct answer. Output nothing else\u2014not even spaces, line breaks, or punctuation. If the question explicitly requests a rationale, append a single space followed by one concise sentence.",
+      "train_score": 0.47368421052631576,
+      "train_step": 29,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ": Respond with exactly one uppercase letter A\u2011D, the correct choice. Do not include any other characters, spaces, line breaks, or markdown. Only if the question explicitly asks for an explanation (e.g., contains \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, \u201creason\u201d) may you add a single space followed by a brief justification of no more than 15 words.",
+      "train_score": 0.47368421052631576,
+      "train_step": 53,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide the answer as a single capital letter A\u2011D. Do not include any other characters, spaces, line breaks or markdown. Only if the question explicitly asks for a justification (e.g., contains \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, \u201creason\u201d) may you add one space followed by a brief explanation of no more than fifteen words.",
+      "train_score": 0.47368421052631576,
+      "train_step": 56,
+      "test_score": 0.3282828282828283,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single uppercase letter A\u2011D that is the correct answer. No other characters, whitespace, or formatting may appear. Only when the question includes the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d (case\u2011insensitive) may you follow the letter with one space and a brief justification not exceeding seven words, containing no punctuation. Terminate the output immediately after the last character.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output a single capital letter A\u2011D that correctly answers the question. No other symbols, spaces, line breaks, or formatting may appear. If the question includes any of the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d (case\u2011insensitive), you may follow the letter with one space and a short justification limited to six words. Stop output immediately after the final character.",
+      "train_score": 0.3157894736842105,
+      "train_step": 99,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer with exactly one uppercase letter (A\u2011D) denoting the correct choice\u2014no spaces, line breaks, punctuation, or other characters before or after it. Include a brief one\u2011sentence justification only if the question explicitly asks for an explanation, separated from the letter by a single space.",
+      "train_score": 0.47368421052631576,
+      "train_step": 24,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nGive the answer as a single capital letter A\u2011D. Do not include any other characters, whitespace, or formatting. Only if the prompt asks for an explanation, follow the letter with one space and a brief sentence.\\n",
+      "train_score": 0.47368421052631576,
+      "train_step": 41,
+      "test_score": 0.32323232323232326,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output a single capital letter A\u2011D that correctly answers the question. Do not output any other characters, spaces, line breaks, or markup. If and only if the prompt contains any of the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d (case\u2011insensitive), append one space followed by a justification of at most eight words. End the response immediately after the last character.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with exactly one character\u2014the correct option (A,\u202fB,\u202fC,\u202for\u202fD). Do not include any surrounding whitespace, line breaks, or punctuation. Add a concise one\u2011sentence justification only if the question explicitly asks for an explanation, separating it from the letter with a single space.",
+      "train_score": 0.47368421052631576,
+      "train_step": 22,
+      "test_score": 0.3181818181818182,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with the sole uppercase answer choice (A\u2011D). Include nothing else\u2014no spaces, line breaks, or punctuation\u2014unless the problem explicitly asks for a rationale, in which case add a brief explanation after a single space.",
+      "train_score": 0.47368421052631576,
+      "train_step": 18,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer with exactly one uppercase letter (A\u2011D). Do not include any other characters, spaces, line breaks, or markdown. Only when the question explicitly requests a justification (e.g., contains \u201cjustify\u201d, \u201cexplain\u201d, or asks for a reason) should you follow the letter with a single space and a brief one\u2011sentence explanation (no more than 15 words).",
+      "train_score": 0.47368421052631576,
+      "train_step": 46,
+      "test_score": 0.31313131313131315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.15789473684210525,
+      "train_step": -1,
+      "test_score": 0.30808080808080807,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one uppercase letter A\u2011D that is the correct answer, and nothing else. Do not include any leading or trailing whitespace, line breaks, punctuation, or markdown. Only if the question explicitly asks for a justification (e.g., contains \u201cjustify\u201d, \u201cexplain\u201d, or \u201creason\u201d), append a single space followed by a concise one\u2011sentence explanation (no more than 15 words).",
+      "train_score": 0.47368421052631576,
+      "train_step": 47,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Your entire response must be just one character \u2013 the correct answer choice A\u2011D. Do not surround it with whitespace, newline, punctuation, or markdown. Only if the question explicitly asks for a justification should you place a single space after the letter and then a brief (\u226415\u2011word) explanatory sentence.",
+      "train_score": 0.47368421052631576,
+      "train_step": 52,
+      "test_score": 0.30808080808080807,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly one uppercase letter A\u2011D that is the correct choice. Do not output any other characters, spaces, line breaks, punctuation, or markup before or after the letter. If the question contains any of the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d (case\u2011insensitive), you may follow the letter with a single space and a concise justification of ten words or fewer. Terminate the output immediately after the final character.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with exactly one uppercase letter (A\u2011D) and nothing else. Do not add spaces, line breaks, or punctuation before or after the letter. If and only if the question explicitly requests a rationale, append a single space followed by a concise explanation.",
+      "train_score": 0.47368421052631576,
+      "train_step": 18,
+      "test_score": 0.29797979797979796,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with a single uppercase letter A\u2011D that correctly answers the question. No other characters, whitespace, or formatting may appear. Only if the prompt contains any of the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d (case\u2011insensitive) may you add one space followed by a justification of at most eight words. End the response immediately after the last character you output.",
+      "train_score": 0.5263157894736842,
+      "train_step": 93,
+      "test_score": 0.29292929292929293,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly one capital letter A\u2011D that is the correct answer. Output nothing else\u2014no spaces, line breaks, punctuation, or markdown. If the prompt contains any of the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d (case\u2011insensitive), you may follow the letter with a single space and a short justification of at most six words. End the output immediately after the last character you produce.",
+      "train_score": 0.47368421052631576,
+      "train_step": 99,
+      "test_score": 0.2878787878787879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with exactly one capital letter A\u2011D that is the correct answer. Output nothing else\u2014no spaces, line breaks, punctuation, or markup. If the prompt contains any of the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d or \u201creason\u201d (case\u2011insensitive), you must follow the letter with a single space and a concise justification of ten words or fewer. End the response immediately after the last character you produce.",
+      "train_score": 0.3684210526315789,
+      "train_step": 99,
+      "test_score": 0.26262626262626265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.3383838383838384,
+    "avg_test_score": 0.31313131313131315,
+    "best_test_instruction": "Output exactly one uppercase letter A\u2011D that is the correct choice. No other characters, spaces, line breaks, or markup are allowed. Only if the prompt explicitly asks for an explanation (contains the words \u201cexplain\u201d, \u201cjustify\u201d, \u201cwhy\u201d, or \u201creason\u201d, case\u2011insensitive) may you append a single space followed by a justification of eight words or fewer. End the response immediately after the last character."
+  }
+}

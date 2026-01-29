@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every numeric datum (whole numbers, fractions, percentages, or unit\u2011based rates), convert non\u2011integers to exact rationals and perform any needed unit conversions, infer the sole integer expression the problem requires, evaluate it with complete exact arithmetic (no rounding), verify it satisfies all stated conditions, and output only that integer answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 45,
+      "test_score": 0.9196360879454132,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, translate any fractions, percentages or rates into exact rational terms, infer the one required integer expression, evaluate it without rounding, validate against the problem statement, and output solely the integer result.",
+      "train_score": 0.972972972972973,
+      "train_step": 37,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value in the prompt, express each as an exact rational, construct the unique integer that satisfies all given conditions, compute it using strictly exact arithmetic, verify that all constraints hold, and output only that integer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text, pull every numeric term, convert any non\u2011integer forms to exact rational values, determine the single integer expression that resolves the question, compute it exactly, ensure it satisfies all given conditions, and return just that integer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 37,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every quantity, translate fractions, percentages and rates into exact arithmetic, deduce the single integer computation that answers the question, perform it with full precision, validate against the problem conditions, and return only that integer.",
+      "train_score": 0.972972972972973,
+      "train_step": 37,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and their units, infer the single required arithmetic (including any necessary unit\u2011conversion), carry out the exact calculation, verify it matches the problem conditions, and output only the final integer answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 32,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities mentioned, transform any fractions, percentages or rates into exact rational numbers, formulate the unique integer that satisfies every condition using only exact arithmetic, validate all constraints, and return that integer alone.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical datum, rewrite each as an exact fraction, deduce the sole integer that meets all the given conditions, compute it with pure rational arithmetic, double\u2011check every constraint, and output only that integer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Enumerate every numeric fact, turn any fractions, percentages or rates into exact values, formulate the simplest equation or arithmetic expression that yields the required integer, solve it with exact integer arithmetic, verify it satisfies all given conditions, and output only that integer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 52,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, list all numerical statements (including fractions, percentages, rates, and units), convert each to an exact rational value, build the simplest set of equations or direct computation that satisfies every condition, solve using exact arithmetic (no approximation), confirm the solution meets all constraints, and output only the resulting integer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 75,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every number (including fractions, percents, rates, units) present, rewrite each as a fraction, build the exact algebraic expression that the problem implies, evaluate it with pure rational arithmetic, check that all statements are satisfied, and return only the final integer value.",
+      "train_score": 0.9864864864864865,
+      "train_step": 97,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric expression, express fractions, percentages and rates as exact rationals, devise the simplest equation(s) that capture all relationships, solve for the unique integer that fulfills every condition, verify the result against all statements, and output only that integer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 75,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, change any fractions, percentages or unit rates into exact numeric values, infer the unique integer calculation that fulfills all the stated relationships, compute it with perfect precision, verify that it satisfies every condition, and output only that integer result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 41,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every numeric element in the prompt (integers, fractions, percentages, rates, units), rewrite each as an exact rational number, formulate the unique integer that satisfies all given relationships using only exact (non\u2011approximated) arithmetic, confirm that all conditions hold, and output that integer alone.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity stated, rewrite each as an exact fraction, formulate the precise mathematical condition(s) implied, solve rigorously for the unique integer that satisfies all conditions, double\u2011check the solution, and output that integer alone.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value (integers, fractions, percentages, rates, units) from the prompt, rewrite each as an exact rational number, infer the unique integer that satisfies all relationships, compute it using exact arithmetic, confirm all constraints, and output only that integer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 87,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its relational clue, infer the single minimal arithmetic expression that answers the question, compute it exactly, verify it fits the scenario, and output only the final integer result.",
+      "train_score": 0.972972972972973,
+      "train_step": 28,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeral appearing (integers, fractions, percents, rates, units), turn each into its exact rational value, write the precise mathematical condition(s) the text imposes, solve analytically for the single integer that meets all of them, check the result against every statement, and output only that integer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the variables implied by the story, write a single equation that captures all given relationships, solve the equation exactly for the integer asked, double\u2011check the solution against every statement, and output just that integer.",
+      "train_score": 0.972972972972973,
+      "train_step": 51,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numeric quantity in the problem, rewrite it as an exact rational, construct the simplest exact computation that fulfills all stated conditions, evaluate it with precise (no\u2011rounding) arithmetic, confirm all constraints are met, and output only the final integer.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9196360879454132,
+    "avg_test_score": 0.8999241849886277,
+    "best_test_instruction": "Extract every numeric datum (whole numbers, fractions, percentages, or unit\u2011based rates), convert non\u2011integers to exact rationals and perform any needed unit conversions, infer the sole integer expression the problem requires, evaluate it with complete exact arithmetic (no rounding), verify it satisfies all stated conditions, and output only that integer answer."
+  }
+}

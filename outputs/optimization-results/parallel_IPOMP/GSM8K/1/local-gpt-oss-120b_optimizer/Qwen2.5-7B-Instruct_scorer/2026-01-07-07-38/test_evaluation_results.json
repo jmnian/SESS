@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem carefully, devise a concise solution strategy, execute calculations as needed, and provide the final answer in a clear and direct manner without extraneous commentary.",
+      "train_score": 0.918918918918919,
+      "train_step": 1,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8378378378378378,
+      "train_step": 7,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8918918918918919,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...some new instruction...",
+      "train_score": 0.8513513513513513,
+      "train_step": 49,
+      "test_score": 0.8203184230477635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.7837837837837838,
+      "train_step": 55,
+      "test_score": 0.8097043214556482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using arithmetic reasoning and return just the final integer answer.",
+      "train_score": 0.8783783783783784,
+      "train_step": 1,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...some instruction...",
+      "train_score": 0.8378378378378378,
+      "train_step": 21,
+      "test_score": 0.8081880212282032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...some instruction text...",
+      "train_score": 0.7432432432432432,
+      "train_step": 76,
+      "test_score": 0.799090219863533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a problem statement and its correct answer, solve the problem while providing a detailed step-by-step solution that leads to the correct answer.",
+      "train_score": 0.8378378378378378,
+      "train_step": 0,
+      "test_score": 0.7975739196360879,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, outline a clear solution plan, and compute the answer step\u2011by\u2011step, providing the final result.",
+      "train_score": 0.9054054054054054,
+      "train_step": 0,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, formulate a short solution plan, perform the necessary calculations, confirm the result, and then print only the final answer on one line (add any unit only if the question explicitly asks for it).",
+      "train_score": 0.8513513513513513,
+      "train_step": 18,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Please provide a solution or answer to the given problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": 0,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Given a problem involving a scenario, provide a clear and concise solution that accurately determines the answer based on the information and context provided in the problem statement.",
+      "train_score": 0.8108108108108109,
+      "train_step": 0,
+      "test_score": 0.7937831690674754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output next: \u00abanswer_string_or_Null\u00bb: preferably a single integer.",
+      "train_score": 0.8918918918918919,
+      "train_step": 0,
+      "test_score": 0.7604245640636846,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the target quantity, perform the necessary computation, double\u2011check the result, and reply with only the exact answer on a single line. Include a unit only when explicitly required. No other text, symbols, or spaces.",
+      "train_score": 0.2972972972972973,
+      "train_step": 99,
+      "test_score": 0.19787717968157695,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Interpret the question, carry out the required calculation, verify the result, and respond with only the final numeric answer on a single line\u2014no explanations, symbols, or extra whitespace. Include a unit only if the problem explicitly asks for one.",
+      "train_score": 0.2972972972972973,
+      "train_step": 99,
+      "test_score": 0.18574677786201668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Interpret the question, compute the requested value, verify the result, and reply with exactly that answer on a single line\u2014include a unit only if the problem explicitly asks for one. Do not add any explanations, symbols, or extra whitespace.",
+      "train_score": 0.28378378378378377,
+      "train_step": 99,
+      "test_score": 0.18043972706595907,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Interpret the question, carry out the required calculations, verify the result, and output only the final answer on a single line (add a unit only if the problem explicitly asks for one). No additional commentary.",
+      "train_score": 0.2702702702702703,
+      "train_step": 99,
+      "test_score": 0.177407126611069,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine exactly what is asked, perform the required computation, quickly check the result, and output *only* the final answer on one line (add a unit only if the question explicitly requires it). No other text or symbols.",
+      "train_score": 0.28378378378378377,
+      "train_step": 99,
+      "test_score": 0.17513267626990145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, identify the exact quantity being asked, compute it, verify the calculation, and output only the final answer on a single line (include a unit only if the question explicitly requires one). Do not add any explanations, symbols, or extra whitespace.",
+      "train_score": 0.32432432432432434,
+      "train_step": 99,
+      "test_score": 0.16982562547384383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the question, confirm the result, and output only the final answer on one line\u2014no extra words, symbols, or spaces; include a unit only if explicitly requested.",
+      "train_score": 0.2972972972972973,
+      "train_step": 99,
+      "test_score": 0.16300227445034116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8711144806671721,
+    "avg_test_score": 0.5977111087042853,
+    "best_test_instruction": "Read the problem carefully, devise a concise solution strategy, execute calculations as needed, and provide the final answer in a clear and direct manner without extraneous commentary."
+  }
+}

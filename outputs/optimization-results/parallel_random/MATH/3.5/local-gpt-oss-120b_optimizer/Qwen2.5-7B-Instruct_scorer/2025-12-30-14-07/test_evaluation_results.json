@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Paraphrase the problem in one concise sentence, identify the specific quantity to determine, apply the appropriate theorem or formula while writing each essential algebraic step accompanied by a brief justification, perform a quick verification (e.g., substitute back or check consistency), and conclude with a single line containing only the final numeric answer or simplest exact expression\u2014nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 24,
+      "test_score": 0.7521100343857455,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity sought, apply the single most suitable theorem or formula, and compute only the indispensable steps\u2014listing each intermediate result on its own line with a brief justification. Perform a quick sanity check, then conclude with one line containing solely the final numeric answer or fully simplified exact expression\u2014nothing else.",
+      "train_score": 0.7294117647058823,
+      "train_step": 99,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify what the problem asks for, choose the simplest applicable rule, perform only the necessary calculations (write each intermediate result on its own line with a brief comment), do a quick consistency check, and end with one line that contains only the final numeric value or fully reduced exact expression\u2014nothing else.",
+      "train_score": 0.7588235294117647,
+      "train_step": 43,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly describe what is asked, pick the appropriate theorem or formula, execute the minimal necessary calculations (listing each intermediate result with a short comment), perform a quick consistency check, and finish with exactly one line that contains only the final numeric value or reduced exact expression\u2014no additional characters.",
+      "train_score": 0.7470588235294118,
+      "train_step": 26,
+      "test_score": 0.7421069084088777,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question carefully, determine the quantity sought, apply the appropriate method, outline each essential step with a short comment, verify the result briefly, and finish the response with a single line containing only the final numeric value or simplest exact expression\u2014no additional text.",
+      "train_score": 0.7470588235294118,
+      "train_step": 19,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State precisely the quantity required. Pick the single most direct theorem, identity or counting rule. Compute only the indispensable steps, placing each intermediate result on its own line with a brief (one\u2011sentence) justification. Perform a quick sanity check, then finish with exactly one line that contains only the final numeric answer or fully reduced exact expression\u2014no other text or symbols.",
+      "train_score": 0.7588235294117647,
+      "train_step": 86,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clarify the target quantity, select the minimal\u2011necessary theorem, compute each required intermediate value on a separate line with a one\u2011sentence reason, verify the result quickly, and finish with one line that contains only the final answer (numeric or fully reduced exact form)\u2014nothing else.",
+      "train_score": 0.7647058823529411,
+      "train_step": 69,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what value the problem asks for. Select the simplest applicable principle, then carry out each required computation, listing each intermediate result on its own line with a brief one\u2011sentence justification. Perform a quick consistency check (e.g., plug the result back or compare with a known identity). Conclude by writing only the final numeric answer or fully reduced exact expression on a single line\u2014nothing else.",
+      "train_score": 0.7588235294117647,
+      "train_step": 42,
+      "test_score": 0.7389809315411066,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, restate the quantity to be found. Then, choose the appropriate theorem or formula and execute only the essential calculations, writing each algebraic or geometric step on its own line with a brief justification. After a quick consistency check, output only the final numeric value or simplest exact expression on a single line\u2014no additional text or symbols.",
+      "train_score": 0.7470588235294118,
+      "train_step": 24,
+      "test_score": 0.7339793685526728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the quantity asked for, list the essential computations each with a short inline note, carry them out, do a quick sanity check, and end the reply with exactly one line containing only the final numeric answer or simplest exact expression\u2014nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 22,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the quantity to be found, choose the single most relevant rule or identity, perform only the indispensable calculations (show each intermediate outcome on its own line with a brief label), conduct a quick validation, and conclude with one line containing solely the final integer, reduced fraction or exact expression\u2014no other text.",
+      "train_score": 0.7529411764705882,
+      "train_step": 92,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target quantity, select the core theorem or formula, carry out only the indispensable computations (present each intermediate result on a separate line with a concise justification), do a brief consistency check, and finish with one line that contains exactly the final numeric answer or fully reduced expression\u2014nothing else.",
+      "train_score": 0.7705882352941177,
+      "train_step": 60,
+      "test_score": 0.7258518286964677,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7058823529411765,
+      "train_step": -1,
+      "test_score": 0.7217880587683652,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, determine the target value, select the proper method, carry out only the necessary computations (present each intermediate result with a one\u2011sentence comment), confirm the result quickly, and end the answer with exactly one line that contains solely the final number or reduced exact expression\u2014no additional characters.",
+      "train_score": 0.7470588235294118,
+      "train_step": 29,
+      "test_score": 0.7152235073460457,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the precise value to be found. Select the one most appropriate theorem or formula, then carry out just the indispensable computations, listing each result on a separate line with a brief explanatory note. Perform a rapid sanity check, and finish with a single line that contains *only* the final numeric answer or fully reduced exact expression\u2014nothing else.",
+      "train_score": 0.7235294117647059,
+      "train_step": 99,
+      "test_score": 0.7111597374179431,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity being asked for. Select the single most direct theorem, formula, or counting principle that applies. Carry out only the indispensable computations, writing each intermediate result on its own line with a brief justification (one word or short phrase). Perform a quick sanity check, then conclude with exactly one final line that contains the numeric answer or fully reduced exact expression\u2014no other text or symbols.",
+      "train_score": 0.7058823529411765,
+      "train_step": 99,
+      "test_score": 0.7061581744295092,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem, pinpoint the required value, apply the appropriate theorem or formula, compute each step showing only the necessary intermediate result with a short explanation, perform a quick sanity check, and finish by writing exactly one line that contains the final number or simplest exact expression\u2014nothing else.",
+      "train_score": 0.7529411764705882,
+      "train_step": 16,
+      "test_score": 0.6970928415129728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, determine the exact quantity required, apply the correct formula or logical reasoning, write each necessary computation on its own line together with a one\u2011sentence justification, confirm the result briefly, and end the answer with only the final number or reduced exact expression on a separate line\u2014nothing else.",
+      "train_score": 0.7470588235294118,
+      "train_step": 32,
+      "test_score": 0.6936542669584245,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target value, pick the simplest applicable rule, and carry out only the essential calculations. Write each intermediate result on its own line with a short tag (e.g., \u201ccalc\u201d), then do a quick sanity check. Finish with exactly one line that contains only the final numeric answer or fully reduced exact expression\u2014no other text.",
+      "train_score": 0.6,
+      "train_step": 99,
+      "test_score": 0.6183182244451391,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity requested. Choose the single most direct formula or identity needed. Write each required computation on its own line, prefixed by a brief tag (e.g., \u201cstep\u201d). After the last computation, perform a quick sanity check, then output only one final line containing the numeric result or fully reduced exact expression\u2014no other text.",
+      "train_score": 0.6470588235294118,
+      "train_step": 99,
+      "test_score": 0.6136292591434823,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the precise value sought. Apply the single most suitable rule or formula, executing only the essential operations\u2014record each intermediate result on its own line prefixed by a brief tag (e.g., \u201ccalc\u201d, \u201cuse\u201d). Perform a quick sanity check (plug\u2011in, compare bounds). Conclude with one line that contains only the final numeric answer or fully reduced exact expression\u2014nothing else.",
+      "train_score": 0.5823529411764706,
+      "train_step": 99,
+      "test_score": 0.5954985933104096,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7521100343857455,
+    "avg_test_score": 0.711278822251001,
+    "best_test_instruction": "Paraphrase the problem in one concise sentence, identify the specific quantity to determine, apply the appropriate theorem or formula while writing each essential algebraic step accompanied by a brief justification, perform a quick verification (e.g., substitute back or check consistency), and conclude with a single line containing only the final numeric answer or simplest exact expression\u2014nothing else."
+  }
+}

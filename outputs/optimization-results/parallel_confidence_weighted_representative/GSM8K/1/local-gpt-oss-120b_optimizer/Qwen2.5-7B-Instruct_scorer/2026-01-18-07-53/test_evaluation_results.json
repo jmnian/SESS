@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every numerical fact and its exact connection to the unknown, combine them into one closed\u2011form exact computation that directly produces the answer, evaluate it with precise integer or rational arithmetic (no rounding), perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement, deduce every numeric quantity and how it contributes to the target value, rewrite the whole scenario as a single closed\u2011form calculation that yields the required number, evaluate it with exact arithmetic (no rounding), perform a brief consistency check, and output only the final numeric result.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numerical datum and its exact role, fuse them into the smallest single computation that directly yields the required quantity, evaluate it precisely, perform a quick consistency check with the original statements, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 49,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather each numeric datum and its exact relationship, synthesize the unique minimal expression that directly yields the required result, evaluate it precisely, perform a brief consistency check, and return only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 30,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical facts, convert the described relationships into the smallest possible single arithmetic/algebraic expression that isolates the required quantity, evaluate it step\u2011by\u2011step with brief sanity checks, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 9,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert every stated quantity and its precise relation to the unknown into one compact exact calculation, evaluate it with exact arithmetic (no approximation), do a brief consistency check, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers and their exact relations, combine them into the single minimal computation that directly gives the requested quantity, evaluate it with a brief verification, and output only the final numeric result.",
+      "train_score": 1.0,
+      "train_step": 17,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum and its exact relation, build the single most direct computation that yields the requested value, evaluate it using exact arithmetic, perform a brief sanity check against the original statements, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 27,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric data and their exact interrelations, merge them into the single most reduced algebraic expression that directly solves for the asked quantity, compute the exact value, run a rapid consistency validation, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 44,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity and its precise connection, translate the whole scenario into one compact arithmetic expression that directly computes the required value, evaluate it while performing a quick verification, and output solely the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 23,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather each given number and its precise relationship, synthesize the unique shortest formula that directly computes the requested quantity, evaluate it exactly, perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 30,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate each given number and its precise relationship, combine them into the single simplest formula that directly produces the required value, compute it accurately, perform a quick consistency check, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 30,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number and its exact relational role, fuse them into the sole minimal arithmetic/algebraic expression that yields the asked value, compute it precisely, perform a brief sanity check, and output exclusively the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 49,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each provided number and the precise relationship it participates in, merge them into a single straightforward computation that directly yields the desired quantity, perform a brief validity check, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 19,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given quantity and its exact relationship, combine them into the single smallest closed\u2011form expression that isolates the required value, evaluate it with a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 20,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its precise relation, synthesize a single compact computation that isolates the asked quantity, evaluate it exactly, do a quick verification, and return only the resulting number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 33,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each stated quantity and its explicit relationship, build the minimal single arithmetic expression that directly produces the requested value, evaluate it with a quick sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 16,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given quantity, substitute them into a single compact formula that isolates the target variable, compute the exact value (no rounding), do a quick sanity check, and output only the final number.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Distill the story into a single exact numeric computation that directly yields the requested quantity, perform the calculation with precise (integer or rational) arithmetic, do a brief sanity check against the original data, and output only the final number.",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the word problem into a single precise equation for the unknown using the stated numbers, solve it exactly, verify briefly, and return only the numeric result.",
+      "train_score": 0.21621621621621623,
+      "train_step": 99,
+      "test_score": 0.21228203184230476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9158453373768006,
+    "avg_test_score": 0.8614751435069856,
+    "best_test_instruction": "Identify every numerical fact and its exact connection to the unknown, combine them into one closed\u2011form exact computation that directly produces the answer, evaluate it with precise integer or rational arithmetic (no rounding), perform a brief sanity check, and output only the final numeric result."
+  }
+}

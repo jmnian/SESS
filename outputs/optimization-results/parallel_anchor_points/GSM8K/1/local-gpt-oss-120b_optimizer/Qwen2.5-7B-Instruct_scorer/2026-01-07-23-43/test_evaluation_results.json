@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify each quantity and its role, translate the problem into a single arithmetic expression, compute it while briefly verifying each operation, and output only the final numeric result.",
+      "train_score": 0.972972972972973,
+      "train_step": 4,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every relevant quantity, omit any irrelevant details, translate the problem into the simplest exact arithmetic expression(s) needed, compute the result while briefly verifying each step, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 8,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numerical quantity, harmonize units when needed, determine the single precise calculation that solves the problem, execute it with a quick sanity check of each step, and return only the final numeric answer (including the unit only if the question asks for it).",
+      "train_score": 0.972972972972973,
+      "train_step": 10,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all stated numbers, deduce the precise arithmetic formula that links them, compute the result in one clear calculation with a quick verification of each operation, and output solely the final numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 5,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, note every given number and its relationship, convert the situation into the minimal necessary arithmetic formula, evaluate it with quick intermediate verification, and state the final answer alone.",
+      "train_score": 0.9594594594594594,
+      "train_step": 3,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Ignore non\u2011numeric story details, pull out all required quantities, build the minimal exact formula that solves the question, compute it while doing a quick sanity check, and give only the final numeric answer (including its unit if requested).",
+      "train_score": 0.9594594594594594,
+      "train_step": 10,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the key data, list each number, decide the single necessary operation, calculate the result with a quick check, and give only the final integer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 6,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pick out all stated quantities (including units), ignore every piece of text that does not influence the calculation, bring all units to the same system, write one exact formula that directly computes what is asked, compute it checking each step briefly, and give only the final numeric answer (attach the unit only if the question demands it).",
+      "train_score": 0.972972972972973,
+      "train_step": 73,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given quantity with its meaning, eliminate irrelevant text, translate the relationships into one exact computation that yields the requested value, perform the calculation with a brief sanity check, and output only the final numeric result (include a unit only if explicitly required).",
+      "train_score": 0.972972972972973,
+      "train_step": 72,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all explicit quantities (numbers with any units), note their meaning, discard irrelevant narrative, harmonize units if needed, formulate the minimal exact mathematical expression that directly yields the asked quantity, evaluate it exactly (keep fractions until the end), perform a quick sanity check, and output only the final numeric result (add the unit only when explicitly requested).",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value (and its unit, if any), record its role, discard all non\u2011essential story details, devise the single exact mathematical expression that directly yields the quantity asked for, evaluate it while performing a quick consistency check, and output only the final numeric result (add the unit only if the problem explicitly requests it).",
+      "train_score": 0.972972972972973,
+      "train_step": 56,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit quantity (and its unit, if any) and its role, discard all irrelevant story text, convert units if needed, construct the single exact arithmetic expression that directly computes the requested value, evaluate it using exact arithmetic (retain fractions until the final step) while performing a quick sanity check, and output only the final numeric answer (append the unit only when the problem explicitly requires it).",
+      "train_score": 0.972972972972973,
+      "train_step": 91,
+      "test_score": 0.8658074298711145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every explicit number (and its unit, if provided) together with its role, eliminate any text that does not influence the calculation, convert all quantities to a common unit system, express the problem with one exact arithmetic expression that directly produces the requested value, evaluate it using exact (fractional) arithmetic, perform a quick sanity check, and output only the final numeric result (add the unit only when the question explicitly asks for it).",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8559514783927218,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers and their meanings, formulate the necessary equation or calculation, solve it step\u2011by\u2011step while checking each intermediate result, and present the final numeric answer clearly.",
+      "train_score": 0.9594594594594594,
+      "train_step": 3,
+      "test_score": 0.8559514783927218,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit numeric value (and any unit), discard all story details that do not affect the calculation, construct the simplest exact formula that directly yields the quantity asked for, compute it with exact arithmetic (keeping fractions until the end), do a brief sanity check, and return only the final numeric answer (add the unit only if the problem explicitly requires it).",
+      "train_score": 0.972972972972973,
+      "train_step": 91,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every concrete quantity presented, note its function, discard any fluff, harmonize units if needed, devise the minimal exact calculation that directly yields the asked value, compute it using exact arithmetic (keep fractions until the final step), perform a quick plausibility check, and return solely the final number (include a unit only if the question explicitly requests it).",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.7983320697498104,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all explicit numbers and their units, discard any non\u2011essential narrative, convert to a single unit system, construct the unique arithmetic expression that directly produces the required value, evaluate it exactly (keeping fractions until the final step), verify the result quickly, and return only the final numeric answer (add a unit only if the problem explicitly asks).",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.714177407126611,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pull out each explicit quantity (including units), throw away any irrelevant narrative, convert to a common unit system, craft the one exact calculation that yields the target value, compute it with exact arithmetic (keep fractions until the final step), do a quick sanity check, and output only the final number (attach the unit only if the problem asks for it).",
+      "train_score": 0.7027027027027027,
+      "train_step": 99,
+      "test_score": 0.5466262319939348,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers (with units), ignore any story text, translate the problem into the smallest possible exact algebraic or arithmetic formula that directly computes the requested value, evaluate it with exact rational arithmetic (retaining fractions until the final step), perform a brief consistency check, and output only the resulting number (append the unit only when explicitly asked).",
+      "train_score": 0.5945945945945946,
+      "train_step": 99,
+      "test_score": 0.49052312357846856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the unknown to be solved, extract all given numerical data (with units), discard non\u2011essential story, harmonize units, construct one direct mathematical relation (equation or expression) that links the data to the unknown, solve it using exact arithmetic, quickly verify the result against the context, and return solely the final value (include the unit only when required).",
+      "train_score": 0.5675675675675675,
+      "train_step": 99,
+      "test_score": 0.4564063684609553,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9059893858984079,
+    "avg_test_score": 0.8099209357738546,
+    "best_test_instruction": "Identify each quantity and its role, translate the problem into a single arithmetic expression, compute it while briefly verifying each operation, and output only the final numeric result."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem by first translating it into the appropriate mathematical expression, carry out the calculations clearly, verify the result briefly, and finally present the answer alone as a single integer on its own line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 1,
+      "test_score": 0.9241849886277483,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all numbers, build the minimal exact calculation that gives the answer (use a temporary symbol only if it shortens the expression), evaluate it, briefly verify any stated limits, and output the sole integer result on one line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 92,
+      "test_score": 0.913570887035633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement, deduce the required computation, execute it, ensure the outcome fits the context, and print the resulting integer as the sole output.",
+      "train_score": 0.9655172413793104,
+      "train_step": 12,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, convert the scenario into one exact calculation (create a temporary symbol only when it shortens the formula), evaluate it, quickly check any stated conditions, and print the final integer answer on a lone line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 98,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantities described, translate them into a concise mathematical operation (using variables only if they simplify the work), compute the result, double\u2011check that it satisfies all stated conditions, and output the sole integer answer on its own line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 41,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pick out every number, write the exact formula that answers the question, compute it, ensure it satisfies any given limits, and print the final integer alone on one line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 83,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt carefully, extract all numbers, introduce any required variables, formulate the precise arithmetic or algebraic expression that models the situation, carry out the computation step by step while displaying intermediate results, verify that the result satisfies the original conditions, and finally output only the final integer answer on a single line with no additional text.",
+      "train_score": 0.9616858237547893,
+      "train_step": 2,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the statement, construct the exact computation needed (introducing variables only if helpful), evaluate it with brief justification, verify the result satisfies the problem, and print the sole integer answer on a single line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 28,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, note every numeric fact, derive the single necessary formula (using variables only when useful), evaluate it, verify the answer satisfies all conditions, and print the integer result alone on one line.",
+      "train_score": 0.9731800766283525,
+      "train_step": 36,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers given, construct the most direct mathematical operation that yields the answer (create a helper variable only if it makes the expression noticeably shorter), compute the value, quickly check any stated limits, and output the single integer result on a separate line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the text, note each numeric value, decide the single arithmetic expression that resolves the query (declare a helper variable only if it shortens the work), evaluate it, validate any given constraints, and print just the integer answer on one line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 89,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities given, translate them into the simplest possible mathematical operation (create a variable only if it shortens the work), evaluate it, briefly check that the outcome satisfies the problem\u2019s constraints, and print the sole integer result on its own line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 51,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the statement, list every quantity, determine the essential computation (introduce a placeholder only if it simplifies), calculate the value, briefly confirm it meets all stated constraints, and print the sole integer result on its own line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 74,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out all numeric data, formulate the exact calculation needed (use a temporary symbol only when it shortens the formula), evaluate it, validate the outcome against any given conditions, and print the sole integer answer on its own line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 72,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, formulate the single required calculation (introduce a temporary variable only if it shortens the expression), compute it, briefly confirm it meets any constraints, and print only the integer result on its own line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 68,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8203184230477635,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List the quantities mentioned, form the one\u2011line exact expression that yields the answer (introduce a placeholder only if it reduces length), compute it, verify any condition, and output only the final integer.",
+      "train_score": 0.5977011494252874,
+      "train_step": 99,
+      "test_score": 0.643669446550417,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all numerical information, formulate the single arithmetic expression that answers the query (introducing a temporary symbol only if it simplifies the expression), calculate the value, perform a quick sanity check, and output just the integer result on its own line.",
+      "train_score": 0.578544061302682,
+      "train_step": 99,
+      "test_score": 0.6292645943896892,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value from the problem, combine them directly into the minimal arithmetic expression that answers the question (do not introduce auxiliary variables unless absolutely necessary), evaluate it, confirm it satisfies any stated conditions, and output only the integer result on a single line.",
+      "train_score": 0.4444444444444444,
+      "train_step": 99,
+      "test_score": 0.4040940106141016,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value from the text, note them in the order they appear, construct the simplest single arithmetic expression that answers the question (introduce a temporary variable only if it shortens the expression), evaluate it, confirm it meets any stated constraints, and output only the final integer on a line by itself.",
+      "train_score": 0.22988505747126436,
+      "train_step": 99,
+      "test_score": 0.2494313874147081,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement, pull out only the quantitative data, decide the single numerical operation that resolves the query (introduce a placeholder variable only if it makes the expression shorter), perform the calculation, ensure the result obeys any limits mentioned, and output exactly one integer on a line by itself.",
+      "train_score": 0.21455938697318008,
+      "train_step": 99,
+      "test_score": 0.2092494313874147,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9241849886277483,
+    "avg_test_score": 0.7874291490667534,
+    "best_test_instruction": "Solve the problem by first translating it into the appropriate mathematical expression, carry out the calculations clearly, verify the result briefly, and finally present the answer alone as a single integer on its own line."
+  }
+}

@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-r"""The .py version of evaluate_instructions.ipynb to evaluate instructions with a model that can be from the GPT family.
+r"""The .py version of evaluate_instructions.ipynb to evaluate instructions with a model (GPT, PaLM, or local models like Qwen).
 
 Usage:
 
@@ -23,19 +23,28 @@ Step 3: check if the model configs (like batch size) are the same as the actual 
 
 Step 4: run
 
+For OpenAI models:
 ```
 python evaluate_instructions.py \
-    --scorer="text-bison" --dataset="gsm8k" \
+    --scorer="gpt-3.5-turbo" --dataset="gsm8k" \
     --task="test" --instruction_pos="Q_begin" \
     --evaluate_training_fold=false --evaluate_test_fold=true \
-    --openai_api_key="<your_key>" --palm_api_key="<your_key>"
+    --openai_api_key="<your_key>"
+```
+
+For local GPU models (e.g., Qwen):
+```
+python evaluate_instructions.py \
+    --scorer="Qwen/Qwen2.5-7B-Instruct" --dataset="gsm8k" \
+    --task="test" --instruction_pos="Q_begin" \
+    --evaluate_training_fold=false --evaluate_test_fold=true
 ```
 
 The outputs will then be written to `outputs/scorer-outputs/` in the opro folder.
 
 Notes to Step 4: 
-- When using a Google-Cloud-served model as scorer (like text-bison at https://developers.generativeai.google/tutorials/text_quickstart), add `--palm_api_key="<your_key>"`
 - When using an OpenAI model as scorer, add `--openai_api_key="<your_key>"`
+- When using local models (e.g., Qwen/Qwen2.5-7B-Instruct), no API key is needed
 """
 
 import datetime
@@ -51,7 +60,6 @@ sys.path.insert(0, OPRO_ROOT_PATH)
 
 from absl import app
 from absl import flags
-import google.generativeai as palm
 import numpy as np
 import openai
 from opro import prompt_utils
@@ -61,13 +69,11 @@ import pandas as pd
 ROOT_DATA_FOLDER_PATH = os.path.join(OPRO_ROOT_PATH, "data")
 
 _OPENAI_API_KEY = flags.DEFINE_string(
-    "openai_api_key", "", "The OpenAI API key."
+    "openai_api_key", "", "The OpenAI API key (only required for OpenAI models)."
 )
 
-_PALM_API_KEY = flags.DEFINE_string("palm_api_key", "", "The PaLM API key.")
-
 _SCORER = flags.DEFINE_string(
-    "scorer", "text-bison", "The name of the scorer LLM."
+    "scorer", "gpt-3.5-turbo", "The name of the scorer LLM."
 )
 
 _DATASET = flags.DEFINE_string(
@@ -100,7 +106,18 @@ def main(_):
   instructions_to_evaluate = [
       "",
       "Let's think step by step.",
-      "Take a deep breath and work on this problem step-by-step.",
+      "For each problem, meticulously analyze the given information, clearly outline a detailed step-by-step approach, perform all necessary calculations with precision, and rigorously verify your final answer against the provided ground truth. Ensure each step logically follows from the previous one, the solution is well-organized, the explanation is clear, concise, and easy to follow, and demonstrate a deep understanding, logical flow, and accuracy to provide a comprehensive and precise solution.",
+      "For each problem, meticulously extract all given information, define any necessary variables, set up and solve the appropriate equations or calculations step-by-step with clear logical flow and detailed explanations. Ensure your solution is verified against the provided ground truth, demonstrating clear, precise, and comprehensive work. Explicitly justify each step and present your work in a structured and transparent manner to guarantee mathematical accuracy, precision, and completeness.", 
+      "Carefully read the problem to fully understand all given information and constraints. Break it down into clear, actionable steps. Set up the necessary equations or logical processes, solve systematically, and show all relevant calculations. Verify your final answer against the problem context to ensure accuracy and logical consistency. Clearly and accurately state the final answer with appropriate units or context as needed, ensuring the solution is precise, concise, thorough, and error-free.",
+      "Begin by clearly defining the question and organizing all relevant information. Break the problem into manageable steps, apply appropriate methods, and document each step logically. Verify your solution by checking calculations, units, and context to confirm accuracy and completeness. This structured approach ensures thorough and precise solutions, minimizing errors and enhancing understanding.",
+      """To effectively solve each problem, start by:
+- Carefully reading the problem to understand the goal and all necessary information
+- Breaking it into clear, actionable steps
+- Selecting the appropriate methods, ensuring units and context are correctly handled
+- Solving step-by-step and verifying each step against given conditions
+- Ensuring the final answer fits logically within the problem's context and units are accurate
+- Double-checking all calculations and logical reasoning for precision""",
+      "Craft a problem that challenges the solver to apply logical reasoning and arithmetic, ensuring a clear, relatable context, and a single definitive answer. The problem should involve clear relationships between quantities, a step-by-step solution process, and fundamental operations. Include a verification step to confirm the solution's accuracy. The problem should be engaging, solvable, and avoid unnecessary complexity, making it accessible yet challenging for a wide audience.",
   ]
   print(f"instructions_to_evaluate: {instructions_to_evaluate}")
 
@@ -116,7 +133,6 @@ def main(_):
     assert train_ratio + test_ratio == 1
 
   openai_api_key = _OPENAI_API_KEY.value
-  palm_api_key = _PALM_API_KEY.value
   scorer_llm_name = _SCORER.value.lower()
   dataset_name = _DATASET.value.lower()
   task_name = _TASK.value.lower()
@@ -126,10 +142,11 @@ def main(_):
       "mmlu",
       "bbh",
       "gsm8k",
+      "math",
       "multiarith",
       "aqua",
   }, (
-      "The lower-case dataset name must be one of mmlu, bbh, gsm8k, multiarith,"
+      "The lower-case dataset name must be one of mmlu, bbh, gsm8k, math, multiarith,"
       " or aqua."
   )
   if dataset_name == "mmlu":
@@ -171,26 +188,25 @@ def main(_):
     }
   elif dataset_name == "gsm8k":
     assert task_name in {"train", "test"}
+  elif dataset_name == "math":
+    assert task_name in {"train", "test"}
   else:
     assert dataset_name in {"multiarith", "aqua"}
     assert task_name == "self"
 
-  assert scorer_llm_name in {
-      "text-bison",
-      "gpt-3.5-turbo",
-      "gpt-4",
-  }
+  # Commenting out the strict assertion to allow local models
+  # assert scorer_llm_name in {
+  #     "gpt-3.5-turbo",
+  #     "gpt-4",
+  # }
 
   # make sure the model is callable
   if scorer_llm_name in {"gpt-3.5-turbo", "gpt-4"}:
-    assert openai_api_key, "The OpenAI API key must be provided."
+    assert openai_api_key, "The OpenAI API key must be provided for OpenAI models."
     openai.api_key = openai_api_key
   else:
-    assert scorer_llm_name == "text-bison"
-    assert (
-        palm_api_key
-    ), "A PaLM API key is needed when prompting the text-bison model."
-    palm.configure(api_key=palm_api_key)
+    # Local GPU model (e.g., Qwen/Qwen2.5-7B-Instruct)
+    print(f"Using local GPU model for scorer: {scorer_llm_name}")
 
   assert instruction_pos in {
       "before_Q",
@@ -213,6 +229,8 @@ def main(_):
     )
   elif dataset_name == "gsm8k":
     root_data_folder_path = os.path.join(ROOT_DATA_FOLDER_PATH, "gsm_data")
+  elif dataset_name == "math":
+    root_data_folder_path = os.path.join(ROOT_DATA_FOLDER_PATH, "MATH-data")
   elif dataset_name == "aqua":
     root_data_folder_path = os.path.join(ROOT_DATA_FOLDER_PATH, "AQuA-data")
   else:
@@ -238,36 +256,38 @@ def main(_):
   # ====================== scorer model configs ==============================
   # Load the scorer model. This is the model used to compute the score of an
   # instruction, and can be either pre-trained or fine-tuned.
-  if scorer_llm_name == "text-bison":
-    # when prompting text-bison with Cloud API
-    scorer_finetuned_palm_temperature = 0.0
-    scorer_finetuned_palm_max_decode_steps = 1024
-    scorer_finetuned_palm_batch_size = 1
-    scorer_finetuned_palm_num_servers = 1
-    scorer_finetuned_palm_dict = dict()
-    scorer_finetuned_palm_dict["temperature"] = (
-        scorer_finetuned_palm_temperature
-    )
-    scorer_finetuned_palm_dict["num_servers"] = (
-        scorer_finetuned_palm_num_servers
-    )
-    scorer_finetuned_palm_dict["batch_size"] = scorer_finetuned_palm_batch_size
-    scorer_finetuned_palm_dict["max_decode_steps"] = (
-        scorer_finetuned_palm_max_decode_steps
-    )
+  
+  # Check if using local GPU model (e.g., Qwen) or OpenAI model
+  if scorer_llm_name == "Qwen/Qwen2.5-7B-Instruct" or (
+      scorer_llm_name not in {"gpt-3.5-turbo", "gpt-4"}
+  ):
+    # Using local GPU with Qwen or other local model
+    scorer_local_temperature = 0.0
+    scorer_local_max_decode_steps = 1024
+    scorer_local_batch_size = 128  # Batch size for GPU inference
+    scorer_local_num_servers = 1
+    
+    scorer_local_dict = dict()
+    scorer_local_dict["temperature"] = scorer_local_temperature
+    scorer_local_dict["num_servers"] = scorer_local_num_servers
+    scorer_local_dict["batch_size"] = scorer_local_batch_size
+    scorer_local_dict["max_decode_steps"] = scorer_local_max_decode_steps
+    scorer_local_dict["num_decodes"] = 1
 
-    call_scorer_finetuned_palm_server_func = functools.partial(
-        prompt_utils.call_palm_server_from_cloud,
-        model="text-bison-001",
-        temperature=scorer_finetuned_palm_dict["temperature"],
-        max_decode_steps=scorer_finetuned_palm_dict["max_decode_steps"],
+    call_scorer_local_func = functools.partial(
+        prompt_utils.call_local_model_func,
+        model_name=scorer_llm_name,
+        temperature=scorer_local_dict["temperature"],
+        max_decode_steps=scorer_local_dict["max_decode_steps"],
+        num_decodes=1,
+        batch_size=scorer_local_dict["batch_size"],
     )
 
     scorer_llm_dict = {
-        "model_type": scorer_llm_name.lower(),
+        "model_type": "local_gpu",
     }
-    scorer_llm_dict.update(scorer_finetuned_palm_dict)
-    call_scorer_server_func = call_scorer_finetuned_palm_server_func
+    scorer_llm_dict.update(scorer_local_dict)
+    call_scorer_server_func = call_scorer_local_func
 
   else:
     # GPT models
@@ -511,7 +531,7 @@ def main(_):
     tasks_all = [task_name]
     multiple_choice_tasks = set()
     boolean_tasks = set()
-    numerical_output_tasks = set()
+    numerical_output_tasks = set(tasks_all)  # MATH has numerical answers
   elif dataset_name == "aqua":
     tasks_all = [task_name]
     multiple_choice_tasks = set(tasks_all)
@@ -524,17 +544,17 @@ def main(_):
     boolean_tasks = set()
     numerical_output_tasks = set(tasks_all)
 
-  if scorer_llm_name == "text-bison":
-    # instruction fine-tuned models
+  # Set batch size and other configs based on model type
+  if scorer_llm_name in {"gpt-3.5-turbo", "gpt-4"}:
+    # GPT models
     batch_size = 1
-    num_servers = scorer_llm_dict["num_servers"]
+    num_servers = 1
     extract_final_answer_by_prompting_again = False
     include_qa = False
     evaluate_in_parallel = False
   else:
-    # GPT models
-    assert scorer_llm_name in {"gpt-3.5-turbo", "gpt-4"}
-    batch_size = 1
+    # Local GPU models (e.g., Qwen)
+    batch_size = 128  # Use larger batch size for GPU efficiency
     num_servers = 1
     extract_final_answer_by_prompting_again = False
     include_qa = False
@@ -592,20 +612,14 @@ def main(_):
       original_index = np.arange(num_examples)
     elif dataset_name == "math":
       task_name = t
-      # task_name is already a str; force type conversion to avoid build error
-      train_or_test = str(task_name).split("-")[0]
-      category_name = str(task_name).split("-")[1]
-      with open(
-          os.path.join(
-              root_data_folder_path, train_or_test, f"{category_name}.json"
-          ),
-          "r",
-      ) as f:
-        raw_data = json.load(f)
-      prediction_treat_as_number = "adaptive"
+      # Load MATH data using the utility function
+      raw_data = eval_utils.load_math_task_data(
+          task_name, base_dir=root_data_folder_path
+      )
+      prediction_treat_as_number = True
       prediction_treat_as_bool = False
       num_examples = len(raw_data)
-      original_index = np.sort(np.array(list(raw_data.keys())).astype(int))
+      original_index = np.arange(num_examples)
     elif dataset_name == "aqua":
       task_name = t
       raw_data = eval_utils.read_jsonl(

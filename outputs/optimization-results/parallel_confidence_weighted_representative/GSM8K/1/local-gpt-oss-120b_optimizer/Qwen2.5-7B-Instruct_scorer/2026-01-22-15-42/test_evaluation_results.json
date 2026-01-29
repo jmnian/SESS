@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Find every explicit quantity, represent the problem as a single exact integer or fraction expression (introducing variables only when a quantity is missing), compute it with exact rational arithmetic, perform a brief sanity check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 52,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, introduce a variable only for any missing quantity, form one exact rational expression that directly yields the required result (apply any unit conversions), compute it with exact integer/fraction arithmetic, perform a brief verification, and output only the final simplified numeric answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given quantities, assign variables only to unknowns, construct a single exact rational expression that yields the requested value (perform any necessary unit conversions), compute it using exact integer/fraction arithmetic, confirm the result with a quick reverse\u2011check, and output solely the simplified numeric answer.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all stated numbers, introduce at most one symbol for an unknown amount, assemble a single exact rational expression (including required unit conversions) that equals the desired result, compute it with perfect integer\u2011fraction precision, confirm by a brief check, and output only the simplified numeric answer.",
+      "train_score": 1.0,
+      "train_step": 80,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical value in the text, represent the situation with the appropriate exact arithmetic or algebraic expression, solve it step\u2011by\u2011step while briefly confirming each intermediate step, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 9,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeral, denote any missing quantities with the fewest possible variables, convert the entire scenario into a single exact integer\u2011or\u2011fraction expression (including any necessary unit changes), evaluate it with flawless rational arithmetic, perform a brief sanity check, and output only the final numeric value.",
+      "train_score": 0.9864864864864865,
+      "train_step": 48,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number, introduce symbols solely for missing quantities, rewrite the whole problem as one exact integer\u2011or\u2011fraction expression (apply any needed unit conversions), evaluate it with perfect rational arithmetic, perform a single quick plausibility check, and output only the final reduced numeric answer.",
+      "train_score": 1.0,
+      "train_step": 98,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, assign symbols to any unknown quantities, form the single exact integer\u2011or\u2011fraction expression that solves the problem, compute it with flawless rational arithmetic while doing a brief consistency check, and output only the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 45,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number, introduce symbols only for missing quantities, merge all relations into one exact integer\u2011or\u2011fraction expression (apply any needed unit conversions), compute it with perfect rational arithmetic, validate the result with an independent quick check (such as a reverse calculation), and output only the final reduced numeric value.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every explicit numerical value, introduce a symbol only for any missing quantity, convert all units to a common system, combine everything into one exact rational (integer\u2011fraction) expression that directly yields the answer, evaluate it with perfect arithmetic, perform a single quick verification (e.g., substitute back), and output only the final simplified number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given number, encode the situation as an exact arithmetic or algebraic formula using only integers and fractions, evaluate it with perfect precision, do a quick plausibility check, and output solely the resulting numeric value.",
+      "train_score": 0.9864864864864865,
+      "train_step": 29,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every stated numeral, introduce at most one variable for each unspecified quantity, combine all relationships into a single exact integer\u2011or\u2011fraction expression (perform any required unit conversions), evaluate it with perfect rational arithmetic, do a brief sanity check by substitution, and output only the final reduced numeric result.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers present, translate the scenario into one exact rational expression, evaluate it using precise (integer\u2011fraction) arithmetic with a quick sanity check of each step, and output solely the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 35,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric value, assign symbols if needed, formulate the single exact rational or integer expression that answers the question (including any unit conversions), evaluate it using exact arithmetic (no approximations), perform a brief verification of the result, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 44,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers presented, denote unknowns only if essential, derive the unique exact integer\u2011or\u2011fraction calculation required (apply any necessary unit changes), compute it with perfect rational precision, confirm the result with one quick check, and return solely the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 47,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each stated numeric value, introduce at most one variable for any missing quantity, assemble a single exact integer\u2011fraction expression that directly yields the answer (perform required unit conversions), compute it with flawless rational arithmetic, verify quickly by substitution, and output only the final reduced number.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, introduce variables only when a quantity is not given, form the single exact integer\u2011or\u2011fraction expression that solves the problem, compute it with perfect rational arithmetic, do a quick sanity check, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 48,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every explicit numeric quantity, introduce symbols only for missing values, construct one exact rational (or integer) expression that directly yields the answer (perform any needed unit conversions), evaluate it with flawless integer\u2011fraction arithmetic, conduct a brief plausibility verification, and output solely the final simplified numerical result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 60,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number, introduce symbols only for missing quantities, merge the information into a single exact rational formula (convert units as required), evaluate it with flawless integer\u2011fraction arithmetic, perform one brief sanity test, and output solely the final simplified number.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers, define unknowns, formulate the exact mathematical relation, compute the solution with brief verification of each step, and output solely the final numeric result.",
+      "train_score": 0.9864864864864865,
+      "train_step": 14,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9150871872630781,
+    "avg_test_score": 0.8998880826022602,
+    "best_test_instruction": "Find every explicit quantity, represent the problem as a single exact integer or fraction expression (introducing variables only when a quantity is missing), compute it with exact rational arithmetic, perform a brief sanity check, and output only the final numeric result."
+  }
+}

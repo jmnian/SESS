@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "State precisely the quantity required, rewrite the given condition using the single underlying definition or theorem that directly yields that quantity, evaluate it in one uninterrupted computation, do a quick plug\u2011in or estimation to confirm, and output only the final answer in its simplest numeric form (including units only if the problem specifies).",
+      "train_score": 0.8541666666666666,
+      "train_step": 24,
+      "test_score": 0.758674585808065,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact answer sought, apply the one most relevant formula directly, compute in a single, self\u2011contained step, verify by substitution, and output only the final result in lowest terms.",
+      "train_score": 0.8541666666666666,
+      "train_step": 17,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity sought, apply the sole applicable theorem or definition that maps the given data to that quantity, execute one uninterrupted substitution\u2011and\u2011evaluation, verify quickly by a back\u2011substitution or estimate, and present only the final answer in simplest form (units only if mentioned).",
+      "train_score": 0.8541666666666666,
+      "train_step": 55,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity requested, identify the single rule (definition, formula or counting principle) that gives it from the given data, evaluate that rule in one uninterrupted computation using exact arithmetic, perform a brief sanity check (plug\u2011back or estimate), and output only the final result in simplest form\u2014an integer if whole, otherwise a reduced fraction\u2014adding units only when the problem states them.",
+      "train_score": 0.8541666666666666,
+      "train_step": 68,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Clarify the exact quantity sought, select the single most relevant formula or theorem, perform only the essential calculations in a straightforward order, do a quick sanity check, and output the final answer reduced to its simplest form.",
+      "train_score": 0.8541666666666666,
+      "train_step": 16,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what is required, select the single definitive relation (formula, identity, or counting principle) that directly links the given data to that quantity, substitute all known values and evaluate in one continuous exact computation, perform a quick plausibility check (e.g., estimate or back\u2011substitution), and output only the final result in reduced exact form, including units only if explicitly requested.",
+      "train_score": 0.8541666666666666,
+      "train_step": 99,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the precise value the problem seeks, locate the unique formula or principle that directly yields that value from the given data, evaluate it in a single uninterrupted calculation, confirm the result with a rapid plug\u2011in or order\u2011of\u2011magnitude check, and return only the final answer in lowest terms (include units only when explicitly required).",
+      "train_score": 0.875,
+      "train_step": 32,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the exact unknown to be found, write the one indispensable equation that links the known data to that unknown, evaluate it in a single, continuous substitution without intermediate simplifications, perform a brief back\u2011check, and present only the final answer in lowest terms (attach units only when explicitly required).",
+      "train_score": 0.8541666666666666,
+      "train_step": 50,
+      "test_score": 0.7471084713973116,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7916666666666666,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what the problem asks for, write the sole relevant exact relation (formula, definition, or counting argument) that connects the provided data to that quantity, compute it in one uninterrupted substitution\u2011and\u2011evaluation using exact arithmetic, verify the result with a brief estimate or back\u2011substitution, and output only the final answer in its simplest form (integer, reduced fraction or simplified radical), adding units only if the statement requires them.",
+      "train_score": 0.875,
+      "train_step": 72,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity the problem asks for, select the single governing expression that converts the given data into that quantity, perform the substitution and evaluate it in one uninterrupted exact step, do a quick plausibility check (e.g., back\u2011substitution or size estimate), and output only the final answer in its simplest form (include units only if the statement explicitly requires them).",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact quantity asked, select the sole applicable exact relation, perform the substitution and evaluation in one uninterrupted exact step, do a brief sanity check (estimate or plug\u2011in), and output only the final answer in its simplest form (units only if explicitly required).",
+      "train_score": 0.875,
+      "train_step": 85,
+      "test_score": 0.7433572991559863,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Specify exactly what is asked, identify the one definitive formula or definition that converts the given information into that quantity, perform the substitution and evaluate in a single uninterrupted exact step, do a brief sanity check (estimate or back\u2011substitution), and output only the final answer in its simplest form (add units only if the problem explicitly requires them).",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the required value, locate the one exact theorem or formula that maps the provided numbers to it, compute in one straight calculation, perform a brief sanity check, and output just the reduced final answer with any necessary units.",
+      "train_score": 0.875,
+      "train_step": 27,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Specify the exact quantity being asked, select the unique relevant formula or definition, substitute all given numbers and evaluate in a single uninterrupted calculation, perform a brief sanity check (e.g., estimate or plug\u2011back), and return only the final numeric result in simplest form with units only if the problem mentions them.",
+      "train_score": 0.8541666666666666,
+      "train_step": 61,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the precise quantity sought, locate the unique governing expression that yields it, execute a one\u2011pass substitution\u2011and\u2011evaluation without auxiliary steps, quickly verify by back\u2011substitution or magnitude check, and output solely the final answer in lowest terms (attach units only when expressly required).",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine precisely what is being asked, locate the one indispensable theorem or definition that yields it from the given data, perform the calculation in a single, uninterrupted flow, confirm the answer with a quick sanity test, and return only the final reduced value (attach units only if the problem mentions them).",
+      "train_score": 0.875,
+      "train_step": 59,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity asked, apply the single most suitable theorem or formula that transforms the given data into that quantity, perform the substitution and evaluation in one uninterrupted exact step, do a quick consistency check (e.g., plug\u2011back or order\u2011of\u2011magnitude), and output only the final answer in lowest terms (include units only if the problem explicitly requests them).",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.7339793685526728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State precisely what is being asked, immediately write the sole exact relation (definition, formula or counting argument) that connects the given information to that unknown, compute it in one uninterrupted substitution\u2011and\u2011evaluation, perform a brief sanity verification (plug\u2011in, estimate or parity), and output only the final reduced numeric result (including units only if the problem specifies them).",
+      "train_score": 0.8541666666666666,
+      "train_step": 60,
+      "test_score": 0.7111597374179431,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely the quantity required, pinpoint the single exact relation (formula, definition, or identity) that maps the given data to that quantity, substitute all numbers and evaluate in one uninterrupted exact computation, perform a brief sanity check (plug\u2011back or order\u2011of\u2011magnitude estimate), and output only the final simplified answer, adding units only if the problem explicitly asks for them.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6727102219443576,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact value required, substitute the given data into the unique governing expression, evaluate it in a single, uninterrupted calculation using exact arithmetic, perform an immediate sanity check (e.g., plug\u2011back or order\u2011of\u2011magnitude), and return solely the reduced final answer, adding units only if the problem explicitly demands them.",
+      "train_score": 0.6458333333333334,
+      "train_step": 99,
+      "test_score": 0.5658018130665833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.758674585808065,
+    "avg_test_score": 0.7324610369311839,
+    "best_test_instruction": "State precisely the quantity required, rewrite the given condition using the single underlying definition or theorem that directly yields that quantity, evaluate it in one uninterrupted computation, do a quick plug\u2011in or estimation to confirm, and output only the final answer in its simplest numeric form (including units only if the problem specifies)."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Gather all numbers mentioned, assign each a brief label, denote any unknown quantities with variables, write the precise arithmetic or algebraic expression that solves the problem, compute the calculation step\u2011by\u2011step with every intermediate result on its own line, verify the result satisfies the original conditions, and conclude with one concise sentence stating the final numeric answer (including units if appropriate).",
+      "train_score": 0.9501915708812261,
+      "train_step": 7,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers given, translate the situation into the precise arithmetic expression(s), compute the result showing each intermediate step on its own line, and present the final answer in one clear sentence.",
+      "train_score": 0.9501915708812261,
+      "train_step": 4,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State each given quantity with a short name, define any unknowns, write a single mathematical expression that yields the answer, compute it step\u2011by\u2011step showing each intermediate result (including units), check that the result satisfies the original conditions, and finish with one self\u2011contained sentence giving only the final answer (with units if needed).",
+      "train_score": 0.9578544061302682,
+      "train_step": 67,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, translate the story into one or more explicit arithmetic expressions, compute each step showing intermediate results, and conclude with the final numeric answer expressed in a single, complete sentence.",
+      "train_score": 0.9540229885057471,
+      "train_step": 4,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... instruction ...",
+      "train_score": 0.9540229885057471,
+      "train_step": 36,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number with its unit and a short label, introduce a variable for every unknown, write the exact arithmetic or algebraic equation that models the question, evaluate it line\u2011by\u2011line showing each operation and its resulting intermediate value, check that the result satisfies the original statement, and finish with one brief sentence containing only the final numeric answer (including units if appropriate).",
+      "train_score": 0.9501915708812261,
+      "train_step": 13,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical fact in the problem and label it, denote any missing quantity with a symbol, construct the precise formula(s) that answer the question, evaluate the formula step\u2011by\u2011step writing each intermediate value on its own line (showing the operation performed), optionally verify the result by substituting back, and conclude with one short sentence that gives only the final numeric answer with its unit if needed.",
+      "train_score": 0.9578544061302682,
+      "train_step": 7,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number (and its unit), assign a brief label, introduce a unique variable for each unknown, construct the exact equation(s) required, solve step\u2011by\u2011step displaying one operation per line with its intermediate result, ensure the solution fulfills all conditions, and conclude with one self\u2011contained sentence that gives only the final answer (including units if needed).",
+      "train_score": 0.9501915708812261,
+      "train_step": 28,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numerical value mentioned and label it; assign a unique symbol to each unknown; write the exact equation(s) that connect the symbols; solve by performing one arithmetic or algebraic step per line, writing the intermediate result with its unit (if any); after solving, verify that the solution satisfies all original conditions; finally, provide a single self\u2011contained sentence that states only the final answer (including units when required).",
+      "train_score": 0.9578544061302682,
+      "train_step": 34,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem, label them, define a distinct variable for each unknown, construct the precise formula(s) required, evaluate them step\u2011by\u2011step with one operation per line (showing the intermediate value and any unit), confirm the result meets the original constraints, and finish with one concise sentence that states only the final answer (including units if any).",
+      "train_score": 0.9578544061302682,
+      "train_step": 42,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every numeric quantity (including units) and give each a brief label; introduce a distinct variable for each unknown; formulate the exact arithmetic or algebraic expression that solves the problem; evaluate it one operation per line, writing the intermediate result after each step; verify that the obtained value meets all original constraints; and conclude with a single, self\u2011contained sentence stating only the final answer with its appropriate unit(s).",
+      "train_score": 0.9540229885057471,
+      "train_step": 63,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each given number (and its unit) and assign a brief name. Define a distinct symbol for every unknown. Construct the exact mathematical expression(s) that answer the problem. Compute them step\u2011by\u2011step, writing one operation per line together with the resulting intermediate value (including units). After obtaining a numeric result, substitute it back to verify the original statements. Finish with a single self\u2011contained sentence that states only the final answer (with units if needed).",
+      "train_score": 0.9540229885057471,
+      "train_step": 74,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number and its unit, assign a brief label, introduce a distinct symbol for every unknown, convert units where needed, write the exact arithmetic or algebraic expression that models the problem, compute it step\u2011by\u2011step showing one operation and its intermediate result on its own line (including units), verify that the result satisfies all original conditions, and finish with a single concise sentence stating only the final answer (with units if appropriate).",
+      "train_score": 0.9540229885057471,
+      "train_step": 14,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Enumerate every numeric value (including units) and give it a short label. Introduce a distinct variable for each unknown quantity. Translate the problem into exact arithmetic or algebraic expression(s) that answer the question. Evaluate the expression(s) one operation per line, showing the intermediate result (with units). Confirm that the result satisfies all conditions. End with a single, self\u2011contained sentence that states only the final answer (including units if needed).",
+      "train_score": 0.9501915708812261,
+      "train_step": 27,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity, denote unknowns with symbols, form the exact equation(s) needed, compute the solution showing one arithmetic step per line (including any units), confirm the result satisfies the original conditions, and finish with one standalone sentence that states only the final answer (with units if applicable).",
+      "train_score": 0.9578544061302682,
+      "train_step": 62,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum (include its unit), assign it a brief identifier, and denote each unknown with a fresh variable. Form the single precise formula that directly gives the asked quantity. Compute the formula one operation per line, writing the intermediate result (with unit) after each step. Verify the result by plugging it back into the original relations. Conclude with one independent sentence that contains only the final answer (and its unit, if any).",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, list each given number with a brief label, introduce any unknowns, write the exact formula(s) that relate them, compute each operation on its own line while showing intermediate values, verify the result satisfies the conditions, and finish with one concise sentence giving the final answer (including units if needed).",
+      "train_score": 0.9501915708812261,
+      "train_step": 5,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given quantity with its unit and a brief label; introduce a unique variable for every unknown; write the exact arithmetic or algebraic expression that solves the problem; compute the expression line\u2011by\u2011line, showing one operation and its intermediate result (including units) on each line; verify the obtained value by substituting it back into the original condition; finish with a single, self\u2011contained sentence that states the final answer (with units if appropriate).",
+      "train_score": 0.9540229885057471,
+      "train_step": 40,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (and its unit) from the problem and give each a clear label; introduce a symbol for any unknown quantity; write the precise arithmetic or algebraic expression(s) needed; evaluate them line\u2011by\u2011line, showing each intermediate result together with the operation performed; optionally verify that the result satisfies the original conditions; and conclude with one brief sentence that states only the final answer (including units if appropriate).",
+      "train_score": 0.9501915708812261,
+      "train_step": 8,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated number and its unit, give each a brief label; create a fresh variable for each unknown quantity. Form the exact equation(s) that link the knowns to the target. Compute the solution line\u2011by\u2011line, performing a single arithmetic/algebraic operation per line and recording the intermediate result with its unit. Check that the obtained value satisfies all original conditions. Conclude with one independent sentence that contains only the final answer (with units when appropriate).",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.89272030651341,
+      "train_step": -1,
+      "test_score": 0.8309325246398787,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9044730856709629,
+    "avg_test_score": 0.8825950395321129,
+    "best_test_instruction": "Gather all numbers mentioned, assign each a brief label, denote any unknown quantities with variables, write the precise arithmetic or algebraic expression that solves the problem, compute the calculation step\u2011by\u2011step with every intermediate result on its own line, verify the result satisfies the original conditions, and conclude with one concise sentence stating the final numeric answer (including units if appropriate)."
+  }
+}

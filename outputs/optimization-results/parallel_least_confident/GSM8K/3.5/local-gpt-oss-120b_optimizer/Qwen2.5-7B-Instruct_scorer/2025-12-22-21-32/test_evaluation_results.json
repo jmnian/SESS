@@ -1,0 +1,104 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all numbers from the statement, give each a brief label if you wish, then write a single exact formula that uses those labels the required number of times to produce the desired quantity. Evaluate the formula using exact fraction arithmetic, displaying at most one intermediate value that cannot be avoided. Verify the result with a brief check, and finally print only the ultimate integer or reduced fraction on a line by itself\u2014no other text.",
+      "train_score": 0.8390804597701149,
+      "train_step": 99,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7777777777777778,
+      "train_step": -1,
+      "test_score": 0.9097801364670205,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity, translate the problem into one exact arithmetic expression, compute it (showing only indispensable intermediate values), verify quickly, and write the sole result as a lone number on its own line.",
+      "train_score": 0.896551724137931,
+      "train_step": 17,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers present, devise one precise formula that uses each number the correct number of times to obtain the target quantity, evaluate it with exact arithmetic (showing at most one intermediate if unavoidable), confirm the result, and output only the final integer or simplified fraction on a line by itself.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeric value, assign a brief symbol if desired, combine them into one exact rational expression that directly yields the requested result, evaluate it (displaying at most a single unavoidable intermediate), perform a quick consistency check, and output only the final integer or reduced fraction on a line by itself.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, assign symbols if helpful, compose the single exact formula that yields the required value, evaluate it step\u2011by\u2011step showing only indispensable intermediate results, perform a quick sanity check, and finish with precisely one number on its own line.",
+      "train_score": 0.9003831417624522,
+      "train_step": 16,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers, form a single exact expression that uses each appropriately to compute the target, evaluate it with exact rational arithmetic (showing at most one unavoidable intermediate), confirm the result, and print only the final integer or reduced fraction on a line by itself.",
+      "train_score": 0.8659003831417624,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every given number, assign a short symbol if you wish, devise a single exact formula that incorporates each number the correct number of times, evaluate it using exact fraction arithmetic while revealing at most one necessary intermediate value, perform a quick sanity check, and finally print only the resulting integer or reduced fraction on its own line.",
+      "train_score": 0.8505747126436781,
+      "train_step": 99,
+      "test_score": 0.869598180439727,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Take every numeric value given, insert them into one exact arithmetic expression that uses each the correct number of times, evaluate it with exact (fractional) arithmetic (showing at most one unavoidable intermediate), perform a brief sanity check, and output only the final integer or reduced fraction on a line by itself.",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.8142532221379833,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numeric values, write a single exact expression (using the numbers directly or brief symbols) that computes the required quantity, evaluate it with exact rational arithmetic while displaying at most one necessary intermediate result, quickly verify the computation, and print only the final integer or reduced fraction on its own line.",
+      "train_score": 0.6973180076628352,
+      "train_step": 99,
+      "test_score": 0.7058377558756633,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.8678544351781653,
+    "best_test_instruction": "Extract all numbers from the statement, give each a brief label if you wish, then write a single exact formula that uses those labels the required number of times to produce the desired quantity. Evaluate the formula using exact fraction arithmetic, displaying at most one intermediate value that cannot be avoided. Verify the result with a brief check, and finally print only the ultimate integer or reduced fraction on a line by itself\u2014no other text."
+  }
+}

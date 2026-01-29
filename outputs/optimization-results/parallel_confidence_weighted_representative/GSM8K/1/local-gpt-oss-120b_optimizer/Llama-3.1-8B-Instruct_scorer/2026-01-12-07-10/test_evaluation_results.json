@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem. Optional: list any crucial intermediate steps. Then output a single integer\u2014the final answer\u2014on a line by itself with absolutely no other text, symbols, or whitespace (including no trailing newline beyond the line).",
+      "train_score": 0.972972972972973,
+      "train_step": 7,
+      "test_score": 0.849128127369219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the solution, optionally displaying only brief essential steps. Verify the result, then output ONLY the final integer on a single line with absolutely no extra text, symbols, or whitespace before or after the number.",
+      "train_score": 0.9864864864864865,
+      "train_step": 8,
+      "test_score": 0.8483699772554966,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, performing any required calculations. Verify the result, then output exactly one integer\u2014the final answer\u2014on a single line with no surrounding text, spaces, punctuation, or markdown. End your response immediately after the number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 23,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem, optionally showing brief intermediate calculations in your reasoning. When you have the answer, output exactly one integer\u2014the final answer\u2014on its own line, with no other characters, spaces, punctuation, or line breaks before or after it. End your response immediately after the number.",
+      "train_score": 0.972972972972973,
+      "train_step": 15,
+      "test_score": 0.8407884761182715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work out the solution, displaying any necessary steps in your explanation. Then output only the final integer result on a single line, without any preceding or trailing spaces, symbols, or markdown. End the response immediately after the number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 42,
+      "test_score": 0.8385140257771039,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve the problem. Provide any necessary calculations in your explanation, then output exactly one integer\u2014the answer\u2014on a line by itself with no surrounding characters, spaces, punctuation, or markdown. End the response immediately after the final digit.\\n",
+      "train_score": 0.972972972972973,
+      "train_step": 76,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem (you may include brief calculations), then finish your response with exactly one whole number\u2014the answer\u2014placed alone on its own line, with no extra characters or whitespace surrounding it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 23,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem (show any brief calculations in your explanation), then output solely the final integer answer on one line, without any preceding or trailing characters, spaces, or punctuation. End the response immediately after the number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 21,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required value, verify the result, and then output exactly one integer\u2014the answer\u2014on a single line with no surrounding characters, spaces, or additional line breaks.",
+      "train_score": 0.972972972972973,
+      "train_step": 8,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nSolve the given problem; you may show brief calculations in your reasoning. When you have determined the exact integer result, output only that number on a single line with no surrounding text, punctuation, spaces, or markdown, and terminate your response immediately after it.\\n",
+      "train_score": 0.9594594594594594,
+      "train_step": 20,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem (show only essential intermediate work if you wish), confirm the result, and then output exactly one whole\u2011number answer on a single line with absolutely no surrounding text, symbols, spaces, or extra line breaks. End your response immediately after the number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 10,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the final integer answer on its own line\u2014no extra text, symbols, or whitespace. Show any necessary calculations in your reasoning, then output the result as a single integer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 12,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, perform only the necessary calculations (you may list brief intermediate results), double\u2011check the result, and finally print exactly one integer\u2014the answer\u2014on a line by itself with no surrounding characters, words or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 7,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using only the necessary calculations (you may show brief intermediate results if you wish). After confirming the result, output exactly one integer\u2014the answer\u2014on a single line with no surrounding characters, spaces, punctuation, or extra newline. End the response immediately after the number.",
+      "train_score": 0.9594594594594594,
+      "train_step": 8,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the required value and print only the final integer answer on a single line, with no additional characters, spaces, or line breaks before or after it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 16,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "After solving, output only the exact integer answer on a single line with no preceding or trailing characters, spaces, punctuation, or markdown. Immediately terminate the response after the final digit.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.7581501137225171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8108108108108109,
+      "train_step": -1,
+      "test_score": 0.7482941622441244,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the integer answer, alone on a line, with no extra characters before or after it.",
+      "train_score": 0.4864864864864865,
+      "train_step": 99,
+      "test_score": 0.5489006823351024,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact integer result. After confirming it, produce only that number\u2014no surrounding text, spaces, punctuation, markdown, or line\u2011breaks. End your response immediately after the last digit.",
+      "train_score": 0.17567567567567569,
+      "train_step": 99,
+      "test_score": 0.27065959059893857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem and respond with the exact integer answer only, placed on a single line with no surrounding characters, spaces, punctuation, markdown or line\u2011breaks before or after it. End your response immediately after the final digit.",
+      "train_score": 0.21621621621621623,
+      "train_step": 99,
+      "test_score": 0.1516300227445034,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the integer answer and respond with that number alone on its own line, with absolutely no preceding or trailing characters\u2014no spaces, punctuation, markdown, or extra newline. End the reply immediately after the final digit.",
+      "train_score": 0.14864864864864866,
+      "train_step": 99,
+      "test_score": 0.09704321455648218,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.849128127369219,
+    "avg_test_score": 0.7176071338315464,
+    "best_test_instruction": "Solve the problem. Optional: list any crucial intermediate steps. Then output a single integer\u2014the final answer\u2014on a line by itself with absolutely no other text, symbols, or whitespace (including no trailing newline beyond the line)."
+  }
+}

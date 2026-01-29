@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8541666666666666,
+      "train_step": -1,
+      "test_score": 0.7461706783369803,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core concept, perform only the indispensable calculation(s) each with a brief justification, and conclude by writing the exact numeric result as a single number on the final line.",
+      "train_score": 0.9375,
+      "train_step": 22,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Spot the governing rule, carry out the smallest possible sequence of justified calculations, and finish by writing the exact numeric answer alone on the final line.",
+      "train_score": 0.9375,
+      "train_step": 16,
+      "test_score": 0.7414817130353235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nPinpoint the decisive rule, execute only the unavoidable calculation(s) with a concise justification per operation, and conclude with the exact numeric answer as the sole line of output.\\n",
+      "train_score": 0.9375,
+      "train_step": 88,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single essential rule, execute only the required calculation with each step given a brief justification, and finish by outputting solely the exact numeric result on one line.",
+      "train_score": 0.8958333333333334,
+      "train_step": 99,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Choose the pivotal insight, perform only the indispensable arithmetic with a brief justification for each step, and end by printing the exact numeric answer alone on the final line.",
+      "train_score": 0.9375,
+      "train_step": 88,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Highlight the pivotal idea, execute the bare\u2011minimum calculations each with a brief justification, and finish by outputting only the final numeric result on a single line.",
+      "train_score": 0.9583333333333334,
+      "train_step": 21,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single indispensable rule, execute only the required calculation (each step given a brief justification), and conclude by outputting the exact numeric value alone on the final line, using a decimal point when appropriate.",
+      "train_score": 0.9375,
+      "train_step": 92,
+      "test_score": 0.7342919662394498,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the single mathematical principle needed, apply it with the minimal number of justified steps, and finish by writing only the exact numeric answer on the final line.",
+      "train_score": 0.9375,
+      "train_step": 87,
+      "test_score": 0.7299155986245702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the one key formula or fact needed, execute precisely the required computation while giving each operation a brief justification, and finish by printing only the final numeric value on its own line (nothing else).",
+      "train_score": 0.9375,
+      "train_step": 92,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Your mission is to locate the lone mathematical rule that applies, perform only the required calculations (annotating each with a concise note), and conclude by printing the exact answer as the sole line of output.",
+      "train_score": 0.9375,
+      "train_step": 92,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the sole relevant formula, execute the minimal algebraic manipulation (each step justified in a brief clause), and end with the precise answer formatted as a single numeric line (including a decimal point if needed).",
+      "train_score": 0.9375,
+      "train_step": 68,
+      "test_score": 0.7067833698030634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nDetermine the single relevant rule, then carry out the minimal arithmetic required\u2014giving each step a terse comment\u2014and finally print the exact value on a line by itself.\\n",
+      "train_score": 0.9375,
+      "train_step": 82,
+      "test_score": 0.6864645201625508,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the necessary theorem or definition, execute the minimal required calculation with a brief one\u2011sentence justification per step, and conclude by printing exactly the numeric answer on a lone line.",
+      "train_score": 0.9375,
+      "train_step": 33,
+      "test_score": 0.6802125664270084,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the sole relevant formula, execute only the essential arithmetic (each step briefly justified), and terminate your answer with nothing but the exact numeric value on a single line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6767739918724601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the single mathematical fact or formula required, apply it using the fewest arithmetic steps (each step justified in one brief clause), and finish by printing only the exact numeric answer on its own line.",
+      "train_score": 0.9375,
+      "train_step": 84,
+      "test_score": 0.6698968427633636,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the lone relevant theorem, apply it using the minimal chain of calculations (each step accompanied by a single\u2011sentence justification), and end by outputting only the exact value on one line\u2014nothing else.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6076899030947172,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the lone relevant theorem, execute the minimal required computation with a one\u2011sentence justification per step, then write the exact result as the only content of the last line (include a decimal point only when necessary).",
+      "train_score": 0.8125,
+      "train_step": 99,
+      "test_score": 0.6045639262269459,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the essential principle, apply it in the fewest steps with brief justifications, and print only the exact answer on its own line.",
+      "train_score": 0.25,
+      "train_step": 99,
+      "test_score": 0.2435135979993748,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the one mathematical fact that resolves the question, apply it using the fewest possible arithmetic steps (state a one\u2011sentence justification for each), and output only the final number on its own line, without any additional text.",
+      "train_score": 0.1875,
+      "train_step": 99,
+      "test_score": 0.19318537042825884,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the sole necessary mathematical fact, apply it with the fewest justified operations, and output only the exact numeric result on a single line, without any additional text.",
+      "train_score": 0.20833333333333334,
+      "train_step": 99,
+      "test_score": 0.19224757736792747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7461706783369803,
+    "avg_test_score": 0.6364488902782119,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

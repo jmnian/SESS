@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every numeric value, label each with a distinct short symbol, write one exact arithmetic/algebraic formula that directly gives the requested quantity, evaluate the formula step\u2011by\u2011step as \u201cexpression = value // brief reason\u201d (keep fractions exact, no rounding), verify any condition stated in the problem, and output only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 25,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each numeric datum, assign a unique short symbol, substitute them into a single exact expression that yields the answer, compute the expression stepwise showing \u201cexpr = value // justification\u201d with exact fractions, verify any problem constraints, and finally print only the final number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 64,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write down each number that appears, substitute them directly into one precise arithmetic formula that answers the question, then simplify the formula step\u2011by\u2011step. For every intermediate simplification output a line of the form \u201cexpression = value // reason\u201d, preserving exact fractions (no decimal rounding). After the last line verify any condition mentioned in the problem, and finally print only the resulting number.",
+      "train_score": 0.9693486590038314,
+      "train_step": 33,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, label them with clear symbols, formulate the required calculation as a single equation, resolve it by showing each intermediate simplification on its own line with a concise explanation, and output solely the final numeric value.",
+      "train_score": 0.9693486590038314,
+      "train_step": 10,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract every explicit number from the problem and assign it a unique one\u2011letter symbol (a, b, \u2026).  \n- Combine the symbols into one closed\u2011form arithmetic/algebraic expression that yields exactly the quantity asked for.  \n- Compute the expression step\u2011by\u2011step, presenting each intermediate line as \u201cexpr = value // short reason\u201d, preserving exact fractions (no rounding).  \n- After the last line, check any condition mentioned in the problem.  \n- Output only the final numeric result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 86,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each given number, bind it to a unique short symbol, write the single exact formula that solves the problem, evaluate it line\u2011by\u2011line showing \u201cexpression = value // reason\u201d, keep all fractions exact, verify any constraints, then print only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 21,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Extract every number mentioned and assign each a short, unique label (e.g., a, b, c).  \n- Write a single exact arithmetic (or algebraic) expression that directly yields the requested quantity.  \n- Evaluate the expression step\u2011by\u2011step, placing each intermediate equality on its own line with a brief justification; keep fractions exact and do not round.  \n- Verify that any condition stated in the problem is satisfied by the result.  \n- Output only the final numeric answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 23,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Identify each numeral and label it with a distinct single\u2011letter variable.  \n- Combine the variables into one exact expression that equals the answer.  \n- Reduce the expression step\u2011by\u2011step, documenting each line as \u201cexpr = value // rule\u201d, preserving rational values exactly.  \n- Confirm any stated condition, then output only the final number.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify all quantities in the problem and denote each with a distinct one\u2011letter variable.  \n- Form a single exact arithmetic/algebraic expression that yields the requested value.  \n- Simplify the expression in a vertical chain, writing \u201ccurrent form = result // rule\u201d.  \n- Ensure any stated condition holds.  \n- Output only the final number.",
+      "train_score": 0.9655172413793104,
+      "train_step": 31,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List every explicit number in the problem and give it a distinct one\u2011letter symbol (a, b, \u2026).  \n- Form a single exact arithmetic/algebraic expression that equals the quantity asked for, using those symbols.  \n- Evaluate the expression as a chain of equalities; for each step write \u201ccurrent expression = value // short justification\u201d, keeping all numbers exact (no rounding).  \n- After the last step confirm any condition stated in the problem.  \n- Output only the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 73,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Find every explicit number in the statement and give each a unique one\u2011letter label (a, b, \u2026).  \n- Combine the labels into the smallest possible exact expression that directly computes the asked\u2011for quantity.  \n- Compute this expression step\u2011by\u2011step, writing each line as \u201ccurrent expression = value // rule\u201d, preserving exact fractions (no decimal rounding).  \n- When the chain ends, verify any condition mentioned in the problem.  \n- Output only the final numeric result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 99,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify each numeric constant, assign a distinct single\u2011letter variable, write one exact expression that gives the requested value, evaluate it stepwise showing \u201cexpr = result // rule\u201d with rational arithmetic, verify any condition, and output only the final number.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify every explicit numeric value in the problem and assign it a unique one\u2011letter symbol.  \n- Construct a single exact arithmetic/algebraic expression that directly produces the quantity asked for.  \n- Evaluate this expression step\u2011by\u2011step, writing each intermediate line as \u201ccurrent expression = value // brief operation\u201d, keeping all fractions exact (no rounding).  \n- Verify that any condition given in the problem is satisfied by the result.  \n- Output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 36,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Locate every explicit number in the problem and assign it a unique one\u2011letter identifier (a, b, \u2026).  \n- Build a single exact arithmetic/algebraic expression with those identifiers that yields the asked quantity.  \n- Compute the expression step\u2011by\u2011step, presenting each transformation as \u201cexpression = value // short reason\u201d, preserving exact fractions (no rounding).  \n- After the last transformation verify any condition given in the problem.  \n- Emit only the final numeric result.",
+      "train_score": 0.9693486590038314,
+      "train_step": 71,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each numeric datum, assign it a short unique variable (a, b, \u2026), then write one exact arithmetic formula that directly yields the quantity asked for. Evaluate the formula as a vertical chain of equalities, placing on each line the current expression, its computed value, and a brief justification (keep fractions exact, no rounding). After the chain, verify that any stated condition is satisfied, and finally output only the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 21,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record each explicit number and assign it a unique one\u2011letter symbol (a, b, \u2026).  \n- Place the symbols into one exact arithmetic/algebraic expression that directly gives the required answer.  \n- Evaluate the expression step\u2011by\u2011step as a forward chain, writing each line \u201ccurrent expression = value // brief rule\u201d, keeping fractions exact (no decimal rounding).  \n- After the final line, confirm any condition stated in the problem.  \n- Output only the final numeric result.",
+      "train_score": 0.9655172413793104,
+      "train_step": 48,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Assign each given number a unique one\u2011letter variable, write the smallest exact algebraic expression that produces the answer, evaluate it sequentially showing \u201cexpr = value // rule\u201d with all fractions kept exact, verify any stated condition, and finally output only the resulting number.",
+      "train_score": 0.9616858237547893,
+      "train_step": 99,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeral in the problem and assign each a short, unique symbol. Write the precise arithmetic or algebraic formula that directly answers the question, then compute it step\u2011by\u2011step, displaying each intermediate result on its own line with a one\u2011sentence justification (using exact arithmetic, no rounding). Verify that any given constraints are met, and finally output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 14,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Locate every explicit numeral and assign it a unique short symbol (a, b, \u2026).  \n- Translate the problem into the smallest possible system of exact algebraic equations using those symbols.  \n- Solve the system step\u2011by\u2011step with rational arithmetic, writing each transformation as \u201ccurrent equation = result // brief justification\u201d.  \n- Verify that any condition stated in the problem is satisfied by the solution.  \n- Output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 59,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8390804597701149,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Assign a distinct one\u2011letter variable (a, b, \u2026) to every explicit number in the problem.  \n- Insert those variables into the most compact exact expression that directly gives the requested quantity.  \n- Evaluate the expression step\u2011by\u2011step, writing each line as \u201ccurrent_form = result // brief_rule\u201d, preserving exact rational values (no decimal rounding).  \n- After the final line verify any condition stated in the problem.  \n- Output only the final numeric answer.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.7877179681576952,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9029567854435178,
+    "avg_test_score": 0.8822701180548036,
+    "best_test_instruction": "Extract every numeric value, label each with a distinct short symbol, write one exact arithmetic/algebraic formula that directly gives the requested quantity, evaluate the formula step\u2011by\u2011step as \u201cexpression = value // brief reason\u201d (keep fractions exact, no rounding), verify any condition stated in the problem, and output only the final numeric answer."
+  }
+}

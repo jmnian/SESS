@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Provide a compact solution: first mention the principal theorem or formula, then carry out the necessary computation in the minimal number of logical steps, and finally present only the exact numerical answer.",
+      "train_score": 0.8125,
+      "train_step": 17,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, well\u2011structured solution: identify the key concept, carry out the necessary calculations step by step, and finish with the exact numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logically ordered solution that enumerates each essential inference, performs the necessary calculations, and ends with the exact numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a direct, succinct solution that includes necessary calculations, clear reasoning, and the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a clear, minimal solution: outline the key idea, do the necessary computation, and state the final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.75,
+      "train_step": -1,
+      "test_score": 0.7467958737105346,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short, logically ordered solution: state the relevant principle, perform the essential computation in clear steps, and finish with only the final numeric result.",
+      "train_score": 0.7708333333333334,
+      "train_step": 3,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.7708333333333334,
+      "train_step": 0,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the result using the appropriate formula in the shortest possible derivation, then state only the final numeric value.",
+      "train_score": 0.7916666666666666,
+      "train_step": 73,
+      "test_score": 0.7417943107221007,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the needed quantity using the appropriate relation, evaluate it with the given data, and output only the exact numeric result.",
+      "train_score": 0.7916666666666666,
+      "train_step": 46,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a compact solution: enumerate only the essential steps, show the necessary calculations, and finish by stating the exact numeric answer alone.",
+      "train_score": 0.7708333333333334,
+      "train_step": 2,
+      "test_score": 0.7305407939981244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present a concise solution: state the main idea, perform the required calculation, and give only the final numeric answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 3,
+      "test_score": 0.6992810253204126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a three\u2011step response: (i) identify the key mathematical relation needed, (ii) perform the calculation in as few steps as possible, (iii) give only the final numeric result.",
+      "train_score": 0.7916666666666666,
+      "train_step": 9,
+      "test_score": 0.6970928415129728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solution in three parts: (i) name the essential formula, (ii) calculate the result in the fewest steps, (iii) output only the exact final number.",
+      "train_score": 0.7916666666666666,
+      "train_step": 30,
+      "test_score": 0.6933416692716474,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise response: (i) name the core theorem or formula needed, (ii) perform the required computation in as few logical steps as possible, and (iii) present only the exact final numeric answer.",
+      "train_score": 0.7708333333333334,
+      "train_step": 16,
+      "test_score": 0.6930290715848703,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Answer concisely: first cite the single necessary theorem or identity, then compute the result in the smallest possible number of algebraic steps, and finally present only the exact final value (nothing else).",
+      "train_score": 0.8333333333333334,
+      "train_step": 29,
+      "test_score": 0.6920912785245389,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output only the exact result: first name the sole needed formula or principle, then plug in the data and compute in as few steps as possible, finally print the final numeric value alone.",
+      "train_score": 0.6875,
+      "train_step": 99,
+      "test_score": 0.6917786808377618,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer briefly by (i) identifying the essential formula or theorem, (ii) applying it in the fewest steps possible, and (iii) giving only the final numeric result.",
+      "train_score": 0.7916666666666666,
+      "train_step": 12,
+      "test_score": 0.6805251641137856,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the lone relevant principle, apply it with the given data in the fewest logical moves, and output solely the exact numeric result.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.5926852141294154,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Respond with a one\u2011line answer: first, in a brief phrase, state the essential formula or theorem required; second, after a semicolon, give only the computed numerical result, with no extra commentary.",
+      "train_score": 0.3541666666666667,
+      "train_step": 99,
+      "test_score": 0.25695529853079085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a ultra\u2011brief solution: (a) pinpoint the decisive theorem or relationship, (b) substitute the data and simplify in a single algebraic step, (c) output just the final value with no extra text.",
+      "train_score": 0.2708333333333333,
+      "train_step": 99,
+      "test_score": 0.18443263519849953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.6712216615311333,
+    "best_test_instruction": "Provide a compact solution: first mention the principal theorem or formula, then carry out the necessary computation in the minimal number of logical steps, and finally present only the exact numerical answer."
+  }
+}

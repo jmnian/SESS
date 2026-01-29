@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all given numbers, formulate the required equations, solve them, and output only the final numeric result.",
+      "train_score": 0.9459459459459459,
+      "train_step": 1,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\u201c...\u201d ... ......\"...\"...\"...\"\nRead the problem, extract the needed numbers, set up the appropriate calculations, and provide the final result.",
+      "train_score": 0.918918918918919,
+      "train_step": 0,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` and ending with `",
+      "train_score": 0.9054054054054054,
+      "train_step": 98,
+      "test_score": 0.844579226686884,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8513513513513513,
+      "train_step": 20,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, perform the required calculations, and output the final answer.",
+      "train_score": 0.8918918918918919,
+      "train_step": 0,
+      "test_score": 0.8278999241849886,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "...some instruction...",
+      "train_score": 0.8513513513513513,
+      "train_step": 9,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "... (instruction)",
+      "train_score": 0.8243243243243243,
+      "train_step": 34,
+      "test_score": 0.8028809704321456,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem step\u2011by\u2011step and output only the final numeric answer.",
+      "train_score": 0.7837837837837838,
+      "train_step": 0,
+      "test_score": 0.7695223654283548,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break down the word problem, extract the needed numbers and relationships, perform the calculations, and output only the final numeric answer.",
+      "train_score": 0.581081081081081,
+      "train_step": 0,
+      "test_score": 0.5822592873388931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer and respond with only that value as a single, plain number\u2014no additional text or symbols.",
+      "train_score": 0.3918918918918919,
+      "train_step": 23,
+      "test_score": 0.2001516300227445,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, extract all relevant numbers, perform the exact calculation needed, and reply with only the final answer as a single numeric token (integer or reduced fraction), without any additional words, symbols, spaces, or formatting.",
+      "train_score": 0.3918918918918919,
+      "train_step": 46,
+      "test_score": 0.19939347990902198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the question, extract the numbers, compute the result using exact arithmetic (reduce fractions to lowest terms), and reply solely with the final answer as one uninterrupted numeric token\u2014no words, symbols, spaces, or formatting.",
+      "train_score": 0.3918918918918919,
+      "train_step": 32,
+      "test_score": 0.19408642911296436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, extract all numerical information, compute the required quantity, and respond solely with the exact numeric answer as a single token without any additional characters.",
+      "train_score": 0.3918918918918919,
+      "train_step": 14,
+      "test_score": 0.19029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Compute the answer and reply with exactly one uninterrupted numeric token (integer or simplest\u2011term fraction); include nothing else\u2014no words, symbols, spaces, or formatting.",
+      "train_score": 0.32432432432432434,
+      "train_step": 99,
+      "test_score": 0.18574677786201668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, isolate all numerical data, compute the precise answer, and respond with only that answer as one plain number (integer or lowest\u2011terms fraction), without any extra characters or commentary.",
+      "train_score": 0.28378378378378377,
+      "train_step": 99,
+      "test_score": 0.18423047763457165,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the value asked for, calculate it exactly, and output only that value as one continuous numeric token (integer or simplified fraction) with no surrounding text.",
+      "train_score": 0.25675675675675674,
+      "train_step": 99,
+      "test_score": 0.17816527672479152,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem carefully, extract every numerical value, reason step\u2011by\u2011step to solve the required calculation, and respond with only the final answer as a single uninterrupted numeric token (integer or reduced fraction) with no extra words, symbols, or formatting.",
+      "train_score": 0.32432432432432434,
+      "train_step": 99,
+      "test_score": 0.17664897649734648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data from the problem, set up the necessary equations, compute the exact solution (reduce fractions), and reply with only the final result as a single uninterrupted numeric token (integer or reduced fraction), without any additional words, symbols, spaces, or formatting.",
+      "train_score": 0.2972972972972973,
+      "train_step": 99,
+      "test_score": 0.17513267626990145,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the question, execute the exact calculation (keep fractions unreduced until final simplification), and output solely the final value\u2014either an integer or a reduced fraction\u2014with no surrounding text or symbols.",
+      "train_score": 0.20270270270270271,
+      "train_step": 99,
+      "test_score": 0.1599696739954511,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the prompt, identify every numeric datum, construct the precise equation(s) required, evaluate them exactly (use reduced fractions when needed), and output only the computed value as a single uninterrupted token\u2014no words, symbols, or spaces.",
+      "train_score": 0.17567567567567569,
+      "train_step": 99,
+      "test_score": 0.13115996967399546,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8847611827141774,
+    "avg_test_score": 0.47637098812231493,
+    "best_test_instruction": "Identify all given numbers, formulate the required equations, solve them, and output only the final numeric result."
+  }
+}

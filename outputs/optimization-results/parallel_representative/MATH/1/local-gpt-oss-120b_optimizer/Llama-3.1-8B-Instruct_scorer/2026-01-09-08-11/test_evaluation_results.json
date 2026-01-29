@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Pinpoint the exact number asked for, perform the one indispensable computation (direct substitution, formula, or modular arithmetic) in a single step, do a rapid plausibility check, and respond with only the final exact answer in lowest terms (integer or reduced fraction).",
+      "train_score": 0.8333333333333334,
+      "train_step": 94,
+      "test_score": 0.5273522975929978,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity sought, choose the single decisive rule, compute it in one concise evaluation, optionally do a quick sanity check, and return *only* the final numeric answer in simplest form.",
+      "train_score": 0.8125,
+      "train_step": 37,
+      "test_score": 0.5211003438574554,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the exact quantity required, perform the single indispensable computation (direct substitution, closed\u2011form formula, or elementary simplification) in one concise step, make a quick plausibility check, and output\u202fONLY the final answer in lowest\u2011terms (integer or reduced fraction).",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.5207877461706784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the target value, pick the single relevant rule or direct computation, evaluate it in one step, perform a brief sanity check, and output only the final exact answer (as an integer or reduced fraction).",
+      "train_score": 0.8958333333333334,
+      "train_step": 36,
+      "test_score": 0.5192247577367928,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact quantity asked, use the one most straightforward principle or computation to evaluate it in a single concise step (allowing at most one auxiliary simplification), perform a quick plausibility check if desired, and output only the final exact answer in its simplest integer or reduced\u2011fraction form.",
+      "train_score": 0.8541666666666666,
+      "train_step": 59,
+      "test_score": 0.5126602063144733,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the exact value required, formulate the lone decisive expression, evaluate it in a single calculation, optionally validate instantly, and present only that final exact answer (as an integer or simplest fraction).",
+      "train_score": 0.8541666666666666,
+      "train_step": 63,
+      "test_score": 0.5104720225070335,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise number requested, determine the lone governing rule that produces it, compute that rule in a single, self\u2011contained expression, quickly verify plausibility, and return only the exact result in lowest terms (integer or reduced fraction).",
+      "train_score": 0.7083333333333334,
+      "train_step": 99,
+      "test_score": 0.5070334479524852,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine precisely the quantity sought, choose the single indispensable computation (direct substitution, formula, or simple arithmetic) that produces it, evaluate it in one concise step, perform a quick sanity check, and return only the final exact answer (integer or reduced fraction).",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.5060956548921538,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Translate the question into a single mathematical expression that directly yields the requested value, compute it, confirm its reasonableness in a moment, and output just the simplified numeric answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 70,
+      "test_score": 0.5060956548921538,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the specific quantity asked, locate the one decisive formula, compute it in a single concise evaluation, optionally perform a rapid sanity check, and present ONLY the exact result in lowest terms (integer or reduced fraction).",
+      "train_score": 0.8333333333333334,
+      "train_step": 65,
+      "test_score": 0.503907471084714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the precise number the problem requires, choose the single indispensable computation (direct formula, substitution, or elementary simplification) that yields it, evaluate that computation in one concise step, do a quick plausibility check, and output only the final answer in lowest terms (integer or reduced fraction).",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.5032822757111597,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "\\nIdentify the exact quantity being asked, apply the single most direct formula or counting principle in one clear computation, quickly verify the result, and output ONLY the final exact answer in simplest form.\\n",
+      "train_score": 0.875,
+      "train_step": 68,
+      "test_score": 0.5023444826508284,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what the problem asks for, pinpoint the one key relationship that resolves it, calculate the answer in one uncomplicated step (checking briefly if desired), and output only that final value in reduced exact form.",
+      "train_score": 0.8125,
+      "train_step": 30,
+      "test_score": 0.4973429196623945,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the needed value by locating the one applicable relation, calculate it directly, verify briefly, and present just the simplified answer.",
+      "train_score": 0.8125,
+      "train_step": 12,
+      "test_score": 0.4954673335417318,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine exactly what the problem asks, apply the one essential computation directly (one line), optionally confirm its plausibility, and output only the final exact answer in lowest terms (integer or reduced fraction).",
+      "train_score": 0.7708333333333334,
+      "train_step": 99,
+      "test_score": 0.49484213816817757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly reinterpret the question, isolate the single decisive theorem or formula needed, execute the computation in one streamlined step, perform a quick sanity check, and output only the final numerical answer in its simplest exact form.",
+      "train_score": 0.8125,
+      "train_step": 30,
+      "test_score": 0.4920287589871835,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the requested quantity, use the sole required principle, evaluate it with a one\u2011line computation, optionally perform a quick plausibility check, and output only the exact result in simplest form.",
+      "train_score": 0.8125,
+      "train_step": 45,
+      "test_score": 0.49140356361362925,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.4867145983119725,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\nFocus on the specific quantity requested, determine the single decisive operation or formula that yields it, execute that operation in one concise computation, perform a quick sanity check, and present ONLY the final exact answer (as an integer or reduced fraction).\\n",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.485464207564864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the quantity to be found, apply the one pertinent formula in a single step, perform a brief plausibility check, and output only the final exact answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 14,
+      "test_score": 0.4504532666458268,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the exact quantity asked for, apply the one essential formula or direct computation in a single step, optionally verify its reasonableness, and return *only* the final reduced integer or fraction\u2014no explanations, no extra text.",
+      "train_score": 0.14583333333333334,
+      "train_step": 99,
+      "test_score": 0.19224757736792747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5273522975929978,
+    "avg_test_score": 0.48696765358222066,
+    "best_test_instruction": "Pinpoint the exact number asked for, perform the one indispensable computation (direct substitution, formula, or modular arithmetic) in a single step, do a rapid plausibility check, and respond with only the final exact answer in lowest terms (integer or reduced fraction)."
+  }
+}

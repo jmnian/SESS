@@ -16,13 +16,10 @@ r"""Optimize over the objective function of a traveling salesman problem.
 Usage:
 
 ```
-python optimize_tsp.py --optimizer="text-bison"
+python optimize_tsp.py --optimizer="gpt-3.5-turbo"
 ```
 
 Note:
-- When using a Google-Cloud-served model (like text-bison at
-https://developers.generativeai.google/tutorials/text_quickstart), add
-`--palm_api_key="<your_key>"`
 - When using an OpenAI model, add `--openai_api_key="<your_key>"`
 """
 
@@ -42,7 +39,6 @@ sys.path.insert(0, OPRO_ROOT_PATH)
 
 from absl import app
 from absl import flags
-import google.generativeai as palm
 import numpy as np
 import openai
 
@@ -52,8 +48,6 @@ from opro import prompt_utils
 _OPENAI_API_KEY = flags.DEFINE_string(
     "openai_api_key", "", "The OpenAI API key."
 )
-
-_PALM_API_KEY = flags.DEFINE_string("palm_api_key", "", "The PaLM API key.")
 
 _OPTIMIZER = flags.DEFINE_string(
     "optimizer", "gpt-3.5-turbo", "The name of the optimizer LLM."
@@ -74,23 +68,11 @@ def main(_):
 
   # ================ load LLM settings ===================
   optimizer_llm_name = _OPTIMIZER.value
-  assert optimizer_llm_name in {
-      "text-bison",
-      "gpt-3.5-turbo",
-      "gpt-4",
-  }
+  assert optimizer_llm_name in {"gpt-3.5-turbo", "gpt-4"}
   openai_api_key = _OPENAI_API_KEY.value
-  palm_api_key = _PALM_API_KEY.value
 
-  if optimizer_llm_name in {"gpt-3.5-turbo", "gpt-4"}:
-    assert openai_api_key, "The OpenAI API key must be provided."
-    openai.api_key = openai_api_key
-  else:
-    assert optimizer_llm_name == "text-bison"
-    assert (
-        palm_api_key
-    ), "A PaLM API key is needed when prompting the text-bison model."
-    palm.configure(api_key=palm_api_key)
+  assert openai_api_key, "The OpenAI API key must be provided."
+  openai.api_key = openai_api_key
 
   # =================== create the result directory ==========================
   datetime_str = (
@@ -109,41 +91,7 @@ def main(_):
   print(f"result directory:\n{save_folder}")
 
   # ====================== optimizer model configs ============================
-  if optimizer_llm_name.lower() == "text-bison":
-    # when prompting text-bison with Cloud API
-    optimizer_finetuned_palm_temperature = 1.0
-    optimizer_finetuned_palm_max_decode_steps = 1024
-    optimizer_finetuned_palm_batch_size = 1
-    optimizer_finetuned_palm_num_servers = 1
-    optimizer_finetuned_palm_dict = dict()
-    optimizer_finetuned_palm_dict["temperature"] = (
-        optimizer_finetuned_palm_temperature
-    )
-    optimizer_finetuned_palm_dict["batch_size"] = (
-        optimizer_finetuned_palm_batch_size
-    )
-    optimizer_finetuned_palm_dict["num_servers"] = (
-        optimizer_finetuned_palm_num_servers
-    )
-    optimizer_finetuned_palm_dict["max_decode_steps"] = (
-        optimizer_finetuned_palm_max_decode_steps
-    )
-
-    call_optimizer_finetuned_palm_server_func = functools.partial(
-        prompt_utils.call_palm_server_from_cloud,
-        model="text-bison-001",
-        temperature=optimizer_finetuned_palm_dict["temperature"],
-        max_decode_steps=optimizer_finetuned_palm_dict["max_decode_steps"],
-    )
-
-    optimizer_llm_dict = {
-        "model_type": optimizer_llm_name.lower(),
-    }
-    optimizer_llm_dict.update(optimizer_finetuned_palm_dict)
-    call_optimizer_server_func = call_optimizer_finetuned_palm_server_func
-
-  else:
-    assert optimizer_llm_name in {"gpt-3.5-turbo", "gpt-4"}
+  assert optimizer_llm_name in {"gpt-3.5-turbo", "gpt-4"}
     optimizer_gpt_max_decode_steps = 1024
     optimizer_gpt_temperature = 1.0
 

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all given quantities, state the target unknown, devise the simplest direct formula (applying percentages, ratios, or unit changes as needed), evaluate it step\u2011by\u2011step checking each intermediate against the givens, and return solely the final numeric answer with any necessary unit or symbol.",
+      "train_score": 0.9054054054054054,
+      "train_step": 31,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical facts and their context, pinpoint exactly what quantity the question asks for, devise the simplest direct calculation (including any percentage, unit conversion, or rounding) that produces that quantity, compute it step\u2011by\u2011step while briefly verifying each intermediate result aligns with the given data, and present only the final answer (with necessary units or symbols) on a single line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 19,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric fact and its meaning, specify exactly what quantity the question seeks, construct the simplest one\u2011line calculation that incorporates any required percentages, ratios, unit conversions or rounding, compute it step\u2011by\u2011step while briefly verifying each intermediate against the given data, and output only the final result with its proper unit or symbol on a single line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 52,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize each given number and its role, clearly state the specific quantity being requested, devise the most direct arithmetic expression (including any needed percent, ratio, or unit conversion), execute the calculation in a clear sequence while briefly confirming each intermediate matches the problem data, and present only the final numeric answer with any required unit or symbol on a single line.",
+      "train_score": 0.918918918918919,
+      "train_step": 37,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity and its meaning, determine the minimal mathematical relation needed, carry out the calculations step\u2011by\u2011step while briefly checking each intermediate result, and output only the final answer (with units if required).",
+      "train_score": 0.9054054054054054,
+      "train_step": 10,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, record every numeric detail and its meaning, choose the single computation (with any needed percent, unit conversion, or rounding) that directly yields the requested quantity, carry it out step\u2011by\u2011step while briefly confirming each intermediate value matches the problem\u2019s data, and output only the final answer (including any required units or symbols) on one line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 17,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list each given quantity with its meaning, state exactly which quantity is asked for, form the shortest possible direct computation (including any needed percentages, ratios, unit changes, or rounding), carry out the calculation checking each intermediate result against the data, and finally output only the final numeric result together with its unit or symbol on a single line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 76,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every given number with its role, decide which single mathematical operation or minimal equation yields the asked quantity, compute it stepwise while briefly checking each intermediate result against the stated conditions, and output only the final answer (with units if any).",
+      "train_score": 0.9054054054054054,
+      "train_step": 11,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given figure with its interpretation, pinpoint the exact quantity requested, formulate the simplest single calculation (applying any percentages, ratios, unit changes, or rounding), perform it while briefly checking each step against the data, and output only the resulting number with its appropriate unit on one line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 60,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, note every numeric value and its meaning, determine the single quantity being asked, form the most straightforward calculation (including any required percent, fraction, conversion or rounding), evaluate it stepwise while briefly confirming each intermediate matches the given data, and output only the final result with its unit (if any) on one line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8104624715693708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each numeric datum with its meaning, identify the single quantity the question seeks, construct the minimal arithmetic formula (using percentages, ratios, unit changes, or rounding as needed) that employs only those numbers, compute it sequentially verifying each step against the data, and output solely the final answer with its appropriate unit on one line.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8089461713419257,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities, define the exact unknown, construct a single explicit expression that incorporates any required percentages, ratios, unit conversions, or rounding, evaluate it step\u2011by\u2011step while briefly confirming each intermediate matches the given data, and output only the final numeric result with its appropriate unit or symbol on one line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 50,
+      "test_score": 0.8074298711144806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers and their roles, figure out the exact quantity requested, devise the most compact calculation (allowing percentages, unit changes, or rounding), execute it step\u2011by\u2011step while briefly confirming each intermediate matches the data, and output only the final result with any necessary unit or symbol on a single line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 57,
+      "test_score": 0.8059135708870356,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, identify the target quantity, form a single concise arithmetic expression that incorporates any needed percentages, ratios, or unit changes, evaluate it stepwise while briefly confirming each intermediate matches the given data, and output only the final numeric result (with its appropriate unit or symbol) on one line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the statement, enumerate every given number with its interpretation, pinpoint the precise quantity being asked, devise the shortest possible arithmetic expression (applying any needed percentages, ratios, unit changes, or rounding), compute it step\u2011by\u2011step while quickly confirming each intermediate aligns with the original data, and finally output solely the numeric answer with its required unit or symbol on one line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 53,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all given numbers with their meanings, define the exact unknown asked, compose a single one\u2011pass arithmetic expression (including any required percent, ratio, conversion or rounding), evaluate it stepwise confirming each intermediate aligns with the problem data, and output only the resulting value with its unit or symbol on one line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 39,
+      "test_score": 0.7808946171341926,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list each given number together with what it represents, decide precisely which unknown the question seeks, construct the most compact formula that uses only the listed numbers (including any required percentage, fraction, unit conversion, or rounding), verify that the formula respects all stated relationships, compute the result step\u2011by\u2011step, and finally print only the resulting value (with its unit or symbol if required) on a single line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 94,
+      "test_score": 0.77710386656558,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every number and its meaning, determine the single quantity being asked, form the simplest possible arithmetic expression that uses only the given numbers (apply any percentages, ratios, unit conversions, or rounding exactly as required), evaluate it, and output only the final numeric answer with its unit or symbol on one line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.7649734647460197,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7702702702702703,
+      "train_step": -1,
+      "test_score": 0.7573919636087946,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List each given number with its interpretation, pinpoint the exact variable the problem requests, translate the whole situation into one compact arithmetic expression that uses only the listed data (apply any percent, ratio, conversion or rounding), compute the expression while briefly checking that every intermediate step is consistent with the facts, and output only the resulting value together with its unit (if any) on a single line.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7573919636087946,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numbers and what they represent, determine the single quantity the question seeks, write the most straightforward arithmetic expression (including any percent, ratio, conversion or rounding) that yields that quantity, evaluate it confirming each intermediate matches the data, and output only the final numeric result with its unit on one line.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.7505686125852918,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8415466262319939,
+    "avg_test_score": 0.8011119535001263,
+    "best_test_instruction": "Identify all given quantities, state the target unknown, devise the simplest direct formula (applying percentages, ratios, or unit changes as needed), evaluate it step\u2011by\u2011step checking each intermediate against the givens, and return solely the final numeric answer with any necessary unit or symbol."
+  }
+}

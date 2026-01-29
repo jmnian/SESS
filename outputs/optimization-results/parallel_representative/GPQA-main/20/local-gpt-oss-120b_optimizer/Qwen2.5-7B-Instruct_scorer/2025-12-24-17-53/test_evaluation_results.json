@@ -1,0 +1,203 @@
+{
+  "dataset": "gpqa",
+  "task": "main",
+  "num_test_questions": 448,
+  "num_train_questions": 89,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.4943820224719101,
+      "train_step": -1,
+      "test_score": 1.0,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines, no extra characters. Line\u202f1: a single capital letter A\u2011D indicating the correct choice. Line\u202f2: the literal token \"Because\", a single lowercase word of your choice, the token \"yields\", and the same letter as line\u202f1, each separated by a single space. Do not include punctuation, trailing spaces, or a final newline after the second line.",
+      "train_score": 1.0,
+      "train_step": 95,
+      "test_score": 1.0,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly two lines with no extra characters. Line\u202f1: the correct answer letter (A\u2011D). Line\u202f2: the word \u201cBecause\u201d, a single\u2011word reason, the word \u201cyields\u201d, and the same letter as line\u202f1, each separated by one space. End the response immediately after the final letter.",
+      "train_score": 1.0,
+      "train_step": 80,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce exactly two lines with no extra characters. Line\u202f1: a single capital letter A\u2011D. Line\u202f2: the word \u201cBecause\u201d, a one\u2011word lowercase justification, the word \u201cyields\u201d, and the same letter as line\u202f1, each separated by a single space. End the response immediately after the final letter.",
+      "train_score": 1.0,
+      "train_step": 84,
+      "test_score": 0.9977678571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly two lines. Line\u202f1: a single capital letter A\u2011D indicating the correct answer. Line\u202f2: the word \u201cBecause\u201d, one\u2011word reason, the word \u201cleads\u201d, and the same letter, separated by single spaces; no punctuation or extra characters. End output immediately after the second line.",
+      "train_score": 1.0,
+      "train_step": 66,
+      "test_score": 0.9955357142857143,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly two lines with no extra characters. Line\u202f1: a single capital letter A\u2011D indicating the correct choice. Line\u202f2: the word \u201cBecause\u201d, one lowercase justification word, the word \u201cyields\u201d, and repeat the same letter from line\u202f1, separated by single spaces. Do not add punctuation, trailing spaces, or a final newline.",
+      "train_score": 1.0,
+      "train_step": 91,
+      "test_score": 0.9955357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a response consisting of exactly two lines and nothing else. Line\u202f1 must be a single capital letter A\u2011D representing the correct choice. Line\u202f2 must contain the tokens \u201cBecause\u201d, a single lowercase word, \u201cyields\u201d, and the same letter as in line\u202f1, each separated by a single space. Use no punctuation, no extra whitespace, and terminate immediately after the final character (no trailing newline).",
+      "train_score": 1.0,
+      "train_step": 93,
+      "test_score": 0.9955357142857143,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines and nothing else. Line\u202f1: a single capital letter A\u2011D indicating the answer. Line\u202f2: the word \u201cBecause\u201d, followed by one lowercase word, then the word \u201cyields\u201d, then the same letter as line\u202f1. Separate each token with a single space; use no punctuation, no extra spaces, and do not output a final newline. End output immediately after the last character.",
+      "train_score": 1.0,
+      "train_step": 83,
+      "test_score": 0.9933035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines and nothing else.\n\nLine\u202f1: a single capital letter A\u2011D indicating the correct choice.\n\nLine\u202f2: the tokens \u201cBecause\u201d, one lowercase word, the token \u201cyields\u201d, and the same letter as line\u202f1, separated by single spaces. Use no punctuation, no extra spaces, and do not output a trailing newline after the second line.",
+      "train_score": 1.0,
+      "train_step": 88,
+      "test_score": 0.9933035714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly two lines with no extra characters. Line\u202f1: the correct option letter A\u2011D. Line\u202f2: the literal token \u201cBecause\u201d, a single lowercase word of your choice, the token \u201cyields\u201d, and the same letter as line\u202f1, each separated by a single space. Do not include punctuation, trailing spaces, or a final newline after line\u202f2.",
+      "train_score": 1.0,
+      "train_step": 93,
+      "test_score": 0.9910714285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a response of two lines only. First line: a single capital letter A\u2011D indicating the correct answer. Second line: the literal token \u201cBecause\u201d, one lowercase word of your choosing, the token \u201cyields\u201d, and repeat the same letter from line\u202f1, each separated by a single space. Do not add any punctuation, extra whitespace, or a trailing newline after the second line.",
+      "train_score": 0.9887640449438202,
+      "train_step": 99,
+      "test_score": 0.9888392857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide exactly two lines, no extra characters. Line\u202f1: the correct option letter (A\u2011D). Line\u202f2: the word \u201cBecause\u201d, a single lowercase justification chosen from {valid, sound, logical, correct}, the word \u201cyields\u201d, and repeat the same letter as line\u202f1, separated by single spaces. Do not include any punctuation, additional whitespace, or a trailing newline after the second line.",
+      "train_score": 0.898876404494382,
+      "train_step": 99,
+      "test_score": 0.984375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Answer with exactly two lines. First line: the correct option letter (A\u2011D). Second line: the phrase \u201cBecause\u201d followed by a single\u2011word reason, the word \u201cyields\u201d, and the same letter, separated by single spaces. No other characters. End after the second line.",
+      "train_score": 1.0,
+      "train_step": 81,
+      "test_score": 0.984375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide exactly two lines. Line\u202f1: the chosen option letter A\u2011D. Line\u202f2: the word \u201cBecause\u201d, exactly six words total (including \u201cBecause\u201d and the final option letter), with the last word being the same letter as line\u202f1. Use only single spaces, no punctuation, and terminate immediately after line\u202f2.",
+      "train_score": 0.9887640449438202,
+      "train_step": 71,
+      "test_score": 0.984375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Reply with two lines and nothing else. Line\u202f1: a single capital letter A\u2011D denoting the correct choice. Line\u202f2: the literal token \u201cBecause\u201d, a single lowercase word, the token \u201cproduces\u201d, and the same letter as line\u202f1, each separated by a single space. No punctuation, no trailing spaces, and terminate immediately after the final character.",
+      "train_score": 1.0,
+      "train_step": 86,
+      "test_score": 0.9821428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Produce exactly two lines and nothing else. Line\u202f1: a single capital letter A\u2011D representing the correct choice. Line\u202f2: the literal token \u201cBecause\u201d, a single lowercase word of any kind, the token \u201cyields\u201d, and the same letter as line\u202f1, each separated by one space. Do not include any punctuation, extra whitespace, or a final newline after the second line.",
+      "train_score": 1.0,
+      "train_step": 97,
+      "test_score": 0.9821428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly two lines. Line\u202f1: the correct option letter (A\u2011D). Line\u202f2: the word \u201cBecause\u201d, a single\u2011word justification, the word \u201cyields\u201d, and the same letter, each separated by a single space. Use only capital letters A\u2011D and lowercase letters for words, no punctuation, and terminate immediately after line\u202f2.",
+      "train_score": 0.9887640449438202,
+      "train_step": 71,
+      "test_score": 0.9776785714285714,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Output exactly two lines with no extra characters. Line\u202f1: the correct answer letter (A\u2011D). Line\u202f2: repeat that letter, a single space, the word \u201cBecause\u201d, a single\u2011word lowercase justification, the word \u201cyields\u201d, and the same letter as line\u202f1, each separated by a single space. End the response immediately after the final character.",
+      "train_score": 1.0,
+      "train_step": 98,
+      "test_score": 0.953125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Respond with exactly two lines, no extra characters. Line\u202f1: the correct option letter A\u2011D. Line\u202f2: the word \u201cBecause\u201d, a single lowercase justification chosen freely, the word \u201cyields\u201d, and repeat the letter from line\u202f1; separate tokens with single spaces, use no punctuation, no trailing spaces, and terminate immediately after the final character (no newline).",
+      "train_score": 0.9887640449438202,
+      "train_step": 99,
+      "test_score": 0.9196428571428571,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Reply using exactly two lines and nothing else.\nLine\u202f1: a single capital letter A\u2013D indicating the correct answer.\nLine\u202f2: the token \u201cBecause\u201d, one lowercase word you choose, the token \u201cgives\u201d, and the same letter as in line\u202f1, each separated by a single space. Do not include punctuation, extra spaces, or a final newline after the second line.",
+      "train_score": 0.7865168539325843,
+      "train_step": 99,
+      "test_score": 0.8191964285714286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Output exactly two lines without any additional characters. First line: a single capital letter A\u2011D representing the correct answer. Second line: the word \u201cBecause\u201d, a single lowercase adjective chosen from {valid, correct, sound, logical}, the word \u201cproduces\u201d, and the same letter as in line\u202f1, each separated by a single space. Do not include punctuation, extra whitespace, or a trailing newline after the second line.",
+      "train_score": 1.0,
+      "train_step": 89,
+      "test_score": 0.4419642857142857,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 1.0,
+    "avg_test_score": 0.9513180272108842,
+    "best_test_instruction": "Let's solve the problem."
+  }
+}

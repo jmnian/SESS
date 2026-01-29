@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "- Extract numeric values and their units; name the quantity you\u2019re solving for with a single variable (like X).\n- Write ONE direct, explicit formula that yields X from the extracted numbers and, if required, convert units.\n- Compute this formula step-by-step. Present each intermediate outcome in a clean, simple form.\n- Deliver the final answer as \u201cX = answer\u201d. Include units only when relevant, otherwise note  \u201cno unit\u201d.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given numbers, define any unknown variables, formulate the correct arithmetic or algebraic equation, solve it step\u2011by\u2011step while checking intermediate results, verify that the answer fits the context, and present the final numeric answer with appropriate units.",
+      "train_score": 0.8783783783783784,
+      "train_step": 3,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numerical information (with units). Let the desired answer be represented by a single letter. Form exactly one algebraic expression that computes this letter from the listed data. Compute the expression step\u2011by\u2011step, checking units, and after each step note the intermediate result. End with a single sentence stating \u201c<letter> = <value> <unit>\u201d.",
+      "train_score": 0.8783783783783784,
+      "train_step": 58,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every quantity mentioned, noting its unit. Assign the quantity to be found a single placeholder (e.g., X). Combine the gathered numbers into one explicit calculation that yields X. Perform the calculation sequentially, writing each intermediate outcome with its unit and a quick sanity test. End with a single statement of the form \u201cX = <value> <unit>\u201d (omit the unit if none).",
+      "train_score": 0.8783783783783784,
+      "train_step": 74,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List every given numeric quantity with its unit.\n- Let the required answer be a single variable X.\n- Form one direct calculation that yields X using the listed numbers (apply conversions if needed).\n- Compute the calculation stepwise, writing each intermediate result with its unit and a brief plausibility comment.\n- Conclude with exactly one sentence: \u201cX = <value> <unit>\u201d (omit the unit if none).",
+      "train_score": 0.8918918918918919,
+      "train_step": 90,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numerical data (including units). Denote the quantity to be found by a single variable. Write the simplest direct formula that relates the given data to this variable. Evaluate the formula step\u2011by\u2011step, checking units or logical consistency after each step, and finish with one concise sentence that states only \u201c<variable> = <value> <unit>\u201d (omit the unit when none).",
+      "train_score": 0.8783783783783784,
+      "train_step": 43,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List all numbers (with their units) that appear in the problem.  \n- Define the required result as a single variable (e.g., R).  \n- Construct one explicit calculation that yields R directly from the listed numbers.  \n- Carry out the calculation in clear sequential steps, writing each intermediate value together with its unit and confirming it makes sense.  \n- End with a single concise sentence that states only \u201cR = <value> <unit>\u201d (omit the unit when none).",
+      "train_score": 0.8783783783783784,
+      "train_step": 47,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every numeric value (including its unit). Name the target quantity with a single symbol. Derive the most straightforward formula that connects the known values to that symbol. Evaluate the formula sequentially, showing each intermediate result with its unit, perform a quick sanity check, and finish with one brief sentence that states only \u201c<symbol> = <value> <unit>\u201d (omit the unit if none).",
+      "train_score": 0.8783783783783784,
+      "train_step": 39,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Record every numeric datum (including its unit), give the target quantity a single-letter name, construct the minimal direct equation that yields that name from the recorded data, compute the equation step\u2011by\u2011step showing each intermediate value with its unit and a brief sanity check, and finish with one short sentence stating only \u201c<letter> = <value> <unit>\u201d (omit the unit when none).",
+      "train_score": 0.8783783783783784,
+      "train_step": 46,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric datum (with units when given). State the quantity to determine. Construct a single explicit computation that directly yields that quantity, then perform the calculation in a clear ordered sequence, checking each intermediate result for plausibility. End with one brief sentence giving only the final value (including its unit if any).",
+      "train_score": 0.8918918918918919,
+      "train_step": 36,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given quantities, write the exact formula linking them to the unknown, perform the calculation step\u2011by\u2011step while checking each intermediate result, and output only the final numeric answer (including units if applicable) in a brief statement.",
+      "train_score": 0.8783783783783784,
+      "train_step": 7,
+      "test_score": 0.865049279757392,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given measurement, name the target quantity, write the direct proportional or arithmetic relationship that solves for it, evaluate the relationship stepwise while displaying each intermediate value with its unit, perform a quick sanity check, and give only the final number (with unit) as the answer.",
+      "train_score": 0.8783783783783784,
+      "train_step": 22,
+      "test_score": 0.8635329795299469,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- Record every number present, noting its unit.  \n- Assign the unknown as a single variable.  \n- Build the most direct arithmetic expression that yields the variable from the recorded numbers.  \n- Compute the expression in sequential order, showing each intermediate value with its unit and confirming plausibility.  \n- Conclude with exactly one line: \u201c<variable> = <value> <unit>\u201d.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8605003790750568,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "- Identify all numbers (and their units) in the statement.  \n- Define the required answer with a one\u2011letter variable.  \n- Assemble all the data into one compact formula that directly computes the variable.  \n- Evaluate the formula step\u2011by\u2011step, writing each intermediate value with its unit and a short reason it makes sense.  \n- Conclude with exactly one line: \u201c<letter> = <numeric value> <unit>\u201d (omit unit when unnecessary).",
+      "train_score": 0.8108108108108109,
+      "train_step": 99,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all given numbers (with units). State the unknown as a single symbol. Construct a one\u2011line arithmetic formula that directly yields the unknown. Compute the formula in a clear, ordered list of operations, writing the result after each operation together with its unit, and after the last operation write a single line \u201cAnswer: <symbol> = <value> <unit>\u201d. No extra explanation.",
+      "train_score": 0.8783783783783784,
+      "train_step": 53,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the word problem into one explicit calculation: first record all numbers (and units), then write the exact expression that directly yields the asked quantity, evaluate it step\u2011by\u2011step while keeping units consistent and briefly checking each intermediate result, and finally state only the resulting number (with its unit if any) in a short sentence.",
+      "train_score": 0.8783783783783784,
+      "train_step": 23,
+      "test_score": 0.821076573161486,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers with their units, denote the required unknown by a single variable, set up the exact formula that links the data to this variable, solve it sequentially while displaying each intermediate value with units, confirm the result is reasonable, and present only the final numeric answer (and unit) in one concise sentence.",
+      "train_score": 0.8918918918918919,
+      "train_step": 11,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every quantitative datum (including units), define the unknown as a single variable, formulate the precise single algebraic or arithmetic expression that yields the unknown, evaluate the expression in clear sequential steps while keeping track of units and briefly checking each intermediate value for plausibility, then output only the final value (with its unit, if any) in one short sentence.",
+      "train_score": 0.8783783783783784,
+      "train_step": 28,
+      "test_score": 0.8134950720242609,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "- List all numbers (and units) present.  \n- Assign the target result a single-letter variable.  \n- Form one compact arithmetic expression that yields the variable from the listed numbers (including any needed conversions).  \n- Calculate the expression in order, writing each intermediate result with its unit and a brief reasonableness check.  \n- End with exactly one line: \u201c<variable> = <value> <unit>\u201d.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.800606520090978,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number (and its unit) from the problem. Assign the unknown result a one\u2011letter variable. Write the minimal arithmetic expression that produces that variable from the extracted numbers (perform any needed unit conversions beforehand). Evaluate the expression in order, displaying each intermediate value with its unit and a short plausibility note. Conclude with one line of the form \u201c<letter> = <value> <unit>\u201d (omit the unit if none) and no additional text.",
+      "train_score": 0.6891891891891891,
+      "train_step": 99,
+      "test_score": 0.7862016679302501,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8984078847611827,
+    "avg_test_score": 0.8537853352106575,
+    "best_test_instruction": "- Extract numeric values and their units; name the quantity you\u2019re solving for with a single variable (like X).\n- Write ONE direct, explicit formula that yields X from the extracted numbers and, if required, convert units.\n- Compute this formula step-by-step. Present each intermediate outcome in a clean, simple form.\n- Deliver the final answer as \u201cX = answer\u201d. Include units only when relevant, otherwise note  \u201cno unit\u201d."
+  }
+}

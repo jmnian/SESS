@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all numbers, assign each unknown a distinct one\u2011letter variable, construct the unique simplest expression that yields the target, compute only essential steps (showing an intermediate only if unavoidable), check every condition, and finish with a single line containing only the final answer as an integer, reduced fraction, or percent.",
+      "train_score": 0.9459459459459459,
+      "train_step": 82,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every number mentioned, give each unknown a unique single\u2011letter variable, combine all relations into the one simplest expression that yields the requested quantity, compute only the indispensable intermediate results, check that all stated conditions hold, and finish with a single line containing just the final answer as an integer, a reduced fraction, or a percent.",
+      "train_score": 0.9459459459459459,
+      "train_step": 82,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, assign each unknown a unique single\u2011character symbol, formulate the sole minimal equation that yields the target quantity, compute it showing only indispensable intermediate results, verify every condition, and finish with exactly one line that contains the answer alone, presented as an integer, a lowest\u2011terms fraction, or a percent.",
+      "train_score": 0.9324324324324325,
+      "train_step": 83,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric value, denote each unknown with a unique one\u2011character symbol, combine the given relations into the shortest possible direct formula, evaluate it showing only the indispensable intermediate result(s), confirm all stated conditions, and finish with a single line that contains solely the final answer as an integer, an irreducible fraction, or a percent.",
+      "train_score": 0.9324324324324325,
+      "train_step": 85,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement, record every numeric value, label each unknown with a different single\u2011letter variable, derive the unique minimal expression that fulfills all given relations and yields the asked quantity, compute it displaying only those intermediate values that are absolutely necessary for the derivation, check that every stated condition holds, and output precisely one line containing the final result as either an integer, an irreducible fraction, or a percent\u2014nothing else.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all given numbers, assign a distinct single\u2011letter variable to each unknown, deduce the minimal exact formula that fulfills every stated condition, compute it (display an intermediate value only if it is unavoidable for the proof), and conclude with a solitary line containing the final result as an integer, a lowest\u2011terms fraction, or a percent\u2014nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 91,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, assign a distinct single\u2011letter symbol to each unknown, fuse all relations into the minimal direct formula that produces the asked result, compute it showing only those intermediate results that are strictly necessary for justification, confirm every given condition, and finish with exactly one line containing the answer alone, expressed as an integer, an irreducible fraction, or a percent.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric datum from the problem, give each unknown a unique single\u2011letter identifier, synthesize the relations into one compact expression that directly computes the requested value, carry out only the calculations that cannot be omitted (display an intermediate result only if it is essential for justification), check that all stated conditions are satisfied, and output a single line that contains nothing but the final answer as an integer, a reduced fraction, or a percent.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all numerical data, denote each unknown by a different single\u2011letter symbol, combine the relationships into the minimal possible calculation that yields the required quantity, perform the calculation showing only the necessary intermediate values, verify every condition given, and output exactly one line containing solely the final result as an integer, a simplest\u2011terms fraction, or a percent.",
+      "train_score": 0.9324324324324325,
+      "train_step": 77,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all numeric data, assign a unique one\u2011letter symbol to each unknown, construct the sole minimal formula that directly yields the required quantity, evaluate it displaying only the indispensable intermediate values, confirm every given condition, and finish with a single line that contains nothing but the final answer as an integer, a lowest\u2011terms fraction, or a percent.",
+      "train_score": 0.9324324324324325,
+      "train_step": 79,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers provided, give each unknown a distinct single\u2011letter symbol, merge the given relations into the single simplest exact formula that directly yields the asked value, compute it showing only truly indispensable intermediate results, verify every condition, and output exactly one line containing the final answer as an integer, a reduced fraction, or a percent\u2014nothing else.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numerical datum. Give each unknown a unique one\u2011letter variable. Derive the single shortest exact expression that incorporates all given relations and directly yields the target value. Perform the calculation, presenting only indispensable intermediate results needed for a complete proof. Check all problem constraints. End with exactly one line that contains the answer alone, written as an integer, a fully reduced fraction, or a percent.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem extract every numeric quantity, assign a unique one\u2011letter variable to each unknown, combine the given relationships into the single shortest possible expression that directly yields the asked value, evaluate it displaying only those intermediate results that are strictly necessary for justification, verify all constraints, and conclude with exactly one line containing the answer alone, expressed as an integer, a lowest\u2011terms fraction, or a percent.",
+      "train_score": 0.9324324324324325,
+      "train_step": 84,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number given, assign each unknown a single\u2011letter variable, devise the minimal direct expression that produces the asked value, carry out only the indispensable calculations (showing any intermediate needed for justification), verify all stated conditions, and finish with exactly one line containing the final answer as an integer, a reduced fraction, or a percent\u2014nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 52,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric quantity given. Assign a distinct one\u2011letter symbol to each unknown. Derive the single shortest formula that directly gives the required value, performing only the unavoidable arithmetic (showing an intermediate result only if it cannot be omitted). Verify that all conditions in the problem are satisfied, and conclude with exactly one line containing the final answer formatted as an integer, a lowest\u2011terms fraction, or a percent\u2014nothing else.",
+      "train_score": 0.9324324324324325,
+      "train_step": 88,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers, assign a variable to each unknown, formulate the minimal system of equations that captures the problem, solve it displaying only necessary steps, check any constraints, and end with one line containing only the final numeric answer (integer, reduced fraction or percent).",
+      "train_score": 0.918918918918919,
+      "train_step": 31,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers given, assign a distinct one\u2011letter variable to each unknown, combine the relationships into one compact formula that directly yields the asked quantity, compute it displaying only the essential intermediate result(s), verify every condition, and finish with exactly one line containing the final answer as an integer, a reduced fraction or a percent.",
+      "train_score": 0.9459459459459459,
+      "train_step": 57,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given quantity, introduce a unique single\u2011letter variable for each unknown, fuse all relations into the minimal direct expression that yields the required result, compute only the unavoidable steps (display an intermediate only if essential), verify all constraints, and output exactly one line containing the final answer as an integer, a reduced fraction, or a percent\u2014nothing else.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every numerical value presented, craft the least\u2011complex equation that solves the question, compute it while briefly confirming any stated limits, and finish with a single line that contains only the final numeric result (integer, reduced fraction or percent).",
+      "train_score": 0.9459459459459459,
+      "train_step": 29,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numerical facts, assign a unique one\u2011letter symbol to each unknown, assemble the relationships into the single most straightforward exact formula that computes the answer, evaluate only the necessary operations (display an intermediate result only when unavoidable), verify that every stated condition holds, and write exactly one line containing the final answer as an integer, a simplest\u2011terms fraction, or a percent.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8506444275966641,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8243243243243243,
+      "train_step": -1,
+      "test_score": 0.8339651250947687,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.8912235098740025,
+    "best_test_instruction": "Identify all numbers, assign each unknown a distinct one\u2011letter variable, construct the unique simplest expression that yields the target, compute only essential steps (showing an intermediate only if unavoidable), check every condition, and finish with a single line containing only the final answer as an integer, reduced fraction, or percent."
+  }
+}

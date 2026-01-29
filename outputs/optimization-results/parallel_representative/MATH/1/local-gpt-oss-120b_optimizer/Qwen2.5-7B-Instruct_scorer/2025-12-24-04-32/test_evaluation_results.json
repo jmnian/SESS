@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Restate the problem succinctly, pick the uniquely applicable theorem or identity, then write a short chain of equalities\u2014each step giving the transformed expression and a terse justification (e.g., \u201capply formula\u201d, \u201csimplify\u201d)\u2014optionally perform a quick sanity check, and end with the exact numeric answer alone on the final line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 92,
+      "test_score": 0.7580493904345108,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Convert the problem into its core mathematical equation, solve it step\u2011by\u2011step showing a brief justification for each manipulation, optionally perform a quick check, and end with only the exact answer on a separate line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 9,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Develop a systematic solution: pinpoint the core principle, carry out each algebraic or logical step with clear justification, verify intermediate results if needed, and present the exact answer.",
+      "train_score": 0.8541666666666666,
+      "train_step": 2,
+      "test_score": 0.7514848390121913,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity to be found in a single sentence. Write the precise formula that gives it, then compute the formula in a short numbered chain (at most three steps), labeling each step with a concise keyword such as \u201csubstitute\u201d or \u201csimplify\u201d. Optionally perform a quick sanity check, and end with the sole numeric answer on its own line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a thorough, stepwise solution: outline the main concepts, perform each calculation explicitly, justify every transition, and conclude with the final result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.7446076899030947,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Approach the task methodically: pinpoint the key principle, carry out each required calculation in logical order with brief justification, optionally verify intermediate results, and present the exact final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.7402313222882151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct, logical answer: isolate the main theorem or formula, apply it through a clear sequence of brief calculations with justification, optionally confirm the outcome, and state the exact result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 6,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8333333333333334,
+      "train_step": -1,
+      "test_score": 0.73210378243201,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a clear, concise, step\u2011by\u2011step solution: state the main principle, perform each calculation explicitly with brief justification, optionally verify, and end with the exact final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7317911847452329,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the quantity sought in one sentence, name the single theorem, identity, or formula that applies, carry out a short sequence of algebraic or arithmetic steps each tagged with a brief justification, optionally perform a quick sanity check, and conclude with only the final numeric answer on its own line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Solve the problem with clear, step\u2011by\u2011step reasoning and present the final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 0,
+      "test_score": 0.7249140356361363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the required quantity, write the single exact formula or identity that determines it, evaluate the expression in the minimum number of arithmetic steps (each step a single line with a one\u2011word justification), optionally perform a quick sanity\u2011check, and finish by writing only the final numeric answer on a line by itself.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.7230384495154736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a tight solution: briefly restate the question, pinpoint the essential concept, execute the required calculations with clear but minimal justification, and finish with the exact numeric answer alone.",
+      "train_score": 0.8333333333333334,
+      "train_step": 6,
+      "test_score": 0.7111597374179431,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "One\u2011sentence problem restatement \u2192 pinpoint the exact theorem/equation needed \u2192 write the computation as a single compact expression (or a short sequence) with a brief comment after each arrow; optionally verify; end with the lone numeric answer on its own line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 51,
+      "test_score": 0.7074085651766177,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "First, isolate the quantity being asked for. Then, write the exact formula that links the given numbers to that quantity. Evaluate the formula in as few arithmetic steps as possible, adding a one\u2011line sanity check if desired. Finally, output only the resulting value on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 79,
+      "test_score": 0.7020944045014067,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise solution: briefly restate the problem, identify the single key theorem or formula, compute the result in a short, linear series of statements each with a one\u2011sentence justification, optionally verify the outcome, and finish by writing only the final numeric answer on a separate line.",
+      "train_score": 0.8541666666666666,
+      "train_step": 18,
+      "test_score": 0.7017818068146295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the target value, cite the exact theorem/identity needed, then evaluate it in at most three compact equations, each followed by a one\u2011word reason (e.g., \u201csubstitute\u201d, \u201csum\u201d). Optionally verify, and finish with the sole numerical answer on its own line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.6927164738980931,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the exact quantity asked, cite the single governing principle (formula, identity, or theorem), then evaluate it in a short chain of equalities where each line shows the transformed expression together with a brief comment (e.g., \u201csubstitute\u201d, \u201csimplify\u201d). After an optional quick sanity check, output only the final numeric value on its own line.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6889653016567677,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the unknown quantity asked for, write directly the smallest possible closed\u2011form expression that gives it from the given data, evaluate that expression stepwise (each step with a concise comment), optionally confirm the result, and present only the final number on a separate line.",
+      "train_score": 0.7916666666666666,
+      "train_step": 99,
+      "test_score": 0.6280087527352297,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "State the target quantity, write the minimal formula needed, evaluate it directly with clear arithmetic, and finish with the exact answer on a line by itself.",
+      "train_score": 0.8541666666666666,
+      "train_step": 35,
+      "test_score": 0.6145670522038137,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the quantity to be found in one sentence, write the single exact formula or identity that gives that quantity, evaluate it using a compact chain of at most two algebraic steps (each step labelled with a brief keyword such as \u201csubstitute\u201d, \u201csimplify\u201d), optionally perform a quick consistency check, and output only the final numeric result on a separate line.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.4935917474210691,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7580493904345108,
+    "avg_test_score": 0.7052352669733102,
+    "best_test_instruction": "Restate the problem succinctly, pick the uniquely applicable theorem or identity, then write a short chain of equalities\u2014each step giving the transformed expression and a terse justification (e.g., \u201capply formula\u201d, \u201csimplify\u201d)\u2014optionally perform a quick sanity check, and end with the exact numeric answer alone on the final line."
+  }
+}

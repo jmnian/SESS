@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Gather every stated figure, give each a brief tag, build the precise arithmetic expression or equation required, compute the solution line by line showing all intermediate results (including any unit conversions), then present the final answer and perform a quick consistency check against the original conditions.",
+      "train_score": 0.9655172413793104,
+      "train_step": 31,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, record each numeric value (with units), assign simple variables if helpful, decide the exact arithmetic or equation needed, compute step\u2011by\u2011step while displaying all intermediate results, and finish with the final answer plus a brief sanity\u2011check that the result makes sense in the original context.",
+      "train_score": 0.9693486590038314,
+      "train_step": 5,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant quantities, decide the exact mathematical operation(s) required, compute the solution showing each intermediate step (including units when appropriate), verify the result matches the expected answer, and present the final answer clearly and concisely.",
+      "train_score": 0.9693486590038314,
+      "train_step": 2,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant quantities, decide which arithmetic operation(s) are needed, compute the solution step\u2011by\u2011step showing each calculation (with units), present the final answer clearly, and quickly verify its correctness.",
+      "train_score": 0.9693486590038314,
+      "train_step": 2,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to capture all quantities, assign them concise symbols, translate the situation into the appropriate mathematical model, solve it while explicitly showing every intermediate calculation and unit conversion, and conclude with the numerical answer plus a brief sanity\u2011check of its magnitude.",
+      "train_score": 0.9693486590038314,
+      "train_step": 14,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text pull out all numbers (and units), give each a short name, write a chain of equalities that starts with the expression you need and reduces it step\u2011by\u2011step, showing each intermediate value, then output the final number and a brief check that it fits the problem context.",
+      "train_score": 0.9655172413793104,
+      "train_step": 20,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pull out every numeric value (including units), give each a short identifier, construct the precise mathematical operation(s) required, evaluate them step\u2011by\u2011step with each intermediate result shown on its own line (performing any unit conversions), and end with the final answer plus a brief check that it meets the conditions.",
+      "train_score": 0.9731800766283525,
+      "train_step": 43,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical data, assign clear variables, write the precise formula required, evaluate the computation step\u2011by\u2011step showing each intermediate result, and finish with the final answer plus a brief sanity\u2011check of its plausibility.",
+      "train_score": 0.9655172413793104,
+      "train_step": 4,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantitative facts, label each with a short variable, formulate the exact mathematical operation(s) needed, then solve the problem presenting each calculation on its own line (showing any unit changes). Conclude with the final numeric result and a short sanity check (e.g., compare with original magnitudes or estimate).",
+      "train_score": 0.9655172413793104,
+      "train_step": 22,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, pull out every numerical fact (and unit), give each a short label, translate the scenario into the exact formula or system of equations required, compute the answer showing each intermediate result (including any unit changes), and finish with the numerical answer plus a concise sanity\u2011check (e.g., compare with original quantities or estimate magnitude) to confirm it fits the problem.",
+      "train_score": 0.9655172413793104,
+      "train_step": 16,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (and its unit) from the statement, give each a concise label, translate the problem into the precise mathematical expression that produces the required result, evaluate that expression step\u2011by\u2011step writing each intermediate value on its own line (performing any unit conversions), and finish with the final value together with a quick consistency check (e.g., substitute back or compare magnitudes) to ensure the answer fits the original scenario.",
+      "train_score": 0.9693486590038314,
+      "train_step": 80,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pull out every number (and unit), label them with concise symbols, write the exact calculation needed, then solve it step\u2011by\u2011step, putting each intermediate value on a new line with a short comment explaining its role; finish with the final number and a quick plausibility check against the original quantities.",
+      "train_score": 0.9655172413793104,
+      "train_step": 40,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity in the problem (including units), assign each a concise symbol, formulate a single exact expression that yields the requested value, then evaluate that expression step\u2011wise, writing each intermediate result on a separate line with a brief comment; finally present the final numeric answer in the requested units and verify it by a quick magnitude check.",
+      "train_score": 0.9655172413793104,
+      "train_step": 99,
+      "test_score": 0.8855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantitative data, assign each a clear identifier, articulate the precise operation(s) that connect them, then solve the problem by writing each calculation on a separate line (showing any necessary unit conversions). End with the final numeric result and a short sanity check that the answer fits the original scenario.",
+      "train_score": 0.9693486590038314,
+      "train_step": 38,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number (and its unit if any) from the statement, give each a clear label, articulate the exact mathematical operation(s) linking them, carry out the computation step\u2011by\u2011step while writing down each intermediate value, and finish with the final answer plus a concise check that the magnitude fits the scenario.",
+      "train_score": 0.9655172413793104,
+      "train_step": 10,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number (and its unit), assign each a brief symbol, write the precise expression that yields the asked\u2011for quantity, evaluate it step\u2011by\u2011step showing each intermediate result (including any unit conversions), then state the final answer with a short plausibility check.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.8794541319181198,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers (including units), assign each a short name, construct the precise formula that yields the answer, compute it step\u2011by\u2011step displaying every intermediate result and any unit conversion, then give the final value together with a quick sanity check (e.g., compare with original quantities or estimate magnitude).",
+      "train_score": 0.9693486590038314,
+      "train_step": 34,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including its unit) in the problem and give it a short variable name. State clearly what the problem asks for. Construct the exact arithmetic expression that yields the required quantity. Evaluate the expression line\u2011by\u2011line, writing each intermediate result together with a brief comment and any unit conversion. End with the final numerical answer in the requested units and a one\u2011sentence sanity check that the result is reasonable given the original data.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8627748294162244,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all given numbers (with units) and assign each a brief symbol. Clearly restate the asked quantity. Formulate a single exact formula that yields the answer using the symbols. Compute the formula step\u2011by\u2011step, showing every intermediate value on a separate line with a short justification (including any unit conversion). End with the final numeric answer and a concise plausibility check that the result satisfies the original problem.",
+      "train_score": 0.9118773946360154,
+      "train_step": 99,
+      "test_score": 0.8438210765731615,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8659003831417624,
+      "train_step": -1,
+      "test_score": 0.8286580742987112,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (with units) from the problem, give each a concise symbol, formulate the exact expression that computes the requested quantity, compute it line\u2011by\u2011line showing each intermediate value together with a brief rationale, and finally output only the numeric result on a single line followed by a single\u2011sentence sanity check.",
+      "train_score": 0.8314176245210728,
+      "train_step": 99,
+      "test_score": 0.7952994692949203,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.8816202751001841,
+    "best_test_instruction": "Gather every stated figure, give each a brief tag, build the precise arithmetic expression or equation required, compute the solution line by line showing all intermediate results (including any unit conversions), then present the final answer and perform a quick consistency check against the original conditions."
+  }
+}

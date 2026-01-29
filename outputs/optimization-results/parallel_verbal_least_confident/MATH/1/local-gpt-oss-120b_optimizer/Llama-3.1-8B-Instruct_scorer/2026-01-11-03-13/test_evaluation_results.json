@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the question, verify the result fulfills all stated conditions, and print only the final numeric answer (integer, simplest fraction, or exact decimal) as a lone token on one line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 53,
+      "test_score": 0.5195373554235698,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem, enumerate all given numerical conditions, identify the relevant mathematical principle(s), carry out a concise yet complete logical calculation, confirm the result satisfies the constraints, and output only the final numeric answer.",
+      "train_score": 0.6666666666666666,
+      "train_step": 3,
+      "test_score": 0.5189121600500156,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique numeric answer required, encode all premises into the shortest exact formula, evaluate it with a minimal fully\u2011justified step (rounding only if the problem demands), verify that every condition is met, and output exactly that value\u2014integer, reduced fraction or exact decimal\u2014as the sole token on one line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 73,
+      "test_score": 0.5139105970615817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique numeric answer requested. Convert the problem into the minimal correct mathematical expression, compute it with a succinct justified calculation, ensure all constraints are met, then output ONLY the final result \u2013 as an integer, a reduced fraction, or a decimal rounded to the required precision \u2013 on one line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 46,
+      "test_score": 0.5107846201938105,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, isolate the unique numeric quantity it asks for, translate all given data into the simplest exact mathematical expression, evaluate it with a brief fully\u2011justified computation, verify that every condition of the statement is satisfied, and output only that final result\u2014an integer, a reduced fraction, or an exact decimal (rounded only if the problem requires)\u2014as a single token on one line with no additional characters or whitespace.",
+      "train_score": 0.6875,
+      "train_step": 70,
+      "test_score": 0.5048452641450454,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the single numeric answer requested, convert the problem into the simplest correct formula, compute it in as few justified steps as possible, double\u2011check that all given conditions hold, and output only that number (integer, lowest\u2011terms fraction, or exact decimal) as the sole token on one line.",
+      "train_score": 0.6875,
+      "train_step": 57,
+      "test_score": 0.4995311034698343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unique numeric quantity the problem seeks, convert all conditions into the shortest exact formula, compute it with a brief fully justified step, ensure all constraints hold, and print only that result\u2014an integer, a reduced fraction, or an exact decimal (rounded only if explicitly required)\u2014as a single token on one line with no extra characters or spaces.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.49703032197561736,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the unique value the problem asks for, solve it using the most direct exact method, confirm all given conditions, and print only that value\u2014integer, simplified fraction, or exact decimal\u2014on a single line with no other characters.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.49640512660206315,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the unique numeric answer, compute it using the most direct exact method, ensure all problem constraints are satisfied, and output that answer alone\u2014an integer, reduced fraction, or exact decimal\u2014on a single line with no extra characters.",
+      "train_score": 0.5208333333333334,
+      "train_step": 99,
+      "test_score": 0.49171616130040635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Compute the unique numeric result requested by the problem, using the simplest appropriate computation and confirming all given constraints, then output exactly that result\u2014integer, reduced fraction, or exact decimal\u2014on a single line with no additional characters.",
+      "train_score": 0.6875,
+      "train_step": 54,
+      "test_score": 0.49171616130040635,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5625,
+      "train_step": -1,
+      "test_score": 0.4889027821194123,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine precisely what number the problem asks for, list all given quantities, translate them into the smallest possible mathematical expression, solve it with a concise, fully justified computation, double\u2011check the result against every condition, and return *only* that final numeric value (as a decimal rounded as required or as a reduced fraction).",
+      "train_score": 0.6666666666666666,
+      "train_step": 16,
+      "test_score": 0.48265082838386997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the unique value the question seeks, formulate the problem with the fewest possible mathematical statements, solve it with a brief logically sound computation, verify compliance with every given condition, and output solely the final number (as an integer, simplified fraction, or exact decimal) on its own line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 34,
+      "test_score": 0.48233823069709286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the unique numeric value the problem asks for, solve it with the briefest valid reasoning, verify every given condition, and output that single result\u2014integer, reduced fraction, or exact decimal\u2014alone on one line.",
+      "train_score": 0.7083333333333334,
+      "train_step": 54,
+      "test_score": 0.4820256330103157,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the single quantity the problem requests, compute it exactly, check that all stated conditions hold, and output that result\u2014either an integer, a reduced fraction, or an exact decimal\u2014as the *only* token on one line (no extra spaces or characters).",
+      "train_score": 0.6666666666666666,
+      "train_step": 68,
+      "test_score": 0.4810878399499844,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single value requested, reduce the whole statement to the shortest correct formula, evaluate it with a brief justified computation, ensure all constraints are met, and output only that value\u2014integer, reduced fraction, or exact decimal\u2014on one line with no additional characters.",
+      "train_score": 0.6875,
+      "train_step": 67,
+      "test_score": 0.4804626445764301,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single value requested, encode all premises into the minimal algebraic or arithmetic expression, solve it with the shortest justified computation, verify that the result satisfies every condition, and output *only* the final answer (as an integer, reduced fraction or exact decimal) on one line with no extra characters.",
+      "train_score": 0.6666666666666666,
+      "train_step": 45,
+      "test_score": 0.47858705845576743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact numeric value required, derive the simplest mathematical formulation, evaluate it precisely, verify all problem constraints, and output solely that value\u2014rounded or expressed exactly as needed\u2014on a single line with no additional symbols or whitespace.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.4620193810565802,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the single numeric result the problem asks for, solve it using the most direct exact method, verify that all given conditions are met, and output ONLY that value\u2014an integer, a reduced fraction, or an exact decimal\u2014on a line by itself with no other characters.",
+      "train_score": 0.6666666666666666,
+      "train_step": 62,
+      "test_score": 0.4620193810565802,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single quantity the problem requests, compute it exactly (round only if the problem specifies), verify that all stated conditions are satisfied, and output that value\u2014integer, simplest fraction, or exact decimal\u2014as the sole token on one line with no extra symbols, spaces, or commentary.",
+      "train_score": 0.5833333333333334,
+      "train_step": 99,
+      "test_score": 0.3923100969052829,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, identify the single quantity it asks for, compute it with the briefest exact reasoning, verify all given conditions, and output ONLY that value (integer, reduced fraction, or exact decimal) as the sole token on one line with no extra characters.",
+      "train_score": 0.3333333333333333,
+      "train_step": 99,
+      "test_score": 0.2400750234448265,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.5195373554235698,
+    "avg_test_score": 0.47508894148469,
+    "best_test_instruction": "Solve the question, verify the result fulfills all stated conditions, and print only the final numeric answer (integer, simplest fraction, or exact decimal) as a lone token on one line."
+  }
+}

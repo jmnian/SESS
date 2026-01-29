@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Solve the problem using only the essential reasoning and calculations. After a brief justification, put the answer alone on the final line, expressed as an integer unless a fractional part is needed, in which case show exactly one digit after the decimal point.",
+      "train_score": 0.8294117647058824,
+      "train_step": 26,
+      "test_score": 0.7624257580493904,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Explain the crucial deductions and perform the required calculations, then place the computed value by itself on the last line; write it as an integer unless a fractional part occurs, in which case show exactly one digit after the decimal point.",
+      "train_score": 0.8235294117647058,
+      "train_step": 16,
+      "test_score": 0.7496092528915286,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Present only the necessary reasoning and calculations, then write the final result on the last line as a single number (round to the nearest hundredth if non\u2011integer).",
+      "train_score": 0.8176470588235294,
+      "train_step": 18,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Show the required calculations, then place the result on the final line alone, writing it as a decimal with one digit after the point only when the result is not an integer.",
+      "train_score": 0.8235294117647058,
+      "train_step": 10,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem with only the essential reasoning and calculations. After a brief justification, write the computed answer alone on the last line, using an integer format unless the result is non\u2011integer, in which case show exactly one digit after the decimal point. No other text should follow that line.",
+      "train_score": 0.8352941176470589,
+      "train_step": 27,
+      "test_score": 0.7449202875898718,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.788235294117647,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logical solution that presents only the necessary reasoning and calculations. After the brief justification, write the result on its own final line\u2014use an integer form unless a fractional part is required, in which case show exactly one digit after the decimal point.",
+      "train_score": 0.8411764705882353,
+      "train_step": 24,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution showing only the necessary reasoning and calculations. After a short justification, write the final result on the last line by itself. Format the answer as an integer when it is whole; otherwise round it to the precision required by the problem (e.g., one decimal place unless the question specifies hundredths) and display exactly that many decimal digits. No additional text may follow the answer line.",
+      "train_score": 0.8294117647058824,
+      "train_step": 37,
+      "test_score": 0.7367927477336668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short logical explanation followed by the exact numeric answer.",
+      "train_score": 0.8176470588235294,
+      "train_step": 0,
+      "test_score": 0.7333541731791184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct, complete solution: include only essential reasoning and calculations, then output exactly the final answer on a line by itself, using an integer format unless a non\u2011integer requires a single decimal place.",
+      "train_score": 0.8176470588235294,
+      "train_step": 23,
+      "test_score": 0.716161300406377,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution containing only the necessary reasoning and calculations. Conclude with a line that contains only the numeric answer: write it as an integer if it has no fractional part; otherwise display the exact decimal without unnecessary trailing zeros (one decimal place is sufficient for a tenth). No other text may follow that line.",
+      "train_score": 0.8235294117647058,
+      "train_step": 43,
+      "test_score": 0.7145983119724914,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a short logical outline, carry out the minimal required computations, and close with the numeric answer alone on its own line; display a decimal fraction only if the answer is not whole.",
+      "train_score": 0.8176470588235294,
+      "train_step": 15,
+      "test_score": 0.7120975304782745,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, self\u2011contained solution with only the necessary reasoning and calculations. After the explanation, place the final result on its own line, formatted as an integer if the value is whole, otherwise as a decimal rounded to the nearest tenth. No other text may follow that line.",
+      "train_score": 0.8470588235294118,
+      "train_step": 75,
+      "test_score": 0.7030321975617381,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a succinct justification for the solution, then on the very last line write solely the resulting number, showing a decimal fraction only if the value is not whole.",
+      "train_score": 0.8176470588235294,
+      "train_step": 14,
+      "test_score": 0.6758361988121288,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide only the necessary reasoning and calculations. Conclude with one line that contains only the final numeric result: write it as an integer if it is whole; otherwise round to the nearest tenth and display exactly one digit after the decimal point. No other text may appear before or after this line.",
+      "train_score": 0.6411764705882353,
+      "train_step": 99,
+      "test_score": 0.5536105032822757,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a brief, complete solution containing just the necessary deductions and arithmetic. End with one line that consists solely of the answer. If the answer is integral, write it without a decimal point; if it is non\u2011integral, round to the nearest tenth and show exactly one digit after the decimal point. No additional characters or lines may follow the answer line.",
+      "train_score": 0.5529411764705883,
+      "train_step": 99,
+      "test_score": 0.49828071272272584,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution that contains only the essential reasoning. After the reasoning, output the answer on its own line and nothing else. Write the result as an integer if it has no fractional part; otherwise display it rounded to the nearest tenth with exactly one digit after the decimal point. No additional characters may follow the answer line.",
+      "train_score": 0.5588235294117647,
+      "train_step": 99,
+      "test_score": 0.4617067833698031,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a brief, self\u2011contained solution that includes only the essential reasoning and computation. End with a single line containing just the numeric result. Write the number as an integer when it has no fractional part; otherwise present it with one decimal digit (rounded to the nearest tenth). Do not output any additional characters after the answer line.",
+      "train_score": 0.4176470588235294,
+      "train_step": 99,
+      "test_score": 0.33166614567052205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a self\u2011contained solution showing only the essential reasoning and calculations. After the reasoning, output the result on a single line by itself, using integer notation when the value is whole, otherwise rounded to the nearest tenth with exactly one digit after the decimal point. No other text, symbols, or whitespace may appear before or after that line.",
+      "train_score": 0.3058823529411765,
+      "train_step": 99,
+      "test_score": 0.2594560800250078,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a brief, self\u2011contained solution that contains only the essential reasoning and calculations. After the justification, output the numeric answer on a single line by itself. Write it as an integer if the result is whole; otherwise round to the nearest tenth and display exactly one digit after the decimal point. No further text or lines may follow that answer line.",
+      "train_score": 0.28823529411764703,
+      "train_step": 99,
+      "test_score": 0.23601125351672397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a concise, self\u2011contained solution with only the essential reasoning and calculations. After the brief justification, place only the final numeric answer on the next line. Write it as an integer when it is whole; otherwise round to the nearest tenth (half\u2011up) and show exactly one digit after the decimal point, with no extra spaces or characters. No other output may follow.",
+      "train_score": 0.22941176470588234,
+      "train_step": 99,
+      "test_score": 0.16880275085964364,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7624257580493904,
+    "avg_test_score": 0.6066479108054599,
+    "best_test_instruction": "Solve the problem using only the essential reasoning and calculations. After a brief justification, put the answer alone on the final line, expressed as an integer unless a fractional part is needed, in which case show exactly one digit after the decimal point."
+  }
+}

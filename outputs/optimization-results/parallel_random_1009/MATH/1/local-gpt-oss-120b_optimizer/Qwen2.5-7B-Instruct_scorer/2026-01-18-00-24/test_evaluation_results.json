@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "And ending with",
+      "train_score": 0.8333333333333334,
+      "train_step": 62,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a clear, concise solution and state the final answer.",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "` then phrase. Ensure ending `",
+      "train_score": 0.8125,
+      "train_step": 34,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Work through the problem, presenting only the indispensable calculations, and conclude by printing the exact result as a sole number on its own line.",
+      "train_score": 0.875,
+      "train_step": 26,
+      "test_score": 0.7508596436386371,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8333333333333334,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem using clear step\u2011by\u2011step reasoning and output only the final answer.",
+      "train_score": 0.875,
+      "train_step": 0,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Your instruction text",
+      "train_score": 0.8125,
+      "train_step": 17,
+      "test_score": 0.737417943107221,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the problem, identify the main mathematical concepts required, develop a step-by-step solution, and present the final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 0,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a brief, logically ordered solution that includes only the necessary insight and computation. After the reasoning, output a blank line and then a single line with the exact numeric answer\u2014nothing else.",
+      "train_score": 0.8125,
+      "train_step": 51,
+      "test_score": 0.7233510472022507,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Line, then instruction text, then line with",
+      "train_score": 0.8541666666666666,
+      "train_step": 84,
+      "test_score": 0.7011566114410753,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, logically ordered solution that contains only the necessary reasoning and calculations. After the explanation, output a single blank line followed by the exact numeric answer on its own line, without any extra characters, whitespace, or formatting.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.7005314160675211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Present a concise, step\u2011by\u2011step solution that includes just the required insight and computation. Conclude with a blank line followed by the exact numeric answer on a line by itself, with no extra characters or commentary.",
+      "train_score": 0.8333333333333334,
+      "train_step": 74,
+      "test_score": 0.6899030947170991,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a concise, logically ordered solution that presents only the essential reasoning and calculations. After the last step insert a single blank line, then write the exact numeric answer on its own line with no additional text, symbols, or formatting.",
+      "train_score": 0.875,
+      "train_step": 88,
+      "test_score": 0.6742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a brief, ordered explanation covering only the essential reasoning and calculations. After the explanation, place a single blank line and then output the exact answer as a lone number on its own line\u2014nothing else.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6733354173179118,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Write a compact, step\u2011by\u2011step solution showing only the indispensable reasoning and calculations. End the reasoning, add one blank line, and place the exact result as a solitary number on the next line\u2014nothing else.",
+      "train_score": 0.75,
+      "train_step": 99,
+      "test_score": 0.6695842450765864,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a succinct, logically ordered solution showing only indispensable steps. End with a single blank line followed by the final answer as a plain number on its own line, without any other characters.",
+      "train_score": 0.8333333333333334,
+      "train_step": 91,
+      "test_score": 0.6677086589559237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Write a concise, step\u2011by\u2011step solution that includes just the needed reasoning and computation. When finished, output a single blank line followed by the exact answer as an isolated number on its own line\u2014no extra text, symbols, or formatting.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.6570803376055018,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Briefly explain the required steps and perform only the needed calculations. When finished, insert one blank line and then write the exact result as a plain number on its own line\u2014no other characters or commentary.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.5382932166301969,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Give a compact solution that includes only the crucial computation, and end with the exact answer as a lone number on the final line, with no extra characters.",
+      "train_score": 0.1875,
+      "train_step": 99,
+      "test_score": 0.1928727727414817,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "First give a brief explanation of the approach and any necessary calculations. Then, on a new line by itself, output only the final numeric result\u2014no extra words, symbols, or formatting.",
+      "train_score": 0.16666666666666666,
+      "train_step": 99,
+      "test_score": 0.16567677399187247,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7555486089402939,
+    "avg_test_score": 0.6553684931302938,
+    "best_test_instruction": "And ending with"
+  }
+}

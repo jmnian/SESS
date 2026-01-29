@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Inspect the question, record all numeric values (and units), construct the exact arithmetic expression that connects them, evaluate it in a single left\u2011to\u2011right pass showing at most one short intermediate per step while keeping fractions exact, ensure any stated conditions hold, and output only the final exact result as an integer or reduced fraction, adding a unit only if the problem explicitly asks for one.",
+      "train_score": 1.0,
+      "train_step": 17,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number (and its unit) in the statement, determine the precise arithmetic relationship required, compute the value in a single left\u2011to\u2011right chain showing at most one short intermediate per operation while keeping fractions exact, confirm any stated condition, and output only the final answer as an integer or reduced fraction, attaching a unit only if explicitly requested.",
+      "train_score": 1.0,
+      "train_step": 15,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (and its unit) from the prompt, deduce the exact mathematical expression that links them, evaluate it using exact arithmetic (keep fractions unsimplified until the final step), check any conditions, and output only the final result as a plain integer or reduced fraction, attaching a unit only if the question explicitly requests one.",
+      "train_score": 1.0,
+      "train_step": 15,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (and units), formulate the exact calculation, perform a left\u2011to\u2011right evaluation showing at most one short intermediate per step (keep fractions exact, simplify only the final result), verify any stated condition, and output only the final integer or reduced fraction, adding a unit only if the problem explicitly requires it.",
+      "train_score": 1.0,
+      "train_step": 22,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every numeric datum (and its unit), translate the statement into a single precise mathematical expression, evaluate it left\u2011to\u2011right keeping fractions unreduced until the final step, verify any stipulated condition, and output only the final exact result as an integer or reduced fraction, attaching a unit only if the question expressly requests one.",
+      "train_score": 1.0,
+      "train_step": 44,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (including units, percentages, or ratios), construct the single exact expression implied, evaluate it left\u2011to\u2011right using exact rational arithmetic (keep fractions unsimplified until the final step), verify any condition stated, and output only the final answer\u2014an integer, a reduced fraction, or an exact decimal\u2014adding a unit only if the problem explicitly asks for it.",
+      "train_score": 1.0,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value (and unit), construct the single exact formula implied, compute it exactly (keep fractions until final simplification), verify any condition, and return only the final answer as an integer, reduced fraction, or exact decimal, adding a unit only if the question asks for it.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each numeric quantity (and any unit, percent, or ratio) mentioned, convert to a common representation if needed, deduce the single exact arithmetic formula the problem implies, evaluate it sequentially from left to right using exact rational arithmetic (keep fractions unsimplified until the end), verify any stated condition, and output only the final answer\u2014an integer, a reduced fraction, or an exact decimal\u2014appending a unit only when the question explicitly requests it.",
+      "train_score": 0.9864864864864865,
+      "train_step": 99,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, list every numeric quantity (including its unit), build the exact arithmetic expression that combines them, evaluate it in a strict left\u2011to\u2011right order showing at most one brief intermediate per operation while keeping fractions unreduced until the end, verify any condition given, and output only the final exact result as an integer or reduced fraction, adding a unit only if explicitly requested.",
+      "train_score": 1.0,
+      "train_step": 18,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric quantity (including units) in the prompt, construct the exact mathematical expression that combines them, evaluate it in a single left\u2011to\u2011right pass while keeping exact fractions (simplify only for the final result), verify any stated condition, and output only the final answer as an integer or reduced fraction, adding a unit only if explicitly requested.",
+      "train_score": 1.0,
+      "train_step": 22,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (and their units) from the prompt, determine the exact arithmetic relationship, compute it strictly left\u2011to\u2011right showing a single brief intermediate per operation while keeping fractions unreduced until the final step, verify any stated condition, and output only the final exact answer as an integer or reduced fraction, adding a unit only if the problem explicitly requires it.",
+      "train_score": 1.0,
+      "train_step": 33,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (including units, percentages, ratios, and decimals); translate the problem into one exact arithmetic expression; evaluate it left\u2011to\u2011right with exact rational arithmetic (treat decimals as fractions), simplifying only the final result; confirm any condition; and return only the final answer as an integer, reduced fraction, or exact decimal, appending a unit only when explicitly asked.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8991660348749052,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every quantity mentioned, determine the exact sequence of operations needed, carry out a concise step\u2011by\u2011step calculation (showing at most one brief intermediate per step), verify any stated conditions, and output only the final exact answer as a plain number (add a unit only if the problem explicitly requests it).",
+      "train_score": 1.0,
+      "train_step": 8,
+      "test_score": 0.8976497346474602,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, enumerate all given quantities, infer the required calculations, execute them step\u2011by\u2011step with brief intermediate results, and finish by outputting only the exact final answer as a plain number (include a unit only if the problem explicitly asks for one).",
+      "train_score": 1.0,
+      "train_step": 5,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\\n- Capture all numbers (and units) from the prompt.\\n- Build the exact expression that the problem describes.\\n- Evaluate it in order, displaying at most one concise intermediate per operation and keeping fractions unreduced until the end.\\n- Verify any stated condition.\\n- Return solely the final answer as an integer or simplest fraction, appending a unit only when the problem explicitly requests it.\\n",
+      "train_score": 1.0,
+      "train_step": 26,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read all numbers (and any associated units, percentages or ratios) in the question, translate them into the single exact arithmetic expression implied, evaluate that expression strictly left\u2011to\u2011right using exact rational arithmetic (keep fractions unreduced until the final simplification), check any condition stated, and output only the final answer as an integer, a reduced fraction, or an exact decimal, adding a unit only when the problem explicitly requests one.",
+      "train_score": 0.972972972972973,
+      "train_step": 99,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers and their units, decide the exact arithmetic required, carry out the calculations in a brief step\u2011by\u2011step fashion (showing only essential intermediate results), verify any conditions stated in the problem, and output solely the exact final answer as a plain number (include a unit only if the problem explicitly requests it).",
+      "train_score": 1.0,
+      "train_step": 7,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantitative data (values and units), formulate the exact mathematical relationship implied, evaluate it sequentially with a single short intermediate for each operation, check any given conditions, and return solely the final exact numeric answer (include a unit only when the problem explicitly asks for it).",
+      "train_score": 1.0,
+      "train_step": 11,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every numeric value (including any units, percentages, or ratios). Determine the single arithmetic expression the text defines, evaluating the expression in the order presented (left\u2011to\u2011right) with exact rational arithmetic; keep fractions unreduced until the final step. Ensure any condition described in the problem is satisfied. Output only the final answer\u2014an integer, a reduced fraction, or an exact decimal\u2014and include a unit only if the question explicitly requests it.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8726307808946171,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8165276724791509,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric term (including units, percentages, ratios), infer the unique exact calculation required, perform the computation using exact rational arithmetic strictly left\u2011to\u2011right (keep fractions unsimplified until the end), check any given condition, and output only the final result\u2014integer, reduced fraction, or exact decimal\u2014adding a unit only if the problem explicitly asks for one, with no additional commentary.",
+      "train_score": 0.4189189189189189,
+      "train_step": 99,
+      "test_score": 0.38968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.8709339687353335,
+    "best_test_instruction": "Inspect the question, record all numeric values (and units), construct the exact arithmetic expression that connects them, evaluate it in a single left\u2011to\u2011right pass showing at most one short intermediate per step while keeping fractions exact, ensure any stated conditions hold, and output only the final exact result as an integer or reduced fraction, adding a unit only if the problem explicitly asks for one."
+  }
+}

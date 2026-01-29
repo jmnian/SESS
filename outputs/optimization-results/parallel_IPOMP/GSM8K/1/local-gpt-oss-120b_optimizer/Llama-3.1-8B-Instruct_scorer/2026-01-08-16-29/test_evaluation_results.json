@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify relevant quantities, form equations if needed, solve step\u2011by\u2011step, verify the result, and output only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.8377558756633814,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the numbers involved, compute the required value using exact arithmetic, double\u2011check the computation, and return only the final numerical answer on one line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 5,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the single numeric value it asks for, collect every explicit number, compute that value exactly using whole numbers or reduced fractions (no approximations), confirm the computation, and output only that number on its own line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 68,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the prompt, locate the single quantity being requested, collect all explicit numbers, compute that quantity exactly using integers or a reduced\u2011fraction (no rounding or extra symbols), double\u2011check the computation, and output only the final numeric result on one line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 68,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the question, isolate the single value being asked, gather all given numbers, perform the exact calculation using integers or fully reduced fractions (no approximations), verify the result, and respond with only that final number on a solitary line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 73,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the single value the problem requests, calculate it exactly using whole numbers or a fully reduced fraction (no decimal approximations), verify the result, and output only that number on its own line\u2014no symbols, words, or extra spaces.",
+      "train_score": 0.9459459459459459,
+      "train_step": 75,
+      "test_score": 0.824109173616376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, determine the one numeric value sought, collect all given numbers, execute the minimal exact calculation (integer or fraction, no approximation), double\u2011check, and output only that final number on a single line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 15,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate all explicit numeric data, determine the unique quantity requested, formulate and solve the necessary exact arithmetic or algebraic expression (using integers or fully reduced fractions only, no approximations), double\u2011check the result, and output solely the final number on one line without any additional characters or spaces.",
+      "train_score": 0.9459459459459459,
+      "train_step": 78,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify what numerical answer the question seeks, perform the exact calculation using integers or fully reduced fractions (no decimals or rounding), confirm the result, and return solely that number on a single line.",
+      "train_score": 0.8243243243243243,
+      "train_step": 99,
+      "test_score": 0.8180439727065959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the unique numeric value requested, perform the exact calculation using integers or fully reduced fractions (no approximations), double\u2011check the result, and output only that number on a single line with no extra characters, spaces, or units.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, extract every explicit numeral, decide which single quantity the prompt asks for, compute that value exactly (using whole numbers or the lowest\u2011term fraction, no approximations), double\u2011check the arithmetic, and print only the resulting number on one line with no extra symbols or whitespace.",
+      "train_score": 0.9594594594594594,
+      "train_step": 84,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Scan the statement for every numeric datum, deduce the exact quantity requested, compute it precisely using integer or reduced\u2011fraction arithmetic, verify the outcome, and reply with that single number on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 15,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate the target numeric quantity the problem asks for, extract all given numbers, compute the exact result using integer or reduced\u2011fraction arithmetic (no approximations), verify the calculation, and output only that final number on a single line with no extra characters.",
+      "train_score": 0.9459459459459459,
+      "train_step": 76,
+      "test_score": 0.800606520090978,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, isolate every explicit numeric datum, decide the single value being asked, compute it exactly with whole\u2011number or lowest\u2011term fraction arithmetic (no rounding), cross\u2011check the result, and return only that number on a line.\"",
+      "train_score": 0.9459459459459459,
+      "train_step": 74,
+      "test_score": 0.799090219863533,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single quantity the problem asks for, extract every given number, compute the exact result using integers or fully reduced fractions (no decimal approximations), double\u2011check the calculation, and output only that final number on one line with no extra characters, spaces, or units.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.7968157695223654,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the prompt, identify the one quantity it seeks, compute it exactly using whole numbers or reduced fractions (no approximations), verify the result, and output that single number alone on one line.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, isolate numerical values, determine the required computation, perform it with clear intermediate steps, verify consistency, and respond with only the final answer as a plain number.",
+      "train_score": 0.9324324324324325,
+      "train_step": 3,
+      "test_score": 0.7922668688400303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, identify the sole quantity being asked, formulate and solve the exact integer or lowest\u2011term\u2011fraction calculation (including any required equations), verify the result, and output only the final number on a single line with no extra characters or whitespace.",
+      "train_score": 0.9459459459459459,
+      "train_step": 71,
+      "test_score": 0.7831690674753601,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8513513513513513,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the single numeric answer required, compute it exactly using whole numbers or lowest\u2011terms fractions (no approximations), confirm the result, and output that number alone on one line with no extra characters.",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7081122062168309,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Pull out all explicit numerals, determine the single value asked for, formulate the minimal exact expression (integer or lowest\u2011terms fraction), compute and verify it, and output only that number on a single line\u2014no units, symbols, or extra whitespace.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.6444275966641395,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8377558756633814,
+    "avg_test_score": 0.7973573053178816,
+    "best_test_instruction": "Identify relevant quantities, form equations if needed, solve step\u2011by\u2011step, verify the result, and output only the final numeric answer."
+  }
+}

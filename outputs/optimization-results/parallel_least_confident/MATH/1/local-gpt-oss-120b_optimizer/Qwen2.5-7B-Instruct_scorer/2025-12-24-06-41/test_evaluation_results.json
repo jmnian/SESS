@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Isolate the decisive step, perform only the necessary calculation, give a brief verification, and output the exact answer as a single number on its own line.",
+      "train_score": 0.9375,
+      "train_step": 13,
+      "test_score": 0.7592997811816192,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly note the underlying concept, perform only the indispensable calculations with a quick validation, and give the exact answer as a lone number on a separate line.",
+      "train_score": 0.9375,
+      "train_step": 5,
+      "test_score": 0.7467958737105346,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Concentrate on the essential calculation, give a short justification, quickly verify the result, and finish with exactly one line containing only the final numeric answer.",
+      "train_score": 0.9375,
+      "train_step": 23,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single value the problem requests, compute it by the most direct method, give a one\u2011sentence justification, perform a brief consistency check, and finish with exactly one line containing only the integer answer.",
+      "train_score": 0.9583333333333334,
+      "train_step": 79,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the required computation, give a brief justification, quickly verify it, and finish with exactly one line containing only the final integer answer.",
+      "train_score": 0.9375,
+      "train_step": 26,
+      "test_score": 0.7436698968427634,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the exact quantity asked for, compute it using the shortest possible steps, give a brief one\u2011sentence rationale, perform a quick sanity check, and end the response with only the final numeric answer on a single line.",
+      "train_score": 0.7291666666666666,
+      "train_step": 99,
+      "test_score": 0.7414817130353235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Spot the crucial step, do only the required arithmetic, confirm with a quick sanity\u2011check, and finish the reply with a single line that contains just the answer number.",
+      "train_score": 0.9375,
+      "train_step": 15,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the minimal necessary expression, evaluate it, give a one\u2011sentence sanity check, and end the response with exactly one line containing the integer answer alone.",
+      "train_score": 0.9583333333333334,
+      "train_step": 54,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the main concept, carry out only the necessary calculation with a brief justification, verify the result, and output solely the final numeric answer on its own line.",
+      "train_score": 0.9583333333333334,
+      "train_step": 3,
+      "test_score": 0.7355423569865583,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the central concept, give a concise justification, perform only the necessary calculations, verify the result, and finish by printing the exact numeric answer alone on a new line.",
+      "train_score": 0.9375,
+      "train_step": 2,
+      "test_score": 0.7330415754923414,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the target number, carry out the minimal computation needed, supply a concise one\u2011line explanation, perform a quick check, and conclude with exactly one line containing just that integer.",
+      "train_score": 0.6041666666666666,
+      "train_step": 99,
+      "test_score": 0.7302281963113473,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Zero in on the exact value the problem requests, evaluate it with the fewest steps, provide a brief one\u2011sentence justification, perform a rapid sanity check, and conclude with only the integer answer on its own line.",
+      "train_score": 0.9583333333333334,
+      "train_step": 79,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core mathematical principle, perform precisely the needed calculation with a short justification, confirm the answer, and give only the final numeric result on its own line.",
+      "train_score": 0.9375,
+      "train_step": 5,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the sole value to be found, compute it by the most direct method with a brief one\u2011sentence justification, perform a quick verification, and finish your response with exactly one line containing only the integer answer.",
+      "train_score": 0.9583333333333334,
+      "train_step": 71,
+      "test_score": 0.6999062206939669,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Focus on the single numeric result required, compute it by the most direct method, give a brief one\u2011sentence justification, perform a quick check for consistency, and finish the response with exactly one line containing only the final integer answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6983432322600813,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the central idea, perform the minimal required calculation with a quick verification, and print the exact numeric answer alone on its own line.",
+      "train_score": 0.9375,
+      "train_step": 6,
+      "test_score": 0.6933416692716474,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the target number, solve it with the most direct method, give a concise one\u2011sentence reason, validate briefly, and end your response with the answer alone on its own line.",
+      "train_score": 0.8333333333333334,
+      "train_step": 99,
+      "test_score": 0.6226945920600188,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Focus on the single quantity the question asks for, evaluate it using the simplest possible steps, give a one\u2011sentence explanation, perform a brief sanity check, and end the response with exactly one line that contains only the integer result, without any additional text or formatting.",
+      "train_score": 0.22916666666666666,
+      "train_step": 99,
+      "test_score": 0.610190684588934,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact answer required, calculate it using the minimal steps, provide a short justification, verify with a quick sanity check, and output solely the final integer on its own line.",
+      "train_score": 0.6666666666666666,
+      "train_step": 99,
+      "test_score": 0.6033135354798375,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Focus on the core quantity to be determined, carry out only the necessary computation with a brief justification, perform a quick sanity check, and end your response with a single line containing just the final integer answer.",
+      "train_score": 0.9375,
+      "train_step": 99,
+      "test_score": 0.5683025945608002,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.875,
+      "train_step": -1,
+      "test_score": 0.3435448577680525,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7592997811816192,
+    "avg_test_score": 0.6878637669509816,
+    "best_test_instruction": "Isolate the decisive step, perform only the necessary calculation, give a brief verification, and output the exact answer as a single number on its own line."
+  }
+}

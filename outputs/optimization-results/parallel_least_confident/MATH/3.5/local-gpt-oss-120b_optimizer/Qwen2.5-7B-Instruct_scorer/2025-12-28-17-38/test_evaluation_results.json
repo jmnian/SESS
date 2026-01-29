@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the exact quantity asked, invoke the sole necessary theorem or formula, compute the answer showing only one essential intermediate if it aids understanding, perform a brief sanity check, and present the final numeric result alone on the final line.",
+      "train_score": 0.8941176470588236,
+      "train_step": 25,
+      "test_score": 0.7605501719287278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity asked for, locate the single decisive relation that solves it, perform only the essential arithmetic (show at most one intermediate if helpful), verify briefly that all conditions hold, and output the pure numeric answer alone on the final line.",
+      "train_score": 0.8941176470588236,
+      "train_step": 74,
+      "test_score": 0.7605501719287278,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the specific numeric answer required, choose the single most suitable mathematical relation, execute just the essential computation (showing one interim figure only if it clarifies the step), immediately verify that the result meets every stated condition, and end with the exact value alone on the last line.",
+      "train_score": 0.888235294117647,
+      "train_step": 27,
+      "test_score": 0.755861206627071,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the specific value sought, invoke the lone appropriate theorem, perform only the essential arithmetic (displaying a single intermediate if it aids understanding), do a brief consistency check, and output the precise result on a line by itself.",
+      "train_score": 0.8176470588235294,
+      "train_step": 99,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Clarify the exact quantity the problem asks for, apply the one appropriate mathematical relationship, carry out only the indispensable computation (showing at most a single helpful intermediate), perform a brief consistency check, and place the final numeric answer alone on the last line.",
+      "train_score": 0.8941176470588236,
+      "train_step": 47,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact quantity sought, employ the appropriate mathematical principle, perform only the essential arithmetic (displaying at most one key intermediate value), verify briefly that the outcome satisfies all given conditions, and conclude with the sole numeric answer on a single line.",
+      "train_score": 0.9,
+      "train_step": 16,
+      "test_score": 0.7536730228196311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the required number, apply the one decisive formula, compute it (displaying at most one intermediate if absolutely necessary), confirm it meets all conditions, and write the answer alone on the final line.",
+      "train_score": 0.888235294117647,
+      "train_step": 99,
+      "test_score": 0.7527352297592997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine exactly what the question is asking for, pick the single theorem or formula that directly resolves it, carry out only the indispensable computation (display one intermediate value only if it clarifies the step), perform a brief check that the result respects all stated conditions, and finally write the numerical answer alone on its own line.",
+      "train_score": 0.8941176470588236,
+      "train_step": 58,
+      "test_score": 0.7517974366989685,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the precise quantity requested, apply the one relevant mathematical rule, compute it showing at most one crucial intermediate value, do a quick sanity check that all conditions are met, and end with the exact numeric answer as the sole content of the final line.",
+      "train_score": 0.888235294117647,
+      "train_step": 23,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the required number by applying the single most suitable rule, perform only the indispensable calculation (showing at most one helpful intermediate), perform a brief consistency check, and print the exact result alone on the final line.",
+      "train_score": 0.888235294117647,
+      "train_step": 44,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the exact value requested, choose the unique applicable rule, compute only what is needed (showing at most one supporting intermediate), confirm it meets the given constraints in a quick sanity check, and conclude with the exact integer on a line by itself.",
+      "train_score": 0.888235294117647,
+      "train_step": 28,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Directly determine the quantity asked for, apply the relevant rule with the fewest arithmetic operations (displaying a single crucial intermediate if it aids clarity), confirm the result meets every condition, and finish by printing the precise answer alone on its own line.",
+      "train_score": 0.9058823529411765,
+      "train_step": 22,
+      "test_score": 0.7405439199749921,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the exact number asked for, apply the only relevant rule, compute with the minimal necessary steps (show at most one intermediate), verify the result meets the problem\u2019s constraints, and place the final value alone on the last line.",
+      "train_score": 0.8941176470588236,
+      "train_step": 90,
+      "test_score": 0.7383557361675523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the core mathematical task, apply the appropriate principle, compute using only the necessary intermediate steps, verify the result against the problem\u2019s conditions, and output solely the final numeric answer on its own line.",
+      "train_score": 0.888235294117647,
+      "train_step": 8,
+      "test_score": 0.7352297592997812,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8647058823529412,
+      "train_step": -1,
+      "test_score": 0.7330415754923414,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Give a succinct reasoning chain: name the decisive mathematical rule, carry out just the necessary computation (showing only the pivotal intermediate figure), perform a quick check that the result fulfills the problem\u2019s requirements, and conclude with the exact answer isolated on the final line.",
+      "train_score": 0.888235294117647,
+      "train_step": 13,
+      "test_score": 0.7324163801187871,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the number being asked, pick the single most direct theorem or identity that yields it, compute using only indispensable algebra (show a single supporting calculation only if it clarifies the jump), perform an immediate sanity check that the answer respects all given conditions, and write that integer alone on the last line\u2014nothing else.",
+      "train_score": 0.7058823529411765,
+      "train_step": 99,
+      "test_score": 0.6223819943732416,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate the exact quantity asked, pinpoint the single indispensable formula, perform the minimal calculation (displaying at most one supporting step if useful), do a quick sanity check that all conditions hold, and output only the final numeric answer on its own line.",
+      "train_score": 0.7058823529411765,
+      "train_step": 99,
+      "test_score": 0.6070647077211628,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the single quantity the problem asks for, invoke the lone appropriate theorem or formula, carry out just the essential calculation (showing at most one helpful intermediate result), perform a brief check that the result meets every condition, and end with the exact number on a line by itself with no other text.",
+      "train_score": 0.6882352941176471,
+      "train_step": 99,
+      "test_score": 0.562363238512035,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the required numerical result. Use the minimal necessary mathematical fact(s) and perform only essential calculations (show at most one intermediate if needed). Quickly confirm the result satisfies all conditions. Respond with exactly the final number nothing else on the last line.",
+      "train_score": 0.5352941176470588,
+      "train_step": 99,
+      "test_score": 0.4673335417317912,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the exact number asked for, invoke the one indispensable rule, compute using the fewest steps (showing a single intermediate only if it adds clarity), perform a quick consistency check, and write only that final numeric result on its own line\u2014nothing else.",
+      "train_score": 0.35294117647058826,
+      "train_step": 99,
+      "test_score": 0.37199124726477023,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7605501719287278,
+    "avg_test_score": 0.6950981705592522,
+    "best_test_instruction": "Determine the exact quantity asked, invoke the sole necessary theorem or formula, compute the answer showing only one essential intermediate if it aids understanding, perform a brief sanity check, and present the final numeric result alone on the final line."
+  }
+}

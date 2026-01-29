@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the problem, derive the exact arithmetic needed, compute it, verify briefly, and output only the final answer (units if required).",
+      "train_score": 0.9272030651340997,
+      "train_step": 89,
+      "test_score": 0.8415466262319939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence, enumerate every given quantity, carry out the calculations step\u2011by\u2011step while noting any intermediate results, verify the arithmetic, and finally output only the exact numeric answer (attach units only when the problem requires them).",
+      "train_score": 0.9310344827586207,
+      "train_step": 4,
+      "test_score": 0.8407884761182715,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the needed calculation from the given data, execute it with only essential steps, verify the outcome, and reply with the single final numeric answer (add units only if the problem requires).",
+      "train_score": 0.9272030651340997,
+      "train_step": 27,
+      "test_score": 0.8362395754359363,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given quantities, translate the problem into explicit equation(s) (applying any required unit conversions), solve them step\u2011by\u2011step while briefly checking consistency, and output only the final numeric answer (add units only if the question requires).",
+      "train_score": 0.9272030651340997,
+      "train_step": 28,
+      "test_score": 0.8332069749810462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant numbers, write the precise formula, compute it with exact arithmetic, double\u2011check the outcome, and output only the final value (add units if required).",
+      "train_score": 0.9233716475095786,
+      "train_step": 14,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break the problem into clear steps, state any needed assumptions, perform each arithmetic operation explicitly, and end with only the final numeric answer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 2,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, ordered solution: state any assumptions, perform each calculation explicitly, and present only the final numeric answer.",
+      "train_score": 0.9386973180076629,
+      "train_step": 1,
+      "test_score": 0.8294162244124337,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the task, pull out every figure, construct the precise mathematical expression (apply unit changes), evaluate it with a brief trace of key intermediate values, confirm the result, and reply with only the final value (attach units only if the prompt requires).",
+      "train_score": 0.9386973180076629,
+      "train_step": 32,
+      "test_score": 0.8271417740712661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numerical value, apply any necessary unit conversions, compute the exact result using the minimal formula, perform a brief sanity check, and answer with only the final number (include units only if explicitly requested).",
+      "train_score": 0.9080459770114943,
+      "train_step": 99,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, compute the answer using minimal necessary steps, verify, and output only the final numeric value (units if needed).",
+      "train_score": 0.9233716475095786,
+      "train_step": 27,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Separate the data, formulate the exact computation (including any unit conversions), evaluate it step\u2011by\u2011step while noting necessary intermediate values, perform a quick sanity check, and return only the final numeric answer (attach units only when the question asks).",
+      "train_score": 0.9272030651340997,
+      "train_step": 25,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, write the precise formula, compute step\u2011by\u2011step with brief intermediate results, double\u2011check, and output ONLY the final numeric answer (add units if required).",
+      "train_score": 0.9233716475095786,
+      "train_step": 26,
+      "test_score": 0.8150113722517058,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity, form the minimal exact formula (including required unit changes), evaluate it with a short trace of essential intermediate values, confirm via a quick reverse check, and return solely the final numeric answer (units only if the question explicitly asks).",
+      "train_score": 0.9272030651340997,
+      "train_step": 78,
+      "test_score": 0.8127369219105383,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, convert units if needed, construct the precise arithmetic expression, evaluate it exactly (no rounding), verify with a quick check, and output ONLY the final value (include units only when explicitly requested).",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.8112206216830933,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical information, formulate the exact equations needed (apply any unit conversions), solve them showing only necessary intermediate steps, double\u2011check the result, and answer with the single final numeric value (add units only if required).",
+      "train_score": 0.9272030651340997,
+      "train_step": 19,
+      "test_score": 0.8097043214556482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity, form the exact calculation (perform any needed unit conversions), compute it using precise arithmetic, verify the result with a quick magnitude check, and output only the final numeric answer (include units only if the prompt explicitly requires them).",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather all numeric data, harmonize units, compose the shortest exact formula needed, compute it precisely (keep fractions, avoid rounding), perform a quick reverse\u2011check, and output only the final value (append units only if the question explicitly requests them).",
+      "train_score": 0.8697318007662835,
+      "train_step": 99,
+      "test_score": 0.8036391205458681,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8352490421455939,
+      "train_step": -1,
+      "test_score": 0.7498104624715694,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers, apply any necessary unit conversions, form the shortest exact expression that yields the answer, compute it using precise arithmetic, perform a quick sanity check, and reply with only the final numeric result (add units only if the prompt explicitly asks for them).",
+      "train_score": 0.7394636015325671,
+      "train_step": 99,
+      "test_score": 0.7187263078089462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, create the exact arithmetic expression needed (apply unit conversions), compute it in one go, perform a quick plausibility check, and reply solely with the final number (attach units only when the prompt asks).",
+      "train_score": 0.8007662835249042,
+      "train_step": 99,
+      "test_score": 0.7126611068991661,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric value in the prompt, perform any necessary unit conversion, write the exact formula, calculate it using precise arithmetic, do a quick sanity check, and answer with only the final result (add units only if the question requests them).",
+      "train_score": 0.685823754789272,
+      "train_step": 99,
+      "test_score": 0.6520090978013646,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8415466262319939,
+    "avg_test_score": 0.8011480558864942,
+    "best_test_instruction": "From the problem, derive the exact arithmetic needed, compute it, verify briefly, and output only the final answer (units if required)."
+  }
+}

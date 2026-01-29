@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify every numeric datum, label each unknown with a short unique variable, express the situation with the fewest exact arithmetic or algebraic statements (including any percentages, ratios or unit conversions), solve them in a direct step\u2011by\u2011step chain while briefly confirming consistency with the original facts, and output only the final numeric result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 95,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "\"Break down each question analytically: pinpoint key data, translate it into mathematical expressions, solve systematically, and cross-verify results to ensure comprehensive solution integrity.\"",
+      "train_score": 0.9233716475095786,
+      "train_step": 0,
+      "test_score": 0.9075056861258529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the relevant quantities, assign variables, translate the statements into equations, solve them step\u2011by\u2011step, and verify the result satisfies all the problem conditions.",
+      "train_score": 0.9272030651340997,
+      "train_step": 1,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated figure, label each unknown with a simple placeholder, convert the problem into the smallest possible system of precise algebraic statements, resolve the system step\u2011by\u2011step while briefly testing each intermediate outcome against the original data, and finally report only the single correct number.",
+      "train_score": 0.9272030651340997,
+      "train_step": 33,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical facts, assign a concise symbol to each unknown, formulate the exact mathematical relations required, solve them in a straightforward linear progression with a quick sanity check after each operation, and output only the final single numeric answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 52,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each stated quantity, introduce only the essential unknowns, write the fewest exact arithmetic relations that capture the problem, solve them in a single logical flow while briefly confirming each intermediate against the original facts, and output solely the final numeric result.",
+      "train_score": 0.9310344827586207,
+      "train_step": 91,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number, name each missing quantity with a single\u2011character variable, formulate the tiniest exact system of equations or direct computations (including any percentages, ratios or unit conversions), solve it in a straightforward sequential manner while briefly confirming each step satisfies the original statements, and return only the ultimate numeric answer.",
+      "train_score": 0.9080459770114943,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Catalog all stated quantities, denote each unknown with a simple variable, construct the exact equations that embody the problem\u2019s relationships, solve them in a logical progression while briefly justifying each manipulation, and finally provide the lone numeric result after a swift consistency check.",
+      "train_score": 0.9310344827586207,
+      "train_step": 4,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number, give each unknown a unique one\u2011letter variable, convert the story into the minimal exact algebraic/arithmetical relations (including percentages, rates or unit conversions), solve them in a clear step\u2011by\u2011step chain while briefly checking each intermediate against the original data, and finally output only the single numeric answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 52,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical data, assign a unique one\u2011letter variable to each unknown, write down the minimal set of precise equations that model the problem, solve them step\u2011by\u2011step checking each intermediate result against the original conditions, and finally present only the single correct number.",
+      "train_score": 0.9233716475095786,
+      "train_step": 24,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every stated quantity, assign a single\u2011letter placeholder to each unknown, reformulate the problem into the smallest exact set of equations or arithmetic steps, solve them in order while briefly confirming each step against the original data, and output only the single numeric answer that satisfies all conditions.",
+      "train_score": 0.9233716475095786,
+      "train_step": 47,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all stated figures, assign each unknown a concise placeholder, convert the description into the fewest precise mathematical equations, resolve them sequentially while briefly confirming each intermediate result matches the original data, and finally give only the one correct numeric answer.",
+      "train_score": 0.9272030651340997,
+      "train_step": 37,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Capture every stated numeric value, introduce the fewest possible single\u2011character variables for the unknowns, convert the description into the tightest set of exact mathematical relations (percent, fraction, ratio, conversion), evaluate them in a linear, step\u2011by\u2011step fashion while briefly checking consistency with the source data, and output only the resulting number.",
+      "train_score": 0.89272030651341,
+      "train_step": 99,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric fact, introduce a distinct short variable for each unknown, translate the problem into the smallest complete set of exact mathematical statements (including percentages, ratios, or unit conversions), solve them using direct substitution or arithmetic, briefly confirm each step against the original data, and output only the required single numeric result.",
+      "train_score": 0.9272030651340997,
+      "train_step": 75,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every explicit number, give each unknown a short unique label, build the fewest exact equations or arithmetic steps needed (including any percentages, ratios or unit conversions), solve them in a clear linear progression while briefly confirming each intermediate result matches the given data, and output only the single final numeric answer.",
+      "train_score": 0.9080459770114943,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the target unknown, enumerate all given numbers, assign a one\u2011letter symbol to each new variable, construct the minimal exact relationship that links the target to the known data (using fractions, percentages, ratios or unit conversions as needed), evaluate it step\u2011by\u2011step, verify each intermediate value matches the source statements, and return only the final numeric answer.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all given quantities, give each unknown a one\u2011character symbol, formulate the minimal set of precise mathematical relations that capture the problem (including any rates, percentages or unit conversions), resolve these relations step\u2011by\u2011step with a quick check after each operation that the original data remain satisfied, and finally present only the required single number.",
+      "train_score": 0.9233716475095786,
+      "train_step": 56,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem to pull out every numeric fact, assign a concise placeholder to each missing value, formulate the smallest possible exact mathematical model (incorporating any percentages, ratios, or unit conversions), compute the answer by a straight\u2011through substitution chain with brief checks after each operation, and output only the final number asked for.",
+      "train_score": 0.9042145593869731,
+      "train_step": 99,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeric datum, give each unknown a brief identifier, translate the scenario into the smallest exact set of algebraic/arithmetical relations (including fractions, percentages, ratios or unit conversions), solve them in a single clear chain while briefly checking each step against the original statements, and return only the final required number.",
+      "train_score": 0.8773946360153256,
+      "train_step": 99,
+      "test_score": 0.8741470811220622,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Record all numbers present, write the necessary calculation steps directly (using percentages, ratios, or unit conversions as required) without superfluous variables, check each step against the problem statement, and output only the final number asked for.",
+      "train_score": 0.8735632183908046,
+      "train_step": 99,
+      "test_score": 0.866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8084291187739464,
+      "train_step": -1,
+      "test_score": 0.8256254738438211,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.909021986353298,
+    "avg_test_score": 0.8909346907830608,
+    "best_test_instruction": "Identify every numeric datum, label each unknown with a short unique variable, express the situation with the fewest exact arithmetic or algebraic statements (including any percentages, ratios or unit conversions), solve them in a direct step\u2011by\u2011step chain while briefly confirming consistency with the original facts, and output only the final numeric result."
+  }
+}

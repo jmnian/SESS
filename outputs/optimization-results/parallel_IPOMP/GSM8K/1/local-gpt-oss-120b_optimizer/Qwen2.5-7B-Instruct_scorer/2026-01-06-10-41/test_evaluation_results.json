@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the problem, extract all quantities, deduce the exact mathematical expression required, evaluate it, ensure correctness, and print the sole integer result on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.9241849886277483,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine every number mentioned, deduce the single arithmetic expression that solves the question, calculate it while showing each intermediate result, verify the final value, and output only the integer answer on one line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 25,
+      "test_score": 0.9158453373768006,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, translate the given information into mathematical relations, compute the result with clear step\u2011by\u2011step reasoning, and output the final integer answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.9150871872630781,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list all numbers and how they combine, write the exact arithmetic expression needed, evaluate it while showing each intermediate result, validate the final value, and print only the resulting integer on one line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 27,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities mentioned, translate the word problem into a single arithmetic formula, evaluate it explicitly (showing any needed intermediate steps), verify the outcome, and output exactly the integer result on a line by itself.",
+      "train_score": 0.9594594594594594,
+      "train_step": 39,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Break down the problem, show each logical and arithmetic step, and finally output only the final integer answer.",
+      "train_score": 0.9594594594594594,
+      "train_step": 1,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric fact, infer the exact computation, perform a transparent chain of calculations, cross\u2011check the result, and print solely the integer answer on one line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 26,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate every numeric quantity, infer the single arithmetic relation it implies, evaluate the expression while showing each intermediate result, double\u2011check the final value, and then print only that integer on a line by itself.",
+      "train_score": 0.9594594594594594,
+      "train_step": 37,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical data and their connections from the prompt, construct the exact arithmetic expression required, compute the result using a concise, numbered step\u2011by\u2011step process, verify the final value, and output solely the integer answer on its own line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 39,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value and its implied operation, construct the single required arithmetic expression, compute it step\u2011by\u2011step, double\u2011check the result, and output only the final integer on a line by itself.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, extract each numeric value and its implied operation, build the exact arithmetic expression needed, evaluate it step\u2011by\u2011step with explicit intermediate results, validate the final value, and output only the integer answer on one line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 24,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numbers mentioned, infer the exact arithmetic needed, compute the answer with a clear, numbered chain of reasoning, verify it, and output solely the integer result on one line, with no other text.",
+      "train_score": 0.9594594594594594,
+      "train_step": 24,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity, infer the required calculation, solve it with a clear, incremental reasoning, double\u2011check the result, and print only the final integer answer on one line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 26,
+      "test_score": 0.8862774829416225,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every numeric value given, deduce the exact arithmetic expression the question entails, evaluate it with a brief numbered reasoning, confirm the result, and print solely the integer answer on its own line without any extra text.",
+      "train_score": 0.9594594594594594,
+      "train_step": 84,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities mentioned, infer the unique mathematical relation the problem asks for, solve it using a concise numbered chain of reasoning, cross\u2011check the answer, and print only the final integer on a single line.",
+      "train_score": 0.9594594594594594,
+      "train_step": 85,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities mentioned, determine the precise arithmetic operation required, carry out the calculation with a succinct logical chain, validate the outcome, and print only the resulting integer on a single line.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8673237300985596,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract each number from the prompt, infer the solitary arithmetic formula that solves the question, simplify the formula if possible, compute the result with a brief, numbered chain, verify the answer, and output only the integer on its own line.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.8521607278241091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8918918918918919,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeral, infer the exact arithmetic needed to answer the question, solve it step\u2011by\u2011step, double\u2011check, and output only the final integer on a line by itself.",
+      "train_score": 0.44594594594594594,
+      "train_step": 99,
+      "test_score": 0.3949962092494314,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Derive the complete numeric expression implied by the problem, compute its value with a brief, ordered calculation, verify the result, and output only the final integer on a line by itself, without any additional text.",
+      "train_score": 0.35135135135135137,
+      "train_step": 99,
+      "test_score": 0.16148597422289612,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numeric values, interpret the problem to a single arithmetic expression, evaluate it accurately, and reply with ONLY the integer result on its own line.",
+      "train_score": 0.40540540540540543,
+      "train_step": 99,
+      "test_score": 0.14783927217589082,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9241849886277483,
+    "avg_test_score": 0.7978988411133974,
+    "best_test_instruction": "From the problem, extract all quantities, deduce the exact mathematical expression required, evaluate it, ensure correctness, and print the sole integer result on its own line."
+  }
+}

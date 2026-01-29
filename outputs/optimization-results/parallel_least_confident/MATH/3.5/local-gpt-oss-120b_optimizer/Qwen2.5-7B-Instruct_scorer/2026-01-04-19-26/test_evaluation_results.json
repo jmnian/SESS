@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Zero in on the single numeric value requested, choose the simplest direct method (e.g., modular reduction, counting, algebraic simplification), carry out only the indispensable computation, perform a quick consistency check, and return solely the final number.",
+      "train_score": 0.8941176470588236,
+      "train_step": 75,
+      "test_score": 0.7624257580493904,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantity being asked, select the simplest direct method (e.g., factor counting, modular reduction, inequality), perform only the essential calculations with a quick consistency check, and output exactly the final numeric answer.",
+      "train_score": 0.8941176470588236,
+      "train_step": 5,
+      "test_score": 0.761175367302282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, identify the exact computation needed, carry it out step\u2011by\u2011step showing only essential intermediate values, perform a quick sanity check, and output solely the precise final numeric answer.",
+      "train_score": 0.8941176470588236,
+      "train_step": 5,
+      "test_score": 0.7561738043138481,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact number the problem requests, select the optimal shortcut (direct evaluation, counting, modular reduction, etc.), carry out just the essential calculation, confirm with a quick sanity test, and return only that final value.",
+      "train_score": 0.9058823529411765,
+      "train_step": 90,
+      "test_score": 0.7555486089402939,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the exact number requested, solve it by the quickest direct approach, perform only the indispensable operations, do a brief sanity verification, and present solely the final numeric value.",
+      "train_score": 0.8941176470588236,
+      "train_step": 99,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Focus on extracting the exact answer: use the quickest suitable method, limit work to essential calculations, perform a brief verification, and present only the final number.",
+      "train_score": 0.8941176470588236,
+      "train_step": 64,
+      "test_score": 0.7552360112535167,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint the single number the problem requires, apply the most immediate exact method (division, modular reduction, enumeration, etc.), perform only the indispensable calculations, carry out a brief sanity check, and output just that final value.",
+      "train_score": 0.8941176470588236,
+      "train_step": 96,
+      "test_score": 0.7549234135667396,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the specific quantity sought, employ the most direct method (geometry, algebra, counting, etc.), execute only the essential calculations, perform a brief check for consistency, and output only the final numeric result.",
+      "train_score": 0.9,
+      "train_step": 14,
+      "test_score": 0.7542982181931853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the sole numeric solution, employ the most straightforward calculation path, perform only indispensable operations, verify with a brief consistency check, and output exclusively the final number.",
+      "train_score": 0.8823529411764706,
+      "train_step": 99,
+      "test_score": 0.7539856205064083,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the single value the problem requires, choose the optimal shortcut (factor analysis, modular reduction, combinatorial count, etc.), carry out only the indispensable computation, verify quickly, and present just the final numeric answer.",
+      "train_score": 0.9117647058823529,
+      "train_step": 93,
+      "test_score": 0.7527352297592997,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the precise quantity requested, select the simplest suitable method (solve equation, compute modular power, sum factors, etc.), execute only the essential calculations, perform a brief consistency check, and output solely the final numeric result.",
+      "train_score": 0.8941176470588236,
+      "train_step": 66,
+      "test_score": 0.7499218505783057,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Isolate the exact quantity required, select the fastest suitable mathematical technique, carry out just the essential computation with a brief sanity check, and output only the final numeric answer.",
+      "train_score": 0.9117647058823529,
+      "train_step": 16,
+      "test_score": 0.7492966552047515,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact value requested, apply the most efficient shortcut, perform only essential calculations, do a quick sanity check, and output solely the final numeric answer.",
+      "train_score": 0.9058823529411765,
+      "train_step": 96,
+      "test_score": 0.7489840575179744,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact numeric answer, choose the most efficient direct method (algebraic simplification, modular reduction, counting, etc.), carry out only the essential calculations, perform a quick sanity check, and output solely the final number.",
+      "train_score": 0.9,
+      "train_step": 62,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Zero in on the exact numeric answer: use the quickest appropriate technique, carry out only the essential calculations, perform a brief consistency check, and output solely the final number.",
+      "train_score": 0.888235294117647,
+      "train_step": 99,
+      "test_score": 0.745232885276649,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8294117647058824,
+      "train_step": -1,
+      "test_score": 0.7439824945295405,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Ascertain the single numeric answer sought, apply the quickest exact method, perform only the indispensable calculations, do a brief sanity check, and output solely the final number.",
+      "train_score": 0.8647058823529412,
+      "train_step": 99,
+      "test_score": 0.7399187246014379,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the single required number, use the fastest exact technique, compute only what\u2019s necessary, verify briefly, and output just that final value.",
+      "train_score": 0.9,
+      "train_step": 97,
+      "test_score": 0.7371053454204439,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find the single numerical answer sought, use the simplest direct technique, perform only the essential calculation, do a brief consistency check, and output exclusively the final number.",
+      "train_score": 0.7941176470588235,
+      "train_step": 99,
+      "test_score": 0.6867771178493279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the unique numeric answer demanded, apply the most direct and efficient method, carry out only the essential computation, conduct a quick sanity check, and return solely the final number with no additional text.",
+      "train_score": 0.16470588235294117,
+      "train_step": 99,
+      "test_score": 0.1997499218505783,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Determine the sole numeric answer required, employ the simplest exact approach, carry out only essential calculations, verify with a brief sanity check, and output nothing but the final number.",
+      "train_score": 0.15294117647058825,
+      "train_step": 99,
+      "test_score": 0.1959987496092529,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7624257580493904,
+    "avg_test_score": 0.695574509891484,
+    "best_test_instruction": "Zero in on the single numeric value requested, choose the simplest direct method (e.g., modular reduction, counting, algebraic simplification), carry out only the indispensable computation, perform a quick consistency check, and return solely the final number."
+  }
+}

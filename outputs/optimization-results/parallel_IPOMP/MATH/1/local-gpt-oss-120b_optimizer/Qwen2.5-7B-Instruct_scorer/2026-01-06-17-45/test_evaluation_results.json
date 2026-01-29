@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 48,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Summarize the problem, solve it with clear, justified calculations, check the answer briefly, and output only the final result.",
+      "train_score": 0.8333333333333334,
+      "train_step": 3,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pinpoint the key concept, solve it with clear step\u2011by\u2011step calculations, verify the outcome, and output only the final answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 2,
+      "test_score": 0.7574241950609566,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Provide a concise, logical solution: outline the approach, carry out the necessary calculations, verify the result, and state the final answer clearly.",
+      "train_score": 0.7708333333333334,
+      "train_step": 1,
+      "test_score": 0.7524226320725227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem briefly, identify the core principle (law, definition, or algebraic rule) needed, solve it step\u2011by\u2011step displaying each intermediate result, confirm that the result meets the given conditions, and end with only the final numeric answer or simplified expression.",
+      "train_score": 0.8333333333333334,
+      "train_step": 4,
+      "test_score": 0.748046264457643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the problem, explicitly write the relevant formula(s), compute each step with intermediate values shown, perform a brief sanity check, and output only the final answer in the exact format requested.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.7461706783369803,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, determine the precise concept or formula needed, solve it step\u2011by\u2011step showing every intermediate calculation with brief justification, verify that the result satisfies the original conditions, and finally output only the final answer in the exact format requested.",
+      "train_score": 0.5,
+      "train_step": 99,
+      "test_score": 0.7458580806502032,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Systematically analyze the question, work through the solution with clear intermediate steps, confirm the result, and present the final answer.",
+      "train_score": 0.8333333333333334,
+      "train_step": 1,
+      "test_score": 0.745545482963426,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.7291666666666666,
+      "train_step": -1,
+      "test_score": 0.7446076899030947,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Start with a one\u2011sentence restatement of the task, pinpoint the essential principle or formula, execute the required calculations while displaying each intermediate result, perform a brief sanity check, and finish by presenting only the final answer in the format asked.",
+      "train_score": 0.7916666666666666,
+      "train_step": 5,
+      "test_score": 0.7439824945295405,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the key principle, perform the calculations showing each intermediate step, do a quick sanity check, and output only the final answer in the required format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 4,
+      "test_score": 0.7430447014692091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Solve the problem",
+      "train_score": 0.7708333333333334,
+      "train_step": 0,
+      "test_score": 0.742732103782432,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the main idea, work through the necessary steps with clear reasoning, perform a brief validation, and output solely the final answer in the format requested.",
+      "train_score": 0.8125,
+      "train_step": 3,
+      "test_score": 0.7411691153485465,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant principle, solve the problem with explicit step\u2011by\u2011step calculations, and conclude by checking that the obtained answer satisfies all conditions and is given in the requested format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 1,
+      "test_score": 0.7392935292278837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Restate the problem in one concise sentence, name the exact principle or formula needed, carry out the computation showing each intermediate step, do a brief sanity check, and end with only the final answer in the required form (numeric value, units, or base).",
+      "train_score": 0.8125,
+      "train_step": 5,
+      "test_score": 0.7386683338543295,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Briefly restate the task, pinpoint the essential theorem or rule, carry out the solution while writing every intermediate expression, perform a short sanity check, and end with only the final numeric answer (or simplified expression) exactly as required.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Summarize the problem in one line, list the key formula(s) or concept(s) needed, perform the computation with every intermediate value displayed, conduct a brief consistency check, and output solely the final numerical answer in the required form.",
+      "train_score": 0.7916666666666666,
+      "train_step": 5,
+      "test_score": 0.7339793685526728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task, select the governing law, compute step\u2011by\u2011step with all interim results explicitly written, perform a brief sanity check, and return only the final answer in the prescribed format.",
+      "train_score": 0.4791666666666667,
+      "train_step": 99,
+      "test_score": 0.7277274148171303,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, rewrite it in a single sentence, list the key formula(s) needed, execute each arithmetic operation explicitly showing intermediate values, perform a quick sanity check, and conclude with just the final answer in the requested format.",
+      "train_score": 0.7916666666666666,
+      "train_step": 4,
+      "test_score": 0.726789621756799,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Summarize the task in one line, pinpoint the precise formula or rule to use, execute the solution showing each intermediate calculation, perform a final quick check that the answer meets all constraints, and return only the final numeric answer exactly as required.",
+      "train_score": 0.5416666666666666,
+      "train_step": 99,
+      "test_score": 0.7242888402625821,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Provide a clear, detailed solution, then double-check the answer against the given ground truth.",
+      "train_score": 0.8125,
+      "train_step": 0,
+      "test_score": 0.7195998749609253,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "State the problem in one sentence, then solve it by enumerating the necessary steps with clear calculations, check consistency, and conclude with just the final answer.",
+      "train_score": 0.7916666666666666,
+      "train_step": 3,
+      "test_score": 0.7192872772741482,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7574241950609566,
+    "avg_test_score": 0.7397996397683799,
+    "best_test_instruction": "Summarize the problem, solve it with clear, justified calculations, check the answer briefly, and output only the final result."
+  }
+}

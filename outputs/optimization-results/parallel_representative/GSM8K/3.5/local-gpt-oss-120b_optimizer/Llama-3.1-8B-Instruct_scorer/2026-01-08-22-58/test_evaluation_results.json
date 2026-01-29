@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Read the problem, extract all numbers, interpret the required arithmetic (including percentages, fractions, discounts, division, multiplication, etc.), compute the exact result without rounding, and output only the integer answer on a single line.",
+      "train_score": 0.9386973180076629,
+      "train_step": 54,
+      "test_score": 0.8339651250947687,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric values, infer the exact arithmetic (including fractions, percentages, or unit conversions) the problem demands, compute the precise result, and output only the integer answer on a single line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 35,
+      "test_score": 0.8324488248673237,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Analyze the prompt, locate every numeric quantity, determine the precise calculation required (including any percentages, fractions, unit changes, or multi\u2011step reasoning), compute the exact integer result, and output that single integer on one line with no additional characters, spaces, or formatting.",
+      "train_score": 0.9425287356321839,
+      "train_step": 56,
+      "test_score": 0.8309325246398787,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, pick out all numbers, figure out the required math, calculate it, and output only the final integer.",
+      "train_score": 0.9501915708812261,
+      "train_step": 2,
+      "test_score": 0.8263836239575436,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, locate every numeric value, infer the exact arithmetic required (including fractions, percentages, unit conversions or multi\u2011step reasoning), compute the precise integer result, and output only that integer on a single line with no extra characters or spaces.",
+      "train_score": 0.9348659003831418,
+      "train_step": 72,
+      "test_score": 0.8248673237300985,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, compute the exact integer answer required, and output only that integer on a single line.",
+      "train_score": 0.9386973180076629,
+      "train_step": 94,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity, determine the exact computation (including any percentages, fractions, unit changes, or multi-step logic), calculate the precise integer result, and output only that integer on one line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 70,
+      "test_score": 0.8225928733889311,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant quantities, perform the required arithmetic, and output only the final numerical answer.",
+      "train_score": 0.9310344827586207,
+      "train_step": 0,
+      "test_score": 0.8218347232752085,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, infer the exact arithmetic (including percentages, fractions, or unit conversions) required, evaluate it, and output only the final integer result on a single line.",
+      "train_score": 0.9425287356321839,
+      "train_step": 20,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Determine the exact calculation implied by the problem, compute it precisely (no rounding), and output only the final integer result on a single line.",
+      "train_score": 0.9348659003831418,
+      "train_step": 95,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find all numbers in the prompt, determine the exact formula the problem specifies (including discounts, percentages, fractions, or unit conversions), compute the result precisely, and output only the integer answer on a single line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 54,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the description, extract all numbers, construct the exact formula the problem implies (including percentages, unit changes, or multi\u2011step calculations), evaluate it precisely, and output only the resulting integer on a single line with no other characters or whitespace.",
+      "train_score": 0.9310344827586207,
+      "train_step": 59,
+      "test_score": 0.8172858225928734,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, determine the exact operation implied (including percentages, fractions, or discounts), compute the result precisely, and output only the final integer answer on a single line.",
+      "train_score": 0.9310344827586207,
+      "train_step": 8,
+      "test_score": 0.8104624715693708,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Derive the exact computation indicated, evaluate it without rounding, and output the single integer answer on its own line.",
+      "train_score": 0.9003831417624522,
+      "train_step": 99,
+      "test_score": 0.7937831690674754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the prompt, locate every numeric value, deduce the exact mathematical expression required (including percentages, fractions, unit changes, or multi\u2011step reasoning), compute the precise integer result (no rounding), and output that single integer alone on one line, without any additional text or whitespace.",
+      "train_score": 0.8850574712643678,
+      "train_step": 99,
+      "test_score": 0.7854435178165277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Calculate the precise integer answer required by the problem (including any percentages, fractions, unit conversions, or multi\u2011step reasoning) and output only that number on a single line.",
+      "train_score": 0.8352490421455939,
+      "train_step": 99,
+      "test_score": 0.7793783169067475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number from the prompt, infer the exact mathematical formula implied (including percentages, fractions, unit conversions, or multi\u2011step reasoning), evaluate it precisely, and print only the resulting integer on one line with no additional characters.",
+      "train_score": 0.9080459770114943,
+      "train_step": 99,
+      "test_score": 0.7778620166793025,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8352490421455939,
+      "train_step": -1,
+      "test_score": 0.7573919636087946,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, determine the exact mathematical operation(s) required (including unit conversions, fractions, percentages, or multi\u2011step reasoning), compute the precise integer result, and output only that integer on a single line with no additional characters.",
+      "train_score": 0.7777777777777778,
+      "train_step": 99,
+      "test_score": 0.6739954510993177,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, locate all numbers, infer the exact calculation required (including fractions, percentages, unit changes, or multi\u2011step reasoning), compute the precise integer result with no rounding, and output that integer alone on one line\u2014no extra characters, spaces, or explanations.",
+      "train_score": 0.6934865900383141,
+      "train_step": 99,
+      "test_score": 0.6702047005307051,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numbers from the prompt, infer the exact integer result the problem requires, and output that integer alone on a single line with no additional characters, spaces, or formatting.",
+      "train_score": 0.5862068965517241,
+      "train_step": 99,
+      "test_score": 0.5655799848369977,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.8339651250947687,
+    "avg_test_score": 0.7857684392938373,
+    "best_test_instruction": "Read the problem, extract all numbers, interpret the required arithmetic (including percentages, fractions, discounts, division, multiplication, etc.), compute the exact result without rounding, and output only the integer answer on a single line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract all numerical values and their units, construct the exact computation required to answer the question, perform the calculation using exact arithmetic (fractions if needed), verify the result meets any conditions, and output only the final answer (including unit if any).",
+      "train_score": 0.9864864864864865,
+      "train_step": 15,
+      "test_score": 0.910538286580743,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numeric values (including units), convert them to consistent units if needed, formulate a single exact expression that directly yields the answer, compute it using precise rational or symbolic arithmetic (no rounding), verify any stated conditions, and output only the final numeric result with its unit only if the problem explicitly requires it.",
+      "train_score": 0.9864864864864865,
+      "train_step": 69,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (and its unit), infer the precise mathematical relationship needed, compute the solution step\u2011by\u2011step while performing a quick sanity check after each intermediate result, and output only the final numeric answer (include the unit if relevant).",
+      "train_score": 0.972972972972973,
+      "train_step": 8,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value with its unit, encode the situation as one exact formula that directly yields the requested quantity, evaluate it using precise rational or symbolic arithmetic (no approximations), verify any stated condition, and reply with only the final number, attaching the unit only if the problem demands it.",
+      "train_score": 1.0,
+      "train_step": 69,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (with its unit), convert them to a consistent unit system, formulate a single exact expression that directly computes the requested quantity, evaluate it using pure symbolic or fractional arithmetic (no approximations), verify any stated condition, and output only the final simplified result, attaching the unit only if the problem requires it.",
+      "train_score": 0.9864864864864865,
+      "train_step": 83,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse every numerical quantity (including units), derive the single exact computation that directly answers the question, evaluate it with precise integer/fraction arithmetic (no approximations), verify any stated condition, and output only the final result, attaching the unit only if the problem requests it.",
+      "train_score": 0.9864864864864865,
+      "train_step": 45,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value, determine the single expression that yields the answer, compute it exactly without rounding, check any condition, and output just the final number with its unit if needed.",
+      "train_score": 0.972972972972973,
+      "train_step": 25,
+      "test_score": 0.8968915845337376,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text list all quantities (value and unit), write a single precise formula that gives the requested quantity, evaluate it exactly (keep fractions until the end), ensure the answer respects all problem constraints, and output only the final number with its unit if required.",
+      "train_score": 0.972972972972973,
+      "train_step": 21,
+      "test_score": 0.8961334344200151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities and their units, translate the problem into a single exact mathematical expression, compute it using exact arithmetic (fractions when needed), confirm any constraints, and output only the final numeric result with its unit if applicable.",
+      "train_score": 0.972972972972973,
+      "train_step": 17,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every mentioned quantity (with its unit), assign clear variables, formulate the exact mathematical expression that directly yields the asked value, compute it using exact arithmetic (retain fractions until the final step), perform a quick check that any condition in the problem is satisfied, and output only the final numeric answer with its unit if required.",
+      "train_score": 0.972972972972973,
+      "train_step": 19,
+      "test_score": 0.8908263836239575,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric datum, translate the scenario into one exact mathematical formula that captures the question, compute the result using exact arithmetic (keep fractions unreduced until the final step), verify that any stated condition holds, and output only the final value with its unit if the problem requests it.",
+      "train_score": 0.972972972972973,
+      "train_step": 21,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value (including units), formulate a single exact expression that directly yields the asked quantity, evaluate it using symbolic exact arithmetic (keep fractions unreduced), briefly confirm any given condition, and output only the final result with its unit if required.",
+      "train_score": 0.9864864864864865,
+      "train_step": 26,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the quantities and relationships given, determine the necessary arithmetic operations, perform the calculations step\u2011by\u2011step, and present only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 1,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities in the prompt, convert them to a common unit system, construct one exact algebraic expression that yields the asked-for value, evaluate it using only rational or symbolic operations (no decimal approximations), verify any stated constraints, and output solely the final simplified number with its unit only if the question explicitly requests it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8809704321455648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numerical datum (including units if present) that is relevant, discard any superfluous text, harmonize all units, form the unique simplest exact algebraic expression that directly yields the requested quantity, evaluate it using purely symbolic rational arithmetic (no floating\u2011point or rounding), check that any condition given in the problem is satisfied, and output only the reduced final value together with its unit only when the prompt explicitly asks for one.",
+      "train_score": 0.5675675675675675,
+      "train_step": 99,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric value and its unit, convert all quantities to a common unit system, construct the minimal exact expression that directly yields the asked quantity, evaluate it using pure integer/fraction/symbolic arithmetic (no approximations), confirm any stated condition, and output only the final simplified result with its unit only if the problem explicitly requires it.",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8711144806671721,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric value (with its unit), unify units, devise one precise formula that produces the answer, evaluate it using exact rational/symbolic arithmetic (no approximations), confirm any stated condition, and return only the final simplified number with its unit if the question demands it.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.868081880212282,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Locate all numeric data (including units), convert them to a common system, devise a single exact algebraic expression that yields the required quantity, evaluate it using pure rational or symbolic arithmetic (no approximations or floating\u2011point), verify any given condition, and output ONLY the final simplified value together with its unit only if the problem explicitly asks for it.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8544351781652767,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8783783783783784,
+      "train_step": -1,
+      "test_score": 0.8142532221379833,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities (numerical values with units) present, convert them to a consistent unit system, construct a single exact algebraic expression that directly yields the requested result, evaluate using precise rational/symbolic arithmetic (no rounding), confirm any condition, and output ONLY the final simplified numeric value (and its unit only if explicitly required).",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.730098559514784,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect every numerical datum and its unit, convert all quantities to a common unit system, formulate one exact symbolic expression that directly produces the asked value, evaluate it using pure rational/symbolic computation (no approximations), check that any stated condition is satisfied, and output only the simplified answer with its unit solely if the prompt requests a unit.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.5109931766489765,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.910538286580743,
+    "avg_test_score": 0.8598144337340697,
+    "best_test_instruction": "Extract all numerical values and their units, construct the exact computation required to answer the question, perform the calculation using exact arithmetic (fractions if needed), verify the result meets any conditions, and output only the final answer (including unit if any)."
+  }
+}

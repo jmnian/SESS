@@ -1,0 +1,203 @@
+{
+  "dataset": "math",
+  "task": "train",
+  "num_test_questions": 3199,
+  "num_train_questions": 170,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "From the problem, list the constants, write the sole mathematical operation that produces the answer, evaluate it (rounding solely if the output must be a decimal), confirm plausibility, and output the answer alone in the prescribed format (integer, reduced fraction, or one\u2011decimal) on one line.",
+      "train_score": 0.5588235294117647,
+      "train_step": 99,
+      "test_score": 0.7502344482650828,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem statement list every constant and the unknown to find. Construct the unique closed\u2011form expression (formula, counting argument, or probability) that directly gives the answer. Compute it using exact values, rounding only at the final step if a decimal of specified precision is required. Verify the result briefly, and print solely the numeric answer in the required format (integer, lowest\u2011terms fraction, or one\u2011decimal) on a single line.",
+      "train_score": 0.6,
+      "train_step": 99,
+      "test_score": 0.7483588621444202,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the target quantity, collect all relevant numbers, apply the only necessary mathematical operation to obtain it, perform the exact calculation (rounding only at the final step if a decimal is required), confirm the result, and output solely the final value in the prescribed format (integer, simplest fraction, or one\u2011decimal) on a single line.",
+      "train_score": 0.611764705882353,
+      "train_step": 59,
+      "test_score": 0.747733666770866,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement list every given numeric value, decide which single mathematical relation directly yields the required result, evaluate it (using exact values and rounding only when the format demands a decimal), confirm the outcome with a quick sanity check, and output solely the final answer in the prescribed form (integer, simplest fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.5941176470588235,
+      "train_step": 66,
+      "test_score": 0.7464832760237574,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem, pull out every relevant quantity, decide the exact mathematical operation needed, carry out the computation showing only minimal justified steps, verify the answer, and output solely the final value in the specified format (integer, reduced fraction, or one\u2011decimal\u2011place decimal) on a line by itself.",
+      "train_score": 0.5941176470588235,
+      "train_step": 17,
+      "test_score": 0.7442950922163176,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the essential numbers, write the single exact expression that yields the required quantity, evaluate it (round only if a decimal is specified), do a brief sanity check, and output solely the final value in the stated format (integer, reduced fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.611764705882353,
+      "train_step": 63,
+      "test_score": 0.7424195060956549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement extract all numbers and the unknown to find, write the one exact expression (formula, counting rule, or probability) that gives the answer, evaluate it precisely (apply rounding only if a decimal is required), confirm plausibility, and output solely the final value in the prescribed format (integer, simplest fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.6176470588235294,
+      "train_step": 83,
+      "test_score": 0.7408565176617693,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Interpret the problem to pinpoint its core mathematical principle, write a concise solution using that principle (no extraneous steps), compute the answer with exact arithmetic (round only if a decimal is required), perform a quick sanity check, and output exactly the final number in the required format (integer, lowest\u2011terms fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.5588235294117647,
+      "train_step": 99,
+      "test_score": 0.7377305407939981,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all relevant numbers, determine the single mathematical expression that directly yields the required quantity, evaluate it exactly (round only if a decimal is mandated), perform a brief sanity check, and output only the final answer in the specified format (integer, reduced fraction, or one\u2011decimal) on a single line.",
+      "train_score": 0.6,
+      "train_step": 74,
+      "test_score": 0.7361675523601126,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem statement list the relevant numbers, write the one exact formula or counting principle that gives the desired quantity, evaluate that expression (rounding only if the required output is a decimal), verify the result quickly, and print only the final answer in the requested format (integer, lowest\u2011terms fraction, or one\u2011decimal) on a solitary line.",
+      "train_score": 0.6,
+      "train_step": 72,
+      "test_score": 0.734917161613004,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, note every given number and what is being asked, select the one exact mathematical relationship that yields the answer, compute it with exact arithmetic (round only if the answer format requires a decimal), do a quick sanity check, and output solely the final value in the prescribed form (integer, lowest\u2011terms fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.5941176470588235,
+      "train_step": 71,
+      "test_score": 0.734604563926227,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum from the statement, identify the single mathematical relation that directly produces the desired quantity, evaluate it exactly (round only if a decimal format is required), perform a brief sanity check, and output only the final answer in the requested form (integer, simplest fraction, or one\u2011decimal) on a single line.",
+      "train_score": 0.6235294117647059,
+      "train_step": 69,
+      "test_score": 0.7336667708658956,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every given number, write the single exact expression that yields the quantity asked, evaluate it (round only if the problem specifies a decimal), verify quickly, and print just that numeric result in the required format (integer, simplest fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.5941176470588235,
+      "train_step": 61,
+      "test_score": 0.7311659893716786,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the problem list every given numeric value and the unknown to find, devise the single exact calculation (algebraic, combinatorial or probabilistic) that produces the answer, evaluate it using exact arithmetic (apply rounding only if the output format demands a decimal to one place), perform a brief sanity check, and print only the final result in the required representation (integer, lowest\u2011terms fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.5294117647058824,
+      "train_step": 99,
+      "test_score": 0.7308533916849015,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every number from the problem, write the one exact expression that gives the requested quantity, compute it (using exact values; round only if the answer must be a decimal), perform a quick sanity check, and output only that value in the required form (integer, lowest\u2011terms fraction, or one\u2011decimal) on a single line.",
+      "train_score": 0.6058823529411764,
+      "train_step": 76,
+      "test_score": 0.7286652078774617,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.5294117647058824,
+      "train_step": -1,
+      "test_score": 0.7255392310096905,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers and the target quantity, pinpoint the sole mathematical relation that determines it, evaluate the expression exactly (round only if a decimal is required), confirm the result, and output only the final answer in the specified format (integer, reduced fraction, or one\u2011decimal) on a single line.",
+      "train_score": 0.6,
+      "train_step": 77,
+      "test_score": 0.7252266333229134,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numerical datum and condition, choose the one mathematical rule that solves the problem, carry out the computation with a brief but complete justification, confirm the result, and output only the final value on a single line using the required format (integer, lowest\u2011terms fraction, or one\u2011decimal place).",
+      "train_score": 0.6058823529411764,
+      "train_step": 21,
+      "test_score": 0.7208502657080338,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract the problem\u2019s data, decide the single precise formula (algebraic, combinatorial, or probabilistic) that produces the quantity asked, evaluate it using exact arithmetic (apply rounding only for a decimal answer), perform a brief sanity check, and write only that numeric result in the required form (integer, lowest\u2011terms fraction, or one\u2011decimal) on its own line.",
+      "train_score": 0.48823529411764705,
+      "train_step": 99,
+      "test_score": 0.6586433260393874,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the text pull all given numbers, write the one exact expression that equals the desired result, compute it with exact arithmetic (round only when a decimal output is specified), verify briefly, and output only the final value in the required format (integer, lowest\u2011terms fraction, or one\u2011decimal) on a single line.",
+      "train_score": 0.4823529411764706,
+      "train_step": 99,
+      "test_score": 0.6564551422319475,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all given numbers, construct the one exact expression that produces the answer, compute it (round only if a decimal format is needed), verify quickly, and output only that numeric result in the required form on a single line.",
+      "train_score": 0.4470588235294118,
+      "train_step": 99,
+      "test_score": 0.6261331666145671,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.7502344482650828,
+    "avg_test_score": 0.723857157742747,
+    "best_test_instruction": "From the problem, list the constants, write the sole mathematical operation that produces the answer, evaluate it (rounding solely if the output must be a decimal), confirm plausibility, and output the answer alone in the prescribed format (integer, reduced fraction, or one\u2011decimal) on one line."
+  }
+}

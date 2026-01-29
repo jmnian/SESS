@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract the key numbers from the statement, convert the scenario into explicit arithmetic steps, compute each step visibly, and then give the final numerical answer alone.",
+      "train_score": 0.972972972972973,
+      "train_step": 1,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers in the problem, determine the required arithmetic operations, perform the calculations step by step, and output only the final numeric answer.",
+      "train_score": 0.9864864864864865,
+      "train_step": 3,
+      "test_score": 0.9006823351023503,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numeric quantities in the problem (including hidden counts, fractions, percentages). Convert any differing units to a single consistent system. Construct a single exact arithmetic expression (fully parenthesized) that yields the quantity asked for. Compute it step\u2011by\u2011step, showing each intermediate result as \u201c<sub\u2011expression> = <value>\u201d. After the line reproducing the whole expression, output only the final exact answer (append a unit only if the question explicitly requires one).",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric value in the problem, convert any time\u2011related quantities to a single consistent unit (e.g., hours), formulate the exact arithmetic expression required, compute each intermediate result explicitly to verify correctness, and finally output only the final numeric answer on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 3,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather every number appearing in the problem (including any units), bring all measurements to a single unit system, compose one complete arithmetic expression that directly gives the answer, then compute this expression sequentially, writing each intermediate calculation as a separate line. After confirming the last line equals the original expression, print only the resulting value (append a unit only if the prompt explicitly asks for it).",
+      "train_score": 1.0,
+      "train_step": 26,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric quantity (including implied counts, fractions, percentages) with its unit, convert all units to a single consistent system, form one fully\u2011parenthesized exact expression that yields the required result, evaluate it step\u2011by\u2011step showing each elementary operation as \u201c<sub\u2011expr> = <value>\u201d, and finally output only the final numeric answer (add a unit only if explicitly requested).",
+      "train_score": 0.9864864864864865,
+      "train_step": 78,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": ": Gather every number appearing in the problem (including any units), bring all measurements to a single unit system, compose one complete arithmetic expression that directly gives the answer, then compute this expression sequentially, writing each intermediate calculation as a separate line. After confirming the last line equals the original expression, print only the resulting value (append a unit only if the prompt explicitly asks for it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 88,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers (including hidden counts, fractions, percentages) and their units. If units differ, convert them to a single consistent system. Form one completely parenthesized exact expression that directly gives the asked quantity. Evaluate it step\u2011by\u2011step, writing each elementary operation as \u201c<sub\u2011expression> = <exact value>\u201d. Verify that the last line reproduces the full expression, then output only the final exact result (add a unit only when the question explicitly requires it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 88,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pinpoint every numerical quantity, convert any mixed units to a single consistent unit, formulate the exact arithmetic expression that solves the problem, evaluate it step\u2011by\u2011step while displaying each intermediate result, verify the computation, and output only the final numeric answer on one line.",
+      "train_score": 0.9864864864864865,
+      "train_step": 5,
+      "test_score": 0.890068233510235,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all quantities given (keep fractions as exact values). If units are present, convert them to one common system. Form a single fully\u2011parenthesized exact formula that answers the question. Evaluate it stepwise, each line showing \u201c<sub\u2011expression> = <value>\u201d. Verify the final line matches the whole formula, then output only the final number (add a unit only when explicitly required).",
+      "train_score": 0.9864864864864865,
+      "train_step": 51,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, enumerate every given quantity, convert all measurements to a common unit if needed, write the exact calculation chain required, evaluate each step while displaying the intermediate result on its own line, check the work, and output only the final numeric result (with unit only when asked) on a single line.",
+      "train_score": 0.972972972972973,
+      "train_step": 6,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity mentioned (including hidden counts, fractions, percentages and their units). If units differ, translate them to one common system. Build a single fully parenthesized exact rational formula that produces the answer. Evaluate the formula step\u2011by\u2011step, writing each intermediate line as \u201c<sub\u2011expression> = <exact value>\u201d. After the line that equals the whole formula, output only that final exact value, appending a unit only when the question explicitly requires it.",
+      "train_score": 0.9594594594594594,
+      "train_step": 99,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the relevant numbers, decide the needed operations, compute each step succinctly, and present only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 2,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all quantities mentioned, convert any units so they match, formulate one exact parenthesized arithmetic expression that directly gives the answer, then compute it sequentially, writing each elementary step as \u201c<sub\u2011expression> = <value>\u201d. After the line that reproduces the full expression, output solely the final number (include a unit only when the problem explicitly asks for it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 59,
+      "test_score": 0.8771796815769523,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric value, create one correct arithmetic formula that solves the question, evaluate it one operation per line (showing each intermediate result), and finally output only the final numeric answer (add a unit only if the problem asks for it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 29,
+      "test_score": 0.8635329795299469,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum (including hidden counts, fractions, percents) together with its unit, harmonize all units, and compose a single fully\u2011parenthesized exact formula that gives the asked quantity. Evaluate the formula one elementary operation per line in the form \u201c<sub\u2011expr> = <exact value>\u201d, keeping fractions exact. Confirm that the last line reproduces the whole formula, then output only the final exact value (attach a unit only if the question explicitly requires it).",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8597422289613343,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every number (including its units), convert all measurements to a common system if needed, construct one fully parenthesized arithmetic formula that directly yields the requested value, evaluate the formula line\u2011by\u2011line showing each intermediate result as \u201c<sub\u2011expression> = <value>\u201d, confirm the last line equals the whole formula, and output only the final number (append a unit only when the prompt explicitly requires it).",
+      "train_score": 0.9864864864864865,
+      "train_step": 31,
+      "test_score": 0.8574677786201668,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity (numbers, fractions, percents, and units) from the problem. If units differ, change them so they are all the same. Construct a single completely parenthesized exact arithmetic expression that yields the requested result. Compute it by performing one elementary operation per line, writing \u201c<sub\u2011expression> = <exact value>\u201d. Verify that the last line reproduces the whole expression, then print only the final exact answer (attach a unit only if the prompt requires it).",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8286580742987112,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8378378378378378,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List all numerical data (including hidden counts, fractions, and percentages) together with any units. If the units differ, change them so that a single unit is used throughout. Construct one exact, fully\u2011parenthesized formula that equals the quantity asked for. Compute the formula one operation at a time, writing each line as \u201c<sub\u2011formula> \u2192 <exact result>\u201d. After the line that reproduces the whole formula, output only the final exact result (append a unit only if the problem demands it).",
+      "train_score": 0.8648648648648649,
+      "train_step": 99,
+      "test_score": 0.8043972706595905,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every numeric quantity (including fractions, percentages, and implied counts). If units are present, convert them to a single consistent system. Form one fully parenthesized exact arithmetic expression that yields the required result. Evaluate the expression step\u2011by\u2011step, writing each intermediate result as \u201c<sub\u2011expression> = <value>\u201d. Verify that the final line reproduces the whole expression, then output only the final value (add a unit only when the question explicitly requests one).",
+      "train_score": 0.7972972972972973,
+      "train_step": 99,
+      "test_score": 0.7664897649734648,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9112964366944655,
+    "avg_test_score": 0.869742589985198,
+    "best_test_instruction": "Extract the key numbers from the statement, convert the scenario into explicit arithmetic steps, compute each step visibly, and then give the final numerical answer alone."
+  }
+}

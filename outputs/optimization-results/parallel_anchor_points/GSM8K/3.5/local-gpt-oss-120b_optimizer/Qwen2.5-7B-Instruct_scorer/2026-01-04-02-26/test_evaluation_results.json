@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Extract every quantity, formulate the situation as a clear arithmetic expression or simple equation, evaluate it step\u2011by\u2011step while confirming each intermediate value matches the story, and output only the final numeric answer.",
+      "train_score": 0.9655172413793104,
+      "train_step": 2,
+      "test_score": 0.9143290371493555,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every numeric datum, decide which ones determine the asked quantity, substitute them into the unique direct formula implied by the problem (using only +, \u2212, \u00d7, \u00f7 or a single proportional relation), evaluate in one uninterrupted computation, perform a quick plausibility check, and return solely the final answer in simplest form (integer, irreducible fraction, or whole\u2011number percent).",
+      "train_score": 0.9655172413793104,
+      "train_step": 84,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify each quantity and its purpose, formulate the unique minimal arithmetic/algebraic expression that satisfies the problem, compute it in a single logical sequence with a brief sanity check, and return only the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 5,
+      "test_score": 0.9082638362395754,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Locate every explicit number, decide which ones influence the asked value, insert them into the single implied formula (allowing exactly one of +, \u2013, \u00d7, \u00f7 or one proportional relationship), compute the result in a single pass, confirm it fits the story, and return only that number, reduced to an integer, a simplest fraction, or a whole\u2011number percent.",
+      "train_score": 0.9310344827586207,
+      "train_step": 99,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract every explicit quantity, assign clear symbols, derive the single necessary arithmetic relation (addition, subtraction, multiplication, division, or ratio), compute it directly with a quick sanity check, and output only the final numeric answer (as an integer or reduced fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 11,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Detect every explicit number and its meaning, translate the whole question into a single minimal arithmetic formula (using +, \u2212, \u00d7, \u00f7, or a simple ratio), compute the result in one logical pass while briefly verifying each step against the context, and output only the final numeric answer (as an integer or reduced fraction).",
+      "train_score": 0.9616858237547893,
+      "train_step": 12,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers and their roles, translate the problem into the simplest possible algebraic equation (allowing addition, subtraction, multiplication, division, or a single proportional relationship), solve it in a single step, perform a quick consistency check, and output only the final result as an integer, reduced fraction, or whole\u2011number percent.",
+      "train_score": 0.9655172413793104,
+      "train_step": 36,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the single arithmetic relation (addition, subtraction, multiplication, division, or one ratio/percentage) that directly links the relevant numbers to the asked quantity, substitute the numbers, evaluate in one uninterrupted computation, check consistency, and output only the final result as an integer, a reduced fraction, or a whole\u2011number percent.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the problem, extract all stated numbers, keep only those needed for the asked quantity, build a single formula that uses only addition, subtraction, multiplication, division or one ratio/percentage, compute it in one pass, briefly verify it matches the wording, and output solely the numeric answer in its simplest integer, reduced\u2011fraction or whole\u2011percent form.",
+      "train_score": 0.9655172413793104,
+      "train_step": 50,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities mentioned, convert the situation into the simplest necessary arithmetic expression(s), evaluate them sequentially with brief verification at each step, and respond with only the final numeric answer.",
+      "train_score": 0.9616858237547893,
+      "train_step": 2,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract each stated quantity and its role, assign a distinct symbol, translate the whole scenario into the single simplest arithmetic or linear equation needed, evaluate it step\u2011by\u2011step with brief consistency checks, and output exclusively the final numeric answer (as an integer, reduced fraction, or whole\u2011number percent if appropriate).",
+      "train_score": 0.9655172413793104,
+      "train_step": 22,
+      "test_score": 0.8946171341925702,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Pick out only the numbers that determine the asked quantity, infer the one\u2011step arithmetic or proportional relation (using\u202f+,\u202f\u2212,\u202f\u00d7,\u202f\u00f7, or a single ratio/percentage) that solves it, evaluate that expression in a single computation, do a quick sanity check, and output just the final result as an integer, reduced fraction, or whole\u2011number percent.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each given numeric value, denote it with a symbol, write the single most straightforward arithmetic formula (using only +, \u2013, \u00d7, \u00f7, or a single ratio) that directly yields the answer, evaluate it in one pass, perform a quick sanity check, and output only the final integer or reduced\u2011fraction result.",
+      "train_score": 0.9616858237547893,
+      "train_step": 16,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every explicit number mentioned, decide which ones are needed for the target quantity, combine those necessary numbers into the single most compact arithmetic expression (allowed operations: +, -, \u00d7, \u00f7, or one ratio/percentage), compute it in one uninterrupted evaluation, perform a quick consistency check with the original wording, and return only the numerical result in its simplest representation (integer, reduced fraction, or whole\u2011number percent).",
+      "train_score": 0.9655172413793104,
+      "train_step": 38,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all relevant numerical facts, translate the problem into the simplest possible single arithmetic or proportional formula (using only addition, subtraction, multiplication, division, or one ratio), compute it in one uninterrupted evaluation, perform a brief sanity check, and output solely the final result as an integer, reduced fraction, or whole\u2011number percent.",
+      "train_score": 0.9693486590038314,
+      "train_step": 38,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant quantities, decide the unique operation (addition, subtraction, multiplication, division, or a single proportion) that directly relates them to the asked quantity, apply it in a single calculation, verify the result against the problem context, and output only the final value as an integer, a reduced fraction, or a whole\u2011number percent.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract the numbers that are essential for the question, substitute them directly into the single mathematical relation that the problem describes (permitted operators: +, \u2013, \u00d7, \u00f7, or one proportional/percentage relation), evaluate that relation in one step, verify it against the wording, and return only the final answer as an integer, reduced fraction, or whole\u2011number percent.",
+      "train_score": 0.9655172413793104,
+      "train_step": 84,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8045977011494253,
+      "train_step": -1,
+      "test_score": 0.8134950720242609,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather the numbers stated, keep only those needed for the asked quantity, combine them into the most compact single-operation expression (+, \u2013, \u00d7, \u00f7, or one ratio/percent), compute it in one go, quickly verify it fits the problem, and output solely the result as an integer, an irreducible fraction, or a whole\u2011number percent.",
+      "train_score": 0.8314176245210728,
+      "train_step": 99,
+      "test_score": 0.7642153146322972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Find the numbers that matter, decide the single arithmetic relationship (addition, subtraction, multiplication, division or one ratio/percentage) that the problem implies, perform that calculation in one direct step, quickly check the result against the story, and output only the final value as an integer, a reduced fraction, or a whole\u2011number percent.",
+      "train_score": 0.7088122605363985,
+      "train_step": 99,
+      "test_score": 0.6489764973464746,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify the quantities needed for the asked value, directly plug them into the unique arithmetic relation implied by the wording (allowed operators: +, \u2212, \u00d7, \u00f7 or a single proportion/percentage). Compute the result in one uninterrupted calculation, briefly confirm it satisfies the problem, and output only the numeric answer (integer, irreducible fraction, or whole\u2011percent) with no additional text.",
+      "train_score": 0.39846743295019155,
+      "train_step": 99,
+      "test_score": 0.3866565579984837,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9143290371493555,
+    "avg_test_score": 0.8510054514603416,
+    "best_test_instruction": "Extract every quantity, formulate the situation as a clear arithmetic expression or simple equation, evaluate it step\u2011by\u2011step while confirming each intermediate value matches the story, and output only the final numeric answer."
+  }
+}

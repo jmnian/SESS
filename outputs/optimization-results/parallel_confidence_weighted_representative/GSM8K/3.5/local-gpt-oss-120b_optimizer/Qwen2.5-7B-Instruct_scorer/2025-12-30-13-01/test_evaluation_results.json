@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Determine the exact integer result dictated by the problem, compute it without any approximation, and print that sole integer on its own line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 80,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the entire description into the exact mathematical operations it encodes, evaluate those operations with full precision (no rounding), verify the result, and output only the final integer on a single line.",
+      "train_score": 0.9731800766283525,
+      "train_step": 49,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, take all numerical values, apply the described operations exactly (including percentages or fractions), compute the resulting integer without any rounding, double\u2011check, and output only that integer on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 56,
+      "test_score": 0.9097801364670205,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, translate every stated quantity and implied operation into one exact integer expression, evaluate it without approximation, double\u2011check the result, and output only that integer on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 50,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the entire problem into a single whole\u2011number expression, evaluate it exactly (no rounding), double\u2011check the result, and print only that integer on a line by itself.",
+      "train_score": 0.9770114942528736,
+      "train_step": 82,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, perform the exact calculation implied, verify, and output the integer result alone on one line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 43,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, formulate the precise whole\u2011number equation that the problem defines, solve it exactly, and print the sole integer result on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 86,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every quantity, translate the problem into a single exact arithmetic expression (including fractions and percentages), evaluate it precisely, confirm the result, and print the integer answer alone on one line.",
+      "train_score": 0.9770114942528736,
+      "train_step": 48,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value, translate the description into a single exact arithmetic expression, compute it with full precision, confirm the result, and output only the resulting integer on a line by itself.",
+      "train_score": 0.9616858237547893,
+      "train_step": 45,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the description, form the precise integer formula implied, evaluate it exactly without any rounding, ensure the result is correct, and print the solitary integer answer on its own line.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all quantities, formulate the precise mathematical expression implied, evaluate it exactly (no rounding), verify the outcome, and print solely the integer answer on its own line.",
+      "train_score": 0.9693486590038314,
+      "train_step": 45,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, convert every mentioned amount and operation into a single exact whole\u2011number computation, evaluate it accurately (no rounding), confirm the answer, and output only that integer on a line by itself.",
+      "train_score": 0.9655172413793104,
+      "train_step": 83,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numbers (including fractions/percentages), translate the whole problem into one exact integer calculation, compute it precisely (no rounding), verify the result, and print only that integer on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 87,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, convert every quantity into an exact integer expression (handling percentages, fractions, ratios as needed), compute the value without any rounding, verify it, and output only the final integer on a line by itself.",
+      "train_score": 0.946360153256705,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Isolate every constant in the problem, devise the exact whole\u2011number computation it dictates, evaluate it with full precision, verify the result, and output only that integer on a single line.",
+      "train_score": 0.9655172413793104,
+      "train_step": 56,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all stated quantities (including percentages, fractions, or ratios), formulate the single whole\u2011number expression implied, evaluate it with absolute precision (no approximations), confirm the outcome, and print only that integer on one line.",
+      "train_score": 0.9233716475095786,
+      "train_step": 99,
+      "test_score": 0.8733889310083397,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Convert all mentioned quantities (including % or fractions) into exact numbers, form the single integer expression the problem defines, evaluate it precisely (no rounding), verify, and output only the resulting integer on one line.",
+      "train_score": 0.9348659003831418,
+      "train_step": 99,
+      "test_score": 0.8703563305534496,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.9003831417624522,
+      "train_step": -1,
+      "test_score": 0.8407884761182715,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number in the statement, convert any percentages or fractions to exact values, formulate the single arithmetic expression implied, compute it with perfect precision (no approximations), confirm the outcome, and output solely the resulting integer on one line.",
+      "train_score": 0.8888888888888888,
+      "train_step": 99,
+      "test_score": 0.819560272934041,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, list every numeric quantity (including percentages, fractions, or ratios), convert them into exact values, form the single integer calculation implied, compute it with absolute precision (no rounding), verify, and output only the resulting integer on a single line.",
+      "train_score": 0.8620689655172413,
+      "train_step": 99,
+      "test_score": 0.8074298711144806,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, pull out every numeric value (including percentages and fractions), convert them to exact numbers, build the single whole\u2011number expression the text describes, evaluate it with complete precision (no rounding), verify the result, and output only that integer on a single line with no additional text.",
+      "train_score": 0.3716475095785441,
+      "train_step": 99,
+      "test_score": 0.2941622441243366,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9128127369219106,
+    "avg_test_score": 0.8595617170294955,
+    "best_test_instruction": "Determine the exact integer result dictated by the problem, compute it without any approximation, and print that sole integer on its own line."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 261,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Identify all quantities, translate the entire statement into a single exact calculation (including fractions, percentages, ratios, unit changes, exponents, roots), perform the computation with perfect rational precision (no rounding), and return only the final numeric answer\u2014either an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014appending the original unit only when the problem explicitly asks for it. Do not output any prose or symbols beyond the answer.",
+      "train_score": 0.4521072796934866,
+      "train_step": 99,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify all quantities, translate the entire statement into a single exact calculation (including fractions, percentages, ratios, unit changes, exponents, roots), perform the computation with perfect rational precision (no rounding), and return only the final numeric answer\u2014either an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014appending the original unit only when the problem explicitly asks for it. Do not output any prose or symbols beyond the answer.",
+      "train_score": 0.9693486590038314,
+      "train_step": 20,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and its role, translate the whole problem into a single exact arithmetic expression (handling percentages, ratios, unit conversions, roots, or exponents as needed), evaluate it with perfect precision (no rounding or approximation), and output only the final answer in its simplest exact form: an integer, a reduced fraction, or a terminating decimal. Add any unit symbol only if the question explicitly asks for it.",
+      "train_score": 0.9693486590038314,
+      "train_step": 22,
+      "test_score": 0.9112964366944655,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the question, locate all numbers and the operation implied (including addition, subtraction, multiplication, division, percentages, fractions, or unit conversions), compute the exact result without rounding, and output only that result as an integer, a lowest\u2011terms fraction, or a terminating decimal; add units only when the original question explicitly asks for them.",
+      "train_score": 0.9693486590038314,
+      "train_step": 17,
+      "test_score": 0.9067475360121304,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every numeric value and its relationship, form a single exact arithmetic expression (including fractions, percentages, unit conversions, exponents, roots as needed), evaluate it with full exactness (no rounding), and output only the final result as an integer, reduced fraction, or terminating decimal; include a unit only if explicitly requested.",
+      "train_score": 0.9731800766283525,
+      "train_step": 61,
+      "test_score": 0.9021986353297953,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all quantities, construct the corresponding exact formula, compute it with perfect accuracy (no approximations), and answer with the lone numerical result formatted as an integer, simplest fraction, or exact decimal; only attach units if the problem demands them.",
+      "train_score": 0.9693486590038314,
+      "train_step": 14,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Find every numeric element, convert the situation into an exact arithmetic expression (including fractions, percentages, or unit changes), evaluate it with full precision (no rounding), and return solely the result\u2014presented as an integer, a reduced fraction, or a terminating decimal. Append any unit symbols only if the question explicitly asks for them.",
+      "train_score": 0.9693486590038314,
+      "train_step": 16,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers, translate the problem into an exact mathematical expression (handling percents, ratios, unit changes, and order of operations), evaluate it with perfect precision (no rounding), and return solely the final value in its simplest exact form\u2014integer, lowest\u2011terms fraction, or terminating decimal\u2014adding units only when explicitly required.",
+      "train_score": 0.9693486590038314,
+      "train_step": 22,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical values and the operations they imply (including fractions, percents, ratios, unit changes, exponents, or roots). Form one exact formula, compute it exactly (no rounding), and answer with the sole result \u2013 an integer, a reduced fraction, or a terminating decimal \u2013 adding any unit only when the question explicitly asks for it.",
+      "train_score": 0.9693486590038314,
+      "train_step": 34,
+      "test_score": 0.9014404852160728,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the problem, enumerate all numbers and the mathematical relations they imply (fractions, percentages, ratios, unit changes, powers, roots). Construct one exact rational expression that captures the whole scenario, evaluate it with full precision (no rounding), and return *only* the final answer, expressed as an integer, a lowest\u2011terms fraction, or a terminating decimal. Append a unit only if the original question explicitly requires it.",
+      "train_score": 0.9731800766283525,
+      "train_step": 82,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list every numeric value and its implied operation (including percentages, fractions, ratios, unit conversions, powers, roots). Form a single exact mathematical expression, evaluate it with complete precision (no rounding), and output only the resulting number in its simplest form: an integer, a lowest\u2011terms fraction, or a terminating decimal. Add any unit symbol only if the question explicitly requests one.",
+      "train_score": 0.9693486590038314,
+      "train_step": 50,
+      "test_score": 0.8938589840788476,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the text, pull every given number and its implied operation (including fractions, percentages, conversions, or powers), form the exact mathematical expression, evaluate it without any rounding, and output only the computed value as an integer, a reduced fraction, or a terminating decimal; attach a unit symbol only if the problem explicitly asks for one.",
+      "train_score": 0.9693486590038314,
+      "train_step": 27,
+      "test_score": 0.8877937831690674,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number, interpret the implied operations (including fractions, percentages, unit conversions, exponents, roots), compute the exact result without any rounding, and output only that result as an integer, a reduced fraction, or a terminating decimal; include a unit symbol only if the original question explicitly asks for one.",
+      "train_score": 0.9195402298850575,
+      "train_step": 99,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the question, identify every quantity and the mathematical operation it implies (including fractions, percentages, ratios, unit conversions, exponents, roots). Combine them into a single exact arithmetic expression, evaluate it with full rational precision (no rounding), and output only the final value as an integer, a reduced fraction, or a terminating decimal. Add a unit symbol only if the original problem explicitly requests one.",
+      "train_score": 0.9846743295019157,
+      "train_step": 79,
+      "test_score": 0.8824867323730099,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "From the statement, pull every numeric datum and its intended operation (fractions, percents, ratios, unit conversions, powers, roots, etc.). Combine them into one precise algebraic expression, evaluate it with exact rational arithmetic (no approximations or rounding), and reply with only the answer formatted as an integer, a simplest\u2011terms fraction, or a terminating decimal. Append a unit symbol only when the problem explicitly asks for it.",
+      "train_score": 0.9655172413793104,
+      "train_step": 99,
+      "test_score": 0.8802122820318423,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Parse the problem, extract every numeric term and its implied operation (including fractions, percentages, ratios, unit changes, exponents or roots), combine them into one exact rational expression, evaluate it with full precision (no rounding), and output solely the final value\u2014integer, lowest\u2011terms fraction, or terminating decimal\u2014appending a unit only if the original question explicitly asks for one.",
+      "train_score": 0.9501915708812261,
+      "train_step": 99,
+      "test_score": 0.8521607278241091,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8544061302681992,
+      "train_step": -1,
+      "test_score": 0.8150113722517058,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, pick out every numeric term and the operation it suggests (including addition, subtraction, multiplication, division, percentages, fractions, unit changes, powers, roots). Form one exact mathematical expression, evaluate it with perfect rational accuracy (no approximation), and reply only with the resulting number, presented as an integer, a reduced fraction, or a terminating decimal. Add a unit symbol only if the problem explicitly asks for one.",
+      "train_score": 0.8735632183908046,
+      "train_step": 99,
+      "test_score": 0.796057619408643,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeric term, write one precise formula that captures the problem (including any % , fractions, conversions, powers, roots), compute it exactly (no rounding), and output just the answer\u2014integer, lowest\u2011terms fraction, or terminating decimal\u2014adding a unit only if the question includes one.",
+      "train_score": 0.8467432950191571,
+      "train_step": 99,
+      "test_score": 0.7816527672479151,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Gather every numeric term and its implied operation (including fractions, percentages, ratios, unit conversions, powers, and roots), form one exact arithmetic expression, compute it with perfect rational precision (no rounding or approximation), and respond with ONLY the final value\u2014an integer, a reduced fraction, or a terminating decimal\u2014and include a unit symbol only if the original question explicitly requires it.",
+      "train_score": 0.5593869731800766,
+      "train_step": 99,
+      "test_score": 0.46171341925701287,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Translate the statement into the exact mathematical expression it implies, evaluate it without any rounding, and respond with only the final result. Present the answer as an integer, a simplest\u2011terms fraction, or a terminating decimal; include units or symbols only if the original question explicitly requires them.",
+      "train_score": 0.9693486590038314,
+      "train_step": 14,
+      "test_score": 0.30856709628506446,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9112964366944655,
+    "avg_test_score": 0.8328820535037365,
+    "best_test_instruction": "Identify all quantities, translate the entire statement into a single exact calculation (including fractions, percentages, ratios, unit changes, exponents, roots), perform the computation with perfect rational precision (no rounding), and return only the final numeric answer\u2014either an integer, a lowest\u2011terms fraction, or a terminating decimal\u2014appending the original unit only when the problem explicitly asks for it. Do not output any prose or symbols beyond the answer."
+  }
+}

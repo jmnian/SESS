@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Work through the problem methodically, display each reasoning step and calculation, and end with only the final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 1,
+      "test_score": 0.9181197877179682,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Translate the problem into explicit algebraic statements using all given quantities, solve with clear step\u2011by\u2011step reasoning, verify the solution, and output only the final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 7,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity and its relationship, form the necessary algebraic equations, solve them with clear, concise step\u2011by\u2011step reasoning, verify the result, and reply with only the single final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 11,
+      "test_score": 0.9128127369219106,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract every number and its relation, turn them into precise equations, solve with clear, ordered arithmetic showing each intermediate step, double\u2011check the result, and output only the final number on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 38,
+      "test_score": 0.9120545868081881,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all given numbers, assign the minimal set of variables, convert each statement into a single concise equation or arithmetic step, solve showing each intermediate result, verify that every original condition is satisfied, and end by printing exactly one number on its own line.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.909021986353298,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Collect all numerical data, convert the problem into explicit mathematical steps, solve it sequentially with clear justification, verify the answer, and respond with just the final number.",
+      "train_score": 0.9324324324324325,
+      "train_step": 9,
+      "test_score": 0.9052312357846853,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given number, translate the whole situation into the minimal set of equations needed, solve them with clear, sequential reasoning, verify the answer, and output only the final numeric result on a lone line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 33,
+      "test_score": 0.9044730856709629,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, translate the situation into the smallest set of equations or calculations, work through them transparently showing each intermediate outcome, verify the solution satisfies all conditions, and finally write only the resulting number on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 44,
+      "test_score": 0.9037149355572404,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given number, introduce the smallest possible set of variables, convert each sentence into one precise equation or arithmetic step, solve the equations by a clear, ordered chain of calculations, verify that all original conditions hold, and finally print only the single numeric answer on its own line.",
+      "train_score": 0.9054054054054054,
+      "train_step": 99,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List every numeric datum, translate the situation into the fewest possible arithmetic or algebraic expressions, compute the answer step\u2011by\u2011step while checking each intermediate result, verify that all original conditions are met, and output only the final number on a single line.",
+      "train_score": 0.8783783783783784,
+      "train_step": 99,
+      "test_score": 0.8953752843062927,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every given number, formulate the fewest necessary algebraic or arithmetic expressions, evaluate them in logical order while explicitly showing each intermediate value, verify that the solution satisfies all stated conditions, and finally print exactly one number\u2014the answer\u2014on its own line without any additional wording.",
+      "train_score": 0.9324324324324325,
+      "train_step": 99,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "From the statement, enumerate all given numbers, define a minimal set of variables, convert every described relation into a clear algebraic or arithmetic expression, evaluate step\u2011by\u2011step displaying each intermediate value, verify that the obtained values satisfy every condition, and output precisely one number\u2014the final answer\u2014on a line by itself with no extra characters.",
+      "train_score": 0.9324324324324325,
+      "train_step": 48,
+      "test_score": 0.8931008339651251,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity and relation in the problem, translate them into precise equations, solve the equations with clear, step\u2011by\u2011step reasoning, verify the result, and conclude by writing only the final numeric answer on a line by itself, with no additional text.",
+      "train_score": 0.9324324324324325,
+      "train_step": 9,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify the relevant quantities, carry out the necessary calculations with clear step\u2011by\u2011step reasoning, double\u2011check the outcome, and respond with only the final numeric answer.",
+      "train_score": 0.9324324324324325,
+      "train_step": 6,
+      "test_score": 0.8893100833965125,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all given numbers, define only the necessary unknown variables, turn each condition into the simplest possible algebraic or arithmetic expression, solve with a clear step\u2011by\u2011step logical chain, verify that every original condition is satisfied, and conclude by printing exactly one numeric answer on its own line with no additional text.",
+      "train_score": 0.8918918918918919,
+      "train_step": 99,
+      "test_score": 0.8870356330553449,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all numerical data, represent the situation with explicit equations, solve them using clear, ordered reasoning, double\u2011check the outcome, and give only the final numeric answer on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 33,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all quantities, translate them into equations, solve step\u2011by\u2011step, verify, and finally print only the resulting integer or decimal on its own line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 20,
+      "test_score": 0.8832448824867324,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every given quantity, introduce the smallest possible set of variables, turn each condition into a single equation or direct computation, solve the problem step\u2011by\u2011step while showing intermediate results, verify that all original constraints are met, and finish by printing only the final numeric answer on its own line with no additional text.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8749052312357847,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Convert every statement into a concise mathematical expression, solve the resulting system with clear step\u2011by\u2011step arithmetic, verify the solution, and provide only the final numeric answer on one line.",
+      "train_score": 0.9324324324324325,
+      "train_step": 19,
+      "test_score": 0.8256254738438211,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.8648648648648649,
+      "train_step": -1,
+      "test_score": 0.8188021228203184,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every given quantity, construct the simplest possible arithmetic expression that directly produces the answer, evaluate it step\u2011by\u2011step noting intermediate values, verify that all conditions of the problem are met, and output only the final numeric result on a single line.",
+      "train_score": 0.7162162162162162,
+      "train_step": 99,
+      "test_score": 0.7187263078089462,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9181197877179682,
+    "avg_test_score": 0.8825228347593777,
+    "best_test_instruction": "Work through the problem methodically, display each reasoning step and calculation, and end with only the final numeric answer."
+  }
+}

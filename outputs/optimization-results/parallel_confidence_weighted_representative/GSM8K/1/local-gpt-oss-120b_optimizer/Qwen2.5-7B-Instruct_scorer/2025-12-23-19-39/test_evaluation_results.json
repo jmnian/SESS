@@ -1,0 +1,203 @@
+{
+  "dataset": "gsm8k",
+  "task": "train",
+  "num_test_questions": 1319,
+  "num_train_questions": 74,
+  "final_step": 99,
+  "evaluated_prompts": [
+    {
+      "instruction": "Enumerate every numeric fact in the problem. Give each unknown a unique placeholder name. Write a single direct formula that produces the quantity asked for. Compute the formula step\u2011by\u2011step; after each elementary operation output a line \u201c[reason] \u2192 value\u201d. When the computation ends, output only the final number on a line by itself and note that this is the solution.",
+      "train_score": 0.972972972972973,
+      "train_step": 34,
+      "test_score": 0.9059893858984079,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, list each explicit numeric value, introduce a symbol for any unknown quantity, construct the single arithmetic or algebraic expression that directly yields the required result, then evaluate it sequentially. After every elementary operation write the intermediate value on a new line prefixed by a brief plain\u2011English explanation. End with one line that contains only the final numeric answer and nothing else.",
+      "train_score": 0.972972972972973,
+      "train_step": 15,
+      "test_score": 0.9029567854435178,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the statement, extract all given numbers, and label any missing quantities with clear symbols. Construct the simplest possible formula that produces the requested value. Compute the formula in a linear sequence, printing each intermediate result on its own line preceded by a short natural\u2011language comment that explains the operation performed. When the last operation is done, output only the final number on a new line together with a concise statement that it answers the problem.",
+      "train_score": 0.972972972972973,
+      "train_step": 37,
+      "test_score": 0.8999241849886277,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Read the problem, note every quantitative fact, assign a short variable name to each unknown quantity, compose a single exact arithmetic or algebraic expression that yields the required result, then evaluate it in order, writing each elementary computation on its own line as \u201c<explanation>: <value>\u201d. After the last computation, output a line that contains only the final numeric answer followed by a brief note that it resolves the question.",
+      "train_score": 0.972972972972973,
+      "train_step": 65,
+      "test_score": 0.8984078847611827,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numerical data, label any unknowns, write the exact arithmetic expression that answers the question, then compute it sequentially, showing each intermediate result preceded by a brief description. Conclude with a lone line that contains only the final answer and a short statement that it satisfies the problem.",
+      "train_score": 0.972972972972973,
+      "train_step": 12,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every quantity mentioned, give a brief name to each unknown, formulate the most straightforward arithmetic expression that directly produces the required result, then evaluate it one operation at a time, writing each line as \\\"<reason> \u2192 <value>\\\", and finally present only the final numeric answer on a separate line, explicitly stating that it answers the question.",
+      "train_score": 0.972972972972973,
+      "train_step": 36,
+      "test_score": 0.8923426838514026,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every number mentioned. Introduce a clear symbol for each unknown. Construct the exact mathematical expression that yields the quantity asked for. Compute the expression step\u2011by\u2011step, writing each operation on a separate line preceded by a concise English cue. After the last step, output a single line containing only the final numeric answer and a brief comment that it solves the problem.",
+      "train_score": 0.9864864864864865,
+      "train_step": 38,
+      "test_score": 0.8915845337376801,
+      "is_initial": false,
+      "is_best_train": true,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Gather all quantitative statements, assign a distinct symbol to each missing quantity, formulate the single expression that directly yields the required result, then compute it stepwise, writing each step as \u201c<reason> \u2192 <value>\u201d. Conclude with a line containing only the final number and a concise affirmation that it answers the problem.",
+      "train_score": 0.972972972972973,
+      "train_step": 43,
+      "test_score": 0.88855193328279,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Catalog all explicit numbers, assign a clear placeholder to each missing quantity, craft one precise arithmetic or algebraic expression that directly gives the asked\u2011for value, evaluate the expression step\u2011by\u2011step printing \u201c<explanation> \u2192 <value>\u201d for each elementary operation, then finish with a single line containing only the final numeric answer and a brief statement that it resolves the problem.",
+      "train_score": 0.972972972972973,
+      "train_step": 52,
+      "test_score": 0.8847611827141774,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify every number present. Assign a short placeholder to each unknown. Form the simplest direct computation that yields the required quantity. Evaluate it in discrete steps, writing each as \u201c<explanation> \u2192 <value>\u201d. Conclude with a line containing only the answer and a brief note that it solves the problem.",
+      "train_score": 0.918918918918919,
+      "train_step": 99,
+      "test_score": 0.8840030326004549,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Identify every numeric fact, assign clear symbols to any unknown quantities, write one exact formula that yields the requested value, evaluate it one elementary operation at a time using lines of the form \u201c<reason> \u2192 <value>\u201d, verify that the result satisfies all conditions, and finish with a single line containing only the final numeric answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 39,
+      "test_score": 0.8817285822592873,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Parse the question, list every given quantity, introduce a short symbol for each unknown, write one exact arithmetic expression that directly computes the asked value, evaluate it sequentially showing each elementary step as \u201c<reason> \u2192 <value>\u201d, confirm the result respects the problem conditions, then output on a single line only the final number followed by a short phrase indicating it is the answer.",
+      "train_score": 0.972972972972973,
+      "train_step": 60,
+      "test_score": 0.8786959818043972,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Identify all numerical quantities in the problem. Introduce symbols for any unknowns. Form one or more equations that relate the known quantities to the unknown(s). Solve the equations, writing each algebraic manipulation on its own line with a short plain\u2011English explanation of the operation performed. After the last manipulation, output only the final numeric answer on a separate line and state that it answers the original question.",
+      "train_score": 0.972972972972973,
+      "train_step": 18,
+      "test_score": 0.8779378316906747,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Collect every numeric datum in the problem. Give each unknown a distinct symbol. Form one direct arithmetic/algebraic expression that produces the quantity asked for. Evaluate this expression step\u2011by\u2011step; for each elementary operation output a line \u201c<short rationale> \u2192 <value>\u201d. After the last step write a single line containing only the final number and a brief statement that it solves the problem.",
+      "train_score": 0.972972972972973,
+      "train_step": 44,
+      "test_score": 0.8756633813495072,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Extract all numbers present in the statement. Give each unknown a short symbol. Build the unique simplest expression that produces the quantity asked for, inserting any necessary unit\u2011conversion steps as separate operations. Compute the expression one primitive operation at a time, writing each line as \u201c<explanation> \u2192 <value>\u201d. End with a line that contains only the final numeric answer and the phrase \u201c(solved)\u201d.",
+      "train_score": 0.9459459459459459,
+      "train_step": 99,
+      "test_score": 0.849128127369219,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Read the problem, record each given number, give a distinct symbol to every unknown, construct one precise arithmetic/algebraic expression that directly produces the asked\u2011for quantity, evaluate that expression step\u2011by\u2011step showing each intermediate result as \u201c<short English cue>: <value>\u201d, and finish with a single line that contains only the final numeric answer plus a brief statement that it answers the question.",
+      "train_score": 0.972972972972973,
+      "train_step": 51,
+      "test_score": 0.844579226686884,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "Let's solve the problem.",
+      "train_score": 0.9054054054054054,
+      "train_step": -1,
+      "test_score": 0.8347232752084913,
+      "is_initial": true,
+      "is_best_train": false,
+      "is_final_step": false
+    },
+    {
+      "instruction": "List every numeric value given in the problem. Assign a short variable name to each unknown quantity. Write a single precise arithmetic expression that directly yields the asked quantity. Evaluate the expression step\u2011by\u2011step, writing each elementary operation on its own line as \u201c<explanation> \u2192 <value>\u201d. After the last step, output one line containing only the final numeric result followed by the phrase \u201cAnswer.\u201d Ensure the result satisfies all problem conditions before final output.",
+      "train_score": 0.8378378378378378,
+      "train_step": 99,
+      "test_score": 0.8316906747536013,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "Extract all constants, denote each unknown with a distinct short variable, and write a single closed\u2011form expression that directly yields the target quantity. Compute the expression sequentially, one elementary operation per line, prefixing each line with a brief rationale in brackets. Conclude with a solitary line containing just the final numeric answer.",
+      "train_score": 0.8513513513513513,
+      "train_step": 99,
+      "test_score": 0.8188021228203184,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List all quantities given in the problem. Assign a short variable name to each unknown. Derive a single arithmetic expression that directly computes the required result. Evaluate the expression stepwise, writing each elementary computation on its own line in the format \u201c<explanation> \u2192 <value>\u201d. When the computation is complete, output a line that contains only the final number followed by a short phrase confirming it as the answer.",
+      "train_score": 0.7837837837837838,
+      "train_step": 99,
+      "test_score": 0.7035633055344959,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    },
+    {
+      "instruction": "List each numeric datum, give a brief name to any unknown, derive the single simplest expression that yields the required quantity, then evaluate it sequentially. For every elementary operation write a line \u201c<explanation> \u2192 <value>\u201d. After the last line output only the final numeric result followed by \u201c= answer\u201d.",
+      "train_score": 0.0945945945945946,
+      "train_step": 99,
+      "test_score": 0.1470811220621683,
+      "is_initial": false,
+      "is_best_train": false,
+      "is_final_step": true
+    }
+  ],
+  "summary": {
+    "best_test_score": 0.9059893858984079,
+    "avg_test_score": 0.8325932344127945,
+    "best_test_instruction": "Enumerate every numeric fact in the problem. Give each unknown a unique placeholder name. Write a single direct formula that produces the quantity asked for. Compute the formula step\u2011by\u2011step; after each elementary operation output a line \u201c[reason] \u2192 value\u201d. When the computation ends, output only the final number on a line by itself and note that this is the solution."
+  }
+}
