@@ -47,6 +47,9 @@ data/
 embeddings_and_sim_matrices/
 
 # ===== Experiment Outputs =====
+# Full outputs archive (not tracked)
+outputs_full/
+
 # Keep only test_evaluation_results.json and configs_dict.json per experiment
 outputs/optimization-results/**/optimizer_logs/
 outputs/optimization-results/**/result_by_instruction/
@@ -87,6 +90,7 @@ METADATA
 monitor_and_launch.log
 
 # ===== Scripts not needed =====
+show_all_results_full.py
 analyze_results.py
 comprehensive_grid_search.py
 grid_search_configs.py
